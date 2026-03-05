@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="60">
+    <title>AIOX Live Dashboard - Hugo Jobs</title>
+    <style>
+        :root {
+            --bg: #0d1117;
+            --card: #161b22;
+            --border: #30363d;
+            --primary: #58a6ff;
+            --success: #3fb950;
+            --danger: #f85149;
+            --warning: #d29922;
+            --text: #c9d1d9;
+            --text-dim: #8b949e;
+            --accent: #d2a8ff;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 1rem;
+            line-height: 1.5;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        h1 {
+            font-size: 1.5rem;
+            margin: 0;
+            color: var(--primary);
+        }
+
+        .status-badge {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: rgba(88, 166, 255, 0.1);
+            padding: 0.4rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: bold;
+            border: 1px solid var(--primary);
+        }
+
+        .pulse {
+            width: 8px;
+            height: 8px;
+            background: var(--success);
+            border-radius: 50%;
+            animation: pulse-animation 2s infinite;
+        }
+
+        @keyframes pulse-animation {
+            0% {
+                box-shadow: 0 0 0 0px rgba(63, 185, 80, 0.7);
+            }
+
+            70% {
+                box-shadow: 0 0 0 10px rgba(63, 185, 80, 0);
+            }
+
+            100% {
+                box-shadow: 0 0 0 0px rgba(63, 185, 80, 0);
+            }
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .stat-card {
+            background: var(--card);
+            padding: 1.2rem;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            transition: transform 0.2s;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-2px);
+            border-color: var(--primary);
+        }
+
+        .stat-label {
+            font-size: 0.75rem;
+            color: var(--text-dim);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-value {
+            font-size: 1.4rem;
+            font-weight: 800;
+            color: #fff;
+        }
+
+        .table-container {
+            overflow-x: auto;
+            background: var(--card);
+            border-radius: 12px;
+            border: 1px solid var(--border);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            font-size: 0.9rem;
+        }
+
+        th {
+            background: rgba(255, 255, 255, 0.03);
+            padding: 1rem;
+            color: var(--text-dim);
+            font-weight: 600;
+            border-bottom: 1px solid var(--border);
+        }
+
+        td {
+            padding: 1rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 0.5rem;
+            }
+
+            h1 {
+                font-size: 1.2rem;
+            }
+
+            .stat-value {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div>
+                <h1>AIOX LIVE Dashboard</h1>
+                <div style="font-size: 0.8rem; color: var(--text-dim);">
+                    Sincronizado via GitHub • <span id="last-update-time">--:--:--</span>
+                </div>
+            </div>
+            <div class="status-badge">
+                <div class="pulse"></div>
+                LIVE 5G
+            </div>
+        </header>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-label">GMV Bruto (Vendas)</div>
+                <div class="stat-value" id="total-gmv">R$ 0,00</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Investimento Ads</div>
+                <div class="stat-value" id="total-ads" style="color: var(--primary);">R$ 0,00</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Taxas ML Total</div>
+                <div class="stat-value" id="total-fees" style="color: var(--danger);">R$ 0,00</div>
+            </div>
+            <div class="stat-card" style="border-left: 4px solid var(--accent);">
+                <div class="stat-label">Saldo Líquido Real</div>
+                <div class="stat-value" id="total-net" style="color: var(--accent);">R$ 0,00</div>
+            </div>
+        </div>
+
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Pedido</th>
+                        <th>Status</th>
+                        <th>Valor</th>
+                        <th>Taxas</th>
+                        <th>Itens</th>
+                    </tr>
+                </thead>
+                <tbody id="order-rows">
+                    <!-- Injected by Python -->
+                </tbody>
+            </table>
+        </div>
+
+        <footer style="margin-top: 2rem; text-align: center; color: var(--text-dim); font-size: 0.75rem;">
+            AIOX Enterprise Intelligence • v4.0 • Hugo Jobs Edition
+        </footer>
+    </div>
+
+    <script>
+        const auditData = {};
+        // Dados injetados dinamicamente via script Python no local-sync
+    </script>
+</body>
+
+</html>
