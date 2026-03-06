@@ -1,10 +1,10 @@
 {
-    "timestamp": "2026-03-06T16:45:21.669367",
+    "timestamp": "2026-03-06T18:16:34.767224",
     "summary": {
-        "gmv": 1555.01,
-        "fees": 346.91999999999996,
-        "ads": 94.67999999999999,
-        "net": 1113.41
+        "gmv": 1615.1,
+        "fees": 367.4,
+        "ads": 110.41000000000001,
+        "net": 1137.2899999999997
     },
     "orders": [
         {
@@ -234,7 +234,7 @@
         },
         {
             "ID": 2000015429420110,
-            "Status": "paid",
+            "Status": "cancelled",
             "Valor": 75.65,
             "Taxas_ML": 8.26,
             "Itens": [
@@ -248,6 +248,24 @@
             "Taxas_ML": 11.3,
             "Itens": [
                 "1x Carteira Couro Leg\u00edtimo Slim 8 Porta Cart\u00f5es E Cnh Hugo Jobs (R$ 34.91)"
+            ]
+        },
+        {
+            "ID": 2000015430658526,
+            "Status": "paid",
+            "Valor": 67.87,
+            "Taxas_ML": 14.3,
+            "Itens": [
+                "1x Moletom Masculino Z\u00edper Hugo Jobs Blusa Aberta Com Capuz (R$ 67.87)"
+            ]
+        },
+        {
+            "ID": 2000015430930010,
+            "Status": "paid",
+            "Valor": 67.87,
+            "Taxas_ML": 14.440000000000001,
+            "Itens": [
+                "1x Moletom Masculino Z\u00edper Hugo Jobs Blusa Aberta Com Capuz (R$ 67.87)"
             ]
         }
     ]
