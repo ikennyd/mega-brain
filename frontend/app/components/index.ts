@@ -1,0 +1,7 @@
+export { Header } from './Header'
+export { HeroSection } from './HeroSection'
+export { Card } from './Card'
+export { ChartContainer } from './ChartContainer'
+export { TarifasGrid } from './TarifasGrid'
+export { TopProducts } from './TopProducts'
+export { Footer } from './Footer'
