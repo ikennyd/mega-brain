@@ -1,10 +1,20 @@
 {
-    "timestamp": "2026-03-06T00:37:24.070690",
+    "timestamp": "2026-03-06T05:57:52.139952",
     "summary": {
-        "gmv": 0,
-        "fees": 0,
-        "ads": 1.05,
-        "net": -1.05
+        "gmv": 67.87,
+        "fees": 14.34,
+        "ads": 10.59,
+        "net": 42.94
     },
-    "orders": []
+    "orders": [
+        {
+            "ID": 2000015422097118,
+            "Status": "paid",
+            "Valor": 67.87,
+            "Taxas_ML": 14.34,
+            "Itens": [
+                "1x Moletom Masculino Z\u00edper Hugo Jobs Blusa Aberta Com Capuz (R$ 67.87)"
+            ]
+        }
+    ]
 }
