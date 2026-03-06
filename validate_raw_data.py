@@ -47,7 +47,7 @@ def validate():
         items = []
         order_fees = 0
         for item_info in detail_resp.get('order_items', []):
-            order_fees += item_info.get('sale_fee', 0)
+            order_fees += (item_info.get('sale_fee') or 0)
             title = item_info.get('item', {}).get('title', 'N/A')
             qty = item_info.get('quantity', 0)
             price = item_info.get('unit_price', 0)
@@ -62,7 +62,7 @@ def validate():
             # If the cost to the buyer is 0, it means it was "free shipping" for them.
             # We check the 'list_cost' or 'cost' which is billed to the seller.
             if ship_resp.get('shipping_option', {}).get('cost') == 0:
-                 shipping_cost = ship_resp.get('shipping_option', {}).get('list_cost', 0)
+                 shipping_cost = (ship_resp.get('shipping_option', {}).get('list_cost') or 0)
         
         current_order_total_cost = order_fees + shipping_cost
         

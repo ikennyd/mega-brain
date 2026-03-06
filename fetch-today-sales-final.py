@@ -8,10 +8,16 @@ import sys
 token_state_path = Path("/Users/kennydwillker/Documents/GitHub/Thiago Finch/mega-brain/.claude/mission-control/ML-TOKEN-STATE.json")
 with open(token_state_path, 'r') as f:
     state = json.load(f)
-    token = state.get("access_token")
+    default_user = state.get("default_user_id", "694166791")
+    token = state.get("accounts", {}).get(default_user, {}).get("access_token")
+    if not token:
+        print(f"❌ Token not found for user {default_user}")
+        sys.exit(1)
 
 seller_id = "694166791"
-date_from = "2026-03-03T00:00:00.000-03:00"
+# Dynamic date_from: today at 00:00:00
+today_str = datetime.now().strftime('%Y-%m-%d')
+date_from = f"{today_str}T00:00:00.000-03:00"
 
 url = f"https://api.mercadolibre.com/orders/search?seller={seller_id}&order.date_created.from={date_from}&limit=50"
 headers = {"Authorization": f"Bearer {token}"}
