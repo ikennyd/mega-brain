@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-09T11:02:06.638159Z",
+  "updated_at": "2026-03-09T11:48:11.900269Z",
   "kpis": {
-    "faturamento_hoje": 205.56,
-    "vendas_hoje": 4,
-    "ticket_medio": 51.39,
-    "lucro_bruto": 30.83,
+    "faturamento_hoje": 271.55,
+    "vendas_hoje": 5,
+    "ticket_medio": 54.31,
+    "lucro_bruto": 40.73,
     "margem_pct": 15.0,
-    "lucro_por_pedido": 7.71,
-    "vendas_semana": 371,
-    "faturamento_semana": 24134.3
+    "lucro_por_pedido": 8.15,
+    "vendas_semana": 372,
+    "faturamento_semana": 24200.29
   },
   "top5": [
     {
@@ -24,6 +24,13 @@
       "title": "Carteira Couro Legítimo Slim 8 Porta Cartões E Cnh",
       "lucro": 10.47,
       "score": 84
+    },
+    {
+      "vendas": 1,
+      "faturamento": 65.99,
+      "title": "Conjunto Moletom E Calça Infantil Inverno Quentinh",
+      "lucro": 9.9,
+      "score": 82
     }
   ],
   "categories": [
@@ -31,13 +38,19 @@
       "nome": "Vestuário Adult",
       "vendas": 2,
       "faturamento": 135.74,
-      "pct": 66.0
+      "pct": 50.0
     },
     {
       "nome": "Acessórios",
       "vendas": 2,
       "faturamento": 69.82,
-      "pct": 34.0
+      "pct": 25.7
+    },
+    {
+      "nome": "Vestuário Infantil",
+      "vendas": 1,
+      "faturamento": 65.99,
+      "pct": 24.3
     }
   ],
   "chart": {
@@ -57,7 +70,7 @@
       50,
       64,
       57,
-      2
+      3
     ],
     "faturamento": [
       3364.82,
@@ -66,7 +79,7 @@
       3162.44,
       5479.36,
       3404.65,
-      102.78
+      168.77
     ]
   },
   "meta": {
