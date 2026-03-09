@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
-            /* AIOX Colors */
+            /* AIOX Core Colors */
             --bb-lime: #D1FF00;
             --bb-dark: #050505;
             --bb-surface: #0F0F11;
@@ -21,6 +21,15 @@
             --bb-gray-charcoal: #3D3D3D;
             --bb-blue: #0099FF;
             --bb-flare: #ED4609;
+
+            /* ── SEMANTIC COLOR SYSTEM (Phase 1) ── */
+            --color-revenue:  #D1FF00;   /* lime    — faturamento, vendas */
+            --color-profit:   #00E5B4;   /* teal    — lucro, margem */
+            --color-cost:     #FF6B35;   /* orange-red — CMV, custos */
+            --color-ads:      #B78BFF;   /* purple  — métricas de ADS */
+            --color-neutral:  #94A3B8;   /* slate   — ticket médio, orgânico */
+            --color-danger:   #FF4747;   /* red     — ACOS alto, alertas */
+            --color-warning:  #FFB800;   /* amber   — TACOS, atenção */
 
             /* Easing & Motion */
             --bb-ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
@@ -42,16 +51,9 @@
             --base-unit: 4px;
         }
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
 
-        html, body {
-            width: 100%;
-            height: 100%;
-        }
+        html, body { width: 100%; height: 100%; }
 
         body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
@@ -62,8 +64,6 @@
         }
 
         /* ==================== BACKGROUND PATTERNS ==================== */
-
-        /* Dot Grid Pattern */
         body::before {
             content: '';
             position: fixed;
@@ -76,7 +76,6 @@
             z-index: 1;
         }
 
-        /* Scanlines Overlay */
         body::after {
             content: '';
             position: fixed;
@@ -98,8 +97,6 @@
             max-width: 1200px;
             margin: 0 auto;
             padding: var(--spacing-lg);
-
-            /* 12-column bento-style layout */
             display: grid;
             grid-template-columns: repeat(var(--grid-columns), 1fr);
             gap: var(--grid-gap);
@@ -107,51 +104,25 @@
 
         /* ==================== ANIMATIONS ==================== */
         @keyframes orchestration-pulse {
-            0% {
-                box-shadow: 0 0 0 0 rgba(209, 255, 0, 0.4);
-                transform: scale(1);
-            }
-            50% {
-                box-shadow: 0 0 0 20px rgba(209, 255, 0, 0);
-            }
-            100% {
-                box-shadow: 0 0 0 20px rgba(209, 255, 0, 0);
-                transform: scale(1);
-            }
+            0%   { box-shadow: 0 0 0 0 rgba(209, 255, 0, 0.4); transform: scale(1); }
+            50%  { box-shadow: 0 0 0 20px rgba(209, 255, 0, 0); }
+            100% { box-shadow: 0 0 0 20px rgba(209, 255, 0, 0); transform: scale(1); }
         }
 
         @keyframes glitch-reveal {
-            0% {
-                clip-path: inset(0 0 0 0);
-                filter: hue-rotate(0deg);
-            }
-            50% {
-                filter: hue-rotate(20deg);
-            }
-            100% {
-                clip-path: inset(0 0 0 0);
-                filter: hue-rotate(0deg);
-            }
+            0%   { clip-path: inset(0 0 0 0); filter: hue-rotate(0deg); }
+            50%  { filter: hue-rotate(20deg); }
+            100% { clip-path: inset(0 0 0 0); filter: hue-rotate(0deg); }
         }
 
         @keyframes stagger-letters {
-            0% {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-            100% {
-                opacity: 1;
-                transform: translateY(0);
-            }
+            0%   { opacity: 0; transform: translateY(20px); }
+            100% { opacity: 1; transform: translateY(0); }
         }
 
         @keyframes neon-glow {
-            0%, 100% {
-                box-shadow: 0 0 10px rgba(209, 255, 0, 0.3), inset 0 0 10px rgba(209, 255, 0, 0.1);
-            }
-            50% {
-                box-shadow: 0 0 30px rgba(209, 255, 0, 0.6), inset 0 0 20px rgba(209, 255, 0, 0.2);
-            }
+            0%, 100% { box-shadow: 0 0 10px rgba(209, 255, 0, 0.3), inset 0 0 10px rgba(209, 255, 0, 0.1); }
+            50%       { box-shadow: 0 0 30px rgba(209, 255, 0, 0.6), inset 0 0 20px rgba(209, 255, 0, 0.2); }
         }
 
         /* ==================== HEADER ==================== */
@@ -168,9 +139,7 @@
         header::before {
             content: '';
             position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
+            top: 0; left: 0; right: 0;
             height: 2px;
             background: linear-gradient(90deg, transparent, var(--bb-lime), transparent);
         }
@@ -179,13 +148,7 @@
             content: '';
             position: absolute;
             inset: 0;
-            background: repeating-linear-gradient(
-                0deg,
-                transparent,
-                transparent 1px,
-                rgba(0, 0, 0, 0.03) 1px,
-                rgba(0, 0, 0, 0.03) 2px
-            );
+            background: repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(0,0,0,0.03) 1px, rgba(0,0,0,0.03) 2px);
             pointer-events: none;
         }
 
@@ -224,12 +187,138 @@
             z-index: 2;
         }
 
-        .timestamp::before {
-            content: '> ';
-            margin-right: 0.5rem;
+        .timestamp::before { content: '> '; margin-right: 0.5rem; }
+
+        /* ==================== PERIOD FILTER ==================== */
+        .period-filter-wrap {
+            grid-column: 1 / -1;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
         }
 
-        /* ==================== KPI CARDS ==================== */
+        .period-filter-label {
+            font-family: 'Roboto Mono', monospace;
+            font-size: 0.65rem;
+            color: var(--bb-dim);
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            white-space: nowrap;
+        }
+
+        .period-filter {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .period-btn {
+            padding: 0.5rem 1.25rem;
+            border-radius: 9999px;
+            border: 1px solid rgba(255,255,255,0.15);
+            background: rgba(255,255,255,0.05);
+            color: var(--bb-dim);
+            font-family: 'Roboto Mono', monospace;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .period-btn:hover {
+            background: rgba(255,255,255,0.1);
+            color: var(--bb-cream);
+        }
+
+        .period-btn.active {
+            background: var(--color-revenue);
+            border-color: var(--color-revenue);
+            color: #000;
+            font-weight: 700;
+        }
+
+        /* ==================== TAB SYSTEM (Phase 1) ==================== */
+        .tab-nav {
+            grid-column: 1 / -1;
+            display: flex;
+            gap: 4px;
+            background: var(--bb-surface);
+            border: 1px solid var(--bb-border);
+            padding: 6px;
+            position: relative;
+        }
+
+        .tab-nav::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, var(--bb-lime), transparent);
+        }
+
+        .tab-btn {
+            font-family: 'Roboto Mono', monospace;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            padding: 10px 20px;
+            background: transparent;
+            border: 1px solid transparent;
+            color: var(--bb-dim);
+            cursor: pointer;
+            transition: all var(--bb-dur-medium) var(--bb-ease-smooth);
+            position: relative;
+            white-space: nowrap;
+        }
+
+        .tab-btn::after {
+            content: '';
+            position: absolute;
+            bottom: -1px;
+            left: 0; right: 0;
+            height: 2px;
+            background: var(--bb-lime);
+            transform: scaleX(0);
+            transition: transform var(--bb-dur-medium) var(--bb-ease-spring);
+        }
+
+        .tab-btn:hover {
+            color: var(--bb-cream);
+            border-color: var(--bb-border);
+        }
+
+        .tab-btn.active {
+            color: var(--bb-lime);
+            border-color: rgba(209, 255, 0, 0.2);
+            background: rgba(209, 255, 0, 0.05);
+        }
+
+        .tab-btn.active::after { transform: scaleX(1); }
+
+        /* Tab panels */
+        .tab-panel {
+            display: none;
+            grid-column: 1 / -1;
+            display: none;
+            grid-template-columns: repeat(12, 1fr);
+            gap: var(--grid-gap);
+        }
+
+        .tab-panel.active {
+            display: grid;
+        }
+
+        /* ==================== KPI CARDS — PRIMARY (Phase 1) ==================== */
+        .kpi-primary-row {
+            grid-column: 1 / -1;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: var(--grid-gap);
+        }
+
         .kpi-card {
             background: linear-gradient(135deg, var(--bb-surface-alt) 0%, var(--bb-surface) 100%);
             border: 1px solid var(--bb-border);
@@ -244,11 +333,9 @@
         .kpi-card::before {
             content: '';
             position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
+            top: 0; left: 0; right: 0;
             height: 2px;
-            background: linear-gradient(90deg, transparent, var(--bb-lime), transparent);
+            background: linear-gradient(90deg, transparent, var(--bb-accent, var(--bb-lime)), transparent);
             transform: scaleX(0);
             transform-origin: left;
             transition: transform var(--bb-dur-medium) var(--bb-ease-spring);
@@ -258,24 +345,43 @@
             content: '';
             position: absolute;
             inset: 0;
-            background: radial-gradient(circle at var(--mouse-x, 50%) var(--mouse-y, 50%), rgba(209, 255, 0, 0.1), transparent);
+            background: radial-gradient(circle at var(--mouse-x, 50%) var(--mouse-y, 50%), rgba(209, 255, 0, 0.07), transparent);
             opacity: 0;
             transition: opacity var(--bb-dur-fast);
         }
 
         .kpi-card:hover {
-            border-color: var(--bb-lime);
-            background: linear-gradient(135deg, rgba(209, 255, 0, 0.05) 0%, var(--bb-surface) 100%);
+            border-color: var(--bb-accent, var(--bb-lime));
             transform: translateY(-4px);
             animation: orchestration-pulse 2s ease-in-out infinite;
         }
 
-        .kpi-card:hover::before {
-            transform: scaleX(1);
+        .kpi-card:hover::before { transform: scaleX(1); }
+        .kpi-card:hover::after  { opacity: 1; }
+
+        /* Primary card: taller + bigger value */
+        .kpi-card.primary {
+            padding: var(--spacing-md) var(--spacing-md) calc(var(--spacing-md) + 8px);
+        }
+
+        .kpi-card.primary .kpi-value {
+            font-size: 2.2rem;
+        }
+
+        /* Secondary row — 4 columns, 2 rows */
+        .kpi-secondary-row {
+            grid-column: 1 / -1;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: var(--grid-gap);
+        }
+
+        .kpi-card.secondary .kpi-value {
+            font-size: 1.5rem;
         }
 
         .kpi-icon {
-            font-size: 2rem;
+            font-size: 1.75rem;
             margin-bottom: var(--spacing-sm);
         }
 
@@ -290,13 +396,23 @@
         }
 
         .kpi-value {
-            font-size: clamp(1.8rem, 4vw, 2.5rem);
+            font-size: clamp(1.4rem, 3vw, 2rem);
             font-weight: 900;
-            color: var(--bb-lime);
             font-family: 'Roboto Mono', monospace;
             letter-spacing: -0.02em;
             margin-bottom: var(--spacing-xs);
+            /* Default fallback; overridden per-card via inline style */
+            color: var(--bb-lime);
         }
+
+        /* Semantic color helpers on the value */
+        .kpi-value.revenue { color: var(--color-revenue); }
+        .kpi-value.profit  { color: var(--color-profit);  }
+        .kpi-value.cost    { color: var(--color-cost);    }
+        .kpi-value.ads     { color: var(--color-ads);     }
+        .kpi-value.neutral { color: var(--color-neutral); }
+        .kpi-value.danger  { color: var(--color-danger);  }
+        .kpi-value.warning { color: var(--color-warning); }
 
         .kpi-change {
             display: inline-block;
@@ -309,22 +425,6 @@
             background: rgba(209, 255, 0, 0.05);
             transition: all var(--bb-dur-medium) var(--bb-ease-spring);
         }
-
-        .kpi-change:hover {
-            background: rgba(209, 255, 0, 0.15);
-            box-shadow: 0 0 20px rgba(209, 255, 0, 0.3);
-        }
-
-        /* Bento Grid Sizes */
-        .kpi-card:nth-child(1) { grid-column: span 4; }
-        .kpi-card:nth-child(2) { grid-column: span 4; }
-        .kpi-card:nth-child(3) { grid-column: span 4; }
-        .kpi-card:nth-child(4) { grid-column: span 4; }
-        .kpi-card:nth-child(5) { grid-column: span 4; }
-        .kpi-card:nth-child(6) { grid-column: span 4; }
-        .kpi-card:nth-child(7) { grid-column: span 4; }
-        .kpi-card:nth-child(8) { grid-column: span 4; }
-        .kpi-card:nth-child(9) { grid-column: span 4; }
 
         /* ==================== SECTIONS ==================== */
         .section {
@@ -339,15 +439,13 @@
         .section::before {
             content: '';
             position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
+            top: 0; left: 0; right: 0;
             height: 2px;
             background: linear-gradient(90deg, transparent, var(--bb-lime), transparent);
         }
 
         .section h2 {
-            font-size: clamp(1.5rem, 3vw, 2rem);
+            font-size: clamp(1.2rem, 2.5vw, 1.6rem);
             font-weight: 900;
             margin-bottom: var(--spacing-lg);
             display: flex;
@@ -361,7 +459,7 @@
         .section h2::before {
             content: '';
             width: 4px;
-            height: 28px;
+            height: 24px;
             background: var(--bb-lime);
             flex-shrink: 0;
         }
@@ -375,9 +473,8 @@
 
         /* ==================== LUCRO BOX ==================== */
         .lucro-box {
-            background: linear-gradient(135deg, rgba(209, 255, 0, 0.08) 0%, rgba(209, 255, 0, 0.03) 100%);
-            border: 2px solid var(--bb-lime);
-            border-radius: 0;
+            background: linear-gradient(135deg, rgba(0, 229, 180, 0.06) 0%, rgba(0, 229, 180, 0.02) 100%);
+            border: 2px solid var(--color-profit);
             padding: var(--spacing-lg);
             margin: var(--spacing-lg) 0;
             font-family: 'Roboto Mono', monospace;
@@ -390,7 +487,7 @@
             content: '';
             position: absolute;
             inset: -1px;
-            background: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(209, 255, 0, 0.02) 10px, rgba(209, 255, 0, 0.02) 20px);
+            background: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(0,229,180,0.02) 10px, rgba(0,229,180,0.02) 20px);
             pointer-events: none;
         }
 
@@ -398,24 +495,25 @@
             display: flex;
             justify-content: space-between;
             padding: 8px 0;
-            border-bottom: 1px solid rgba(209, 255, 0, 0.1);
+            border-bottom: 1px solid rgba(0, 229, 180, 0.12);
             position: relative;
             z-index: 1;
         }
 
+        .lucro-item .cost-val  { color: var(--color-cost); }
+        .lucro-item .profit-val { color: var(--color-profit); }
+
         .lucro-item:last-child {
             border-bottom: none;
-            border-top: 2px solid var(--bb-lime);
+            border-top: 2px solid var(--color-profit);
             margin-top: var(--spacing-md);
             padding-top: var(--spacing-md);
             font-weight: 700;
             font-size: 1.1em;
-            color: var(--bb-lime);
+            color: var(--color-profit);
         }
 
-        .lucro-item:last-child::before {
-            content: '💎 ';
-        }
+        .lucro-item:last-child::before { content: '💎 '; }
 
         /* ==================== TABLE ==================== */
         table {
@@ -446,8 +544,12 @@
             transition: all var(--bb-dur-fast) var(--bb-ease-smooth);
         }
 
-        tr:hover td {
-            background: rgba(209, 255, 0, 0.03);
+        /* Zebra striping (Phase 1) */
+        tbody tr:nth-child(even) td { background: rgba(255,255,255,0.03); }
+        tbody tr:nth-child(odd)  td { background: transparent; }
+
+        tbody tr:hover td {
+            background: rgba(209, 255, 0, 0.05) !important;
             color: var(--bb-lime);
         }
 
@@ -467,48 +569,99 @@
             font-family: 'Roboto Mono', monospace;
             font-size: 0.7rem;
             font-weight: 700;
-            padding: 6px 10px;
+            padding: 4px 8px;
             border: 1px solid;
-            margin: 4px;
+            margin: 2px;
             transition: all var(--bb-dur-fast) var(--bb-ease-smooth);
         }
 
         .badge.success {
-            color: var(--bb-lime);
-            border-color: var(--bb-lime);
-            background: rgba(209, 255, 0, 0.05);
+            color: var(--color-profit);
+            border-color: var(--color-profit);
+            background: rgba(0, 229, 180, 0.05);
         }
 
         .badge.success:hover {
-            background: rgba(209, 255, 0, 0.15);
-            box-shadow: 0 0 15px rgba(209, 255, 0, 0.3);
+            background: rgba(0, 229, 180, 0.15);
+            box-shadow: 0 0 15px rgba(0, 229, 180, 0.3);
         }
 
         .badge.warning {
-            color: var(--bb-flare);
-            border-color: var(--bb-flare);
-            background: rgba(237, 70, 9, 0.05);
+            color: var(--color-warning);
+            border-color: var(--color-warning);
+            background: rgba(255, 184, 0, 0.05);
         }
 
-        .badge.warning:hover {
-            background: rgba(237, 70, 9, 0.15);
+        .badge.danger {
+            color: var(--color-danger);
+            border-color: var(--color-danger);
+            background: rgba(255, 71, 71, 0.05);
         }
+
+        .badge.ads {
+            color: var(--color-ads);
+            border-color: var(--color-ads);
+            background: rgba(183, 139, 255, 0.05);
+        }
+
+        /* ==================== ADS GRID (Phase 1 — ADS tab) ==================== */
+        .ads-kpi-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: var(--grid-gap);
+            margin-top: var(--spacing-lg);
+        }
+
+        .ads-metric-card {
+            background: linear-gradient(135deg, rgba(183,139,255,0.06) 0%, var(--bb-surface) 100%);
+            border: 1px solid rgba(183,139,255,0.25);
+            padding: var(--spacing-md);
+            position: relative;
+        }
+
+        .ads-metric-card::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, var(--color-ads), transparent);
+        }
+
+        .ads-metric-label {
+            font-family: 'Roboto Mono', monospace;
+            font-size: 0.65rem;
+            color: rgba(183,139,255,0.6);
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            margin-bottom: 8px;
+        }
+
+        .ads-metric-value {
+            font-family: 'Roboto Mono', monospace;
+            font-size: 1.8rem;
+            font-weight: 900;
+            letter-spacing: -0.02em;
+        }
+
+        .ads-metric-sub {
+            font-family: 'Roboto Mono', monospace;
+            font-size: 0.7rem;
+            color: var(--bb-dim);
+            margin-top: 6px;
+        }
+
+        /* ==================== SCROLLBAR ==================== */
+        ::-webkit-scrollbar       { width: 8px; }
+        ::-webkit-scrollbar-track { background: var(--bb-dark); }
+        ::-webkit-scrollbar-thumb { background: var(--bb-border); }
+        ::-webkit-scrollbar-thumb:hover { background: var(--bb-lime); }
 
         /* ==================== RESPONSIVE ==================== */
         @media (max-width: 1024px) {
-            .container {
-                grid-template-columns: repeat(8, 1fr);
-            }
-
-            .kpi-card:nth-child(1) { grid-column: span 4; }
-            .kpi-card:nth-child(2) { grid-column: span 4; }
-            .kpi-card:nth-child(3) { grid-column: span 4; }
-            .kpi-card:nth-child(4) { grid-column: span 4; }
-            .kpi-card:nth-child(5) { grid-column: span 4; }
-            .kpi-card:nth-child(6) { grid-column: span 4; }
-            .kpi-card:nth-child(7) { grid-column: span 4; }
-            .kpi-card:nth-child(8) { grid-column: span 4; }
-            .kpi-card:nth-child(9) { grid-column: span 4; }
+            .kpi-primary-row   { grid-template-columns: repeat(2, 1fr); }
+            .kpi-secondary-row { grid-template-columns: repeat(2, 1fr); }
+            .ads-kpi-grid      { grid-template-columns: repeat(2, 1fr); }
         }
 
         @media (max-width: 640px) {
@@ -516,125 +669,238 @@
                 grid-template-columns: 1fr;
                 padding: var(--spacing-md);
             }
-
-            .kpi-card { grid-column: 1 !important; }
-            .section { grid-column: 1 !important; }
-
-            h1 { font-size: 1.8rem; }
-        }
-
-        /* ==================== SCROLLBAR ==================== */
-        ::-webkit-scrollbar {
-            width: 8px;
-        }
-
-        ::-webkit-scrollbar-track {
-            background: var(--bb-dark);
-        }
-
-        ::-webkit-scrollbar-thumb {
-            background: var(--bb-border);
-        }
-
-        ::-webkit-scrollbar-thumb:hover {
-            background: var(--bb-lime);
+            .kpi-primary-row   { grid-template-columns: 1fr; }
+            .kpi-secondary-row { grid-template-columns: 1fr; }
+            .ads-kpi-grid      { grid-template-columns: 1fr; }
+            .tab-panel { grid-template-columns: 1fr; }
+            .tab-btn   { padding: 8px 12px; font-size: 0.65rem; }
+            h1         { font-size: 1.8rem; }
+            .period-filter { flex-wrap: wrap; }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <!-- HEADER -->
-        <header>
-            <h1>AIOX Sales<span>Intelligence</span></h1>
-            <p class="subtitle">Dark Cockpit Edition • AI isn't the hero. You are.</p>
-            <p class="timestamp">SYS_ONLINE | LAST_UPDATE: <span id="timestamp"></span></p>
-        </header>
+<div class="container">
 
-        <!-- KPI ROW 1: RECEITA -->
-        <div class="kpi-card">
-            <div class="kpi-icon">📈</div>
-            <div class="kpi-label">Faturamento Hoje</div>
-            <div class="kpi-value" id="kpi-faturamento">—</div>
-            <span class="kpi-change" id="kpi-faturamento-badge">⟳ Carregando...</span>
+    <!-- ══ HEADER ════════════════════════════════════════════ -->
+    <header>
+        <h1>AIOX Sales<span>Intelligence</span></h1>
+        <p class="subtitle">Dark Cockpit Edition • AI isn't the hero. You are.</p>
+        <p class="timestamp">SYS_ONLINE | LAST_UPDATE: <span id="timestamp"></span></p>
+    </header>
+
+    <!-- ══ PERIOD FILTER ══════════════════════════════════════ -->
+    <div class="period-filter-wrap">
+        <span class="period-filter-label">Período:</span>
+        <div class="period-filter">
+            <button class="period-btn active" data-period="hoje">Hoje</button>
+            <button class="period-btn" data-period="semana">7 Dias</button>
+            <button class="period-btn" data-period="mes">Este Mês</button>
+        </div>
+    </div>
+
+    <!-- ══ TAB NAVIGATION (Phase 1) ══════════════════════════ -->
+    <nav class="tab-nav">
+        <button class="tab-btn active" data-tab="visao-geral">Visão Geral</button>
+        <button class="tab-btn" data-tab="ads">Performance de ADS</button>
+        <button class="tab-btn" data-tab="receita">Receita</button>
+    </nav>
+
+    <!-- ═══════════════════════════════════════════════════════
+         TAB 1 — VISÃO GERAL
+         Order: Primary KPIs → Chart → Secondary KPIs
+    ═══════════════════════════════════════════════════════ -->
+    <div class="tab-panel active" id="tab-visao-geral">
+
+        <!-- ── Primary KPIs (4 large cards) ── -->
+        <div class="kpi-primary-row">
+            <!-- Faturamento: revenue color, large -->
+            <div class="kpi-card primary" style="--bb-accent: var(--color-revenue)">
+                <div class="kpi-icon">📈</div>
+                <div class="kpi-label" id="label-faturamento">Faturamento Hoje</div>
+                <div class="kpi-value revenue primary" id="kpi-faturamento">—</div>
+                <span class="kpi-change" id="kpi-faturamento-badge">⟳ Carregando...</span>
+            </div>
+
+            <!-- Fat. Líquido: profit (teal), MOST PROMINENT — appears 2nd -->
+            <div class="kpi-card primary" style="--bb-accent: var(--color-profit); border-color: rgba(0,229,180,0.3);">
+                <div class="kpi-icon">💎</div>
+                <div class="kpi-label" id="label-fat-liquido">Fat. Líquido</div>
+                <div class="kpi-value profit primary" id="kpi-fat-liquido">—</div>
+                <span class="kpi-change" style="border-color:var(--color-profit);color:var(--color-profit);background:rgba(0,229,180,0.05)" id="kpi-fat-liquido-badge">⟳</span>
+            </div>
+
+            <!-- Lucro Líquido: profit (teal) -->
+            <div class="kpi-card primary" style="--bb-accent: var(--color-profit)">
+                <div class="kpi-icon">🏆</div>
+                <div class="kpi-label" id="label-lucro-liquido">Lucro Líquido</div>
+                <div class="kpi-value profit primary" id="kpi-lucro-liquido">—</div>
+                <span class="kpi-change" style="border-color:var(--color-profit);color:var(--color-profit);background:rgba(0,229,180,0.05)" id="kpi-lucro-liquido-badge">↑ Meta: margens saudáveis</span>
+            </div>
+
+            <!-- Vendas: revenue (lime) -->
+            <div class="kpi-card primary" style="--bb-accent: var(--color-neutral)">
+                <div class="kpi-icon">🛒</div>
+                <div class="kpi-label" id="label-vendas">Vendas Hoje</div>
+                <div class="kpi-value neutral primary" id="kpi-vendas">—</div>
+                <span class="kpi-change" style="border-color:var(--color-neutral);color:var(--color-neutral);background:rgba(148,163,184,0.05)" id="kpi-vendas-badge">⟳ Carregando...</span>
+            </div>
         </div>
 
-        <div class="kpi-card">
-            <div class="kpi-icon">🛒</div>
-            <div class="kpi-label">Vendas Hoje</div>
-            <div class="kpi-value" id="kpi-vendas">—</div>
-            <span class="kpi-change" id="kpi-vendas-badge">⟳ Carregando...</span>
+        <!-- ── Chart (position 2, per spec) ── -->
+        <section class="section">
+            <h2 id="chart-title">Volume de Vendas • 7 Dias</h2>
+            <div class="chart-container">
+                <canvas id="volumeChart"></canvas>
+            </div>
+        </section>
+
+        <!-- ── Secondary KPIs Row 1: Ticket Médio | Margem Real | Fat. Líquido | Margem Líquida ── -->
+        <div class="kpi-secondary-row">
+            <!-- Ticket Médio: neutral -->
+            <div class="kpi-card secondary" style="--bb-accent: var(--color-neutral)">
+                <div class="kpi-icon">💰</div>
+                <div class="kpi-label">Ticket Médio</div>
+                <div class="kpi-value neutral secondary" id="kpi-ticket">—</div>
+                <span class="kpi-change" style="border-color:var(--color-neutral);color:var(--color-neutral);background:rgba(148,163,184,0.05)">↑ Vestuário</span>
+            </div>
+
+            <!-- Margem Real %: profit -->
+            <div class="kpi-card secondary" style="--bb-accent: var(--color-profit)">
+                <div class="kpi-icon">📊</div>
+                <div class="kpi-label">Margem Real %</div>
+                <div class="kpi-value profit secondary" id="kpi-margem-real">—</div>
+                <span class="kpi-change" style="border-color:var(--color-profit);color:var(--color-profit);background:rgba(0,229,180,0.05)" id="kpi-margem-real-badge">⟳</span>
+            </div>
+
+            <!-- Fat. Líquido (secondary echo) -->
+            <div class="kpi-card secondary" style="--bb-accent: var(--color-profit)">
+                <div class="kpi-icon">🔑</div>
+                <div class="kpi-label">Fat. − Taxa ML − Frete</div>
+                <div class="kpi-value profit secondary" id="kpi-fat-liquido-sec">—</div>
+                <span class="kpi-change" style="border-color:var(--color-profit);color:var(--color-profit);background:rgba(0,229,180,0.05)">líquido ML</span>
+            </div>
+
+            <!-- Margem Líquida %: dynamic color -->
+            <div class="kpi-card secondary" id="card-margem-liq" style="--bb-accent: var(--color-neutral)">
+                <div class="kpi-icon">📉</div>
+                <div class="kpi-label">Margem Líquida %</div>
+                <div class="kpi-value secondary" id="kpi-margem-liq">—</div>
+                <span class="kpi-change" id="kpi-margem-liq-badge">⟳</span>
+            </div>
         </div>
 
-        <div class="kpi-card">
-            <div class="kpi-icon">💰</div>
-            <div class="kpi-label">Ticket Médio</div>
-            <div class="kpi-value" id="kpi-ticket">—</div>
-            <span class="kpi-change">↑ Vestuário</span>
+        <!-- ── Secondary KPIs Row 2: Taxa ML | Frete Vendedor | ACOS | TACOS ── -->
+        <div class="kpi-secondary-row">
+            <!-- Taxa ML: cost (orange-red) -->
+            <div class="kpi-card secondary" style="--bb-accent: var(--color-cost)">
+                <div class="kpi-icon">🏷️</div>
+                <div class="kpi-label">Taxa ML</div>
+                <div class="kpi-value cost secondary" id="kpi-taxa-ml">—</div>
+                <span class="kpi-change" style="border-color:var(--color-cost);color:var(--color-cost);background:rgba(255,107,53,0.05)">comissão ML</span>
+            </div>
+
+            <!-- Frete Vendedor: cost (orange-red) -->
+            <div class="kpi-card secondary" style="--bb-accent: var(--color-cost)">
+                <div class="kpi-icon">🚚</div>
+                <div class="kpi-label">Frete Vendedor</div>
+                <div class="kpi-value cost secondary" id="kpi-frete">—</div>
+                <span class="kpi-change" style="border-color:var(--color-cost);color:var(--color-cost);background:rgba(255,107,53,0.05)">custo frete</span>
+            </div>
+
+            <!-- ACOS: dynamic color (danger/warning/profit) -->
+            <div class="kpi-card secondary" id="card-acos" style="--bb-accent: var(--color-neutral)">
+                <div class="kpi-icon">🎯</div>
+                <div class="kpi-label">ACOS</div>
+                <div class="kpi-value secondary" id="kpi-acos">—</div>
+                <span class="kpi-change" id="kpi-acos-badge">⟳</span>
+            </div>
+
+            <!-- TACOS: dynamic color -->
+            <div class="kpi-card secondary" id="card-tacos" style="--bb-accent: var(--color-neutral)">
+                <div class="kpi-icon">📉</div>
+                <div class="kpi-label">TACOS</div>
+                <div class="kpi-value secondary" id="kpi-tacos">—</div>
+                <span class="kpi-change" id="kpi-tacos-badge">⟳</span>
+            </div>
         </div>
 
-        <!-- KPI ROW 2: LUCRO -->
-        <div class="kpi-card">
-            <div class="kpi-icon">💵</div>
-            <div class="kpi-label">Lucro Bruto (Est.)</div>
-            <div class="kpi-value" id="kpi-lucro">—</div>
-            <span class="kpi-change">↑ 15% margin</span>
-        </div>
+    </div><!-- /tab-visao-geral -->
 
-        <div class="kpi-card">
-            <div class="kpi-icon">📊</div>
-            <div class="kpi-label">Margem Bruta</div>
-            <div class="kpi-value" id="kpi-margem">—</div>
-            <span class="kpi-change">📦 Vestuário</span>
-        </div>
+    <!-- ═══════════════════════════════════════════════════════
+         TAB 2 — PERFORMANCE DE ADS
+    ═══════════════════════════════════════════════════════ -->
+    <div class="tab-panel" id="tab-ads">
+        <section class="section">
+            <h2>Performance de ADS • <span id="data-ads">—</span></h2>
 
-        <div class="kpi-card">
-            <div class="kpi-icon">🎯</div>
-            <div class="kpi-label">Lucro/Pedido</div>
-            <div class="kpi-value" id="kpi-lucro-pedido">—</div>
-            <span class="kpi-change" id="kpi-lucro-pedido-badge">⟳ Carregando...</span>
-        </div>
+            <div class="ads-kpi-grid">
+                <div class="ads-metric-card">
+                    <div class="ads-metric-label">Gasto em ADS</div>
+                    <div class="ads-metric-value" id="ads-spend" style="color:var(--color-ads)">—</div>
+                    <div class="ads-metric-sub">Investimento total hoje</div>
+                </div>
+                <div class="ads-metric-card">
+                    <div class="ads-metric-label">Receita por ADS</div>
+                    <div class="ads-metric-value" id="ads-revenue" style="color:var(--color-ads)">—</div>
+                    <div class="ads-metric-sub">Faturamento atribuído</div>
+                </div>
+                <div class="ads-metric-card">
+                    <div class="ads-metric-label">Receita Orgânica</div>
+                    <div class="ads-metric-value" id="ads-organic" style="color:var(--color-neutral)">—</div>
+                    <div class="ads-metric-sub">Sem atribuição de ADS</div>
+                </div>
+                <div class="ads-metric-card">
+                    <div class="ads-metric-label">ACOS</div>
+                    <div class="ads-metric-value" id="ads-acos">—</div>
+                    <div class="ads-metric-sub">Custo de venda via ADS<br><small style="color:var(--bb-dim)">Meta: &lt;15% ✓ | 15-30% ⚠ | &gt;30% ✗</small></div>
+                </div>
+                <div class="ads-metric-card">
+                    <div class="ads-metric-label">TACOS</div>
+                    <div class="ads-metric-value" id="ads-tacos">—</div>
+                    <div class="ads-metric-sub">Custo total de vendas<br><small style="color:var(--bb-dim)">Meta: &lt;8% ✓ | 8-15% ⚠ | &gt;15% ✗</small></div>
+                </div>
+                <div class="ads-metric-card">
+                    <div class="ads-metric-label">ROAS (est.)</div>
+                    <div class="ads-metric-value" id="ads-roas" style="color:var(--color-profit)">—</div>
+                    <div class="ads-metric-sub">Retorno sobre investimento</div>
+                </div>
+            </div>
+        </section>
+    </div><!-- /tab-ads -->
 
-        <!-- KPI ROW 3: SEMANA + STATUS -->
-        <div class="kpi-card">
-            <div class="kpi-icon">📅</div>
-            <div class="kpi-label">Vendas Semana</div>
-            <div class="kpi-value" id="kpi-semana">—</div>
-            <span class="kpi-change" id="kpi-semana-badge">↑ 7 dias</span>
-        </div>
+    <!-- ═══════════════════════════════════════════════════════
+         TAB 3 — RECEITA
+    ═══════════════════════════════════════════════════════ -->
+    <div class="tab-panel" id="tab-receita">
 
-        <div class="kpi-card">
-            <div class="kpi-icon">⭐</div>
-            <div class="kpi-label">Reputação</div>
-            <div class="kpi-value">5★</div>
-            <span class="kpi-change">✓ 9.142 txns</span>
-        </div>
-
-        <div class="kpi-card">
-            <div class="kpi-icon">🏆</div>
-            <div class="kpi-label">Status</div>
-            <div class="kpi-value" id="kpi-status">—</div>
-            <span class="kpi-change" id="kpi-status-badge">⟳ Conectando...</span>
-        </div>
-
-        <!-- ANÁLISE FINANCEIRA (live) -->
+        <!-- Financial breakdown -->
         <section class="section">
             <h2>Análise Financeira • <span id="data-hoje">—</span></h2>
             <div class="lucro-box">
                 <div class="lucro-item">
                     <span>Faturamento Bruto</span>
-                    <span id="fin-faturamento">—</span>
+                    <span class="revenue-val" id="fin-faturamento" style="color:var(--color-revenue)">—</span>
                 </div>
                 <div class="lucro-item">
-                    <span>(-) Custos Diretos (85%)</span>
-                    <span id="fin-custos">—</span>
+                    <span>(-) Taxa ML (comissão)</span>
+                    <span class="cost-val" id="fin-taxa-ml">—</span>
                 </div>
                 <div class="lucro-item">
-                    <span>(-) Impostos + Taxas (10%)</span>
-                    <span id="fin-impostos">—</span>
+                    <span>(-) Frete Vendedor</span>
+                    <span class="cost-val" id="fin-frete">—</span>
                 </div>
                 <div class="lucro-item">
-                    <span>Lucro Bruto</span>
-                    <span id="fin-lucro">—</span>
+                    <span>= Faturamento Líquido</span>
+                    <span style="color:var(--color-profit)" id="fin-fat-liquido">—</span>
+                </div>
+                <div class="lucro-item">
+                    <span>(-) CMV / Custos Diretos</span>
+                    <span class="cost-val" id="fin-custos">—</span>
+                </div>
+                <div class="lucro-item">
+                    <span>Lucro Líquido</span>
+                    <span class="profit-val" id="fin-lucro">—</span>
                 </div>
             </div>
 
@@ -653,34 +919,7 @@
             </table>
         </section>
 
-        <!-- VOLUME CHART (live) -->
-        <section class="section">
-            <h2>Volume de Vendas • Últimos 7 Dias</h2>
-            <div class="chart-container">
-                <canvas id="volumeChart"></canvas>
-            </div>
-        </section>
-
-        <!-- CATEGORIAS (live) -->
-        <section class="section">
-            <h2>Distribuição de Vendas • <span id="data-hoje-cat">—</span></h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Categoria</th>
-                        <th>Vendas</th>
-                        <th>Faturamento</th>
-                        <th>% Total</th>
-                        <th>Trend</th>
-                    </tr>
-                </thead>
-                <tbody id="cat-table-body">
-                    <tr><td colspan="5" style="text-align:center;color:var(--bb-dim)">⟳ Carregando...</td></tr>
-                </tbody>
-            </table>
-        </section>
-
-        <!-- TOP PRODUCTS (live) -->
+        <!-- Top 5 Products -->
         <section class="section">
             <h2>Top 5 Produtos • Hoje</h2>
             <table>
@@ -699,155 +938,493 @@
                 </tbody>
             </table>
         </section>
-    </div>
 
-    <script>
-        // ── Timestamp ──────────────────────────────────────────────
-        function updateTimestamp() {
-            const now = new Date();
-            document.getElementById('timestamp').textContent = now.toLocaleString('pt-BR', {
-                year: 'numeric', month: '2-digit', day: '2-digit',
-                hour: '2-digit', minute: '2-digit', second: '2-digit'
-            });
+        <!-- Categories -->
+        <section class="section">
+            <h2>Distribuição de Vendas • <span id="data-hoje-cat">—</span></h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Categoria</th>
+                        <th>Vendas</th>
+                        <th>Faturamento</th>
+                        <th>% Total</th>
+                        <th>Trend</th>
+                    </tr>
+                </thead>
+                <tbody id="cat-table-body">
+                    <tr><td colspan="5" style="text-align:center;color:var(--bb-dim)">⟳ Carregando...</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+    </div><!-- /tab-receita -->
+
+</div><!-- /.container -->
+
+<script>
+// ── Timestamp ────────────────────────────────────────────
+function updateTimestamp() {
+    document.getElementById('timestamp').textContent = new Date().toLocaleString('pt-BR', {
+        year:'numeric', month:'2-digit', day:'2-digit',
+        hour:'2-digit', minute:'2-digit', second:'2-digit'
+    });
+}
+updateTimestamp();
+setInterval(updateTimestamp, 1000);
+
+// ── Tab System ────────────────────────────────────────────
+document.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+        const target = btn.dataset.tab;
+
+        // Toggle buttons
+        document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        // Toggle panels
+        document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+        document.getElementById('tab-' + target).classList.add('active');
+
+        // Re-render chart if switching to visao-geral (canvas may need resize)
+        if (target === 'visao-geral' && volumeChart) {
+            setTimeout(() => volumeChart.resize(), 50);
         }
-        updateTimestamp();
-        setInterval(updateTimestamp, 1000);
+    });
+});
 
-        // ── Formatters ─────────────────────────────────────────────
-        const brl = v => 'R$ ' + Number(v).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
-        const fmtDate = iso => {
-            const d = new Date(iso);
-            return d.toLocaleDateString('pt-BR');
-        };
+// ── Formatters ────────────────────────────────────────────
+const brl = v => 'R$ ' + Number(v).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+const pct = v => v.toFixed(1) + '%';
+const fmtDate = iso => new Date(iso).toLocaleDateString('pt-BR');
 
-        // ── Chart (initialized once, updated with live data) ───────
-        let volumeChart = null;
-        const chartOptions = {
-            responsive: true, maintainAspectRatio: false,
-            plugins: {
-                legend: { labels: { color: 'rgb(244,244,232)', font: { family: "'Roboto Mono',monospace", weight: 700, size: 12 }, padding: 20 } }
-            },
-            scales: {
-                y: { ticks: { color: 'rgba(245,244,231,0.4)', font: { family: "'Roboto Mono',monospace" } }, grid: { color: 'rgba(209,255,0,0.05)' }, border: { color: 'rgba(156,156,156,0.15)' } },
-                x: { ticks: { color: 'rgba(245,244,231,0.4)', font: { family: "'Roboto Mono',monospace" } }, grid: { color: 'rgba(209,255,0,0.05)' }, border: { color: 'rgba(156,156,156,0.15)' } }
-            }
-        };
+// ── ACOS/TACOS semantic color helper ─────────────────────
+function acosStyle(v, thresholdDanger, thresholdWarning) {
+    if (v <= 0) return { cls: 'neutral', color: 'var(--color-neutral)' };
+    if (v > thresholdDanger)  return { cls: 'danger',  color: 'var(--color-danger)'  };
+    if (v > thresholdWarning) return { cls: 'warning', color: 'var(--color-warning)' };
+    return { cls: 'profit', color: 'var(--color-profit)' };
+}
 
-        function initChart(labels, data) {
-            const ctx = document.getElementById('volumeChart').getContext('2d');
-            volumeChart = new Chart(ctx, {
-                type: 'line',
-                data: {
-                    labels,
-                    datasets: [{
-                        label: 'Pedidos/Dia', data,
-                        borderColor: '#D1FF00', backgroundColor: 'rgba(209,255,0,0.1)',
-                        borderWidth: 3, fill: true, tension: 0.4,
-                        pointRadius: 5, pointBackgroundColor: '#D1FF00',
-                        pointBorderColor: '#050505', pointBorderWidth: 2,
-                        pointHoverRadius: 7, pointHoverBorderWidth: 3
-                    }]
-                },
-                options: chartOptions
-            });
-        }
+function margemLiqColor(v) {
+    if (v <= 0)  return { cls: 'danger',  color: 'var(--color-danger)'  };
+    if (v < 10)  return { cls: 'warning', color: 'var(--color-warning)' };
+    if (v < 20)  return { cls: 'neutral', color: 'var(--color-neutral)' };
+    return { cls: 'profit', color: 'var(--color-profit)' };
+}
 
-        function updateChart(labels, data) {
-            if (!volumeChart) { initChart(labels, data); return; }
-            volumeChart.data.labels = labels;
-            volumeChart.data.datasets[0].data = data;
-            volumeChart.update();
-        }
+// ── Graceful fallback helper ──────────────────────────────
+// Returns '—' if value is undefined/null, 0 returns formatter(0)
+function showOrDash(val, formatter) {
+    if (val === undefined || val === null) return '—';
+    return formatter ? formatter(val) : val;
+}
 
-        // ── Render ─────────────────────────────────────────────────
-        function render(d) {
-            const k = d.kpis;
-            const today = fmtDate(d.updated_at);
-
-            // KPI cards
-            document.getElementById('kpi-faturamento').textContent = brl(k.faturamento_hoje);
-            document.getElementById('kpi-faturamento-badge').textContent = '🟢 API LIVE';
-            document.getElementById('kpi-vendas').textContent = k.vendas_hoje;
-            document.getElementById('kpi-vendas-badge').textContent = '↑ Hoje ' + today;
-            document.getElementById('kpi-ticket').textContent = brl(k.ticket_medio);
-            document.getElementById('kpi-lucro').textContent = brl(k.lucro_bruto);
-            document.getElementById('kpi-margem').textContent = k.margem_pct.toFixed(0) + '%';
-            document.getElementById('kpi-lucro-pedido').textContent = brl(k.lucro_por_pedido);
-            document.getElementById('kpi-lucro-pedido-badge').textContent = '✓ Est. ' + k.vendas_hoje + ' pedidos';
-            document.getElementById('kpi-semana').textContent = k.vendas_semana;
-            document.getElementById('kpi-semana-badge').textContent = 'Fat. ' + brl(k.faturamento_semana);
-            document.getElementById('kpi-status').textContent = 'LIVE';
-            document.getElementById('kpi-status-badge').textContent = '🟢 API OK';
-
-            // Dates
-            document.getElementById('data-hoje').textContent = today;
-            document.getElementById('data-hoje-cat').textContent = today;
-
-            // Financial analysis
-            const fat = k.faturamento_hoje;
-            document.getElementById('fin-faturamento').textContent = brl(fat);
-            document.getElementById('fin-custos').textContent = brl(fat * 0.85);
-            document.getElementById('fin-impostos').textContent = brl(fat * 0.10);
-            document.getElementById('fin-lucro').textContent = brl(k.lucro_bruto);
-
-            // Fin table
-            const topCat = d.categories[0] || {};
-            document.getElementById('fin-table-body').innerHTML = `
-                <tr><td>Faturamento Total</td><td>${brl(fat)}</td><td>100%</td><td><span class="badge success">✓ ${k.vendas_hoje} pedidos</span></td></tr>
-                <tr><td>Margem de Contribuição</td><td>${brl(k.lucro_bruto)}</td><td>${k.margem_pct.toFixed(0)}%</td><td><span class="badge success">✓ POSITIVA</span></td></tr>
-                <tr><td>Ticket Médio</td><td>${brl(k.ticket_medio)}</td><td>Vestuário</td><td><span class="badge success">✓ ESTÁVEL</span></td></tr>
-                <tr><td>Top Categoria</td><td>${topCat.nome || '—'}</td><td>${topCat.pct || 0}%</td><td><span class="badge success">↑ TRENDING</span></td></tr>
-            `;
-
-            // Categories table
-            document.getElementById('cat-table-body').innerHTML = d.categories.map(c =>
-                `<tr><td>${c.nome}</td><td>${c.vendas}</td><td>${brl(c.faturamento)}</td><td>${c.pct}%</td><td><span class="badge success">↑ LIVE</span></td></tr>`
-            ).join('') || '<tr><td colspan="5" style="color:var(--bb-dim)">Sem dados</td></tr>';
-
-            // Top 5 products
-            document.getElementById('top-table-body').innerHTML = d.top5.map((p, i) =>
-                `<tr>
-                    <td><strong>${i+1}º</strong></td>
-                    <td>${p.title}</td>
-                    <td>${p.vendas}</td>
-                    <td>${brl(p.faturamento)}</td>
-                    <td>${brl(p.lucro)}</td>
-                    <td><span class="badge success">${p.score}/100</span></td>
-                </tr>`
-            ).join('') || '<tr><td colspan="6" style="color:var(--bb-dim)">Sem dados</td></tr>';
-
-            // Chart
-            updateChart(d.chart.labels, d.chart.vendas);
-        }
-
-        // ── Fetch & Refresh ────────────────────────────────────────
-        const DATA_URL = 'dashboard-data.json';
-        const REFRESH_MS = 60000; // 60s
-
-        async function fetchData() {
-            try {
-                const r = await fetch(DATA_URL + '?t=' + Date.now());
-                if (!r.ok) throw new Error('HTTP ' + r.status);
-                const data = await r.json();
-                render(data);
-            } catch (e) {
-                document.getElementById('kpi-status').textContent = 'ERR';
-                document.getElementById('kpi-status-badge').textContent = '🔴 ' + e.message;
-                console.error('Dashboard fetch error:', e);
+// ── Chart ─────────────────────────────────────────────────
+let volumeChart = null;
+const chartOptions = {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+        legend: {
+            labels: {
+                color: 'rgb(244,244,232)',
+                font: { family: "'Roboto Mono',monospace", weight: 700, size: 12 },
+                padding: 20
             }
         }
+    },
+    scales: {
+        y: {
+            ticks:  { color: 'rgba(245,244,231,0.4)', font: { family: "'Roboto Mono',monospace" } },
+            grid:   { color: 'rgba(209,255,0,0.05)' },
+            border: { color: 'rgba(156,156,156,0.15)' }
+        },
+        x: {
+            ticks:  { color: 'rgba(245,244,231,0.4)', font: { family: "'Roboto Mono',monospace" } },
+            grid:   { color: 'rgba(209,255,0,0.05)' },
+            border: { color: 'rgba(156,156,156,0.15)' }
+        }
+    }
+};
 
-        fetchData();
-        setInterval(fetchData, REFRESH_MS);
+function initChart(labels, data) {
+    const ctx = document.getElementById('volumeChart').getContext('2d');
+    volumeChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels,
+            datasets: [{
+                label: 'Pedidos/Dia', data,
+                borderColor: '#D1FF00',
+                backgroundColor: 'rgba(209,255,0,0.1)',
+                borderWidth: 3, fill: true, tension: 0.4,
+                pointRadius: 5, pointBackgroundColor: '#D1FF00',
+                pointBorderColor: '#050505', pointBorderWidth: 2,
+                pointHoverRadius: 7, pointHoverBorderWidth: 3
+            }]
+        },
+        options: chartOptions
+    });
+}
 
-        // ── Mouse tracking ─────────────────────────────────────────
-        document.querySelectorAll('.kpi-card').forEach(card => {
-            card.addEventListener('mousemove', (e) => {
-                const rect = card.getBoundingClientRect();
-                card.style.setProperty('--mouse-x', ((e.clientX - rect.left) / rect.width * 100) + '%');
-                card.style.setProperty('--mouse-y', ((e.clientY - rect.top) / rect.height * 100) + '%');
-            });
-        });
-    </script>
+function updateChart(chartData, titleSuffix) {
+    const labels = chartData.labels || [];
+    const data   = chartData.vendas  || [];
+    if (!volumeChart) { initChart(labels, data); }
+    else {
+        volumeChart.data.labels = labels;
+        volumeChart.data.datasets[0].data = data;
+        volumeChart.update();
+    }
+    document.getElementById('chart-title').textContent = 'Volume de Vendas • ' + titleSuffix;
+}
+
+// ── Period State ──────────────────────────────────────────
+let currentData    = null;
+let currentPeriod  = 'hoje';
+
+// ── setEl helper ─────────────────────────────────────────
+function setEl(id, text) {
+    const el = document.getElementById(id);
+    if (el) el.textContent = text;
+}
+
+// ── updateKPIsHoje ────────────────────────────────────────
+function updateKPIsHoje(k) {
+    const taxaML      = k.taxa_ml_total      || 0;
+    const shipping    = k.shipping_total     || 0;
+    const fatLiquido  = k.faturamento_liquido || 0;
+    const margemLiq   = k.margem_liquida_pct  || 0;
+    const lucroLiq    = k.lucro_liquido       || 0;
+    const cmvTotal    = k.cmv_total           || 0;
+    const margemReal  = k.margem_pct_real     || 0;
+    const adSpend     = k.ad_spend            || 0;
+    const adRevenue   = k.ad_revenue          || 0;
+    const organicRev  = k.organic_revenue     || 0;
+    const acosVal     = k.acos                || 0;
+    const tacosVal    = k.tacos               || 0;
+
+    // Primary card labels
+    setEl('label-faturamento',  'Faturamento Hoje');
+    setEl('label-fat-liquido',  'Fat. Líquido');
+    setEl('label-lucro-liquido','Lucro Líquido');
+    setEl('label-vendas',       'Vendas Hoje');
+
+    // Primary KPIs
+    setEl('kpi-faturamento',    brl(k.faturamento_hoje || 0));
+    setEl('kpi-faturamento-badge', '🟢 API LIVE');
+
+    setEl('kpi-fat-liquido',    fatLiquido > 0 ? brl(fatLiquido) : '—');
+    setEl('kpi-fat-liquido-badge', fatLiquido > 0 ? 'Fat − Taxa − Frete' : '⟳ Aguardando');
+
+    setEl('kpi-lucro-liquido',  lucroLiq > 0 ? brl(lucroLiq) : '—');
+    setEl('kpi-lucro-liquido-badge', lucroLiq > 0 ? '✓ Líquido' : '⟳ Aguardando PADS');
+
+    setEl('kpi-vendas',         k.vendas_hoje || 0);
+    setEl('kpi-vendas-badge',   '↑ Hoje');
+
+    // Secondary Row 1
+    setEl('kpi-ticket',         brl(k.ticket_medio || 0));
+
+    const margemDisplay = margemReal > 0 ? margemReal : 0;
+    setEl('kpi-margem-real', margemDisplay > 0 ? pct(margemDisplay) : '—');
+    setEl('kpi-margem-real-badge', margemReal > 0 ? '✓ Real' : '~ Est.');
+
+    setEl('kpi-fat-liquido-sec', fatLiquido > 0 ? brl(fatLiquido) : '—');
+
+    const mlInfo = margemLiqColor(margemLiq);
+    const mlEl   = document.getElementById('kpi-margem-liq');
+    if (mlEl) {
+        mlEl.textContent = margemLiq > 0 ? pct(margemLiq) : '—';
+        mlEl.className   = 'kpi-value secondary ' + mlInfo.cls;
+    }
+    document.getElementById('card-margem-liq')?.style.setProperty('--bb-accent', mlInfo.color);
+    const mlBadge = document.getElementById('kpi-margem-liq-badge');
+    if (mlBadge) {
+        mlBadge.textContent    = margemLiq > 0 ? (margemLiq < 10 ? '⚠ Baixa' : '✓ Ok') : '⟳ Aguardando';
+        mlBadge.style.borderColor = mlInfo.color;
+        mlBadge.style.color       = mlInfo.color;
+    }
+
+    // Secondary Row 2 — fee cards
+    setEl('kpi-taxa-ml', brl(taxaML));
+    setEl('kpi-frete',   brl(shipping));
+
+    // ACOS
+    const acosInfo = acosStyle(acosVal, 30, 15);
+    const acosEl   = document.getElementById('kpi-acos');
+    if (acosEl) {
+        acosEl.textContent = acosVal > 0 ? pct(acosVal) : '—';
+        acosEl.className   = 'kpi-value secondary ' + acosInfo.cls;
+    }
+    document.getElementById('card-acos')?.style.setProperty('--bb-accent', acosInfo.color);
+    const acosBadge = document.getElementById('kpi-acos-badge');
+    if (acosBadge) {
+        acosBadge.textContent   = acosVal > 0 ? (acosVal > 30 ? '✗ Alto' : acosVal > 15 ? '⚠ Atenção' : '✓ Ok') : '⟳ Aguardando PADS';
+        acosBadge.style.borderColor = acosInfo.color;
+        acosBadge.style.color       = acosInfo.color;
+        acosBadge.style.background  = 'rgba(0,0,0,0)';
+    }
+
+    // TACOS
+    const tacosInfo = acosStyle(tacosVal, 15, 8);
+    const tacosEl   = document.getElementById('kpi-tacos');
+    if (tacosEl) {
+        tacosEl.textContent = tacosVal > 0 ? pct(tacosVal) : '—';
+        tacosEl.className   = 'kpi-value secondary ' + tacosInfo.cls;
+    }
+    document.getElementById('card-tacos')?.style.setProperty('--bb-accent', tacosInfo.color);
+    const tacosBadge = document.getElementById('kpi-tacos-badge');
+    if (tacosBadge) {
+        tacosBadge.textContent      = tacosVal > 0 ? (tacosVal > 15 ? '✗ Alto' : tacosVal > 8 ? '⚠ Atenção' : '✓ Ok') : '⟳ Aguardando PADS';
+        tacosBadge.style.borderColor = tacosInfo.color;
+        tacosBadge.style.color       = tacosInfo.color;
+    }
+
+    // ADS Tab
+    document.getElementById('ads-spend').textContent   = adSpend   > 0 ? brl(adSpend)   : '—';
+    document.getElementById('ads-revenue').textContent = adRevenue > 0 ? brl(adRevenue) : '—';
+    document.getElementById('ads-organic').textContent = organicRev> 0 ? brl(organicRev): '—';
+
+    const adAcosEl = document.getElementById('ads-acos');
+    adAcosEl.textContent = acosVal > 0 ? pct(acosVal) : '—';
+    adAcosEl.style.color = acosInfo.color;
+
+    const adTacosEl = document.getElementById('ads-tacos');
+    adTacosEl.textContent = tacosVal > 0 ? pct(tacosVal) : '—';
+    adTacosEl.style.color = tacosInfo.color;
+
+    const roasEl = document.getElementById('ads-roas');
+    if (adSpend > 0 && adRevenue > 0) {
+        const roas = adRevenue / adSpend;
+        roasEl.textContent = roas.toFixed(2) + 'x';
+        roasEl.style.color = roas >= 4 ? 'var(--color-profit)' : roas >= 2 ? 'var(--color-warning)' : 'var(--color-danger)';
+    } else {
+        roasEl.textContent = '—';
+        roasEl.style.color = 'var(--color-neutral)';
+    }
+
+    // Receita tab — financial breakdown
+    const fat     = k.faturamento_hoje || 0;
+    const costVal = cmvTotal > 0 ? cmvTotal : fat * 0.85;
+    document.getElementById('fin-faturamento').textContent = brl(fat);
+    document.getElementById('fin-taxa-ml').textContent     = brl(taxaML);
+    document.getElementById('fin-frete').textContent       = brl(shipping);
+    document.getElementById('fin-fat-liquido').textContent = fatLiquido > 0 ? brl(fatLiquido) : brl(fat - taxaML - shipping);
+    document.getElementById('fin-custos').textContent      = brl(costVal);
+    document.getElementById('fin-lucro').textContent       = lucroLiq > 0 ? brl(lucroLiq) : brl(fatLiquido > 0 ? fatLiquido - costVal : fat - costVal);
+
+    // Fin table
+    const topCat = (currentData?.categories || [])[0] || {};
+    document.getElementById('fin-table-body').innerHTML = `
+        <tr>
+            <td>Faturamento Bruto</td>
+            <td style="color:var(--color-revenue)">${brl(fat)}</td>
+            <td>100%</td>
+            <td><span class="badge success">✓ ${k.vendas_hoje || 0} pedidos</span></td>
+        </tr>
+        <tr>
+            <td>Taxa ML + Frete</td>
+            <td style="color:var(--color-cost)">${brl(taxaML + shipping)}</td>
+            <td>${fat > 0 ? (((taxaML + shipping)/fat)*100).toFixed(1) : '0.0'}%</td>
+            <td><span class="badge warning">ML fees</span></td>
+        </tr>
+        <tr>
+            <td>Faturamento Líquido</td>
+            <td style="color:var(--color-profit)">${fatLiquido > 0 ? brl(fatLiquido) : '—'}</td>
+            <td>${fat > 0 && fatLiquido > 0 ? ((fatLiquido/fat)*100).toFixed(1) : '—'}%</td>
+            <td><span class="badge success">✓ Após taxas</span></td>
+        </tr>
+        <tr>
+            <td>CMV / Custos Diretos</td>
+            <td style="color:var(--color-cost)">${brl(costVal)}</td>
+            <td>${fat > 0 ? ((costVal/fat)*100).toFixed(0) : '0'}%</td>
+            <td><span class="badge${cmvTotal > 0 ? ' warning' : ' success'}">⟳ ${cmvTotal > 0 ? 'Real' : 'Est. 85%'}</span></td>
+        </tr>
+        <tr>
+            <td>Lucro Líquido</td>
+            <td style="color:var(--color-profit)">${lucroLiq > 0 ? brl(lucroLiq) : '—'}</td>
+            <td>${fat > 0 && margemLiq > 0 ? pct(margemLiq) : '—'}</td>
+            <td><span class="badge success">✓ POSITIVO</span></td>
+        </tr>
+        <tr>
+            <td>Ticket Médio</td>
+            <td style="color:var(--color-neutral)">${brl(k.ticket_medio || 0)}</td>
+            <td>—</td>
+            <td><span class="badge success">✓ ESTÁVEL</span></td>
+        </tr>
+        <tr>
+            <td>Top Categoria</td>
+            <td>${topCat.nome || '—'}</td>
+            <td>${topCat.pct || 0}%</td>
+            <td><span class="badge success">↑ TRENDING</span></td>
+        </tr>
+    `;
+}
+
+// ── updateKPIsSemana ──────────────────────────────────────
+function updateKPIsSemana(s) {
+    setEl('label-faturamento',  'Faturamento 7 Dias');
+    setEl('label-fat-liquido',  'Fat. Líquido 7 Dias');
+    setEl('label-lucro-liquido','—');
+    setEl('label-vendas',       'Vendas 7 Dias');
+
+    setEl('kpi-faturamento',    brl(s.faturamento || 0));
+    setEl('kpi-faturamento-badge', '7 dias');
+
+    const fatLiq7 = s.faturamento_menos_taxa || 0;
+    setEl('kpi-fat-liquido',    fatLiq7 > 0 ? brl(fatLiq7) : '—');
+    setEl('kpi-fat-liquido-badge', fatLiq7 > 0 ? '− Taxa ML' : '⟳');
+
+    setEl('kpi-lucro-liquido',  '—');
+    setEl('kpi-lucro-liquido-badge', '— Não disponível');
+
+    setEl('kpi-vendas',         s.vendas || 0);
+    setEl('kpi-vendas-badge',   '7 dias');
+
+    setEl('kpi-ticket',         brl(s.ticket_medio || 0));
+    setEl('kpi-margem-real',    '—');
+    setEl('kpi-margem-real-badge', '—');
+    setEl('kpi-fat-liquido-sec', fatLiq7 > 0 ? brl(fatLiq7) : '—');
+    setEl('kpi-margem-liq',     '—');
+    setEl('kpi-taxa-ml',        brl(s.taxa_ml || 0));
+    setEl('kpi-frete',          '—');
+    setEl('kpi-acos',           '—');
+    setEl('kpi-tacos',          '—');
+}
+
+// ── updateKPIsMes ─────────────────────────────────────────
+function updateKPIsMes(m) {
+    setEl('label-faturamento',  'Faturamento Mês');
+    setEl('label-fat-liquido',  'Fat. Líquido Mês');
+    setEl('label-lucro-liquido','—');
+    setEl('label-vendas',       'Vendas Mês');
+
+    setEl('kpi-faturamento',    brl(m.faturamento || 0));
+    setEl('kpi-faturamento-badge', 'Este mês');
+
+    const fatLiqM = m.faturamento_menos_taxa || 0;
+    setEl('kpi-fat-liquido',    fatLiqM > 0 ? brl(fatLiqM) : '—');
+    setEl('kpi-fat-liquido-badge', fatLiqM > 0 ? '− Taxa ML' : '⟳');
+
+    setEl('kpi-lucro-liquido',  '—');
+    setEl('kpi-lucro-liquido-badge', '— Não disponível');
+
+    setEl('kpi-vendas',         m.vendas || 0);
+    setEl('kpi-vendas-badge',   'Este mês');
+
+    setEl('kpi-ticket',         brl(m.ticket_medio || 0));
+    setEl('kpi-margem-real',    '—');
+    setEl('kpi-margem-real-badge', '—');
+    setEl('kpi-fat-liquido-sec', fatLiqM > 0 ? brl(fatLiqM) : '—');
+    setEl('kpi-margem-liq',     '—');
+    setEl('kpi-taxa-ml',        brl(m.taxa_ml || 0));
+    setEl('kpi-frete',          '—');
+    setEl('kpi-acos',           '—');
+    setEl('kpi-tacos',          '—');
+}
+
+// ── switchPeriod ──────────────────────────────────────────
+function switchPeriod(period) {
+    currentPeriod = period;
+
+    document.querySelectorAll('.period-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.period === period);
+    });
+
+    if (!currentData) return;
+
+    if (period === 'hoje') {
+        updateKPIsHoje(currentData.kpis);
+        updateChart(currentData.chart, '7 Dias');
+    } else if (period === 'semana') {
+        const s = currentData.semana || {};
+        updateKPIsSemana(s);
+        updateChart(currentData.chart, '7 Dias');
+    } else if (period === 'mes') {
+        const m = currentData.mes || {};
+        updateKPIsMes(m);
+        const mesChart = m.chart;
+        if (mesChart) {
+            updateChart(mesChart, 'Este Mês');
+        } else {
+            updateChart(currentData.chart, 'Este Mês');
+        }
+    }
+}
+
+// ── Period button listeners ───────────────────────────────
+document.querySelectorAll('.period-btn').forEach(btn => {
+    btn.addEventListener('click', () => switchPeriod(btn.dataset.period));
+});
+
+// ── Render (full render on data load) ─────────────────────
+function render(d) {
+    currentData = d;
+
+    const today = fmtDate(d.updated_at);
+
+    // ── Dates ──
+    document.getElementById('data-hoje').textContent     = today;
+    document.getElementById('data-hoje-cat').textContent = today;
+    document.getElementById('data-ads').textContent      = today;
+
+    // ── Render current period ──
+    switchPeriod(currentPeriod);
+
+    // ── Top 5 Products table (always today's) ──
+    document.getElementById('top-table-body').innerHTML = d.top5.map((p, i) => `
+        <tr>
+            <td><strong>${i+1}º</strong></td>
+            <td>${p.title}</td>
+            <td>${p.vendas}</td>
+            <td style="color:var(--color-revenue)">${brl(p.faturamento)}</td>
+            <td style="color:var(--color-profit)">${brl(p.lucro)}</td>
+            <td><span class="badge success">${p.score}/100</span></td>
+        </tr>`
+    ).join('') || '<tr><td colspan="6" style="color:var(--bb-dim)">Sem dados</td></tr>';
+
+    // ── Categories table (always today's) ──
+    document.getElementById('cat-table-body').innerHTML = d.categories.map(c => `
+        <tr>
+            <td>${c.nome}</td>
+            <td>${c.vendas}</td>
+            <td style="color:var(--color-revenue)">${brl(c.faturamento)}</td>
+            <td>${c.pct}%</td>
+            <td><span class="badge success">↑ LIVE</span></td>
+        </tr>`
+    ).join('') || '<tr><td colspan="5" style="color:var(--bb-dim)">Sem dados</td></tr>';
+}
+
+// ── Fetch & Refresh ───────────────────────────────────────
+const DATA_URL   = 'dashboard-data.json';
+const REFRESH_MS = 60000;
+
+async function fetchData() {
+    try {
+        const r = await fetch(DATA_URL + '?t=' + Date.now());
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        const data = await r.json();
+        render(data);
+    } catch (e) {
+        console.error('Dashboard fetch error:', e);
+        const statusEl = document.getElementById('kpi-faturamento-badge');
+        if (statusEl) statusEl.textContent = '🔴 ' + e.message;
+    }
+}
+
+fetchData();
+setInterval(fetchData, REFRESH_MS);
+
+// ── Mouse tracking (radial hover effect) ─────────────────
+document.querySelectorAll('.kpi-card').forEach(card => {
+    card.addEventListener('mousemove', (e) => {
+        const rect = card.getBoundingClientRect();
+        card.style.setProperty('--mouse-x', ((e.clientX - rect.left) / rect.width  * 100) + '%');
+        card.style.setProperty('--mouse-y', ((e.clientY - rect.top)  / rect.height * 100) + '%');
+    });
+});
+</script>
 </body>
 </html>
