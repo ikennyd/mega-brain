@@ -1,21 +1,29 @@
 {
-  "updated_at": "2026-03-09T03:06:40.150749Z",
+  "updated_at": "2026-03-09T00:32:51.583881",
   "kpis": {
     "faturamento_hoje": 67.87,
     "vendas_hoje": 1,
     "ticket_medio": 67.87,
-    "lucro_bruto": 10.18,
-    "margem_pct": 15.0,
-    "lucro_por_pedido": 10.18,
+    "cmv_total": 35.84,
+    "lucro_bruto": 32.03,
+    "margem_pct_real": 47.2,
+    "lucro_por_pedido": 32.03,
     "vendas_semana": 368,
-    "faturamento_semana": 23996.61
+    "faturamento_semana": 23996.61,
+    "ad_spend": 0,
+    "ad_revenue": 0,
+    "organic_revenue": 67.87,
+    "acos": 0,
+    "tacos": 0.0
   },
   "top5": [
     {
       "vendas": 1,
       "faturamento": 67.87,
+      "custo": 35.84,
       "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
-      "lucro": 10.18,
+      "lucro": 32.03,
+      "margem_pct": 47.2,
       "score": 82
     }
   ],
@@ -24,7 +32,9 @@
       "nome": "Vestuário Adult",
       "vendas": 1,
       "faturamento": 67.87,
-      "pct": 100.0
+      "custo": 35.84,
+      "pct": 100.0,
+      "margem_pct": 47.2
     }
   ],
   "chart": {
@@ -58,6 +68,8 @@
   },
   "meta": {
     "seller_id": "694166791",
-    "source": "MercadoLivre API v1 — LIVE via GitHub Actions"
+    "source": "MercadoLivre API v1 — LIVE",
+    "total_orders_fetched": 1,
+    "pads_campaigns_found": false
   }
 }
