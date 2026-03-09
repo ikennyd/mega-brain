@@ -1,18 +1,23 @@
 {
-  "updated_at": "2026-03-09T00:32:51.583881",
+  "updated_at": "2026-03-09T01:01:02.150960",
   "kpis": {
-    "faturamento_hoje": 67.87,
-    "vendas_hoje": 1,
-    "ticket_medio": 67.87,
-    "cmv_total": 35.84,
-    "lucro_bruto": 32.03,
-    "margem_pct_real": 47.2,
-    "lucro_por_pedido": 32.03,
-    "vendas_semana": 368,
-    "faturamento_semana": 23996.61,
+    "faturamento_hoje": 102.78,
+    "vendas_hoje": 2,
+    "ticket_medio": 51.39,
+    "cmv_total": 54.1,
+    "lucro_bruto": 48.68,
+    "margem_pct_real": 47.4,
+    "lucro_por_pedido": 24.34,
+    "taxa_ml_total": 11.28,
+    "shipping_total": 14.5,
+    "faturamento_liquido": 77.0,
+    "margem_liquida_pct": 22.3,
+    "lucro_liquido": 22.9,
+    "vendas_semana": 369,
+    "faturamento_semana": 24031.52,
     "ad_spend": 0,
     "ad_revenue": 0,
-    "organic_revenue": 67.87,
+    "organic_revenue": 102.78,
     "acos": 0,
     "tacos": 0.0
   },
@@ -22,8 +27,21 @@
       "faturamento": 67.87,
       "custo": 35.84,
       "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
+      "taxa_ml": 6.39,
+      "full_unit_price": 99,
       "lucro": 32.03,
       "margem_pct": 47.2,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 34.91,
+      "custo": 18.26,
+      "title": "Carteira Couro Legítimo Slim 8 Porta Cartões E Cnh",
+      "taxa_ml": 4.89,
+      "full_unit_price": 59.99,
+      "lucro": 16.65,
+      "margem_pct": 47.7,
       "score": 82
     }
   ],
@@ -33,8 +51,18 @@
       "vendas": 1,
       "faturamento": 67.87,
       "custo": 35.84,
-      "pct": 100.0,
+      "taxa_ml": 6.39,
+      "pct": 66.0,
       "margem_pct": 47.2
+    },
+    {
+      "nome": "Acessórios",
+      "vendas": 1,
+      "faturamento": 34.91,
+      "custo": 18.26,
+      "taxa_ml": 4.89,
+      "pct": 34.0,
+      "margem_pct": 47.7
     }
   ],
   "chart": {
@@ -53,7 +81,7 @@
       69,
       50,
       64,
-      56,
+      57,
       0
     ],
     "faturamento": [
@@ -62,14 +90,63 @@
       4209.9,
       3162.44,
       5479.36,
-      3369.74,
+      3404.65,
       0
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 1,
+    "total_orders_fetched": 2,
     "pads_campaigns_found": false
+  },
+  "semana": {
+    "vendas": 369,
+    "faturamento": 24031.52,
+    "taxa_ml": 2758.93,
+    "faturamento_menos_taxa": 21272.59,
+    "ticket_medio": 65.13
+  },
+  "mes": {
+    "vendas": 455,
+    "faturamento": 29758.57,
+    "taxa_ml": 3866.71,
+    "faturamento_menos_taxa": 25891.86,
+    "ticket_medio": 65.4,
+    "chart": {
+      "labels": [
+        "Dom (01)",
+        "Seg (02)",
+        "Ter (03)",
+        "Qua (04)",
+        "Qui (05)",
+        "Sex (06)",
+        "Sáb (07)",
+        "Dom (08)",
+        "Seg (09)"
+      ],
+      "vendas": [
+        21,
+        67,
+        55,
+        71,
+        69,
+        50,
+        64,
+        57,
+        0
+      ],
+      "faturamento": [
+        1349.93,
+        4476.04,
+        3364.82,
+        4243.56,
+        4209.9,
+        3162.44,
+        5479.36,
+        3404.65,
+        0
+      ]
+    }
   }
 }
