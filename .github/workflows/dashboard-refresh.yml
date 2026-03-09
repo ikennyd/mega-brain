@@ -42,7 +42,7 @@ jobs:
           GH_PAT: ${{ secrets.GH_PAT }}
           GH_REPO: ${{ github.repository }}
         working-directory: main-branch
-        run: python3 ci_fetch_dashboard.py
+        run: python3 fetch_dashboard_data.py
 
       - name: Deploy dashboard-data.json to gh-pages
         run: |
