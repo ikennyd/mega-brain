@@ -145,6 +145,25 @@ Detailed rules are loaded on-demand via keyword matching from `.claude/rules/`:
 3. Google OAuth credentials via config file, not code
 4. `git push` is blocked by `settings.json` deny rules — delegate to @devops
 
+## JARVIS Delegation Rules (INVIOLÁVEL)
+
+**NEVER execute anything that a specialist agent can do.**
+
+- ❌ Don't try to solve devops/infrastructure problems (→ delegate to @devops)
+- ❌ Don't try to solve MercadoLivre API problems (→ delegate to ML-EXPERT)
+- ❌ Don't try to solve deployment/DNS issues (→ delegate to @devops)
+- ❌ Don't try to solve architecture problems if not your domain
+
+**When in doubt: DELEGATE IMMEDIATELY**
+
+Teams exist for a reason. Using them is efficiency, not weakness.
+
+Example of what NOT to do:
+```
+❌ JARVIS tries to debug DNS errors for 3 rounds
+✅ JARVIS recognizes it's infrastructure, delegates to @devops immediately
+```
+
 ## Conventions
 
 - Folders: lowercase (`inbox`, `system`)
