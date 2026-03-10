@@ -1290,8 +1290,72 @@ function updateKPIsSemana(s) {
     setEl('kpi-margem-liq',     '—');
     setEl('kpi-taxa-ml',        brl(s.taxa_ml || 0));
     setEl('kpi-frete',          '—');
-    setEl('kpi-acos',           '—');
-    setEl('kpi-tacos',          '—');
+
+    // Render ADS data (7 Dias)
+    const acosVal7 = s.acos || 0;
+    const tacosVal7 = s.tacos || 0;
+    const adSpend7 = s.ad_spend || 0;
+    const adRevenue7 = s.ad_revenue || 0;
+    const organicRev7 = s.organic_revenue || 0;
+
+    // ACOS
+    const acosInfo7 = acosStyle(acosVal7, 30, 15);
+    const acosEl7 = document.getElementById('kpi-acos');
+    if (acosEl7) {
+        acosEl7.textContent = acosVal7 > 0 ? pct(acosVal7) : '—';
+        acosEl7.className = 'kpi-value secondary ' + acosInfo7.cls;
+    }
+    document.getElementById('card-acos')?.style.setProperty('--bb-accent', acosInfo7.color);
+    const acosBadge7 = document.getElementById('kpi-acos-badge');
+    if (acosBadge7) {
+        acosBadge7.textContent = acosVal7 > 0 ? (acosVal7 > 30 ? '✗ Alto' : acosVal7 > 15 ? '⚠ Atenção' : '✓ Ok') : '⟳ Aguardando';
+        acosBadge7.style.borderColor = acosInfo7.color;
+        acosBadge7.style.color = acosInfo7.color;
+    }
+
+    // TACOS
+    const tacosInfo7 = acosStyle(tacosVal7, 15, 8);
+    const tacosEl7 = document.getElementById('kpi-tacos');
+    if (tacosEl7) {
+        tacosEl7.textContent = tacosVal7 > 0 ? pct(tacosVal7) : '—';
+        tacosEl7.className = 'kpi-value secondary ' + tacosInfo7.cls;
+    }
+    document.getElementById('card-tacos')?.style.setProperty('--bb-accent', tacosInfo7.color);
+    const tacosBadge7 = document.getElementById('kpi-tacos-badge');
+    if (tacosBadge7) {
+        tacosBadge7.textContent = tacosVal7 > 0 ? (tacosVal7 > 15 ? '✗ Alto' : tacosVal7 > 8 ? '⚠ Atenção' : '✓ Ok') : '⟳ Aguardando';
+        tacosBadge7.style.borderColor = tacosInfo7.color;
+        tacosBadge7.style.color = tacosInfo7.color;
+    }
+
+    // ADS Tab
+    document.getElementById('ads-spend').textContent = adSpend7 > 0 ? brl(adSpend7) : '—';
+    document.getElementById('ads-revenue').textContent = adRevenue7 > 0 ? brl(adRevenue7) : '—';
+    document.getElementById('ads-organic').textContent = organicRev7 > 0 ? brl(organicRev7) : '—';
+
+    const adAcosEl7 = document.getElementById('ads-acos');
+    if (adAcosEl7) {
+        adAcosEl7.textContent = acosVal7 > 0 ? pct(acosVal7) : '—';
+        adAcosEl7.style.color = acosInfo7.color;
+    }
+
+    const adTacosEl7 = document.getElementById('ads-tacos');
+    if (adTacosEl7) {
+        adTacosEl7.textContent = tacosVal7 > 0 ? pct(tacosVal7) : '—';
+        adTacosEl7.style.color = tacosInfo7.color;
+    }
+
+    const roasEl7 = document.getElementById('ads-roas');
+    if (roasEl7) {
+        if (adSpend7 > 0 && adRevenue7 > 0) {
+            const roas7 = adRevenue7 / adSpend7;
+            roasEl7.textContent = roas7.toFixed(2) + 'x';
+            roasEl7.style.color = roas7 >= 4 ? 'var(--color-profit)' : roas7 >= 2 ? 'var(--color-warning)' : 'var(--color-danger)';
+        } else {
+            roasEl7.textContent = '—';
+            roasEl7.style.color = 'var(--color-neutral)';
+        }
+    }
 }
 
 // ── updateKPIsMes ─────────────────────────────────────────
@@ -1321,8 +1385,72 @@ function updateKPIsMes(m) {
     setEl('kpi-margem-liq',     '—');
     setEl('kpi-taxa-ml',        brl(m.taxa_ml || 0));
     setEl('kpi-frete',          '—');
-    setEl('kpi-acos',           '—');
-    setEl('kpi-tacos',          '—');
+
+    // Render ADS data (Mês)
+    const acosValM = m.acos || 0;
+    const tacosValM = m.tacos || 0;
+    const adSpendM = m.ad_spend || 0;
+    const adRevenueM = m.ad_revenue || 0;
+    const organicRevM = m.organic_revenue || 0;
+
+    // ACOS
+    const acosInfoM = acosStyle(acosValM, 30, 15);
+    const acosElM = document.getElementById('kpi-acos');
+    if (acosElM) {
+        acosElM.textContent = acosValM > 0 ? pct(acosValM) : '—';
+        acosElM.className = 'kpi-value secondary ' + acosInfoM.cls;
+    }
+    document.getElementById('card-acos')?.style.setProperty('--bb-accent', acosInfoM.color);
+    const acosBadgeM = document.getElementById('kpi-acos-badge');
+    if (acosBadgeM) {
+        acosBadgeM.textContent = acosValM > 0 ? (acosValM > 30 ? '✗ Alto' : acosValM > 15 ? '⚠ Atenção' : '✓ Ok') : '⟳ Aguardando';
+        acosBadgeM.style.borderColor = acosInfoM.color;
+        acosBadgeM.style.color = acosInfoM.color;
+    }
+
+    // TACOS
+    const tacosInfoM = acosStyle(tacosValM, 15, 8);
+    const tacosElM = document.getElementById('kpi-tacos');
+    if (tacosElM) {
+        tacosElM.textContent = tacosValM > 0 ? pct(tacosValM) : '—';
+        tacosElM.className = 'kpi-value secondary ' + tacosInfoM.cls;
+    }
+    document.getElementById('card-tacos')?.style.setProperty('--bb-accent', tacosInfoM.color);
+    const tacosBadgeM = document.getElementById('kpi-tacos-badge');
+    if (tacosBadgeM) {
+        tacosBadgeM.textContent = tacosValM > 0 ? (tacosValM > 15 ? '✗ Alto' : tacosValM > 8 ? '⚠ Atenção' : '✓ Ok') : '⟳ Aguardando';
+        tacosBadgeM.style.borderColor = tacosInfoM.color;
+        tacosBadgeM.style.color = tacosInfoM.color;
+    }
+
+    // ADS Tab
+    document.getElementById('ads-spend').textContent = adSpendM > 0 ? brl(adSpendM) : '—';
+    document.getElementById('ads-revenue').textContent = adRevenueM > 0 ? brl(adRevenueM) : '—';
+    document.getElementById('ads-organic').textContent = organicRevM > 0 ? brl(organicRevM) : '—';
+
+    const adAcosElM = document.getElementById('ads-acos');
+    if (adAcosElM) {
+        adAcosElM.textContent = acosValM > 0 ? pct(acosValM) : '—';
+        adAcosElM.style.color = acosInfoM.color;
+    }
+
+    const adTacosElM = document.getElementById('ads-tacos');
+    if (adTacosElM) {
+        adTacosElM.textContent = tacosValM > 0 ? pct(tacosValM) : '—';
+        adTacosElM.style.color = tacosInfoM.color;
+    }
+
+    const roasElM = document.getElementById('ads-roas');
+    if (roasElM) {
+        if (adSpendM > 0 && adRevenueM > 0) {
+            const roasM = adRevenueM / adSpendM;
+            roasElM.textContent = roasM.toFixed(2) + 'x';
+            roasElM.style.color = roasM >= 4 ? 'var(--color-profit)' : roasM >= 2 ? 'var(--color-warning)' : 'var(--color-danger)';
+        } else {
+            roasElM.textContent = '—';
+            roasElM.style.color = 'var(--color-neutral)';
+        }
+    }
 }
 
 // ── switchPeriod ──────────────────────────────────────────
