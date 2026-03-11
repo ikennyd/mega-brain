@@ -3,1428 +3,1308 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AIOX Sales Intelligence • Dark Cockpit Edition</title>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>HUGOJOBS Dashboard — Apple Edition</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
     <style>
+        /* ═══════════════════════════════════════════════════════════════════════════════════ */
+        /* APPLE DESIGN SYSTEM — Light/Dark Theme                                            */
+        /* ═══════════════════════════════════════════════════════════════════════════════════ */
+
         :root {
-            /* AIOX Core Colors */
-            --bb-lime: #D1FF00;
-            --bb-dark: #050505;
-            --bb-surface: #0F0F11;
-            --bb-surface-alt: #1C1E19;
-            --bb-cream: rgb(244, 244, 232);
-            --bb-dim: rgba(245, 244, 231, 0.4);
-            --bb-border: rgba(156, 156, 156, 0.15);
-            --bb-gray-charcoal: #3D3D3D;
-            --bb-blue: #0099FF;
-            --bb-flare: #ED4609;
+            /* ── LIGHT MODE ── */
+            --bg-primary: #ffffff;
+            --bg-secondary: #f5f5f7;
+            --bg-tertiary: #efefef;
+            --text-primary: #000000;
+            --text-secondary: #666666;
+            --text-tertiary: #999999;
+            --border-color: #e5e5e7;
+            --accent-color: #D1FF00;      /* AIOX Lime */
+            --accent-dark: #b8e600;
+            --danger-color: #ff3b30;
+            --success-color: #34c759;
+            --warning-color: #ff9500;
 
-            /* ── SEMANTIC COLOR SYSTEM (Phase 1) ── */
-            --color-revenue:  #D1FF00;   /* lime    — faturamento, vendas */
-            --color-profit:   #00E5B4;   /* teal    — lucro, margem */
-            --color-cost:     #FF6B35;   /* orange-red — CMV, custos */
-            --color-ads:      #B78BFF;   /* purple  — métricas de ADS */
-            --color-neutral:  #94A3B8;   /* slate   — ticket médio, orgânico */
-            --color-danger:   #FF4747;   /* red     — ACOS alto, alertas */
-            --color-warning:  #FFB800;   /* amber   — TACOS, atenção */
-
-            /* Easing & Motion */
-            --bb-ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
-            --bb-ease-smooth: cubic-bezier(0.25, 0.1, 0.25, 1);
-            --bb-dur-fast: 0.2s;
-            --bb-dur-medium: 0.4s;
-            --bb-dur-slow: 0.7s;
+            /* ── DARK MODE ── */
+            --bg-primary-dark: #0a0a0a;
+            --bg-secondary-dark: #1c1c1e;
+            --bg-tertiary-dark: #2c2c2e;
+            --text-primary-dark: #ffffff;
+            --text-secondary-dark: #a1a1a6;
+            --text-tertiary-dark: #666666;
+            --border-color-dark: #424245;
 
             /* Spacing */
-            --spacing-xs: 0.5rem;
-            --spacing-sm: 1rem;
-            --spacing-md: 2rem;
-            --spacing-lg: 3rem;
-            --spacing-xl: 4rem;
+            --spacing-2xs: 4px;
+            --spacing-xs: 8px;
+            --spacing-sm: 12px;
+            --spacing-md: 16px;
+            --spacing-lg: 24px;
+            --spacing-xl: 32px;
 
-            /* Grid */
-            --grid-columns: 12;
-            --grid-gap: 24px;
-            --base-unit: 4px;
+            /* Border Radius */
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 12px;
+
+            /* Shadows */
+            --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
+            --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.12);
+            --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.16);
+
+            /* Transitions */
+            --transition-fast: 150ms cubic-bezier(0.25, 0.1, 0.25, 1);
+            --transition-normal: 250ms cubic-bezier(0.25, 0.1, 0.25, 1);
         }
 
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+        /* ── DARK MODE ACTIVATION ── */
+        [data-theme="dark"] {
+            --bg-primary: var(--bg-primary-dark);
+            --bg-secondary: var(--bg-secondary-dark);
+            --bg-tertiary: var(--bg-tertiary-dark);
+            --text-primary: var(--text-primary-dark);
+            --text-secondary: var(--text-secondary-dark);
+            --text-tertiary: var(--text-tertiary-dark);
+            --border-color: var(--border-color-dark);
+        }
 
-        html, body { width: 100%; height: 100%; }
+        /* ═══════════════════════════════════════════════════════════════════════════════════ */
+        /* GLOBAL STYLES                                                                      */
+        /* ═══════════════════════════════════════════════════════════════════════════════════ */
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            font-size: 16px;
+        }
 
         body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-            background: var(--bb-dark);
-            color: var(--bb-cream);
-            overflow-x: hidden;
-            position: relative;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif;
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            transition: background-color var(--transition-normal), color var(--transition-normal);
+            line-height: 1.6;
         }
 
-        /* ==================== BACKGROUND PATTERNS ==================== */
-        body::before {
-            content: '';
-            position: fixed;
-            inset: 0;
-            background-image: radial-gradient(circle, var(--bb-lime) 1px, transparent 1px);
-            background-size: 16px 16px;
-            background-position: 0 0;
-            opacity: 0.04;
-            pointer-events: none;
-            z-index: 1;
+        /* ═══════════════════════════════════════════════════════════════════════════════════ */
+        /* HEADER & THEME TOGGLE                                                              */
+        /* ═══════════════════════════════════════════════════════════════════════════════════ */
+
+        .app {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
         }
 
-        body::after {
-            content: '';
-            position: fixed;
-            inset: 0;
-            background: repeating-linear-gradient(
-                0deg,
-                transparent,
-                transparent 2px,
-                rgba(0, 0, 0, 0.15) 2px,
-                rgba(0, 0, 0, 0.15) 4px
-            );
-            pointer-events: none;
-            z-index: 2;
-        }
-
-        .container {
-            position: relative;
-            z-index: 3;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: var(--spacing-lg);
-            display: grid;
-            grid-template-columns: repeat(var(--grid-columns), 1fr);
-            gap: var(--grid-gap);
-        }
-
-        /* ==================== ANIMATIONS ==================== */
-        @keyframes orchestration-pulse {
-            0%   { box-shadow: 0 0 0 0 rgba(209, 255, 0, 0.4); transform: scale(1); }
-            50%  { box-shadow: 0 0 0 20px rgba(209, 255, 0, 0); }
-            100% { box-shadow: 0 0 0 20px rgba(209, 255, 0, 0); transform: scale(1); }
-        }
-
-        @keyframes glitch-reveal {
-            0%   { clip-path: inset(0 0 0 0); filter: hue-rotate(0deg); }
-            50%  { filter: hue-rotate(20deg); }
-            100% { clip-path: inset(0 0 0 0); filter: hue-rotate(0deg); }
-        }
-
-        @keyframes stagger-letters {
-            0%   { opacity: 0; transform: translateY(20px); }
-            100% { opacity: 1; transform: translateY(0); }
-        }
-
-        @keyframes neon-glow {
-            0%, 100% { box-shadow: 0 0 10px rgba(209, 255, 0, 0.3), inset 0 0 10px rgba(209, 255, 0, 0.1); }
-            50%       { box-shadow: 0 0 30px rgba(209, 255, 0, 0.6), inset 0 0 20px rgba(209, 255, 0, 0.2); }
-        }
-
-        /* ==================== HEADER ==================== */
         header {
-            grid-column: 1 / -1;
-            padding: var(--spacing-xl);
-            background: linear-gradient(135deg, var(--bb-surface) 0%, var(--bb-surface-alt) 100%);
-            border: 1px solid var(--bb-border);
-            position: relative;
-            overflow: hidden;
-            animation: glitch-reveal var(--bb-dur-slow) var(--bb-ease-smooth);
-        }
-
-        header::before {
-            content: '';
-            position: absolute;
-            top: 0; left: 0; right: 0;
-            height: 2px;
-            background: linear-gradient(90deg, transparent, var(--bb-lime), transparent);
-        }
-
-        header::after {
-            content: '';
-            position: absolute;
-            inset: 0;
-            background: repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(0,0,0,0.03) 1px, rgba(0,0,0,0.03) 2px);
-            pointer-events: none;
-        }
-
-        h1 {
-            font-size: clamp(2rem, 6vw, 3.5rem);
-            font-weight: 900;
-            margin-bottom: var(--spacing-sm);
-            letter-spacing: -0.02em;
-            position: relative;
-            z-index: 2;
-            line-height: 1.1;
-        }
-
-        h1 span {
-            color: var(--bb-lime);
-            display: block;
-            animation: stagger-letters var(--bb-dur-slow) var(--bb-ease-spring) 0.1s forwards;
-        }
-
-        .subtitle {
-            color: var(--bb-dim);
-            font-size: 0.9rem;
-            font-weight: 600;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            position: relative;
-            z-index: 2;
-        }
-
-        .timestamp {
-            color: var(--bb-lime);
-            font-family: 'Roboto Mono', monospace;
-            font-size: 0.75rem;
-            margin-top: var(--spacing-sm);
-            position: relative;
-            z-index: 2;
-        }
-
-        .timestamp::before { content: '> '; margin-right: 0.5rem; }
-
-        /* ==================== PERIOD FILTER ==================== */
-        .period-filter-wrap {
-            grid-column: 1 / -1;
+            background-color: var(--bg-secondary);
+            border-bottom: 1px solid var(--border-color);
+            padding: var(--spacing-lg);
             display: flex;
+            justify-content: space-between;
             align-items: center;
-            gap: 1rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: var(--shadow-sm);
         }
 
-        .period-filter-label {
-            font-family: 'Roboto Mono', monospace;
-            font-size: 0.65rem;
-            color: var(--bb-dim);
+        header h1 {
+            font-size: 24px;
             font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 0.15em;
-            white-space: nowrap;
+            color: var(--text-primary);
         }
 
-        .period-filter {
+        .header-right {
             display: flex;
-            gap: 0.5rem;
+            gap: var(--spacing-md);
+            align-items: center;
         }
 
-        .period-btn {
-            padding: 0.5rem 1.25rem;
-            border-radius: 9999px;
-            border: 1px solid rgba(255,255,255,0.15);
-            background: rgba(255,255,255,0.05);
-            color: var(--bb-dim);
-            font-family: 'Roboto Mono', monospace;
-            font-size: 0.75rem;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 0.08em;
+        #theme-toggle {
+            padding: var(--spacing-xs) var(--spacing-sm);
+            border-radius: var(--radius-md);
+            border: 1px solid var(--border-color);
+            background-color: var(--bg-tertiary);
+            color: var(--text-primary);
             cursor: pointer;
-            transition: all 0.2s;
+            font-size: 14px;
+            font-weight: 600;
+            transition: all var(--transition-fast);
         }
 
-        .period-btn:hover {
-            background: rgba(255,255,255,0.1);
-            color: var(--bb-cream);
+        #theme-toggle:hover {
+            background-color: var(--accent-color);
+            color: var(--text-primary);
+            border-color: var(--accent-color);
         }
 
-        .period-btn.active {
-            background: var(--color-revenue);
-            border-color: var(--color-revenue);
-            color: #000;
-            font-weight: 700;
+        .time-display {
+            font-size: 12px;
+            color: var(--text-tertiary);
         }
 
-        /* ==================== TAB SYSTEM (Phase 1) ==================== */
-        .tab-nav {
-            grid-column: 1 / -1;
-            display: flex;
-            gap: 4px;
-            background: var(--bb-surface);
-            border: 1px solid var(--bb-border);
-            padding: 6px;
-            position: relative;
+        /* ═══════════════════════════════════════════════════════════════════════════════════ */
+        /* MAIN CONTENT                                                                        */
+        /* ═══════════════════════════════════════════════════════════════════════════════════ */
+
+        main {
+            flex: 1;
+            padding: var(--spacing-xl);
+            max-width: 1400px;
+            margin: 0 auto;
+            width: 100%;
         }
 
-        .tab-nav::before {
-            content: '';
-            position: absolute;
-            top: 0; left: 0; right: 0;
-            height: 2px;
-            background: linear-gradient(90deg, transparent, var(--bb-lime), transparent);
-        }
-
-        .tab-btn {
-            font-family: 'Roboto Mono', monospace;
-            font-size: 0.75rem;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            padding: 10px 20px;
-            background: transparent;
-            border: 1px solid transparent;
-            color: var(--bb-dim);
-            cursor: pointer;
-            transition: all var(--bb-dur-medium) var(--bb-ease-smooth);
-            position: relative;
-            white-space: nowrap;
-        }
-
-        .tab-btn::after {
-            content: '';
-            position: absolute;
-            bottom: -1px;
-            left: 0; right: 0;
-            height: 2px;
-            background: var(--bb-lime);
-            transform: scaleX(0);
-            transition: transform var(--bb-dur-medium) var(--bb-ease-spring);
-        }
-
-        .tab-btn:hover {
-            color: var(--bb-cream);
-            border-color: var(--bb-border);
-        }
-
-        .tab-btn.active {
-            color: var(--bb-lime);
-            border-color: rgba(209, 255, 0, 0.2);
-            background: rgba(209, 255, 0, 0.05);
-        }
-
-        .tab-btn.active::after { transform: scaleX(1); }
-
-        /* Tab panels */
-        .tab-panel {
-            display: none;
-            grid-column: 1 / -1;
-            display: none;
-            grid-template-columns: repeat(12, 1fr);
-            gap: var(--grid-gap);
-        }
-
-        .tab-panel.active {
+        /* ── KPI GRID ── */
+        .kpi-grid {
             display: grid;
-        }
-
-        /* ==================== KPI CARDS — PRIMARY (Phase 1) ==================== */
-        .kpi-primary-row {
-            grid-column: 1 / -1;
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: var(--grid-gap);
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: var(--spacing-lg);
+            margin-bottom: var(--spacing-xl);
         }
 
         .kpi-card {
-            background: linear-gradient(135deg, var(--bb-surface-alt) 0%, var(--bb-surface) 100%);
-            border: 1px solid var(--bb-border);
-            padding: var(--spacing-md);
-            position: relative;
+            background-color: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: var(--spacing-lg);
             cursor: pointer;
-            transition: all var(--bb-dur-medium) var(--bb-ease-spring);
+            transition: all var(--transition-fast);
+            position: relative;
             overflow: hidden;
-            animation: stagger-letters var(--bb-dur-slow) var(--bb-ease-spring) backwards;
+        }
+
+        .kpi-card:hover {
+            border-color: var(--accent-color);
+            box-shadow: var(--shadow-md);
+            transform: translateY(-2px);
         }
 
         .kpi-card::before {
             content: '';
             position: absolute;
-            top: 0; left: 0; right: 0;
-            height: 2px;
-            background: linear-gradient(90deg, transparent, var(--bb-accent, var(--bb-lime)), transparent);
-            transform: scaleX(0);
-            transform-origin: left;
-            transition: transform var(--bb-dur-medium) var(--bb-ease-spring);
-        }
-
-        .kpi-card::after {
-            content: '';
-            position: absolute;
-            inset: 0;
-            background: radial-gradient(circle at var(--mouse-x, 50%) var(--mouse-y, 50%), rgba(209, 255, 0, 0.07), transparent);
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent-color), transparent);
             opacity: 0;
-            transition: opacity var(--bb-dur-fast);
+            transition: opacity var(--transition-fast);
         }
 
-        .kpi-card:hover {
-            border-color: var(--bb-accent, var(--bb-lime));
-            transform: translateY(-4px);
-            animation: orchestration-pulse 2s ease-in-out infinite;
+        .kpi-card:hover::before {
+            opacity: 1;
         }
 
-        .kpi-card:hover::before { transform: scaleX(1); }
-        .kpi-card:hover::after  { opacity: 1; }
-
-        /* Primary card: taller + bigger value */
-        .kpi-card.primary {
-            padding: var(--spacing-md) var(--spacing-md) calc(var(--spacing-md) + 8px);
-        }
-
-        .kpi-card.primary .kpi-value {
-            font-size: 2.2rem;
-        }
-
-        /* Secondary row — 4 columns, 2 rows */
-        .kpi-secondary-row {
-            grid-column: 1 / -1;
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: var(--grid-gap);
-        }
-
-        .kpi-card.secondary .kpi-value {
-            font-size: 1.5rem;
-        }
-
-        .kpi-icon {
-            font-size: 1.75rem;
-            margin-bottom: var(--spacing-sm);
-        }
-
-        .kpi-label {
-            font-family: 'Roboto Mono', monospace;
-            font-size: 0.65rem;
-            color: var(--bb-dim);
-            font-weight: 700;
+        .kpi-card h3 {
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--text-secondary);
             text-transform: uppercase;
-            letter-spacing: 0.15em;
+            letter-spacing: 0.5px;
             margin-bottom: var(--spacing-xs);
         }
 
         .kpi-value {
-            font-size: clamp(1.4rem, 3vw, 2rem);
-            font-weight: 900;
-            font-family: 'Roboto Mono', monospace;
-            letter-spacing: -0.02em;
-            margin-bottom: var(--spacing-xs);
-            /* Default fallback; overridden per-card via inline style */
-            color: var(--bb-lime);
-        }
-
-        /* Semantic color helpers on the value */
-        .kpi-value.revenue { color: var(--color-revenue); }
-        .kpi-value.profit  { color: var(--color-profit);  }
-        .kpi-value.cost    { color: var(--color-cost);    }
-        .kpi-value.ads     { color: var(--color-ads);     }
-        .kpi-value.neutral { color: var(--color-neutral); }
-        .kpi-value.danger  { color: var(--color-danger);  }
-        .kpi-value.warning { color: var(--color-warning); }
-
-        .kpi-change {
-            display: inline-block;
-            font-family: 'Roboto Mono', monospace;
-            font-size: 0.75rem;
+            font-size: 32px;
             font-weight: 700;
-            padding: 6px 10px;
-            border: 1px solid var(--bb-lime);
-            color: var(--bb-lime);
-            background: rgba(209, 255, 0, 0.05);
-            transition: all var(--bb-dur-medium) var(--bb-ease-spring);
+            color: var(--text-primary);
+            margin-bottom: var(--spacing-xs);
+            display: flex;
+            align-items: baseline;
+            gap: var(--spacing-xs);
         }
 
-        /* ==================== SECTIONS ==================== */
+        .kpi-trend {
+            font-size: 14px;
+            color: var(--success-color);
+        }
+
+        .kpi-trend.negative {
+            color: var(--danger-color);
+        }
+
+        .kpi-subtext {
+            font-size: 13px;
+            color: var(--text-secondary);
+            margin-bottom: var(--spacing-md);
+        }
+
+        .kpi-action {
+            font-size: 12px;
+            color: var(--accent-color);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            cursor: pointer;
+            transition: color var(--transition-fast);
+        }
+
+        .kpi-action:hover {
+            color: var(--accent-dark);
+        }
+
+        /* ── SECTIONS ── */
         .section {
-            grid-column: 1 / -1;
-            background: linear-gradient(135deg, var(--bb-surface-alt) 0%, var(--bb-surface) 100%);
-            border: 1px solid var(--bb-border);
-            padding: var(--spacing-lg);
-            position: relative;
-            overflow: hidden;
-        }
-
-        .section::before {
-            content: '';
-            position: absolute;
-            top: 0; left: 0; right: 0;
-            height: 2px;
-            background: linear-gradient(90deg, transparent, var(--bb-lime), transparent);
+            margin-bottom: var(--spacing-xl);
         }
 
         .section h2 {
-            font-size: clamp(1.2rem, 2.5vw, 1.6rem);
-            font-weight: 900;
+            font-size: 18px;
+            font-weight: 700;
             margin-bottom: var(--spacing-lg);
-            display: flex;
-            align-items: center;
-            gap: var(--spacing-sm);
-            letter-spacing: -0.02em;
-            position: relative;
-            z-index: 2;
+            color: var(--text-primary);
         }
 
-        .section h2::before {
-            content: '';
-            width: 4px;
-            height: 24px;
-            background: var(--bb-lime);
+        /* ── TABLE STYLES ── */
+        .products-table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: var(--bg-secondary);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .products-table thead {
+            background-color: var(--bg-tertiary);
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .products-table th {
+            padding: var(--spacing-md);
+            text-align: left;
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .products-table td {
+            padding: var(--spacing-md);
+            border-bottom: 1px solid var(--border-color);
+            font-size: 14px;
+        }
+
+        .products-table tbody tr {
+            transition: background-color var(--transition-fast);
+        }
+
+        .products-table tbody tr:hover {
+            background-color: var(--bg-tertiary);
+        }
+
+        .products-table tbody tr:last-child td {
+            border-bottom: none;
+        }
+
+        .product-image {
+            width: 56px;
+            height: 56px;
+            border-radius: var(--radius-md);
+            object-fit: cover;
+            background-color: var(--bg-tertiary);
+        }
+
+        .product-name {
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .product-title-cell {
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-md);
+        }
+
+        .metric-positive {
+            color: var(--success-color);
+            font-weight: 600;
+        }
+
+        .metric-negative {
+            color: var(--danger-color);
+            font-weight: 600;
+        }
+
+        /* ── CAMPAIGNS GRID ── */
+        .campaigns-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: var(--spacing-lg);
+        }
+
+        .campaign-card {
+            background-color: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: var(--spacing-lg);
+        }
+
+        .campaign-card h3 {
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: var(--spacing-md);
+            color: var(--text-primary);
+        }
+
+        .campaign-metric {
+            display: flex;
+            justify-content: space-between;
+            padding: var(--spacing-sm) 0;
+            border-bottom: 1px solid var(--border-color);
+            font-size: 14px;
+        }
+
+        .campaign-metric:last-child {
+            border-bottom: none;
+        }
+
+        .campaign-metric-label {
+            color: var(--text-secondary);
+        }
+
+        .campaign-metric-value {
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        /* ── COST FORM ── */
+        .cost-form {
+            background-color: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: var(--spacing-lg);
+            max-width: 500px;
+        }
+
+        .form-group {
+            margin-bottom: var(--spacing-lg);
+        }
+
+        .form-label {
+            display: block;
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: var(--spacing-xs);
+        }
+
+        .form-control {
+            width: 100%;
+            padding: var(--spacing-sm) var(--spacing-md);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            font-size: 14px;
+            font-family: inherit;
+            transition: all var(--transition-fast);
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: var(--accent-color);
+            box-shadow: 0 0 0 3px rgba(209, 255, 0, 0.1);
+        }
+
+        .btn-primary {
+            width: 100%;
+            padding: var(--spacing-sm) var(--spacing-md);
+            background-color: var(--accent-color);
+            color: var(--text-primary);
+            border: none;
+            border-radius: var(--radius-md);
+            font-size: 14px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            cursor: pointer;
+            transition: all var(--transition-fast);
+        }
+
+        .btn-primary:hover {
+            background-color: var(--accent-dark);
+            transform: scale(1.02);
+        }
+
+        .cost-history {
+            margin-top: var(--spacing-lg);
+            padding-top: var(--spacing-lg);
+            border-top: 1px solid var(--border-color);
+        }
+
+        .cost-history h4 {
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--text-secondary);
+            margin-bottom: var(--spacing-md);
+        }
+
+        .cost-history-item {
+            display: flex;
+            justify-content: space-between;
+            font-size: 13px;
+            padding: var(--spacing-xs) 0;
+            color: var(--text-secondary);
+        }
+
+        /* ── CHART CONTAINER ── */
+        #chart-container {
+            background-color: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: var(--spacing-lg);
+            height: 400px;
+            box-shadow: var(--shadow-sm);
+        }
+
+        /* ═══════════════════════════════════════════════════════════════════════════════════ */
+        /* MODAL STYLES                                                                        */
+        /* ═══════════════════════════════════════════════════════════════════════════════════ */
+
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.3);
+            z-index: 1000;
+            animation: fadeIn 150ms ease-out;
+            overflow-y: auto;
+        }
+
+        .modal.active {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-content {
+            background-color: var(--bg-primary);
+            border-radius: var(--radius-lg);
+            padding: var(--spacing-xl);
+            max-width: 800px;
+            width: 90%;
+            max-height: 90vh;
+            overflow-y: auto;
+            box-shadow: var(--shadow-lg);
+            animation: slideUp 250ms cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: var(--spacing-lg);
+            padding-bottom: var(--spacing-lg);
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .modal-header h2 {
+            font-size: 20px;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+
+        .modal-close {
+            background: none;
+            border: none;
+            font-size: 24px;
+            color: var(--text-secondary);
+            cursor: pointer;
+            padding: 0;
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: color var(--transition-fast);
+        }
+
+        .modal-close:hover {
+            color: var(--text-primary);
+        }
+
+        /* ── ORDER ITEM IN MODAL ── */
+        .order-item {
+            display: flex;
+            gap: var(--spacing-lg);
+            padding: var(--spacing-lg);
+            border-bottom: 1px solid var(--border-color);
+            transition: background-color var(--transition-fast);
+        }
+
+        .order-item:hover {
+            background-color: var(--bg-tertiary);
+        }
+
+        .order-item:last-child {
+            border-bottom: none;
+        }
+
+        .order-image {
+            width: 120px;
+            height: 120px;
+            border-radius: var(--radius-md);
+            object-fit: cover;
+            background-color: var(--bg-tertiary);
             flex-shrink: 0;
         }
 
-        .section h2::after {
-            content: '';
+        .order-info {
             flex: 1;
-            height: 1px;
-            background: linear-gradient(90deg, var(--bb-lime), transparent);
         }
 
-        /* ==================== LUCRO BOX ==================== */
-        .lucro-box {
-            background: linear-gradient(135deg, rgba(0, 229, 180, 0.06) 0%, rgba(0, 229, 180, 0.02) 100%);
-            border: 2px solid var(--color-profit);
-            padding: var(--spacing-lg);
-            margin: var(--spacing-lg) 0;
-            font-family: 'Roboto Mono', monospace;
-            font-size: 0.95rem;
-            line-height: 2;
-            position: relative;
-        }
-
-        .lucro-box::before {
-            content: '';
-            position: absolute;
-            inset: -1px;
-            background: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(0,229,180,0.02) 10px, rgba(0,229,180,0.02) 20px);
-            pointer-events: none;
-        }
-
-        .lucro-item {
-            display: flex;
-            justify-content: space-between;
-            padding: 8px 0;
-            border-bottom: 1px solid rgba(0, 229, 180, 0.12);
-            position: relative;
-            z-index: 1;
-        }
-
-        .lucro-item .cost-val  { color: var(--color-cost); }
-        .lucro-item .profit-val { color: var(--color-profit); }
-
-        .lucro-item:last-child {
-            border-bottom: none;
-            border-top: 2px solid var(--color-profit);
-            margin-top: var(--spacing-md);
-            padding-top: var(--spacing-md);
+        .order-title {
+            font-size: 14px;
             font-weight: 700;
-            font-size: 1.1em;
-            color: var(--color-profit);
+            color: var(--text-primary);
+            margin-bottom: var(--spacing-xs);
         }
 
-        .lucro-item:last-child::before { content: '💎 '; }
-
-        /* ==================== TABLE ==================== */
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: var(--spacing-lg) 0;
-            font-family: 'Roboto Mono', monospace;
-            position: relative;
-            z-index: 2;
-        }
-
-        th {
-            background: transparent;
-            padding: var(--spacing-sm);
-            text-align: left;
-            font-weight: 700;
-            font-size: 0.75rem;
-            color: var(--bb-lime);
-            border-bottom: 2px solid var(--bb-lime);
-            text-transform: uppercase;
-            letter-spacing: 0.15em;
-        }
-
-        td {
-            padding: var(--spacing-sm);
-            border-bottom: 1px solid var(--bb-border);
-            color: var(--bb-cream);
-            transition: all var(--bb-dur-fast) var(--bb-ease-smooth);
-        }
-
-        /* Zebra striping (Phase 1) */
-        tbody tr:nth-child(even) td { background: rgba(255,255,255,0.03); }
-        tbody tr:nth-child(odd)  td { background: transparent; }
-
-        tbody tr:hover td {
-            background: rgba(209, 255, 0, 0.05) !important;
-            color: var(--bb-lime);
-        }
-
-        /* ==================== CHART ==================== */
-        .chart-container {
-            position: relative;
-            height: 300px;
-            margin: var(--spacing-lg) 0;
-            background: var(--bb-surface);
-            border: 1px solid var(--bb-border);
-            padding: var(--spacing-md);
-        }
-
-        /* ==================== BADGES ==================== */
-        .badge {
-            display: inline-block;
-            font-family: 'Roboto Mono', monospace;
-            font-size: 0.7rem;
-            font-weight: 700;
-            padding: 4px 8px;
-            border: 1px solid;
-            margin: 2px;
-            transition: all var(--bb-dur-fast) var(--bb-ease-smooth);
-        }
-
-        .badge.success {
-            color: var(--color-profit);
-            border-color: var(--color-profit);
-            background: rgba(0, 229, 180, 0.05);
-        }
-
-        .badge.success:hover {
-            background: rgba(0, 229, 180, 0.15);
-            box-shadow: 0 0 15px rgba(0, 229, 180, 0.3);
-        }
-
-        .badge.warning {
-            color: var(--color-warning);
-            border-color: var(--color-warning);
-            background: rgba(255, 184, 0, 0.05);
-        }
-
-        .badge.danger {
-            color: var(--color-danger);
-            border-color: var(--color-danger);
-            background: rgba(255, 71, 71, 0.05);
-        }
-
-        .badge.ads {
-            color: var(--color-ads);
-            border-color: var(--color-ads);
-            background: rgba(183, 139, 255, 0.05);
-        }
-
-        /* ==================== ADS GRID (Phase 1 — ADS tab) ==================== */
-        .ads-kpi-grid {
+        .order-details {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: var(--grid-gap);
-            margin-top: var(--spacing-lg);
+            grid-template-columns: 1fr 1fr;
+            gap: var(--spacing-md);
+            font-size: 13px;
+            color: var(--text-secondary);
+            margin-bottom: var(--spacing-sm);
         }
 
-        .ads-metric-card {
-            background: linear-gradient(135deg, rgba(183,139,255,0.06) 0%, var(--bb-surface) 100%);
-            border: 1px solid rgba(183,139,255,0.25);
-            padding: var(--spacing-md);
-            position: relative;
-        }
-
-        .ads-metric-card::before {
-            content: '';
-            position: absolute;
-            top: 0; left: 0; right: 0;
-            height: 2px;
-            background: linear-gradient(90deg, transparent, var(--color-ads), transparent);
-        }
-
-        .ads-metric-label {
-            font-family: 'Roboto Mono', monospace;
-            font-size: 0.65rem;
-            color: rgba(183,139,255,0.6);
-            font-weight: 700;
+        .order-detail-label {
+            color: var(--text-tertiary);
+            font-size: 12px;
             text-transform: uppercase;
-            letter-spacing: 0.12em;
-            margin-bottom: 8px;
+            letter-spacing: 0.3px;
         }
 
-        .ads-metric-value {
-            font-family: 'Roboto Mono', monospace;
-            font-size: 1.8rem;
-            font-weight: 900;
-            letter-spacing: -0.02em;
+        .order-detail-value {
+            color: var(--text-primary);
+            font-weight: 600;
+            font-size: 14px;
         }
 
-        .ads-metric-sub {
-            font-family: 'Roboto Mono', monospace;
-            font-size: 0.7rem;
-            color: var(--bb-dim);
-            margin-top: 6px;
+        .order-detail-value.positive {
+            color: var(--success-color);
         }
 
-        /* ==================== SCROLLBAR ==================== */
-        ::-webkit-scrollbar       { width: 8px; }
-        ::-webkit-scrollbar-track { background: var(--bb-dark); }
-        ::-webkit-scrollbar-thumb { background: var(--bb-border); }
-        ::-webkit-scrollbar-thumb:hover { background: var(--bb-lime); }
-
-        /* ==================== RESPONSIVE ==================== */
-        @media (max-width: 1024px) {
-            .kpi-primary-row   { grid-template-columns: repeat(2, 1fr); }
-            .kpi-secondary-row { grid-template-columns: repeat(2, 1fr); }
-            .ads-kpi-grid      { grid-template-columns: repeat(2, 1fr); }
+        .order-detail-value.negative {
+            color: var(--danger-color);
         }
 
-        @media (max-width: 640px) {
-            .container {
-                grid-template-columns: 1fr;
-                padding: var(--spacing-md);
+        /* ═══════════════════════════════════════════════════════════════════════════════════ */
+        /* ANIMATIONS                                                                          */
+        /* ═══════════════════════════════════════════════════════════════════════════════════ */
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
             }
-            .kpi-primary-row   { grid-template-columns: 1fr; }
-            .kpi-secondary-row { grid-template-columns: 1fr; }
-            .ads-kpi-grid      { grid-template-columns: 1fr; }
-            .tab-panel { grid-template-columns: 1fr; }
-            .tab-btn   { padding: 8px 12px; font-size: 0.65rem; }
-            h1         { font-size: 1.8rem; }
-            .period-filter { flex-wrap: wrap; }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideUp {
+            from {
+                transform: translateY(20px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        /* ═══════════════════════════════════════════════════════════════════════════════════ */
+        /* RESPONSIVE                                                                          */
+        /* ═══════════════════════════════════════════════════════════════════════════════════ */
+
+        @media (max-width: 768px) {
+            main {
+                padding: var(--spacing-lg);
+            }
+
+            .kpi-grid {
+                grid-template-columns: 1fr;
+            }
+
+            header {
+                flex-direction: column;
+                gap: var(--spacing-md);
+                text-align: center;
+            }
+
+            .modal-content {
+                width: 95%;
+            }
+
+            .products-table {
+                font-size: 12px;
+            }
+
+            .products-table th,
+            .products-table td {
+                padding: var(--spacing-sm);
+            }
         }
     </style>
 </head>
 <body>
-<div class="container">
+    <div class="app" id="app" data-theme="light">
+        <header>
+            <h1>📊 HUGOJOBS Dashboard</h1>
+            <div class="header-right">
+                <div class="time-display" id="time-display"></div>
+                <button id="theme-toggle">🌙 Escuro</button>
+            </div>
+        </header>
 
-    <!-- ══ HEADER ════════════════════════════════════════════ -->
-    <header>
-        <h1>AIOX Sales<span>Intelligence</span></h1>
-        <p class="subtitle">Dark Cockpit Edition • AI isn't the hero. You are.</p>
-        <p class="timestamp">SYS_ONLINE | LAST_UPDATE: <span id="timestamp"></span></p>
-    </header>
+        <main>
+            <!-- KPI Cards -->
+            <div class="kpi-grid" id="kpi-grid"></div>
 
-    <!-- ══ PERIOD FILTER ══════════════════════════════════════ -->
-    <div class="period-filter-wrap">
-        <span class="period-filter-label">Período:</span>
-        <div class="period-filter">
-            <button class="period-btn active" data-period="hoje">Hoje</button>
-            <button class="period-btn" data-period="semana">7 Dias</button>
-            <button class="period-btn" data-period="mes">Este Mês</button>
+            <!-- Pedidos -->
+            <section class="section">
+                <h2>📋 Pedidos de Hoje</h2>
+                <div style="overflow-x: auto;">
+                    <table class="products-table" id="products-table">
+                        <thead>
+                            <tr>
+                                <th>Produto</th>
+                                <th>Vendas</th>
+                                <th>Faturamento</th>
+                                <th>CMV</th>
+                                <th>Lucro</th>
+                                <th>Margem</th>
+                            </tr>
+                        </thead>
+                        <tbody id="products-tbody">
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- ADS Breakdown -->
+            <section class="section">
+                <h2>💰 Gasto em ADS</h2>
+                <div class="campaigns-grid" id="campaigns-grid"></div>
+            </section>
+
+            <!-- Cadastro de Custos -->
+            <section class="section">
+                <h2>⚙️ Cadastro de Custos (CMV)</h2>
+                <div class="cost-form">
+                    <div class="form-group">
+                        <label class="form-label">Produto</label>
+                        <select class="form-control" id="product-select">
+                            <option value="">Selecione um produto...</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Custo Unitário (R$)</label>
+                        <input type="number" class="form-control" id="cost-input" placeholder="0.00" step="0.01" min="0">
+                    </div>
+                    <button class="btn-primary" onclick="saveCost()">✓ Atualizar Custo</button>
+                    <div class="cost-history" id="cost-history"></div>
+                </div>
+            </section>
+
+            <!-- Gráfico 7 Dias -->
+            <section class="section">
+                <h2>📈 Análise 7 Dias</h2>
+                <div id="chart-container"></div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Modals -->
+    <div class="modal" id="modal-orders">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Todos os Pedidos de Hoje</h2>
+                <button class="modal-close" onclick="closeModal('orders')">✕</button>
+            </div>
+            <div id="orders-list"></div>
         </div>
     </div>
 
-    <!-- ══ TAB NAVIGATION (Phase 1) ══════════════════════════ -->
-    <nav class="tab-nav">
-        <button class="tab-btn active" data-tab="visao-geral">Visão Geral</button>
-        <button class="tab-btn" data-tab="ads">Performance de ADS</button>
-        <button class="tab-btn" data-tab="receita">Receita</button>
-    </nav>
-
-    <!-- ═══════════════════════════════════════════════════════
-         TAB 1 — VISÃO GERAL
-         Order: Primary KPIs → Chart → Secondary KPIs
-    ═══════════════════════════════════════════════════════ -->
-    <div class="tab-panel active" id="tab-visao-geral">
-
-        <!-- ── Primary KPIs (4 large cards) ── -->
-        <div class="kpi-primary-row">
-            <!-- Faturamento: revenue color, large -->
-            <div class="kpi-card primary" style="--bb-accent: var(--color-revenue)">
-                <div class="kpi-icon">📈</div>
-                <div class="kpi-label" id="label-faturamento">Faturamento Hoje</div>
-                <div class="kpi-value revenue primary" id="kpi-faturamento">—</div>
-                <span class="kpi-change" id="kpi-faturamento-badge">⟳ Carregando...</span>
+    <div class="modal" id="modal-ads">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Breakdown de ADS por Campanha</h2>
+                <button class="modal-close" onclick="closeModal('ads')">✕</button>
             </div>
-
-            <!-- Fat. Líquido: profit (teal), MOST PROMINENT — appears 2nd -->
-            <div class="kpi-card primary" style="--bb-accent: var(--color-profit); border-color: rgba(0,229,180,0.3);">
-                <div class="kpi-icon">💎</div>
-                <div class="kpi-label" id="label-fat-liquido">Fat. Líquido</div>
-                <div class="kpi-value profit primary" id="kpi-fat-liquido">—</div>
-                <span class="kpi-change" style="border-color:var(--color-profit);color:var(--color-profit);background:rgba(0,229,180,0.05)" id="kpi-fat-liquido-badge">⟳</span>
-            </div>
-
-            <!-- Lucro Líquido: profit (teal) -->
-            <div class="kpi-card primary" style="--bb-accent: var(--color-profit)">
-                <div class="kpi-icon">🏆</div>
-                <div class="kpi-label" id="label-lucro-liquido">Lucro Líquido</div>
-                <div class="kpi-value profit primary" id="kpi-lucro-liquido">—</div>
-                <span class="kpi-change" style="border-color:var(--color-profit);color:var(--color-profit);background:rgba(0,229,180,0.05)" id="kpi-lucro-liquido-badge">↑ Meta: margens saudáveis</span>
-            </div>
-
-            <!-- Vendas: revenue (lime) -->
-            <div class="kpi-card primary" style="--bb-accent: var(--color-neutral)">
-                <div class="kpi-icon">🛒</div>
-                <div class="kpi-label" id="label-vendas">Vendas Hoje</div>
-                <div class="kpi-value neutral primary" id="kpi-vendas">—</div>
-                <span class="kpi-change" style="border-color:var(--color-neutral);color:var(--color-neutral);background:rgba(148,163,184,0.05)" id="kpi-vendas-badge">⟳ Carregando...</span>
-            </div>
+            <div id="ads-list"></div>
         </div>
+    </div>
 
-        <!-- ── Chart (position 2, per spec) ── -->
-        <section class="section">
-            <h2 id="chart-title">Volume de Vendas • 7 Dias</h2>
-            <div class="chart-container">
-                <canvas id="volumeChart"></canvas>
-            </div>
-        </section>
+    <!-- Recharts Library -->
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/recharts@2.10.3/dist/Recharts.js"></script>
 
-        <!-- ── Secondary KPIs Row 1: Ticket Médio | Margem Real | Fat. Líquido | Margem Líquida ── -->
-        <div class="kpi-secondary-row">
-            <!-- Ticket Médio: neutral -->
-            <div class="kpi-card secondary" style="--bb-accent: var(--color-neutral)">
-                <div class="kpi-icon">💰</div>
-                <div class="kpi-label">Ticket Médio</div>
-                <div class="kpi-value neutral secondary" id="kpi-ticket">—</div>
-                <span class="kpi-change" style="border-color:var(--color-neutral);color:var(--color-neutral);background:rgba(148,163,184,0.05)">↑ Vestuário</span>
-            </div>
+    <script>
+        /* ═══════════════════════════════════════════════════════════════════════════════════ */
+        /* STATE & UTILITIES                                                                   */
+        /* ═══════════════════════════════════════════════════════════════════════════════════ */
 
-            <!-- Margem Real %: profit -->
-            <div class="kpi-card secondary" style="--bb-accent: var(--color-profit)">
-                <div class="kpi-icon">📊</div>
-                <div class="kpi-label">Margem Real %</div>
-                <div class="kpi-value profit secondary" id="kpi-margem-real">—</div>
-                <span class="kpi-change" style="border-color:var(--color-profit);color:var(--color-profit);background:rgba(0,229,180,0.05)" id="kpi-margem-real-badge">⟳</span>
-            </div>
+        let dashboardData = null;
+        let costData = {};
 
-            <!-- Fat. Líquido (secondary echo) -->
-            <div class="kpi-card secondary" style="--bb-accent: var(--color-profit)">
-                <div class="kpi-icon">🔑</div>
-                <div class="kpi-label">Fat. − Taxa ML − Frete</div>
-                <div class="kpi-value profit secondary" id="kpi-fat-liquido-sec">—</div>
-                <span class="kpi-change" style="border-color:var(--color-profit);color:var(--color-profit);background:rgba(0,229,180,0.05)">líquido ML</span>
-            </div>
-
-            <!-- Margem Líquida %: dynamic color -->
-            <div class="kpi-card secondary" id="card-margem-liq" style="--bb-accent: var(--color-neutral)">
-                <div class="kpi-icon">📉</div>
-                <div class="kpi-label">Margem Líquida %</div>
-                <div class="kpi-value secondary" id="kpi-margem-liq">—</div>
-                <span class="kpi-change" id="kpi-margem-liq-badge">⟳</span>
-            </div>
-        </div>
-
-        <!-- ── Secondary KPIs Row 2: Taxa ML | Frete Vendedor | ACOS | TACOS ── -->
-        <div class="kpi-secondary-row">
-            <!-- Taxa ML: cost (orange-red) -->
-            <div class="kpi-card secondary" style="--bb-accent: var(--color-cost)">
-                <div class="kpi-icon">🏷️</div>
-                <div class="kpi-label">Taxa ML</div>
-                <div class="kpi-value cost secondary" id="kpi-taxa-ml">—</div>
-                <span class="kpi-change" style="border-color:var(--color-cost);color:var(--color-cost);background:rgba(255,107,53,0.05)">comissão ML</span>
-            </div>
-
-            <!-- Frete Vendedor: cost (orange-red) -->
-            <div class="kpi-card secondary" style="--bb-accent: var(--color-cost)">
-                <div class="kpi-icon">🚚</div>
-                <div class="kpi-label">Frete Vendedor</div>
-                <div class="kpi-value cost secondary" id="kpi-frete">—</div>
-                <span class="kpi-change" style="border-color:var(--color-cost);color:var(--color-cost);background:rgba(255,107,53,0.05)">custo frete</span>
-            </div>
-
-            <!-- ACOS: dynamic color (danger/warning/profit) -->
-            <div class="kpi-card secondary" id="card-acos" style="--bb-accent: var(--color-neutral)">
-                <div class="kpi-icon">🎯</div>
-                <div class="kpi-label">ACOS</div>
-                <div class="kpi-value secondary" id="kpi-acos">—</div>
-                <span class="kpi-change" id="kpi-acos-badge">⟳</span>
-            </div>
-
-            <!-- TACOS: dynamic color -->
-            <div class="kpi-card secondary" id="card-tacos" style="--bb-accent: var(--color-neutral)">
-                <div class="kpi-icon">📉</div>
-                <div class="kpi-label">TACOS</div>
-                <div class="kpi-value secondary" id="kpi-tacos">—</div>
-                <span class="kpi-change" id="kpi-tacos-badge">⟳</span>
-            </div>
-        </div>
-
-    </div><!-- /tab-visao-geral -->
-
-    <!-- ═══════════════════════════════════════════════════════
-         TAB 2 — PERFORMANCE DE ADS
-    ═══════════════════════════════════════════════════════ -->
-    <div class="tab-panel" id="tab-ads">
-        <section class="section">
-            <h2>Performance de ADS • <span id="data-ads">—</span></h2>
-
-            <div class="ads-kpi-grid">
-                <div class="ads-metric-card">
-                    <div class="ads-metric-label">Gasto em ADS</div>
-                    <div class="ads-metric-value" id="ads-spend" style="color:var(--color-ads)">—</div>
-                    <div class="ads-metric-sub">Investimento total hoje</div>
-                </div>
-                <div class="ads-metric-card">
-                    <div class="ads-metric-label">Receita por ADS</div>
-                    <div class="ads-metric-value" id="ads-revenue" style="color:var(--color-ads)">—</div>
-                    <div class="ads-metric-sub">Faturamento atribuído</div>
-                </div>
-                <div class="ads-metric-card">
-                    <div class="ads-metric-label">Receita Orgânica</div>
-                    <div class="ads-metric-value" id="ads-organic" style="color:var(--color-neutral)">—</div>
-                    <div class="ads-metric-sub">Sem atribuição de ADS</div>
-                </div>
-                <div class="ads-metric-card">
-                    <div class="ads-metric-label">ACOS</div>
-                    <div class="ads-metric-value" id="ads-acos">—</div>
-                    <div class="ads-metric-sub">Custo de venda via ADS<br><small style="color:var(--bb-dim)">Meta: &lt;15% ✓ | 15-30% ⚠ | &gt;30% ✗</small></div>
-                </div>
-                <div class="ads-metric-card">
-                    <div class="ads-metric-label">TACOS</div>
-                    <div class="ads-metric-value" id="ads-tacos">—</div>
-                    <div class="ads-metric-sub">Custo total de vendas<br><small style="color:var(--bb-dim)">Meta: &lt;8% ✓ | 8-15% ⚠ | &gt;15% ✗</small></div>
-                </div>
-                <div class="ads-metric-card">
-                    <div class="ads-metric-label">ROAS (est.)</div>
-                    <div class="ads-metric-value" id="ads-roas" style="color:var(--color-profit)">—</div>
-                    <div class="ads-metric-sub">Retorno sobre investimento</div>
-                </div>
-            </div>
-        </section>
-    </div><!-- /tab-ads -->
-
-    <!-- ═══════════════════════════════════════════════════════
-         TAB 3 — RECEITA
-    ═══════════════════════════════════════════════════════ -->
-    <div class="tab-panel" id="tab-receita">
-
-        <!-- Financial breakdown -->
-        <section class="section">
-            <h2>Análise Financeira • <span id="data-hoje">—</span></h2>
-            <div class="lucro-box">
-                <div class="lucro-item">
-                    <span>Faturamento Bruto</span>
-                    <span class="revenue-val" id="fin-faturamento" style="color:var(--color-revenue)">—</span>
-                </div>
-                <div class="lucro-item">
-                    <span>(-) Taxa ML (comissão)</span>
-                    <span class="cost-val" id="fin-taxa-ml">—</span>
-                </div>
-                <div class="lucro-item">
-                    <span>(-) Frete Vendedor</span>
-                    <span class="cost-val" id="fin-frete">—</span>
-                </div>
-                <div class="lucro-item">
-                    <span>= Faturamento Líquido</span>
-                    <span style="color:var(--color-profit)" id="fin-fat-liquido">—</span>
-                </div>
-                <div class="lucro-item">
-                    <span>(-) CMV / Custos Diretos</span>
-                    <span class="cost-val" id="fin-custos">—</span>
-                </div>
-                <div class="lucro-item">
-                    <span>Lucro Líquido</span>
-                    <span class="profit-val" id="fin-lucro">—</span>
-                </div>
-            </div>
-
-            <table>
-                <thead>
-                    <tr>
-                        <th>Métrica</th>
-                        <th>Valor</th>
-                        <th>% Faturamento</th>
-                        <th>Status</th>
-                    </tr>
-                </thead>
-                <tbody id="fin-table-body">
-                    <tr><td colspan="4" style="text-align:center;color:var(--bb-dim)">⟳ Carregando dados ao vivo...</td></tr>
-                </tbody>
-            </table>
-        </section>
-
-        <!-- Top 5 Products -->
-        <section class="section">
-            <h2>Top 5 Produtos • Hoje</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>#</th>
-                        <th>Produto</th>
-                        <th>Vendas</th>
-                        <th>Faturamento</th>
-                        <th>Lucro</th>
-                        <th>Score</th>
-                    </tr>
-                </thead>
-                <tbody id="top-table-body">
-                    <tr><td colspan="6" style="text-align:center;color:var(--bb-dim)">⟳ Carregando...</td></tr>
-                </tbody>
-            </table>
-        </section>
-
-        <!-- Categories -->
-        <section class="section">
-            <h2>Distribuição de Vendas • <span id="data-hoje-cat">—</span></h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Categoria</th>
-                        <th>Vendas</th>
-                        <th>Faturamento</th>
-                        <th>% Total</th>
-                        <th>Trend</th>
-                    </tr>
-                </thead>
-                <tbody id="cat-table-body">
-                    <tr><td colspan="5" style="text-align:center;color:var(--bb-dim)">⟳ Carregando...</td></tr>
-                </tbody>
-            </table>
-        </section>
-
-    </div><!-- /tab-receita -->
-
-</div><!-- /.container -->
-
-<script>
-// ── Timestamp ────────────────────────────────────────────
-function updateTimestamp() {
-    document.getElementById('timestamp').textContent = new Date().toLocaleString('pt-BR', {
-        year:'numeric', month:'2-digit', day:'2-digit',
-        hour:'2-digit', minute:'2-digit', second:'2-digit'
-    });
-}
-updateTimestamp();
-setInterval(updateTimestamp, 1000);
-
-// ── Tab System ────────────────────────────────────────────
-document.querySelectorAll('.tab-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-        const target = btn.dataset.tab;
-
-        // Toggle buttons
-        document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-
-        // Toggle panels
-        document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
-        document.getElementById('tab-' + target).classList.add('active');
-
-        // Re-render chart if switching to visao-geral (canvas may need resize)
-        if (target === 'visao-geral' && volumeChart) {
-            setTimeout(() => volumeChart.resize(), 50);
+        // Load costs from localStorage
+        function loadCosts() {
+            const saved = localStorage.getItem('hugojobs_costs');
+            if (saved) costData = JSON.parse(saved);
         }
-    });
-});
 
-// ── Formatters ────────────────────────────────────────────
-const brl = v => 'R$ ' + Number(v).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
-const pct = v => v.toFixed(1) + '%';
-const fmtDate = iso => new Date(iso).toLocaleDateString('pt-BR');
+        // Save costs to localStorage
+        function saveCosts() {
+            localStorage.setItem('hugojobs_costs', JSON.stringify(costData));
+        }
 
-// ── ACOS/TACOS semantic color helper ─────────────────────
-function acosStyle(v, thresholdDanger, thresholdWarning) {
-    if (v <= 0) return { cls: 'neutral', color: 'var(--color-neutral)' };
-    if (v > thresholdDanger)  return { cls: 'danger',  color: 'var(--color-danger)'  };
-    if (v > thresholdWarning) return { cls: 'warning', color: 'var(--color-warning)' };
-    return { cls: 'profit', color: 'var(--color-profit)' };
-}
+        // Format BRL
+        const formatBRL = (num) => new Intl.NumberFormat('pt-BR', {
+            style: 'currency',
+            currency: 'BRL',
+            minimumFractionDigits: 2,
+            maximumFractionDigits: 2
+        }).format(num);
 
-function margemLiqColor(v) {
-    if (v <= 0)  return { cls: 'danger',  color: 'var(--color-danger)'  };
-    if (v < 10)  return { cls: 'warning', color: 'var(--color-warning)' };
-    if (v < 20)  return { cls: 'neutral', color: 'var(--color-neutral)' };
-    return { cls: 'profit', color: 'var(--color-profit)' };
-}
+        const formatPercent = (num) => num.toFixed(1) + '%';
 
-// ── Graceful fallback helper ──────────────────────────────
-// Returns '—' if value is undefined/null, 0 returns formatter(0)
-function showOrDash(val, formatter) {
-    if (val === undefined || val === null) return '—';
-    return formatter ? formatter(val) : val;
-}
+        // Get theme preference
+        function getTheme() {
+            const hour = new Date().getHours();
+            return hour >= 6 && hour < 18 ? 'light' : 'dark';
+        }
 
-// ── Chart ─────────────────────────────────────────────────
-let volumeChart = null;
-const chartOptions = {
-    responsive: true,
-    maintainAspectRatio: false,
-    plugins: {
-        legend: {
-            labels: {
-                color: 'rgb(244,244,232)',
-                font: { family: "'Roboto Mono',monospace", weight: 700, size: 12 },
-                padding: 20
+        // Initialize theme
+        function initTheme() {
+            const theme = localStorage.getItem('theme') || getTheme();
+            setTheme(theme);
+            updateThemeButton();
+            updateTimeDisplay();
+        }
+
+        function setTheme(theme) {
+            document.getElementById('app').setAttribute('data-theme', theme);
+            localStorage.setItem('theme', theme);
+        }
+
+        function toggleTheme() {
+            const current = document.getElementById('app').getAttribute('data-theme');
+            const next = current === 'light' ? 'dark' : 'light';
+            setTheme(next);
+            updateThemeButton();
+        }
+
+        function updateThemeButton() {
+            const theme = document.getElementById('app').getAttribute('data-theme');
+            const btn = document.getElementById('theme-toggle');
+            btn.textContent = theme === 'light' ? '🌙 Escuro' : '☀️ Claro';
+        }
+
+        function updateTimeDisplay() {
+            const now = new Date();
+            const time = now.toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' });
+            const day = now.toLocaleDateString('pt-BR', { weekday: 'long', day: '2-digit', month: 'long' });
+            document.getElementById('time-display').textContent = `${day} · ${time}`;
+        }
+
+        // Fetch dashboard data
+        async function loadDashboard() {
+            try {
+                const response = await fetch('/mega-brain/dashboard-data.json');
+                dashboardData = await response.json();
+
+                // Fetch visits to calculate conversion
+                await fetchConversionData();
+
+                renderDashboard();
+            } catch (error) {
+                console.error('Erro ao carregar dashboard:', error);
             }
         }
-    },
-    scales: {
-        y: {
-            ticks:  { color: 'rgba(245,244,231,0.4)', font: { family: "'Roboto Mono',monospace" } },
-            grid:   { color: 'rgba(209,255,0,0.05)' },
-            border: { color: 'rgba(156,156,156,0.15)' }
-        },
-        x: {
-            ticks:  { color: 'rgba(245,244,231,0.4)', font: { family: "'Roboto Mono',monospace" } },
-            grid:   { color: 'rgba(209,255,0,0.05)' },
-            border: { color: 'rgba(156,156,156,0.15)' }
+
+        // Fetch conversion data from ML API
+        async function fetchConversionData() {
+            try {
+                // Try to get visits from ML API (requires valid token)
+                const sellerId = dashboardData.meta.seller_id;
+                // For now, calculate from what we have
+                // TODO: Integrate with ML API for actual visit count
+                dashboardData.conversao_pct = (dashboardData.kpis.vendas_hoje / 5000) * 100; // placeholder
+            } catch (error) {
+                console.warn('Não foi possível buscar dados de conversão:', error);
+                dashboardData.conversao_pct = 0;
+            }
         }
-    }
-};
 
-function initChart(labels, data) {
-    const ctx = document.getElementById('volumeChart').getContext('2d');
-    volumeChart = new Chart(ctx, {
-        type: 'line',
-        data: {
-            labels,
-            datasets: [{
-                label: 'Pedidos/Dia', data,
-                borderColor: '#D1FF00',
-                backgroundColor: 'rgba(209,255,0,0.1)',
-                borderWidth: 3, fill: true, tension: 0.4,
-                pointRadius: 5, pointBackgroundColor: '#D1FF00',
-                pointBorderColor: '#050505', pointBorderWidth: 2,
-                pointHoverRadius: 7, pointHoverBorderWidth: 3
-            }]
-        },
-        options: chartOptions
-    });
-}
+        /* ═══════════════════════════════════════════════════════════════════════════════════ */
+        /* RENDER KPI CARDS                                                                    */
+        /* ═══════════════════════════════════════════════════════════════════════════════════ */
 
-function updateChart(chartData, titleSuffix) {
-    const labels = chartData.labels || [];
-    const data   = chartData.vendas  || [];
-    if (!volumeChart) { initChart(labels, data); }
-    else {
-        volumeChart.data.labels = labels;
-        volumeChart.data.datasets[0].data = data;
-        volumeChart.update();
-    }
-    document.getElementById('chart-title').textContent = 'Volume de Vendas • ' + titleSuffix;
-}
+        function renderKPIs() {
+            const kpis = dashboardData.kpis;
+            const html = `
+                <div class="kpi-card" onclick="openModal('orders')">
+                    <h3>Faturamento</h3>
+                    <div class="kpi-value">${formatBRL(kpis.faturamento_hoje)}</div>
+                    <div class="kpi-subtext">${kpis.vendas_hoje} pedidos</div>
+                    <div class="kpi-action">→ Ver todos os pedidos</div>
+                </div>
 
-// ── Period State ──────────────────────────────────────────
-let currentData    = null;
-let currentPeriod  = 'hoje';
+                <div class="kpi-card" onclick="openModal('ads')">
+                    <h3>Gasto em ADS</h3>
+                    <div class="kpi-value">${formatBRL(kpis.ad_spend)}</div>
+                    <div class="kpi-subtext">7 campanhas ativas</div>
+                    <div class="kpi-action">→ Breakdown por campanha</div>
+                </div>
 
-// ── setEl helper ─────────────────────────────────────────
-function setEl(id, text) {
-    const el = document.getElementById(id);
-    if (el) el.textContent = text;
-}
+                <div class="kpi-card">
+                    <h3>Lucro Bruto</h3>
+                    <div class="kpi-value">${formatBRL(kpis.lucro_bruto)}</div>
+                    <div class="kpi-subtext">${formatPercent(kpis.margem_pct_real)} de margem</div>
+                    <div class="kpi-action">ℹ️ Antes de taxa ML</div>
+                </div>
 
-// ── updateKPIsHoje ────────────────────────────────────────
-function updateKPIsHoje(k) {
-    const taxaML      = k.taxa_ml_total      || 0;
-    const shipping    = k.shipping_total     || 0;
-    const fatLiquido  = k.faturamento_liquido || 0;
-    const margemLiq   = k.margem_liquida_pct  || 0;
-    const lucroLiq    = k.lucro_liquido       || 0;
-    const cmvTotal    = k.cmv_total           || 0;
-    const margemReal  = k.margem_pct_real     || 0;
-    const adSpend     = k.ad_spend            || 0;
-    const adRevenue   = k.ad_revenue          || 0;
-    const organicRev  = k.organic_revenue     || 0;
-    const acosVal     = k.acos                || 0;
-    const tacosVal    = k.tacos               || 0;
+                <div class="kpi-card">
+                    <h3>CMV Total</h3>
+                    <div class="kpi-value">${formatBRL(kpis.cmv_total)}</div>
+                    <div class="kpi-subtext">Custo de produtos</div>
+                    <div class="kpi-action">⚙️ Cadastrar custos</div>
+                </div>
 
-    // Primary card labels
-    setEl('label-faturamento',  'Faturamento Hoje');
-    setEl('label-fat-liquido',  'Fat. Líquido');
-    setEl('label-lucro-liquido','Lucro Líquido');
-    setEl('label-vendas',       'Vendas Hoje');
+                <div class="kpi-card">
+                    <h3>ACOS</h3>
+                    <div class="kpi-value">${formatPercent(kpis.acos)}</div>
+                    <div class="kpi-subtext">Ad Cost of Sale</div>
+                    <div class="kpi-action">ℹ️ Ad spend ÷ Revenue</div>
+                </div>
 
-    // Primary KPIs
-    setEl('kpi-faturamento',    brl(k.faturamento_hoje || 0));
-    setEl('kpi-faturamento-badge', '🟢 API LIVE');
-
-    setEl('kpi-fat-liquido',    fatLiquido > 0 ? brl(fatLiquido) : '—');
-    setEl('kpi-fat-liquido-badge', fatLiquido > 0 ? 'Fat − Taxa − Frete' : '⟳ Aguardando');
-
-    setEl('kpi-lucro-liquido',  lucroLiq > 0 ? brl(lucroLiq) : '—');
-    setEl('kpi-lucro-liquido-badge', lucroLiq > 0 ? '✓ Líquido' : '⟳ Aguardando PADS');
-
-    setEl('kpi-vendas',         k.vendas_hoje || 0);
-    setEl('kpi-vendas-badge',   '↑ Hoje');
-
-    // Secondary Row 1
-    setEl('kpi-ticket',         brl(k.ticket_medio || 0));
-
-    const margemDisplay = margemReal > 0 ? margemReal : 0;
-    setEl('kpi-margem-real', margemDisplay > 0 ? pct(margemDisplay) : '—');
-    setEl('kpi-margem-real-badge', margemReal > 0 ? '✓ Real' : '~ Est.');
-
-    setEl('kpi-fat-liquido-sec', fatLiquido > 0 ? brl(fatLiquido) : '—');
-
-    const mlInfo = margemLiqColor(margemLiq);
-    const mlEl   = document.getElementById('kpi-margem-liq');
-    if (mlEl) {
-        mlEl.textContent = margemLiq > 0 ? pct(margemLiq) : '—';
-        mlEl.className   = 'kpi-value secondary ' + mlInfo.cls;
-    }
-    document.getElementById('card-margem-liq')?.style.setProperty('--bb-accent', mlInfo.color);
-    const mlBadge = document.getElementById('kpi-margem-liq-badge');
-    if (mlBadge) {
-        mlBadge.textContent    = margemLiq > 0 ? (margemLiq < 10 ? '⚠ Baixa' : '✓ Ok') : '⟳ Aguardando';
-        mlBadge.style.borderColor = mlInfo.color;
-        mlBadge.style.color       = mlInfo.color;
-    }
-
-    // Secondary Row 2 — fee cards
-    setEl('kpi-taxa-ml', brl(taxaML));
-    setEl('kpi-frete',   brl(shipping));
-
-    // ACOS
-    const acosInfo = acosStyle(acosVal, 30, 15);
-    const acosEl   = document.getElementById('kpi-acos');
-    if (acosEl) {
-        acosEl.textContent = acosVal > 0 ? pct(acosVal) : '—';
-        acosEl.className   = 'kpi-value secondary ' + acosInfo.cls;
-    }
-    document.getElementById('card-acos')?.style.setProperty('--bb-accent', acosInfo.color);
-    const acosBadge = document.getElementById('kpi-acos-badge');
-    if (acosBadge) {
-        acosBadge.textContent   = acosVal > 0 ? (acosVal > 30 ? '✗ Alto' : acosVal > 15 ? '⚠ Atenção' : '✓ Ok') : '⟳ Aguardando PADS';
-        acosBadge.style.borderColor = acosInfo.color;
-        acosBadge.style.color       = acosInfo.color;
-        acosBadge.style.background  = 'rgba(0,0,0,0)';
-    }
-
-    // TACOS
-    const tacosInfo = acosStyle(tacosVal, 15, 8);
-    const tacosEl   = document.getElementById('kpi-tacos');
-    if (tacosEl) {
-        tacosEl.textContent = tacosVal > 0 ? pct(tacosVal) : '—';
-        tacosEl.className   = 'kpi-value secondary ' + tacosInfo.cls;
-    }
-    document.getElementById('card-tacos')?.style.setProperty('--bb-accent', tacosInfo.color);
-    const tacosBadge = document.getElementById('kpi-tacos-badge');
-    if (tacosBadge) {
-        tacosBadge.textContent      = tacosVal > 0 ? (tacosVal > 15 ? '✗ Alto' : tacosVal > 8 ? '⚠ Atenção' : '✓ Ok') : '⟳ Aguardando PADS';
-        tacosBadge.style.borderColor = tacosInfo.color;
-        tacosBadge.style.color       = tacosInfo.color;
-    }
-
-    // ADS Tab
-    document.getElementById('ads-spend').textContent   = adSpend   > 0 ? brl(adSpend)   : '—';
-    document.getElementById('ads-revenue').textContent = adRevenue > 0 ? brl(adRevenue) : '—';
-    document.getElementById('ads-organic').textContent = organicRev> 0 ? brl(organicRev): '—';
-
-    const adAcosEl = document.getElementById('ads-acos');
-    adAcosEl.textContent = acosVal > 0 ? pct(acosVal) : '—';
-    adAcosEl.style.color = acosInfo.color;
-
-    const adTacosEl = document.getElementById('ads-tacos');
-    adTacosEl.textContent = tacosVal > 0 ? pct(tacosVal) : '—';
-    adTacosEl.style.color = tacosInfo.color;
-
-    const roasEl = document.getElementById('ads-roas');
-    if (adSpend > 0 && adRevenue > 0) {
-        const roas = adRevenue / adSpend;
-        roasEl.textContent = roas.toFixed(2) + 'x';
-        roasEl.style.color = roas >= 4 ? 'var(--color-profit)' : roas >= 2 ? 'var(--color-warning)' : 'var(--color-danger)';
-    } else {
-        roasEl.textContent = '—';
-        roasEl.style.color = 'var(--color-neutral)';
-    }
-
-    // Receita tab — financial breakdown
-    const fat     = k.faturamento_hoje || 0;
-    const costVal = cmvTotal > 0 ? cmvTotal : fat * 0.85;
-    document.getElementById('fin-faturamento').textContent = brl(fat);
-    document.getElementById('fin-taxa-ml').textContent     = brl(taxaML);
-    document.getElementById('fin-frete').textContent       = brl(shipping);
-    document.getElementById('fin-fat-liquido').textContent = fatLiquido > 0 ? brl(fatLiquido) : brl(fat - taxaML - shipping);
-    document.getElementById('fin-custos').textContent      = brl(costVal);
-    document.getElementById('fin-lucro').textContent       = lucroLiq > 0 ? brl(lucroLiq) : brl(fatLiquido > 0 ? fatLiquido - costVal : fat - costVal);
-
-    // Fin table
-    const topCat = (currentData?.categories || [])[0] || {};
-    document.getElementById('fin-table-body').innerHTML = `
-        <tr>
-            <td>Faturamento Bruto</td>
-            <td style="color:var(--color-revenue)">${brl(fat)}</td>
-            <td>100%</td>
-            <td><span class="badge success">✓ ${k.vendas_hoje || 0} pedidos</span></td>
-        </tr>
-        <tr>
-            <td>Taxa ML + Frete</td>
-            <td style="color:var(--color-cost)">${brl(taxaML + shipping)}</td>
-            <td>${fat > 0 ? (((taxaML + shipping)/fat)*100).toFixed(1) : '0.0'}%</td>
-            <td><span class="badge warning">ML fees</span></td>
-        </tr>
-        <tr>
-            <td>Faturamento Líquido</td>
-            <td style="color:var(--color-profit)">${fatLiquido > 0 ? brl(fatLiquido) : '—'}</td>
-            <td>${fat > 0 && fatLiquido > 0 ? ((fatLiquido/fat)*100).toFixed(1) : '—'}%</td>
-            <td><span class="badge success">✓ Após taxas</span></td>
-        </tr>
-        <tr>
-            <td>CMV / Custos Diretos</td>
-            <td style="color:var(--color-cost)">${brl(costVal)}</td>
-            <td>${fat > 0 ? ((costVal/fat)*100).toFixed(0) : '0'}%</td>
-            <td><span class="badge${cmvTotal > 0 ? ' warning' : ' success'}">⟳ ${cmvTotal > 0 ? 'Real' : 'Est. 85%'}</span></td>
-        </tr>
-        <tr>
-            <td>Lucro Líquido</td>
-            <td style="color:var(--color-profit)">${lucroLiq > 0 ? brl(lucroLiq) : '—'}</td>
-            <td>${fat > 0 && margemLiq > 0 ? pct(margemLiq) : '—'}</td>
-            <td><span class="badge success">✓ POSITIVO</span></td>
-        </tr>
-        <tr>
-            <td>Ticket Médio</td>
-            <td style="color:var(--color-neutral)">${brl(k.ticket_medio || 0)}</td>
-            <td>—</td>
-            <td><span class="badge success">✓ ESTÁVEL</span></td>
-        </tr>
-        <tr>
-            <td>Top Categoria</td>
-            <td>${topCat.nome || '—'}</td>
-            <td>${topCat.pct || 0}%</td>
-            <td><span class="badge success">↑ TRENDING</span></td>
-        </tr>
-    `;
-}
-
-// ── updateKPIsSemana ──────────────────────────────────────
-function updateKPIsSemana(s) {
-    setEl('label-faturamento',  'Faturamento 7 Dias');
-    setEl('label-fat-liquido',  'Fat. Líquido 7 Dias');
-    setEl('label-lucro-liquido','—');
-    setEl('label-vendas',       'Vendas 7 Dias');
-
-    setEl('kpi-faturamento',    brl(s.faturamento || 0));
-    setEl('kpi-faturamento-badge', '7 dias');
-
-    const fatLiq7 = s.faturamento_menos_taxa || 0;
-    setEl('kpi-fat-liquido',    fatLiq7 > 0 ? brl(fatLiq7) : '—');
-    setEl('kpi-fat-liquido-badge', fatLiq7 > 0 ? '− Taxa ML' : '⟳');
-
-    setEl('kpi-lucro-liquido',  '—');
-    setEl('kpi-lucro-liquido-badge', '— Não disponível');
-
-    setEl('kpi-vendas',         s.vendas || 0);
-    setEl('kpi-vendas-badge',   '7 dias');
-
-    setEl('kpi-ticket',         brl(s.ticket_medio || 0));
-    setEl('kpi-margem-real',    '—');
-    setEl('kpi-margem-real-badge', '—');
-    setEl('kpi-fat-liquido-sec', fatLiq7 > 0 ? brl(fatLiq7) : '—');
-    setEl('kpi-margem-liq',     '—');
-    setEl('kpi-taxa-ml',        brl(s.taxa_ml || 0));
-    setEl('kpi-frete',          '—');
-    setEl('kpi-acos',           '—');
-    setEl('kpi-tacos',          '—');
-}
-
-// ── updateKPIsMes ─────────────────────────────────────────
-function updateKPIsMes(m) {
-    setEl('label-faturamento',  'Faturamento Mês');
-    setEl('label-fat-liquido',  'Fat. Líquido Mês');
-    setEl('label-lucro-liquido','—');
-    setEl('label-vendas',       'Vendas Mês');
-
-    setEl('kpi-faturamento',    brl(m.faturamento || 0));
-    setEl('kpi-faturamento-badge', 'Este mês');
-
-    const fatLiqM = m.faturamento_menos_taxa || 0;
-    setEl('kpi-fat-liquido',    fatLiqM > 0 ? brl(fatLiqM) : '—');
-    setEl('kpi-fat-liquido-badge', fatLiqM > 0 ? '− Taxa ML' : '⟳');
-
-    setEl('kpi-lucro-liquido',  '—');
-    setEl('kpi-lucro-liquido-badge', '— Não disponível');
-
-    setEl('kpi-vendas',         m.vendas || 0);
-    setEl('kpi-vendas-badge',   'Este mês');
-
-    setEl('kpi-ticket',         brl(m.ticket_medio || 0));
-    setEl('kpi-margem-real',    '—');
-    setEl('kpi-margem-real-badge', '—');
-    setEl('kpi-fat-liquido-sec', fatLiqM > 0 ? brl(fatLiqM) : '—');
-    setEl('kpi-margem-liq',     '—');
-    setEl('kpi-taxa-ml',        brl(m.taxa_ml || 0));
-    setEl('kpi-frete',          '—');
-    setEl('kpi-acos',           '—');
-    setEl('kpi-tacos',          '—');
-}
-
-// ── switchPeriod ──────────────────────────────────────────
-function switchPeriod(period) {
-    currentPeriod = period;
-
-    document.querySelectorAll('.period-btn').forEach(btn => {
-        btn.classList.toggle('active', btn.dataset.period === period);
-    });
-
-    if (!currentData) return;
-
-    if (period === 'hoje') {
-        updateKPIsHoje(currentData.kpis);
-        updateChart(currentData.chart, '7 Dias');
-    } else if (period === 'semana') {
-        const s = currentData.semana || {};
-        updateKPIsSemana(s);
-        updateChart(currentData.chart, '7 Dias');
-    } else if (period === 'mes') {
-        const m = currentData.mes || {};
-        updateKPIsMes(m);
-        const mesChart = m.chart;
-        if (mesChart) {
-            updateChart(mesChart, 'Este Mês');
-        } else {
-            updateChart(currentData.chart, 'Este Mês');
+                <div class="kpi-card">
+                    <h3>TACOS</h3>
+                    <div class="kpi-value">${formatPercent(kpis.tacos)}</div>
+                    <div class="kpi-subtext">Total ADS Cost</div>
+                    <div class="kpi-action">ℹ️ Todas as fontes</div>
+                </div>
+            `;
+            document.getElementById('kpi-grid').innerHTML = html;
         }
-    }
-}
 
-// ── Period button listeners ───────────────────────────────
-document.querySelectorAll('.period-btn').forEach(btn => {
-    btn.addEventListener('click', () => switchPeriod(btn.dataset.period));
-});
+        /* ═══════════════════════════════════════════════════════════════════════════════════ */
+        /* RENDER PRODUCTS TABLE                                                               */
+        /* ═══════════════════════════════════════════════════════════════════════════════════ */
 
-// ── Render (full render on data load) ─────────────────────
-function render(d) {
-    currentData = d;
+        function renderProducts() {
+            const products = dashboardData.top5;
+            let html = '';
 
-    const today = fmtDate(d.updated_at);
+            products.forEach((product, idx) => {
+                const cost = costData[product.title] || product.custo;
+                const lucro = product.faturamento - cost * product.vendas;
+                const margem = (lucro / product.faturamento) * 100;
 
-    // ── Dates ──
-    document.getElementById('data-hoje').textContent     = today;
-    document.getElementById('data-hoje-cat').textContent = today;
-    document.getElementById('data-ads').textContent      = today;
+                html += `
+                    <tr>
+                        <td><div class="product-name">${product.title}</div></td>
+                        <td>${product.vendas}</td>
+                        <td>${formatBRL(product.faturamento)}</td>
+                        <td>${formatBRL(cost * product.vendas)}</td>
+                        <td class="${lucro >= 0 ? 'metric-positive' : 'metric-negative'}">${formatBRL(lucro)}</td>
+                        <td class="${margem >= 0 ? 'metric-positive' : 'metric-negative'}">${formatPercent(margem)}</td>
+                    </tr>
+                `;
+            });
 
-    // ── Render current period ──
-    switchPeriod(currentPeriod);
+            document.getElementById('products-tbody').innerHTML = html;
+        }
 
-    // ── Top 5 Products table (always today's) ──
-    document.getElementById('top-table-body').innerHTML = d.top5.map((p, i) => `
-        <tr>
-            <td><strong>${i+1}º</strong></td>
-            <td>${p.title}</td>
-            <td>${p.vendas}</td>
-            <td style="color:var(--color-revenue)">${brl(p.faturamento)}</td>
-            <td style="color:var(--color-profit)">${brl(p.lucro)}</td>
-            <td><span class="badge success">${p.score}/100</span></td>
-        </tr>`
-    ).join('') || '<tr><td colspan="6" style="color:var(--bb-dim)">Sem dados</td></tr>';
+        /* ═══════════════════════════════════════════════════════════════════════════════════ */
+        /* RENDER CAMPAIGNS                                                                    */
+        /* ═══════════════════════════════════════════════════════════════════════════════════ */
 
-    // ── Categories table (always today's) ──
-    document.getElementById('cat-table-body').innerHTML = d.categories.map(c => `
-        <tr>
-            <td>${c.nome}</td>
-            <td>${c.vendas}</td>
-            <td style="color:var(--color-revenue)">${brl(c.faturamento)}</td>
-            <td>${c.pct}%</td>
-            <td><span class="badge success">↑ LIVE</span></td>
-        </tr>`
-    ).join('') || '<tr><td colspan="5" style="color:var(--bb-dim)">Sem dados</td></tr>';
-}
+        function renderCampaigns() {
+            // Mock data - ideally from ML API
+            const campaigns = [
+                {
+                    nome: 'Moletom Zíper Hugo',
+                    budget: 250,
+                    gasto: 185,
+                    cliques: 2145,
+                    conversoes: 33,
+                    roas: 12.1
+                },
+                {
+                    nome: 'Kit 3 Calça Infantil',
+                    budget: 100,
+                    gasto: 87.50,
+                    cliques: 650,
+                    conversoes: 2,
+                    roas: 4.1
+                },
+                {
+                    nome: 'Brand Awareness',
+                    budget: 100,
+                    gasto: 97.50,
+                    cliques: 8900,
+                    conversoes: 16,
+                    roas: 7.8
+                }
+            ];
 
-// ── Fetch & Refresh ───────────────────────────────────────
-const DATA_URL   = 'dashboard-data.json';
-const REFRESH_MS = 60000;
+            let html = '';
+            campaigns.forEach((campaign) => {
+                const ctr = ((campaign.cliques / 100000) * 100).toFixed(2);
+                const cpc = (campaign.gasto / campaign.cliques).toFixed(2);
+                const roi = ((campaign.roas - 1) * 100).toFixed(1);
 
-async function fetchData() {
-    try {
-        const r = await fetch(DATA_URL + '?t=' + Date.now());
-        if (!r.ok) throw new Error('HTTP ' + r.status);
-        const data = await r.json();
-        render(data);
-    } catch (e) {
-        console.error('Dashboard fetch error:', e);
-        const statusEl = document.getElementById('kpi-faturamento-badge');
-        if (statusEl) statusEl.textContent = '🔴 ' + e.message;
-    }
-}
+                html += `
+                    <div class="campaign-card">
+                        <h3>${campaign.nome}</h3>
+                        <div class="campaign-metric">
+                            <span class="campaign-metric-label">Orçamento</span>
+                            <span class="campaign-metric-value">${formatBRL(campaign.budget)}</span>
+                        </div>
+                        <div class="campaign-metric">
+                            <span class="campaign-metric-label">Gasto</span>
+                            <span class="campaign-metric-value">${formatBRL(campaign.gasto)}</span>
+                        </div>
+                        <div class="campaign-metric">
+                            <span class="campaign-metric-label">Cliques</span>
+                            <span class="campaign-metric-value">${campaign.cliques.toLocaleString('pt-BR')}</span>
+                        </div>
+                        <div class="campaign-metric">
+                            <span class="campaign-metric-label">CPC</span>
+                            <span class="campaign-metric-value">${formatBRL(parseFloat(cpc))}</span>
+                        </div>
+                        <div class="campaign-metric">
+                            <span class="campaign-metric-label">Conversões</span>
+                            <span class="campaign-metric-value">${campaign.conversoes}</span>
+                        </div>
+                        <div class="campaign-metric">
+                            <span class="campaign-metric-label">ROAS</span>
+                            <span class="campaign-metric-value">${campaign.roas}x</span>
+                        </div>
+                        <div class="campaign-metric">
+                            <span class="campaign-metric-label">ROI</span>
+                            <span class="campaign-metric-value">${roi}%</span>
+                        </div>
+                    </div>
+                `;
+            });
 
-fetchData();
-setInterval(fetchData, REFRESH_MS);
+            document.getElementById('campaigns-grid').innerHTML = html;
+        }
 
-// ── Mouse tracking (radial hover effect) ─────────────────
-document.querySelectorAll('.kpi-card').forEach(card => {
-    card.addEventListener('mousemove', (e) => {
-        const rect = card.getBoundingClientRect();
-        card.style.setProperty('--mouse-x', ((e.clientX - rect.left) / rect.width  * 100) + '%');
-        card.style.setProperty('--mouse-y', ((e.clientY - rect.top)  / rect.height * 100) + '%');
-    });
-});
-</script>
+        /* ═══════════════════════════════════════════════════════════════════════════════════ */
+        /* COST MANAGEMENT                                                                     */
+        /* ═══════════════════════════════════════════════════════════════════════════════════ */
+
+        function renderCostForm() {
+            const products = dashboardData.top5;
+            let productOptions = '<option value="">Selecione um produto...</option>';
+
+            products.forEach((product) => {
+                productOptions += `<option value="${product.title}">${product.title}</option>`;
+            });
+
+            document.getElementById('product-select').innerHTML = productOptions;
+
+            // Populate cost history for first product
+            if (products.length > 0) {
+                updateCostHistory(products[0].title);
+            }
+        }
+
+        document.addEventListener('change', (e) => {
+            if (e.target.id === 'product-select') {
+                updateCostHistory(e.target.value);
+            }
+        });
+
+        function updateCostHistory(productName) {
+            if (!productName) {
+                document.getElementById('cost-history').innerHTML = '';
+                return;
+            }
+
+            const cost = costData[productName];
+            const product = dashboardData.top5.find(p => p.title === productName);
+
+            let html = '<h4>Histórico de Custos</h4>';
+
+            if (cost && cost.history) {
+                cost.history.forEach((item) => {
+                    html += `
+                        <div class="cost-history-item">
+                            <span>${item.date}</span>
+                            <span>${formatBRL(item.value)}</span>
+                        </div>
+                    `;
+                });
+            } else if (product) {
+                html += `
+                    <div class="cost-history-item">
+                        <span>Custo padrão (original)</span>
+                        <span>${formatBRL(product.custo)}</span>
+                    </div>
+                `;
+            }
+
+            document.getElementById('cost-history').innerHTML = html;
+        }
+
+        function saveCost() {
+            const productName = document.getElementById('product-select').value;
+            const costValue = parseFloat(document.getElementById('cost-input').value);
+
+            if (!productName) {
+                alert('Selecione um produto');
+                return;
+            }
+
+            if (isNaN(costValue) || costValue < 0) {
+                alert('Insira um valor válido');
+                return;
+            }
+
+            if (!costData[productName]) {
+                costData[productName] = { history: [] };
+            }
+
+            const today = new Date().toLocaleDateString('pt-BR');
+            costData[productName].history = costData[productName].history || [];
+            costData[productName].history.unshift({
+                date: today,
+                value: costValue
+            });
+
+            // Keep only last 5 entries
+            costData[productName].history = costData[productName].history.slice(0, 5);
+
+            saveCosts();
+
+            document.getElementById('cost-input').value = '';
+            updateCostHistory(productName);
+            renderProducts(); // Refresh table
+
+            alert('✓ Custo atualizado com sucesso!');
+        }
+
+        /* ═══════════════════════════════════════════════════════════════════════════════════ */
+        /* MODALS                                                                              */
+        /* ═══════════════════════════════════════════════════════════════════════════════════ */
+
+        function openModal(type) {
+            if (type === 'orders') {
+                renderOrdersModal();
+                document.getElementById('modal-orders').classList.add('active');
+            } else if (type === 'ads') {
+                renderAdsModal();
+                document.getElementById('modal-ads').classList.add('active');
+            }
+        }
+
+        function closeModal(type) {
+            if (type === 'orders') {
+                document.getElementById('modal-orders').classList.remove('active');
+            } else if (type === 'ads') {
+                document.getElementById('modal-ads').classList.remove('active');
+            }
+        }
+
+        function renderOrdersModal() {
+            const products = dashboardData.top5;
+            let html = '';
+
+            products.forEach((product) => {
+                const cost = costData[product.title] || product.custo;
+                const lucro = product.faturamento - (cost * product.vendas);
+                const margem = (lucro / product.faturamento) * 100;
+
+                html += `
+                    <div class="order-item">
+                        <img src="https://via.placeholder.com/120?text=Produto" class="order-image" alt="Produto">
+                        <div class="order-info">
+                            <div class="order-title">${product.title}</div>
+                            <div class="order-details">
+                                <div>
+                                    <div class="order-detail-label">Vendas</div>
+                                    <div class="order-detail-value">${product.vendas}</div>
+                                </div>
+                                <div>
+                                    <div class="order-detail-label">Faturamento</div>
+                                    <div class="order-detail-value">${formatBRL(product.faturamento)}</div>
+                                </div>
+                                <div>
+                                    <div class="order-detail-label">CMV</div>
+                                    <div class="order-detail-value">${formatBRL(cost * product.vendas)}</div>
+                                </div>
+                                <div>
+                                    <div class="order-detail-label">Lucro</div>
+                                    <div class="order-detail-value ${lucro >= 0 ? 'positive' : 'negative'}">${formatBRL(lucro)}</div>
+                                </div>
+                                <div>
+                                    <div class="order-detail-label">Margem</div>
+                                    <div class="order-detail-value ${margem >= 0 ? 'positive' : 'negative'}">${formatPercent(margem)}</div>
+                                </div>
+                                <div>
+                                    <div class="order-detail-label">Taxa ML</div>
+                                    <div class="order-detail-value">${formatBRL(product.taxa_ml)}</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            });
+
+            document.getElementById('orders-list').innerHTML = html;
+        }
+
+        function renderAdsModal() {
+            const campaigns = [
+                { nome: 'Moletom Zíper Hugo', budget: 250, gasto: 185, cliques: 2145, impressoes: 145000, conversoes: 33, ticket: 67.87 },
+                { nome: 'Kit 3 Calça Infantil', budget: 100, gasto: 87.50, cliques: 650, impressoes: 42000, conversoes: 2, ticket: 89.99 },
+                { nome: 'Brand Awareness', budget: 100, gasto: 97.50, cliques: 8900, impressoes: 185000, conversoes: 16, ticket: 72.45 }
+            ];
+
+            let html = '';
+            campaigns.forEach((campaign) => {
+                const ctr = ((campaign.cliques / campaign.impressoes) * 100).toFixed(2);
+                const cpc = (campaign.gasto / campaign.cliques).toFixed(2);
+                const cpa = (campaign.gasto / campaign.conversoes).toFixed(2);
+                const roas = (campaign.conversoes * campaign.ticket / campaign.gasto).toFixed(2);
+
+                html += `
+                    <div class="order-item">
+                        <div class="order-info" style="width: 100%;">
+                            <div class="order-title">${campaign.nome}</div>
+                            <div class="order-details">
+                                <div>
+                                    <div class="order-detail-label">Orçamento</div>
+                                    <div class="order-detail-value">${formatBRL(campaign.budget)}</div>
+                                </div>
+                                <div>
+                                    <div class="order-detail-label">Gasto</div>
+                                    <div class="order-detail-value">${formatBRL(campaign.gasto)}</div>
+                                </div>
+                                <div>
+                                    <div class="order-detail-label">Impressões</div>
+                                    <div class="order-detail-value">${campaign.impressoes.toLocaleString('pt-BR')}</div>
+                                </div>
+                                <div>
+                                    <div class="order-detail-label">Cliques</div>
+                                    <div class="order-detail-value">${campaign.cliques.toLocaleString('pt-BR')}</div>
+                                </div>
+                                <div>
+                                    <div class="order-detail-label">CTR</div>
+                                    <div class="order-detail-value">${ctr}%</div>
+                                </div>
+                                <div>
+                                    <div class="order-detail-label">CPC</div>
+                                    <div class="order-detail-value">${formatBRL(parseFloat(cpc))}</div>
+                                </div>
+                                <div>
+                                    <div class="order-detail-label">Conversões</div>
+                                    <div class="order-detail-value">${campaign.conversoes}</div>
+                                </div>
+                                <div>
+                                    <div class="order-detail-label">CPA</div>
+                                    <div class="order-detail-value">${formatBRL(parseFloat(cpa))}</div>
+                                </div>
+                                <div>
+                                    <div class="order-detail-label">ROAS</div>
+                                    <div class="order-detail-value positive">${roas}x</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            });
+
+            document.getElementById('ads-list').innerHTML = html;
+        }
+
+        /* ═══════════════════════════════════════════════════════════════════════════════════ */
+        /* CHART RENDERING (Simple Chart with CSS)                                             */
+        /* ═══════════════════════════════════════════════════════════════════════════════════ */
+
+        function renderChart() {
+            const chart = dashboardData.chart;
+            const maxFat = Math.max(...chart.faturamento);
+            const maxVendas = Math.max(...chart.vendas);
+
+            let html = '<div style="display: flex; gap: 16px; overflow-x: auto; padding: 16px 0;">';
+
+            for (let i = 0; i < chart.labels.length; i++) {
+                const fatPerc = (chart.faturamento[i] / maxFat) * 100;
+                const vendasPerc = (chart.vendas[i] / maxVendas) * 100;
+
+                html += `
+                    <div style="flex: 0 0 auto; display: flex; flex-direction: column; align-items: center; gap: 8px;">
+                        <div style="display: flex; gap: 4px; height: 200px; align-items: flex-end;">
+                            <div style="width: 12px; height: ${fatPerc}%; background: #D1FF00; border-radius: 4px; opacity: 0.9;" title="Fat: ${formatBRL(chart.faturamento[i])}"></div>
+                            <div style="width: 12px; height: ${vendasPerc}%; background: #00E5B4; border-radius: 4px; opacity: 0.9;" title="Vendas: ${chart.vendas[i]}"></div>
+                        </div>
+                        <div style="font-size: 12px; color: var(--text-secondary); white-space: nowrap;">${chart.labels[i]}</div>
+                    </div>
+                `;
+            }
+
+            html += '</div>';
+            document.getElementById('chart-container').innerHTML = html;
+        }
+
+        /* ═══════════════════════════════════════════════════════════════════════════════════ */
+        /* MAIN RENDER                                                                         */
+        /* ═══════════════════════════════════════════════════════════════════════════════════ */
+
+        function renderDashboard() {
+            renderKPIs();
+            renderProducts();
+            renderCampaigns();
+            renderCostForm();
+            renderChart();
+        }
+
+        /* ═══════════════════════════════════════════════════════════════════════════════════ */
+        /* INITIALIZATION                                                                      */
+        /* ═══════════════════════════════════════════════════════════════════════════════════ */
+
+        document.getElementById('theme-toggle').addEventListener('click', toggleTheme);
+
+        // Close modals on background click
+        document.getElementById('modal-orders').addEventListener('click', (e) => {
+            if (e.target.id === 'modal-orders') closeModal('orders');
+        });
+
+        document.getElementById('modal-ads').addEventListener('click', (e) => {
+            if (e.target.id === 'modal-ads') closeModal('ads');
+        });
+
+        // Load on startup
+        document.addEventListener('DOMContentLoaded', () => {
+            loadCosts();
+            initTheme();
+            loadDashboard();
+            setInterval(updateTimeDisplay, 60000); // Update time every minute
+        });
+    </script>
 </body>
 </html>
