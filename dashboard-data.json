@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-03-11T09:25:47.474603",
+  "updated_at": "2026-03-11T10:05:32.610314",
   "kpis": {
-    "faturamento_hoje": 227.6,
+    "faturamento_hoje": 246.28,
     "vendas_hoje": 4,
-    "ticket_medio": 56.9,
-    "cmv_total": 119.13,
-    "lucro_bruto": 108.47,
-    "margem_pct_real": 47.7,
-    "lucro_por_pedido": 27.12,
-    "taxa_ml_total": 22.39,
-    "shipping_total": 41.79,
-    "faturamento_liquido": 163.42,
-    "margem_liquida_pct": 19.5,
-    "lucro_liquido": 44.29,
+    "ticket_medio": 61.57,
+    "cmv_total": 134.43,
+    "lucro_bruto": 111.85,
+    "margem_pct_real": 45.4,
+    "lucro_por_pedido": 27.96,
+    "taxa_ml_total": 19.17,
+    "shipping_total": 41.89,
+    "faturamento_liquido": 185.22,
+    "margem_liquida_pct": 20.6,
+    "lucro_liquido": 50.79,
     "vendas_semana": 388,
-    "faturamento_semana": 25162.54,
+    "faturamento_semana": 25181.22,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 227.6,
+    "organic_revenue": 246.28,
     "acos": 0,
-    "tacos": 162.6
+    "tacos": 150.2
   },
   "top5": [
     {
@@ -35,13 +35,13 @@
     },
     {
       "vendas": 1,
-      "faturamento": 23.99,
-      "custo": 11.61,
-      "title": "Porta Cartão Couro Legítimo Hugo Jobs Rustico Comp",
-      "taxa_ml": 3.22,
-      "full_unit_price": 49.9,
-      "lucro": 12.38,
-      "margem_pct": 51.6,
+      "faturamento": 42.67,
+      "custo": 26.91,
+      "title": "Moletom Infantil Canguru Capuz Blusa De Frio Aranh",
+      "taxa_ml": 0,
+      "full_unit_price": 69.99,
+      "lucro": 15.76,
+      "margem_pct": 36.9,
       "score": 82
     }
   ],
@@ -52,17 +52,17 @@
       "faturamento": 203.61,
       "custo": 107.52,
       "taxa_ml": 19.17,
-      "pct": 89.5,
+      "pct": 82.7,
       "margem_pct": 47.2
     },
     {
-      "nome": "Acessórios",
+      "nome": "Vestuário Infantil",
       "vendas": 1,
-      "faturamento": 23.99,
-      "custo": 11.61,
-      "taxa_ml": 3.22,
-      "pct": 10.5,
-      "margem_pct": 51.6
+      "faturamento": 42.67,
+      "custo": 26.91,
+      "taxa_ml": 0,
+      "pct": 17.3,
+      "margem_pct": 36.9
     }
   ],
   "chart": {
@@ -81,8 +81,8 @@
       59,
       57,
       63,
-      85,
-      3
+      84,
+      4
     ],
     "faturamento": [
       4209.9,
@@ -90,41 +90,41 @@
       4159.25,
       3404.65,
       4179.18,
-      5740.73,
-      203.61
+      5716.74,
+      246.28
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 4,
+    "total_orders_fetched": 5,
     "pads_campaigns_found": true
   },
   "semana": {
     "vendas": 388,
-    "faturamento": 25162.54,
-    "taxa_ml": 2577.72,
-    "faturamento_menos_taxa": 22584.82,
-    "ticket_medio": 64.85,
+    "faturamento": 25181.22,
+    "taxa_ml": 2574.5,
+    "faturamento_menos_taxa": 22606.72,
+    "ticket_medio": 64.9,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 25162.54,
+    "organic_revenue": 25181.22,
     "acos": 0,
     "tacos": 1.5
   },
   "mes": {
     "vendas": 599,
-    "faturamento": 38426.24,
-    "taxa_ml": 4851.58,
-    "faturamento_menos_taxa": 33574.66,
-    "ticket_medio": 64.15,
+    "faturamento": 38444.92,
+    "taxa_ml": 4848.36,
+    "faturamento_menos_taxa": 33596.56,
+    "ticket_medio": 64.18,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 38426.24,
+    "organic_revenue": 38444.92,
     "acos": 0,
     "tacos": 1.0,
     "chart": {
@@ -151,8 +151,8 @@
         59,
         57,
         63,
-        85,
-        3
+        84,
+        4
       ],
       "faturamento": [
         1349.93,
@@ -164,8 +164,8 @@
         4159.25,
         3404.65,
         4179.18,
-        5740.73,
-        203.61
+        5716.74,
+        246.28
       ]
     }
   }
