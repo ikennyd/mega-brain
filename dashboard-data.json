@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-03-12T09:26:50.704431",
+  "updated_at": "2026-03-12T10:05:38.038566",
   "kpis": {
-    "faturamento_hoje": 135.74,
-    "vendas_hoje": 2,
-    "ticket_medio": 67.87,
-    "cmv_total": 71.68,
-    "lucro_bruto": 64.06,
-    "margem_pct_real": 47.2,
-    "lucro_por_pedido": 32.03,
-    "taxa_ml_total": 12.78,
-    "shipping_total": 16.1,
-    "faturamento_liquido": 106.86,
-    "margem_liquida_pct": 25.9,
-    "lucro_liquido": 35.18,
-    "vendas_semana": 391,
-    "faturamento_semana": 26026.42,
+    "faturamento_hoje": 315.72,
+    "vendas_hoje": 4,
+    "ticket_medio": 78.93,
+    "cmv_total": 125.5,
+    "lucro_bruto": 190.22,
+    "margem_pct_real": 60.2,
+    "lucro_por_pedido": 47.56,
+    "taxa_ml_total": 37.98,
+    "shipping_total": 79.1,
+    "faturamento_liquido": 198.64,
+    "margem_liquida_pct": 23.2,
+    "lucro_liquido": 73.14,
+    "vendas_semana": 393,
+    "faturamento_semana": 26206.4,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 135.74,
+    "organic_revenue": 315.72,
     "acos": 0,
-    "tacos": 272.6
+    "tacos": 117.2
   },
   "top5": [
     {
@@ -32,16 +32,47 @@
       "lucro": 64.06,
       "margem_pct": 47.2,
       "score": 84
+    },
+    {
+      "vendas": 1,
+      "faturamento": 89.99,
+      "custo": 26.91,
+      "title": "Kit 3 Calça Moletom Infantil Flanelada Menino Meni",
+      "taxa_ml": 12.6,
+      "full_unit_price": 89.99,
+      "lucro": 63.08,
+      "margem_pct": 70.1,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 89.99,
+      "custo": 26.91,
+      "title": "Kit 3 Calça Moletom Infantil Flanelada Menino Meni",
+      "taxa_ml": 12.6,
+      "full_unit_price": 89.99,
+      "lucro": 63.08,
+      "margem_pct": 70.1,
+      "score": 82
     }
   ],
   "categories": [
+    {
+      "nome": "Vestuário Infantil",
+      "vendas": 2,
+      "faturamento": 179.98,
+      "custo": 53.82,
+      "taxa_ml": 25.2,
+      "pct": 57.0,
+      "margem_pct": 70.1
+    },
     {
       "nome": "Vestuário Adult",
       "vendas": 2,
       "faturamento": 135.74,
       "custo": 71.68,
       "taxa_ml": 12.78,
-      "pct": 100.0,
+      "pct": 43.0,
       "margem_pct": 47.2
     }
   ],
@@ -62,7 +93,7 @@
       63,
       85,
       77,
-      2
+      4
     ],
     "faturamento": [
       3094.57,
@@ -71,40 +102,40 @@
       4179.18,
       5784.61,
       5303.33,
-      135.74
+      315.72
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 2,
+    "total_orders_fetched": 4,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 391,
-    "faturamento": 26026.42,
-    "taxa_ml": 2711.48,
-    "faturamento_menos_taxa": 23314.94,
-    "ticket_medio": 66.56,
+    "vendas": 393,
+    "faturamento": 26206.4,
+    "taxa_ml": 2736.68,
+    "faturamento_menos_taxa": 23469.72,
+    "ticket_medio": 66.68,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 26026.42,
+    "organic_revenue": 26206.4,
     "acos": 0,
     "tacos": 1.4
   },
   "mes": {
-    "vendas": 673,
-    "faturamento": 43602.8,
-    "taxa_ml": 5411.01,
-    "faturamento_menos_taxa": 38191.79,
-    "ticket_medio": 64.79,
+    "vendas": 675,
+    "faturamento": 43782.78,
+    "taxa_ml": 5436.21,
+    "faturamento_menos_taxa": 38346.57,
+    "ticket_medio": 64.86,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 43602.8,
+    "organic_revenue": 43782.78,
     "acos": 0,
     "tacos": 0.8,
     "chart": {
@@ -134,7 +165,7 @@
         63,
         85,
         77,
-        2
+        4
       ],
       "faturamento": [
         1349.93,
@@ -148,7 +179,7 @@
         4179.18,
         5784.61,
         5303.33,
-        135.74
+        315.72
       ]
     }
   }
