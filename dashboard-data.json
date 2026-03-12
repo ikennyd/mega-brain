@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-03-12T16:51:37.203235",
+  "updated_at": "2026-03-12T17:42:34.499987",
   "kpis": {
-    "faturamento_hoje": 2663.4,
-    "vendas_hoje": 40,
-    "ticket_medio": 66.58,
-    "cmv_total": 1267.97,
-    "lucro_bruto": 1395.43,
-    "margem_pct_real": 52.4,
-    "lucro_por_pedido": 34.89,
-    "taxa_ml_total": 334.2,
-    "shipping_total": 519.88,
-    "faturamento_liquido": 1809.32,
-    "margem_liquida_pct": 20.3,
-    "lucro_liquido": 541.35,
-    "vendas_semana": 429,
-    "faturamento_semana": 28554.08,
+    "faturamento_hoje": 2732.93,
+    "vendas_hoje": 41,
+    "ticket_medio": 66.66,
+    "cmv_total": 1292.97,
+    "lucro_bruto": 1439.96,
+    "margem_pct_real": 52.7,
+    "lucro_por_pedido": 35.12,
+    "taxa_ml_total": 346.02,
+    "shipping_total": 527.83,
+    "faturamento_liquido": 1859.08,
+    "margem_liquida_pct": 20.7,
+    "lucro_liquido": 566.11,
+    "vendas_semana": 430,
+    "faturamento_semana": 28623.61,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 2663.4,
+    "organic_revenue": 2732.93,
     "acos": 0,
-    "tacos": 13.9
+    "tacos": 13.5
   },
   "top5": [
     {
@@ -34,15 +34,15 @@
       "score": 99
     },
     {
-      "vendas": 3,
-      "faturamento": 208.59,
-      "custo": 75.0,
+      "vendas": 4,
+      "faturamento": 278.12,
+      "custo": 100.0,
       "title": "Body Splash Afrodite Garden Hinode By Jade Picon 2",
-      "taxa_ml": 35.46,
+      "taxa_ml": 47.28,
       "full_unit_price": 69.53,
-      "lucro": 133.59,
+      "lucro": 178.12,
       "margem_pct": 64.0,
-      "score": 86
+      "score": 88
     },
     {
       "vendas": 2,
@@ -85,7 +85,7 @@
       "faturamento": 1369.84,
       "custo": 636.43,
       "taxa_ml": 191.38,
-      "pct": 51.4,
+      "pct": 50.1,
       "margem_pct": 53.5
     },
     {
@@ -94,16 +94,16 @@
       "faturamento": 950.18,
       "custo": 501.76,
       "taxa_ml": 89.32,
-      "pct": 35.7,
+      "pct": 34.8,
       "margem_pct": 47.2
     },
     {
       "nome": "Outros",
-      "vendas": 3,
-      "faturamento": 208.59,
-      "custo": 75.0,
-      "taxa_ml": 35.46,
-      "pct": 7.8,
+      "vendas": 4,
+      "faturamento": 278.12,
+      "custo": 100.0,
+      "taxa_ml": 47.28,
+      "pct": 10.2,
       "margem_pct": 64.0
     },
     {
@@ -112,7 +112,7 @@
       "faturamento": 134.79,
       "custo": 54.78,
       "taxa_ml": 18.04,
-      "pct": 5.1,
+      "pct": 4.9,
       "margem_pct": 59.4
     }
   ],
@@ -133,7 +133,7 @@
       63,
       85,
       77,
-      40
+      41
     ],
     "faturamento": [
       3094.57,
@@ -142,40 +142,40 @@
       4179.18,
       5784.61,
       5303.33,
-      2663.4
+      2732.93
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 40,
+    "total_orders_fetched": 41,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 429,
-    "faturamento": 28554.08,
-    "taxa_ml": 3032.9,
-    "faturamento_menos_taxa": 25521.18,
-    "ticket_medio": 66.56,
+    "vendas": 430,
+    "faturamento": 28623.61,
+    "taxa_ml": 3044.72,
+    "faturamento_menos_taxa": 25578.89,
+    "ticket_medio": 66.57,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 28554.08,
+    "organic_revenue": 28623.61,
     "acos": 0,
     "tacos": 1.3
   },
   "mes": {
-    "vendas": 710,
-    "faturamento": 46062.59,
-    "taxa_ml": 5726.04,
-    "faturamento_menos_taxa": 40336.55,
+    "vendas": 711,
+    "faturamento": 46132.12,
+    "taxa_ml": 5737.86,
+    "faturamento_menos_taxa": 40394.26,
     "ticket_medio": 64.88,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 46062.59,
+    "organic_revenue": 46132.12,
     "acos": 0,
     "tacos": 0.8,
     "chart": {
@@ -205,7 +205,7 @@
         63,
         85,
         77,
-        40
+        41
       ],
       "faturamento": [
         1349.93,
@@ -219,7 +219,7 @@
         4179.18,
         5784.61,
         5303.33,
-        2663.4
+        2732.93
       ]
     }
   }
