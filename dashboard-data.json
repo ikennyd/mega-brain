@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-03-13T09:23:02.309433",
+  "updated_at": "2026-03-13T10:00:41.747675",
   "kpis": {
-    "faturamento_hoje": 350.62,
-    "vendas_hoje": 4,
-    "ticket_medio": 87.66,
-    "cmv_total": 143.76,
-    "lucro_bruto": 206.86,
-    "margem_pct_real": 59.0,
-    "lucro_por_pedido": 51.71,
-    "taxa_ml_total": 42.87,
-    "shipping_total": 74.13,
-    "faturamento_liquido": 233.62,
-    "margem_liquida_pct": 25.6,
-    "lucro_liquido": 89.86,
-    "vendas_semana": 427,
-    "faturamento_semana": 28748.75,
+    "faturamento_hoje": 414.62,
+    "vendas_hoje": 5,
+    "ticket_medio": 82.92,
+    "cmv_total": 179.6,
+    "lucro_bruto": 235.02,
+    "margem_pct_real": 56.7,
+    "lucro_por_pedido": 47.0,
+    "taxa_ml_total": 51.69,
+    "shipping_total": 82.28,
+    "faturamento_liquido": 280.65,
+    "margem_liquida_pct": 24.4,
+    "lucro_liquido": 101.05,
+    "vendas_semana": 428,
+    "faturamento_semana": 28812.75,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 350.62,
+    "organic_revenue": 414.62,
     "acos": 0,
-    "tacos": 105.5
+    "tacos": 89.2
   },
   "top5": [
     {
@@ -46,6 +46,17 @@
     },
     {
       "vendas": 1,
+      "faturamento": 64,
+      "custo": 35.84,
+      "title": "Conjunto Moletom E Calça Infantil Inverno Quentinh",
+      "taxa_ml": 8.82,
+      "full_unit_price": 64,
+      "lucro": 28.16,
+      "margem_pct": 44.0,
+      "score": 82
+    },
+    {
+      "vendas": 1,
       "faturamento": 34.9,
       "custo": 18.26,
       "title": "Carteira Slim Pequena Hugo Jobs Couro Marrom 3 Car",
@@ -59,12 +70,12 @@
   "categories": [
     {
       "nome": "Vestuário Infantil",
-      "vendas": 2,
-      "faturamento": 179.98,
-      "custo": 53.82,
-      "taxa_ml": 25.2,
-      "pct": 51.3,
-      "margem_pct": 70.1
+      "vendas": 3,
+      "faturamento": 243.98,
+      "custo": 89.66,
+      "taxa_ml": 34.02,
+      "pct": 58.8,
+      "margem_pct": 63.3
     },
     {
       "nome": "Vestuário Adult",
@@ -72,7 +83,7 @@
       "faturamento": 135.74,
       "custo": 71.68,
       "taxa_ml": 12.78,
-      "pct": 38.7,
+      "pct": 32.7,
       "margem_pct": 47.2
     },
     {
@@ -81,7 +92,7 @@
       "faturamento": 34.9,
       "custo": 18.26,
       "taxa_ml": 4.89,
-      "pct": 10.0,
+      "pct": 8.4,
       "margem_pct": 47.7
     }
   ],
@@ -102,7 +113,7 @@
       85,
       77,
       84,
-      3
+      4
     ],
     "faturamento": [
       4159.25,
@@ -111,40 +122,40 @@
       5784.61,
       5303.33,
       5669.89,
-      282.75
+      346.75
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 4,
+    "total_orders_fetched": 5,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 427,
-    "faturamento": 28748.75,
-    "taxa_ml": 3101.56,
-    "faturamento_menos_taxa": 25647.19,
-    "ticket_medio": 67.33,
+    "vendas": 428,
+    "faturamento": 28812.75,
+    "taxa_ml": 3110.38,
+    "faturamento_menos_taxa": 25702.37,
+    "ticket_medio": 67.32,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 28748.75,
+    "organic_revenue": 28812.75,
     "acos": 0,
     "tacos": 1.3
   },
   "mes": {
-    "vendas": 756,
-    "faturamento": 49154.84,
-    "taxa_ml": 6085.57,
-    "faturamento_menos_taxa": 43069.27,
+    "vendas": 757,
+    "faturamento": 49218.84,
+    "taxa_ml": 6094.39,
+    "faturamento_menos_taxa": 43124.45,
     "ticket_medio": 65.02,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 49154.84,
+    "organic_revenue": 49218.84,
     "acos": 0,
     "tacos": 0.8,
     "chart": {
@@ -176,7 +187,7 @@
         85,
         77,
         84,
-        3
+        4
       ],
       "faturamento": [
         1349.93,
@@ -191,7 +202,7 @@
         5784.61,
         5303.33,
         5669.89,
-        282.75
+        346.75
       ]
     }
   }
