@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-03-14T14:46:49.632055",
+  "updated_at": "2026-03-14T15:19:42.051685",
   "kpis": {
-    "faturamento_hoje": 1008.38,
-    "vendas_hoje": 14,
-    "ticket_medio": 72.03,
-    "cmv_total": 467.0,
-    "lucro_bruto": 541.38,
-    "margem_pct_real": 53.7,
-    "lucro_por_pedido": 38.67,
-    "taxa_ml_total": 109.93,
-    "shipping_total": 148.24,
-    "faturamento_liquido": 750.21,
-    "margem_liquida_pct": 28.1,
-    "lucro_liquido": 283.21,
-    "vendas_semana": 440,
-    "faturamento_semana": 29818.79,
+    "faturamento_hoje": 1058.28,
+    "vendas_hoje": 15,
+    "ticket_medio": 70.55,
+    "cmv_total": 485.26,
+    "lucro_bruto": 573.02,
+    "margem_pct_real": 54.1,
+    "lucro_por_pedido": 38.2,
+    "taxa_ml_total": 116.92,
+    "shipping_total": 155.99,
+    "faturamento_liquido": 785.37,
+    "margem_liquida_pct": 28.4,
+    "lucro_liquido": 300.11,
+    "vendas_semana": 441,
+    "faturamento_semana": 29868.69,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 1008.38,
+    "organic_revenue": 1058.28,
     "acos": 0,
-    "tacos": 36.7
+    "tacos": 35.0
   },
   "top5": [
     {
@@ -34,15 +34,15 @@
       "score": 99
     },
     {
-      "vendas": 3,
-      "faturamento": 149.7,
-      "custo": 54.78,
+      "vendas": 4,
+      "faturamento": 199.6,
+      "custo": 73.04,
       "title": "Carteira Couro Legítimo Slim 8 Porta Cartões E Cnh",
-      "taxa_ml": 20.97,
+      "taxa_ml": 27.96,
       "full_unit_price": 49.9,
-      "lucro": 94.92,
+      "lucro": 126.56,
       "margem_pct": 63.4,
-      "score": 86
+      "score": 88
     },
     {
       "vendas": 1,
@@ -74,8 +74,17 @@
       "faturamento": 678.7,
       "custo": 358.4,
       "taxa_ml": 63.76,
-      "pct": 67.3,
+      "pct": 64.1,
       "margem_pct": 47.2
+    },
+    {
+      "nome": "Acessórios",
+      "vendas": 4,
+      "faturamento": 199.6,
+      "custo": 73.04,
+      "taxa_ml": 27.96,
+      "pct": 18.9,
+      "margem_pct": 63.4
     },
     {
       "nome": "Vestuário Infantil",
@@ -83,17 +92,8 @@
       "faturamento": 179.98,
       "custo": 53.82,
       "taxa_ml": 25.2,
-      "pct": 17.8,
+      "pct": 17.0,
       "margem_pct": 70.1
-    },
-    {
-      "nome": "Acessórios",
-      "vendas": 3,
-      "faturamento": 149.7,
-      "custo": 54.78,
-      "taxa_ml": 20.97,
-      "pct": 14.8,
-      "margem_pct": 63.4
     }
   ],
   "chart": {
@@ -113,7 +113,7 @@
       76,
       84,
       63,
-      13
+      14
     ],
     "faturamento": [
       3369.74,
@@ -122,40 +122,40 @@
       5259.34,
       5669.89,
       4615.52,
-      940.51
+      990.41
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 14,
+    "total_orders_fetched": 15,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 440,
-    "faturamento": 29818.79,
-    "taxa_ml": 3245.65,
-    "faturamento_menos_taxa": 26573.14,
-    "ticket_medio": 67.77,
+    "vendas": 441,
+    "faturamento": 29868.69,
+    "taxa_ml": 3252.64,
+    "faturamento_menos_taxa": 26616.05,
+    "ticket_medio": 67.73,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 29818.79,
+    "organic_revenue": 29868.69,
     "acos": 0,
     "tacos": 1.2
   },
   "mes": {
-    "vendas": 825,
-    "faturamento": 54156.59,
-    "taxa_ml": 6621.13,
-    "faturamento_menos_taxa": 47535.46,
-    "ticket_medio": 65.64,
+    "vendas": 826,
+    "faturamento": 54206.49,
+    "taxa_ml": 6628.12,
+    "faturamento_menos_taxa": 47578.37,
+    "ticket_medio": 65.63,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 54156.59,
+    "organic_revenue": 54206.49,
     "acos": 0,
     "tacos": 0.7,
     "chart": {
@@ -189,7 +189,7 @@
         76,
         84,
         63,
-        13
+        14
       ],
       "faturamento": [
         1349.93,
@@ -205,7 +205,7 @@
         5259.34,
         5669.89,
         4615.52,
-        940.51
+        990.41
       ]
     }
   }
