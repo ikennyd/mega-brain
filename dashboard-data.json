@@ -1,27 +1,38 @@
 {
-  "updated_at": "2026-03-14T09:31:05.601988",
+  "updated_at": "2026-03-14T09:59:40.703137",
   "kpis": {
-    "faturamento_hoje": 117.77,
-    "vendas_hoje": 2,
-    "ticket_medio": 58.89,
-    "cmv_total": 54.1,
-    "lucro_bruto": 63.67,
-    "margem_pct_real": 54.1,
-    "lucro_por_pedido": 31.84,
-    "taxa_ml_total": 13.38,
-    "shipping_total": 15.8,
-    "faturamento_liquido": 88.59,
-    "margem_liquida_pct": 29.3,
-    "lucro_liquido": 34.49,
-    "vendas_semana": 428,
-    "faturamento_semana": 28928.18,
+    "faturamento_hoje": 167.67,
+    "vendas_hoje": 3,
+    "ticket_medio": 55.89,
+    "cmv_total": 72.36,
+    "lucro_bruto": 95.31,
+    "margem_pct_real": 56.8,
+    "lucro_por_pedido": 31.77,
+    "taxa_ml_total": 20.37,
+    "shipping_total": 23.55,
+    "faturamento_liquido": 123.75,
+    "margem_liquida_pct": 30.6,
+    "lucro_liquido": 51.39,
+    "vendas_semana": 429,
+    "faturamento_semana": 28978.08,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 117.77,
+    "organic_revenue": 167.67,
     "acos": 0,
-    "tacos": 314.2
+    "tacos": 220.7
   },
   "top5": [
+    {
+      "vendas": 2,
+      "faturamento": 99.8,
+      "custo": 36.52,
+      "title": "Carteira Couro Legítimo Slim 8 Porta Cartões E Cnh",
+      "taxa_ml": 13.98,
+      "full_unit_price": 49.9,
+      "lucro": 63.28,
+      "margem_pct": 63.4,
+      "score": 84
+    },
     {
       "vendas": 1,
       "faturamento": 67.87,
@@ -32,37 +43,26 @@
       "lucro": 32.03,
       "margem_pct": 47.2,
       "score": 82
-    },
-    {
-      "vendas": 1,
-      "faturamento": 49.9,
-      "custo": 18.26,
-      "title": "Carteira Couro Legítimo Slim 8 Porta Cartões E Cnh",
-      "taxa_ml": 6.99,
-      "full_unit_price": 49.9,
-      "lucro": 31.64,
-      "margem_pct": 63.4,
-      "score": 82
     }
   ],
   "categories": [
+    {
+      "nome": "Acessórios",
+      "vendas": 2,
+      "faturamento": 99.8,
+      "custo": 36.52,
+      "taxa_ml": 13.98,
+      "pct": 59.5,
+      "margem_pct": 63.4
+    },
     {
       "nome": "Vestuário Adult",
       "vendas": 1,
       "faturamento": 67.87,
       "custo": 35.84,
       "taxa_ml": 6.39,
-      "pct": 57.6,
+      "pct": 40.5,
       "margem_pct": 47.2
-    },
-    {
-      "nome": "Acessórios",
-      "vendas": 1,
-      "faturamento": 49.9,
-      "custo": 18.26,
-      "taxa_ml": 6.99,
-      "pct": 42.4,
-      "margem_pct": 63.4
     }
   ],
   "chart": {
@@ -82,7 +82,7 @@
       76,
       84,
       63,
-      1
+      2
     ],
     "faturamento": [
       3369.74,
@@ -91,40 +91,40 @@
       5259.34,
       5669.89,
       4615.52,
-      49.9
+      99.8
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 2,
+    "total_orders_fetched": 3,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 428,
-    "faturamento": 28928.18,
-    "taxa_ml": 3155.49,
-    "faturamento_menos_taxa": 25772.69,
-    "ticket_medio": 67.59,
+    "vendas": 429,
+    "faturamento": 28978.08,
+    "taxa_ml": 3162.48,
+    "faturamento_menos_taxa": 25815.6,
+    "ticket_medio": 67.55,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 28928.18,
+    "organic_revenue": 28978.08,
     "acos": 0,
     "tacos": 1.3
   },
   "mes": {
-    "vendas": 813,
-    "faturamento": 53265.98,
-    "taxa_ml": 6530.97,
-    "faturamento_menos_taxa": 46735.01,
-    "ticket_medio": 65.52,
+    "vendas": 814,
+    "faturamento": 53315.88,
+    "taxa_ml": 6537.96,
+    "faturamento_menos_taxa": 46777.92,
+    "ticket_medio": 65.5,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 53265.98,
+    "organic_revenue": 53315.88,
     "acos": 0,
     "tacos": 0.7,
     "chart": {
@@ -158,7 +158,7 @@
         76,
         84,
         63,
-        1
+        2
       ],
       "faturamento": [
         1349.93,
@@ -174,7 +174,7 @@
         5259.34,
         5669.89,
         4615.52,
-        49.9
+        99.8
       ]
     }
   }
