@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-03-15T11:45:49.298696",
+  "updated_at": "2026-03-15T12:33:06.576917",
   "kpis": {
-    "faturamento_hoje": 110.54,
-    "vendas_hoje": 2,
-    "ticket_medio": 55.27,
-    "cmv_total": 62.75,
-    "lucro_bruto": 47.79,
-    "margem_pct_real": 43.2,
-    "lucro_por_pedido": 23.9,
-    "taxa_ml_total": 9.8,
-    "shipping_total": 14.8,
-    "faturamento_liquido": 85.94,
-    "margem_liquida_pct": 21.0,
-    "lucro_liquido": 23.19,
-    "vendas_semana": 430,
-    "faturamento_semana": 29356.99,
+    "faturamento_hoje": 174.54,
+    "vendas_hoje": 3,
+    "ticket_medio": 58.18,
+    "cmv_total": 98.59,
+    "lucro_bruto": 75.95,
+    "margem_pct_real": 43.5,
+    "lucro_por_pedido": 25.32,
+    "taxa_ml_total": 18.76,
+    "shipping_total": 22.95,
+    "faturamento_liquido": 132.83,
+    "margem_liquida_pct": 19.6,
+    "lucro_liquido": 34.24,
+    "vendas_semana": 431,
+    "faturamento_semana": 29420.99,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 110.54,
+    "organic_revenue": 174.54,
     "acos": 0,
-    "tacos": 334.7
+    "tacos": 212.0
   },
   "top5": [
     {
@@ -31,6 +31,17 @@
       "full_unit_price": 67.87,
       "lucro": 32.03,
       "margem_pct": 47.2,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 64,
+      "custo": 35.84,
+      "title": "Conjunto Moletom E Calça Infantil Inverno Quentinh",
+      "taxa_ml": 8.96,
+      "full_unit_price": 64,
+      "lucro": 28.16,
+      "margem_pct": 44.0,
       "score": 82
     },
     {
@@ -47,22 +58,22 @@
   ],
   "categories": [
     {
+      "nome": "Vestuário Infantil",
+      "vendas": 2,
+      "faturamento": 106.67,
+      "custo": 62.75,
+      "taxa_ml": 12.37,
+      "pct": 61.1,
+      "margem_pct": 41.2
+    },
+    {
       "nome": "Vestuário Adult",
       "vendas": 1,
       "faturamento": 67.87,
       "custo": 35.84,
       "taxa_ml": 6.39,
-      "pct": 61.4,
+      "pct": 38.9,
       "margem_pct": 47.2
-    },
-    {
-      "nome": "Vestuário Infantil",
-      "vendas": 1,
-      "faturamento": 42.67,
-      "custo": 26.91,
-      "taxa_ml": 3.41,
-      "pct": 38.6,
-      "margem_pct": 36.9
     }
   ],
   "chart": {
@@ -82,7 +93,7 @@
       84,
       63,
       57,
-      1
+      2
     ],
     "faturamento": [
       4111.31,
@@ -91,40 +102,40 @@
       5669.89,
       4615.52,
       3745.67,
-      67.87
+      131.87
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 2,
+    "total_orders_fetched": 3,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 430,
-    "faturamento": 29356.99,
-    "taxa_ml": 3208.15,
-    "faturamento_menos_taxa": 26148.84,
-    "ticket_medio": 68.27,
+    "vendas": 431,
+    "faturamento": 29420.99,
+    "taxa_ml": 3217.11,
+    "faturamento_menos_taxa": 26203.88,
+    "ticket_medio": 68.26,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 29356.99,
+    "organic_revenue": 29420.99,
     "acos": 0,
     "tacos": 1.3
   },
   "mes": {
-    "vendas": 870,
-    "faturamento": 57029.62,
-    "taxa_ml": 6942.43,
-    "faturamento_menos_taxa": 50087.19,
+    "vendas": 871,
+    "faturamento": 57093.62,
+    "taxa_ml": 6951.39,
+    "faturamento_menos_taxa": 50142.23,
     "ticket_medio": 65.55,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 57029.62,
+    "organic_revenue": 57093.62,
     "acos": 0,
     "tacos": 0.6,
     "chart": {
@@ -160,7 +171,7 @@
         84,
         63,
         57,
-        1
+        2
       ],
       "faturamento": [
         1349.93,
@@ -177,7 +188,7 @@
         5669.89,
         4615.52,
         3745.67,
-        67.87
+        131.87
       ]
     }
   }
