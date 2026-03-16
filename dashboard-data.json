@@ -1,27 +1,38 @@
 {
-  "updated_at": "2026-03-16T14:04:42.541332",
+  "updated_at": "2026-03-16T15:18:02.021470",
   "kpis": {
-    "faturamento_hoje": 833.81,
-    "vendas_hoje": 10,
-    "ticket_medio": 83.38,
-    "cmv_total": 319.39,
-    "lucro_bruto": 514.42,
-    "margem_pct_real": 61.7,
-    "lucro_por_pedido": 51.44,
-    "taxa_ml_total": 113.89,
-    "shipping_total": 130.9,
-    "faturamento_liquido": 589.02,
-    "margem_liquida_pct": 32.3,
-    "lucro_liquido": 269.63,
-    "vendas_semana": 429,
-    "faturamento_semana": 29458.54,
+    "faturamento_hoje": 966.14,
+    "vendas_hoje": 12,
+    "ticket_medio": 80.51,
+    "cmv_total": 391.07,
+    "lucro_bruto": 575.07,
+    "margem_pct_real": 59.5,
+    "lucro_por_pedido": 47.92,
+    "taxa_ml_total": 129.86,
+    "shipping_total": 146.9,
+    "faturamento_liquido": 689.38,
+    "margem_liquida_pct": 30.9,
+    "lucro_liquido": 298.31,
+    "vendas_semana": 431,
+    "faturamento_semana": 29590.87,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 833.81,
+    "organic_revenue": 966.14,
     "acos": 0,
-    "tacos": 44.4
+    "tacos": 38.3
   },
   "top5": [
+    {
+      "vendas": 4,
+      "faturamento": 315.96,
+      "custo": 143.36,
+      "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
+      "taxa_ml": 44.24,
+      "full_unit_price": 78.99,
+      "lucro": 172.6,
+      "margem_pct": 54.6,
+      "score": 88
+    },
     {
       "vendas": 3,
       "faturamento": 269.97,
@@ -31,17 +42,6 @@
       "full_unit_price": 89.99,
       "lucro": 189.24,
       "margem_pct": 70.1,
-      "score": 86
-    },
-    {
-      "vendas": 3,
-      "faturamento": 236.97,
-      "custo": 107.52,
-      "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
-      "taxa_ml": 33.18,
-      "full_unit_price": 78.99,
-      "lucro": 129.45,
-      "margem_pct": 54.6,
       "score": 86
     },
     {
@@ -67,15 +67,15 @@
       "score": 82
     },
     {
-      "vendas": 2,
-      "faturamento": 47.98,
-      "custo": 23.22,
-      "title": "Carteira Fina Couro Legítimo Porta Cartão Cnh Até ",
-      "taxa_ml": 6.58,
-      "full_unit_price": 23.99,
-      "lucro": 24.76,
-      "margem_pct": 51.6,
-      "score": 84
+      "vendas": 1,
+      "faturamento": 53.34,
+      "custo": 35.84,
+      "title": "Blusa Moletom Estilosa Estampa Paris Hugo Jobs Gol",
+      "taxa_ml": 4.91,
+      "full_unit_price": 53.34,
+      "lucro": 17.5,
+      "margem_pct": 32.8,
+      "score": 82
     }
   ],
   "categories": [
@@ -85,17 +85,17 @@
       "faturamento": 513.96,
       "custo": 170.39,
       "taxa_ml": 69.38,
-      "pct": 61.6,
+      "pct": 53.2,
       "margem_pct": 66.8
     },
     {
       "nome": "Vestuário Adult",
-      "vendas": 3,
-      "faturamento": 236.97,
-      "custo": 107.52,
-      "taxa_ml": 33.18,
-      "pct": 28.4,
-      "margem_pct": 54.6
+      "vendas": 5,
+      "faturamento": 369.3,
+      "custo": 179.2,
+      "taxa_ml": 49.15,
+      "pct": 38.2,
+      "margem_pct": 51.5
     },
     {
       "nome": "Acessórios",
@@ -103,7 +103,7 @@
       "faturamento": 82.88,
       "custo": 41.48,
       "taxa_ml": 11.33,
-      "pct": 9.9,
+      "pct": 8.6,
       "margem_pct": 50.0
     }
   ],
@@ -124,7 +124,7 @@
       62,
       56,
       58,
-      8
+      10
     ],
     "faturamento": [
       5784.61,
@@ -133,40 +133,40 @@
       4547.65,
       3677.8,
       3854.42,
-      664.83
+      797.16
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 10,
+    "total_orders_fetched": 12,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 429,
-    "faturamento": 29458.54,
-    "taxa_ml": 3253.32,
-    "faturamento_menos_taxa": 26205.22,
-    "ticket_medio": 68.67,
+    "vendas": 431,
+    "faturamento": 29590.87,
+    "taxa_ml": 3269.29,
+    "faturamento_menos_taxa": 26321.58,
+    "ticket_medio": 68.66,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 29458.54,
+    "organic_revenue": 29590.87,
     "acos": 0,
     "tacos": 1.3
   },
   "mes": {
-    "vendas": 931,
-    "faturamento": 61213.4,
-    "taxa_ml": 7402.38,
-    "faturamento_menos_taxa": 53811.02,
+    "vendas": 933,
+    "faturamento": 61345.73,
+    "taxa_ml": 7418.35,
+    "faturamento_menos_taxa": 53927.38,
     "ticket_medio": 65.75,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 61213.4,
+    "organic_revenue": 61345.73,
     "acos": 0,
     "tacos": 0.6,
     "chart": {
@@ -204,7 +204,7 @@
         62,
         56,
         58,
-        8
+        10
       ],
       "faturamento": [
         1349.93,
@@ -222,7 +222,7 @@
         4547.65,
         3677.8,
         3854.42,
-        664.83
+        797.16
       ]
     }
   }
