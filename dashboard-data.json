@@ -1,27 +1,38 @@
 {
-  "updated_at": "2026-03-16T09:56:12.977456",
+  "updated_at": "2026-03-16T10:48:57.207194",
   "kpis": {
-    "faturamento_hoje": 227.87,
-    "vendas_hoje": 4,
-    "ticket_medio": 56.97,
-    "cmv_total": 92.62,
-    "lucro_bruto": 135.25,
-    "margem_pct_real": 59.4,
-    "lucro_por_pedido": 33.81,
-    "taxa_ml_total": 31.63,
-    "shipping_total": 37.0,
-    "faturamento_liquido": 159.24,
-    "margem_liquida_pct": 29.2,
-    "lucro_liquido": 66.62,
-    "vendas_semana": 424,
-    "faturamento_semana": 28920.47,
+    "faturamento_hoje": 407.85,
+    "vendas_hoje": 5,
+    "ticket_medio": 81.57,
+    "cmv_total": 146.44,
+    "lucro_bruto": 261.41,
+    "margem_pct_real": 64.1,
+    "lucro_por_pedido": 52.28,
+    "taxa_ml_total": 56.83,
+    "shipping_total": 68.5,
+    "faturamento_liquido": 282.52,
+    "margem_liquida_pct": 33.4,
+    "lucro_liquido": 136.08,
+    "vendas_semana": 425,
+    "faturamento_semana": 29100.45,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 227.87,
+    "organic_revenue": 407.85,
     "acos": 0,
-    "tacos": 162.4
+    "tacos": 90.7
   },
   "top5": [
+    {
+      "vendas": 2,
+      "faturamento": 179.98,
+      "custo": 53.82,
+      "title": "Kit 3 Calça Moletom Infantil Flanelada Menino Meni",
+      "taxa_ml": 25.2,
+      "full_unit_price": 89.99,
+      "lucro": 126.16,
+      "margem_pct": 70.1,
+      "score": 84
+    },
     {
       "vendas": 1,
       "faturamento": 89.99,
@@ -70,11 +81,11 @@
   "categories": [
     {
       "nome": "Vestuário Infantil",
-      "vendas": 1,
-      "faturamento": 89.99,
-      "custo": 26.91,
-      "taxa_ml": 12.6,
-      "pct": 39.5,
+      "vendas": 3,
+      "faturamento": 269.97,
+      "custo": 80.73,
+      "taxa_ml": 37.8,
+      "pct": 66.2,
       "margem_pct": 70.1
     },
     {
@@ -83,7 +94,7 @@
       "faturamento": 78.99,
       "custo": 35.84,
       "taxa_ml": 11.06,
-      "pct": 34.7,
+      "pct": 19.4,
       "margem_pct": 54.6
     },
     {
@@ -92,7 +103,7 @@
       "faturamento": 58.89,
       "custo": 29.87,
       "taxa_ml": 7.97,
-      "pct": 25.8,
+      "pct": 14.4,
       "margem_pct": 49.3
     }
   ],
@@ -113,7 +124,7 @@
       63,
       56,
       58,
-      2
+      3
     ],
     "faturamento": [
       5784.61,
@@ -122,40 +133,40 @@
       4615.52,
       3677.8,
       3854.42,
-      58.89
+      238.87
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 4,
+    "total_orders_fetched": 5,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 424,
-    "faturamento": 28920.47,
-    "taxa_ml": 3201.11,
-    "faturamento_menos_taxa": 25719.36,
-    "ticket_medio": 68.21,
+    "vendas": 425,
+    "faturamento": 29100.45,
+    "taxa_ml": 3213.71,
+    "faturamento_menos_taxa": 25886.74,
+    "ticket_medio": 68.47,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 28920.47,
+    "organic_revenue": 29100.45,
     "acos": 0,
     "tacos": 1.3
   },
   "mes": {
     "vendas": 928,
-    "faturamento": 60807.19,
-    "taxa_ml": 7372.13,
-    "faturamento_menos_taxa": 53435.06,
-    "ticket_medio": 65.52,
+    "faturamento": 60923.18,
+    "taxa_ml": 7375.91,
+    "faturamento_menos_taxa": 53547.27,
+    "ticket_medio": 65.65,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 60807.19,
+    "organic_revenue": 60923.18,
     "acos": 0,
     "tacos": 0.6,
     "chart": {
@@ -184,7 +195,7 @@
         70,
         67,
         49,
-        58,
+        57,
         56,
         62,
         85,
@@ -193,7 +204,7 @@
         63,
         56,
         58,
-        2
+        3
       ],
       "faturamento": [
         1349.93,
@@ -202,7 +213,7 @@
         4175.69,
         3945.04,
         3094.57,
-        4067.45,
+        4003.46,
         3369.74,
         4111.31,
         5784.61,
@@ -211,7 +222,7 @@
         4615.52,
         3677.8,
         3854.42,
-        58.89
+        238.87
       ]
     }
   }
