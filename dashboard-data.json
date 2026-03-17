@@ -1,28 +1,50 @@
 {
-  "updated_at": "2026-03-17T07:39:53.064963",
+  "updated_at": "2026-03-17T08:28:43.447051",
   "kpis": {
-    "faturamento_hoje": 0,
-    "vendas_hoje": 0,
-    "ticket_medio": 0,
-    "cmv_total": 0,
-    "lucro_bruto": 0,
-    "margem_pct_real": 0,
-    "lucro_por_pedido": 0,
-    "taxa_ml_total": 0,
-    "shipping_total": 0,
-    "faturamento_liquido": 0,
-    "margem_liquida_pct": 0,
-    "lucro_liquido": 0,
-    "vendas_semana": 366,
-    "faturamento_semana": 25167.38,
+    "faturamento_hoje": 34.99,
+    "vendas_hoje": 1,
+    "ticket_medio": 34.99,
+    "cmv_total": 18.26,
+    "lucro_bruto": 16.73,
+    "margem_pct_real": 47.8,
+    "lucro_por_pedido": 16.73,
+    "taxa_ml_total": 4.08,
+    "shipping_total": 6.65,
+    "faturamento_liquido": 24.26,
+    "margem_liquida_pct": 17.1,
+    "lucro_liquido": 6.0,
+    "vendas_semana": 367,
+    "faturamento_semana": 25202.37,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 0.0,
+    "organic_revenue": 34.99,
     "acos": 0,
-    "tacos": 0
+    "tacos": 1057.4
   },
-  "top5": [],
-  "categories": [],
+  "top5": [
+    {
+      "vendas": 1,
+      "faturamento": 34.99,
+      "custo": 18.26,
+      "title": "Kit 3 Palmilha Anatômica Conforto Ortopédico Supor",
+      "taxa_ml": 4.08,
+      "full_unit_price": 34.99,
+      "lucro": 16.73,
+      "margem_pct": 47.8,
+      "score": 82
+    }
+  ],
+  "categories": [
+    {
+      "nome": "Acessórios",
+      "vendas": 1,
+      "faturamento": 34.99,
+      "custo": 18.26,
+      "taxa_ml": 4.08,
+      "pct": 100.0,
+      "margem_pct": 47.8
+    }
+  ],
   "chart": {
     "labels": [
       "Qua (11)",
@@ -40,7 +62,7 @@
       56,
       58,
       30,
-      0
+      1
     ],
     "faturamento": [
       5259.34,
@@ -49,40 +71,40 @@
       3677.8,
       3854.42,
       2158.28,
-      0
+      34.99
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 0,
+    "total_orders_fetched": 1,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 366,
-    "faturamento": 25167.38,
-    "taxa_ml": 2822.89,
-    "faturamento_menos_taxa": 22344.49,
-    "ticket_medio": 68.76,
+    "vendas": 367,
+    "faturamento": 25202.37,
+    "taxa_ml": 2826.97,
+    "faturamento_menos_taxa": 22375.4,
+    "ticket_medio": 68.67,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 25167.38,
+    "organic_revenue": 25202.37,
     "acos": 0,
     "tacos": 1.5
   },
   "mes": {
-    "vendas": 951,
-    "faturamento": 62589.08,
-    "taxa_ml": 7553.05,
-    "faturamento_menos_taxa": 55036.03,
-    "ticket_medio": 65.81,
+    "vendas": 952,
+    "faturamento": 62624.07,
+    "taxa_ml": 7557.13,
+    "faturamento_menos_taxa": 55066.94,
+    "ticket_medio": 65.78,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 62589.08,
+    "organic_revenue": 62624.07,
     "acos": 0,
     "tacos": 0.6,
     "chart": {
@@ -122,7 +144,7 @@
         56,
         58,
         30,
-        0
+        1
       ],
       "faturamento": [
         1349.93,
@@ -141,7 +163,7 @@
         3677.8,
         3854.42,
         2158.28,
-        0
+        34.99
       ]
     }
   }
