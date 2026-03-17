@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-03-17T11:54:01.485613",
+  "updated_at": "2026-03-17T12:48:31.033244",
   "kpis": {
-    "faturamento_hoje": 34.99,
-    "vendas_hoje": 1,
-    "ticket_medio": 34.99,
-    "cmv_total": 18.26,
-    "lucro_bruto": 16.73,
-    "margem_pct_real": 47.8,
-    "lucro_por_pedido": 16.73,
-    "taxa_ml_total": 4.08,
-    "shipping_total": 6.65,
-    "faturamento_liquido": 24.26,
-    "margem_liquida_pct": 17.1,
-    "lucro_liquido": 6.0,
-    "vendas_semana": 367,
-    "faturamento_semana": 25202.37,
+    "faturamento_hoje": 63.11,
+    "vendas_hoje": 2,
+    "ticket_medio": 31.55,
+    "cmv_total": 54.1,
+    "lucro_bruto": 9.01,
+    "margem_pct_real": 14.3,
+    "lucro_por_pedido": 4.5,
+    "taxa_ml_total": 6.62,
+    "shipping_total": 13.4,
+    "faturamento_liquido": 43.09,
+    "margem_liquida_pct": -17.4,
+    "lucro_liquido": -11.01,
+    "vendas_semana": 368,
+    "faturamento_semana": 25230.49,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 34.99,
+    "organic_revenue": 63.11,
     "acos": 0,
-    "tacos": 1057.4
+    "tacos": 586.3
   },
   "top5": [
     {
@@ -32,6 +32,17 @@
       "lucro": 16.73,
       "margem_pct": 47.8,
       "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 28.12,
+      "custo": 35.84,
+      "title": "Camiseta Igreen Básica 100% Algodão",
+      "taxa_ml": 2.54,
+      "full_unit_price": 28.12,
+      "lucro": -7.72,
+      "margem_pct": -27.5,
+      "score": 82
     }
   ],
   "categories": [
@@ -41,8 +52,17 @@
       "faturamento": 34.99,
       "custo": 18.26,
       "taxa_ml": 4.08,
-      "pct": 100.0,
+      "pct": 55.4,
       "margem_pct": 47.8
+    },
+    {
+      "nome": "Vestuário Adult",
+      "vendas": 1,
+      "faturamento": 28.12,
+      "custo": 35.84,
+      "taxa_ml": 2.54,
+      "pct": 44.6,
+      "margem_pct": -27.5
     }
   ],
   "chart": {
@@ -62,7 +82,7 @@
       56,
       58,
       30,
-      1
+      2
     ],
     "faturamento": [
       5259.34,
@@ -71,40 +91,40 @@
       3677.8,
       3854.42,
       2158.28,
-      34.99
+      63.11
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 1,
+    "total_orders_fetched": 2,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 367,
-    "faturamento": 25202.37,
-    "taxa_ml": 2826.97,
-    "faturamento_menos_taxa": 22375.4,
-    "ticket_medio": 68.67,
+    "vendas": 368,
+    "faturamento": 25230.49,
+    "taxa_ml": 2829.51,
+    "faturamento_menos_taxa": 22400.98,
+    "ticket_medio": 68.56,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 25202.37,
+    "organic_revenue": 25230.49,
     "acos": 0,
     "tacos": 1.5
   },
   "mes": {
-    "vendas": 952,
-    "faturamento": 62624.07,
-    "taxa_ml": 7557.13,
-    "faturamento_menos_taxa": 55066.94,
-    "ticket_medio": 65.78,
+    "vendas": 953,
+    "faturamento": 62652.19,
+    "taxa_ml": 7559.67,
+    "faturamento_menos_taxa": 55092.52,
+    "ticket_medio": 65.74,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 62624.07,
+    "organic_revenue": 62652.19,
     "acos": 0,
     "tacos": 0.6,
     "chart": {
@@ -144,7 +164,7 @@
         56,
         58,
         30,
-        1
+        2
       ],
       "faturamento": [
         1349.93,
@@ -163,7 +183,7 @@
         3677.8,
         3854.42,
         2158.28,
-        34.99
+        63.11
       ]
     }
   }
