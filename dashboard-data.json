@@ -1,28 +1,50 @@
 {
-  "updated_at": "2026-03-18T07:40:15.826741",
+  "updated_at": "2026-03-18T08:27:26.243370",
   "kpis": {
-    "faturamento_hoje": 0,
-    "vendas_hoje": 0,
-    "ticket_medio": 0,
-    "cmv_total": 0,
-    "lucro_bruto": 0,
-    "margem_pct_real": 0,
-    "lucro_por_pedido": 0,
-    "taxa_ml_total": 0,
-    "shipping_total": 0,
-    "faturamento_liquido": 0,
-    "margem_liquida_pct": 0,
-    "lucro_liquido": 0,
-    "vendas_semana": 309,
-    "faturamento_semana": 21067.01,
+    "faturamento_hoje": 67.99,
+    "vendas_hoje": 1,
+    "ticket_medio": 67.99,
+    "cmv_total": 35.84,
+    "lucro_bruto": 32.15,
+    "margem_pct_real": 47.3,
+    "lucro_por_pedido": 32.15,
+    "taxa_ml_total": 9.38,
+    "shipping_total": 8.15,
+    "faturamento_liquido": 50.46,
+    "margem_liquida_pct": 21.5,
+    "lucro_liquido": 14.62,
+    "vendas_semana": 310,
+    "faturamento_semana": 21135.0,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 0.0,
+    "organic_revenue": 67.99,
     "acos": 0,
-    "tacos": 0
+    "tacos": 544.2
   },
-  "top5": [],
-  "categories": [],
+  "top5": [
+    {
+      "vendas": 1,
+      "faturamento": 67.99,
+      "custo": 35.84,
+      "title": "Conjunto Moletom E Calça Infantil Inverno Quentinh",
+      "taxa_ml": 9.38,
+      "full_unit_price": 67.99,
+      "lucro": 32.15,
+      "margem_pct": 47.3,
+      "score": 82
+    }
+  ],
+  "categories": [
+    {
+      "nome": "Vestuário Infantil",
+      "vendas": 1,
+      "faturamento": 67.99,
+      "custo": 35.84,
+      "taxa_ml": 9.38,
+      "pct": 100.0,
+      "margem_pct": 47.3
+    }
+  ],
   "chart": {
     "labels": [
       "Qui (12)",
@@ -40,7 +62,7 @@
       58,
       30,
       20,
-      0
+      1
     ],
     "faturamento": [
       5669.89,
@@ -49,40 +71,40 @@
       3854.42,
       2158.28,
       1226.84,
-      0
+      67.99
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 0,
+    "total_orders_fetched": 1,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 309,
-    "faturamento": 21067.01,
-    "taxa_ml": 2395.75,
-    "faturamento_menos_taxa": 18671.26,
+    "vendas": 310,
+    "faturamento": 21135.0,
+    "taxa_ml": 2405.13,
+    "faturamento_menos_taxa": 18729.87,
     "ticket_medio": 68.18,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 21067.01,
+    "organic_revenue": 21135.0,
     "acos": 0,
     "tacos": 1.8
   },
   "mes": {
-    "vendas": 968,
-    "faturamento": 63612.31,
-    "taxa_ml": 7687.65,
-    "faturamento_menos_taxa": 55924.66,
+    "vendas": 969,
+    "faturamento": 63680.3,
+    "taxa_ml": 7697.03,
+    "faturamento_menos_taxa": 55983.27,
     "ticket_medio": 65.72,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 63612.31,
+    "organic_revenue": 63680.3,
     "acos": 0,
     "tacos": 0.6,
     "chart": {
@@ -124,7 +146,7 @@
         58,
         30,
         20,
-        0
+        1
       ],
       "faturamento": [
         1349.93,
@@ -144,7 +166,7 @@
         3854.42,
         2158.28,
         1226.84,
-        0
+        67.99
       ]
     }
   }
