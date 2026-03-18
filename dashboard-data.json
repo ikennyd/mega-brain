@@ -1,27 +1,38 @@
 {
-  "updated_at": "2026-03-18T09:13:09.586940",
+  "updated_at": "2026-03-18T10:11:44.442124",
   "kpis": {
-    "faturamento_hoje": 157.98,
-    "vendas_hoje": 2,
-    "ticket_medio": 78.99,
-    "cmv_total": 62.75,
-    "lucro_bruto": 95.23,
-    "margem_pct_real": 60.3,
-    "lucro_por_pedido": 47.61,
-    "taxa_ml_total": 21.98,
-    "shipping_total": 22.3,
-    "faturamento_liquido": 113.7,
-    "margem_liquida_pct": 32.3,
-    "lucro_liquido": 50.95,
-    "vendas_semana": 311,
-    "faturamento_semana": 21224.99,
+    "faturamento_hoje": 293.71,
+    "vendas_hoje": 3,
+    "ticket_medio": 97.9,
+    "cmv_total": 87.75,
+    "lucro_bruto": 205.96,
+    "margem_pct_real": 70.1,
+    "lucro_por_pedido": 68.65,
+    "taxa_ml_total": 45.05,
+    "shipping_total": 39.95,
+    "faturamento_liquido": 208.71,
+    "margem_liquida_pct": 41.2,
+    "lucro_liquido": 120.96,
+    "vendas_semana": 312,
+    "faturamento_semana": 21360.72,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 157.98,
+    "organic_revenue": 293.71,
     "acos": 0,
-    "tacos": 234.2
+    "tacos": 126.0
   },
   "top5": [
+    {
+      "vendas": 1,
+      "faturamento": 135.73,
+      "custo": 25.0,
+      "title": "Perfume Masculino Empire Tradicional 100ml - Hinod",
+      "taxa_ml": 23.07,
+      "full_unit_price": 135.73,
+      "lucro": 110.73,
+      "margem_pct": 81.6,
+      "score": 82
+    },
     {
       "vendas": 1,
       "faturamento": 89.99,
@@ -52,8 +63,17 @@
       "faturamento": 157.98,
       "custo": 62.75,
       "taxa_ml": 21.98,
-      "pct": 100.0,
+      "pct": 53.8,
       "margem_pct": 60.3
+    },
+    {
+      "nome": "Outros",
+      "vendas": 1,
+      "faturamento": 135.73,
+      "custo": 25.0,
+      "taxa_ml": 23.07,
+      "pct": 46.2,
+      "margem_pct": 81.6
     }
   ],
   "chart": {
@@ -73,7 +93,7 @@
       58,
       30,
       20,
-      2
+      3
     ],
     "faturamento": [
       5669.89,
@@ -82,40 +102,40 @@
       3854.42,
       2158.28,
       1226.84,
-      157.98
+      293.71
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 2,
+    "total_orders_fetched": 3,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 311,
-    "faturamento": 21224.99,
-    "taxa_ml": 2417.73,
-    "faturamento_menos_taxa": 18807.26,
-    "ticket_medio": 68.25,
+    "vendas": 312,
+    "faturamento": 21360.72,
+    "taxa_ml": 2440.8,
+    "faturamento_menos_taxa": 18919.92,
+    "ticket_medio": 68.46,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 21224.99,
+    "organic_revenue": 21360.72,
     "acos": 0,
     "tacos": 1.7
   },
   "mes": {
-    "vendas": 970,
-    "faturamento": 63770.29,
-    "taxa_ml": 7709.63,
-    "faturamento_menos_taxa": 56060.66,
-    "ticket_medio": 65.74,
+    "vendas": 971,
+    "faturamento": 63906.02,
+    "taxa_ml": 7732.7,
+    "faturamento_menos_taxa": 56173.32,
+    "ticket_medio": 65.81,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 63770.29,
+    "organic_revenue": 63906.02,
     "acos": 0,
     "tacos": 0.6,
     "chart": {
@@ -157,7 +177,7 @@
         58,
         30,
         20,
-        2
+        3
       ],
       "faturamento": [
         1349.93,
@@ -177,7 +197,7 @@
         3854.42,
         2158.28,
         1226.84,
-        157.98
+        293.71
       ]
     }
   }
