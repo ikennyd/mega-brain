@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-03-19T11:28:56.376486",
+  "updated_at": "2026-03-19T11:58:01.778591",
   "kpis": {
-    "faturamento_hoje": 454.22,
-    "vendas_hoje": 7,
-    "ticket_medio": 64.89,
-    "cmv_total": 188.65,
-    "lucro_bruto": 265.57,
-    "margem_pct_real": 58.5,
-    "lucro_por_pedido": 37.94,
-    "taxa_ml_total": 55.89,
-    "shipping_total": 91.45,
-    "faturamento_liquido": 306.88,
-    "margem_liquida_pct": 26.0,
-    "lucro_liquido": 118.23,
-    "vendas_semana": 263,
-    "faturamento_semana": 18077.55,
+    "faturamento_hoje": 518.23,
+    "vendas_hoje": 8,
+    "ticket_medio": 64.78,
+    "cmv_total": 224.49,
+    "lucro_bruto": 293.74,
+    "margem_pct_real": 56.7,
+    "lucro_por_pedido": 36.72,
+    "taxa_ml_total": 62.27,
+    "shipping_total": 99.5,
+    "faturamento_liquido": 356.46,
+    "margem_liquida_pct": 25.5,
+    "lucro_liquido": 131.97,
+    "vendas_semana": 264,
+    "faturamento_semana": 18141.56,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 454.22,
+    "organic_revenue": 518.23,
     "acos": 0,
-    "tacos": 81.5
+    "tacos": 71.4
   },
   "top5": [
     {
@@ -34,6 +34,17 @@
       "score": 84
     },
     {
+      "vendas": 2,
+      "faturamento": 128.02,
+      "custo": 71.68,
+      "title": "Conjunto Moletom E Calça Infantil Inverno Quentinh",
+      "taxa_ml": 12.76,
+      "full_unit_price": 64.01,
+      "lucro": 56.34,
+      "margem_pct": 44.0,
+      "score": 84
+    },
+    {
       "vendas": 1,
       "faturamento": 89.99,
       "custo": 26.91,
@@ -42,17 +53,6 @@
       "full_unit_price": 89.99,
       "lucro": 63.08,
       "margem_pct": 70.1,
-      "score": 82
-    },
-    {
-      "vendas": 1,
-      "faturamento": 64.01,
-      "custo": 35.84,
-      "title": "Conjunto Moletom E Calça Infantil Inverno Quentinh",
-      "taxa_ml": 6.38,
-      "full_unit_price": 64.01,
-      "lucro": 28.17,
-      "margem_pct": 44.0,
       "score": 82
     },
     {
@@ -81,12 +81,12 @@
   "categories": [
     {
       "nome": "Vestuário Infantil",
-      "vendas": 6,
-      "faturamento": 419.32,
-      "custo": 170.39,
-      "taxa_ml": 51.0,
-      "pct": 92.3,
-      "margem_pct": 59.4
+      "vendas": 7,
+      "faturamento": 483.33,
+      "custo": 206.23,
+      "taxa_ml": 57.38,
+      "pct": 93.3,
+      "margem_pct": 57.3
     },
     {
       "nome": "Acessórios",
@@ -94,7 +94,7 @@
       "faturamento": 34.9,
       "custo": 18.26,
       "taxa_ml": 4.89,
-      "pct": 7.7,
+      "pct": 6.7,
       "margem_pct": 47.7
     }
   ],
@@ -115,7 +115,7 @@
       30,
       20,
       32,
-      5
+      6
     ],
     "faturamento": [
       4479.78,
@@ -124,40 +124,40 @@
       2158.28,
       1226.84,
       2291.0,
-      321.56
+      385.57
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 7,
+    "total_orders_fetched": 8,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 263,
-    "faturamento": 18077.55,
-    "taxa_ml": 2043.05,
-    "faturamento_menos_taxa": 16034.5,
-    "ticket_medio": 68.74,
+    "vendas": 264,
+    "faturamento": 18141.56,
+    "taxa_ml": 2049.43,
+    "faturamento_menos_taxa": 16092.13,
+    "ticket_medio": 68.72,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 18077.55,
+    "organic_revenue": 18141.56,
     "acos": 0,
     "tacos": 2.0
   },
   "mes": {
-    "vendas": 1003,
-    "faturamento": 66067.01,
-    "taxa_ml": 7997.29,
-    "faturamento_menos_taxa": 58069.72,
+    "vendas": 1004,
+    "faturamento": 66131.02,
+    "taxa_ml": 8003.67,
+    "faturamento_menos_taxa": 58127.35,
     "ticket_medio": 65.87,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 66067.01,
+    "organic_revenue": 66131.02,
     "acos": 0,
     "tacos": 0.6,
     "chart": {
@@ -201,7 +201,7 @@
         30,
         20,
         32,
-        5
+        6
       ],
       "faturamento": [
         1349.93,
@@ -222,7 +222,7 @@
         2158.28,
         1226.84,
         2291.0,
-        321.56
+        385.57
       ]
     }
   }
