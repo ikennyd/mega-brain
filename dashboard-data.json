@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-03-20T17:38:44.884032",
+  "updated_at": "2026-03-20T18:05:23.693491",
   "kpis": {
-    "faturamento_hoje": 692.87,
-    "vendas_hoje": 10,
-    "ticket_medio": 69.29,
-    "cmv_total": 263.98,
-    "lucro_bruto": 428.89,
-    "margem_pct_real": 61.9,
-    "lucro_por_pedido": 42.89,
-    "taxa_ml_total": 95.94,
-    "shipping_total": 96.1,
-    "faturamento_liquido": 500.83,
-    "margem_liquida_pct": 34.2,
-    "lucro_liquido": 236.85,
-    "vendas_semana": 246,
-    "faturamento_semana": 16434.58,
+    "faturamento_hoje": 756.88,
+    "vendas_hoje": 11,
+    "ticket_medio": 68.81,
+    "cmv_total": 299.82,
+    "lucro_bruto": 457.06,
+    "margem_pct_real": 60.4,
+    "lucro_por_pedido": 41.55,
+    "taxa_ml_total": 102.32,
+    "shipping_total": 104.15,
+    "faturamento_liquido": 550.41,
+    "margem_liquida_pct": 33.1,
+    "lucro_liquido": 250.59,
+    "vendas_semana": 247,
+    "faturamento_semana": 16498.59,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 692.87,
+    "organic_revenue": 756.88,
     "acos": 0,
-    "tacos": 53.4
+    "tacos": 48.9
   },
   "top5": [
     {
@@ -68,13 +68,13 @@
     },
     {
       "vendas": 1,
-      "faturamento": 49.9,
-      "custo": 18.26,
-      "title": "Carteira Couro Legítimo Slim 8 Porta Cartões E Cnh",
-      "taxa_ml": 6.85,
-      "full_unit_price": 49.9,
-      "lucro": 31.64,
-      "margem_pct": 63.4,
+      "faturamento": 64.01,
+      "custo": 35.84,
+      "title": "Conjunto Moletom E Calça Infantil Inverno Quentinh",
+      "taxa_ml": 6.38,
+      "full_unit_price": 64.01,
+      "lucro": 28.17,
+      "margem_pct": 44.0,
       "score": 82
     }
   ],
@@ -85,17 +85,17 @@
       "faturamento": 392.1,
       "custo": 162.03,
       "taxa_ml": 53.96,
-      "pct": 56.6,
+      "pct": 51.8,
       "margem_pct": 58.7
     },
     {
       "nome": "Vestuário Infantil",
-      "vendas": 2,
-      "faturamento": 179.98,
-      "custo": 53.82,
-      "taxa_ml": 25.2,
-      "pct": 26.0,
-      "margem_pct": 70.1
+      "vendas": 3,
+      "faturamento": 243.99,
+      "custo": 89.66,
+      "taxa_ml": 31.58,
+      "pct": 32.2,
+      "margem_pct": 63.3
     },
     {
       "nome": "Acessórios",
@@ -103,7 +103,7 @@
       "faturamento": 120.79,
       "custo": 48.13,
       "taxa_ml": 16.78,
-      "pct": 17.4,
+      "pct": 16.0,
       "margem_pct": 60.2
     }
   ],
@@ -124,7 +124,7 @@
       20,
       32,
       41,
-      10
+      11
     ],
     "faturamento": [
       3677.8,
@@ -133,40 +133,40 @@
       1226.84,
       2291.0,
       2583.27,
-      692.87
+      756.88
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 10,
+    "total_orders_fetched": 11,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 246,
-    "faturamento": 16434.58,
-    "taxa_ml": 1957.34,
-    "faturamento_menos_taxa": 14477.24,
-    "ticket_medio": 66.81,
+    "vendas": 247,
+    "faturamento": 16498.59,
+    "taxa_ml": 1963.72,
+    "faturamento_menos_taxa": 14534.87,
+    "ticket_medio": 66.8,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 16434.58,
+    "organic_revenue": 16498.59,
     "acos": 0,
-    "tacos": 2.3
+    "tacos": 2.2
   },
   "mes": {
-    "vendas": 1045,
-    "faturamento": 68801.04,
-    "taxa_ml": 8377.01,
-    "faturamento_menos_taxa": 60424.03,
+    "vendas": 1046,
+    "faturamento": 68865.05,
+    "taxa_ml": 8383.39,
+    "faturamento_menos_taxa": 60481.66,
     "ticket_medio": 65.84,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 68801.04,
+    "organic_revenue": 68865.05,
     "acos": 0,
     "tacos": 0.5,
     "chart": {
@@ -212,7 +212,7 @@
         20,
         32,
         41,
-        10
+        11
       ],
       "faturamento": [
         1349.93,
@@ -234,7 +234,7 @@
         1226.84,
         2291.0,
         2583.27,
-        692.87
+        756.88
       ]
     }
   }
