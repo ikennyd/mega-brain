@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-03-21T13:58:11.924057",
+  "updated_at": "2026-03-21T14:26:35.630905",
   "kpis": {
-    "faturamento_hoje": 897.86,
-    "vendas_hoje": 14,
-    "ticket_medio": 64.13,
-    "cmv_total": 449.15,
-    "lucro_bruto": 448.71,
-    "margem_pct_real": 50.0,
-    "lucro_por_pedido": 32.05,
-    "taxa_ml_total": 107.54,
-    "shipping_total": 142.59,
-    "faturamento_liquido": 647.73,
+    "faturamento_hoje": 961.86,
+    "vendas_hoje": 15,
+    "ticket_medio": 64.12,
+    "cmv_total": 484.99,
+    "lucro_bruto": 476.87,
+    "margem_pct_real": 49.6,
+    "lucro_por_pedido": 31.79,
+    "taxa_ml_total": 113.91,
+    "shipping_total": 150.54,
+    "faturamento_liquido": 697.41,
     "margem_liquida_pct": 22.1,
-    "lucro_liquido": 198.58,
-    "vendas_semana": 221,
-    "faturamento_semana": 14688.28,
+    "lucro_liquido": 212.42,
+    "vendas_semana": 222,
+    "faturamento_semana": 14752.28,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 897.86,
+    "organic_revenue": 961.86,
     "acos": 0,
-    "tacos": 41.2
+    "tacos": 38.5
   },
   "top5": [
     {
@@ -32,6 +32,17 @@
       "lucro": 168.24,
       "margem_pct": 54.0,
       "score": 88
+    },
+    {
+      "vendas": 2,
+      "faturamento": 128,
+      "custo": 71.68,
+      "title": "Conjunto Moletom E Calça Infantil Inverno Quentinh",
+      "taxa_ml": 12.74,
+      "full_unit_price": 64,
+      "lucro": 56.32,
+      "margem_pct": 44.0,
+      "score": 84
     },
     {
       "vendas": 1,
@@ -65,28 +76,17 @@
       "lucro": 28.17,
       "margem_pct": 44.0,
       "score": 82
-    },
-    {
-      "vendas": 1,
-      "faturamento": 64.01,
-      "custo": 35.84,
-      "title": "Conjunto Moletom E Calça Infantil Inverno Quentinh",
-      "taxa_ml": 6.38,
-      "full_unit_price": 64.01,
-      "lucro": 28.17,
-      "margem_pct": 44.0,
-      "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Infantil",
-      "vendas": 7,
-      "faturamento": 405.38,
-      "custo": 233.02,
-      "taxa_ml": 38.71,
-      "pct": 45.1,
-      "margem_pct": 42.5
+      "vendas": 8,
+      "faturamento": 469.38,
+      "custo": 268.86,
+      "taxa_ml": 45.08,
+      "pct": 48.8,
+      "margem_pct": 42.7
     },
     {
       "nome": "Vestuário Adult",
@@ -94,7 +94,7 @@
       "faturamento": 387.59,
       "custo": 179.2,
       "taxa_ml": 54.14,
-      "pct": 43.2,
+      "pct": 40.3,
       "margem_pct": 53.8
     },
     {
@@ -103,7 +103,7 @@
       "faturamento": 104.89,
       "custo": 36.93,
       "taxa_ml": 14.69,
-      "pct": 11.7,
+      "pct": 10.9,
       "margem_pct": 64.8
     }
   ],
@@ -124,7 +124,7 @@
       32,
       41,
       27,
-      14
+      15
     ],
     "faturamento": [
       3786.55,
@@ -133,40 +133,40 @@
       2291.0,
       2583.27,
       1751.71,
-      897.86
+      961.86
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 14,
+    "total_orders_fetched": 15,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 221,
-    "faturamento": 14688.28,
-    "taxa_ml": 1773.73,
-    "faturamento_menos_taxa": 12914.55,
-    "ticket_medio": 66.46,
+    "vendas": 222,
+    "faturamento": 14752.28,
+    "taxa_ml": 1780.1,
+    "faturamento_menos_taxa": 12972.18,
+    "ticket_medio": 66.45,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 14688.28,
+    "organic_revenue": 14752.28,
     "acos": 0,
     "tacos": 2.5
   },
   "mes": {
-    "vendas": 1075,
-    "faturamento": 70689.87,
-    "taxa_ml": 8595.8,
-    "faturamento_menos_taxa": 62094.07,
+    "vendas": 1076,
+    "faturamento": 70753.87,
+    "taxa_ml": 8602.17,
+    "faturamento_menos_taxa": 62151.7,
     "ticket_medio": 65.76,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 70689.87,
+    "organic_revenue": 70753.87,
     "acos": 0,
     "tacos": 0.5,
     "chart": {
@@ -214,7 +214,7 @@
         32,
         41,
         27,
-        14
+        15
       ],
       "faturamento": [
         1349.93,
@@ -237,7 +237,7 @@
         2291.0,
         2583.27,
         1751.71,
-        897.86
+        961.86
       ]
     }
   }
