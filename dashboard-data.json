@@ -1,28 +1,50 @@
 {
-  "updated_at": "2026-03-21T07:45:08.882830",
+  "updated_at": "2026-03-21T07:59:47.340447",
   "kpis": {
-    "faturamento_hoje": 0,
-    "vendas_hoje": 0,
-    "ticket_medio": 0,
-    "cmv_total": 0,
-    "lucro_bruto": 0,
-    "margem_pct_real": 0,
-    "lucro_por_pedido": 0,
-    "taxa_ml_total": 0,
-    "shipping_total": 0,
-    "faturamento_liquido": 0,
-    "margem_liquida_pct": 0,
-    "lucro_liquido": 0,
-    "vendas_semana": 207,
-    "faturamento_semana": 13790.42,
+    "faturamento_hoje": 49.9,
+    "vendas_hoje": 1,
+    "ticket_medio": 49.9,
+    "cmv_total": 18.26,
+    "lucro_bruto": 31.64,
+    "margem_pct_real": 63.4,
+    "lucro_por_pedido": 31.64,
+    "taxa_ml_total": 6.99,
+    "shipping_total": 7.75,
+    "faturamento_liquido": 35.16,
+    "margem_liquida_pct": 33.9,
+    "lucro_liquido": 16.9,
+    "vendas_semana": 208,
+    "faturamento_semana": 13840.32,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 0.0,
+    "organic_revenue": 49.9,
     "acos": 0,
-    "tacos": 0
+    "tacos": 741.5
   },
-  "top5": [],
-  "categories": [],
+  "top5": [
+    {
+      "vendas": 1,
+      "faturamento": 49.9,
+      "custo": 18.26,
+      "title": "Carteira Couro Legítimo Slim 8 Porta Cartões E Cnh",
+      "taxa_ml": 6.99,
+      "full_unit_price": 49.9,
+      "lucro": 31.64,
+      "margem_pct": 63.4,
+      "score": 82
+    }
+  ],
+  "categories": [
+    {
+      "nome": "Acessórios",
+      "vendas": 1,
+      "faturamento": 49.9,
+      "custo": 18.26,
+      "taxa_ml": 6.99,
+      "pct": 100.0,
+      "margem_pct": 63.4
+    }
+  ],
   "chart": {
     "labels": [
       "Dom (15)",
@@ -40,7 +62,7 @@
       32,
       41,
       27,
-      0
+      1
     ],
     "faturamento": [
       3786.55,
@@ -49,40 +71,40 @@
       2291.0,
       2583.27,
       1751.71,
-      0
+      49.9
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 0,
+    "total_orders_fetched": 1,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 207,
-    "faturamento": 13790.42,
-    "taxa_ml": 1666.19,
-    "faturamento_menos_taxa": 12124.23,
-    "ticket_medio": 66.62,
+    "vendas": 208,
+    "faturamento": 13840.32,
+    "taxa_ml": 1673.18,
+    "faturamento_menos_taxa": 12167.14,
+    "ticket_medio": 66.54,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 13790.42,
+    "organic_revenue": 13840.32,
     "acos": 0,
     "tacos": 2.7
   },
   "mes": {
-    "vendas": 1061,
-    "faturamento": 69792.01,
-    "taxa_ml": 8488.26,
-    "faturamento_menos_taxa": 61303.75,
-    "ticket_medio": 65.78,
+    "vendas": 1062,
+    "faturamento": 69841.91,
+    "taxa_ml": 8495.25,
+    "faturamento_menos_taxa": 61346.66,
+    "ticket_medio": 65.76,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 69792.01,
+    "organic_revenue": 69841.91,
     "acos": 0,
     "tacos": 0.5,
     "chart": {
@@ -130,7 +152,7 @@
         32,
         41,
         27,
-        0
+        1
       ],
       "faturamento": [
         1349.93,
@@ -153,7 +175,7 @@
         2291.0,
         2583.27,
         1751.71,
-        0
+        49.9
       ]
     }
   }
