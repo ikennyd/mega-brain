@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-03-21T18:24:22.570204",
+  "updated_at": "2026-03-21T18:58:43.177537",
   "kpis": {
-    "faturamento_hoje": 1813.81,
-    "vendas_hoje": 27,
-    "ticket_medio": 67.18,
-    "cmv_total": 853.12,
-    "lucro_bruto": 960.69,
-    "margem_pct_real": 53.0,
-    "lucro_por_pedido": 35.58,
-    "taxa_ml_total": 227.65,
-    "shipping_total": 313.23,
-    "faturamento_liquido": 1272.93,
-    "margem_liquida_pct": 23.1,
-    "lucro_liquido": 419.81,
-    "vendas_semana": 234,
-    "faturamento_semana": 15604.23,
+    "faturamento_hoje": 1903.8,
+    "vendas_hoje": 28,
+    "ticket_medio": 67.99,
+    "cmv_total": 880.03,
+    "lucro_bruto": 1023.77,
+    "margem_pct_real": 53.8,
+    "lucro_por_pedido": 36.56,
+    "taxa_ml_total": 240.25,
+    "shipping_total": 327.68,
+    "faturamento_liquido": 1335.87,
+    "margem_liquida_pct": 23.9,
+    "lucro_liquido": 455.84,
+    "vendas_semana": 235,
+    "faturamento_semana": 15694.22,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 1813.81,
+    "organic_revenue": 1903.8,
     "acos": 0,
-    "tacos": 20.4
+    "tacos": 19.4
   },
   "top5": [
     {
@@ -34,15 +34,15 @@
       "score": 98
     },
     {
-      "vendas": 2,
-      "faturamento": 179.98,
-      "custo": 53.82,
+      "vendas": 3,
+      "faturamento": 269.97,
+      "custo": 80.73,
       "title": "Kit 3 Calça Moletom Infantil Flanelada Menino Meni",
-      "taxa_ml": 25.2,
+      "taxa_ml": 37.8,
       "full_unit_price": 89.99,
-      "lucro": 126.16,
+      "lucro": 189.24,
       "margem_pct": 70.1,
-      "score": 84
+      "score": 86
     },
     {
       "vendas": 2,
@@ -85,17 +85,17 @@
       "faturamento": 853.08,
       "custo": 394.24,
       "taxa_ml": 119.05,
-      "pct": 47.0,
+      "pct": 44.8,
       "margem_pct": 53.8
     },
     {
       "nome": "Vestuário Infantil",
-      "vendas": 12,
-      "faturamento": 756.04,
-      "custo": 385.43,
-      "taxa_ml": 79.93,
-      "pct": 41.7,
-      "margem_pct": 49.0
+      "vendas": 13,
+      "faturamento": 846.03,
+      "custo": 412.34,
+      "taxa_ml": 92.53,
+      "pct": 44.4,
+      "margem_pct": 51.3
     },
     {
       "nome": "Acessórios",
@@ -103,7 +103,7 @@
       "faturamento": 204.69,
       "custo": 73.45,
       "taxa_ml": 28.67,
-      "pct": 11.3,
+      "pct": 10.8,
       "margem_pct": 64.1
     }
   ],
@@ -124,7 +124,7 @@
       32,
       41,
       27,
-      27
+      28
     ],
     "faturamento": [
       3786.55,
@@ -133,40 +133,40 @@
       2291.0,
       2583.27,
       1751.71,
-      1813.81
+      1903.8
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 27,
+    "total_orders_fetched": 28,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 234,
-    "faturamento": 15604.23,
-    "taxa_ml": 1893.84,
-    "faturamento_menos_taxa": 13710.39,
-    "ticket_medio": 66.68,
+    "vendas": 235,
+    "faturamento": 15694.22,
+    "taxa_ml": 1906.44,
+    "faturamento_menos_taxa": 13787.78,
+    "ticket_medio": 66.78,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 15604.23,
+    "organic_revenue": 15694.22,
     "acos": 0,
     "tacos": 2.4
   },
   "mes": {
-    "vendas": 1088,
-    "faturamento": 71605.82,
-    "taxa_ml": 8715.91,
-    "faturamento_menos_taxa": 62889.91,
-    "ticket_medio": 65.81,
+    "vendas": 1089,
+    "faturamento": 71695.81,
+    "taxa_ml": 8728.51,
+    "faturamento_menos_taxa": 62967.3,
+    "ticket_medio": 65.84,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 71605.82,
+    "organic_revenue": 71695.81,
     "acos": 0,
     "tacos": 0.5,
     "chart": {
@@ -214,7 +214,7 @@
         32,
         41,
         27,
-        27
+        28
       ],
       "faturamento": [
         1349.93,
@@ -237,7 +237,7 @@
         2291.0,
         2583.27,
         1751.71,
-        1813.81
+        1903.8
       ]
     }
   }
