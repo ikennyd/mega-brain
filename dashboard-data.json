@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-03-21T13:29:10.337084",
+  "updated_at": "2026-03-21T13:58:11.924057",
   "kpis": {
-    "faturamento_hoje": 736.19,
-    "vendas_hoje": 11,
-    "ticket_medio": 66.93,
-    "cmv_total": 367.73,
-    "lucro_bruto": 368.46,
+    "faturamento_hoje": 897.86,
+    "vendas_hoje": 14,
+    "ticket_medio": 64.13,
+    "cmv_total": 449.15,
+    "lucro_bruto": 448.71,
     "margem_pct_real": 50.0,
-    "lucro_por_pedido": 33.5,
-    "taxa_ml_total": 83.67,
-    "shipping_total": 102.95,
-    "faturamento_liquido": 549.57,
-    "margem_liquida_pct": 24.7,
-    "lucro_liquido": 181.84,
-    "vendas_semana": 218,
-    "faturamento_semana": 14526.61,
+    "lucro_por_pedido": 32.05,
+    "taxa_ml_total": 107.54,
+    "shipping_total": 142.59,
+    "faturamento_liquido": 647.73,
+    "margem_liquida_pct": 22.1,
+    "lucro_liquido": 198.58,
+    "vendas_semana": 221,
+    "faturamento_semana": 14688.28,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 736.19,
+    "organic_revenue": 897.86,
     "acos": 0,
-    "tacos": 50.3
+    "tacos": 41.2
   },
   "top5": [
     {
@@ -71,7 +71,7 @@
       "faturamento": 64.01,
       "custo": 35.84,
       "title": "Conjunto Moletom E Calça Infantil Inverno Quentinh",
-      "taxa_ml": 0,
+      "taxa_ml": 6.38,
       "full_unit_price": 64.01,
       "lucro": 28.17,
       "margem_pct": 44.0,
@@ -80,31 +80,31 @@
   ],
   "categories": [
     {
+      "nome": "Vestuário Infantil",
+      "vendas": 7,
+      "faturamento": 405.38,
+      "custo": 233.02,
+      "taxa_ml": 38.71,
+      "pct": 45.1,
+      "margem_pct": 42.5
+    },
+    {
       "nome": "Vestuário Adult",
       "vendas": 5,
       "faturamento": 387.59,
       "custo": 179.2,
       "taxa_ml": 54.14,
-      "pct": 52.6,
+      "pct": 43.2,
       "margem_pct": 53.8
     },
     {
-      "nome": "Vestuário Infantil",
-      "vendas": 5,
-      "faturamento": 298.7,
-      "custo": 170.27,
-      "taxa_ml": 22.54,
-      "pct": 40.6,
-      "margem_pct": 43.0
-    },
-    {
       "nome": "Acessórios",
-      "vendas": 1,
-      "faturamento": 49.9,
-      "custo": 18.26,
-      "taxa_ml": 6.99,
-      "pct": 6.8,
-      "margem_pct": 63.4
+      "vendas": 2,
+      "faturamento": 104.89,
+      "custo": 36.93,
+      "taxa_ml": 14.69,
+      "pct": 11.7,
+      "margem_pct": 64.8
     }
   ],
   "chart": {
@@ -124,7 +124,7 @@
       32,
       41,
       27,
-      11
+      14
     ],
     "faturamento": [
       3786.55,
@@ -133,40 +133,40 @@
       2291.0,
       2583.27,
       1751.71,
-      736.19
+      897.86
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 11,
+    "total_orders_fetched": 14,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 218,
-    "faturamento": 14526.61,
-    "taxa_ml": 1749.86,
-    "faturamento_menos_taxa": 12776.75,
-    "ticket_medio": 66.64,
+    "vendas": 221,
+    "faturamento": 14688.28,
+    "taxa_ml": 1773.73,
+    "faturamento_menos_taxa": 12914.55,
+    "ticket_medio": 66.46,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 14526.61,
+    "organic_revenue": 14688.28,
     "acos": 0,
     "tacos": 2.5
   },
   "mes": {
-    "vendas": 1072,
-    "faturamento": 70528.2,
-    "taxa_ml": 8571.93,
-    "faturamento_menos_taxa": 61956.27,
-    "ticket_medio": 65.79,
+    "vendas": 1075,
+    "faturamento": 70689.87,
+    "taxa_ml": 8595.8,
+    "faturamento_menos_taxa": 62094.07,
+    "ticket_medio": 65.76,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 70528.2,
+    "organic_revenue": 70689.87,
     "acos": 0,
     "tacos": 0.5,
     "chart": {
@@ -214,7 +214,7 @@
         32,
         41,
         27,
-        11
+        14
       ],
       "faturamento": [
         1349.93,
@@ -237,7 +237,7 @@
         2291.0,
         2583.27,
         1751.71,
-        736.19
+        897.86
       ]
     }
   }
