@@ -1,37 +1,37 @@
 {
-  "updated_at": "2026-03-21T17:18:45.535764",
+  "updated_at": "2026-03-21T17:47:49.398042",
   "kpis": {
-    "faturamento_hoje": 1435.36,
-    "vendas_hoje": 22,
-    "ticket_medio": 65.24,
-    "cmv_total": 700.71,
-    "lucro_bruto": 734.65,
-    "margem_pct_real": 51.2,
-    "lucro_por_pedido": 33.39,
-    "taxa_ml_total": 177.36,
-    "shipping_total": 222.29,
-    "faturamento_liquido": 1035.71,
-    "margem_liquida_pct": 23.3,
-    "lucro_liquido": 335.0,
-    "vendas_semana": 229,
-    "faturamento_semana": 15225.78,
+    "faturamento_hoje": 1603.25,
+    "vendas_hoje": 24,
+    "ticket_medio": 66.8,
+    "cmv_total": 763.46,
+    "lucro_bruto": 839.79,
+    "margem_pct_real": 52.4,
+    "lucro_por_pedido": 34.99,
+    "taxa_ml_total": 200.73,
+    "shipping_total": 244.79,
+    "faturamento_liquido": 1157.73,
+    "margem_liquida_pct": 24.6,
+    "lucro_liquido": 394.27,
+    "vendas_semana": 231,
+    "faturamento_semana": 15393.67,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 1435.36,
+    "organic_revenue": 1603.25,
     "acos": 0,
-    "tacos": 25.8
+    "tacos": 23.1
   },
   "top5": [
     {
-      "vendas": 7,
-      "faturamento": 545.3,
-      "custo": 250.88,
+      "vendas": 8,
+      "faturamento": 623.2,
+      "custo": 286.72,
       "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
-      "taxa_ml": 76.23,
+      "taxa_ml": 87.0,
       "full_unit_price": 77.9,
-      "lucro": 294.42,
+      "lucro": 336.48,
       "margem_pct": 54.0,
-      "score": 94
+      "score": 96
     },
     {
       "vendas": 2,
@@ -81,21 +81,21 @@
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 9,
-      "faturamento": 697.28,
-      "custo": 322.56,
-      "taxa_ml": 97.37,
-      "pct": 48.6,
-      "margem_pct": 53.7
+      "vendas": 10,
+      "faturamento": 775.18,
+      "custo": 358.4,
+      "taxa_ml": 108.14,
+      "pct": 48.4,
+      "margem_pct": 53.8
     },
     {
       "nome": "Vestuário Infantil",
-      "vendas": 9,
-      "faturamento": 533.39,
-      "custo": 304.7,
-      "taxa_ml": 51.32,
-      "pct": 37.2,
-      "margem_pct": 42.9
+      "vendas": 10,
+      "faturamento": 623.38,
+      "custo": 331.61,
+      "taxa_ml": 63.92,
+      "pct": 38.9,
+      "margem_pct": 46.8
     },
     {
       "nome": "Acessórios",
@@ -103,7 +103,7 @@
       "faturamento": 204.69,
       "custo": 73.45,
       "taxa_ml": 28.67,
-      "pct": 14.3,
+      "pct": 12.8,
       "margem_pct": 64.1
     }
   ],
@@ -124,7 +124,7 @@
       32,
       41,
       27,
-      22
+      24
     ],
     "faturamento": [
       3786.55,
@@ -133,40 +133,40 @@
       2291.0,
       2583.27,
       1751.71,
-      1435.36
+      1603.25
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 22,
+    "total_orders_fetched": 24,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 229,
-    "faturamento": 15225.78,
-    "taxa_ml": 1843.55,
-    "faturamento_menos_taxa": 13382.23,
-    "ticket_medio": 66.49,
+    "vendas": 231,
+    "faturamento": 15393.67,
+    "taxa_ml": 1866.92,
+    "faturamento_menos_taxa": 13526.75,
+    "ticket_medio": 66.64,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 15225.78,
+    "organic_revenue": 15393.67,
     "acos": 0,
     "tacos": 2.4
   },
   "mes": {
-    "vendas": 1083,
-    "faturamento": 71227.37,
-    "taxa_ml": 8665.62,
-    "faturamento_menos_taxa": 62561.75,
-    "ticket_medio": 65.77,
+    "vendas": 1085,
+    "faturamento": 71395.26,
+    "taxa_ml": 8688.99,
+    "faturamento_menos_taxa": 62706.27,
+    "ticket_medio": 65.8,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 71227.37,
+    "organic_revenue": 71395.26,
     "acos": 0,
     "tacos": 0.5,
     "chart": {
@@ -214,7 +214,7 @@
         32,
         41,
         27,
-        22
+        24
       ],
       "faturamento": [
         1349.93,
@@ -237,7 +237,7 @@
         2291.0,
         2583.27,
         1751.71,
-        1435.36
+        1603.25
       ]
     }
   }
