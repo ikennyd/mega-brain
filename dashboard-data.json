@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-03-23T15:13:54.832001",
+  "updated_at": "2026-03-23T16:10:38.865703",
   "kpis": {
-    "faturamento_hoje": 787.84,
-    "vendas_hoje": 8,
-    "ticket_medio": 98.48,
-    "cmv_total": 361.2,
-    "lucro_bruto": 426.64,
-    "margem_pct_real": 54.2,
-    "lucro_por_pedido": 53.33,
-    "taxa_ml_total": 94.6,
-    "shipping_total": 200.29,
-    "faturamento_liquido": 492.95,
-    "margem_liquida_pct": 16.7,
-    "lucro_liquido": 131.75,
+    "faturamento_hoje": 923.57,
+    "vendas_hoje": 9,
+    "ticket_medio": 102.62,
+    "cmv_total": 386.2,
+    "lucro_bruto": 537.37,
+    "margem_pct_real": 58.2,
+    "lucro_por_pedido": 59.71,
+    "taxa_ml_total": 117.67,
+    "shipping_total": 217.94,
+    "faturamento_liquido": 587.96,
+    "margem_liquida_pct": 21.8,
+    "lucro_liquido": 201.76,
     "vendas_semana": 191,
-    "faturamento_semana": 12747.94,
+    "faturamento_semana": 12819.66,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 787.84,
+    "organic_revenue": 923.57,
     "acos": 0,
-    "tacos": 47.0
+    "tacos": 40.1
   },
   "top5": [
     {
@@ -45,6 +45,17 @@
       "score": 84
     },
     {
+      "vendas": 1,
+      "faturamento": 135.73,
+      "custo": 25.0,
+      "title": "Perfume Masculino Empire Tradicional 100ml - Hinod",
+      "taxa_ml": 23.07,
+      "full_unit_price": 135.73,
+      "lucro": 110.73,
+      "margem_pct": 81.6,
+      "score": 82
+    },
+    {
       "vendas": 2,
       "faturamento": 128,
       "custo": 71.68,
@@ -65,17 +76,6 @@
       "lucro": 16.3,
       "margem_pct": 18.5,
       "score": 84
-    },
-    {
-      "vendas": 1,
-      "faturamento": 64.01,
-      "custo": 35.84,
-      "title": "Conjunto Moletom E Calça Infantil Inverno Quentinh",
-      "taxa_ml": 6.38,
-      "full_unit_price": 64.01,
-      "lucro": 28.17,
-      "margem_pct": 44.0,
-      "score": 82
     }
   ],
   "categories": [
@@ -85,8 +85,17 @@
       "faturamento": 763.85,
       "custo": 349.59,
       "taxa_ml": 91.24,
-      "pct": 97.0,
+      "pct": 82.7,
       "margem_pct": 54.2
+    },
+    {
+      "nome": "Outros",
+      "vendas": 1,
+      "faturamento": 135.73,
+      "custo": 25.0,
+      "taxa_ml": 23.07,
+      "pct": 14.7,
+      "margem_pct": 81.6
     },
     {
       "nome": "Acessórios",
@@ -94,7 +103,7 @@
       "faturamento": 23.99,
       "custo": 11.61,
       "taxa_ml": 3.36,
-      "pct": 3.0,
+      "pct": 2.6,
       "margem_pct": 51.6
     }
   ],
@@ -109,55 +118,55 @@
       "Seg (23)"
     ],
     "vendas": [
-      20,
+      19,
       32,
       41,
       27,
       43,
       20,
-      8
+      9
     ],
     "faturamento": [
-      1226.84,
+      1162.83,
       2291.0,
       2583.27,
       1751.71,
       2930.66,
       1176.62,
-      787.84
+      923.57
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 8,
+    "total_orders_fetched": 9,
     "pads_campaigns_found": true
   },
   "semana": {
     "vendas": 191,
-    "faturamento": 12747.94,
-    "taxa_ml": 1607.6,
-    "faturamento_menos_taxa": 11140.34,
-    "ticket_medio": 66.74,
+    "faturamento": 12819.66,
+    "taxa_ml": 1624.29,
+    "faturamento_menos_taxa": 11195.37,
+    "ticket_medio": 67.12,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 12747.94,
+    "organic_revenue": 12819.66,
     "acos": 0,
     "tacos": 2.9
   },
   "mes": {
     "vendas": 1131,
-    "faturamento": 74619.26,
-    "taxa_ml": 9078.44,
-    "faturamento_menos_taxa": 65540.82,
-    "ticket_medio": 65.98,
+    "faturamento": 74690.98,
+    "taxa_ml": 9095.13,
+    "faturamento_menos_taxa": 65595.85,
+    "ticket_medio": 66.04,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 74619.26,
+    "organic_revenue": 74690.98,
     "acos": 0,
     "tacos": 0.5,
     "chart": {
@@ -203,13 +212,13 @@
         56,
         57,
         29,
-        20,
+        19,
         32,
         41,
         27,
         43,
         20,
-        8
+        9
       ],
       "faturamento": [
         1349.93,
@@ -228,13 +237,13 @@
         3677.8,
         3786.55,
         2108.38,
-        1226.84,
+        1162.83,
         2291.0,
         2583.27,
         1751.71,
         2930.66,
         1176.62,
-        787.84
+        923.57
       ]
     }
   }
