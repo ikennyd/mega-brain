@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-03-23T12:44:26.937960",
+  "updated_at": "2026-03-23T14:02:42.421197",
   "kpis": {
-    "faturamento_hoje": 447.96,
-    "vendas_hoje": 4,
-    "ticket_medio": 111.99,
-    "cmv_total": 155.09,
-    "lucro_bruto": 292.87,
-    "margem_pct_real": 65.4,
-    "lucro_por_pedido": 73.22,
-    "taxa_ml_total": 59.98,
-    "shipping_total": 130.2,
-    "faturamento_liquido": 257.78,
-    "margem_liquida_pct": 22.9,
-    "lucro_liquido": 102.69,
-    "vendas_semana": 187,
-    "faturamento_semana": 12408.06,
+    "faturamento_hoje": 535.94,
+    "vendas_hoje": 5,
+    "ticket_medio": 107.19,
+    "cmv_total": 226.77,
+    "lucro_bruto": 309.17,
+    "margem_pct_real": 57.7,
+    "lucro_por_pedido": 61.83,
+    "taxa_ml_total": 67.1,
+    "shipping_total": 157.9,
+    "faturamento_liquido": 310.94,
+    "margem_liquida_pct": 15.7,
+    "lucro_liquido": 84.17,
+    "vendas_semana": 188,
+    "faturamento_semana": 12496.04,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 447.96,
+    "organic_revenue": 535.94,
     "acos": 0,
-    "tacos": 82.6
+    "tacos": 69.0
   },
   "top5": [
     {
@@ -42,6 +42,17 @@
       "full_unit_price": 89.99,
       "lucro": 126.16,
       "margem_pct": 70.1,
+      "score": 84
+    },
+    {
+      "vendas": 2,
+      "faturamento": 87.98,
+      "custo": 71.68,
+      "title": "Moletom Capuz Gatinho Infantil Menina Menino Casua",
+      "taxa_ml": 7.12,
+      "full_unit_price": 43.99,
+      "lucro": 16.3,
+      "margem_pct": 18.5,
       "score": 84
     },
     {
@@ -70,12 +81,12 @@
   "categories": [
     {
       "nome": "Vestuário Infantil",
-      "vendas": 5,
-      "faturamento": 423.97,
-      "custo": 143.48,
-      "taxa_ml": 56.62,
-      "pct": 94.6,
-      "margem_pct": 66.2
+      "vendas": 7,
+      "faturamento": 511.95,
+      "custo": 215.16,
+      "taxa_ml": 63.74,
+      "pct": 95.5,
+      "margem_pct": 58.0
     },
     {
       "nome": "Acessórios",
@@ -83,7 +94,7 @@
       "faturamento": 23.99,
       "custo": 11.61,
       "taxa_ml": 3.36,
-      "pct": 5.4,
+      "pct": 4.5,
       "margem_pct": 51.6
     }
   ],
@@ -104,7 +115,7 @@
       27,
       43,
       20,
-      4
+      5
     ],
     "faturamento": [
       1226.84,
@@ -113,40 +124,40 @@
       1751.71,
       2930.66,
       1176.62,
-      447.96
+      535.94
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 4,
+    "total_orders_fetched": 5,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 187,
-    "faturamento": 12408.06,
-    "taxa_ml": 1582.91,
-    "faturamento_menos_taxa": 10825.15,
-    "ticket_medio": 66.35,
+    "vendas": 188,
+    "faturamento": 12496.04,
+    "taxa_ml": 1586.47,
+    "faturamento_menos_taxa": 10909.57,
+    "ticket_medio": 66.47,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 12408.06,
+    "organic_revenue": 12496.04,
     "acos": 0,
     "tacos": 3.0
   },
   "mes": {
-    "vendas": 1127,
-    "faturamento": 74279.38,
-    "taxa_ml": 9053.75,
-    "faturamento_menos_taxa": 65225.63,
-    "ticket_medio": 65.91,
+    "vendas": 1128,
+    "faturamento": 74367.36,
+    "taxa_ml": 9057.31,
+    "faturamento_menos_taxa": 65310.05,
+    "ticket_medio": 65.93,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 74279.38,
+    "organic_revenue": 74367.36,
     "acos": 0,
     "tacos": 0.5,
     "chart": {
@@ -198,7 +209,7 @@
         27,
         43,
         20,
-        4
+        5
       ],
       "faturamento": [
         1349.93,
@@ -223,7 +234,7 @@
         1751.71,
         2930.66,
         1176.62,
-        447.96
+        535.94
       ]
     }
   }
