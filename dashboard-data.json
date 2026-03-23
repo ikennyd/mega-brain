@@ -1,28 +1,50 @@
 {
-  "updated_at": "2026-03-23T10:13:22.023771",
+  "updated_at": "2026-03-23T11:09:11.313376",
   "kpis": {
-    "faturamento_hoje": 0,
-    "vendas_hoje": 0,
-    "ticket_medio": 0,
-    "cmv_total": 0,
-    "lucro_bruto": 0,
-    "margem_pct_real": 0,
-    "lucro_por_pedido": 0,
-    "taxa_ml_total": 0,
-    "shipping_total": 0,
-    "faturamento_liquido": 0,
-    "margem_liquida_pct": 0,
-    "lucro_liquido": 0,
-    "vendas_semana": 183,
-    "faturamento_semana": 11960.1,
+    "faturamento_hoje": 23.99,
+    "vendas_hoje": 1,
+    "ticket_medio": 23.99,
+    "cmv_total": 11.61,
+    "lucro_bruto": 12.38,
+    "margem_pct_real": 51.6,
+    "lucro_por_pedido": 12.38,
+    "taxa_ml_total": 3.36,
+    "shipping_total": 6.65,
+    "faturamento_liquido": 13.98,
+    "margem_liquida_pct": 9.9,
+    "lucro_liquido": 2.37,
+    "vendas_semana": 184,
+    "faturamento_semana": 11984.09,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 0.0,
+    "organic_revenue": 23.99,
     "acos": 0,
-    "tacos": 0
+    "tacos": 1542.3
   },
-  "top5": [],
-  "categories": [],
+  "top5": [
+    {
+      "vendas": 1,
+      "faturamento": 23.99,
+      "custo": 11.61,
+      "title": "Porta Cartão Couro Legítimo Hugo Jobs Rustico Comp",
+      "taxa_ml": 3.36,
+      "full_unit_price": 23.99,
+      "lucro": 12.38,
+      "margem_pct": 51.6,
+      "score": 82
+    }
+  ],
+  "categories": [
+    {
+      "nome": "Acessórios",
+      "vendas": 1,
+      "faturamento": 23.99,
+      "custo": 11.61,
+      "taxa_ml": 3.36,
+      "pct": 100.0,
+      "margem_pct": 51.6
+    }
+  ],
   "chart": {
     "labels": [
       "Ter (17)",
@@ -40,7 +62,7 @@
       27,
       43,
       20,
-      0
+      1
     ],
     "faturamento": [
       1226.84,
@@ -49,40 +71,40 @@
       1751.71,
       2930.66,
       1176.62,
-      0
+      23.99
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 0,
+    "total_orders_fetched": 1,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 183,
-    "faturamento": 11960.1,
-    "taxa_ml": 1548.05,
-    "faturamento_menos_taxa": 10412.05,
-    "ticket_medio": 65.36,
+    "vendas": 184,
+    "faturamento": 11984.09,
+    "taxa_ml": 1551.41,
+    "faturamento_menos_taxa": 10432.68,
+    "ticket_medio": 65.13,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 11960.1,
+    "organic_revenue": 11984.09,
     "acos": 0,
     "tacos": 3.1
   },
   "mes": {
-    "vendas": 1123,
-    "faturamento": 73831.42,
-    "taxa_ml": 9018.89,
-    "faturamento_menos_taxa": 64812.53,
-    "ticket_medio": 65.74,
+    "vendas": 1124,
+    "faturamento": 73855.41,
+    "taxa_ml": 9022.25,
+    "faturamento_menos_taxa": 64833.16,
+    "ticket_medio": 65.71,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 73831.42,
+    "organic_revenue": 73855.41,
     "acos": 0,
     "tacos": 0.5,
     "chart": {
@@ -134,7 +156,7 @@
         27,
         43,
         20,
-        0
+        1
       ],
       "faturamento": [
         1349.93,
@@ -159,7 +181,7 @@
         1751.71,
         2930.66,
         1176.62,
-        0
+        23.99
       ]
     }
   }
