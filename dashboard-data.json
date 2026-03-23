@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-03-23T14:02:42.421197",
+  "updated_at": "2026-03-23T15:13:54.832001",
   "kpis": {
-    "faturamento_hoje": 535.94,
-    "vendas_hoje": 5,
-    "ticket_medio": 107.19,
-    "cmv_total": 226.77,
-    "lucro_bruto": 309.17,
-    "margem_pct_real": 57.7,
-    "lucro_por_pedido": 61.83,
-    "taxa_ml_total": 67.1,
-    "shipping_total": 157.9,
-    "faturamento_liquido": 310.94,
-    "margem_liquida_pct": 15.7,
-    "lucro_liquido": 84.17,
-    "vendas_semana": 188,
-    "faturamento_semana": 12496.04,
+    "faturamento_hoje": 787.84,
+    "vendas_hoje": 8,
+    "ticket_medio": 98.48,
+    "cmv_total": 361.2,
+    "lucro_bruto": 426.64,
+    "margem_pct_real": 54.2,
+    "lucro_por_pedido": 53.33,
+    "taxa_ml_total": 94.6,
+    "shipping_total": 200.29,
+    "faturamento_liquido": 492.95,
+    "margem_liquida_pct": 16.7,
+    "lucro_liquido": 131.75,
+    "vendas_semana": 191,
+    "faturamento_semana": 12747.94,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 535.94,
+    "organic_revenue": 787.84,
     "acos": 0,
-    "tacos": 69.0
+    "tacos": 47.0
   },
   "top5": [
     {
@@ -46,6 +46,17 @@
     },
     {
       "vendas": 2,
+      "faturamento": 128,
+      "custo": 71.68,
+      "title": "Conjunto Moletom E Calça Infantil Inverno Quentinh",
+      "taxa_ml": 12.74,
+      "full_unit_price": 64,
+      "lucro": 56.32,
+      "margem_pct": 44.0,
+      "score": 84
+    },
+    {
+      "vendas": 2,
       "faturamento": 87.98,
       "custo": 71.68,
       "title": "Moletom Capuz Gatinho Infantil Menina Menino Casua",
@@ -65,28 +76,17 @@
       "lucro": 28.17,
       "margem_pct": 44.0,
       "score": 82
-    },
-    {
-      "vendas": 1,
-      "faturamento": 23.99,
-      "custo": 11.61,
-      "title": "Porta Cartão Couro Legítimo Hugo Jobs Rustico Comp",
-      "taxa_ml": 3.36,
-      "full_unit_price": 23.99,
-      "lucro": 12.38,
-      "margem_pct": 51.6,
-      "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Infantil",
-      "vendas": 7,
-      "faturamento": 511.95,
-      "custo": 215.16,
-      "taxa_ml": 63.74,
-      "pct": 95.5,
-      "margem_pct": 58.0
+      "vendas": 11,
+      "faturamento": 763.85,
+      "custo": 349.59,
+      "taxa_ml": 91.24,
+      "pct": 97.0,
+      "margem_pct": 54.2
     },
     {
       "nome": "Acessórios",
@@ -94,7 +94,7 @@
       "faturamento": 23.99,
       "custo": 11.61,
       "taxa_ml": 3.36,
-      "pct": 4.5,
+      "pct": 3.0,
       "margem_pct": 51.6
     }
   ],
@@ -115,7 +115,7 @@
       27,
       43,
       20,
-      5
+      8
     ],
     "faturamento": [
       1226.84,
@@ -124,40 +124,40 @@
       1751.71,
       2930.66,
       1176.62,
-      535.94
+      787.84
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 5,
+    "total_orders_fetched": 8,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 188,
-    "faturamento": 12496.04,
-    "taxa_ml": 1586.47,
-    "faturamento_menos_taxa": 10909.57,
-    "ticket_medio": 66.47,
+    "vendas": 191,
+    "faturamento": 12747.94,
+    "taxa_ml": 1607.6,
+    "faturamento_menos_taxa": 11140.34,
+    "ticket_medio": 66.74,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 12496.04,
+    "organic_revenue": 12747.94,
     "acos": 0,
-    "tacos": 3.0
+    "tacos": 2.9
   },
   "mes": {
-    "vendas": 1128,
-    "faturamento": 74367.36,
-    "taxa_ml": 9057.31,
-    "faturamento_menos_taxa": 65310.05,
-    "ticket_medio": 65.93,
+    "vendas": 1131,
+    "faturamento": 74619.26,
+    "taxa_ml": 9078.44,
+    "faturamento_menos_taxa": 65540.82,
+    "ticket_medio": 65.98,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 74367.36,
+    "organic_revenue": 74619.26,
     "acos": 0,
     "tacos": 0.5,
     "chart": {
@@ -209,7 +209,7 @@
         27,
         43,
         20,
-        5
+        8
       ],
       "faturamento": [
         1349.93,
@@ -234,7 +234,7 @@
         1751.71,
         2930.66,
         1176.62,
-        535.94
+        787.84
       ]
     }
   }
