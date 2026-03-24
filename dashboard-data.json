@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-03-24T17:36:55.046822",
+  "updated_at": "2026-03-24T18:38:07.983176",
   "kpis": {
-    "faturamento_hoje": 1615.9,
-    "vendas_hoje": 22,
-    "ticket_medio": 73.45,
-    "cmv_total": 722.43,
-    "lucro_bruto": 893.47,
-    "margem_pct_real": 55.3,
-    "lucro_por_pedido": 40.61,
-    "taxa_ml_total": 209.46,
-    "shipping_total": 374.3,
-    "faturamento_liquido": 1032.14,
-    "margem_liquida_pct": 19.2,
-    "lucro_liquido": 309.71,
-    "vendas_semana": 210,
-    "faturamento_semana": 14356.48,
+    "faturamento_hoje": 1800.69,
+    "vendas_hoje": 25,
+    "ticket_medio": 72.03,
+    "cmv_total": 812.09,
+    "lucro_bruto": 988.6,
+    "margem_pct_real": 54.9,
+    "lucro_por_pedido": 39.54,
+    "taxa_ml_total": 235.34,
+    "shipping_total": 446.14,
+    "faturamento_liquido": 1119.21,
+    "margem_liquida_pct": 17.1,
+    "lucro_liquido": 307.12,
+    "vendas_semana": 213,
+    "faturamento_semana": 14541.27,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 1615.9,
+    "organic_revenue": 1800.69,
     "acos": 0,
-    "tacos": 22.9
+    "tacos": 20.5
   },
   "top5": [
     {
@@ -67,35 +67,35 @@
       "score": 84
     },
     {
-      "vendas": 1,
-      "faturamento": 89.99,
-      "custo": 26.91,
-      "title": "Kit 3 Calça Moletom Infantil Flanelada Menino Meni",
-      "taxa_ml": 12.46,
-      "full_unit_price": 89.99,
-      "lucro": 63.08,
-      "margem_pct": 70.1,
-      "score": 82
+      "vendas": 2,
+      "faturamento": 119.8,
+      "custo": 53.82,
+      "title": "Moletom Infantil Canguru Capuz Blusa De Frio Aranh",
+      "taxa_ml": 16.78,
+      "full_unit_price": 59.9,
+      "lucro": 65.98,
+      "margem_pct": 55.1,
+      "score": 84
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Infantil",
-      "vendas": 14,
-      "faturamento": 1039.67,
-      "custo": 421.39,
-      "taxa_ml": 132.37,
-      "pct": 64.3,
-      "margem_pct": 59.5
+      "vendas": 16,
+      "faturamento": 1159.47,
+      "custo": 475.21,
+      "taxa_ml": 149.15,
+      "pct": 64.4,
+      "margem_pct": 59.0
     },
     {
       "nome": "Vestuário Adult",
-      "vendas": 9,
-      "faturamento": 576.23,
-      "custo": 301.04,
-      "taxa_ml": 77.09,
-      "pct": 35.7,
-      "margem_pct": 47.8
+      "vendas": 10,
+      "faturamento": 641.22,
+      "custo": 336.88,
+      "taxa_ml": 86.19,
+      "pct": 35.6,
+      "margem_pct": 47.5
     }
   ],
   "chart": {
@@ -115,7 +115,7 @@
       43,
       20,
       26,
-      21
+      24
     ],
     "faturamento": [
       2291.0,
@@ -124,40 +124,40 @@
       2930.66,
       1176.62,
       2035.44,
-      1587.78
+      1772.57
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 22,
+    "total_orders_fetched": 25,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 210,
-    "faturamento": 14356.48,
-    "taxa_ml": 1819.21,
-    "faturamento_menos_taxa": 12537.27,
-    "ticket_medio": 68.36,
+    "vendas": 213,
+    "faturamento": 14541.27,
+    "taxa_ml": 1845.09,
+    "faturamento_menos_taxa": 12696.18,
+    "ticket_medio": 68.27,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 14356.48,
+    "organic_revenue": 14541.27,
     "acos": 0,
-    "tacos": 2.6
+    "tacos": 2.5
   },
   "mes": {
-    "vendas": 1168,
-    "faturamento": 77352.73,
-    "taxa_ml": 9432.13,
-    "faturamento_menos_taxa": 67920.6,
+    "vendas": 1170,
+    "faturamento": 77494.85,
+    "taxa_ml": 9454.6,
+    "faturamento_menos_taxa": 68040.25,
     "ticket_medio": 66.23,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 77352.73,
+    "organic_revenue": 77494.85,
     "acos": 0,
     "tacos": 0.5,
     "chart": {
@@ -201,7 +201,7 @@
         76,
         82,
         61,
-        56,
+        55,
         57,
         28,
         19,
@@ -211,7 +211,7 @@
         43,
         20,
         26,
-        21
+        24
       ],
       "faturamento": [
         1349.93,
@@ -227,7 +227,7 @@
         5259.34,
         5534.15,
         4479.78,
-        3677.8,
+        3635.13,
         3786.55,
         2070.48,
         1162.83,
@@ -237,7 +237,7 @@
         2930.66,
         1176.62,
         2035.44,
-        1587.78
+        1772.57
       ]
     }
   }
