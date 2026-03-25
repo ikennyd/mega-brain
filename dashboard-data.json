@@ -1,28 +1,50 @@
 {
-  "updated_at": "2026-03-25T03:56:56.816656",
+  "updated_at": "2026-03-25T05:21:39.272599",
   "kpis": {
-    "faturamento_hoje": 0,
-    "vendas_hoje": 0,
-    "ticket_medio": 0,
-    "cmv_total": 0,
-    "lucro_bruto": 0,
-    "margem_pct_real": 0,
-    "lucro_por_pedido": 0,
-    "taxa_ml_total": 0,
-    "shipping_total": 0,
-    "faturamento_liquido": 0,
-    "margem_liquida_pct": 0,
-    "lucro_liquido": 0,
-    "vendas_semana": 203,
-    "faturamento_semana": 13870.52,
+    "faturamento_hoje": 37.9,
+    "vendas_hoje": 1,
+    "ticket_medio": 37.9,
+    "cmv_total": 35.84,
+    "lucro_bruto": 2.06,
+    "margem_pct_real": 5.4,
+    "lucro_por_pedido": 2.06,
+    "taxa_ml_total": 5.31,
+    "shipping_total": 6.75,
+    "faturamento_liquido": 25.84,
+    "margem_liquida_pct": -26.4,
+    "lucro_liquido": -10.0,
+    "vendas_semana": 204,
+    "faturamento_semana": 13908.42,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 0.0,
+    "organic_revenue": 37.9,
     "acos": 0,
-    "tacos": 0
+    "tacos": 976.3
   },
-  "top5": [],
-  "categories": [],
+  "top5": [
+    {
+      "vendas": 1,
+      "faturamento": 37.9,
+      "custo": 35.84,
+      "title": "Bermuda Moletom Masculina Hugo Jobs Elástico Na Ci",
+      "taxa_ml": 5.31,
+      "full_unit_price": 37.9,
+      "lucro": 2.06,
+      "margem_pct": 5.4,
+      "score": 82
+    }
+  ],
+  "categories": [
+    {
+      "nome": "Vestuário Adult",
+      "vendas": 1,
+      "faturamento": 37.9,
+      "custo": 35.84,
+      "taxa_ml": 5.31,
+      "pct": 100.0,
+      "margem_pct": 5.4
+    }
+  ],
   "chart": {
     "labels": [
       "Qui (19)",
@@ -40,7 +62,7 @@
       20,
       26,
       44,
-      0
+      1
     ],
     "faturamento": [
       2583.27,
@@ -49,40 +71,40 @@
       1176.62,
       2035.44,
       3260.16,
-      0
+      37.9
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 0,
+    "total_orders_fetched": 1,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 203,
-    "faturamento": 13870.52,
-    "taxa_ml": 1752.67,
-    "faturamento_menos_taxa": 12117.85,
-    "ticket_medio": 68.33,
+    "vendas": 204,
+    "faturamento": 13908.42,
+    "taxa_ml": 1757.98,
+    "faturamento_menos_taxa": 12150.44,
+    "ticket_medio": 68.18,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 13870.52,
+    "organic_revenue": 13908.42,
     "acos": 0,
     "tacos": 2.7
   },
   "mes": {
-    "vendas": 1190,
-    "faturamento": 78982.44,
-    "taxa_ml": 9641.67,
-    "faturamento_menos_taxa": 69340.77,
-    "ticket_medio": 66.37,
+    "vendas": 1191,
+    "faturamento": 79020.34,
+    "taxa_ml": 9646.98,
+    "faturamento_menos_taxa": 69373.36,
+    "ticket_medio": 66.35,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 78982.44,
+    "organic_revenue": 79020.34,
     "acos": 0,
     "tacos": 0.5,
     "chart": {
@@ -138,7 +160,7 @@
         20,
         26,
         44,
-        0
+        1
       ],
       "faturamento": [
         1349.93,
@@ -165,7 +187,7 @@
         1176.62,
         2035.44,
         3260.16,
-        0
+        37.9
       ]
     }
   }
