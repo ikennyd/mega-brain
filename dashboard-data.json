@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-03-25T16:40:48.238347",
+  "updated_at": "2026-03-25T17:41:07.803752",
   "kpis": {
-    "faturamento_hoje": 817.4,
-    "vendas_hoje": 11,
-    "ticket_medio": 74.31,
-    "cmv_total": 385.71,
-    "lucro_bruto": 431.69,
-    "margem_pct_real": 52.8,
-    "lucro_por_pedido": 39.24,
-    "taxa_ml_total": 104.12,
-    "shipping_total": 183.56,
-    "faturamento_liquido": 529.72,
-    "margem_liquida_pct": 17.6,
-    "lucro_liquido": 144.01,
-    "vendas_semana": 214,
-    "faturamento_semana": 14687.92,
+    "faturamento_hoje": 906.38,
+    "vendas_hoje": 13,
+    "ticket_medio": 69.72,
+    "cmv_total": 433.16,
+    "lucro_bruto": 473.22,
+    "margem_pct_real": 52.2,
+    "lucro_por_pedido": 36.4,
+    "taxa_ml_total": 107.48,
+    "shipping_total": 190.21,
+    "faturamento_liquido": 608.69,
+    "margem_liquida_pct": 19.4,
+    "lucro_liquido": 175.53,
+    "vendas_semana": 216,
+    "faturamento_semana": 14776.9,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 817.4,
+    "organic_revenue": 906.38,
     "acos": 0,
-    "tacos": 45.3
+    "tacos": 40.8
   },
   "top5": [
     {
@@ -68,13 +68,13 @@
     },
     {
       "vendas": 1,
-      "faturamento": 64.01,
+      "faturamento": 64.99,
       "custo": 35.84,
-      "title": "Conjunto Moletom E Calça Infantil Inverno Quentinh",
-      "taxa_ml": 6.38,
-      "full_unit_price": 64.01,
-      "lucro": 28.17,
-      "margem_pct": 44.0,
+      "title": "Blusa Moletom Algodão Premium Flanelado Canguru Ca",
+      "taxa_ml": 0,
+      "full_unit_price": 64.99,
+      "lucro": 29.15,
+      "margem_pct": 44.9,
       "score": 82
     }
   ],
@@ -85,26 +85,26 @@
       "faturamento": 495.9,
       "custo": 224.09,
       "taxa_ml": 59.09,
-      "pct": 60.7,
+      "pct": 54.7,
       "margem_pct": 54.8
     },
     {
       "nome": "Vestuário Adult",
-      "vendas": 4,
-      "faturamento": 271.6,
-      "custo": 143.36,
+      "vendas": 5,
+      "faturamento": 336.59,
+      "custo": 179.2,
       "taxa_ml": 38.04,
-      "pct": 33.2,
-      "margem_pct": 47.2
+      "pct": 37.1,
+      "margem_pct": 46.8
     },
     {
       "nome": "Acessórios",
-      "vendas": 1,
-      "faturamento": 49.9,
-      "custo": 18.26,
-      "taxa_ml": 6.99,
-      "pct": 6.1,
-      "margem_pct": 63.4
+      "vendas": 2,
+      "faturamento": 73.89,
+      "custo": 29.87,
+      "taxa_ml": 10.35,
+      "pct": 8.2,
+      "margem_pct": 59.6
     }
   ],
   "chart": {
@@ -124,7 +124,7 @@
       20,
       26,
       44,
-      11
+      13
     ],
     "faturamento": [
       2583.27,
@@ -133,40 +133,40 @@
       1176.62,
       2035.44,
       3260.16,
-      817.4
+      906.38
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 11,
+    "total_orders_fetched": 13,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 214,
-    "faturamento": 14687.92,
-    "taxa_ml": 1850.42,
-    "faturamento_menos_taxa": 12837.5,
-    "ticket_medio": 68.64,
+    "vendas": 216,
+    "faturamento": 14776.9,
+    "taxa_ml": 1853.78,
+    "faturamento_menos_taxa": 12923.12,
+    "ticket_medio": 68.41,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 14687.92,
+    "organic_revenue": 14776.9,
     "acos": 0,
     "tacos": 2.5
   },
   "mes": {
-    "vendas": 1200,
-    "faturamento": 79731.97,
-    "taxa_ml": 9733.03,
-    "faturamento_menos_taxa": 69998.94,
-    "ticket_medio": 66.44,
+    "vendas": 1202,
+    "faturamento": 79820.95,
+    "taxa_ml": 9736.39,
+    "faturamento_menos_taxa": 70084.56,
+    "ticket_medio": 66.41,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 79731.97,
+    "organic_revenue": 79820.95,
     "acos": 0,
     "tacos": 0.5,
     "chart": {
@@ -222,7 +222,7 @@
         20,
         26,
         44,
-        11
+        13
       ],
       "faturamento": [
         1349.93,
@@ -249,7 +249,7 @@
         1176.62,
         2035.44,
         3260.16,
-        817.4
+        906.38
       ]
     }
   }
