@@ -1,27 +1,49 @@
 {
-  "updated_at": "2026-03-26T11:58:31.654580",
+  "updated_at": "2026-03-26T13:16:39.316258",
   "kpis": {
-    "faturamento_hoje": 231.91,
-    "vendas_hoje": 4,
-    "ticket_medio": 57.98,
-    "cmv_total": 134.43,
-    "lucro_bruto": 97.48,
-    "margem_pct_real": 42.0,
-    "lucro_por_pedido": 24.37,
-    "taxa_ml_total": 24.57,
-    "shipping_total": 59.7,
-    "faturamento_liquido": 147.64,
-    "margem_liquida_pct": 5.7,
-    "lucro_liquido": 13.21,
-    "vendas_semana": 195,
-    "faturamento_semana": 13459.72,
+    "faturamento_hoje": 521.63,
+    "vendas_hoje": 7,
+    "ticket_medio": 74.52,
+    "cmv_total": 222.18,
+    "lucro_bruto": 299.45,
+    "margem_pct_real": 57.4,
+    "lucro_por_pedido": 42.78,
+    "taxa_ml_total": 66.47,
+    "shipping_total": 99.85,
+    "faturamento_liquido": 355.31,
+    "margem_liquida_pct": 25.5,
+    "lucro_liquido": 133.13,
+    "vendas_semana": 198,
+    "faturamento_semana": 13749.44,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 231.91,
+    "organic_revenue": 521.63,
     "acos": 0,
-    "tacos": 159.5
+    "tacos": 70.9
   },
   "top5": [
+    {
+      "vendas": 1,
+      "faturamento": 135.73,
+      "custo": 25.0,
+      "title": "Perfume Masculino Empire Tradicional 100ml - Hinod",
+      "taxa_ml": 23.07,
+      "full_unit_price": 135.73,
+      "lucro": 110.73,
+      "margem_pct": 81.6,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 89.99,
+      "custo": 26.91,
+      "title": "Kit 3 Calça Moletom Infantil Flanelada Menino Meni",
+      "taxa_ml": 12.6,
+      "full_unit_price": 89.99,
+      "lucro": 63.08,
+      "margem_pct": 70.1,
+      "score": 82
+    },
     {
       "vendas": 1,
       "faturamento": 64.01,
@@ -46,36 +68,34 @@
     },
     {
       "vendas": 1,
-      "faturamento": 59.9,
-      "custo": 26.91,
-      "title": "Moletom Infantil Canguru Capuz Blusa De Frio Aranh",
-      "taxa_ml": 8.39,
-      "full_unit_price": 59.9,
-      "lucro": 32.99,
-      "margem_pct": 55.1,
-      "score": 82
-    },
-    {
-      "vendas": 1,
-      "faturamento": 43.99,
+      "faturamento": 64,
       "custo": 35.84,
-      "title": "Moletom Capuz Gatinho Infantil Menina Menino Casua",
-      "taxa_ml": 3.5,
-      "full_unit_price": 43.99,
-      "lucro": 8.15,
-      "margem_pct": 18.5,
+      "title": "Conjunto Moletom E Calça Infantil Inverno Quentinh",
+      "taxa_ml": 6.23,
+      "full_unit_price": 64,
+      "lucro": 28.16,
+      "margem_pct": 44.0,
       "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Infantil",
-      "vendas": 4,
-      "faturamento": 231.91,
-      "custo": 134.43,
-      "taxa_ml": 24.57,
-      "pct": 100.0,
-      "margem_pct": 42.0
+      "vendas": 6,
+      "faturamento": 385.9,
+      "custo": 197.18,
+      "taxa_ml": 43.4,
+      "pct": 74.0,
+      "margem_pct": 48.9
+    },
+    {
+      "nome": "Outros",
+      "vendas": 1,
+      "faturamento": 135.73,
+      "custo": 25.0,
+      "taxa_ml": 23.07,
+      "pct": 26.0,
+      "margem_pct": 81.6
     }
   ],
   "chart": {
@@ -95,7 +115,7 @@
       26,
       44,
       32,
-      3
+      6
     ],
     "faturamento": [
       1751.71,
@@ -104,40 +124,40 @@
       2035.44,
       3260.16,
       2137.23,
-      167.9
+      457.62
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 4,
+    "total_orders_fetched": 7,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 195,
-    "faturamento": 13459.72,
-    "taxa_ml": 1679.7,
-    "faturamento_menos_taxa": 11780.02,
-    "ticket_medio": 69.02,
+    "vendas": 198,
+    "faturamento": 13749.44,
+    "taxa_ml": 1721.6,
+    "faturamento_menos_taxa": 12027.84,
+    "ticket_medio": 69.44,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 13459.72,
+    "organic_revenue": 13749.44,
     "acos": 0,
     "tacos": 2.7
   },
   "mes": {
-    "vendas": 1223,
-    "faturamento": 81153.71,
-    "taxa_ml": 9917.4,
-    "faturamento_menos_taxa": 71236.31,
-    "ticket_medio": 66.36,
+    "vendas": 1226,
+    "faturamento": 81443.43,
+    "taxa_ml": 9959.3,
+    "faturamento_menos_taxa": 71484.13,
+    "ticket_medio": 66.43,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 81153.71,
+    "organic_revenue": 81443.43,
     "acos": 0,
     "tacos": 0.5,
     "chart": {
@@ -195,7 +215,7 @@
         26,
         44,
         32,
-        3
+        6
       ],
       "faturamento": [
         1349.93,
@@ -223,7 +243,7 @@
         2035.44,
         3260.16,
         2137.23,
-        167.9
+        457.62
       ]
     }
   }
