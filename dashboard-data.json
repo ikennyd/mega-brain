@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-03-26T10:11:47.638315",
+  "updated_at": "2026-03-26T11:11:22.699833",
   "kpis": {
-    "faturamento_hoje": 64.01,
-    "vendas_hoje": 1,
-    "ticket_medio": 64.01,
-    "cmv_total": 35.84,
-    "lucro_bruto": 28.17,
-    "margem_pct_real": 44.0,
-    "lucro_por_pedido": 28.17,
-    "taxa_ml_total": 6.38,
-    "shipping_total": 7.95,
-    "faturamento_liquido": 49.68,
-    "margem_liquida_pct": 21.6,
-    "lucro_liquido": 13.84,
-    "vendas_semana": 192,
-    "faturamento_semana": 13291.82,
+    "faturamento_hoje": 231.91,
+    "vendas_hoje": 4,
+    "ticket_medio": 57.98,
+    "cmv_total": 134.43,
+    "lucro_bruto": 97.48,
+    "margem_pct_real": 42.0,
+    "lucro_por_pedido": 24.37,
+    "taxa_ml_total": 24.57,
+    "shipping_total": 59.7,
+    "faturamento_liquido": 147.64,
+    "margem_liquida_pct": 5.7,
+    "lucro_liquido": 13.21,
+    "vendas_semana": 195,
+    "faturamento_semana": 13459.72,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 64.01,
+    "organic_revenue": 231.91,
     "acos": 0,
-    "tacos": 578.0
+    "tacos": 159.5
   },
   "top5": [
     {
@@ -32,17 +32,50 @@
       "lucro": 28.17,
       "margem_pct": 44.0,
       "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 64.01,
+      "custo": 35.84,
+      "title": "Conjunto Moletom E Calça Infantil Inverno Quentinh",
+      "taxa_ml": 6.3,
+      "full_unit_price": 64.01,
+      "lucro": 28.17,
+      "margem_pct": 44.0,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 59.9,
+      "custo": 26.91,
+      "title": "Moletom Infantil Canguru Capuz Blusa De Frio Aranh",
+      "taxa_ml": 8.39,
+      "full_unit_price": 59.9,
+      "lucro": 32.99,
+      "margem_pct": 55.1,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 43.99,
+      "custo": 35.84,
+      "title": "Moletom Capuz Gatinho Infantil Menina Menino Casua",
+      "taxa_ml": 3.5,
+      "full_unit_price": 43.99,
+      "lucro": 8.15,
+      "margem_pct": 18.5,
+      "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Infantil",
-      "vendas": 1,
-      "faturamento": 64.01,
-      "custo": 35.84,
-      "taxa_ml": 6.38,
+      "vendas": 4,
+      "faturamento": 231.91,
+      "custo": 134.43,
+      "taxa_ml": 24.57,
       "pct": 100.0,
-      "margem_pct": 44.0
+      "margem_pct": 42.0
     }
   ],
   "chart": {
@@ -62,7 +95,7 @@
       26,
       44,
       32,
-      0
+      3
     ],
     "faturamento": [
       1751.71,
@@ -71,40 +104,40 @@
       2035.44,
       3260.16,
       2137.23,
-      0
+      167.9
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 1,
+    "total_orders_fetched": 4,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 192,
-    "faturamento": 13291.82,
-    "taxa_ml": 1661.51,
-    "faturamento_menos_taxa": 11630.31,
-    "ticket_medio": 69.23,
+    "vendas": 195,
+    "faturamento": 13459.72,
+    "taxa_ml": 1679.7,
+    "faturamento_menos_taxa": 11780.02,
+    "ticket_medio": 69.02,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 13291.82,
+    "organic_revenue": 13459.72,
     "acos": 0,
-    "tacos": 2.8
+    "tacos": 2.7
   },
   "mes": {
-    "vendas": 1220,
-    "faturamento": 80985.81,
-    "taxa_ml": 9899.21,
-    "faturamento_menos_taxa": 71086.6,
-    "ticket_medio": 66.38,
+    "vendas": 1223,
+    "faturamento": 81153.71,
+    "taxa_ml": 9917.4,
+    "faturamento_menos_taxa": 71236.31,
+    "ticket_medio": 66.36,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 80985.81,
+    "organic_revenue": 81153.71,
     "acos": 0,
     "tacos": 0.5,
     "chart": {
@@ -162,7 +195,7 @@
         26,
         44,
         32,
-        0
+        3
       ],
       "faturamento": [
         1349.93,
@@ -190,7 +223,7 @@
         2035.44,
         3260.16,
         2137.23,
-        0
+        167.9
       ]
     }
   }
