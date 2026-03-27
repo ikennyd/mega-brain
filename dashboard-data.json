@@ -1,27 +1,38 @@
 {
-  "updated_at": "2026-03-27T18:09:28.942305",
+  "updated_at": "2026-03-27T19:10:38.956867",
   "kpis": {
-    "faturamento_hoje": 550.61,
-    "vendas_hoje": 9,
-    "ticket_medio": 61.18,
-    "cmv_total": 269.26,
-    "lucro_bruto": 281.35,
-    "margem_pct_real": 51.1,
-    "lucro_por_pedido": 31.26,
-    "taxa_ml_total": 69.2,
-    "shipping_total": 105.44,
-    "faturamento_liquido": 375.97,
-    "margem_liquida_pct": 19.4,
-    "lucro_liquido": 106.71,
-    "vendas_semana": 194,
-    "faturamento_semana": 13440.78,
+    "faturamento_hoje": 686.34,
+    "vendas_hoje": 10,
+    "ticket_medio": 68.63,
+    "cmv_total": 294.26,
+    "lucro_bruto": 392.08,
+    "margem_pct_real": 57.1,
+    "lucro_por_pedido": 39.21,
+    "taxa_ml_total": 92.27,
+    "shipping_total": 123.09,
+    "faturamento_liquido": 470.98,
+    "margem_liquida_pct": 25.7,
+    "lucro_liquido": 176.72,
+    "vendas_semana": 195,
+    "faturamento_semana": 13576.51,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 550.61,
+    "organic_revenue": 686.34,
     "acos": 0,
-    "tacos": 67.2
+    "tacos": 53.9
   },
   "top5": [
+    {
+      "vendas": 1,
+      "faturamento": 135.73,
+      "custo": 25.0,
+      "title": "Perfume Masculino Empire Tradicional 100ml - Hinod",
+      "taxa_ml": 23.07,
+      "full_unit_price": 135.73,
+      "lucro": 110.73,
+      "margem_pct": 81.6,
+      "score": 82
+    },
     {
       "vendas": 2,
       "faturamento": 119.8,
@@ -65,17 +76,6 @@
       "lucro": 28.16,
       "margem_pct": 44.0,
       "score": 82
-    },
-    {
-      "vendas": 1,
-      "faturamento": 64,
-      "custo": 35.84,
-      "title": "Conjunto Moletom E Calça Infantil Inverno Quentinh",
-      "taxa_ml": 6.37,
-      "full_unit_price": 64,
-      "lucro": 28.16,
-      "margem_pct": 44.0,
-      "score": 82
     }
   ],
   "categories": [
@@ -85,8 +85,17 @@
       "faturamento": 515.71,
       "custo": 251.0,
       "taxa_ml": 64.31,
-      "pct": 93.7,
+      "pct": 75.1,
       "margem_pct": 51.3
+    },
+    {
+      "nome": "Outros",
+      "vendas": 1,
+      "faturamento": 135.73,
+      "custo": 25.0,
+      "taxa_ml": 23.07,
+      "pct": 19.8,
+      "margem_pct": 81.6
     },
     {
       "nome": "Acessórios",
@@ -94,7 +103,7 @@
       "faturamento": 34.9,
       "custo": 18.26,
       "taxa_ml": 4.89,
-      "pct": 6.3,
+      "pct": 5.1,
       "margem_pct": 47.7
     }
   ],
@@ -115,7 +124,7 @@
       44,
       32,
       22,
-      9
+      10
     ],
     "faturamento": [
       2762.77,
@@ -124,40 +133,40 @@
       3260.16,
       2137.23,
       1517.95,
-      550.61
+      686.34
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 10,
+    "total_orders_fetched": 11,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 194,
-    "faturamento": 13440.78,
-    "taxa_ml": 1690.91,
-    "faturamento_menos_taxa": 11749.87,
-    "ticket_medio": 69.28,
+    "vendas": 195,
+    "faturamento": 13576.51,
+    "taxa_ml": 1713.98,
+    "faturamento_menos_taxa": 11862.53,
+    "ticket_medio": 69.62,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 13440.78,
+    "organic_revenue": 13576.51,
     "acos": 0,
-    "tacos": 2.8
+    "tacos": 2.7
   },
   "mes": {
-    "vendas": 1247,
-    "faturamento": 82753.64,
-    "taxa_ml": 10122.4,
-    "faturamento_menos_taxa": 72631.24,
-    "ticket_medio": 66.36,
+    "vendas": 1248,
+    "faturamento": 82889.37,
+    "taxa_ml": 10145.47,
+    "faturamento_menos_taxa": 72743.9,
+    "ticket_medio": 66.42,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 82753.64,
+    "organic_revenue": 82889.37,
     "acos": 0,
     "tacos": 0.4,
     "chart": {
@@ -217,7 +226,7 @@
         44,
         32,
         22,
-        9
+        10
       ],
       "faturamento": [
         1281.09,
@@ -246,7 +255,7 @@
         3260.16,
         2137.23,
         1517.95,
-        550.61
+        686.34
       ]
     }
   }
