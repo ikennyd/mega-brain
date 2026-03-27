@@ -1,27 +1,38 @@
 {
-  "updated_at": "2026-03-27T08:58:23.470027",
+  "updated_at": "2026-03-27T09:55:02.157580",
   "kpis": {
-    "faturamento_hoje": 59.9,
-    "vendas_hoje": 1,
+    "faturamento_hoje": 119.8,
+    "vendas_hoje": 2,
     "ticket_medio": 59.9,
-    "cmv_total": 26.91,
-    "lucro_bruto": 32.99,
+    "cmv_total": 53.82,
+    "lucro_bruto": 65.98,
     "margem_pct_real": 55.1,
     "lucro_por_pedido": 32.99,
-    "taxa_ml_total": 8.39,
-    "shipping_total": 7.95,
-    "faturamento_liquido": 43.56,
+    "taxa_ml_total": 16.78,
+    "shipping_total": 15.9,
+    "faturamento_liquido": 87.12,
     "margem_liquida_pct": 27.8,
-    "lucro_liquido": 16.65,
-    "vendas_semana": 188,
-    "faturamento_semana": 13117.96,
+    "lucro_liquido": 33.3,
+    "vendas_semana": 189,
+    "faturamento_semana": 13177.86,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 59.9,
+    "organic_revenue": 119.8,
     "acos": 0,
-    "tacos": 617.7
+    "tacos": 308.8
   },
   "top5": [
+    {
+      "vendas": 1,
+      "faturamento": 59.9,
+      "custo": 26.91,
+      "title": "Moletom Infantil Canguru Capuz Blusa De Frio Aranh",
+      "taxa_ml": 8.39,
+      "full_unit_price": 59.9,
+      "lucro": 32.99,
+      "margem_pct": 55.1,
+      "score": 82
+    },
     {
       "vendas": 1,
       "faturamento": 59.9,
@@ -37,10 +48,10 @@
   "categories": [
     {
       "nome": "Vestuário Infantil",
-      "vendas": 1,
-      "faturamento": 59.9,
-      "custo": 26.91,
-      "taxa_ml": 8.39,
+      "vendas": 2,
+      "faturamento": 119.8,
+      "custo": 53.82,
+      "taxa_ml": 16.78,
       "pct": 100.0,
       "margem_pct": 55.1
     }
@@ -62,7 +73,7 @@
       44,
       32,
       22,
-      1
+      2
     ],
     "faturamento": [
       2930.66,
@@ -71,40 +82,40 @@
       3260.16,
       2137.23,
       1517.95,
-      59.9
+      119.8
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 2,
+    "total_orders_fetched": 3,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 188,
-    "faturamento": 13117.96,
-    "taxa_ml": 1653.47,
-    "faturamento_menos_taxa": 11464.49,
-    "ticket_medio": 69.78,
+    "vendas": 189,
+    "faturamento": 13177.86,
+    "taxa_ml": 1661.86,
+    "faturamento_menos_taxa": 11516.0,
+    "ticket_medio": 69.72,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 13117.96,
+    "organic_revenue": 13177.86,
     "acos": 0,
     "tacos": 2.8
   },
   "mes": {
-    "vendas": 1241,
-    "faturamento": 82430.82,
-    "taxa_ml": 10084.96,
-    "faturamento_menos_taxa": 72345.86,
+    "vendas": 1242,
+    "faturamento": 82490.72,
+    "taxa_ml": 10093.35,
+    "faturamento_menos_taxa": 72397.37,
     "ticket_medio": 66.42,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 82430.82,
+    "organic_revenue": 82490.72,
     "acos": 0,
     "tacos": 0.4,
     "chart": {
@@ -164,7 +175,7 @@
         44,
         32,
         22,
-        1
+        2
       ],
       "faturamento": [
         1281.09,
@@ -193,7 +204,7 @@
         3260.16,
         2137.23,
         1517.95,
-        59.9
+        119.8
       ]
     }
   }
