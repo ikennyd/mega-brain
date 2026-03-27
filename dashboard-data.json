@@ -1,27 +1,38 @@
 {
-  "updated_at": "2026-03-27T14:35:47.182461",
+  "updated_at": "2026-03-27T15:30:13.029476",
   "kpis": {
-    "faturamento_hoje": 229.79,
-    "vendas_hoje": 4,
-    "ticket_medio": 57.45,
-    "cmv_total": 125.5,
-    "lucro_bruto": 104.29,
-    "margem_pct_real": 45.4,
-    "lucro_por_pedido": 26.07,
-    "taxa_ml_total": 29.59,
-    "shipping_total": 30.7,
-    "faturamento_liquido": 169.5,
-    "margem_liquida_pct": 19.1,
-    "lucro_liquido": 44.0,
-    "vendas_semana": 190,
-    "faturamento_semana": 13209.95,
+    "faturamento_hoje": 324.59,
+    "vendas_hoje": 6,
+    "ticket_medio": 54.1,
+    "cmv_total": 170.67,
+    "lucro_bruto": 153.92,
+    "margem_pct_real": 47.4,
+    "lucro_por_pedido": 25.65,
+    "taxa_ml_total": 42.87,
+    "shipping_total": 75.19,
+    "faturamento_liquido": 206.53,
+    "margem_liquida_pct": 11.0,
+    "lucro_liquido": 35.86,
+    "vendas_semana": 191,
+    "faturamento_semana": 13214.76,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 229.79,
+    "organic_revenue": 324.59,
     "acos": 0,
-    "tacos": 161.0
+    "tacos": 114.0
   },
   "top5": [
+    {
+      "vendas": 2,
+      "faturamento": 119.8,
+      "custo": 53.82,
+      "title": "Moletom Infantil Canguru Capuz Blusa De Frio Aranh",
+      "taxa_ml": 16.78,
+      "full_unit_price": 59.9,
+      "lucro": 65.98,
+      "margem_pct": 55.1,
+      "score": 84
+    },
     {
       "vendas": 1,
       "faturamento": 64,
@@ -46,17 +57,6 @@
     },
     {
       "vendas": 1,
-      "faturamento": 59.9,
-      "custo": 26.91,
-      "title": "Moletom Infantil Canguru Capuz Blusa De Frio Aranh",
-      "taxa_ml": 8.39,
-      "full_unit_price": 59.9,
-      "lucro": 32.99,
-      "margem_pct": 55.1,
-      "score": 82
-    },
-    {
-      "vendas": 1,
       "faturamento": 45.99,
       "custo": 35.84,
       "title": "Moletom Capuz Gatinho Infantil Menina Menino Casua",
@@ -65,17 +65,37 @@
       "lucro": 10.15,
       "margem_pct": 22.1,
       "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 34.9,
+      "custo": 18.26,
+      "title": "Carteira Couro Marrom Slim Pequena Hugo Jobs 3 Car",
+      "taxa_ml": 4.89,
+      "full_unit_price": 34.9,
+      "lucro": 16.64,
+      "margem_pct": 47.7,
+      "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Infantil",
-      "vendas": 4,
-      "faturamento": 229.79,
-      "custo": 125.5,
-      "taxa_ml": 29.59,
-      "pct": 100.0,
-      "margem_pct": 45.4
+      "vendas": 5,
+      "faturamento": 289.69,
+      "custo": 152.41,
+      "taxa_ml": 37.98,
+      "pct": 89.2,
+      "margem_pct": 47.4
+    },
+    {
+      "nome": "Acessórios",
+      "vendas": 1,
+      "faturamento": 34.9,
+      "custo": 18.26,
+      "taxa_ml": 4.89,
+      "pct": 10.8,
+      "margem_pct": 47.7
     }
   ],
   "chart": {
@@ -89,55 +109,55 @@
       "Sex (27)"
     ],
     "vendas": [
-      42,
+      41,
       20,
       26,
       44,
       32,
       22,
-      4
+      6
     ],
     "faturamento": [
-      2852.76,
+      2762.77,
       1176.62,
       2035.44,
       3260.16,
       2137.23,
       1517.95,
-      229.79
+      324.59
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 5,
+    "total_orders_fetched": 7,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 190,
-    "faturamento": 13209.95,
-    "taxa_ml": 1663.9,
-    "faturamento_menos_taxa": 11546.05,
-    "ticket_medio": 69.53,
+    "vendas": 191,
+    "faturamento": 13214.76,
+    "taxa_ml": 1664.58,
+    "faturamento_menos_taxa": 11550.18,
+    "ticket_medio": 69.19,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 13209.95,
+    "organic_revenue": 13214.76,
     "acos": 0,
     "tacos": 2.8
   },
   "mes": {
-    "vendas": 1243,
-    "faturamento": 82522.81,
-    "taxa_ml": 10095.39,
-    "faturamento_menos_taxa": 72427.42,
-    "ticket_medio": 66.39,
+    "vendas": 1244,
+    "faturamento": 82527.62,
+    "taxa_ml": 10096.07,
+    "faturamento_menos_taxa": 72431.55,
+    "ticket_medio": 66.34,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 82522.81,
+    "organic_revenue": 82527.62,
     "acos": 0,
     "tacos": 0.4,
     "chart": {
@@ -191,13 +211,13 @@
         32,
         41,
         26,
-        42,
+        41,
         20,
         26,
         44,
         32,
         22,
-        4
+        6
       ],
       "faturamento": [
         1281.09,
@@ -220,13 +240,13 @@
         2291.0,
         2583.27,
         1687.71,
-        2852.76,
+        2762.77,
         1176.62,
         2035.44,
         3260.16,
         2137.23,
         1517.95,
-        229.79
+        324.59
       ]
     }
   }
