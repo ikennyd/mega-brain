@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-03-28T15:52:05.515646",
+  "updated_at": "2026-03-28T16:23:38.281713",
   "kpis": {
-    "faturamento_hoje": 132.89,
-    "vendas_hoje": 2,
-    "ticket_medio": 66.45,
-    "cmv_total": 54.51,
-    "lucro_bruto": 78.38,
-    "margem_pct_real": 59.0,
-    "lucro_por_pedido": 39.19,
-    "taxa_ml_total": 18.47,
-    "shipping_total": 16.0,
-    "faturamento_liquido": 98.42,
-    "margem_liquida_pct": 33.0,
-    "lucro_liquido": 43.91,
-    "vendas_semana": 168,
-    "faturamento_semana": 11654.21,
+    "faturamento_hoje": 217.78,
+    "vendas_hoje": 4,
+    "ticket_medio": 54.45,
+    "cmv_total": 104.26,
+    "lucro_bruto": 113.52,
+    "margem_pct_real": 52.1,
+    "lucro_por_pedido": 28.38,
+    "taxa_ml_total": 30.36,
+    "shipping_total": 35.5,
+    "faturamento_liquido": 151.92,
+    "margem_liquida_pct": 21.9,
+    "lucro_liquido": 47.66,
+    "vendas_semana": 170,
+    "faturamento_semana": 11739.1,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 132.89,
+    "organic_revenue": 217.78,
     "acos": 0,
-    "tacos": 278.4
+    "tacos": 169.9
   },
   "top5": [
     {
@@ -43,26 +43,48 @@
       "lucro": 36.32,
       "margem_pct": 66.0,
       "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 49.99,
+      "custo": 31.49,
+      "title": "Moletom Gola Careca Premium Liso Felpado Lançament",
+      "taxa_ml": 7,
+      "full_unit_price": 49.99,
+      "lucro": 18.5,
+      "margem_pct": 37.0,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 34.9,
+      "custo": 18.26,
+      "title": "Carteira Couro Marrom Slim Pequena Hugo Jobs 3 Car",
+      "taxa_ml": 4.89,
+      "full_unit_price": 34.9,
+      "lucro": 16.64,
+      "margem_pct": 47.7,
+      "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 1,
-      "faturamento": 77.9,
-      "custo": 35.84,
-      "taxa_ml": 10.91,
-      "pct": 58.6,
-      "margem_pct": 54.0
+      "vendas": 2,
+      "faturamento": 127.89,
+      "custo": 67.33,
+      "taxa_ml": 17.91,
+      "pct": 58.7,
+      "margem_pct": 47.4
     },
     {
       "nome": "Acessórios",
-      "vendas": 1,
-      "faturamento": 54.99,
-      "custo": 18.67,
-      "taxa_ml": 7.56,
-      "pct": 41.4,
-      "margem_pct": 66.0
+      "vendas": 2,
+      "faturamento": 89.89,
+      "custo": 36.93,
+      "taxa_ml": 12.45,
+      "pct": 41.3,
+      "margem_pct": 58.9
     }
   ],
   "chart": {
@@ -82,7 +104,7 @@
       32,
       22,
       20,
-      2
+      4
     ],
     "faturamento": [
       1176.62,
@@ -91,40 +113,40 @@
       2137.23,
       1517.95,
       1238.12,
-      132.89
+      217.78
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 2,
+    "total_orders_fetched": 4,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 168,
-    "faturamento": 11654.21,
-    "taxa_ml": 1455.52,
-    "faturamento_menos_taxa": 10198.69,
-    "ticket_medio": 69.37,
+    "vendas": 170,
+    "faturamento": 11739.1,
+    "taxa_ml": 1467.41,
+    "faturamento_menos_taxa": 10271.69,
+    "ticket_medio": 69.05,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 11654.21,
+    "organic_revenue": 11739.1,
     "acos": 0,
     "tacos": 3.2
   },
   "mes": {
-    "vendas": 1260,
-    "faturamento": 83574.04,
-    "taxa_ml": 10222.86,
-    "faturamento_menos_taxa": 73351.18,
-    "ticket_medio": 66.33,
+    "vendas": 1262,
+    "faturamento": 83658.93,
+    "taxa_ml": 10234.75,
+    "faturamento_menos_taxa": 73424.18,
+    "ticket_medio": 66.29,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 83574.04,
+    "organic_revenue": 83658.93,
     "acos": 0,
     "tacos": 0.4,
     "chart": {
@@ -186,7 +208,7 @@
         32,
         22,
         20,
-        2
+        4
       ],
       "faturamento": [
         1281.09,
@@ -216,7 +238,7 @@
         2137.23,
         1517.95,
         1238.12,
-        132.89
+        217.78
       ]
     }
   }
