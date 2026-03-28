@@ -1,28 +1,50 @@
 {
-  "updated_at": "2026-03-28T07:32:21.272580",
+  "updated_at": "2026-03-28T08:05:56.275361",
   "kpis": {
-    "faturamento_hoje": 0,
-    "vendas_hoje": 0,
-    "ticket_medio": 0,
-    "cmv_total": 0,
-    "lucro_bruto": 0,
-    "margem_pct_real": 0,
-    "lucro_por_pedido": 0,
-    "taxa_ml_total": 0,
-    "shipping_total": 0,
-    "faturamento_liquido": 0,
-    "margem_liquida_pct": 0,
-    "lucro_liquido": 0,
-    "vendas_semana": 166,
-    "faturamento_semana": 11521.32,
+    "faturamento_hoje": 54.99,
+    "vendas_hoje": 1,
+    "ticket_medio": 54.99,
+    "cmv_total": 18.67,
+    "lucro_bruto": 36.32,
+    "margem_pct_real": 66.0,
+    "lucro_por_pedido": 36.32,
+    "taxa_ml_total": 7.56,
+    "shipping_total": 7.95,
+    "faturamento_liquido": 39.48,
+    "margem_liquida_pct": 37.8,
+    "lucro_liquido": 20.81,
+    "vendas_semana": 167,
+    "faturamento_semana": 11576.31,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 0.0,
+    "organic_revenue": 54.99,
     "acos": 0,
-    "tacos": 0
+    "tacos": 672.8
   },
-  "top5": [],
-  "categories": [],
+  "top5": [
+    {
+      "vendas": 1,
+      "faturamento": 54.99,
+      "custo": 18.67,
+      "title": "Bermuda Linho Kit 2 Unidades Masculino Hugo Jobs P",
+      "taxa_ml": 7.56,
+      "full_unit_price": 54.99,
+      "lucro": 36.32,
+      "margem_pct": 66.0,
+      "score": 82
+    }
+  ],
+  "categories": [
+    {
+      "nome": "Acessórios",
+      "vendas": 1,
+      "faturamento": 54.99,
+      "custo": 18.67,
+      "taxa_ml": 7.56,
+      "pct": 100.0,
+      "margem_pct": 66.0
+    }
+  ],
   "chart": {
     "labels": [
       "Dom (22)",
@@ -40,7 +62,7 @@
       32,
       22,
       20,
-      0
+      1
     ],
     "faturamento": [
       1176.62,
@@ -49,40 +71,40 @@
       2137.23,
       1517.95,
       1238.12,
-      0
+      54.99
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 0,
+    "total_orders_fetched": 1,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 166,
-    "faturamento": 11521.32,
-    "taxa_ml": 1437.05,
-    "faturamento_menos_taxa": 10084.27,
-    "ticket_medio": 69.41,
+    "vendas": 167,
+    "faturamento": 11576.31,
+    "taxa_ml": 1444.61,
+    "faturamento_menos_taxa": 10131.7,
+    "ticket_medio": 69.32,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 11521.32,
+    "organic_revenue": 11576.31,
     "acos": 0,
     "tacos": 3.2
   },
   "mes": {
-    "vendas": 1258,
-    "faturamento": 83441.15,
-    "taxa_ml": 10204.39,
-    "faturamento_menos_taxa": 73236.76,
-    "ticket_medio": 66.33,
+    "vendas": 1259,
+    "faturamento": 83496.14,
+    "taxa_ml": 10211.95,
+    "faturamento_menos_taxa": 73284.19,
+    "ticket_medio": 66.32,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 83441.15,
+    "organic_revenue": 83496.14,
     "acos": 0,
     "tacos": 0.4,
     "chart": {
@@ -144,7 +166,7 @@
         32,
         22,
         20,
-        0
+        1
       ],
       "faturamento": [
         1281.09,
@@ -174,7 +196,7 @@
         2137.23,
         1517.95,
         1238.12,
-        0
+        54.99
       ]
     }
   }
