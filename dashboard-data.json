@@ -1,181 +1,88 @@
 {
-  "updated_at": "2026-03-27T23:59:03.486225",
+  "updated_at": "2026-03-28T02:22:58.904308",
   "kpis": {
-    "faturamento_hoje": 1095.12,
-    "vendas_hoje": 19,
-    "ticket_medio": 57.64,
-    "cmv_total": 546.15,
-    "lucro_bruto": 548.97,
-    "margem_pct_real": 50.1,
-    "lucro_por_pedido": 28.89,
-    "taxa_ml_total": 142.72,
-    "shipping_total": 261.62,
-    "faturamento_liquido": 690.78,
-    "margem_liquida_pct": 13.2,
-    "lucro_liquido": 144.63,
-    "vendas_semana": 204,
-    "faturamento_semana": 13985.29,
+    "faturamento_hoje": 0,
+    "vendas_hoje": 0,
+    "ticket_medio": 0,
+    "cmv_total": 0,
+    "lucro_bruto": 0,
+    "margem_pct_real": 0,
+    "lucro_por_pedido": 0,
+    "taxa_ml_total": 0,
+    "shipping_total": 0,
+    "faturamento_liquido": 0,
+    "margem_liquida_pct": 0,
+    "lucro_liquido": 0,
+    "vendas_semana": 167,
+    "faturamento_semana": 11556.22,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 1095.12,
+    "organic_revenue": 0.0,
     "acos": 0,
-    "tacos": 33.8
+    "tacos": 0
   },
-  "top5": [
-    {
-      "vendas": 1,
-      "faturamento": 135.73,
-      "custo": 25.0,
-      "title": "Perfume Masculino Empire Tradicional 100ml - Hinod",
-      "taxa_ml": 23.07,
-      "full_unit_price": 135.73,
-      "lucro": 110.73,
-      "margem_pct": 81.6,
-      "score": 82
-    },
-    {
-      "vendas": 2,
-      "faturamento": 128,
-      "custo": 71.68,
-      "title": "Conjunto Moletom E Calça Infantil Inverno Quentinh",
-      "taxa_ml": 12.74,
-      "full_unit_price": 64,
-      "lucro": 56.32,
-      "margem_pct": 44.0,
-      "score": 84
-    },
-    {
-      "vendas": 2,
-      "faturamento": 119.8,
-      "custo": 53.82,
-      "title": "Moletom Infantil Canguru Capuz Blusa De Frio Aranh",
-      "taxa_ml": 16.78,
-      "full_unit_price": 59.9,
-      "lucro": 65.98,
-      "margem_pct": 55.1,
-      "score": 84
-    },
-    {
-      "vendas": 3,
-      "faturamento": 113.97,
-      "custo": 107.52,
-      "title": "Camiseta Igreen Básica 100% Algodão",
-      "taxa_ml": 14.25,
-      "full_unit_price": 37.99,
-      "lucro": 6.45,
-      "margem_pct": 5.7,
-      "score": 86
-    },
-    {
-      "vendas": 1,
-      "faturamento": 98.01,
-      "custo": 26.91,
-      "title": "Kit 3 Calça Moletom Infantil Flanelada Hugo Jobs I",
-      "taxa_ml": 13.58,
-      "full_unit_price": 98.01,
-      "lucro": 71.1,
-      "margem_pct": 72.5,
-      "score": 82
-    }
-  ],
-  "categories": [
-    {
-      "nome": "Vestuário Infantil",
-      "vendas": 11,
-      "faturamento": 699.69,
-      "custo": 340.66,
-      "taxa_ml": 87.34,
-      "pct": 63.9,
-      "margem_pct": 51.3
-    },
-    {
-      "nome": "Vestuário Adult",
-      "vendas": 4,
-      "faturamento": 163.96,
-      "custo": 139.01,
-      "taxa_ml": 21.17,
-      "pct": 15.0,
-      "margem_pct": 15.2
-    },
-    {
-      "nome": "Outros",
-      "vendas": 1,
-      "faturamento": 135.73,
-      "custo": 25.0,
-      "taxa_ml": 23.07,
-      "pct": 12.4,
-      "margem_pct": 81.6
-    },
-    {
-      "nome": "Acessórios",
-      "vendas": 3,
-      "faturamento": 95.74,
-      "custo": 41.48,
-      "taxa_ml": 11.14,
-      "pct": 8.7,
-      "margem_pct": 56.7
-    }
-  ],
+  "top5": [],
+  "categories": [],
   "chart": {
     "labels": [
-      "Sáb (21)",
       "Dom (22)",
       "Seg (23)",
       "Ter (24)",
       "Qua (25)",
       "Qui (26)",
-      "Sex (27)"
+      "Sex (27)",
+      "Sáb (28)"
     ],
     "vendas": [
-      41,
       20,
       26,
       44,
       32,
       22,
-      19
+      21,
+      0
     ],
     "faturamento": [
-      2762.77,
       1176.62,
       2035.44,
       3260.16,
       2137.23,
       1517.95,
-      1095.12
+      1273.02,
+      0
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 20,
+    "total_orders_fetched": 0,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 204,
-    "faturamento": 13985.29,
-    "taxa_ml": 1764.43,
-    "faturamento_menos_taxa": 12220.86,
-    "ticket_medio": 68.56,
+    "vendas": 167,
+    "faturamento": 11556.22,
+    "taxa_ml": 1441.94,
+    "faturamento_menos_taxa": 10114.28,
+    "ticket_medio": 69.2,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 13985.29,
+    "organic_revenue": 11556.22,
     "acos": 0,
-    "tacos": 2.6
+    "tacos": 3.2
   },
   "mes": {
-    "vendas": 1257,
-    "faturamento": 83298.15,
-    "taxa_ml": 10195.92,
-    "faturamento_menos_taxa": 73102.23,
-    "ticket_medio": 66.27,
+    "vendas": 1259,
+    "faturamento": 83476.05,
+    "taxa_ml": 10209.28,
+    "faturamento_menos_taxa": 73266.77,
+    "ticket_medio": 66.3,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 83298.15,
+    "organic_revenue": 83476.05,
     "acos": 0,
     "tacos": 0.4,
     "chart": {
@@ -206,7 +113,8 @@
         "Ter (24)",
         "Qua (25)",
         "Qui (26)",
-        "Sex (27)"
+        "Sex (27)",
+        "Sáb (28)"
       ],
       "vendas": [
         20,
@@ -235,7 +143,8 @@
         44,
         32,
         22,
-        19
+        21,
+        0
       ],
       "faturamento": [
         1281.09,
@@ -264,7 +173,8 @@
         3260.16,
         2137.23,
         1517.95,
-        1095.12
+        1273.02,
+        0
       ]
     }
   }
