@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-03-29T21:24:09.942670",
+  "updated_at": "2026-03-29T21:53:03.174757",
   "kpis": {
-    "faturamento_hoje": 660.96,
-    "vendas_hoje": 10,
-    "ticket_medio": 66.1,
-    "cmv_total": 341.17,
-    "lucro_bruto": 319.79,
-    "margem_pct_real": 48.4,
-    "lucro_por_pedido": 31.98,
-    "taxa_ml_total": 87.4,
-    "shipping_total": 119.24,
-    "faturamento_liquido": 454.32,
-    "margem_liquida_pct": 17.1,
-    "lucro_liquido": 113.15,
-    "vendas_semana": 169,
-    "faturamento_semana": 11765.33,
+    "faturamento_hoje": 784.96,
+    "vendas_hoje": 12,
+    "ticket_medio": 65.41,
+    "cmv_total": 394.99,
+    "lucro_bruto": 389.97,
+    "margem_pct_real": 49.7,
+    "lucro_por_pedido": 32.5,
+    "taxa_ml_total": 102.18,
+    "shipping_total": 151.04,
+    "faturamento_liquido": 531.74,
+    "margem_liquida_pct": 17.4,
+    "lucro_liquido": 136.75,
+    "vendas_semana": 171,
+    "faturamento_semana": 11889.33,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 660.96,
+    "organic_revenue": 784.96,
     "acos": 0,
-    "tacos": 56.0
+    "tacos": 47.1
   },
   "top5": [
     {
@@ -31,6 +31,17 @@
       "full_unit_price": 77.9,
       "lucro": 84.12,
       "margem_pct": 54.0,
+      "score": 84
+    },
+    {
+      "vendas": 2,
+      "faturamento": 128.02,
+      "custo": 62.75,
+      "title": "Conjunto Moletom Infantil Hugo Jobs Calca Jogger F",
+      "taxa_ml": 12.76,
+      "full_unit_price": 64.01,
+      "lucro": 65.27,
+      "margem_pct": 51.0,
       "score": 84
     },
     {
@@ -65,37 +76,26 @@
       "lucro": 63.08,
       "margem_pct": 70.1,
       "score": 82
-    },
-    {
-      "vendas": 1,
-      "faturamento": 64.01,
-      "custo": 35.84,
-      "title": "Conjunto Moletom E Calça Infantil Inverno Quentinh",
-      "taxa_ml": 6.38,
-      "full_unit_price": 64.01,
-      "lucro": 28.17,
-      "margem_pct": 44.0,
-      "score": 82
     }
   ],
   "categories": [
+    {
+      "nome": "Vestuário Infantil",
+      "vendas": 6,
+      "faturamento": 427.98,
+      "custo": 170.39,
+      "taxa_ml": 54.76,
+      "pct": 54.5,
+      "margem_pct": 60.2
+    },
     {
       "nome": "Vestuário Adult",
       "vendas": 6,
       "faturamento": 307.08,
       "custo": 206.34,
       "taxa_ml": 40.43,
-      "pct": 46.5,
+      "pct": 39.1,
       "margem_pct": 32.8
-    },
-    {
-      "nome": "Vestuário Infantil",
-      "vendas": 4,
-      "faturamento": 303.98,
-      "custo": 116.57,
-      "taxa_ml": 39.98,
-      "pct": 46.0,
-      "margem_pct": 61.7
     },
     {
       "nome": "Acessórios",
@@ -103,7 +103,7 @@
       "faturamento": 49.9,
       "custo": 18.26,
       "taxa_ml": 6.99,
-      "pct": 7.5,
+      "pct": 6.4,
       "margem_pct": 63.4
     }
   ],
@@ -124,7 +124,7 @@
       22,
       20,
       16,
-      9
+      11
     ],
     "faturamento": [
       2035.44,
@@ -133,40 +133,40 @@
       1517.95,
       1238.12,
       979.48,
-      596.95
+      720.95
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 10,
+    "total_orders_fetched": 12,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 169,
-    "faturamento": 11765.33,
-    "taxa_ml": 1461.14,
-    "faturamento_menos_taxa": 10304.19,
-    "ticket_medio": 69.62,
+    "vendas": 171,
+    "faturamento": 11889.33,
+    "taxa_ml": 1475.92,
+    "faturamento_menos_taxa": 10413.41,
+    "ticket_medio": 69.53,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 11765.33,
+    "organic_revenue": 11889.33,
     "acos": 0,
     "tacos": 3.1
   },
   "mes": {
-    "vendas": 1283,
-    "faturamento": 85017.58,
-    "taxa_ml": 10406.28,
-    "faturamento_menos_taxa": 74611.3,
+    "vendas": 1285,
+    "faturamento": 85141.58,
+    "taxa_ml": 10421.06,
+    "faturamento_menos_taxa": 74720.52,
     "ticket_medio": 66.26,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 85017.58,
+    "organic_revenue": 85141.58,
     "acos": 0,
     "tacos": 0.4,
     "chart": {
@@ -230,7 +230,7 @@
         22,
         20,
         16,
-        9
+        11
       ],
       "faturamento": [
         1281.09,
@@ -261,7 +261,7 @@
         1517.95,
         1238.12,
         979.48,
-        596.95
+        720.95
       ]
     }
   }
