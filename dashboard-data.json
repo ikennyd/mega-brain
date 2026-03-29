@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-03-29T11:58:35.358765",
+  "updated_at": "2026-03-29T12:57:03.748283",
   "kpis": {
-    "faturamento_hoje": 64.01,
-    "vendas_hoje": 1,
-    "ticket_medio": 64.01,
-    "cmv_total": 35.84,
-    "lucro_bruto": 28.17,
-    "margem_pct_real": 44.0,
-    "lucro_por_pedido": 28.17,
-    "taxa_ml_total": 6.38,
-    "shipping_total": 7.95,
-    "faturamento_liquido": 49.68,
-    "margem_liquida_pct": 21.6,
-    "lucro_liquido": 13.84,
-    "vendas_semana": 160,
-    "faturamento_semana": 11168.38,
+    "faturamento_hoje": 137.09,
+    "vendas_hoje": 3,
+    "ticket_medio": 45.7,
+    "cmv_total": 89.94,
+    "lucro_bruto": 47.15,
+    "margem_pct_real": 34.4,
+    "lucro_por_pedido": 15.72,
+    "taxa_ml_total": 15.44,
+    "shipping_total": 30.85,
+    "faturamento_liquido": 90.8,
+    "margem_liquida_pct": 0.6,
+    "lucro_liquido": 0.86,
+    "vendas_semana": 162,
+    "faturamento_semana": 11241.46,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 64.01,
+    "organic_revenue": 137.09,
     "acos": 0,
-    "tacos": 578.0
+    "tacos": 269.9
   },
   "top5": [
     {
@@ -32,6 +32,28 @@
       "lucro": 28.17,
       "margem_pct": 44.0,
       "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 49.9,
+      "custo": 18.26,
+      "title": "Carteira Couro Legítimo Slim 8 Porta Cartões E Cnh",
+      "taxa_ml": 6.99,
+      "full_unit_price": 49.9,
+      "lucro": 31.64,
+      "margem_pct": 63.4,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 23.18,
+      "custo": 35.84,
+      "title": "Camiseta 100% Algodão Minimalista Frase Sincera Co",
+      "taxa_ml": 2.07,
+      "full_unit_price": 23.18,
+      "lucro": -12.66,
+      "margem_pct": -54.6,
+      "score": 82
     }
   ],
   "categories": [
@@ -41,8 +63,26 @@
       "faturamento": 64.01,
       "custo": 35.84,
       "taxa_ml": 6.38,
-      "pct": 100.0,
+      "pct": 46.7,
       "margem_pct": 44.0
+    },
+    {
+      "nome": "Acessórios",
+      "vendas": 1,
+      "faturamento": 49.9,
+      "custo": 18.26,
+      "taxa_ml": 6.99,
+      "pct": 36.4,
+      "margem_pct": 63.4
+    },
+    {
+      "nome": "Vestuário Adult",
+      "vendas": 1,
+      "faturamento": 23.18,
+      "custo": 35.84,
+      "taxa_ml": 2.07,
+      "pct": 16.9,
+      "margem_pct": -54.6
     }
   ],
   "chart": {
@@ -62,7 +102,7 @@
       22,
       20,
       16,
-      0
+      2
     ],
     "faturamento": [
       2035.44,
@@ -71,40 +111,40 @@
       1517.95,
       1238.12,
       979.48,
-      0
+      73.08
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 1,
+    "total_orders_fetched": 3,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 160,
-    "faturamento": 11168.38,
-    "taxa_ml": 1387.12,
-    "faturamento_menos_taxa": 9781.26,
-    "ticket_medio": 69.8,
+    "vendas": 162,
+    "faturamento": 11241.46,
+    "taxa_ml": 1396.18,
+    "faturamento_menos_taxa": 9845.28,
+    "ticket_medio": 69.39,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 11168.38,
+    "organic_revenue": 11241.46,
     "acos": 0,
     "tacos": 3.3
   },
   "mes": {
-    "vendas": 1274,
-    "faturamento": 84420.63,
-    "taxa_ml": 10332.26,
-    "faturamento_menos_taxa": 74088.37,
-    "ticket_medio": 66.26,
+    "vendas": 1276,
+    "faturamento": 84493.71,
+    "taxa_ml": 10341.32,
+    "faturamento_menos_taxa": 74152.39,
+    "ticket_medio": 66.22,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 84420.63,
+    "organic_revenue": 84493.71,
     "acos": 0,
     "tacos": 0.4,
     "chart": {
@@ -168,7 +208,7 @@
         22,
         20,
         16,
-        0
+        2
       ],
       "faturamento": [
         1281.09,
@@ -199,7 +239,7 @@
         1517.95,
         1238.12,
         979.48,
-        0
+        73.08
       ]
     }
   }
