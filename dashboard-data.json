@@ -1,27 +1,38 @@
 {
-  "updated_at": "2026-03-29T12:57:03.748283",
+  "updated_at": "2026-03-29T13:50:32.438055",
   "kpis": {
-    "faturamento_hoje": 137.09,
-    "vendas_hoje": 3,
-    "ticket_medio": 45.7,
-    "cmv_total": 89.94,
-    "lucro_bruto": 47.15,
-    "margem_pct_real": 34.4,
-    "lucro_por_pedido": 15.72,
-    "taxa_ml_total": 15.44,
-    "shipping_total": 30.85,
-    "faturamento_liquido": 90.8,
-    "margem_liquida_pct": 0.6,
-    "lucro_liquido": 0.86,
-    "vendas_semana": 162,
-    "faturamento_semana": 11241.46,
+    "faturamento_hoje": 287.07,
+    "vendas_hoje": 5,
+    "ticket_medio": 57.41,
+    "cmv_total": 143.76,
+    "lucro_bruto": 143.31,
+    "margem_pct_real": 49.9,
+    "lucro_por_pedido": 28.66,
+    "taxa_ml_total": 36.44,
+    "shipping_total": 57.25,
+    "faturamento_liquido": 193.38,
+    "margem_liquida_pct": 17.3,
+    "lucro_liquido": 49.62,
+    "vendas_semana": 164,
+    "faturamento_semana": 11391.44,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 137.09,
+    "organic_revenue": 287.07,
     "acos": 0,
-    "tacos": 269.9
+    "tacos": 128.9
   },
   "top5": [
+    {
+      "vendas": 1,
+      "faturamento": 89.99,
+      "custo": 26.91,
+      "title": "Kit 3 Calça Moletom Infantil Flanelada Menino Meni",
+      "taxa_ml": 12.6,
+      "full_unit_price": 89.99,
+      "lucro": 63.08,
+      "margem_pct": 70.1,
+      "score": 82
+    },
     {
       "vendas": 1,
       "faturamento": 64.01,
@@ -31,6 +42,17 @@
       "full_unit_price": 64.01,
       "lucro": 28.17,
       "margem_pct": 44.0,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 59.99,
+      "custo": 26.91,
+      "title": "Moletom Infantil Canguru Capuz Blusa De Frio Aranh",
+      "taxa_ml": 8.4,
+      "full_unit_price": 59.99,
+      "lucro": 33.08,
+      "margem_pct": 55.1,
       "score": 82
     },
     {
@@ -59,12 +81,12 @@
   "categories": [
     {
       "nome": "Vestuário Infantil",
-      "vendas": 1,
-      "faturamento": 64.01,
-      "custo": 35.84,
-      "taxa_ml": 6.38,
-      "pct": 46.7,
-      "margem_pct": 44.0
+      "vendas": 3,
+      "faturamento": 213.99,
+      "custo": 89.66,
+      "taxa_ml": 27.38,
+      "pct": 74.5,
+      "margem_pct": 58.1
     },
     {
       "nome": "Acessórios",
@@ -72,7 +94,7 @@
       "faturamento": 49.9,
       "custo": 18.26,
       "taxa_ml": 6.99,
-      "pct": 36.4,
+      "pct": 17.4,
       "margem_pct": 63.4
     },
     {
@@ -81,7 +103,7 @@
       "faturamento": 23.18,
       "custo": 35.84,
       "taxa_ml": 2.07,
-      "pct": 16.9,
+      "pct": 8.1,
       "margem_pct": -54.6
     }
   ],
@@ -102,7 +124,7 @@
       22,
       20,
       16,
-      2
+      4
     ],
     "faturamento": [
       2035.44,
@@ -111,40 +133,40 @@
       1517.95,
       1238.12,
       979.48,
-      73.08
+      223.06
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 3,
+    "total_orders_fetched": 5,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 162,
-    "faturamento": 11241.46,
-    "taxa_ml": 1396.18,
-    "faturamento_menos_taxa": 9845.28,
-    "ticket_medio": 69.39,
+    "vendas": 164,
+    "faturamento": 11391.44,
+    "taxa_ml": 1417.18,
+    "faturamento_menos_taxa": 9974.26,
+    "ticket_medio": 69.46,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 11241.46,
+    "organic_revenue": 11391.44,
     "acos": 0,
-    "tacos": 3.3
+    "tacos": 3.2
   },
   "mes": {
-    "vendas": 1276,
-    "faturamento": 84493.71,
-    "taxa_ml": 10341.32,
-    "faturamento_menos_taxa": 74152.39,
-    "ticket_medio": 66.22,
+    "vendas": 1278,
+    "faturamento": 84643.69,
+    "taxa_ml": 10362.32,
+    "faturamento_menos_taxa": 74281.37,
+    "ticket_medio": 66.23,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 84493.71,
+    "organic_revenue": 84643.69,
     "acos": 0,
     "tacos": 0.4,
     "chart": {
@@ -208,7 +230,7 @@
         22,
         20,
         16,
-        2
+        4
       ],
       "faturamento": [
         1281.09,
@@ -239,7 +261,7 @@
         1517.95,
         1238.12,
         979.48,
-        73.08
+        223.06
       ]
     }
   }
