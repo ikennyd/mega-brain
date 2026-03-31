@@ -1,172 +1,88 @@
 {
-  "updated_at": "2026-03-30T23:51:01.157694",
+  "updated_at": "2026-03-31T01:26:11.161788",
   "kpis": {
-    "faturamento_hoje": 1049.9,
-    "vendas_hoje": 16,
-    "ticket_medio": 65.62,
-    "cmv_total": 452.51,
-    "lucro_bruto": 597.39,
-    "margem_pct_real": 56.9,
-    "lucro_por_pedido": 37.34,
-    "taxa_ml_total": 140.79,
-    "shipping_total": 176.48,
-    "faturamento_liquido": 732.63,
-    "margem_liquida_pct": 26.7,
-    "lucro_liquido": 280.12,
-    "vendas_semana": 162,
-    "faturamento_semana": 11047.37,
+    "faturamento_hoje": 0,
+    "vendas_hoje": 0,
+    "ticket_medio": 0,
+    "cmv_total": 0,
+    "lucro_bruto": 0,
+    "margem_pct_real": 0,
+    "lucro_por_pedido": 0,
+    "taxa_ml_total": 0,
+    "shipping_total": 0,
+    "faturamento_liquido": 0,
+    "margem_liquida_pct": 0,
+    "lucro_liquido": 0,
+    "vendas_semana": 122,
+    "faturamento_semana": 8118.87,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 1049.9,
+    "organic_revenue": 0.0,
     "acos": 0,
-    "tacos": 35.2
+    "tacos": 0
   },
-  "top5": [
-    {
-      "vendas": 6,
-      "faturamento": 467.4,
-      "custo": 215.04,
-      "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
-      "taxa_ml": 65.18,
-      "full_unit_price": 77.9,
-      "lucro": 252.36,
-      "margem_pct": 54.0,
-      "score": 92
-    },
-    {
-      "vendas": 2,
-      "faturamento": 99.8,
-      "custo": 36.52,
-      "title": "Carteira Couro Legítimo Slim 8 Porta Cartões E Cnh",
-      "taxa_ml": 13.98,
-      "full_unit_price": 49.9,
-      "lucro": 63.28,
-      "margem_pct": 63.4,
-      "score": 84
-    },
-    {
-      "vendas": 1,
-      "faturamento": 89.99,
-      "custo": 26.91,
-      "title": "Kit 3 Calça Moletom Infantil Flanelada Menino Meni",
-      "taxa_ml": 12.6,
-      "full_unit_price": 89.99,
-      "lucro": 63.08,
-      "margem_pct": 70.1,
-      "score": 82
-    },
-    {
-      "vendas": 1,
-      "faturamento": 80.5,
-      "custo": 18.67,
-      "title": "Kit 3 Shorts Masculino Hugo Jobs Dryfit Não Precis",
-      "taxa_ml": 10.46,
-      "full_unit_price": 80.5,
-      "lucro": 61.83,
-      "margem_pct": 76.8,
-      "score": 82
-    },
-    {
-      "vendas": 1,
-      "faturamento": 75.99,
-      "custo": 35.84,
-      "title": "Kit 3 Camisetas 100% Algodão Estilosa Hugo Jobs Mi",
-      "taxa_ml": 10.64,
-      "full_unit_price": 75.99,
-      "lucro": 40.15,
-      "margem_pct": 52.8,
-      "score": 82
-    }
-  ],
-  "categories": [
-    {
-      "nome": "Vestuário Adult",
-      "vendas": 9,
-      "faturamento": 677.23,
-      "custo": 305.39,
-      "taxa_ml": 91.19,
-      "pct": 64.5,
-      "margem_pct": 54.9
-    },
-    {
-      "nome": "Vestuário Infantil",
-      "vendas": 3,
-      "faturamento": 213.98,
-      "custo": 80.73,
-      "taxa_ml": 27.37,
-      "pct": 20.4,
-      "margem_pct": 62.3
-    },
-    {
-      "nome": "Acessórios",
-      "vendas": 4,
-      "faturamento": 158.69,
-      "custo": 66.39,
-      "taxa_ml": 22.23,
-      "pct": 15.1,
-      "margem_pct": 58.2
-    }
-  ],
+  "top5": [],
+  "categories": [],
   "chart": {
     "labels": [
-      "Ter (24)",
       "Qua (25)",
       "Qui (26)",
       "Sex (27)",
       "Sáb (28)",
       "Dom (29)",
-      "Seg (30)"
+      "Seg (30)",
+      "Ter (31)"
     ],
     "vendas": [
-      43,
       28,
       21,
       20,
       16,
       17,
-      16
+      20,
+      0
     ],
     "faturamento": [
-      3196.16,
       1921.45,
       1427.96,
       1238.12,
       979.48,
       1206.18,
-      1049.9
+      1345.68,
+      0
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 18,
+    "total_orders_fetched": 0,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 162,
-    "faturamento": 11047.37,
-    "taxa_ml": 1413.16,
-    "faturamento_menos_taxa": 9634.21,
-    "ticket_medio": 68.19,
+    "vendas": 122,
+    "faturamento": 8118.87,
+    "taxa_ml": 1049.45,
+    "faturamento_menos_taxa": 7069.42,
+    "ticket_medio": 66.55,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 11047.37,
+    "organic_revenue": 8118.87,
     "acos": 0,
-    "tacos": 3.3
+    "tacos": 4.6
   },
   "mes": {
-    "vendas": 1299,
-    "faturamento": 86161.17,
-    "taxa_ml": 10567.38,
-    "faturamento_menos_taxa": 75593.79,
-    "ticket_medio": 66.33,
+    "vendas": 1303,
+    "faturamento": 86456.95,
+    "taxa_ml": 10608.8,
+    "faturamento_menos_taxa": 75848.15,
+    "ticket_medio": 66.35,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 86161.17,
+    "organic_revenue": 86456.95,
     "acos": 0,
     "tacos": 0.4,
     "chart": {
@@ -200,7 +116,8 @@
         "Sex (27)",
         "Sáb (28)",
         "Dom (29)",
-        "Seg (30)"
+        "Seg (30)",
+        "Ter (31)"
       ],
       "vendas": [
         20,
@@ -232,7 +149,8 @@
         20,
         16,
         17,
-        16
+        20,
+        0
       ],
       "faturamento": [
         1281.09,
@@ -264,7 +182,8 @@
         1238.12,
         979.48,
         1206.18,
-        1049.9
+        1345.68,
+        0
       ]
     }
   }
