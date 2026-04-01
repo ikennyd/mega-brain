@@ -1,37 +1,37 @@
 {
-  "updated_at": "2026-04-01T17:36:42.096619",
+  "updated_at": "2026-04-01T18:37:00.294247",
   "kpis": {
-    "faturamento_hoje": 1762.56,
-    "vendas_hoje": 24,
-    "ticket_medio": 73.44,
-    "cmv_total": 705.86,
-    "lucro_bruto": 1056.7,
-    "margem_pct_real": 60.0,
-    "lucro_por_pedido": 44.03,
-    "taxa_ml_total": 243.28,
-    "shipping_total": 389.11,
-    "faturamento_liquido": 1130.17,
-    "margem_liquida_pct": 24.1,
-    "lucro_liquido": 424.31,
-    "vendas_semana": 169,
-    "faturamento_semana": 11541.24,
+    "faturamento_hoje": 1876.45,
+    "vendas_hoje": 26,
+    "ticket_medio": 72.17,
+    "cmv_total": 753.31,
+    "lucro_bruto": 1123.14,
+    "margem_pct_real": 59.9,
+    "lucro_por_pedido": 43.2,
+    "taxa_ml_total": 259.09,
+    "shipping_total": 413.8,
+    "faturamento_liquido": 1203.56,
+    "margem_liquida_pct": 24.0,
+    "lucro_liquido": 450.25,
+    "vendas_semana": 171,
+    "faturamento_semana": 11655.13,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 1762.56,
+    "organic_revenue": 1876.45,
     "acos": 0,
-    "tacos": 21.0
+    "tacos": 19.7
   },
   "top5": [
     {
-      "vendas": 7,
-      "faturamento": 545.3,
-      "custo": 250.88,
+      "vendas": 8,
+      "faturamento": 623.2,
+      "custo": 286.72,
       "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
-      "taxa_ml": 76.37,
+      "taxa_ml": 87.28,
       "full_unit_price": 77.9,
-      "lucro": 294.42,
+      "lucro": 336.48,
       "margem_pct": 54.0,
-      "score": 94
+      "score": 96
     },
     {
       "vendas": 2,
@@ -80,31 +80,31 @@
   ],
   "categories": [
     {
+      "nome": "Vestuário Adult",
+      "vendas": 12,
+      "faturamento": 879.67,
+      "custo": 404.21,
+      "taxa_ml": 122.38,
+      "pct": 46.9,
+      "margem_pct": 54.0
+    },
+    {
       "nome": "Vestuário Infantil",
       "vendas": 11,
       "faturamento": 843.82,
       "custo": 296.01,
       "taxa_ml": 115.43,
-      "pct": 47.9,
+      "pct": 45.0,
       "margem_pct": 64.9
     },
     {
-      "nome": "Vestuário Adult",
-      "vendas": 11,
-      "faturamento": 801.77,
-      "custo": 368.37,
-      "taxa_ml": 111.47,
-      "pct": 45.5,
-      "margem_pct": 54.1
-    },
-    {
       "nome": "Acessórios",
-      "vendas": 3,
-      "faturamento": 116.97,
-      "custo": 41.48,
-      "taxa_ml": 16.38,
-      "pct": 6.6,
-      "margem_pct": 64.5
+      "vendas": 4,
+      "faturamento": 152.96,
+      "custo": 53.09,
+      "taxa_ml": 21.28,
+      "pct": 8.2,
+      "margem_pct": 65.3
     }
   ],
   "chart": {
@@ -124,7 +124,7 @@
       17,
       22,
       49,
-      24
+      26
     ],
     "faturamento": [
       1427.96,
@@ -133,51 +133,51 @@
       1206.18,
       1501.48,
       3439.35,
-      1762.56
+      1876.45
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 24,
+    "total_orders_fetched": 26,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 169,
-    "faturamento": 11541.24,
-    "taxa_ml": 1519.7,
-    "faturamento_menos_taxa": 10021.54,
-    "ticket_medio": 68.29,
+    "vendas": 171,
+    "faturamento": 11655.13,
+    "taxa_ml": 1535.51,
+    "faturamento_menos_taxa": 10119.62,
+    "ticket_medio": 68.16,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 11541.24,
+    "organic_revenue": 11655.13,
     "acos": 0,
     "tacos": 3.2
   },
   "mes": {
-    "vendas": 24,
-    "faturamento": 1762.56,
-    "taxa_ml": 236.28,
-    "faturamento_menos_taxa": 1526.28,
-    "ticket_medio": 73.44,
+    "vendas": 26,
+    "faturamento": 1876.45,
+    "taxa_ml": 252.09,
+    "faturamento_menos_taxa": 1624.36,
+    "ticket_medio": 72.17,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 1762.56,
+    "organic_revenue": 1876.45,
     "acos": 0,
-    "tacos": 21.0,
+    "tacos": 19.7,
     "chart": {
       "labels": [
         "Qua (01)"
       ],
       "vendas": [
-        24
+        26
       ],
       "faturamento": [
-        1762.56
+        1876.45
       ]
     }
   }
