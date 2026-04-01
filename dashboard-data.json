@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-04-01T08:21:28.129140",
+  "updated_at": "2026-04-01T09:42:11.318980",
   "kpis": {
-    "faturamento_hoje": 189.97,
-    "vendas_hoje": 2,
-    "ticket_medio": 94.98,
-    "cmv_total": 89.89,
-    "lucro_bruto": 100.08,
-    "margem_pct_real": 52.7,
-    "lucro_por_pedido": 50.04,
-    "taxa_ml_total": 26.6,
-    "shipping_total": 31.65,
-    "faturamento_liquido": 131.72,
-    "margem_liquida_pct": 22.0,
-    "lucro_liquido": 41.83,
-    "vendas_semana": 148,
-    "faturamento_semana": 10046.55,
+    "faturamento_hoje": 337.86,
+    "vendas_hoje": 4,
+    "ticket_medio": 84.47,
+    "cmv_total": 152.64,
+    "lucro_bruto": 185.22,
+    "margem_pct_real": 54.8,
+    "lucro_por_pedido": 46.31,
+    "taxa_ml_total": 47.31,
+    "shipping_total": 86.74,
+    "faturamento_liquido": 203.81,
+    "margem_liquida_pct": 15.1,
+    "lucro_liquido": 51.17,
+    "vendas_semana": 150,
+    "faturamento_semana": 10194.44,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 189.97,
+    "organic_revenue": 337.86,
     "acos": 0,
-    "tacos": 194.8
+    "tacos": 109.5
   },
   "top5": [
     {
@@ -43,26 +43,48 @@
       "lucro": 63.08,
       "margem_pct": 70.1,
       "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 77.9,
+      "custo": 35.84,
+      "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
+      "taxa_ml": 10.91,
+      "full_unit_price": 77.9,
+      "lucro": 42.06,
+      "margem_pct": 54.0,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 69.99,
+      "custo": 26.91,
+      "title": "Conjunto Moletom Infantil Hugo Jobs Calca Jogger F",
+      "taxa_ml": 9.8,
+      "full_unit_price": 69.99,
+      "lucro": 43.08,
+      "margem_pct": 61.6,
+      "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 2,
-      "faturamento": 99.98,
-      "custo": 62.98,
-      "taxa_ml": 14,
+      "vendas": 3,
+      "faturamento": 177.88,
+      "custo": 98.82,
+      "taxa_ml": 24.91,
       "pct": 52.6,
-      "margem_pct": 37.0
+      "margem_pct": 44.4
     },
     {
       "nome": "Vestuário Infantil",
-      "vendas": 1,
-      "faturamento": 89.99,
-      "custo": 26.91,
-      "taxa_ml": 12.6,
+      "vendas": 2,
+      "faturamento": 159.98,
+      "custo": 53.82,
+      "taxa_ml": 22.4,
       "pct": 47.4,
-      "margem_pct": 70.1
+      "margem_pct": 66.4
     }
   ],
   "chart": {
@@ -82,7 +104,7 @@
       17,
       22,
       49,
-      2
+      4
     ],
     "faturamento": [
       1427.96,
@@ -91,51 +113,51 @@
       1206.18,
       1501.48,
       3439.35,
-      189.97
+      337.86
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 2,
+    "total_orders_fetched": 4,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 148,
-    "faturamento": 10046.55,
-    "taxa_ml": 1313.93,
-    "faturamento_menos_taxa": 8732.62,
-    "ticket_medio": 67.88,
+    "vendas": 150,
+    "faturamento": 10194.44,
+    "taxa_ml": 1334.64,
+    "faturamento_menos_taxa": 8859.8,
+    "ticket_medio": 67.96,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 10046.55,
+    "organic_revenue": 10194.44,
     "acos": 0,
-    "tacos": 3.7
+    "tacos": 3.6
   },
   "mes": {
-    "vendas": 2,
-    "faturamento": 189.97,
-    "taxa_ml": 19.6,
-    "faturamento_menos_taxa": 170.37,
-    "ticket_medio": 94.98,
+    "vendas": 4,
+    "faturamento": 337.86,
+    "taxa_ml": 40.31,
+    "faturamento_menos_taxa": 297.55,
+    "ticket_medio": 84.47,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 189.97,
+    "organic_revenue": 337.86,
     "acos": 0,
-    "tacos": 194.8,
+    "tacos": 109.5,
     "chart": {
       "labels": [
         "Qua (01)"
       ],
       "vendas": [
-        2
+        4
       ],
       "faturamento": [
-        189.97
+        337.86
       ]
     }
   }
