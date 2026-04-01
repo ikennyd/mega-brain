@@ -1,27 +1,38 @@
 {
-  "updated_at": "2026-04-01T09:42:11.318980",
+  "updated_at": "2026-04-01T10:39:47.193576",
   "kpis": {
-    "faturamento_hoje": 337.86,
-    "vendas_hoje": 4,
-    "ticket_medio": 84.47,
-    "cmv_total": 152.64,
-    "lucro_bruto": 185.22,
-    "margem_pct_real": 54.8,
-    "lucro_por_pedido": 46.31,
-    "taxa_ml_total": 47.31,
-    "shipping_total": 86.74,
-    "faturamento_liquido": 203.81,
-    "margem_liquida_pct": 15.1,
-    "lucro_liquido": 51.17,
-    "vendas_semana": 150,
-    "faturamento_semana": 10194.44,
+    "faturamento_hoje": 415.76,
+    "vendas_hoje": 5,
+    "ticket_medio": 83.15,
+    "cmv_total": 188.48,
+    "lucro_bruto": 227.28,
+    "margem_pct_real": 54.7,
+    "lucro_por_pedido": 45.46,
+    "taxa_ml_total": 58.22,
+    "shipping_total": 94.89,
+    "faturamento_liquido": 262.65,
+    "margem_liquida_pct": 17.8,
+    "lucro_liquido": 74.17,
+    "vendas_semana": 151,
+    "faturamento_semana": 10272.34,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 337.86,
+    "organic_revenue": 415.76,
     "acos": 0,
-    "tacos": 109.5
+    "tacos": 89.0
   },
   "top5": [
+    {
+      "vendas": 2,
+      "faturamento": 155.8,
+      "custo": 71.68,
+      "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
+      "taxa_ml": 21.82,
+      "full_unit_price": 77.9,
+      "lucro": 84.12,
+      "margem_pct": 54.0,
+      "score": 84
+    },
     {
       "vendas": 2,
       "faturamento": 99.98,
@@ -46,17 +57,6 @@
     },
     {
       "vendas": 1,
-      "faturamento": 77.9,
-      "custo": 35.84,
-      "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
-      "taxa_ml": 10.91,
-      "full_unit_price": 77.9,
-      "lucro": 42.06,
-      "margem_pct": 54.0,
-      "score": 82
-    },
-    {
-      "vendas": 1,
       "faturamento": 69.99,
       "custo": 26.91,
       "title": "Conjunto Moletom Infantil Hugo Jobs Calca Jogger F",
@@ -70,12 +70,12 @@
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 3,
-      "faturamento": 177.88,
-      "custo": 98.82,
-      "taxa_ml": 24.91,
-      "pct": 52.6,
-      "margem_pct": 44.4
+      "vendas": 4,
+      "faturamento": 255.78,
+      "custo": 134.66,
+      "taxa_ml": 35.82,
+      "pct": 61.5,
+      "margem_pct": 47.4
     },
     {
       "nome": "Vestuário Infantil",
@@ -83,7 +83,7 @@
       "faturamento": 159.98,
       "custo": 53.82,
       "taxa_ml": 22.4,
-      "pct": 47.4,
+      "pct": 38.5,
       "margem_pct": 66.4
     }
   ],
@@ -104,7 +104,7 @@
       17,
       22,
       49,
-      4
+      5
     ],
     "faturamento": [
       1427.96,
@@ -113,51 +113,51 @@
       1206.18,
       1501.48,
       3439.35,
-      337.86
+      415.76
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 4,
+    "total_orders_fetched": 5,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 150,
-    "faturamento": 10194.44,
-    "taxa_ml": 1334.64,
-    "faturamento_menos_taxa": 8859.8,
-    "ticket_medio": 67.96,
+    "vendas": 151,
+    "faturamento": 10272.34,
+    "taxa_ml": 1345.55,
+    "faturamento_menos_taxa": 8926.79,
+    "ticket_medio": 68.03,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 10194.44,
+    "organic_revenue": 10272.34,
     "acos": 0,
     "tacos": 3.6
   },
   "mes": {
-    "vendas": 4,
-    "faturamento": 337.86,
-    "taxa_ml": 40.31,
-    "faturamento_menos_taxa": 297.55,
-    "ticket_medio": 84.47,
+    "vendas": 5,
+    "faturamento": 415.76,
+    "taxa_ml": 51.22,
+    "faturamento_menos_taxa": 364.54,
+    "ticket_medio": 83.15,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 337.86,
+    "organic_revenue": 415.76,
     "acos": 0,
-    "tacos": 109.5,
+    "tacos": 89.0,
     "chart": {
       "labels": [
         "Qua (01)"
       ],
       "vendas": [
-        4
+        5
       ],
       "faturamento": [
-        337.86
+        415.76
       ]
     }
   }
