@@ -1,28 +1,50 @@
 {
-  "updated_at": "2026-04-01T03:44:12.562000",
+  "updated_at": "2026-04-01T05:47:30.018450",
   "kpis": {
-    "faturamento_hoje": 0,
-    "vendas_hoje": 0,
-    "ticket_medio": 0,
-    "cmv_total": 0,
-    "lucro_bruto": 0,
-    "margem_pct_real": 0,
-    "lucro_por_pedido": 0,
-    "taxa_ml_total": 0,
-    "shipping_total": 0,
-    "faturamento_liquido": 0,
-    "margem_liquida_pct": 0,
-    "lucro_liquido": 0,
-    "vendas_semana": 146,
-    "faturamento_semana": 9856.58,
+    "faturamento_hoje": 99.98,
+    "vendas_hoje": 1,
+    "ticket_medio": 99.98,
+    "cmv_total": 62.98,
+    "lucro_bruto": 37.0,
+    "margem_pct_real": 37.0,
+    "lucro_por_pedido": 37.0,
+    "taxa_ml_total": 14,
+    "shipping_total": 15.9,
+    "faturamento_liquido": 70.08,
+    "margem_liquida_pct": 7.1,
+    "lucro_liquido": 7.1,
+    "vendas_semana": 147,
+    "faturamento_semana": 9956.56,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 0.0,
+    "organic_revenue": 99.98,
     "acos": 0,
-    "tacos": 0
+    "tacos": 370.1
   },
-  "top5": [],
-  "categories": [],
+  "top5": [
+    {
+      "vendas": 2,
+      "faturamento": 99.98,
+      "custo": 62.98,
+      "title": "Moletom Gola Careca Premium Liso Felpado Lançament",
+      "taxa_ml": 14,
+      "full_unit_price": 49.99,
+      "lucro": 37.0,
+      "margem_pct": 37.0,
+      "score": 84
+    }
+  ],
+  "categories": [
+    {
+      "nome": "Vestuário Adult",
+      "vendas": 2,
+      "faturamento": 99.98,
+      "custo": 62.98,
+      "taxa_ml": 14,
+      "pct": 100.0,
+      "margem_pct": 37.0
+    }
+  ],
   "chart": {
     "labels": [
       "Qui (26)",
@@ -40,7 +62,7 @@
       17,
       22,
       49,
-      0
+      1
     ],
     "faturamento": [
       1427.96,
@@ -49,51 +71,51 @@
       1206.18,
       1501.48,
       3439.35,
-      0
+      99.98
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 0,
+    "total_orders_fetched": 1,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 146,
-    "faturamento": 9856.58,
-    "taxa_ml": 1294.33,
-    "faturamento_menos_taxa": 8562.25,
-    "ticket_medio": 67.51,
+    "vendas": 147,
+    "faturamento": 9956.56,
+    "taxa_ml": 1301.33,
+    "faturamento_menos_taxa": 8655.23,
+    "ticket_medio": 67.73,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 9856.58,
+    "organic_revenue": 9956.56,
     "acos": 0,
-    "tacos": 3.8
+    "tacos": 3.7
   },
   "mes": {
-    "vendas": 0,
-    "faturamento": 0,
-    "taxa_ml": 0,
-    "faturamento_menos_taxa": 0,
-    "ticket_medio": 0,
+    "vendas": 1,
+    "faturamento": 99.98,
+    "taxa_ml": 7,
+    "faturamento_menos_taxa": 92.98,
+    "ticket_medio": 99.98,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 0.0,
+    "organic_revenue": 99.98,
     "acos": 0,
-    "tacos": 0,
+    "tacos": 370.1,
     "chart": {
       "labels": [
         "Qua (01)"
       ],
       "vendas": [
-        0
+        1
       ],
       "faturamento": [
-        0
+        99.98
       ]
     }
   }
