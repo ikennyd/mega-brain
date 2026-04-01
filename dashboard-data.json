@@ -1,37 +1,37 @@
 {
-  "updated_at": "2026-04-01T19:43:25.438224",
+  "updated_at": "2026-04-01T20:25:41.678958",
   "kpis": {
-    "faturamento_hoje": 2108.35,
-    "vendas_hoje": 29,
-    "ticket_medio": 72.7,
-    "cmv_total": 842.97,
-    "lucro_bruto": 1265.38,
-    "margem_pct_real": 60.0,
-    "lucro_por_pedido": 43.63,
-    "taxa_ml_total": 288.98,
-    "shipping_total": 444.15,
-    "faturamento_liquido": 1375.22,
-    "margem_liquida_pct": 25.2,
-    "lucro_liquido": 532.25,
-    "vendas_semana": 174,
-    "faturamento_semana": 11887.03,
+    "faturamento_hoje": 2264.15,
+    "vendas_hoje": 31,
+    "ticket_medio": 73.04,
+    "cmv_total": 914.65,
+    "lucro_bruto": 1349.5,
+    "margem_pct_real": 59.6,
+    "lucro_por_pedido": 43.53,
+    "taxa_ml_total": 310.8,
+    "shipping_total": 460.25,
+    "faturamento_liquido": 1493.1,
+    "margem_liquida_pct": 25.5,
+    "lucro_liquido": 578.45,
+    "vendas_semana": 176,
+    "faturamento_semana": 12042.83,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 2108.35,
+    "organic_revenue": 2264.15,
     "acos": 0,
-    "tacos": 17.5
+    "tacos": 16.3
   },
   "top5": [
     {
-      "vendas": 9,
-      "faturamento": 701.1,
-      "custo": 322.56,
+      "vendas": 11,
+      "faturamento": 856.9,
+      "custo": 394.24,
       "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
-      "taxa_ml": 98.19,
+      "taxa_ml": 120.01,
       "full_unit_price": 77.9,
-      "lucro": 378.54,
+      "lucro": 462.66,
       "margem_pct": 54.0,
-      "score": 98
+      "score": 99
     },
     {
       "vendas": 2,
@@ -80,22 +80,22 @@
   ],
   "categories": [
     {
+      "nome": "Vestuário Adult",
+      "vendas": 15,
+      "faturamento": 1113.37,
+      "custo": 511.73,
+      "taxa_ml": 155.11,
+      "pct": 49.2,
+      "margem_pct": 54.0
+    },
+    {
       "nome": "Vestuário Infantil",
       "vendas": 13,
       "faturamento": 997.82,
       "custo": 349.83,
       "taxa_ml": 134.41,
-      "pct": 47.3,
+      "pct": 44.1,
       "margem_pct": 64.9
-    },
-    {
-      "nome": "Vestuário Adult",
-      "vendas": 13,
-      "faturamento": 957.57,
-      "custo": 440.05,
-      "taxa_ml": 133.29,
-      "pct": 45.4,
-      "margem_pct": 54.0
     },
     {
       "nome": "Acessórios",
@@ -103,7 +103,7 @@
       "faturamento": 152.96,
       "custo": 53.09,
       "taxa_ml": 21.28,
-      "pct": 7.3,
+      "pct": 6.8,
       "margem_pct": 65.3
     }
   ],
@@ -124,7 +124,7 @@
       17,
       22,
       49,
-      29
+      31
     ],
     "faturamento": [
       1427.96,
@@ -133,51 +133,51 @@
       1206.18,
       1501.48,
       3439.35,
-      2108.35
+      2264.15
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 29,
+    "total_orders_fetched": 31,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 174,
-    "faturamento": 11887.03,
-    "taxa_ml": 1565.4,
-    "faturamento_menos_taxa": 10321.63,
-    "ticket_medio": 68.32,
+    "vendas": 176,
+    "faturamento": 12042.83,
+    "taxa_ml": 1587.22,
+    "faturamento_menos_taxa": 10455.61,
+    "ticket_medio": 68.43,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 11887.03,
+    "organic_revenue": 12042.83,
     "acos": 0,
     "tacos": 3.1
   },
   "mes": {
-    "vendas": 29,
-    "faturamento": 2108.35,
-    "taxa_ml": 281.98,
-    "faturamento_menos_taxa": 1826.37,
-    "ticket_medio": 72.7,
+    "vendas": 31,
+    "faturamento": 2264.15,
+    "taxa_ml": 303.8,
+    "faturamento_menos_taxa": 1960.35,
+    "ticket_medio": 73.04,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 2108.35,
+    "organic_revenue": 2264.15,
     "acos": 0,
-    "tacos": 17.5,
+    "tacos": 16.3,
     "chart": {
       "labels": [
         "Qua (01)"
       ],
       "vendas": [
-        29
+        31
       ],
       "faturamento": [
-        2108.35
+        2264.15
       ]
     }
   }
