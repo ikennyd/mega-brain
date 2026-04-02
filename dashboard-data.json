@@ -1,35 +1,35 @@
 {
-  "updated_at": "2026-04-02T21:28:51.571745",
+  "updated_at": "2026-04-02T22:01:09.163979",
   "kpis": {
-    "faturamento_hoje": 1808.62,
-    "vendas_hoje": 26,
-    "ticket_medio": 69.56,
-    "cmv_total": 837.09,
-    "lucro_bruto": 971.53,
-    "margem_pct_real": 53.7,
-    "lucro_por_pedido": 37.37,
-    "taxa_ml_total": 248.02,
-    "shipping_total": 317.1,
-    "faturamento_liquido": 1243.5,
-    "margem_liquida_pct": 22.5,
-    "lucro_liquido": 406.41,
-    "vendas_semana": 199,
-    "faturamento_semana": 13771.94,
+    "faturamento_hoje": 2022.25,
+    "vendas_hoje": 28,
+    "ticket_medio": 72.22,
+    "cmv_total": 897.93,
+    "lucro_bruto": 1124.32,
+    "margem_pct_real": 55.6,
+    "lucro_por_pedido": 40.15,
+    "taxa_ml_total": 282.0,
+    "shipping_total": 342.9,
+    "faturamento_liquido": 1397.35,
+    "margem_liquida_pct": 24.7,
+    "lucro_liquido": 499.42,
+    "vendas_semana": 201,
+    "faturamento_semana": 13985.57,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 1808.62,
+    "organic_revenue": 2022.25,
     "acos": 0,
-    "tacos": 20.5
+    "tacos": 18.3
   },
   "top5": [
     {
-      "vendas": 14,
-      "faturamento": 1090.6,
-      "custo": 501.76,
+      "vendas": 15,
+      "faturamento": 1168.5,
+      "custo": 537.6,
       "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
-      "taxa_ml": 152.6,
+      "taxa_ml": 163.51,
       "full_unit_price": 77.9,
-      "lucro": 588.84,
+      "lucro": 630.9,
       "margem_pct": 54.0,
       "score": 99
     },
@@ -43,6 +43,17 @@
       "lucro": 126.16,
       "margem_pct": 70.1,
       "score": 84
+    },
+    {
+      "vendas": 1,
+      "faturamento": 135.73,
+      "custo": 25.0,
+      "title": "Perfume Masculino Empire Tradicional 100ml - Hinod",
+      "taxa_ml": 23.07,
+      "full_unit_price": 135.73,
+      "lucro": 110.73,
+      "margem_pct": 81.6,
+      "score": 82
     },
     {
       "vendas": 2,
@@ -65,28 +76,17 @@
       "lucro": 63.08,
       "margem_pct": 70.1,
       "score": 82
-    },
-    {
-      "vendas": 1,
-      "faturamento": 80.5,
-      "custo": 18.67,
-      "title": "Kit 3 Shorts Masculino Hugo Jobs Dryfit Não Precis",
-      "taxa_ml": 14.09,
-      "full_unit_price": 80.5,
-      "lucro": 61.83,
-      "margem_pct": 76.8,
-      "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 20,
-      "faturamento": 1380.66,
-      "custo": 690.93,
-      "taxa_ml": 190.68,
-      "pct": 76.3,
-      "margem_pct": 50.0
+      "vendas": 21,
+      "faturamento": 1458.56,
+      "custo": 726.77,
+      "taxa_ml": 201.59,
+      "pct": 72.1,
+      "margem_pct": 50.2
     },
     {
       "nome": "Vestuário Infantil",
@@ -94,8 +94,17 @@
       "faturamento": 403.97,
       "custo": 134.55,
       "taxa_ml": 53.98,
-      "pct": 22.3,
+      "pct": 20.0,
       "margem_pct": 66.7
+    },
+    {
+      "nome": "Outros",
+      "vendas": 1,
+      "faturamento": 135.73,
+      "custo": 25.0,
+      "taxa_ml": 23.07,
+      "pct": 6.7,
+      "margem_pct": 81.6
     },
     {
       "nome": "Acessórios",
@@ -103,7 +112,7 @@
       "faturamento": 23.99,
       "custo": 11.61,
       "taxa_ml": 3.36,
-      "pct": 1.3,
+      "pct": 1.2,
       "margem_pct": 51.6
     }
   ],
@@ -124,7 +133,7 @@
       22,
       48,
       51,
-      26
+      28
     ],
     "faturamento": [
       1238.12,
@@ -133,42 +142,42 @@
       1501.48,
       3389.36,
       3726.6,
-      1808.62
+      2022.25
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 27,
+    "total_orders_fetched": 29,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 199,
-    "faturamento": 13771.94,
-    "taxa_ml": 1842.26,
-    "faturamento_menos_taxa": 11929.68,
-    "ticket_medio": 69.21,
+    "vendas": 201,
+    "faturamento": 13985.57,
+    "taxa_ml": 1876.24,
+    "faturamento_menos_taxa": 12109.33,
+    "ticket_medio": 69.58,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 13771.94,
+    "organic_revenue": 13985.57,
     "acos": 0,
-    "tacos": 2.7
+    "tacos": 2.6
   },
   "mes": {
-    "vendas": 77,
-    "faturamento": 5535.22,
-    "taxa_ml": 756.63,
-    "faturamento_menos_taxa": 4778.59,
-    "ticket_medio": 71.89,
+    "vendas": 79,
+    "faturamento": 5748.85,
+    "taxa_ml": 790.61,
+    "faturamento_menos_taxa": 4958.24,
+    "ticket_medio": 72.77,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 5535.22,
+    "organic_revenue": 5748.85,
     "acos": 0,
-    "tacos": 6.7,
+    "tacos": 6.4,
     "chart": {
       "labels": [
         "Qua (01)",
@@ -176,11 +185,11 @@
       ],
       "vendas": [
         51,
-        26
+        28
       ],
       "faturamento": [
         3726.6,
-        1808.62
+        2022.25
       ]
     }
   }
