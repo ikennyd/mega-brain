@@ -1,27 +1,49 @@
 {
-  "updated_at": "2026-04-02T11:56:25.113772",
+  "updated_at": "2026-04-02T13:00:15.494523",
   "kpis": {
-    "faturamento_hoje": 64.01,
-    "vendas_hoje": 1,
-    "ticket_medio": 64.01,
-    "cmv_total": 26.91,
-    "lucro_bruto": 37.1,
-    "margem_pct_real": 58.0,
-    "lucro_por_pedido": 37.1,
-    "taxa_ml_total": 6.38,
-    "shipping_total": 8.05,
-    "faturamento_liquido": 49.58,
-    "margem_liquida_pct": 35.4,
-    "lucro_liquido": 22.67,
-    "vendas_semana": 174,
-    "faturamento_semana": 12027.33,
+    "faturamento_hoje": 261.89,
+    "vendas_hoje": 4,
+    "ticket_medio": 65.47,
+    "cmv_total": 121.15,
+    "lucro_bruto": 140.74,
+    "margem_pct_real": 53.7,
+    "lucro_por_pedido": 35.19,
+    "taxa_ml_total": 33.95,
+    "shipping_total": 52.98,
+    "faturamento_liquido": 174.96,
+    "margem_liquida_pct": 20.5,
+    "lucro_liquido": 53.81,
+    "vendas_semana": 177,
+    "faturamento_semana": 12225.21,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 64.01,
+    "organic_revenue": 261.89,
     "acos": 0,
-    "tacos": 578.0
+    "tacos": 141.3
   },
   "top5": [
+    {
+      "vendas": 1,
+      "faturamento": 77.9,
+      "custo": 35.84,
+      "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
+      "taxa_ml": 10.77,
+      "full_unit_price": 77.9,
+      "lucro": 42.06,
+      "margem_pct": 54.0,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 69.99,
+      "custo": 26.91,
+      "title": "Conjunto Moletom Infantil Hugo Jobs Calca Jogger F",
+      "taxa_ml": 9.8,
+      "full_unit_price": 69.99,
+      "lucro": 43.08,
+      "margem_pct": 61.6,
+      "score": 82
+    },
     {
       "vendas": 1,
       "faturamento": 64.01,
@@ -32,17 +54,37 @@
       "lucro": 37.1,
       "margem_pct": 58.0,
       "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 49.99,
+      "custo": 31.49,
+      "title": "Moletom Gola Careca Premium Liso Felpado Lançament",
+      "taxa_ml": 7,
+      "full_unit_price": 49.99,
+      "lucro": 18.5,
+      "margem_pct": 37.0,
+      "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Infantil",
-      "vendas": 1,
-      "faturamento": 64.01,
-      "custo": 26.91,
-      "taxa_ml": 6.38,
-      "pct": 100.0,
-      "margem_pct": 58.0
+      "vendas": 2,
+      "faturamento": 134.0,
+      "custo": 53.82,
+      "taxa_ml": 16.18,
+      "pct": 51.2,
+      "margem_pct": 59.8
+    },
+    {
+      "nome": "Vestuário Adult",
+      "vendas": 2,
+      "faturamento": 127.89,
+      "custo": 67.33,
+      "taxa_ml": 17.77,
+      "pct": 48.8,
+      "margem_pct": 47.4
     }
   ],
   "chart": {
@@ -62,7 +104,7 @@
       22,
       48,
       51,
-      1
+      4
     ],
     "faturamento": [
       1238.12,
@@ -71,42 +113,42 @@
       1501.48,
       3389.36,
       3726.6,
-      64.01
+      261.89
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 1,
+    "total_orders_fetched": 4,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 174,
-    "faturamento": 12027.33,
-    "taxa_ml": 1600.62,
-    "faturamento_menos_taxa": 10426.71,
-    "ticket_medio": 69.12,
+    "vendas": 177,
+    "faturamento": 12225.21,
+    "taxa_ml": 1628.19,
+    "faturamento_menos_taxa": 10597.02,
+    "ticket_medio": 69.07,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 12027.33,
+    "organic_revenue": 12225.21,
     "acos": 0,
-    "tacos": 3.1
+    "tacos": 3.0
   },
   "mes": {
-    "vendas": 52,
-    "faturamento": 3790.61,
-    "taxa_ml": 514.99,
-    "faturamento_menos_taxa": 3275.62,
-    "ticket_medio": 72.9,
+    "vendas": 55,
+    "faturamento": 3988.49,
+    "taxa_ml": 542.56,
+    "faturamento_menos_taxa": 3445.93,
+    "ticket_medio": 72.52,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 3790.61,
+    "organic_revenue": 3988.49,
     "acos": 0,
-    "tacos": 9.8,
+    "tacos": 9.3,
     "chart": {
       "labels": [
         "Qua (01)",
@@ -114,11 +156,11 @@
       ],
       "vendas": [
         51,
-        1
+        4
       ],
       "faturamento": [
         3726.6,
-        64.01
+        261.89
       ]
     }
   }
