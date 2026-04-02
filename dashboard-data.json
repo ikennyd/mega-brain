@@ -1,35 +1,35 @@
 {
-  "updated_at": "2026-04-02T23:26:05.119195",
+  "updated_at": "2026-04-02T23:56:09.345212",
   "kpis": {
-    "faturamento_hoje": 2492.25,
-    "vendas_hoje": 34,
-    "ticket_medio": 73.3,
-    "cmv_total": 1095.8,
-    "lucro_bruto": 1396.45,
+    "faturamento_hoje": 2570.15,
+    "vendas_hoje": 35,
+    "ticket_medio": 73.43,
+    "cmv_total": 1131.64,
+    "lucro_bruto": 1438.51,
     "margem_pct_real": 56.0,
-    "lucro_por_pedido": 41.07,
-    "taxa_ml_total": 347.01,
-    "shipping_total": 397.5,
-    "faturamento_liquido": 1747.74,
-    "margem_liquida_pct": 26.2,
-    "lucro_liquido": 651.94,
-    "vendas_semana": 207,
-    "faturamento_semana": 14455.57,
+    "lucro_por_pedido": 41.1,
+    "taxa_ml_total": 357.92,
+    "shipping_total": 405.55,
+    "faturamento_liquido": 1806.68,
+    "margem_liquida_pct": 26.3,
+    "lucro_liquido": 675.04,
+    "vendas_semana": 208,
+    "faturamento_semana": 14533.47,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 2492.25,
+    "organic_revenue": 2570.15,
     "acos": 0,
-    "tacos": 14.8
+    "tacos": 14.4
   },
   "top5": [
     {
-      "vendas": 20,
-      "faturamento": 1558.0,
-      "custo": 716.8,
+      "vendas": 21,
+      "faturamento": 1635.9,
+      "custo": 752.64,
       "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
-      "taxa_ml": 218.06,
+      "taxa_ml": 228.97,
       "full_unit_price": 77.9,
-      "lucro": 841.2,
+      "lucro": 883.26,
       "margem_pct": 54.0,
       "score": 99
     },
@@ -81,11 +81,11 @@
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 27,
-      "faturamento": 1928.56,
-      "custo": 924.64,
-      "taxa_ml": 266.6,
-      "pct": 77.4,
+      "vendas": 28,
+      "faturamento": 2006.46,
+      "custo": 960.48,
+      "taxa_ml": 277.51,
+      "pct": 78.1,
       "margem_pct": 52.1
     },
     {
@@ -94,7 +94,7 @@
       "faturamento": 403.97,
       "custo": 134.55,
       "taxa_ml": 53.98,
-      "pct": 16.2,
+      "pct": 15.7,
       "margem_pct": 66.7
     },
     {
@@ -103,7 +103,7 @@
       "faturamento": 135.73,
       "custo": 25.0,
       "taxa_ml": 23.07,
-      "pct": 5.4,
+      "pct": 5.3,
       "margem_pct": 81.6
     },
     {
@@ -112,7 +112,7 @@
       "faturamento": 23.99,
       "custo": 11.61,
       "taxa_ml": 3.36,
-      "pct": 1.0,
+      "pct": 0.9,
       "margem_pct": 51.6
     }
   ],
@@ -133,7 +133,7 @@
       22,
       48,
       51,
-      34
+      35
     ],
     "faturamento": [
       1238.12,
@@ -142,40 +142,40 @@
       1501.48,
       3389.36,
       3726.6,
-      2492.25
+      2570.15
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 35,
+    "total_orders_fetched": 36,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 207,
-    "faturamento": 14455.57,
-    "taxa_ml": 1941.25,
-    "faturamento_menos_taxa": 12514.32,
-    "ticket_medio": 69.83,
+    "vendas": 208,
+    "faturamento": 14533.47,
+    "taxa_ml": 1952.16,
+    "faturamento_menos_taxa": 12581.31,
+    "ticket_medio": 69.87,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 14455.57,
+    "organic_revenue": 14533.47,
     "acos": 0,
-    "tacos": 2.6
+    "tacos": 2.5
   },
   "mes": {
-    "vendas": 85,
-    "faturamento": 6218.85,
-    "taxa_ml": 855.62,
-    "faturamento_menos_taxa": 5363.23,
-    "ticket_medio": 73.16,
+    "vendas": 86,
+    "faturamento": 6296.75,
+    "taxa_ml": 866.53,
+    "faturamento_menos_taxa": 5430.22,
+    "ticket_medio": 73.22,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 6218.85,
+    "organic_revenue": 6296.75,
     "acos": 0,
     "tacos": 5.9,
     "chart": {
@@ -185,11 +185,11 @@
       ],
       "vendas": [
         51,
-        34
+        35
       ],
       "faturamento": [
         3726.6,
-        2492.25
+        2570.15
       ]
     }
   }
