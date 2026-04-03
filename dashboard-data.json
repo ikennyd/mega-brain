@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-04-03T15:59:38.587835",
+  "updated_at": "2026-04-03T16:45:06.306146",
   "kpis": {
-    "faturamento_hoje": 849.28,
-    "vendas_hoje": 12,
-    "ticket_medio": 70.77,
-    "cmv_total": 406.2,
-    "lucro_bruto": 443.08,
-    "margem_pct_real": 52.2,
-    "lucro_por_pedido": 36.92,
-    "taxa_ml_total": 116.07,
-    "shipping_total": 115.64,
-    "faturamento_liquido": 617.57,
-    "margem_liquida_pct": 24.9,
-    "lucro_liquido": 211.37,
-    "vendas_semana": 208,
-    "faturamento_semana": 14700.8,
+    "faturamento_hoje": 973.27,
+    "vendas_hoje": 14,
+    "ticket_medio": 69.52,
+    "cmv_total": 460.02,
+    "lucro_bruto": 513.25,
+    "margem_pct_real": 52.7,
+    "lucro_por_pedido": 36.66,
+    "taxa_ml_total": 130.84,
+    "shipping_total": 147.84,
+    "faturamento_liquido": 694.59,
+    "margem_liquida_pct": 24.1,
+    "lucro_liquido": 234.57,
+    "vendas_semana": 210,
+    "faturamento_semana": 14824.79,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 849.28,
+    "organic_revenue": 973.27,
     "acos": 0,
-    "tacos": 43.6
+    "tacos": 38.0
   },
   "top5": [
     {
@@ -32,6 +32,17 @@
       "lucro": 246.96,
       "margem_pct": 53.5,
       "score": 92
+    },
+    {
+      "vendas": 2,
+      "faturamento": 119.98,
+      "custo": 53.82,
+      "title": "Moletom Infantil Canguru Capuz Blusa De Frio Aranh",
+      "taxa_ml": 16.8,
+      "full_unit_price": 59.99,
+      "lucro": 66.16,
+      "margem_pct": 55.1,
+      "score": 84
     },
     {
       "vendas": 2,
@@ -57,24 +68,13 @@
     },
     {
       "vendas": 1,
-      "faturamento": 59.99,
+      "faturamento": 64,
       "custo": 26.91,
-      "title": "Moletom Infantil Canguru Capuz Blusa De Frio Aranh",
-      "taxa_ml": 8.4,
-      "full_unit_price": 59.99,
-      "lucro": 33.08,
-      "margem_pct": 55.1,
-      "score": 82
-    },
-    {
-      "vendas": 1,
-      "faturamento": 59.99,
-      "custo": 26.91,
-      "title": "Moletom Infantil Canguru Capuz Blusa De Frio Aranh",
-      "taxa_ml": 8.4,
-      "full_unit_price": 59.99,
-      "lucro": 33.08,
-      "margem_pct": 55.1,
+      "title": "Conjunto Moletom Infantil Hugo Jobs Calca Jogger F",
+      "taxa_ml": 6.37,
+      "full_unit_price": 64,
+      "lucro": 37.09,
+      "margem_pct": 58.0,
       "score": 82
     }
   ],
@@ -85,17 +85,17 @@
       "faturamento": 615.32,
       "custo": 313.86,
       "taxa_ml": 83.31,
-      "pct": 72.5,
+      "pct": 63.2,
       "margem_pct": 49.0
     },
     {
       "nome": "Vestuário Infantil",
-      "vendas": 3,
-      "faturamento": 209.97,
-      "custo": 80.73,
-      "taxa_ml": 29.4,
-      "pct": 24.7,
-      "margem_pct": 61.6
+      "vendas": 5,
+      "faturamento": 333.96,
+      "custo": 134.55,
+      "taxa_ml": 44.17,
+      "pct": 34.3,
+      "margem_pct": 59.7
     },
     {
       "nome": "Acessórios",
@@ -103,7 +103,7 @@
       "faturamento": 23.99,
       "custo": 11.61,
       "taxa_ml": 3.36,
-      "pct": 2.8,
+      "pct": 2.5,
       "margem_pct": 51.6
     }
   ],
@@ -124,7 +124,7 @@
       48,
       51,
       43,
-      12
+      14
     ],
     "faturamento": [
       901.58,
@@ -133,42 +133,42 @@
       3389.36,
       3726.6,
       3126.32,
-      849.28
+      973.27
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 13,
+    "total_orders_fetched": 15,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 208,
-    "faturamento": 14700.8,
-    "taxa_ml": 1982.81,
-    "faturamento_menos_taxa": 12717.99,
-    "ticket_medio": 70.68,
+    "vendas": 210,
+    "faturamento": 14824.79,
+    "taxa_ml": 1997.58,
+    "faturamento_menos_taxa": 12827.21,
+    "ticket_medio": 70.59,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 14700.8,
+    "organic_revenue": 14824.79,
     "acos": 0,
     "tacos": 2.5
   },
   "mes": {
-    "vendas": 106,
-    "faturamento": 7702.2,
-    "taxa_ml": 1048.37,
-    "faturamento_menos_taxa": 6653.83,
-    "ticket_medio": 72.66,
+    "vendas": 108,
+    "faturamento": 7826.19,
+    "taxa_ml": 1063.14,
+    "faturamento_menos_taxa": 6763.05,
+    "ticket_medio": 72.46,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 7702.2,
+    "organic_revenue": 7826.19,
     "acos": 0,
-    "tacos": 4.8,
+    "tacos": 4.7,
     "chart": {
       "labels": [
         "Qua (01)",
@@ -178,12 +178,12 @@
       "vendas": [
         51,
         43,
-        12
+        14
       ],
       "faturamento": [
         3726.6,
         3126.32,
-        849.28
+        973.27
       ]
     }
   }
