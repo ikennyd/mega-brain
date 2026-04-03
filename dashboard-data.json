@@ -1,195 +1,105 @@
 {
-  "updated_at": "2026-04-02T23:56:09.345212",
+  "updated_at": "2026-04-03T01:49:45.886611",
   "kpis": {
-    "faturamento_hoje": 2570.15,
-    "vendas_hoje": 35,
-    "ticket_medio": 73.43,
-    "cmv_total": 1131.64,
-    "lucro_bruto": 1438.51,
-    "margem_pct_real": 56.0,
-    "lucro_por_pedido": 41.1,
-    "taxa_ml_total": 357.92,
-    "shipping_total": 405.55,
-    "faturamento_liquido": 1806.68,
-    "margem_liquida_pct": 26.3,
-    "lucro_liquido": 675.04,
-    "vendas_semana": 208,
-    "faturamento_semana": 14533.47,
+    "faturamento_hoje": 0,
+    "vendas_hoje": 0,
+    "ticket_medio": 0,
+    "cmv_total": 0,
+    "lucro_bruto": 0,
+    "margem_pct_real": 0,
+    "lucro_por_pedido": 0,
+    "taxa_ml_total": 0,
+    "shipping_total": 0,
+    "faturamento_liquido": 0,
+    "margem_liquida_pct": 0,
+    "lucro_liquido": 0,
+    "vendas_semana": 190,
+    "faturamento_semana": 13451.15,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 2570.15,
+    "organic_revenue": 0.0,
     "acos": 0,
-    "tacos": 14.4
+    "tacos": 0
   },
-  "top5": [
-    {
-      "vendas": 21,
-      "faturamento": 1635.9,
-      "custo": 752.64,
-      "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
-      "taxa_ml": 228.97,
-      "full_unit_price": 77.9,
-      "lucro": 883.26,
-      "margem_pct": 54.0,
-      "score": 99
-    },
-    {
-      "vendas": 2,
-      "faturamento": 179.98,
-      "custo": 53.82,
-      "title": "Kit 3 Calça Moletom Infantil Flanelada Menino Meni",
-      "taxa_ml": 25.2,
-      "full_unit_price": 89.99,
-      "lucro": 126.16,
-      "margem_pct": 70.1,
-      "score": 84
-    },
-    {
-      "vendas": 2,
-      "faturamento": 161.0,
-      "custo": 37.34,
-      "title": "Kit 3 Shorts Masculino Hugo Jobs Dryfit Não Precis",
-      "taxa_ml": 24.55,
-      "full_unit_price": 80.5,
-      "lucro": 123.66,
-      "margem_pct": 76.8,
-      "score": 84
-    },
-    {
-      "vendas": 1,
-      "faturamento": 135.73,
-      "custo": 25.0,
-      "title": "Perfume Masculino Empire Tradicional 100ml - Hinod",
-      "taxa_ml": 23.07,
-      "full_unit_price": 135.73,
-      "lucro": 110.73,
-      "margem_pct": 81.6,
-      "score": 82
-    },
-    {
-      "vendas": 2,
-      "faturamento": 99.98,
-      "custo": 62.98,
-      "title": "Moletom Gola Careca Premium Liso Felpado Lançament",
-      "taxa_ml": 14,
-      "full_unit_price": 49.99,
-      "lucro": 37.0,
-      "margem_pct": 37.0,
-      "score": 84
-    }
-  ],
-  "categories": [
-    {
-      "nome": "Vestuário Adult",
-      "vendas": 28,
-      "faturamento": 2006.46,
-      "custo": 960.48,
-      "taxa_ml": 277.51,
-      "pct": 78.1,
-      "margem_pct": 52.1
-    },
-    {
-      "nome": "Vestuário Infantil",
-      "vendas": 5,
-      "faturamento": 403.97,
-      "custo": 134.55,
-      "taxa_ml": 53.98,
-      "pct": 15.7,
-      "margem_pct": 66.7
-    },
-    {
-      "nome": "Outros",
-      "vendas": 1,
-      "faturamento": 135.73,
-      "custo": 25.0,
-      "taxa_ml": 23.07,
-      "pct": 5.3,
-      "margem_pct": 81.6
-    },
-    {
-      "nome": "Acessórios",
-      "vendas": 1,
-      "faturamento": 23.99,
-      "custo": 11.61,
-      "taxa_ml": 3.36,
-      "pct": 0.9,
-      "margem_pct": 51.6
-    }
-  ],
+  "top5": [],
+  "categories": [],
   "chart": {
     "labels": [
-      "Sex (27)",
       "Sáb (28)",
       "Dom (29)",
       "Seg (30)",
       "Ter (31)",
       "Qua (01)",
-      "Qui (02)"
+      "Qui (02)",
+      "Sex (03)"
     ],
     "vendas": [
-      20,
       15,
       17,
       22,
       48,
       51,
-      35
+      37,
+      0
     ],
     "faturamento": [
-      1238.12,
       901.58,
       1206.18,
       1501.48,
       3389.36,
       3726.6,
-      2570.15
+      2725.95,
+      0
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 36,
+    "total_orders_fetched": 0,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 208,
-    "faturamento": 14533.47,
-    "taxa_ml": 1952.16,
-    "faturamento_menos_taxa": 12581.31,
-    "ticket_medio": 69.87,
+    "vendas": 190,
+    "faturamento": 13451.15,
+    "taxa_ml": 1822.79,
+    "faturamento_menos_taxa": 11628.36,
+    "ticket_medio": 70.8,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 14533.47,
+    "organic_revenue": 13451.15,
     "acos": 0,
-    "tacos": 2.5
+    "tacos": 2.8
   },
   "mes": {
-    "vendas": 86,
-    "faturamento": 6296.75,
-    "taxa_ml": 866.53,
-    "faturamento_menos_taxa": 5430.22,
-    "ticket_medio": 73.22,
+    "vendas": 88,
+    "faturamento": 6452.55,
+    "taxa_ml": 888.35,
+    "faturamento_menos_taxa": 5564.2,
+    "ticket_medio": 73.32,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 6296.75,
+    "organic_revenue": 6452.55,
     "acos": 0,
-    "tacos": 5.9,
+    "tacos": 5.7,
     "chart": {
       "labels": [
         "Qua (01)",
-        "Qui (02)"
+        "Qui (02)",
+        "Sex (03)"
       ],
       "vendas": [
         51,
-        35
+        37,
+        0
       ],
       "faturamento": [
         3726.6,
-        2570.15
+        2725.95,
+        0
       ]
     }
   }
