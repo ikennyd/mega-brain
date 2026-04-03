@@ -1,36 +1,47 @@
 {
-  "updated_at": "2026-04-03T13:49:12.568455",
+  "updated_at": "2026-04-03T14:36:52.662412",
   "kpis": {
-    "faturamento_hoje": 267.33,
-    "vendas_hoje": 4,
-    "ticket_medio": 66.83,
-    "cmv_total": 134.43,
-    "lucro_bruto": 132.9,
-    "margem_pct_real": 49.7,
-    "lucro_por_pedido": 33.22,
-    "taxa_ml_total": 34.87,
-    "shipping_total": 32.1,
-    "faturamento_liquido": 200.36,
-    "margem_liquida_pct": 24.7,
-    "lucro_liquido": 65.93,
-    "vendas_semana": 200,
-    "faturamento_semana": 14118.85,
+    "faturamento_hoje": 521.31,
+    "vendas_hoje": 7,
+    "ticket_medio": 74.47,
+    "cmv_total": 269.09,
+    "lucro_bruto": 252.22,
+    "margem_pct_real": 48.4,
+    "lucro_por_pedido": 36.03,
+    "taxa_ml_total": 70.43,
+    "shipping_total": 64.1,
+    "faturamento_liquido": 386.78,
+    "margem_liquida_pct": 22.6,
+    "lucro_liquido": 117.69,
+    "vendas_semana": 203,
+    "faturamento_semana": 14372.83,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 267.33,
+    "organic_revenue": 521.31,
     "acos": 0,
-    "tacos": 138.4
+    "tacos": 71.0
   },
   "top5": [
     {
-      "vendas": 2,
-      "faturamento": 154,
-      "custo": 71.68,
+      "vendas": 4,
+      "faturamento": 308,
+      "custo": 143.36,
       "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
-      "taxa_ml": 21.56,
+      "taxa_ml": 43.12,
       "full_unit_price": 77,
-      "lucro": 82.32,
+      "lucro": 164.64,
       "margem_pct": 53.5,
+      "score": 88
+    },
+    {
+      "vendas": 2,
+      "faturamento": 99.98,
+      "custo": 62.98,
+      "title": "Moletom Gola Careca Premium Liso Felpado Lançament",
+      "taxa_ml": 14,
+      "full_unit_price": 49.99,
+      "lucro": 37.0,
+      "margem_pct": 37.0,
       "score": 84
     },
     {
@@ -59,12 +70,12 @@
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 3,
-      "faturamento": 207.34,
-      "custo": 107.52,
-      "taxa_ml": 26.47,
-      "pct": 77.6,
-      "margem_pct": 48.1
+      "vendas": 7,
+      "faturamento": 461.32,
+      "custo": 242.18,
+      "taxa_ml": 62.03,
+      "pct": 88.5,
+      "margem_pct": 47.5
     },
     {
       "nome": "Vestuário Infantil",
@@ -72,7 +83,7 @@
       "faturamento": 59.99,
       "custo": 26.91,
       "taxa_ml": 8.4,
-      "pct": 22.4,
+      "pct": 11.5,
       "margem_pct": 55.1
     }
   ],
@@ -93,7 +104,7 @@
       48,
       51,
       43,
-      4
+      7
     ],
     "faturamento": [
       901.58,
@@ -102,42 +113,42 @@
       3389.36,
       3726.6,
       3126.32,
-      267.33
+      521.31
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 5,
+    "total_orders_fetched": 8,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 200,
-    "faturamento": 14118.85,
-    "taxa_ml": 1908.61,
-    "faturamento_menos_taxa": 12210.24,
-    "ticket_medio": 70.59,
+    "vendas": 203,
+    "faturamento": 14372.83,
+    "taxa_ml": 1937.17,
+    "faturamento_menos_taxa": 12435.66,
+    "ticket_medio": 70.8,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 14118.85,
+    "organic_revenue": 14372.83,
     "acos": 0,
     "tacos": 2.6
   },
   "mes": {
-    "vendas": 98,
-    "faturamento": 7120.25,
-    "taxa_ml": 974.17,
-    "faturamento_menos_taxa": 6146.08,
-    "ticket_medio": 72.66,
+    "vendas": 101,
+    "faturamento": 7374.23,
+    "taxa_ml": 1002.73,
+    "faturamento_menos_taxa": 6371.5,
+    "ticket_medio": 73.01,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 7120.25,
+    "organic_revenue": 7374.23,
     "acos": 0,
-    "tacos": 5.2,
+    "tacos": 5.0,
     "chart": {
       "labels": [
         "Qua (01)",
@@ -147,12 +158,12 @@
       "vendas": [
         51,
         43,
-        4
+        7
       ],
       "faturamento": [
         3726.6,
         3126.32,
-        267.33
+        521.31
       ]
     }
   }
