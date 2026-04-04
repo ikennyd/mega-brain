@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-04-04T11:22:18.122844",
+  "updated_at": "2026-04-04T11:50:22.622090",
   "kpis": {
-    "faturamento_hoje": 422.0,
-    "vendas_hoje": 6,
-    "ticket_medio": 70.33,
-    "cmv_total": 201.76,
-    "lucro_bruto": 220.24,
-    "margem_pct_real": 52.2,
-    "lucro_por_pedido": 36.71,
-    "taxa_ml_total": 56.5,
-    "shipping_total": 48.4,
-    "faturamento_liquido": 317.1,
-    "margem_liquida_pct": 27.3,
-    "lucro_liquido": 115.34,
-    "vendas_semana": 238,
-    "faturamento_semana": 16937.89,
+    "faturamento_hoje": 576.0,
+    "vendas_hoje": 8,
+    "ticket_medio": 72.0,
+    "cmv_total": 255.58,
+    "lucro_bruto": 320.42,
+    "margem_pct_real": 55.6,
+    "lucro_por_pedido": 40.05,
+    "taxa_ml_total": 75.34,
+    "shipping_total": 85.29,
+    "faturamento_liquido": 415.37,
+    "margem_liquida_pct": 27.7,
+    "lucro_liquido": 159.79,
+    "vendas_semana": 240,
+    "faturamento_semana": 17091.89,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 422.0,
+    "organic_revenue": 576.0,
     "acos": 0,
-    "tacos": 87.7
+    "tacos": 64.2
   },
   "top5": [
     {
@@ -35,10 +35,32 @@
     },
     {
       "vendas": 1,
+      "faturamento": 89.99,
+      "custo": 26.91,
+      "title": "Kit 3 Calça Moletom Infantil Flanelada Menino Meni",
+      "taxa_ml": 12.6,
+      "full_unit_price": 89.99,
+      "lucro": 63.08,
+      "margem_pct": 70.1,
+      "score": 82
+    },
+    {
+      "vendas": 1,
       "faturamento": 64.01,
       "custo": 26.91,
       "title": "Conjunto Moletom Infantil Hugo Jobs Calca Jogger F",
       "taxa_ml": 6.38,
+      "full_unit_price": 64.01,
+      "lucro": 37.1,
+      "margem_pct": 58.0,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 64.01,
+      "custo": 26.91,
+      "title": "Conjunto Moletom Infantil Hugo Jobs Calca Jogger F",
+      "taxa_ml": 6.24,
       "full_unit_price": 64.01,
       "lucro": 37.1,
       "margem_pct": 58.0,
@@ -63,17 +85,17 @@
       "faturamento": 357.99,
       "custo": 174.85,
       "taxa_ml": 50.12,
-      "pct": 84.8,
+      "pct": 62.2,
       "margem_pct": 51.2
     },
     {
       "nome": "Vestuário Infantil",
-      "vendas": 1,
-      "faturamento": 64.01,
-      "custo": 26.91,
-      "taxa_ml": 6.38,
-      "pct": 15.2,
-      "margem_pct": 58.0
+      "vendas": 3,
+      "faturamento": 218.01,
+      "custo": 80.73,
+      "taxa_ml": 25.22,
+      "pct": 37.8,
+      "margem_pct": 63.0
     }
   ],
   "chart": {
@@ -93,7 +115,7 @@
       51,
       43,
       53,
-      3
+      5
     ],
     "faturamento": [
       1206.18,
@@ -102,40 +124,40 @@
       3726.6,
       3126.32,
       3705.93,
-      218.01
+      372.01
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 6,
+    "total_orders_fetched": 8,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 238,
-    "faturamento": 16937.89,
-    "taxa_ml": 2277.76,
-    "faturamento_menos_taxa": 14660.13,
-    "ticket_medio": 71.17,
+    "vendas": 240,
+    "faturamento": 17091.89,
+    "taxa_ml": 2296.6,
+    "faturamento_menos_taxa": 14795.29,
+    "ticket_medio": 71.22,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 16937.89,
+    "organic_revenue": 17091.89,
     "acos": 0,
     "tacos": 2.2
   },
   "mes": {
-    "vendas": 150,
-    "faturamento": 10776.86,
-    "taxa_ml": 1453.9,
-    "faturamento_menos_taxa": 9322.96,
-    "ticket_medio": 71.85,
+    "vendas": 152,
+    "faturamento": 10930.86,
+    "taxa_ml": 1472.74,
+    "faturamento_menos_taxa": 9458.12,
+    "ticket_medio": 71.91,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 10776.86,
+    "organic_revenue": 10930.86,
     "acos": 0,
     "tacos": 3.4,
     "chart": {
@@ -149,13 +171,13 @@
         51,
         43,
         53,
-        3
+        5
       ],
       "faturamento": [
         3726.6,
         3126.32,
         3705.93,
-        218.01
+        372.01
       ]
     }
   }
