@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-04-05T18:30:27.298043",
+  "updated_at": "2026-04-05T19:22:03.510305",
   "kpis": {
-    "faturamento_hoje": 1282.92,
-    "vendas_hoje": 18,
-    "ticket_medio": 71.27,
-    "cmv_total": 614.26,
-    "lucro_bruto": 668.66,
-    "margem_pct_real": 52.1,
-    "lucro_por_pedido": 37.15,
-    "taxa_ml_total": 176.97,
-    "shipping_total": 185.58,
-    "faturamento_liquido": 920.37,
-    "margem_liquida_pct": 23.9,
-    "lucro_liquido": 306.11,
-    "vendas_semana": 273,
-    "faturamento_semana": 19677.42,
+    "faturamento_hoje": 1342.91,
+    "vendas_hoje": 19,
+    "ticket_medio": 70.68,
+    "cmv_total": 641.17,
+    "lucro_bruto": 701.74,
+    "margem_pct_real": 52.3,
+    "lucro_por_pedido": 36.93,
+    "taxa_ml_total": 185.37,
+    "shipping_total": 193.53,
+    "faturamento_liquido": 964.01,
+    "margem_liquida_pct": 24.0,
+    "lucro_liquido": 322.84,
+    "vendas_semana": 274,
+    "faturamento_semana": 19737.41,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 1282.92,
+    "organic_revenue": 1342.91,
     "acos": 0,
-    "tacos": 28.8
+    "tacos": 27.6
   },
   "top5": [
     {
@@ -32,6 +32,17 @@
       "lucro": 588.84,
       "margem_pct": 54.0,
       "score": 99
+    },
+    {
+      "vendas": 1,
+      "faturamento": 59.99,
+      "custo": 26.91,
+      "title": "Moletom Infantil Canguru Capuz Blusa De Frio Aranh",
+      "taxa_ml": 8.4,
+      "full_unit_price": 59.99,
+      "lucro": 33.08,
+      "margem_pct": 55.1,
+      "score": 82
     },
     {
       "vendas": 1,
@@ -65,17 +76,6 @@
       "lucro": 18.5,
       "margem_pct": 37.0,
       "score": 82
-    },
-    {
-      "vendas": 1,
-      "faturamento": 29,
-      "custo": 18.26,
-      "title": "Carteira Couro Natura Slim Pequena Hugo Jobs 3 Car",
-      "taxa_ml": 3.92,
-      "full_unit_price": 29,
-      "lucro": 10.74,
-      "margem_pct": 37.0,
-      "score": 82
     }
   ],
   "categories": [
@@ -85,16 +85,16 @@
       "faturamento": 1193.93,
       "custo": 569.09,
       "taxa_ml": 164.65,
-      "pct": 93.1,
+      "pct": 88.9,
       "margem_pct": 52.3
     },
     {
       "nome": "Vestuário Infantil",
-      "vendas": 1,
-      "faturamento": 59.99,
-      "custo": 26.91,
-      "taxa_ml": 8.4,
-      "pct": 4.7,
+      "vendas": 2,
+      "faturamento": 119.98,
+      "custo": 53.82,
+      "taxa_ml": 16.8,
+      "pct": 8.9,
       "margem_pct": 55.1
     },
     {
@@ -103,7 +103,7 @@
       "faturamento": 29,
       "custo": 18.26,
       "taxa_ml": 3.92,
-      "pct": 2.3,
+      "pct": 2.2,
       "margem_pct": 37.0
     }
   ],
@@ -124,7 +124,7 @@
       43,
       53,
       39,
-      17
+      18
     ],
     "faturamento": [
       1501.48,
@@ -133,40 +133,40 @@
       3126.32,
       3705.93,
       3022.71,
-      1205.02
+      1265.01
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 18,
+    "total_orders_fetched": 19,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 273,
-    "faturamento": 19677.42,
-    "taxa_ml": 2669.14,
-    "faturamento_menos_taxa": 17008.28,
-    "ticket_medio": 72.08,
+    "vendas": 274,
+    "faturamento": 19737.41,
+    "taxa_ml": 2677.54,
+    "faturamento_menos_taxa": 17059.87,
+    "ticket_medio": 72.03,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 19677.42,
+    "organic_revenue": 19737.41,
     "acos": 0,
     "tacos": 1.9
   },
   "mes": {
-    "vendas": 203,
-    "faturamento": 14786.58,
-    "taxa_ml": 2012.48,
-    "faturamento_menos_taxa": 12774.1,
-    "ticket_medio": 72.84,
+    "vendas": 204,
+    "faturamento": 14846.57,
+    "taxa_ml": 2020.88,
+    "faturamento_menos_taxa": 12825.69,
+    "ticket_medio": 72.78,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 14786.58,
+    "organic_revenue": 14846.57,
     "acos": 0,
     "tacos": 2.5,
     "chart": {
@@ -182,14 +182,14 @@
         43,
         53,
         39,
-        17
+        18
       ],
       "faturamento": [
         3726.6,
         3126.32,
         3705.93,
         3022.71,
-        1205.02
+        1265.01
       ]
     }
   }
