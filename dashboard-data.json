@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-04-05T22:57:10.741532",
+  "updated_at": "2026-04-05T23:30:18.980050",
   "kpis": {
-    "faturamento_hoje": 2526.72,
-    "vendas_hoje": 35,
-    "ticket_medio": 72.19,
-    "cmv_total": 1130.73,
-    "lucro_bruto": 1395.99,
-    "margem_pct_real": 55.2,
-    "lucro_por_pedido": 39.89,
-    "taxa_ml_total": 351.17,
-    "shipping_total": 393.09,
-    "faturamento_liquido": 1782.46,
-    "margem_liquida_pct": 25.8,
-    "lucro_liquido": 651.73,
-    "vendas_semana": 290,
-    "faturamento_semana": 20921.22,
+    "faturamento_hoje": 2555.72,
+    "vendas_hoje": 36,
+    "ticket_medio": 70.99,
+    "cmv_total": 1148.99,
+    "lucro_bruto": 1406.73,
+    "margem_pct_real": 55.0,
+    "lucro_por_pedido": 39.08,
+    "taxa_ml_total": 355.23,
+    "shipping_total": 399.64,
+    "faturamento_liquido": 1800.85,
+    "margem_liquida_pct": 25.5,
+    "lucro_liquido": 651.86,
+    "vendas_semana": 291,
+    "faturamento_semana": 20950.22,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 2526.72,
+    "organic_revenue": 2555.72,
     "acos": 0,
-    "tacos": 14.6
+    "tacos": 14.5
   },
   "top5": [
     {
@@ -32,6 +32,17 @@
       "lucro": 967.38,
       "margem_pct": 54.0,
       "score": 99
+    },
+    {
+      "vendas": 4,
+      "faturamento": 116,
+      "custo": 73.04,
+      "title": "Carteira Couro Natura Slim Pequena Hugo Jobs 3 Car",
+      "taxa_ml": 16.1,
+      "full_unit_price": 29,
+      "lucro": 42.96,
+      "margem_pct": 37.0,
+      "score": 88
     },
     {
       "vendas": 1,
@@ -65,17 +76,6 @@
       "lucro": 63.08,
       "margem_pct": 70.1,
       "score": 82
-    },
-    {
-      "vendas": 1,
-      "faturamento": 89.99,
-      "custo": 26.91,
-      "title": "Kit 3 Calça Moletom Infantil Flanelada Menino Meni",
-      "taxa_ml": 12.6,
-      "full_unit_price": 89.99,
-      "lucro": 63.08,
-      "margem_pct": 70.1,
-      "score": 82
     }
   ],
   "categories": [
@@ -85,7 +85,7 @@
       "faturamento": 1945.02,
       "custo": 923.14,
       "taxa_ml": 269.84,
-      "pct": 77.0,
+      "pct": 76.1,
       "margem_pct": 52.5
     },
     {
@@ -94,17 +94,17 @@
       "faturamento": 389.95,
       "custo": 134.55,
       "taxa_ml": 54.6,
-      "pct": 15.4,
+      "pct": 15.3,
       "margem_pct": 65.5
     },
     {
       "nome": "Acessórios",
-      "vendas": 4,
-      "faturamento": 191.75,
-      "custo": 73.04,
-      "taxa_ml": 26.73,
-      "pct": 7.6,
-      "margem_pct": 61.9
+      "vendas": 5,
+      "faturamento": 220.75,
+      "custo": 91.3,
+      "taxa_ml": 30.79,
+      "pct": 8.6,
+      "margem_pct": 58.6
     }
   ],
   "chart": {
@@ -124,7 +124,7 @@
       43,
       53,
       39,
-      34
+      35
     ],
     "faturamento": [
       1501.48,
@@ -133,40 +133,40 @@
       3126.32,
       3705.93,
       3022.71,
-      2448.82
+      2477.82
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 35,
+    "total_orders_fetched": 36,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 290,
-    "faturamento": 20921.22,
-    "taxa_ml": 2843.34,
-    "faturamento_menos_taxa": 18077.88,
-    "ticket_medio": 72.14,
+    "vendas": 291,
+    "faturamento": 20950.22,
+    "taxa_ml": 2847.4,
+    "faturamento_menos_taxa": 18102.82,
+    "ticket_medio": 71.99,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 20921.22,
+    "organic_revenue": 20950.22,
     "acos": 0,
     "tacos": 1.8
   },
   "mes": {
-    "vendas": 220,
-    "faturamento": 16030.38,
-    "taxa_ml": 2186.68,
-    "faturamento_menos_taxa": 13843.7,
-    "ticket_medio": 72.87,
+    "vendas": 221,
+    "faturamento": 16059.38,
+    "taxa_ml": 2190.74,
+    "faturamento_menos_taxa": 13868.64,
+    "ticket_medio": 72.67,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 16030.38,
+    "organic_revenue": 16059.38,
     "acos": 0,
     "tacos": 2.3,
     "chart": {
@@ -182,14 +182,14 @@
         43,
         53,
         39,
-        34
+        35
       ],
       "faturamento": [
         3726.6,
         3126.32,
         3705.93,
         3022.71,
-        2448.82
+        2477.82
       ]
     }
   }
