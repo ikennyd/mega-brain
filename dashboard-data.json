@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-04-05T09:40:27.078406",
+  "updated_at": "2026-04-05T10:06:12.166447",
   "kpis": {
-    "faturamento_hoje": 155.8,
-    "vendas_hoje": 2,
-    "ticket_medio": 77.9,
-    "cmv_total": 71.68,
-    "lucro_bruto": 84.12,
-    "margem_pct_real": 54.0,
-    "lucro_por_pedido": 42.06,
-    "taxa_ml_total": 21.82,
-    "shipping_total": 16.1,
-    "faturamento_liquido": 117.88,
-    "margem_liquida_pct": 29.7,
-    "lucro_liquido": 46.2,
-    "vendas_semana": 257,
-    "faturamento_semana": 18550.3,
+    "faturamento_hoje": 209.14,
+    "vendas_hoje": 3,
+    "ticket_medio": 69.71,
+    "cmv_total": 107.52,
+    "lucro_bruto": 101.62,
+    "margem_pct_real": 48.6,
+    "lucro_por_pedido": 33.87,
+    "taxa_ml_total": 26.73,
+    "shipping_total": 35.14,
+    "faturamento_liquido": 147.27,
+    "margem_liquida_pct": 19.0,
+    "lucro_liquido": 39.75,
+    "vendas_semana": 258,
+    "faturamento_semana": 18603.64,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 155.8,
+    "organic_revenue": 209.14,
     "acos": 0,
-    "tacos": 237.5
+    "tacos": 176.9
   },
   "top5": [
     {
@@ -32,17 +32,28 @@
       "lucro": 84.12,
       "margem_pct": 54.0,
       "score": 84
+    },
+    {
+      "vendas": 1,
+      "faturamento": 53.34,
+      "custo": 35.84,
+      "title": "Blusa Moletom Estilosa Estampa Paris Hugo Jobs Gol",
+      "taxa_ml": 4.91,
+      "full_unit_price": 53.34,
+      "lucro": 17.5,
+      "margem_pct": 32.8,
+      "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 2,
-      "faturamento": 155.8,
-      "custo": 71.68,
-      "taxa_ml": 21.82,
+      "vendas": 3,
+      "faturamento": 209.14,
+      "custo": 107.52,
+      "taxa_ml": 26.73,
       "pct": 100.0,
-      "margem_pct": 54.0
+      "margem_pct": 48.6
     }
   ],
   "chart": {
@@ -62,7 +73,7 @@
       43,
       53,
       39,
-      1
+      2
     ],
     "faturamento": [
       1501.48,
@@ -71,40 +82,40 @@
       3126.32,
       3705.93,
       3022.71,
-      77.9
+      131.24
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 2,
+    "total_orders_fetched": 3,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 257,
-    "faturamento": 18550.3,
-    "taxa_ml": 2513.99,
-    "faturamento_menos_taxa": 16036.31,
-    "ticket_medio": 72.18,
+    "vendas": 258,
+    "faturamento": 18603.64,
+    "taxa_ml": 2518.9,
+    "faturamento_menos_taxa": 16084.74,
+    "ticket_medio": 72.11,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 18550.3,
+    "organic_revenue": 18603.64,
     "acos": 0,
     "tacos": 2.0
   },
   "mes": {
-    "vendas": 187,
-    "faturamento": 13659.46,
-    "taxa_ml": 1857.33,
-    "faturamento_menos_taxa": 11802.13,
-    "ticket_medio": 73.05,
+    "vendas": 188,
+    "faturamento": 13712.8,
+    "taxa_ml": 1862.24,
+    "faturamento_menos_taxa": 11850.56,
+    "ticket_medio": 72.94,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 13659.46,
+    "organic_revenue": 13712.8,
     "acos": 0,
     "tacos": 2.7,
     "chart": {
@@ -120,14 +131,14 @@
         43,
         53,
         39,
-        1
+        2
       ],
       "faturamento": [
         3726.6,
         3126.32,
         3705.93,
         3022.71,
-        77.9
+        131.24
       ]
     }
   }
