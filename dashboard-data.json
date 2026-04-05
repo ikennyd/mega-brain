@@ -1,37 +1,37 @@
 {
-  "updated_at": "2026-04-05T15:35:52.666681",
+  "updated_at": "2026-04-05T16:02:01.092919",
   "kpis": {
-    "faturamento_hoje": 864.42,
-    "vendas_hoje": 12,
-    "ticket_medio": 72.03,
-    "cmv_total": 416.8,
-    "lucro_bruto": 447.62,
-    "margem_pct_real": 51.8,
-    "lucro_por_pedido": 37.3,
-    "taxa_ml_total": 118.5,
-    "shipping_total": 138.68,
-    "faturamento_liquido": 607.24,
+    "faturamento_hoje": 971.32,
+    "vendas_hoje": 14,
+    "ticket_medio": 69.38,
+    "cmv_total": 470.9,
+    "lucro_bruto": 500.42,
+    "margem_pct_real": 51.5,
+    "lucro_por_pedido": 35.74,
+    "taxa_ml_total": 133.33,
+    "shipping_total": 153.28,
+    "faturamento_liquido": 684.71,
     "margem_liquida_pct": 22.0,
-    "lucro_liquido": 190.44,
-    "vendas_semana": 267,
-    "faturamento_semana": 19258.92,
+    "lucro_liquido": 213.81,
+    "vendas_semana": 269,
+    "faturamento_semana": 19365.82,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 864.42,
+    "organic_revenue": 971.32,
     "acos": 0,
-    "tacos": 42.8
+    "tacos": 38.1
   },
   "top5": [
     {
-      "vendas": 9,
-      "faturamento": 701.1,
-      "custo": 322.56,
+      "vendas": 10,
+      "faturamento": 779.0,
+      "custo": 358.4,
       "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
-      "taxa_ml": 98.19,
+      "taxa_ml": 109.1,
       "full_unit_price": 77.9,
-      "lucro": 378.54,
+      "lucro": 420.6,
       "margem_pct": 54.0,
-      "score": 98
+      "score": 99
     },
     {
       "vendas": 1,
@@ -65,17 +65,28 @@
       "lucro": 18.5,
       "margem_pct": 37.0,
       "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 29,
+      "custo": 18.26,
+      "title": "Carteira Couro Natura Slim Pequena Hugo Jobs 3 Car",
+      "taxa_ml": 3.92,
+      "full_unit_price": 29,
+      "lucro": 10.74,
+      "margem_pct": 37.0,
+      "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 11,
-      "faturamento": 804.43,
-      "custo": 389.89,
-      "taxa_ml": 110.1,
-      "pct": 93.1,
-      "margem_pct": 51.5
+      "vendas": 12,
+      "faturamento": 882.33,
+      "custo": 425.73,
+      "taxa_ml": 121.01,
+      "pct": 90.8,
+      "margem_pct": 51.7
     },
     {
       "nome": "Vestuário Infantil",
@@ -83,8 +94,17 @@
       "faturamento": 59.99,
       "custo": 26.91,
       "taxa_ml": 8.4,
-      "pct": 6.9,
+      "pct": 6.2,
       "margem_pct": 55.1
+    },
+    {
+      "nome": "Acessórios",
+      "vendas": 1,
+      "faturamento": 29,
+      "custo": 18.26,
+      "taxa_ml": 3.92,
+      "pct": 3.0,
+      "margem_pct": 37.0
     }
   ],
   "chart": {
@@ -104,7 +124,7 @@
       43,
       53,
       39,
-      11
+      13
     ],
     "faturamento": [
       1501.48,
@@ -113,40 +133,40 @@
       3126.32,
       3705.93,
       3022.71,
-      786.52
+      893.42
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 12,
+    "total_orders_fetched": 14,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 267,
-    "faturamento": 19258.92,
-    "taxa_ml": 2610.67,
-    "faturamento_menos_taxa": 16648.25,
-    "ticket_medio": 72.13,
+    "vendas": 269,
+    "faturamento": 19365.82,
+    "taxa_ml": 2625.5,
+    "faturamento_menos_taxa": 16740.32,
+    "ticket_medio": 71.99,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 19258.92,
+    "organic_revenue": 19365.82,
     "acos": 0,
     "tacos": 1.9
   },
   "mes": {
-    "vendas": 197,
-    "faturamento": 14368.08,
-    "taxa_ml": 1954.01,
-    "faturamento_menos_taxa": 12414.07,
-    "ticket_medio": 72.93,
+    "vendas": 199,
+    "faturamento": 14474.98,
+    "taxa_ml": 1968.84,
+    "faturamento_menos_taxa": 12506.14,
+    "ticket_medio": 72.74,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 14368.08,
+    "organic_revenue": 14474.98,
     "acos": 0,
     "tacos": 2.6,
     "chart": {
@@ -162,14 +182,14 @@
         43,
         53,
         39,
-        11
+        13
       ],
       "faturamento": [
         3726.6,
         3126.32,
         3705.93,
         3022.71,
-        786.52
+        893.42
       ]
     }
   }
