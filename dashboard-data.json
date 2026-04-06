@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-04-06T14:42:30.403190",
+  "updated_at": "2026-04-06T15:31:39.064325",
   "kpis": {
-    "faturamento_hoje": 910.6,
-    "vendas_hoje": 12,
-    "ticket_medio": 75.88,
-    "cmv_total": 431.17,
-    "lucro_bruto": 479.43,
-    "margem_pct_real": 52.6,
-    "lucro_por_pedido": 39.95,
-    "taxa_ml_total": 91.09,
-    "shipping_total": 127.03,
-    "faturamento_liquido": 692.48,
-    "margem_liquida_pct": 28.7,
-    "lucro_liquido": 261.31,
-    "vendas_semana": 289,
-    "faturamento_semana": 20902.74,
+    "faturamento_hoje": 1038.61,
+    "vendas_hoje": 14,
+    "ticket_medio": 74.19,
+    "cmv_total": 484.99,
+    "lucro_bruto": 553.62,
+    "margem_pct_real": 53.3,
+    "lucro_por_pedido": 39.54,
+    "taxa_ml_total": 103.84,
+    "shipping_total": 159.23,
+    "faturamento_liquido": 775.54,
+    "margem_liquida_pct": 28.0,
+    "lucro_liquido": 290.55,
+    "vendas_semana": 291,
+    "faturamento_semana": 21030.75,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 910.6,
+    "organic_revenue": 1038.61,
     "acos": 0,
-    "tacos": 40.6
+    "tacos": 35.6
   },
   "top5": [
     {
@@ -46,6 +46,28 @@
     },
     {
       "vendas": 1,
+      "faturamento": 64.01,
+      "custo": 26.91,
+      "title": "Conjunto Moletom Infantil Hugo Jobs Calca Jogger F",
+      "taxa_ml": 6.38,
+      "full_unit_price": 64.01,
+      "lucro": 37.1,
+      "margem_pct": 58.0,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 64,
+      "custo": 26.91,
+      "title": "Conjunto Moletom Infantil Hugo Jobs Calca Jogger F",
+      "taxa_ml": 6.37,
+      "full_unit_price": 64,
+      "lucro": 37.09,
+      "margem_pct": 58.0,
+      "score": 82
+    },
+    {
+      "vendas": 1,
       "faturamento": 56.99,
       "custo": 18.26,
       "title": "Carteira Couro Legítimo Slim 8 Porta Cartões E Cnh",
@@ -63,7 +85,7 @@
       "faturamento": 746.57,
       "custo": 394.24,
       "taxa_ml": 69.87,
-      "pct": 82.0,
+      "pct": 71.9,
       "margem_pct": 47.2
     },
     {
@@ -72,8 +94,17 @@
       "faturamento": 164.03,
       "custo": 36.93,
       "taxa_ml": 21.22,
-      "pct": 18.0,
+      "pct": 15.8,
       "margem_pct": 77.5
+    },
+    {
+      "nome": "Vestuário Infantil",
+      "vendas": 2,
+      "faturamento": 128.01,
+      "custo": 53.82,
+      "taxa_ml": 12.75,
+      "pct": 12.3,
+      "margem_pct": 58.0
     }
   ],
   "chart": {
@@ -93,7 +124,7 @@
       53,
       39,
       43,
-      11
+      13
     ],
     "faturamento": [
       3389.36,
@@ -102,40 +133,40 @@
       3705.93,
       3022.71,
       3011.19,
-      842.73
+      970.74
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 12,
+    "total_orders_fetched": 14,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 289,
-    "faturamento": 20902.74,
-    "taxa_ml": 2793.81,
-    "faturamento_menos_taxa": 18108.93,
-    "ticket_medio": 72.33,
+    "vendas": 291,
+    "faturamento": 21030.75,
+    "taxa_ml": 2806.56,
+    "faturamento_menos_taxa": 18224.19,
+    "ticket_medio": 72.27,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 20902.74,
+    "organic_revenue": 21030.75,
     "acos": 0,
     "tacos": 1.8
   },
   "mes": {
-    "vendas": 240,
-    "faturamento": 17435.48,
-    "taxa_ml": 2330.27,
-    "faturamento_menos_taxa": 15105.21,
-    "ticket_medio": 72.65,
+    "vendas": 242,
+    "faturamento": 17563.49,
+    "taxa_ml": 2343.02,
+    "faturamento_menos_taxa": 15220.47,
+    "ticket_medio": 72.58,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 17435.48,
+    "organic_revenue": 17563.49,
     "acos": 0,
     "tacos": 2.1,
     "chart": {
@@ -153,7 +184,7 @@
         53,
         39,
         43,
-        11
+        13
       ],
       "faturamento": [
         3726.6,
@@ -161,7 +192,7 @@
         3705.93,
         3022.71,
         3011.19,
-        842.73
+        970.74
       ]
     }
   }
