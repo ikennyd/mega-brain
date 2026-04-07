@@ -1,36 +1,36 @@
 {
-  "updated_at": "2026-04-07T16:17:43.314443",
+  "updated_at": "2026-04-07T17:31:15.641909",
   "kpis": {
-    "faturamento_hoje": 2856.31,
-    "vendas_hoje": 41,
-    "ticket_medio": 69.67,
-    "cmv_total": 1461.03,
-    "lucro_bruto": 1395.28,
-    "margem_pct_real": 48.8,
-    "lucro_por_pedido": 34.03,
-    "taxa_ml_total": 330.41,
-    "shipping_total": 430.21,
-    "faturamento_liquido": 2095.69,
-    "margem_liquida_pct": 22.2,
-    "lucro_liquido": 634.66,
-    "vendas_semana": 325,
-    "faturamento_semana": 23311.42,
+    "faturamento_hoje": 3281.79,
+    "vendas_hoje": 47,
+    "ticket_medio": 69.83,
+    "cmv_total": 1658.21,
+    "lucro_bruto": 1623.58,
+    "margem_pct_real": 49.5,
+    "lucro_por_pedido": 34.54,
+    "taxa_ml_total": 374.81,
+    "shipping_total": 510.3,
+    "faturamento_liquido": 2396.68,
+    "margem_liquida_pct": 22.5,
+    "lucro_liquido": 738.47,
+    "vendas_semana": 331,
+    "faturamento_semana": 23736.9,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 2856.31,
+    "organic_revenue": 3281.79,
     "acos": 0,
-    "tacos": 13.0
+    "tacos": 11.3
   },
   "top5": [
     {
-      "vendas": 31,
-      "faturamento": 2097.86,
-      "custo": 1111.04,
+      "vendas": 35,
+      "faturamento": 2369.34,
+      "custo": 1254.4,
       "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
-      "taxa_ml": 237.6,
+      "taxa_ml": 263.16,
       "full_unit_price": 67.87,
-      "lucro": 986.82,
-      "margem_pct": 47.0,
+      "lucro": 1114.94,
+      "margem_pct": 47.1,
       "score": 99
     },
     {
@@ -57,6 +57,17 @@
     },
     {
       "vendas": 1,
+      "faturamento": 89.99,
+      "custo": 26.91,
+      "title": "Kit 3 Calça Moletom Infantil Flanelada Menino Meni",
+      "taxa_ml": 12.52,
+      "full_unit_price": 89.99,
+      "lucro": 63.08,
+      "margem_pct": 70.1,
+      "score": 82
+    },
+    {
+      "vendas": 1,
       "faturamento": 69.9,
       "custo": 35.84,
       "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
@@ -65,37 +76,26 @@
       "lucro": 34.06,
       "margem_pct": 48.7,
       "score": 82
-    },
-    {
-      "vendas": 1,
-      "faturamento": 64.01,
-      "custo": 26.91,
-      "title": "Conjunto Moletom Infantil Hugo Jobs Calca Jogger F",
-      "taxa_ml": 6.38,
-      "full_unit_price": 64.01,
-      "lucro": 37.1,
-      "margem_pct": 58.0,
-      "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 35,
-      "faturamento": 2277.34,
-      "custo": 1254.4,
-      "taxa_ml": 257.38,
-      "pct": 79.7,
-      "margem_pct": 44.9
+      "vendas": 39,
+      "faturamento": 2548.82,
+      "custo": 1397.76,
+      "taxa_ml": 282.94,
+      "pct": 77.7,
+      "margem_pct": 45.2
     },
     {
       "nome": "Vestuário Infantil",
-      "vendas": 7,
-      "faturamento": 521.98,
-      "custo": 188.37,
-      "taxa_ml": 65.19,
-      "pct": 18.3,
-      "margem_pct": 63.9
+      "vendas": 9,
+      "faturamento": 675.98,
+      "custo": 242.19,
+      "taxa_ml": 84.03,
+      "pct": 20.6,
+      "margem_pct": 64.2
     },
     {
       "nome": "Acessórios",
@@ -103,7 +103,7 @@
       "faturamento": 56.99,
       "custo": 18.26,
       "taxa_ml": 7.84,
-      "pct": 2.0,
+      "pct": 1.7,
       "margem_pct": 68.0
     }
   ],
@@ -124,7 +124,7 @@
       38,
       43,
       59,
-      40
+      46
     ],
     "faturamento": [
       3568.2,
@@ -133,40 +133,40 @@
       2945.71,
       3011.19,
       4165.16,
-      2788.91
+      3214.39
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 44,
+    "total_orders_fetched": 50,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 325,
-    "faturamento": 23311.42,
-    "taxa_ml": 2959.13,
-    "faturamento_menos_taxa": 20352.29,
-    "ticket_medio": 71.73,
+    "vendas": 331,
+    "faturamento": 23736.9,
+    "taxa_ml": 3003.53,
+    "faturamento_menos_taxa": 20733.37,
+    "ticket_medio": 71.71,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 23311.42,
+    "organic_revenue": 23736.9,
     "acos": 0,
     "tacos": 1.6
   },
   "mes": {
-    "vendas": 325,
-    "faturamento": 23311.42,
-    "taxa_ml": 2959.13,
-    "faturamento_menos_taxa": 20352.29,
-    "ticket_medio": 71.73,
+    "vendas": 331,
+    "faturamento": 23736.9,
+    "taxa_ml": 3003.53,
+    "faturamento_menos_taxa": 20733.37,
+    "ticket_medio": 71.71,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 23311.42,
+    "organic_revenue": 23736.9,
     "acos": 0,
     "tacos": 1.6,
     "chart": {
@@ -186,7 +186,7 @@
         38,
         43,
         59,
-        40
+        46
       ],
       "faturamento": [
         3568.2,
@@ -195,7 +195,7 @@
         2945.71,
         3011.19,
         4165.16,
-        2788.91
+        3214.39
       ]
     }
   }
