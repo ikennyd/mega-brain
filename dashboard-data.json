@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-04-08T11:37:24.654870",
+  "updated_at": "2026-04-08T12:41:14.516953",
   "kpis": {
-    "faturamento_hoje": 383.5,
-    "vendas_hoje": 5,
-    "ticket_medio": 76.7,
-    "cmv_total": 152.69,
-    "lucro_bruto": 230.81,
-    "margem_pct_real": 60.2,
-    "lucro_por_pedido": 46.16,
-    "taxa_ml_total": 44.22,
-    "shipping_total": 49.55,
-    "faturamento_liquido": 289.73,
-    "margem_liquida_pct": 35.7,
-    "lucro_liquido": 137.04,
-    "vendas_semana": 330,
-    "faturamento_semana": 23387.86,
+    "faturamento_hoje": 596.39,
+    "vendas_hoje": 8,
+    "ticket_medio": 74.55,
+    "cmv_total": 238.0,
+    "lucro_bruto": 358.39,
+    "margem_pct_real": 60.1,
+    "lucro_por_pedido": 44.8,
+    "taxa_ml_total": 71.44,
+    "shipping_total": 105.38,
+    "faturamento_liquido": 419.57,
+    "margem_liquida_pct": 30.4,
+    "lucro_liquido": 181.57,
+    "vendas_semana": 333,
+    "faturamento_semana": 23600.75,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 383.5,
+    "organic_revenue": 596.39,
     "acos": 0,
-    "tacos": 96.5
+    "tacos": 62.0
   },
   "top5": [
     {
@@ -46,34 +46,56 @@
     },
     {
       "vendas": 1,
-      "faturamento": 39.9,
-      "custo": 18.26,
-      "title": "Carteira Couro Natura Slim Pequena Hugo Jobs 3 Car",
-      "taxa_ml": 5.45,
-      "full_unit_price": 39.9,
-      "lucro": 21.64,
-      "margem_pct": 54.2,
+      "faturamento": 78.99,
+      "custo": 31.49,
+      "title": "Moletom Gola Careca Premium Liso Felpado Lançament",
+      "taxa_ml": 11.06,
+      "full_unit_price": 78.99,
+      "lucro": 47.5,
+      "margem_pct": 60.1,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 69.9,
+      "custo": 26.91,
+      "title": "Conjunto Moletom Infantil Hugo Jobs Calca Jogger F",
+      "taxa_ml": 9.79,
+      "full_unit_price": 69.9,
+      "lucro": 42.99,
+      "margem_pct": 61.5,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 64,
+      "custo": 26.91,
+      "title": "Conjunto Moletom Infantil Hugo Jobs Calca Jogger F",
+      "taxa_ml": 6.37,
+      "full_unit_price": 64,
+      "lucro": 37.09,
+      "margem_pct": 58.0,
       "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 3,
-      "faturamento": 203.61,
-      "custo": 107.52,
-      "taxa_ml": 19.17,
-      "pct": 53.1,
-      "margem_pct": 47.2
+      "vendas": 4,
+      "faturamento": 282.6,
+      "custo": 139.01,
+      "taxa_ml": 30.23,
+      "pct": 47.4,
+      "margem_pct": 50.8
     },
     {
       "nome": "Vestuário Infantil",
-      "vendas": 1,
-      "faturamento": 139.99,
-      "custo": 26.91,
-      "taxa_ml": 19.6,
-      "pct": 36.5,
-      "margem_pct": 80.8
+      "vendas": 3,
+      "faturamento": 273.89,
+      "custo": 80.73,
+      "taxa_ml": 35.76,
+      "pct": 45.9,
+      "margem_pct": 70.5
     },
     {
       "nome": "Acessórios",
@@ -81,7 +103,7 @@
       "faturamento": 39.9,
       "custo": 18.26,
       "taxa_ml": 5.45,
-      "pct": 10.4,
+      "pct": 6.7,
       "margem_pct": 54.2
     }
   ],
@@ -102,7 +124,7 @@
       43,
       58,
       89,
-      5
+      8
     ],
     "faturamento": [
       3126.32,
@@ -111,40 +133,40 @@
       2993.28,
       4097.29,
       6082.49,
-      383.5
+      596.39
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 5,
+    "total_orders_fetched": 8,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 330,
-    "faturamento": 23387.86,
-    "taxa_ml": 2851.59,
-    "faturamento_menos_taxa": 20536.27,
+    "vendas": 333,
+    "faturamento": 23600.75,
+    "taxa_ml": 2878.81,
+    "faturamento_menos_taxa": 20721.94,
     "ticket_medio": 70.87,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 23387.86,
+    "organic_revenue": 23600.75,
     "acos": 0,
     "tacos": 1.6
   },
   "mes": {
-    "vendas": 379,
-    "faturamento": 26956.06,
-    "taxa_ml": 3338.83,
-    "faturamento_menos_taxa": 23617.23,
+    "vendas": 382,
+    "faturamento": 27168.95,
+    "taxa_ml": 3366.05,
+    "faturamento_menos_taxa": 23802.9,
     "ticket_medio": 71.12,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 26956.06,
+    "organic_revenue": 27168.95,
     "acos": 0,
     "tacos": 1.4,
     "chart": {
@@ -166,7 +188,7 @@
         43,
         58,
         89,
-        5
+        8
       ],
       "faturamento": [
         3568.2,
@@ -176,7 +198,7 @@
         2993.28,
         4097.29,
         6082.49,
-        383.5
+        596.39
       ]
     }
   }
