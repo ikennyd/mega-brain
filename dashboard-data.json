@@ -1,28 +1,50 @@
 {
-  "updated_at": "2026-04-08T05:01:33.320947",
+  "updated_at": "2026-04-08T06:49:29.177907",
   "kpis": {
-    "faturamento_hoje": 0,
-    "vendas_hoje": 0,
-    "ticket_medio": 0,
-    "cmv_total": 0,
-    "lucro_bruto": 0,
-    "margem_pct_real": 0,
-    "lucro_por_pedido": 0,
-    "taxa_ml_total": 0,
-    "shipping_total": 0,
-    "faturamento_liquido": 0,
-    "margem_liquida_pct": 0,
-    "lucro_liquido": 0,
-    "vendas_semana": 326,
-    "faturamento_semana": 23072.23,
+    "faturamento_hoje": 39.9,
+    "vendas_hoje": 1,
+    "ticket_medio": 39.9,
+    "cmv_total": 18.26,
+    "lucro_bruto": 21.64,
+    "margem_pct_real": 54.2,
+    "lucro_por_pedido": 21.64,
+    "taxa_ml_total": 5.45,
+    "shipping_total": 6.55,
+    "faturamento_liquido": 27.9,
+    "margem_liquida_pct": 24.2,
+    "lucro_liquido": 9.64,
+    "vendas_semana": 327,
+    "faturamento_semana": 23112.13,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 0.0,
+    "organic_revenue": 39.9,
     "acos": 0,
-    "tacos": 0
+    "tacos": 927.3
   },
-  "top5": [],
-  "categories": [],
+  "top5": [
+    {
+      "vendas": 1,
+      "faturamento": 39.9,
+      "custo": 18.26,
+      "title": "Carteira Couro Natura Slim Pequena Hugo Jobs 3 Car",
+      "taxa_ml": 5.45,
+      "full_unit_price": 39.9,
+      "lucro": 21.64,
+      "margem_pct": 54.2,
+      "score": 82
+    }
+  ],
+  "categories": [
+    {
+      "nome": "Acessórios",
+      "vendas": 1,
+      "faturamento": 39.9,
+      "custo": 18.26,
+      "taxa_ml": 5.45,
+      "pct": 100.0,
+      "margem_pct": 54.2
+    }
+  ],
   "chart": {
     "labels": [
       "Qui (02)",
@@ -40,7 +62,7 @@
       43,
       59,
       89,
-      0
+      1
     ],
     "faturamento": [
       3126.32,
@@ -49,40 +71,40 @@
       2993.28,
       4165.16,
       6082.49,
-      0
+      39.9
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 0,
+    "total_orders_fetched": 1,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 326,
-    "faturamento": 23072.23,
-    "taxa_ml": 2813.76,
-    "faturamento_menos_taxa": 20258.47,
-    "ticket_medio": 70.77,
+    "vendas": 327,
+    "faturamento": 23112.13,
+    "taxa_ml": 2819.21,
+    "faturamento_menos_taxa": 20292.92,
+    "ticket_medio": 70.68,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 23072.23,
+    "organic_revenue": 23112.13,
     "acos": 0,
     "tacos": 1.6
   },
   "mes": {
-    "vendas": 375,
-    "faturamento": 26640.43,
-    "taxa_ml": 3301.0,
-    "faturamento_menos_taxa": 23339.43,
-    "ticket_medio": 71.04,
+    "vendas": 376,
+    "faturamento": 26680.33,
+    "taxa_ml": 3306.45,
+    "faturamento_menos_taxa": 23373.88,
+    "ticket_medio": 70.96,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 26640.43,
+    "organic_revenue": 26680.33,
     "acos": 0,
     "tacos": 1.4,
     "chart": {
@@ -104,7 +126,7 @@
         43,
         59,
         89,
-        0
+        1
       ],
       "faturamento": [
         3568.2,
@@ -114,7 +136,7 @@
         2993.28,
         4165.16,
         6082.49,
-        0
+        39.9
       ]
     }
   }
