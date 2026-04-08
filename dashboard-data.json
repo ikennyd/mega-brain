@@ -1,37 +1,37 @@
 {
-  "updated_at": "2026-04-08T16:52:22.204475",
+  "updated_at": "2026-04-08T17:59:59.672703",
   "kpis": {
-    "faturamento_hoje": 1504.23,
-    "vendas_hoje": 20,
-    "ticket_medio": 75.21,
-    "cmv_total": 646.68,
-    "lucro_bruto": 857.55,
-    "margem_pct_real": 57.0,
-    "lucro_por_pedido": 42.88,
-    "taxa_ml_total": 175.95,
-    "shipping_total": 232.92,
-    "faturamento_liquido": 1095.36,
-    "margem_liquida_pct": 29.8,
-    "lucro_liquido": 448.68,
-    "vendas_semana": 345,
-    "faturamento_semana": 24508.59,
+    "faturamento_hoje": 1681.6,
+    "vendas_hoje": 26,
+    "ticket_medio": 64.68,
+    "cmv_total": 773.82,
+    "lucro_bruto": 907.78,
+    "margem_pct_real": 54.0,
+    "lucro_por_pedido": 34.91,
+    "taxa_ml_total": 197.69,
+    "shipping_total": 313.02,
+    "faturamento_liquido": 1170.89,
+    "margem_liquida_pct": 23.6,
+    "lucro_liquido": 397.07,
+    "vendas_semana": 351,
+    "faturamento_semana": 24685.96,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 1504.23,
+    "organic_revenue": 1681.6,
     "acos": 0,
-    "tacos": 24.6
+    "tacos": 22.0
   },
   "top5": [
     {
-      "vendas": 8,
-      "faturamento": 542.96,
-      "custo": 286.72,
+      "vendas": 9,
+      "faturamento": 610.83,
+      "custo": 322.56,
       "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
-      "taxa_ml": 51.12,
+      "taxa_ml": 57.51,
       "full_unit_price": 67.87,
-      "lucro": 256.24,
+      "lucro": 288.27,
       "margem_pct": 47.2,
-      "score": 96
+      "score": 98
     },
     {
       "vendas": 3,
@@ -43,6 +43,17 @@
       "lucro": 128.97,
       "margem_pct": 61.5,
       "score": 86
+    },
+    {
+      "vendas": 6,
+      "faturamento": 149.4,
+      "custo": 109.56,
+      "title": "Carteira Couro Natura Slim Pequena Hugo Jobs 3 Car",
+      "taxa_ml": 20.8,
+      "full_unit_price": 21.9,
+      "lucro": 39.84,
+      "margem_pct": 26.7,
+      "score": 92
     },
     {
       "vendas": 1,
@@ -65,28 +76,17 @@
       "lucro": 75.0,
       "margem_pct": 54.4,
       "score": 84
-    },
-    {
-      "vendas": 1,
-      "faturamento": 96.9,
-      "custo": 18.67,
-      "title": "Bermuda Moletinho Com Elástico Na Cintura - Kit 3 ",
-      "taxa_ml": 9.11,
-      "full_unit_price": 96.9,
-      "lucro": 78.23,
-      "margem_pct": 80.7,
-      "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 11,
-      "faturamento": 749.94,
-      "custo": 385.54,
-      "taxa_ml": 80.1,
-      "pct": 49.9,
-      "margem_pct": 48.6
+      "vendas": 12,
+      "faturamento": 817.81,
+      "custo": 421.38,
+      "taxa_ml": 86.49,
+      "pct": 48.6,
+      "margem_pct": 48.5
     },
     {
       "nome": "Vestuário Infantil",
@@ -94,17 +94,17 @@
       "faturamento": 617.49,
       "custo": 224.21,
       "taxa_ml": 81.29,
-      "pct": 41.1,
+      "pct": 36.7,
       "margem_pct": 63.7
     },
     {
       "nome": "Acessórios",
-      "vendas": 2,
-      "faturamento": 136.8,
-      "custo": 36.93,
-      "taxa_ml": 14.56,
-      "pct": 9.1,
-      "margem_pct": 73.0
+      "vendas": 7,
+      "faturamento": 246.3,
+      "custo": 128.23,
+      "taxa_ml": 29.91,
+      "pct": 14.6,
+      "margem_pct": 47.9
     }
   ],
   "chart": {
@@ -124,7 +124,7 @@
       43,
       58,
       89,
-      20
+      26
     ],
     "faturamento": [
       3126.32,
@@ -133,40 +133,40 @@
       2993.28,
       4097.29,
       6082.49,
-      1504.23
+      1681.6
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 20,
+    "total_orders_fetched": 26,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 345,
-    "faturamento": 24508.59,
-    "taxa_ml": 2973.53,
-    "faturamento_menos_taxa": 21535.06,
-    "ticket_medio": 71.04,
+    "vendas": 351,
+    "faturamento": 24685.96,
+    "taxa_ml": 2995.27,
+    "faturamento_menos_taxa": 21690.69,
+    "ticket_medio": 70.33,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 24508.59,
+    "organic_revenue": 24685.96,
     "acos": 0,
     "tacos": 1.5
   },
   "mes": {
-    "vendas": 394,
-    "faturamento": 28076.79,
-    "taxa_ml": 3460.77,
-    "faturamento_menos_taxa": 24616.02,
-    "ticket_medio": 71.26,
+    "vendas": 400,
+    "faturamento": 28254.16,
+    "taxa_ml": 3482.51,
+    "faturamento_menos_taxa": 24771.65,
+    "ticket_medio": 70.64,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 28076.79,
+    "organic_revenue": 28254.16,
     "acos": 0,
     "tacos": 1.3,
     "chart": {
@@ -188,7 +188,7 @@
         43,
         58,
         89,
-        20
+        26
       ],
       "faturamento": [
         3568.2,
@@ -198,7 +198,7 @@
         2993.28,
         4097.29,
         6082.49,
-        1504.23
+        1681.6
       ]
     }
   }
