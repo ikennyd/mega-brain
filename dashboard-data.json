@@ -1,28 +1,70 @@
 {
-  "updated_at": "2026-04-09T01:56:02.786929",
+  "updated_at": "2026-04-09T04:28:52.477524",
   "kpis": {
-    "faturamento_hoje": 0,
-    "vendas_hoje": 0,
-    "ticket_medio": 0,
-    "cmv_total": 0,
-    "lucro_bruto": 0,
-    "margem_pct_real": 0,
-    "lucro_por_pedido": 0,
-    "taxa_ml_total": 0,
-    "shipping_total": 0,
-    "faturamento_liquido": 0,
-    "margem_liquida_pct": 0,
-    "lucro_liquido": 0,
-    "vendas_semana": 334,
-    "faturamento_semana": 23301.39,
+    "faturamento_hoje": 160.99,
+    "vendas_hoje": 2,
+    "ticket_medio": 80.5,
+    "cmv_total": 89.94,
+    "lucro_bruto": 71.05,
+    "margem_pct_real": 44.1,
+    "lucro_por_pedido": 35.52,
+    "taxa_ml_total": 19.77,
+    "shipping_total": 47.94,
+    "faturamento_liquido": 93.28,
+    "margem_liquida_pct": 2.1,
+    "lucro_liquido": 3.34,
+    "vendas_semana": 338,
+    "faturamento_semana": 23621.28,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 0.0,
+    "organic_revenue": 160.99,
     "acos": 0,
-    "tacos": 0
+    "tacos": 229.8
   },
-  "top5": [],
-  "categories": [],
+  "top5": [
+    {
+      "vendas": 1,
+      "faturamento": 104.75,
+      "custo": 18.26,
+      "title": "Kit 2 Moletons Casal Hugo Jobs Premium Algodão Fla",
+      "taxa_ml": 14.69,
+      "full_unit_price": 104.75,
+      "lucro": 86.49,
+      "margem_pct": 82.6,
+      "score": 82
+    },
+    {
+      "vendas": 2,
+      "faturamento": 56.24,
+      "custo": 71.68,
+      "title": "Camiseta Igreen Básica 100% Algodão",
+      "taxa_ml": 5.08,
+      "full_unit_price": 28.12,
+      "lucro": -15.44,
+      "margem_pct": -27.5,
+      "score": 84
+    }
+  ],
+  "categories": [
+    {
+      "nome": "Acessórios",
+      "vendas": 1,
+      "faturamento": 104.75,
+      "custo": 18.26,
+      "taxa_ml": 14.69,
+      "pct": 65.1,
+      "margem_pct": 82.6
+    },
+    {
+      "nome": "Vestuário Adult",
+      "vendas": 2,
+      "faturamento": 56.24,
+      "custo": 71.68,
+      "taxa_ml": 5.08,
+      "pct": 34.9,
+      "margem_pct": -27.5
+    }
+  ],
   "chart": {
     "labels": [
       "Sex (03)",
@@ -39,8 +81,8 @@
       43,
       58,
       89,
-      52,
-      0
+      55,
+      1
     ],
     "faturamento": [
       3705.93,
@@ -48,41 +90,41 @@
       2993.28,
       4097.29,
       6082.49,
-      3423.35,
-      0
+      3638.49,
+      104.75
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 0,
+    "total_orders_fetched": 2,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 334,
-    "faturamento": 23301.39,
-    "taxa_ml": 2758.18,
-    "faturamento_menos_taxa": 20543.21,
-    "ticket_medio": 69.76,
+    "vendas": 338,
+    "faturamento": 23621.28,
+    "taxa_ml": 2795.07,
+    "faturamento_menos_taxa": 20826.21,
+    "ticket_medio": 69.89,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 23301.39,
+    "organic_revenue": 23621.28,
     "acos": 0,
     "tacos": 1.6
   },
   "mes": {
-    "vendas": 426,
-    "faturamento": 29995.91,
-    "taxa_ml": 3676.11,
-    "faturamento_menos_taxa": 26319.8,
-    "ticket_medio": 70.41,
+    "vendas": 430,
+    "faturamento": 30315.8,
+    "taxa_ml": 3713.0,
+    "faturamento_menos_taxa": 26602.8,
+    "ticket_medio": 70.5,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 29995.91,
+    "organic_revenue": 30315.8,
     "acos": 0,
     "tacos": 1.2,
     "chart": {
@@ -105,8 +147,8 @@
         43,
         58,
         89,
-        52,
-        0
+        55,
+        1
       ],
       "faturamento": [
         3568.2,
@@ -116,8 +158,8 @@
         2993.28,
         4097.29,
         6082.49,
-        3423.35,
-        0
+        3638.49,
+        104.75
       ]
     }
   }
