@@ -1,37 +1,37 @@
 {
-  "updated_at": "2026-04-10T12:33:36.644195",
+  "updated_at": "2026-04-10T14:02:07.766924",
   "kpis": {
-    "faturamento_hoje": 912.55,
-    "vendas_hoje": 13,
-    "ticket_medio": 70.2,
-    "cmv_total": 430.2,
-    "lucro_bruto": 482.35,
-    "margem_pct_real": 52.9,
-    "lucro_por_pedido": 37.1,
-    "taxa_ml_total": 102.46,
-    "shipping_total": 190.22,
-    "faturamento_liquido": 619.87,
-    "margem_liquida_pct": 20.8,
-    "lucro_liquido": 189.67,
-    "vendas_semana": 378,
-    "faturamento_semana": 25862.35,
+    "faturamento_hoje": 1273.8,
+    "vendas_hoje": 19,
+    "ticket_medio": 67.04,
+    "cmv_total": 627.66,
+    "lucro_bruto": 646.14,
+    "margem_pct_real": 50.7,
+    "lucro_por_pedido": 34.01,
+    "taxa_ml_total": 137.48,
+    "shipping_total": 311.0,
+    "faturamento_liquido": 825.32,
+    "margem_liquida_pct": 15.5,
+    "lucro_liquido": 197.66,
+    "vendas_semana": 384,
+    "faturamento_semana": 26223.6,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 912.55,
+    "organic_revenue": 1273.8,
     "acos": 0,
-    "tacos": 40.5
+    "tacos": 29.0
   },
   "top5": [
     {
-      "vendas": 8,
-      "faturamento": 542.96,
-      "custo": 286.72,
+      "vendas": 13,
+      "faturamento": 882.31,
+      "custo": 465.92,
       "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
-      "taxa_ml": 50.98,
+      "taxa_ml": 82.93,
       "full_unit_price": 67.87,
-      "lucro": 256.24,
+      "lucro": 416.39,
       "margem_pct": 47.2,
-      "score": 96
+      "score": 99
     },
     {
       "vendas": 1,
@@ -81,12 +81,12 @@
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 9,
-      "faturamento": 582.86,
-      "custo": 322.56,
-      "taxa_ml": 56.57,
-      "pct": 63.9,
-      "margem_pct": 44.7
+      "vendas": 14,
+      "faturamento": 922.21,
+      "custo": 501.76,
+      "taxa_ml": 88.52,
+      "pct": 72.4,
+      "margem_pct": 45.6
     },
     {
       "nome": "Vestuário Infantil",
@@ -94,8 +94,17 @@
       "faturamento": 329.69,
       "custo": 107.64,
       "taxa_ml": 45.89,
-      "pct": 36.1,
+      "pct": 25.9,
       "margem_pct": 67.4
+    },
+    {
+      "nome": "Acessórios",
+      "vendas": 1,
+      "faturamento": 21.9,
+      "custo": 18.26,
+      "taxa_ml": 3.07,
+      "pct": 1.7,
+      "margem_pct": 16.6
     }
   ],
   "chart": {
@@ -115,7 +124,7 @@
       89,
       55,
       78,
-      13
+      19
     ],
     "faturamento": [
       2999.05,
@@ -124,40 +133,40 @@
       6082.49,
       3638.49,
       4935.21,
-      912.55
+      1273.8
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 13,
+    "total_orders_fetched": 19,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 378,
-    "faturamento": 25862.35,
-    "taxa_ml": 2935.68,
-    "faturamento_menos_taxa": 22926.67,
-    "ticket_medio": 68.42,
+    "vendas": 384,
+    "faturamento": 26223.6,
+    "taxa_ml": 2970.7,
+    "faturamento_menos_taxa": 23252.9,
+    "ticket_medio": 68.29,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 25862.35,
+    "organic_revenue": 26223.6,
     "acos": 0,
     "tacos": 1.4
   },
   "mes": {
-    "vendas": 520,
-    "faturamento": 36058.81,
-    "taxa_ml": 4311.71,
-    "faturamento_menos_taxa": 31747.1,
-    "ticket_medio": 69.34,
+    "vendas": 526,
+    "faturamento": 36420.06,
+    "taxa_ml": 4346.73,
+    "faturamento_menos_taxa": 32073.33,
+    "ticket_medio": 69.24,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 36058.81,
+    "organic_revenue": 36420.06,
     "acos": 0,
     "tacos": 1.0,
     "chart": {
@@ -183,7 +192,7 @@
         89,
         55,
         78,
-        13
+        19
       ],
       "faturamento": [
         3568.2,
@@ -195,7 +204,7 @@
         6082.49,
         3638.49,
         4935.21,
-        912.55
+        1273.8
       ]
     }
   }
