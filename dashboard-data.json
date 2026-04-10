@@ -1,35 +1,35 @@
 {
-  "updated_at": "2026-04-10T14:02:07.766924",
+  "updated_at": "2026-04-10T15:04:47.129561",
   "kpis": {
-    "faturamento_hoje": 1273.8,
-    "vendas_hoje": 19,
-    "ticket_medio": 67.04,
-    "cmv_total": 627.66,
-    "lucro_bruto": 646.14,
-    "margem_pct_real": 50.7,
-    "lucro_por_pedido": 34.01,
-    "taxa_ml_total": 137.48,
-    "shipping_total": 311.0,
-    "faturamento_liquido": 825.32,
-    "margem_liquida_pct": 15.5,
-    "lucro_liquido": 197.66,
-    "vendas_semana": 384,
-    "faturamento_semana": 26223.6,
+    "faturamento_hoje": 1519.31,
+    "vendas_hoje": 23,
+    "ticket_medio": 66.06,
+    "cmv_total": 753.44,
+    "lucro_bruto": 765.87,
+    "margem_pct_real": 50.4,
+    "lucro_por_pedido": 33.3,
+    "taxa_ml_total": 162.52,
+    "shipping_total": 366.68,
+    "faturamento_liquido": 990.11,
+    "margem_liquida_pct": 15.6,
+    "lucro_liquido": 236.67,
+    "vendas_semana": 388,
+    "faturamento_semana": 26469.11,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 1273.8,
+    "organic_revenue": 1519.31,
     "acos": 0,
-    "tacos": 29.0
+    "tacos": 24.4
   },
   "top5": [
     {
-      "vendas": 13,
-      "faturamento": 882.31,
-      "custo": 465.92,
+      "vendas": 16,
+      "faturamento": 1085.92,
+      "custo": 573.44,
       "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
-      "taxa_ml": 82.93,
+      "taxa_ml": 102.1,
       "full_unit_price": 67.87,
-      "lucro": 416.39,
+      "lucro": 512.48,
       "margem_pct": 47.2,
       "score": 99
     },
@@ -81,12 +81,12 @@
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 14,
-      "faturamento": 922.21,
-      "custo": 501.76,
-      "taxa_ml": 88.52,
-      "pct": 72.4,
-      "margem_pct": 45.6
+      "vendas": 17,
+      "faturamento": 1125.82,
+      "custo": 609.28,
+      "taxa_ml": 107.69,
+      "pct": 74.1,
+      "margem_pct": 45.9
     },
     {
       "nome": "Vestuário Infantil",
@@ -94,17 +94,17 @@
       "faturamento": 329.69,
       "custo": 107.64,
       "taxa_ml": 45.89,
-      "pct": 25.9,
+      "pct": 21.7,
       "margem_pct": 67.4
     },
     {
       "nome": "Acessórios",
-      "vendas": 1,
-      "faturamento": 21.9,
-      "custo": 18.26,
-      "taxa_ml": 3.07,
-      "pct": 1.7,
-      "margem_pct": 16.6
+      "vendas": 2,
+      "faturamento": 63.8,
+      "custo": 36.52,
+      "taxa_ml": 8.94,
+      "pct": 4.2,
+      "margem_pct": 42.8
     }
   ],
   "chart": {
@@ -124,7 +124,7 @@
       89,
       55,
       78,
-      19
+      23
     ],
     "faturamento": [
       2999.05,
@@ -133,40 +133,40 @@
       6082.49,
       3638.49,
       4935.21,
-      1273.8
+      1519.31
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 19,
+    "total_orders_fetched": 23,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 384,
-    "faturamento": 26223.6,
-    "taxa_ml": 2970.7,
-    "faturamento_menos_taxa": 23252.9,
-    "ticket_medio": 68.29,
+    "vendas": 388,
+    "faturamento": 26469.11,
+    "taxa_ml": 2995.74,
+    "faturamento_menos_taxa": 23473.37,
+    "ticket_medio": 68.22,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 26223.6,
+    "organic_revenue": 26469.11,
     "acos": 0,
     "tacos": 1.4
   },
   "mes": {
-    "vendas": 526,
-    "faturamento": 36420.06,
-    "taxa_ml": 4346.73,
-    "faturamento_menos_taxa": 32073.33,
-    "ticket_medio": 69.24,
+    "vendas": 530,
+    "faturamento": 36665.57,
+    "taxa_ml": 4371.77,
+    "faturamento_menos_taxa": 32293.8,
+    "ticket_medio": 69.18,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 36420.06,
+    "organic_revenue": 36665.57,
     "acos": 0,
     "tacos": 1.0,
     "chart": {
@@ -192,7 +192,7 @@
         89,
         55,
         78,
-        19
+        23
       ],
       "faturamento": [
         3568.2,
@@ -204,7 +204,7 @@
         6082.49,
         3638.49,
         4935.21,
-        1273.8
+        1519.31
       ]
     }
   }
