@@ -1,28 +1,50 @@
 {
-  "updated_at": "2026-04-13T01:51:18.659411",
+  "updated_at": "2026-04-13T04:52:02.814512",
   "kpis": {
-    "faturamento_hoje": 0,
-    "vendas_hoje": 0,
-    "ticket_medio": 0,
-    "cmv_total": 0,
-    "lucro_bruto": 0,
-    "margem_pct_real": 0,
-    "lucro_por_pedido": 0,
-    "taxa_ml_total": 0,
-    "shipping_total": 0,
-    "faturamento_liquido": 0,
-    "margem_liquida_pct": 0,
-    "lucro_liquido": 0,
-    "vendas_semana": 377,
-    "faturamento_semana": 24646.53,
+    "faturamento_hoje": 69.99,
+    "vendas_hoje": 1,
+    "ticket_medio": 69.99,
+    "cmv_total": 35.84,
+    "lucro_bruto": 34.15,
+    "margem_pct_real": 48.8,
+    "lucro_por_pedido": 34.15,
+    "taxa_ml_total": 9.8,
+    "shipping_total": 13.94,
+    "faturamento_liquido": 46.25,
+    "margem_liquida_pct": 14.9,
+    "lucro_liquido": 10.41,
+    "vendas_semana": 378,
+    "faturamento_semana": 24745.16,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 0.0,
+    "organic_revenue": 69.99,
     "acos": 0,
-    "tacos": 0
+    "tacos": 528.6
   },
-  "top5": [],
-  "categories": [],
+  "top5": [
+    {
+      "vendas": 1,
+      "faturamento": 69.99,
+      "custo": 35.84,
+      "title": "Kit 3 Camisetas 100% Algodão Estilosa Hugo Jobs Mi",
+      "taxa_ml": 9.8,
+      "full_unit_price": 69.99,
+      "lucro": 34.15,
+      "margem_pct": 48.8,
+      "score": 82
+    }
+  ],
+  "categories": [
+    {
+      "nome": "Vestuário Adult",
+      "vendas": 1,
+      "faturamento": 69.99,
+      "custo": 35.84,
+      "taxa_ml": 9.8,
+      "pct": 100.0,
+      "margem_pct": 48.8
+    }
+  ],
   "chart": {
     "labels": [
       "Ter (07)",
@@ -39,7 +61,7 @@
       78,
       58,
       57,
-      39,
+      40,
       0
     ],
     "faturamento": [
@@ -48,41 +70,41 @@
       4935.21,
       3734.01,
       3427.5,
-      2761.43,
+      2860.06,
       0
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 0,
+    "total_orders_fetched": 1,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 377,
-    "faturamento": 24646.53,
-    "taxa_ml": 2643.01,
-    "faturamento_menos_taxa": 22003.52,
-    "ticket_medio": 65.38,
+    "vendas": 378,
+    "faturamento": 24745.16,
+    "taxa_ml": 2661.94,
+    "faturamento_menos_taxa": 22083.22,
+    "ticket_medio": 65.46,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 24646.53,
+    "organic_revenue": 24745.16,
     "acos": 0,
     "tacos": 1.5
   },
   "mes": {
-    "vendas": 660,
-    "faturamento": 44979.21,
-    "taxa_ml": 5264.07,
-    "faturamento_menos_taxa": 39715.14,
-    "ticket_medio": 68.15,
+    "vendas": 661,
+    "faturamento": 45077.84,
+    "taxa_ml": 5283.0,
+    "faturamento_menos_taxa": 39794.84,
+    "ticket_medio": 68.2,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 44979.21,
+    "organic_revenue": 45077.84,
     "acos": 0,
     "tacos": 0.8,
     "chart": {
@@ -113,7 +135,7 @@
         78,
         58,
         57,
-        39,
+        40,
         0
       ],
       "faturamento": [
@@ -128,7 +150,7 @@
         4935.21,
         3734.01,
         3427.5,
-        2761.43,
+        2860.06,
         0
       ]
     }
