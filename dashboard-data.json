@@ -1,67 +1,87 @@
 {
-  "updated_at": "2026-04-17T03:43:45.945493",
+  "updated_at": "2026-04-17T05:53:03.270606",
   "kpis": {
-    "faturamento_hoje": 89.77,
-    "vendas_hoje": 2,
-    "ticket_medio": 44.89,
-    "cmv_total": 54.1,
-    "lucro_bruto": 35.67,
-    "margem_pct_real": 39.7,
-    "lucro_por_pedido": 17.84,
-    "taxa_ml_total": 9.46,
-    "shipping_total": 14.7,
-    "faturamento_liquido": 65.61,
-    "margem_liquida_pct": 12.8,
-    "lucro_liquido": 11.51,
+    "faturamento_hoje": 307.4,
+    "vendas_hoje": 6,
+    "ticket_medio": 51.23,
+    "cmv_total": 170.95,
+    "lucro_bruto": 136.45,
+    "margem_pct_real": 44.4,
+    "lucro_por_pedido": 22.74,
+    "taxa_ml_total": 33.71,
+    "shipping_total": 61.6,
+    "faturamento_liquido": 212.09,
+    "margem_liquida_pct": 13.4,
+    "lucro_liquido": 41.14,
     "vendas_semana": 530,
     "faturamento_semana": 33803.76,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 89.77,
+    "organic_revenue": 307.4,
     "acos": 0,
-    "tacos": 412.2
+    "tacos": 120.4
   },
   "top5": [
     {
-      "vendas": 1,
-      "faturamento": 67.87,
-      "custo": 35.84,
+      "vendas": 3,
+      "faturamento": 203.61,
+      "custo": 107.52,
       "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
-      "taxa_ml": 6.39,
+      "taxa_ml": 19.17,
       "full_unit_price": 67.87,
-      "lucro": 32.03,
+      "lucro": 96.09,
       "margem_pct": 47.2,
-      "score": 82
+      "score": 86
     },
     {
       "vendas": 1,
-      "faturamento": 21.9,
-      "custo": 18.26,
-      "title": "Carteira Couro Natura Slim Pequena Hugo Jobs 3 Car",
-      "taxa_ml": 3.07,
-      "full_unit_price": 21.9,
-      "lucro": 3.64,
-      "margem_pct": 16.6,
+      "faturamento": 59.99,
+      "custo": 26.91,
+      "title": "Moletom Infantil Canguru Capuz Blusa De Frio Aranh",
+      "taxa_ml": 8.4,
+      "full_unit_price": 59.99,
+      "lucro": 33.08,
+      "margem_pct": 55.1,
       "score": 82
+    },
+    {
+      "vendas": 2,
+      "faturamento": 43.8,
+      "custo": 36.52,
+      "title": "Carteira Couro Natura Slim Pequena Hugo Jobs 3 Car",
+      "taxa_ml": 6.14,
+      "full_unit_price": 21.9,
+      "lucro": 7.28,
+      "margem_pct": 16.6,
+      "score": 84
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 1,
-      "faturamento": 67.87,
-      "custo": 35.84,
-      "taxa_ml": 6.39,
-      "pct": 75.6,
+      "vendas": 3,
+      "faturamento": 203.61,
+      "custo": 107.52,
+      "taxa_ml": 19.17,
+      "pct": 66.2,
       "margem_pct": 47.2
     },
     {
-      "nome": "Acessórios",
+      "nome": "Vestuário Infantil",
       "vendas": 1,
-      "faturamento": 21.9,
-      "custo": 18.26,
-      "taxa_ml": 3.07,
-      "pct": 24.4,
+      "faturamento": 59.99,
+      "custo": 26.91,
+      "taxa_ml": 8.4,
+      "pct": 19.5,
+      "margem_pct": 55.1
+    },
+    {
+      "nome": "Acessórios",
+      "vendas": 2,
+      "faturamento": 43.8,
+      "custo": 36.52,
+      "taxa_ml": 6.14,
+      "pct": 14.2,
       "margem_pct": 16.6
     }
   ],
@@ -97,7 +117,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 2,
+    "total_orders_fetched": 6,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -115,16 +135,16 @@
     "tacos": 1.1
   },
   "mes": {
-    "vendas": 1192,
-    "faturamento": 79278.22,
-    "taxa_ml": 8780.99,
-    "faturamento_menos_taxa": 70497.23,
-    "ticket_medio": 66.51,
+    "vendas": 1197,
+    "faturamento": 79563.72,
+    "taxa_ml": 8811.63,
+    "faturamento_menos_taxa": 70752.09,
+    "ticket_medio": 66.47,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 79278.22,
+    "organic_revenue": 79563.72,
     "acos": 0,
     "tacos": 0.5,
     "chart": {
@@ -163,8 +183,8 @@
         73,
         87,
         106,
-        272,
-        0
+        273,
+        4
       ],
       "faturamento": [
         3568.2,
@@ -182,8 +202,8 @@
         4629.82,
         5312.71,
         6730.21,
-        18017.22,
-        0
+        18085.09,
+        217.63
       ]
     }
   }
