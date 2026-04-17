@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-04-17T05:53:03.270606",
+  "updated_at": "2026-04-17T07:20:29.521931",
   "kpis": {
-    "faturamento_hoje": 307.4,
-    "vendas_hoje": 6,
-    "ticket_medio": 51.23,
-    "cmv_total": 170.95,
-    "lucro_bruto": 136.45,
-    "margem_pct_real": 44.4,
-    "lucro_por_pedido": 22.74,
-    "taxa_ml_total": 33.71,
-    "shipping_total": 61.6,
-    "faturamento_liquido": 212.09,
-    "margem_liquida_pct": 13.4,
-    "lucro_liquido": 41.14,
+    "faturamento_hoje": 351.2,
+    "vendas_hoje": 8,
+    "ticket_medio": 43.9,
+    "cmv_total": 207.47,
+    "lucro_bruto": 143.73,
+    "margem_pct_real": 40.9,
+    "lucro_por_pedido": 17.97,
+    "taxa_ml_total": 39.85,
+    "shipping_total": 104.69,
+    "faturamento_liquido": 206.66,
+    "margem_liquida_pct": -0.2,
+    "lucro_liquido": -0.81,
     "vendas_semana": 530,
     "faturamento_semana": 33803.76,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 307.4,
+    "organic_revenue": 351.2,
     "acos": 0,
-    "tacos": 120.4
+    "tacos": 105.4
   },
   "top5": [
     {
@@ -34,6 +34,17 @@
       "score": 86
     },
     {
+      "vendas": 4,
+      "faturamento": 87.6,
+      "custo": 73.04,
+      "title": "Carteira Couro Natura Slim Pequena Hugo Jobs 3 Car",
+      "taxa_ml": 12.28,
+      "full_unit_price": 21.9,
+      "lucro": 14.56,
+      "margem_pct": 16.6,
+      "score": 88
+    },
+    {
       "vendas": 1,
       "faturamento": 59.99,
       "custo": 26.91,
@@ -43,17 +54,6 @@
       "lucro": 33.08,
       "margem_pct": 55.1,
       "score": 82
-    },
-    {
-      "vendas": 2,
-      "faturamento": 43.8,
-      "custo": 36.52,
-      "title": "Carteira Couro Natura Slim Pequena Hugo Jobs 3 Car",
-      "taxa_ml": 6.14,
-      "full_unit_price": 21.9,
-      "lucro": 7.28,
-      "margem_pct": 16.6,
-      "score": 84
     }
   ],
   "categories": [
@@ -63,8 +63,17 @@
       "faturamento": 203.61,
       "custo": 107.52,
       "taxa_ml": 19.17,
-      "pct": 66.2,
+      "pct": 58.0,
       "margem_pct": 47.2
+    },
+    {
+      "nome": "Acessórios",
+      "vendas": 4,
+      "faturamento": 87.6,
+      "custo": 73.04,
+      "taxa_ml": 12.28,
+      "pct": 24.9,
+      "margem_pct": 16.6
     },
     {
       "nome": "Vestuário Infantil",
@@ -72,17 +81,8 @@
       "faturamento": 59.99,
       "custo": 26.91,
       "taxa_ml": 8.4,
-      "pct": 19.5,
+      "pct": 17.1,
       "margem_pct": 55.1
-    },
-    {
-      "nome": "Acessórios",
-      "vendas": 2,
-      "faturamento": 43.8,
-      "custo": 36.52,
-      "taxa_ml": 6.14,
-      "pct": 14.2,
-      "margem_pct": 16.6
     }
   ],
   "chart": {
@@ -117,7 +117,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 6,
+    "total_orders_fetched": 8,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -135,16 +135,16 @@
     "tacos": 1.1
   },
   "mes": {
-    "vendas": 1197,
-    "faturamento": 79563.72,
-    "taxa_ml": 8811.63,
-    "faturamento_menos_taxa": 70752.09,
-    "ticket_medio": 66.47,
+    "vendas": 1199,
+    "faturamento": 79607.52,
+    "taxa_ml": 8817.77,
+    "faturamento_menos_taxa": 70789.75,
+    "ticket_medio": 66.39,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 79563.72,
+    "organic_revenue": 79607.52,
     "acos": 0,
     "tacos": 0.5,
     "chart": {
@@ -184,7 +184,7 @@
         87,
         106,
         273,
-        4
+        6
       ],
       "faturamento": [
         3568.2,
@@ -203,7 +203,7 @@
         5312.71,
         6730.21,
         18085.09,
-        217.63
+        261.43
       ]
     }
   }
