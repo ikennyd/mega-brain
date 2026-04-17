@@ -1,36 +1,47 @@
 {
-  "updated_at": "2026-04-17T22:43:35.281143",
+  "updated_at": "2026-04-17T23:25:02.681629",
   "kpis": {
-    "faturamento_hoje": 7186.48,
-    "vendas_hoje": 109,
-    "ticket_medio": 65.93,
-    "cmv_total": 3752.87,
-    "lucro_bruto": 3433.61,
-    "margem_pct_real": 47.8,
-    "lucro_por_pedido": 31.5,
-    "taxa_ml_total": 718.36,
-    "shipping_total": 1060.52,
-    "faturamento_liquido": 5407.6,
-    "margem_liquida_pct": 23.0,
-    "lucro_liquido": 1654.73,
+    "faturamento_hoje": 7366.02,
+    "vendas_hoje": 112,
+    "ticket_medio": 65.77,
+    "cmv_total": 3861.07,
+    "lucro_bruto": 3504.95,
+    "margem_pct_real": 47.6,
+    "lucro_por_pedido": 31.29,
+    "taxa_ml_total": 737.28,
+    "shipping_total": 1066.39,
+    "faturamento_liquido": 5562.35,
+    "margem_liquida_pct": 23.1,
+    "lucro_liquido": 1701.28,
     "vendas_semana": 529,
     "faturamento_semana": 33744.77,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 7186.48,
+    "organic_revenue": 7366.02,
     "acos": 0,
-    "tacos": 5.1
+    "tacos": 5.0
   },
   "top5": [
     {
-      "vendas": 75,
-      "faturamento": 5090.25,
-      "custo": 2688.0,
+      "vendas": 77,
+      "faturamento": 5225.99,
+      "custo": 2759.68,
       "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
-      "taxa_ml": 479.11,
+      "taxa_ml": 491.89,
       "full_unit_price": 67.87,
-      "lucro": 2402.25,
+      "lucro": 2466.31,
       "margem_pct": 47.2,
+      "score": 99
+    },
+    {
+      "vendas": 12,
+      "faturamento": 262.8,
+      "custo": 219.12,
+      "title": "Carteira Couro Natura Slim Pequena Hugo Jobs 3 Car",
+      "taxa_ml": 36.84,
+      "full_unit_price": 21.9,
+      "lucro": 43.68,
+      "margem_pct": 16.6,
       "score": 99
     },
     {
@@ -43,17 +54,6 @@
       "lucro": 148.4,
       "margem_pct": 58.0,
       "score": 88
-    },
-    {
-      "vendas": 10,
-      "faturamento": 219.0,
-      "custo": 182.6,
-      "title": "Carteira Couro Natura Slim Pequena Hugo Jobs 3 Car",
-      "taxa_ml": 30.7,
-      "full_unit_price": 21.9,
-      "lucro": 36.4,
-      "margem_pct": 16.6,
-      "score": 99
     },
     {
       "vendas": 3,
@@ -81,11 +81,11 @@
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 87,
-      "faturamento": 5844.88,
-      "custo": 3118.08,
-      "taxa_ml": 558.82,
-      "pct": 81.3,
+      "vendas": 89,
+      "faturamento": 5980.62,
+      "custo": 3189.76,
+      "taxa_ml": 571.6,
+      "pct": 81.2,
       "margem_pct": 46.7
     },
     {
@@ -94,17 +94,17 @@
       "faturamento": 982.72,
       "custo": 403.65,
       "taxa_ml": 109.39,
-      "pct": 13.7,
+      "pct": 13.3,
       "margem_pct": 58.9
     },
     {
       "nome": "Acessórios",
-      "vendas": 13,
-      "faturamento": 358.88,
-      "custo": 231.14,
-      "taxa_ml": 50.15,
-      "pct": 5.0,
-      "margem_pct": 35.6
+      "vendas": 15,
+      "faturamento": 402.68,
+      "custo": 267.66,
+      "taxa_ml": 56.29,
+      "pct": 5.5,
+      "margem_pct": 33.5
     }
   ],
   "chart": {
@@ -139,7 +139,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 112,
+    "total_orders_fetched": 116,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -157,16 +157,16 @@
     "tacos": 1.1
   },
   "mes": {
-    "vendas": 1299,
-    "faturamento": 86382.87,
-    "taxa_ml": 9450.43,
-    "faturamento_menos_taxa": 76932.44,
-    "ticket_medio": 66.5,
+    "vendas": 1302,
+    "faturamento": 86562.41,
+    "taxa_ml": 9466.28,
+    "faturamento_menos_taxa": 77096.13,
+    "ticket_medio": 66.48,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 86382.87,
+    "organic_revenue": 86562.41,
     "acos": 0,
     "tacos": 0.4,
     "chart": {
@@ -206,7 +206,7 @@
         87,
         106,
         273,
-        107
+        110
       ],
       "faturamento": [
         3568.2,
@@ -225,7 +225,7 @@
         5320.65,
         6730.21,
         18085.09,
-        7096.71
+        7276.25
       ]
     }
   }
