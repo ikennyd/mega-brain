@@ -1,181 +1,88 @@
 {
-  "updated_at": "2026-04-16T23:25:05.590272",
+  "updated_at": "2026-04-17T00:02:52.863920",
   "kpis": {
-    "faturamento_hoje": 16405.91,
-    "vendas_hoje": 246,
-    "ticket_medio": 66.69,
-    "cmv_total": 8566.88,
-    "lucro_bruto": 7839.03,
-    "margem_pct_real": 47.8,
-    "lucro_por_pedido": 31.87,
-    "taxa_ml_total": 1625.71,
-    "shipping_total": 2440.92,
-    "faturamento_liquido": 12339.28,
-    "margem_liquida_pct": 23.0,
-    "lucro_liquido": 3772.4,
-    "vendas_semana": 526,
-    "faturamento_semana": 33402.71,
+    "faturamento_hoje": 0,
+    "vendas_hoje": 0,
+    "ticket_medio": 0,
+    "cmv_total": 0,
+    "lucro_bruto": 0,
+    "margem_pct_real": 0,
+    "lucro_por_pedido": 0,
+    "taxa_ml_total": 0,
+    "shipping_total": 0,
+    "faturamento_liquido": 0,
+    "margem_liquida_pct": 0,
+    "lucro_liquido": 0,
+    "vendas_semana": 531,
+    "faturamento_semana": 33871.63,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 16405.91,
+    "organic_revenue": 0.0,
     "acos": 0,
-    "tacos": 2.3
+    "tacos": 0
   },
-  "top5": [
-    {
-      "vendas": 198,
-      "faturamento": 13450.98,
-      "custo": 7096.32,
-      "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
-      "taxa_ml": 1285.33,
-      "full_unit_price": 67.87,
-      "lucro": 6354.66,
-      "margem_pct": 47.2,
-      "score": 99
-    },
-    {
-      "vendas": 5,
-      "faturamento": 320.05,
-      "custo": 134.55,
-      "title": "Conjunto Moletom Infantil Hugo Jobs Calca Jogger F",
-      "taxa_ml": 31.9,
-      "full_unit_price": 64.01,
-      "lucro": 185.5,
-      "margem_pct": 58.0,
-      "score": 90
-    },
-    {
-      "vendas": 4,
-      "faturamento": 290.69,
-      "custo": 143.36,
-      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 33.76,
-      "full_unit_price": 66.93,
-      "lucro": 147.33,
-      "margem_pct": 50.7,
-      "score": 88
-    },
-    {
-      "vendas": 10,
-      "faturamento": 219.0,
-      "custo": 182.6,
-      "title": "Carteira Couro Natura Slim Pequena Hugo Jobs 3 Car",
-      "taxa_ml": 30.56,
-      "full_unit_price": 21.9,
-      "lucro": 36.4,
-      "margem_pct": 16.6,
-      "score": 99
-    },
-    {
-      "vendas": 3,
-      "faturamento": 203.4,
-      "custo": 80.73,
-      "title": "Conjunto Moletom Infantil Hugo Jobs Calca Jogger F",
-      "taxa_ml": 21.84,
-      "full_unit_price": 67.8,
-      "lucro": 122.67,
-      "margem_pct": 60.3,
-      "score": 86
-    }
-  ],
-  "categories": [
-    {
-      "nome": "Vestuário Adult",
-      "vendas": 218,
-      "faturamento": 14726.84,
-      "custo": 7811.47,
-      "taxa_ml": 1426.07,
-      "pct": 89.8,
-      "margem_pct": 47.0
-    },
-    {
-      "nome": "Vestuário Infantil",
-      "vendas": 19,
-      "faturamento": 1269.28,
-      "custo": 511.29,
-      "taxa_ml": 137.2,
-      "pct": 7.7,
-      "margem_pct": 59.7
-    },
-    {
-      "nome": "Acessórios",
-      "vendas": 12,
-      "faturamento": 302.8,
-      "custo": 219.12,
-      "taxa_ml": 42.3,
-      "pct": 1.8,
-      "margem_pct": 27.6
-    },
-    {
-      "nome": "Outros",
-      "vendas": 1,
-      "faturamento": 106.99,
-      "custo": 25.0,
-      "taxa_ml": 20.14,
-      "pct": 0.7,
-      "margem_pct": 76.6
-    }
-  ],
+  "top5": [],
+  "categories": [],
   "chart": {
     "labels": [
-      "Sex (10)",
       "Sáb (11)",
       "Dom (12)",
       "Seg (13)",
       "Ter (14)",
       "Qua (15)",
-      "Qui (16)"
+      "Qui (16)",
+      "Sex (17)"
     ],
     "vendas": [
-      55,
       57,
       41,
       73,
       87,
       106,
-      107
+      167,
+      0
     ],
     "faturamento": [
-      3556.37,
       3427.5,
       2901.96,
       4629.82,
       5312.71,
       6730.21,
-      6844.14
+      10869.43,
+      0
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 253,
+    "total_orders_fetched": 0,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 526,
-    "faturamento": 33402.71,
-    "taxa_ml": 3572.95,
-    "faturamento_menos_taxa": 29829.76,
-    "ticket_medio": 63.5,
+    "vendas": 531,
+    "faturamento": 33871.63,
+    "taxa_ml": 3584.7,
+    "faturamento_menos_taxa": 30286.93,
+    "ticket_medio": 63.79,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 33402.71,
+    "organic_revenue": 33871.63,
     "acos": 0,
     "tacos": 1.1
   },
   "mes": {
-    "vendas": 1164,
-    "faturamento": 77529.99,
-    "taxa_ml": 8606.09,
-    "faturamento_menos_taxa": 68923.9,
+    "vendas": 1169,
+    "faturamento": 77869.34,
+    "taxa_ml": 8638.04,
+    "faturamento_menos_taxa": 69231.3,
     "ticket_medio": 66.61,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 77529.99,
+    "organic_revenue": 77869.34,
     "acos": 0,
     "tacos": 0.5,
     "chart": {
@@ -195,7 +102,8 @@
         "Seg (13)",
         "Ter (14)",
         "Qua (15)",
-        "Qui (16)"
+        "Qui (16)",
+        "Sex (17)"
       ],
       "vendas": [
         49,
@@ -213,7 +121,8 @@
         73,
         87,
         106,
-        244
+        249,
+        0
       ],
       "faturamento": [
         3568.2,
@@ -231,7 +140,8 @@
         4629.82,
         5312.71,
         6730.21,
-        16268.99
+        16608.34,
+        0
       ]
     }
   }
