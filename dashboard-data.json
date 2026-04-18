@@ -1,35 +1,35 @@
 {
-  "updated_at": "2026-04-18T14:35:10.628198",
+  "updated_at": "2026-04-18T15:22:45.882222",
   "kpis": {
-    "faturamento_hoje": 1533.66,
-    "vendas_hoje": 24,
-    "ticket_medio": 63.9,
-    "cmv_total": 807.14,
-    "lucro_bruto": 726.52,
-    "margem_pct_real": 47.4,
-    "lucro_por_pedido": 30.27,
-    "taxa_ml_total": 148.6,
-    "shipping_total": 226.96,
-    "faturamento_liquido": 1158.1,
-    "margem_liquida_pct": 22.9,
-    "lucro_liquido": 350.96,
+    "faturamento_hoje": 1736.33,
+    "vendas_hoje": 27,
+    "ticket_medio": 64.31,
+    "cmv_total": 914.66,
+    "lucro_bruto": 821.67,
+    "margem_pct_real": 47.3,
+    "lucro_por_pedido": 30.43,
+    "taxa_ml_total": 168.46,
+    "shipping_total": 284.1,
+    "faturamento_liquido": 1283.77,
+    "margem_liquida_pct": 21.3,
+    "lucro_liquido": 369.11,
     "vendas_semana": 527,
     "faturamento_semana": 34101.42,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 1533.66,
+    "organic_revenue": 1736.33,
     "acos": 0,
-    "tacos": 24.1
+    "tacos": 21.3
   },
   "top5": [
     {
-      "vendas": 18,
-      "faturamento": 1221.66,
-      "custo": 645.12,
+      "vendas": 20,
+      "faturamento": 1357.4,
+      "custo": 716.8,
       "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
-      "taxa_ml": 114.88,
+      "taxa_ml": 127.66,
       "full_unit_price": 67.87,
-      "lucro": 576.54,
+      "lucro": 640.6,
       "margem_pct": 47.2,
       "score": 99
     },
@@ -57,6 +57,17 @@
     },
     {
       "vendas": 1,
+      "faturamento": 66.93,
+      "custo": 35.84,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 7.08,
+      "full_unit_price": 66.93,
+      "lucro": 31.09,
+      "margem_pct": 46.5,
+      "score": 82
+    },
+    {
+      "vendas": 1,
       "faturamento": 64,
       "custo": 26.91,
       "title": "Conjunto Moletom Infantil Hugo Jobs Calca Jogger F",
@@ -65,27 +76,16 @@
       "lucro": 37.09,
       "margem_pct": 58.0,
       "score": 82
-    },
-    {
-      "vendas": 1,
-      "faturamento": 50.34,
-      "custo": 26.91,
-      "title": "Moletom Infantil Canguru Capuz Hugo Jobs Menino Me",
-      "taxa_ml": 4.39,
-      "full_unit_price": 50.34,
-      "lucro": 23.43,
-      "margem_pct": 46.5,
-      "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 20,
-      "faturamento": 1355.52,
-      "custo": 716.8,
-      "taxa_ml": 128.9,
-      "pct": 88.4,
+      "vendas": 23,
+      "faturamento": 1558.19,
+      "custo": 824.32,
+      "taxa_ml": 148.76,
+      "pct": 89.7,
       "margem_pct": 47.1
     },
     {
@@ -94,7 +94,7 @@
       "faturamento": 114.34,
       "custo": 53.82,
       "taxa_ml": 10.76,
-      "pct": 7.5,
+      "pct": 6.6,
       "margem_pct": 52.9
     },
     {
@@ -103,7 +103,7 @@
       "faturamento": 63.8,
       "custo": 36.52,
       "taxa_ml": 8.94,
-      "pct": 4.2,
+      "pct": 3.7,
       "margem_pct": 42.8
     }
   ],
@@ -139,7 +139,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 24,
+    "total_orders_fetched": 27,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -157,16 +157,16 @@
     "tacos": 1.1
   },
   "mes": {
-    "vendas": 1351,
-    "faturamento": 89653.24,
-    "taxa_ml": 9771.12,
-    "faturamento_menos_taxa": 79882.12,
+    "vendas": 1354,
+    "faturamento": 89855.91,
+    "taxa_ml": 9790.98,
+    "faturamento_menos_taxa": 80064.93,
     "ticket_medio": 66.36,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 89653.24,
+    "organic_revenue": 89855.91,
     "acos": 0,
     "tacos": 0.4,
     "chart": {
@@ -208,7 +208,7 @@
         106,
         274,
         137,
-        21
+        24
       ],
       "faturamento": [
         3568.2,
@@ -228,7 +228,7 @@
         6730.21,
         18152.96,
         8943.19,
-        1356.02
+        1558.69
       ]
     }
   }
