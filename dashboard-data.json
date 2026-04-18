@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-04-18T15:22:45.882222",
+  "updated_at": "2026-04-18T15:58:09.317464",
   "kpis": {
-    "faturamento_hoje": 1736.33,
-    "vendas_hoje": 27,
-    "ticket_medio": 64.31,
-    "cmv_total": 914.66,
-    "lucro_bruto": 821.67,
-    "margem_pct_real": 47.3,
-    "lucro_por_pedido": 30.43,
-    "taxa_ml_total": 168.46,
-    "shipping_total": 284.1,
-    "faturamento_liquido": 1283.77,
-    "margem_liquida_pct": 21.3,
-    "lucro_liquido": 369.11,
+    "faturamento_hoje": 1780.13,
+    "vendas_hoje": 29,
+    "ticket_medio": 61.38,
+    "cmv_total": 951.18,
+    "lucro_bruto": 828.95,
+    "margem_pct_real": 46.6,
+    "lucro_por_pedido": 28.58,
+    "taxa_ml_total": 174.6,
+    "shipping_total": 307.19,
+    "faturamento_liquido": 1298.34,
+    "margem_liquida_pct": 19.5,
+    "lucro_liquido": 347.16,
     "vendas_semana": 527,
     "faturamento_semana": 34101.42,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 1736.33,
+    "organic_revenue": 1780.13,
     "acos": 0,
-    "tacos": 21.3
+    "tacos": 20.8
   },
   "top5": [
     {
@@ -67,15 +67,15 @@
       "score": 82
     },
     {
-      "vendas": 1,
-      "faturamento": 64,
-      "custo": 26.91,
-      "title": "Conjunto Moletom Infantil Hugo Jobs Calca Jogger F",
-      "taxa_ml": 6.37,
-      "full_unit_price": 64,
-      "lucro": 37.09,
-      "margem_pct": 58.0,
-      "score": 82
+      "vendas": 3,
+      "faturamento": 65.7,
+      "custo": 54.78,
+      "title": "Carteira Couro Natura Slim Pequena Hugo Jobs 3 Car",
+      "taxa_ml": 9.21,
+      "full_unit_price": 21.9,
+      "lucro": 10.92,
+      "margem_pct": 16.6,
+      "score": 86
     }
   ],
   "categories": [
@@ -85,7 +85,7 @@
       "faturamento": 1558.19,
       "custo": 824.32,
       "taxa_ml": 148.76,
-      "pct": 89.7,
+      "pct": 87.5,
       "margem_pct": 47.1
     },
     {
@@ -94,17 +94,17 @@
       "faturamento": 114.34,
       "custo": 53.82,
       "taxa_ml": 10.76,
-      "pct": 6.6,
+      "pct": 6.4,
       "margem_pct": 52.9
     },
     {
       "nome": "Acessórios",
-      "vendas": 2,
-      "faturamento": 63.8,
-      "custo": 36.52,
-      "taxa_ml": 8.94,
-      "pct": 3.7,
-      "margem_pct": 42.8
+      "vendas": 4,
+      "faturamento": 107.6,
+      "custo": 73.04,
+      "taxa_ml": 15.08,
+      "pct": 6.0,
+      "margem_pct": 32.1
     }
   ],
   "chart": {
@@ -139,7 +139,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 27,
+    "total_orders_fetched": 29,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -157,16 +157,16 @@
     "tacos": 1.1
   },
   "mes": {
-    "vendas": 1354,
-    "faturamento": 89855.91,
-    "taxa_ml": 9790.98,
-    "faturamento_menos_taxa": 80064.93,
-    "ticket_medio": 66.36,
+    "vendas": 1356,
+    "faturamento": 89899.71,
+    "taxa_ml": 9797.12,
+    "faturamento_menos_taxa": 80102.59,
+    "ticket_medio": 66.3,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 89855.91,
+    "organic_revenue": 89899.71,
     "acos": 0,
     "tacos": 0.4,
     "chart": {
@@ -208,7 +208,7 @@
         106,
         274,
         137,
-        24
+        26
       ],
       "faturamento": [
         3568.2,
@@ -228,7 +228,7 @@
         6730.21,
         18152.96,
         8943.19,
-        1558.69
+        1602.49
       ]
     }
   }
