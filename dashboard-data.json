@@ -1,35 +1,35 @@
 {
-  "updated_at": "2026-04-18T12:40:24.068665",
+  "updated_at": "2026-04-18T13:47:18.220177",
   "kpis": {
-    "faturamento_hoje": 855.4,
-    "vendas_hoje": 13,
-    "ticket_medio": 65.8,
-    "cmv_total": 448.34,
-    "lucro_bruto": 407.06,
-    "margem_pct_real": 47.6,
-    "lucro_por_pedido": 31.31,
-    "taxa_ml_total": 83.1,
-    "shipping_total": 118.73,
-    "faturamento_liquido": 653.57,
-    "margem_liquida_pct": 24.0,
-    "lucro_liquido": 205.23,
+    "faturamento_hoje": 1330.99,
+    "vendas_hoje": 21,
+    "ticket_medio": 63.38,
+    "cmv_total": 699.62,
+    "lucro_bruto": 631.37,
+    "margem_pct_real": 47.4,
+    "lucro_por_pedido": 30.07,
+    "taxa_ml_total": 128.88,
+    "shipping_total": 197.72,
+    "faturamento_liquido": 1004.39,
+    "margem_liquida_pct": 22.9,
+    "lucro_liquido": 304.77,
     "vendas_semana": 527,
     "faturamento_semana": 34101.42,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 855.4,
+    "organic_revenue": 1330.99,
     "acos": 0,
-    "tacos": 43.3
+    "tacos": 27.8
   },
   "top5": [
     {
-      "vendas": 11,
-      "faturamento": 746.57,
-      "custo": 394.24,
+      "vendas": 16,
+      "faturamento": 1085.92,
+      "custo": 573.44,
       "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
-      "taxa_ml": 70.29,
+      "taxa_ml": 102.24,
       "full_unit_price": 67.87,
-      "lucro": 352.33,
+      "lucro": 512.48,
       "margem_pct": 47.2,
       "score": 99
     },
@@ -41,6 +41,28 @@
       "taxa_ml": 6.94,
       "full_unit_price": 66.93,
       "lucro": 31.09,
+      "margem_pct": 46.5,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 64,
+      "custo": 26.91,
+      "title": "Conjunto Moletom Infantil Hugo Jobs Calca Jogger F",
+      "taxa_ml": 6.37,
+      "full_unit_price": 64,
+      "lucro": 37.09,
+      "margem_pct": 58.0,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 50.34,
+      "custo": 26.91,
+      "title": "Moletom Infantil Canguru Capuz Hugo Jobs Menino Me",
+      "taxa_ml": 4.39,
+      "full_unit_price": 50.34,
+      "lucro": 23.43,
       "margem_pct": 46.5,
       "score": 82
     },
@@ -59,21 +81,30 @@
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 12,
-      "faturamento": 813.5,
-      "custo": 430.08,
-      "taxa_ml": 77.23,
-      "pct": 95.1,
-      "margem_pct": 47.1
+      "vendas": 17,
+      "faturamento": 1152.85,
+      "custo": 609.28,
+      "taxa_ml": 109.18,
+      "pct": 86.6,
+      "margem_pct": 47.2
+    },
+    {
+      "nome": "Vestuário Infantil",
+      "vendas": 2,
+      "faturamento": 114.34,
+      "custo": 53.82,
+      "taxa_ml": 10.76,
+      "pct": 8.6,
+      "margem_pct": 52.9
     },
     {
       "nome": "Acessórios",
-      "vendas": 1,
-      "faturamento": 41.9,
-      "custo": 18.26,
-      "taxa_ml": 5.87,
-      "pct": 4.9,
-      "margem_pct": 56.4
+      "vendas": 2,
+      "faturamento": 63.8,
+      "custo": 36.52,
+      "taxa_ml": 8.94,
+      "pct": 4.8,
+      "margem_pct": 42.8
     }
   ],
   "chart": {
@@ -108,7 +139,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 13,
+    "total_orders_fetched": 21,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -126,16 +157,16 @@
     "tacos": 1.1
   },
   "mes": {
-    "vendas": 1339,
-    "faturamento": 88907.11,
-    "taxa_ml": 9699.23,
-    "faturamento_menos_taxa": 79207.88,
-    "ticket_medio": 66.4,
+    "vendas": 1348,
+    "faturamento": 89450.57,
+    "taxa_ml": 9751.4,
+    "faturamento_menos_taxa": 79699.17,
+    "ticket_medio": 66.36,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 88907.11,
+    "organic_revenue": 89450.57,
     "acos": 0,
     "tacos": 0.4,
     "chart": {
@@ -175,9 +206,9 @@
         73,
         87,
         106,
-        273,
+        274,
         137,
-        10
+        18
       ],
       "faturamento": [
         3568.2,
@@ -195,9 +226,9 @@
         4629.82,
         5320.65,
         6730.21,
-        18085.09,
+        18152.96,
         8943.19,
-        677.76
+        1153.35
       ]
     }
   }
