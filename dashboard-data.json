@@ -1,37 +1,48 @@
 {
-  "updated_at": "2026-04-18T17:57:53.779376",
+  "updated_at": "2026-04-18T18:50:04.318538",
   "kpis": {
-    "faturamento_hoje": 2036.14,
-    "vendas_hoje": 33,
-    "ticket_medio": 61.7,
-    "cmv_total": 1094.54,
-    "lucro_bruto": 941.6,
-    "margem_pct_real": 46.2,
-    "lucro_por_pedido": 28.53,
-    "taxa_ml_total": 199.37,
-    "shipping_total": 369.28,
-    "faturamento_liquido": 1467.49,
-    "margem_liquida_pct": 18.3,
-    "lucro_liquido": 372.95,
+    "faturamento_hoje": 2232.01,
+    "vendas_hoje": 36,
+    "ticket_medio": 62.0,
+    "cmv_total": 1184.2,
+    "lucro_bruto": 1047.81,
+    "margem_pct_real": 46.9,
+    "lucro_por_pedido": 29.11,
+    "taxa_ml_total": 218.36,
+    "shipping_total": 415.21,
+    "faturamento_liquido": 1598.44,
+    "margem_liquida_pct": 18.6,
+    "lucro_liquido": 414.24,
     "vendas_semana": 527,
     "faturamento_semana": 34101.42,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 2036.14,
+    "organic_revenue": 2232.01,
     "acos": 0,
-    "tacos": 18.2
+    "tacos": 16.6
   },
   "top5": [
     {
-      "vendas": 22,
-      "faturamento": 1493.14,
-      "custo": 788.48,
+      "vendas": 23,
+      "faturamento": 1561.01,
+      "custo": 824.32,
       "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
-      "taxa_ml": 140.44,
+      "taxa_ml": 146.83,
       "full_unit_price": 67.87,
-      "lucro": 704.66,
+      "lucro": 736.69,
       "margem_pct": 47.2,
       "score": 99
+    },
+    {
+      "vendas": 3,
+      "faturamento": 192,
+      "custo": 80.73,
+      "title": "Conjunto Moletom Infantil Hugo Jobs Calca Jogger F",
+      "taxa_ml": 18.97,
+      "full_unit_price": 64,
+      "lucro": 111.27,
+      "margem_pct": 58.0,
+      "score": 86
     },
     {
       "vendas": 1,
@@ -65,37 +76,26 @@
       "lucro": 31.09,
       "margem_pct": 46.5,
       "score": 82
-    },
-    {
-      "vendas": 1,
-      "faturamento": 66.93,
-      "custo": 35.84,
-      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 7.08,
-      "full_unit_price": 66.93,
-      "lucro": 31.09,
-      "margem_pct": 46.5,
-      "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 27,
-      "faturamento": 1814.2,
-      "custo": 967.68,
-      "taxa_ml": 173.53,
-      "pct": 89.1,
+      "vendas": 28,
+      "faturamento": 1882.07,
+      "custo": 1003.52,
+      "taxa_ml": 179.92,
+      "pct": 84.3,
       "margem_pct": 46.7
     },
     {
       "nome": "Vestuário Infantil",
-      "vendas": 2,
-      "faturamento": 114.34,
-      "custo": 53.82,
-      "taxa_ml": 10.76,
-      "pct": 5.6,
-      "margem_pct": 52.9
+      "vendas": 4,
+      "faturamento": 242.34,
+      "custo": 107.64,
+      "taxa_ml": 23.36,
+      "pct": 10.9,
+      "margem_pct": 55.6
     },
     {
       "nome": "Acessórios",
@@ -103,7 +103,7 @@
       "faturamento": 107.6,
       "custo": 73.04,
       "taxa_ml": 15.08,
-      "pct": 5.3,
+      "pct": 4.8,
       "margem_pct": 32.1
     }
   ],
@@ -139,7 +139,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 33,
+    "total_orders_fetched": 36,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -157,16 +157,16 @@
     "tacos": 1.1
   },
   "mes": {
-    "vendas": 1360,
-    "faturamento": 90155.72,
-    "taxa_ml": 9821.89,
-    "faturamento_menos_taxa": 80333.83,
+    "vendas": 1363,
+    "faturamento": 90351.59,
+    "taxa_ml": 9840.88,
+    "faturamento_menos_taxa": 80510.71,
     "ticket_medio": 66.29,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 90155.72,
+    "organic_revenue": 90351.59,
     "acos": 0,
     "tacos": 0.4,
     "chart": {
@@ -208,7 +208,7 @@
         106,
         274,
         137,
-        30
+        33
       ],
       "faturamento": [
         3568.2,
@@ -228,7 +228,7 @@
         6730.21,
         18152.96,
         8943.19,
-        1858.5
+        2054.37
       ]
     }
   }
