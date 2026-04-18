@@ -1,35 +1,35 @@
 {
-  "updated_at": "2026-04-18T13:47:18.220177",
+  "updated_at": "2026-04-18T14:35:10.628198",
   "kpis": {
-    "faturamento_hoje": 1330.99,
-    "vendas_hoje": 21,
-    "ticket_medio": 63.38,
-    "cmv_total": 699.62,
-    "lucro_bruto": 631.37,
+    "faturamento_hoje": 1533.66,
+    "vendas_hoje": 24,
+    "ticket_medio": 63.9,
+    "cmv_total": 807.14,
+    "lucro_bruto": 726.52,
     "margem_pct_real": 47.4,
-    "lucro_por_pedido": 30.07,
-    "taxa_ml_total": 128.88,
-    "shipping_total": 197.72,
-    "faturamento_liquido": 1004.39,
+    "lucro_por_pedido": 30.27,
+    "taxa_ml_total": 148.6,
+    "shipping_total": 226.96,
+    "faturamento_liquido": 1158.1,
     "margem_liquida_pct": 22.9,
-    "lucro_liquido": 304.77,
+    "lucro_liquido": 350.96,
     "vendas_semana": 527,
     "faturamento_semana": 34101.42,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 1330.99,
+    "organic_revenue": 1533.66,
     "acos": 0,
-    "tacos": 27.8
+    "tacos": 24.1
   },
   "top5": [
     {
-      "vendas": 16,
-      "faturamento": 1085.92,
-      "custo": 573.44,
+      "vendas": 18,
+      "faturamento": 1221.66,
+      "custo": 645.12,
       "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
-      "taxa_ml": 102.24,
+      "taxa_ml": 114.88,
       "full_unit_price": 67.87,
-      "lucro": 512.48,
+      "lucro": 576.54,
       "margem_pct": 47.2,
       "score": 99
     },
@@ -39,6 +39,17 @@
       "custo": 35.84,
       "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
       "taxa_ml": 6.94,
+      "full_unit_price": 66.93,
+      "lucro": 31.09,
+      "margem_pct": 46.5,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 66.93,
+      "custo": 35.84,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 7.08,
       "full_unit_price": 66.93,
       "lucro": 31.09,
       "margem_pct": 46.5,
@@ -65,28 +76,17 @@
       "lucro": 23.43,
       "margem_pct": 46.5,
       "score": 82
-    },
-    {
-      "vendas": 1,
-      "faturamento": 41.9,
-      "custo": 18.26,
-      "title": "Carteira Couro Legítimo Slim 8 Porta Cartões E Cnh",
-      "taxa_ml": 5.87,
-      "full_unit_price": 41.9,
-      "lucro": 23.64,
-      "margem_pct": 56.4,
-      "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 17,
-      "faturamento": 1152.85,
-      "custo": 609.28,
-      "taxa_ml": 109.18,
-      "pct": 86.6,
-      "margem_pct": 47.2
+      "vendas": 20,
+      "faturamento": 1355.52,
+      "custo": 716.8,
+      "taxa_ml": 128.9,
+      "pct": 88.4,
+      "margem_pct": 47.1
     },
     {
       "nome": "Vestuário Infantil",
@@ -94,7 +94,7 @@
       "faturamento": 114.34,
       "custo": 53.82,
       "taxa_ml": 10.76,
-      "pct": 8.6,
+      "pct": 7.5,
       "margem_pct": 52.9
     },
     {
@@ -103,7 +103,7 @@
       "faturamento": 63.8,
       "custo": 36.52,
       "taxa_ml": 8.94,
-      "pct": 4.8,
+      "pct": 4.2,
       "margem_pct": 42.8
     }
   ],
@@ -139,7 +139,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 21,
+    "total_orders_fetched": 24,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -157,16 +157,16 @@
     "tacos": 1.1
   },
   "mes": {
-    "vendas": 1348,
-    "faturamento": 89450.57,
-    "taxa_ml": 9751.4,
-    "faturamento_menos_taxa": 79699.17,
+    "vendas": 1351,
+    "faturamento": 89653.24,
+    "taxa_ml": 9771.12,
+    "faturamento_menos_taxa": 79882.12,
     "ticket_medio": 66.36,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 89450.57,
+    "organic_revenue": 89653.24,
     "acos": 0,
     "tacos": 0.4,
     "chart": {
@@ -208,7 +208,7 @@
         106,
         274,
         137,
-        18
+        21
       ],
       "faturamento": [
         3568.2,
@@ -228,7 +228,7 @@
         6730.21,
         18152.96,
         8943.19,
-        1153.35
+        1356.02
       ]
     }
   }
