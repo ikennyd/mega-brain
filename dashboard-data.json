@@ -1,37 +1,48 @@
 {
-  "updated_at": "2026-04-19T13:45:56.281937",
+  "updated_at": "2026-04-19T14:35:10.972472",
   "kpis": {
-    "faturamento_hoje": 768.42,
-    "vendas_hoje": 12,
-    "ticket_medio": 64.03,
-    "cmv_total": 412.5,
-    "lucro_bruto": 355.92,
-    "margem_pct_real": 46.3,
-    "lucro_por_pedido": 29.66,
-    "taxa_ml_total": 74.15,
-    "shipping_total": 126.16,
-    "faturamento_liquido": 568.11,
-    "margem_liquida_pct": 20.3,
-    "lucro_liquido": 155.61,
+    "faturamento_hoje": 1205.6,
+    "vendas_hoje": 17,
+    "ticket_medio": 70.92,
+    "cmv_total": 561.09,
+    "lucro_bruto": 644.51,
+    "margem_pct_real": 53.5,
+    "lucro_por_pedido": 37.91,
+    "taxa_ml_total": 133.93,
+    "shipping_total": 181.31,
+    "faturamento_liquido": 890.36,
+    "margem_liquida_pct": 27.3,
+    "lucro_liquido": 329.27,
     "vendas_semana": 526,
     "faturamento_semana": 33950.88,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 768.42,
+    "organic_revenue": 1205.6,
     "acos": 0,
-    "tacos": 48.2
+    "tacos": 30.7
   },
   "top5": [
     {
-      "vendas": 9,
-      "faturamento": 610.83,
-      "custo": 322.56,
+      "vendas": 11,
+      "faturamento": 746.57,
+      "custo": 394.24,
       "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
-      "taxa_ml": 57.51,
+      "taxa_ml": 70.29,
       "full_unit_price": 67.87,
-      "lucro": 288.27,
+      "lucro": 352.33,
       "margem_pct": 47.2,
-      "score": 98
+      "score": 99
+    },
+    {
+      "vendas": 2,
+      "faturamento": 233.64,
+      "custo": 50.0,
+      "title": "Perfume Grace Midnight Feminino Hinode (frasco Ant",
+      "taxa_ml": 39.72,
+      "full_unit_price": 116.82,
+      "lucro": 183.64,
+      "margem_pct": 78.6,
+      "score": 84
     },
     {
       "vendas": 1,
@@ -57,25 +68,43 @@
     },
     {
       "vendas": 1,
-      "faturamento": 21.9,
-      "custo": 18.26,
-      "title": "Carteira Couro Natura Slim Pequena Hugo Jobs 3 Car",
-      "taxa_ml": 3.07,
-      "full_unit_price": 21.9,
-      "lucro": 3.64,
-      "margem_pct": 16.6,
+      "faturamento": 67.8,
+      "custo": 26.91,
+      "title": "Conjunto Moletom Infantil Hugo Jobs Calca Jogger F",
+      "taxa_ml": 7.28,
+      "full_unit_price": 67.8,
+      "lucro": 40.89,
+      "margem_pct": 60.3,
       "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 11,
-      "faturamento": 746.52,
-      "custo": 394.24,
-      "taxa_ml": 71.08,
-      "pct": 97.1,
+      "vendas": 13,
+      "faturamento": 882.26,
+      "custo": 465.92,
+      "taxa_ml": 83.86,
+      "pct": 73.2,
       "margem_pct": 47.2
+    },
+    {
+      "nome": "Outros",
+      "vendas": 2,
+      "faturamento": 233.64,
+      "custo": 50.0,
+      "taxa_ml": 39.72,
+      "pct": 19.4,
+      "margem_pct": 78.6
+    },
+    {
+      "nome": "Vestuário Infantil",
+      "vendas": 1,
+      "faturamento": 67.8,
+      "custo": 26.91,
+      "taxa_ml": 7.28,
+      "pct": 5.6,
+      "margem_pct": 60.3
     },
     {
       "nome": "Acessórios",
@@ -83,7 +112,7 @@
       "faturamento": 21.9,
       "custo": 18.26,
       "taxa_ml": 3.07,
-      "pct": 2.9,
+      "pct": 1.8,
       "margem_pct": 16.6
     }
   ],
@@ -119,7 +148,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 12,
+    "total_orders_fetched": 18,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -137,16 +166,16 @@
     "tacos": 1.1
   },
   "mes": {
-    "vendas": 1408,
-    "faturamento": 93236.95,
-    "taxa_ml": 10138.78,
-    "faturamento_menos_taxa": 83098.17,
-    "ticket_medio": 66.22,
+    "vendas": 1413,
+    "faturamento": 93674.13,
+    "taxa_ml": 10198.56,
+    "faturamento_menos_taxa": 83475.57,
+    "ticket_medio": 66.29,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 93236.95,
+    "organic_revenue": 93674.13,
     "acos": 0,
     "tacos": 0.4,
     "chart": {
@@ -190,7 +219,7 @@
         274,
         137,
         66,
-        12
+        17
       ],
       "faturamento": [
         3568.2,
@@ -211,7 +240,7 @@
         18152.96,
         8943.19,
         4171.31,
-        768.42
+        1205.6
       ]
     }
   }
