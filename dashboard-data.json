@@ -1,37 +1,48 @@
 {
-  "updated_at": "2026-04-20T16:45:03.520057",
+  "updated_at": "2026-04-20T17:42:07.903679",
   "kpis": {
-    "faturamento_hoje": 1730.34,
-    "vendas_hoje": 26,
-    "ticket_medio": 66.55,
-    "cmv_total": 823.61,
-    "lucro_bruto": 906.73,
-    "margem_pct_real": 52.4,
-    "lucro_por_pedido": 34.87,
-    "taxa_ml_total": 198.46,
-    "shipping_total": 265.04,
-    "faturamento_liquido": 1266.84,
-    "margem_liquida_pct": 25.6,
-    "lucro_liquido": 443.23,
-    "vendas_semana": 527,
-    "faturamento_semana": 34350.32,
+    "faturamento_hoje": 2058.07,
+    "vendas_hoje": 29,
+    "ticket_medio": 70.97,
+    "cmv_total": 922.2,
+    "lucro_bruto": 1135.87,
+    "margem_pct_real": 55.2,
+    "lucro_por_pedido": 39.17,
+    "taxa_ml_total": 240.04,
+    "shipping_total": 308.99,
+    "faturamento_liquido": 1509.04,
+    "margem_liquida_pct": 28.5,
+    "lucro_liquido": 586.84,
+    "vendas_semana": 526,
+    "faturamento_semana": 34286.31,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 1730.34,
+    "organic_revenue": 2058.07,
     "acos": 0,
-    "tacos": 21.4
+    "tacos": 18.0
   },
   "top5": [
     {
-      "vendas": 12,
-      "faturamento": 814.44,
-      "custo": 430.08,
+      "vendas": 14,
+      "faturamento": 950.18,
+      "custo": 501.76,
       "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
-      "taxa_ml": 76.68,
+      "taxa_ml": 89.46,
       "full_unit_price": 67.87,
-      "lucro": 384.36,
+      "lucro": 448.42,
       "margem_pct": 47.2,
       "score": 99
+    },
+    {
+      "vendas": 1,
+      "faturamento": 191.99,
+      "custo": 26.91,
+      "title": "Kit 3 Conjunto Moletom Infantil Menino Menina Inve",
+      "taxa_ml": 28.8,
+      "full_unit_price": 191.99,
+      "lucro": 165.08,
+      "margem_pct": 86.0,
+      "score": 82
     },
     {
       "vendas": 2,
@@ -65,37 +76,26 @@
       "lucro": 70.92,
       "margem_pct": 56.4,
       "score": 86
-    },
-    {
-      "vendas": 1,
-      "faturamento": 109,
-      "custo": 25.0,
-      "title": "Perfume Masculino Hinode Lattitude Origini 100ml",
-      "taxa_ml": 18.53,
-      "full_unit_price": 109,
-      "lucro": 84.0,
-      "margem_pct": 77.1,
-      "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 17,
-      "faturamento": 1152.15,
-      "custo": 609.28,
-      "taxa_ml": 117.09,
-      "pct": 66.6,
+      "vendas": 19,
+      "faturamento": 1287.89,
+      "custo": 680.96,
+      "taxa_ml": 129.87,
+      "pct": 62.6,
       "margem_pct": 47.1
     },
     {
       "nome": "Vestuário Infantil",
-      "vendas": 5,
-      "faturamento": 343.49,
-      "custo": 134.55,
-      "taxa_ml": 45.23,
-      "pct": 19.9,
-      "margem_pct": 60.8
+      "vendas": 6,
+      "faturamento": 535.48,
+      "custo": 161.46,
+      "taxa_ml": 74.03,
+      "pct": 26.0,
+      "margem_pct": 69.8
     },
     {
       "nome": "Acessórios",
@@ -103,7 +103,7 @@
       "faturamento": 125.7,
       "custo": 54.78,
       "taxa_ml": 17.61,
-      "pct": 7.3,
+      "pct": 6.1,
       "margem_pct": 56.4
     },
     {
@@ -112,7 +112,7 @@
       "faturamento": 109,
       "custo": 25.0,
       "taxa_ml": 18.53,
-      "pct": 6.3,
+      "pct": 5.3,
       "margem_pct": 77.1
     }
   ],
@@ -128,7 +128,7 @@
     ],
     "vendas": [
       86,
-      106,
+      105,
       272,
       60,
       0,
@@ -137,7 +137,7 @@
     ],
     "faturamento": [
       5253.72,
-      6730.21,
+      6666.2,
       18017.22,
       4157.15,
       0,
@@ -148,34 +148,34 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 30,
+    "total_orders_fetched": 33,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 527,
-    "faturamento": 34350.32,
-    "taxa_ml": 3467.36,
-    "faturamento_menos_taxa": 30882.96,
+    "vendas": 526,
+    "faturamento": 34286.31,
+    "taxa_ml": 3460.98,
+    "faturamento_menos_taxa": 30825.33,
     "ticket_medio": 65.18,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 34350.32,
+    "organic_revenue": 34286.31,
     "acos": 0,
     "tacos": 1.1
   },
   "mes": {
-    "vendas": 1496,
-    "faturamento": 99586.21,
-    "taxa_ml": 10861.57,
-    "faturamento_menos_taxa": 88724.64,
-    "ticket_medio": 66.57,
+    "vendas": 1497,
+    "faturamento": 99782.06,
+    "taxa_ml": 10890.38,
+    "faturamento_menos_taxa": 88891.68,
+    "ticket_medio": 66.65,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 99586.21,
+    "organic_revenue": 99782.06,
     "acos": 0,
     "tacos": 0.4,
     "chart": {
@@ -216,12 +216,12 @@
         41,
         73,
         87,
-        106,
+        105,
         274,
         137,
-        66,
+        65,
         76,
-        24
+        27
       ],
       "faturamento": [
         3568.2,
@@ -238,12 +238,12 @@
         2901.96,
         4629.82,
         5320.65,
-        6730.21,
+        6666.2,
         18152.96,
         8943.19,
-        4171.31,
+        4103.44,
         5519.22,
-        1598.46
+        1926.19
       ]
     }
   }
