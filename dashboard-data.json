@@ -1,37 +1,48 @@
 {
-  "updated_at": "2026-04-20T15:42:37.943781",
+  "updated_at": "2026-04-20T16:45:03.520057",
   "kpis": {
-    "faturamento_hoje": 1595.54,
-    "vendas_hoje": 24,
-    "ticket_medio": 66.48,
-    "cmv_total": 751.93,
-    "lucro_bruto": 843.61,
-    "margem_pct_real": 52.9,
-    "lucro_por_pedido": 35.15,
-    "taxa_ml_total": 184.99,
-    "shipping_total": 248.94,
-    "faturamento_liquido": 1161.61,
-    "margem_liquida_pct": 25.7,
-    "lucro_liquido": 409.68,
+    "faturamento_hoje": 1730.34,
+    "vendas_hoje": 26,
+    "ticket_medio": 66.55,
+    "cmv_total": 823.61,
+    "lucro_bruto": 906.73,
+    "margem_pct_real": 52.4,
+    "lucro_por_pedido": 34.87,
+    "taxa_ml_total": 198.46,
+    "shipping_total": 265.04,
+    "faturamento_liquido": 1266.84,
+    "margem_liquida_pct": 25.6,
+    "lucro_liquido": 443.23,
     "vendas_semana": 527,
     "faturamento_semana": 34350.32,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 1595.54,
+    "organic_revenue": 1730.34,
     "acos": 0,
-    "tacos": 23.2
+    "tacos": 21.4
   },
   "top5": [
     {
-      "vendas": 11,
-      "faturamento": 746.57,
-      "custo": 394.24,
+      "vendas": 12,
+      "faturamento": 814.44,
+      "custo": 430.08,
       "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
-      "taxa_ml": 70.29,
+      "taxa_ml": 76.68,
       "full_unit_price": 67.87,
-      "lucro": 352.33,
+      "lucro": 384.36,
       "margem_pct": 47.2,
       "score": 99
+    },
+    {
+      "vendas": 2,
+      "faturamento": 133.86,
+      "custo": 71.68,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 14.16,
+      "full_unit_price": 66.93,
+      "lucro": 62.18,
+      "margem_pct": 46.5,
+      "score": 84
     },
     {
       "vendas": 2,
@@ -65,28 +76,17 @@
       "lucro": 84.0,
       "margem_pct": 77.1,
       "score": 82
-    },
-    {
-      "vendas": 1,
-      "faturamento": 78.99,
-      "custo": 26.91,
-      "title": "Kit 3 Calça Moletom Infantil Punho Flanelada Menin",
-      "taxa_ml": 10.92,
-      "full_unit_price": 78.99,
-      "lucro": 52.08,
-      "margem_pct": 65.9,
-      "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 15,
-      "faturamento": 1017.35,
-      "custo": 537.6,
-      "taxa_ml": 103.62,
-      "pct": 63.8,
-      "margem_pct": 47.2
+      "vendas": 17,
+      "faturamento": 1152.15,
+      "custo": 609.28,
+      "taxa_ml": 117.09,
+      "pct": 66.6,
+      "margem_pct": 47.1
     },
     {
       "nome": "Vestuário Infantil",
@@ -94,7 +94,7 @@
       "faturamento": 343.49,
       "custo": 134.55,
       "taxa_ml": 45.23,
-      "pct": 21.5,
+      "pct": 19.9,
       "margem_pct": 60.8
     },
     {
@@ -103,7 +103,7 @@
       "faturamento": 125.7,
       "custo": 54.78,
       "taxa_ml": 17.61,
-      "pct": 7.9,
+      "pct": 7.3,
       "margem_pct": 56.4
     },
     {
@@ -112,7 +112,7 @@
       "faturamento": 109,
       "custo": 25.0,
       "taxa_ml": 18.53,
-      "pct": 6.8,
+      "pct": 6.3,
       "margem_pct": 77.1
     }
   ],
@@ -148,7 +148,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 28,
+    "total_orders_fetched": 30,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -166,16 +166,16 @@
     "tacos": 1.1
   },
   "mes": {
-    "vendas": 1494,
-    "faturamento": 99451.41,
-    "taxa_ml": 10848.1,
-    "faturamento_menos_taxa": 88603.31,
+    "vendas": 1496,
+    "faturamento": 99586.21,
+    "taxa_ml": 10861.57,
+    "faturamento_menos_taxa": 88724.64,
     "ticket_medio": 66.57,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 99451.41,
+    "organic_revenue": 99586.21,
     "acos": 0,
     "tacos": 0.4,
     "chart": {
@@ -221,7 +221,7 @@
         137,
         66,
         76,
-        22
+        24
       ],
       "faturamento": [
         3568.2,
@@ -243,7 +243,7 @@
         8943.19,
         4171.31,
         5519.22,
-        1463.66
+        1598.46
       ]
     }
   }
