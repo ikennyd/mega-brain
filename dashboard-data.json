@@ -1,28 +1,70 @@
 {
-  "updated_at": "2026-04-20T02:44:32.248502",
+  "updated_at": "2026-04-20T05:29:00.952943",
   "kpis": {
-    "faturamento_hoje": 0,
-    "vendas_hoje": 0,
-    "ticket_medio": 0,
-    "cmv_total": 0,
-    "lucro_bruto": 0,
-    "margem_pct_real": 0,
-    "lucro_por_pedido": 0,
-    "taxa_ml_total": 0,
-    "shipping_total": 0,
-    "faturamento_liquido": 0,
-    "margem_liquida_pct": 0,
-    "lucro_liquido": 0,
+    "faturamento_hoje": 131.88,
+    "vendas_hoje": 2,
+    "ticket_medio": 65.94,
+    "cmv_total": 62.75,
+    "lucro_bruto": 69.13,
+    "margem_pct_real": 52.4,
+    "lucro_por_pedido": 34.56,
+    "taxa_ml_total": 12.77,
+    "shipping_total": 26.08,
+    "faturamento_liquido": 93.03,
+    "margem_liquida_pct": 23.0,
+    "lucro_liquido": 30.28,
     "vendas_semana": 527,
     "faturamento_semana": 34350.32,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 0.0,
+    "organic_revenue": 131.88,
     "acos": 0,
-    "tacos": 0
+    "tacos": 280.6
   },
-  "top5": [],
-  "categories": [],
+  "top5": [
+    {
+      "vendas": 1,
+      "faturamento": 67.87,
+      "custo": 35.84,
+      "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
+      "taxa_ml": 6.39,
+      "full_unit_price": 67.87,
+      "lucro": 32.03,
+      "margem_pct": 47.2,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 64.01,
+      "custo": 26.91,
+      "title": "Conjunto Moletom Infantil Hugo Jobs Calca Jogger F",
+      "taxa_ml": 6.38,
+      "full_unit_price": 64.01,
+      "lucro": 37.1,
+      "margem_pct": 58.0,
+      "score": 82
+    }
+  ],
+  "categories": [
+    {
+      "nome": "Vestuário Adult",
+      "vendas": 1,
+      "faturamento": 67.87,
+      "custo": 35.84,
+      "taxa_ml": 6.39,
+      "pct": 51.5,
+      "margem_pct": 47.2
+    },
+    {
+      "nome": "Vestuário Infantil",
+      "vendas": 1,
+      "faturamento": 64.01,
+      "custo": 26.91,
+      "taxa_ml": 6.38,
+      "pct": 48.5,
+      "margem_pct": 58.0
+    }
+  ],
   "chart": {
     "labels": [
       "Ter (14)",
@@ -55,7 +97,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 0,
+    "total_orders_fetched": 2,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -73,16 +115,16 @@
     "tacos": 1.1
   },
   "mes": {
-    "vendas": 1469,
-    "faturamento": 97788.0,
-    "taxa_ml": 10656.72,
-    "faturamento_menos_taxa": 87131.28,
+    "vendas": 1472,
+    "faturamento": 97987.75,
+    "taxa_ml": 10675.88,
+    "faturamento_menos_taxa": 87311.87,
     "ticket_medio": 66.57,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 97788.0,
+    "organic_revenue": 97987.75,
     "acos": 0,
     "tacos": 0.4,
     "chart": {
@@ -127,7 +169,7 @@
         274,
         137,
         66,
-        73,
+        76,
         0
       ],
       "faturamento": [
@@ -149,7 +191,7 @@
         18152.96,
         8943.19,
         4171.31,
-        5319.47,
+        5519.22,
         0
       ]
     }
