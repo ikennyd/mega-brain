@@ -1,48 +1,48 @@
 {
-  "updated_at": "2026-04-21T18:59:13.817458",
+  "updated_at": "2026-04-21T20:03:54.756038",
   "kpis": {
-    "faturamento_hoje": 4464.86,
-    "vendas_hoje": 59,
-    "ticket_medio": 75.68,
-    "cmv_total": 1875.85,
-    "lucro_bruto": 2589.01,
-    "margem_pct_real": 58.0,
-    "lucro_por_pedido": 43.88,
-    "taxa_ml_total": 550.11,
-    "shipping_total": 815.87,
-    "faturamento_liquido": 3098.88,
-    "margem_liquida_pct": 27.4,
-    "lucro_liquido": 1223.03,
+    "faturamento_hoje": 5104.93,
+    "vendas_hoje": 67,
+    "ticket_medio": 76.19,
+    "cmv_total": 2140.89,
+    "lucro_bruto": 2964.04,
+    "margem_pct_real": 58.1,
+    "lucro_por_pedido": 44.24,
+    "taxa_ml_total": 631.1,
+    "shipping_total": 899.16,
+    "faturamento_liquido": 3574.67,
+    "margem_liquida_pct": 28.1,
+    "lucro_liquido": 1433.78,
     "vendas_semana": 525,
     "faturamento_semana": 34386.77,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 4464.86,
+    "organic_revenue": 5104.93,
     "acos": 0,
-    "tacos": 8.3
+    "tacos": 7.2
   },
   "top5": [
     {
-      "vendas": 23,
-      "faturamento": 1561.01,
-      "custo": 824.32,
+      "vendas": 28,
+      "faturamento": 1900.36,
+      "custo": 1003.52,
       "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
-      "taxa_ml": 146.69,
+      "taxa_ml": 178.5,
       "full_unit_price": 67.87,
-      "lucro": 736.69,
+      "lucro": 896.84,
       "margem_pct": 47.2,
       "score": 99
     },
     {
-      "vendas": 7,
-      "faturamento": 817.74,
-      "custo": 175.0,
+      "vendas": 8,
+      "faturamento": 934.56,
+      "custo": 200.0,
       "title": "Perfume Grace Midnight Feminino Hinode (frasco Ant",
-      "taxa_ml": 139.02,
+      "taxa_ml": 158.88,
       "full_unit_price": 116.82,
-      "lucro": 642.74,
+      "lucro": 734.56,
       "margem_pct": 78.6,
-      "score": 94
+      "score": 96
     },
     {
       "vendas": 3,
@@ -81,21 +81,21 @@
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 33,
-      "faturamento": 2205.5,
-      "custo": 1182.72,
-      "taxa_ml": 226.59,
-      "pct": 49.4,
+      "vendas": 39,
+      "faturamento": 2609.75,
+      "custo": 1397.76,
+      "taxa_ml": 267.49,
+      "pct": 51.1,
       "margem_pct": 46.4
     },
     {
       "nome": "Outros",
-      "vendas": 10,
-      "faturamento": 1144.74,
-      "custo": 250.0,
-      "taxa_ml": 194.61,
-      "pct": 25.6,
-      "margem_pct": 78.2
+      "vendas": 12,
+      "faturamento": 1380.56,
+      "custo": 300.0,
+      "taxa_ml": 234.7,
+      "pct": 27.0,
+      "margem_pct": 78.3
     },
     {
       "nome": "Vestuário Infantil",
@@ -103,7 +103,7 @@
       "faturamento": 981.93,
       "custo": 376.74,
       "taxa_ml": 110.46,
-      "pct": 22.0,
+      "pct": 19.2,
       "margem_pct": 61.6
     },
     {
@@ -112,7 +112,7 @@
       "faturamento": 132.69,
       "custo": 66.39,
       "taxa_ml": 18.45,
-      "pct": 3.0,
+      "pct": 2.6,
       "margem_pct": 50.0
     }
   ],
@@ -148,7 +148,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 59,
+    "total_orders_fetched": 67,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -166,16 +166,16 @@
     "tacos": 1.1
   },
   "mes": {
-    "vendas": 1606,
-    "faturamento": 107991.03,
-    "taxa_ml": 11876.25,
-    "faturamento_menos_taxa": 96114.78,
-    "ticket_medio": 67.24,
+    "vendas": 1614,
+    "faturamento": 108631.1,
+    "taxa_ml": 11957.24,
+    "faturamento_menos_taxa": 96673.86,
+    "ticket_medio": 67.31,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 107991.03,
+    "organic_revenue": 108631.1,
     "acos": 0,
     "tacos": 0.3,
     "chart": {
@@ -223,7 +223,7 @@
         65,
         76,
         81,
-        57
+        65
       ],
       "faturamento": [
         3568.2,
@@ -246,7 +246,7 @@
         4103.44,
         5519.22,
         5930.19,
-        4336.85
+        4976.92
       ]
     }
   }
