@@ -1,28 +1,112 @@
 {
-  "updated_at": "2026-04-21T02:12:50.456131",
+  "updated_at": "2026-04-21T05:09:35.254864",
   "kpis": {
-    "faturamento_hoje": 0,
-    "vendas_hoje": 0,
-    "ticket_medio": 0,
-    "cmv_total": 0,
-    "lucro_bruto": 0,
-    "margem_pct_real": 0,
-    "lucro_por_pedido": 0,
-    "taxa_ml_total": 0,
-    "shipping_total": 0,
-    "faturamento_liquido": 0,
-    "margem_liquida_pct": 0,
-    "lucro_liquido": 0,
+    "faturamento_hoje": 444.58,
+    "vendas_hoje": 6,
+    "ticket_medio": 74.1,
+    "cmv_total": 177.41,
+    "lucro_bruto": 267.17,
+    "margem_pct_real": 60.1,
+    "lucro_por_pedido": 44.53,
+    "taxa_ml_total": 51.63,
+    "shipping_total": 96.9,
+    "faturamento_liquido": 296.05,
+    "margem_liquida_pct": 26.7,
+    "lucro_liquido": 118.64,
     "vendas_semana": 527,
     "faturamento_semana": 34518.65,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 0.0,
+    "organic_revenue": 444.58,
     "acos": 0,
-    "tacos": 0
+    "tacos": 83.2
   },
-  "top5": [],
-  "categories": [],
+  "top5": [
+    {
+      "vendas": 2,
+      "faturamento": 135.74,
+      "custo": 71.68,
+      "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
+      "taxa_ml": 12.78,
+      "full_unit_price": 67.87,
+      "lucro": 64.06,
+      "margem_pct": 47.2,
+      "score": 84
+    },
+    {
+      "vendas": 1,
+      "faturamento": 116.82,
+      "custo": 25.0,
+      "title": "Perfume Grace Midnight Feminino Hinode (frasco Ant",
+      "taxa_ml": 19.86,
+      "full_unit_price": 116.82,
+      "lucro": 91.82,
+      "margem_pct": 78.6,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 64.01,
+      "custo": 26.91,
+      "title": "Conjunto Moletom Infantil Hugo Jobs Calca Jogger F",
+      "taxa_ml": 6.31,
+      "full_unit_price": 64.01,
+      "lucro": 37.1,
+      "margem_pct": 58.0,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 64.01,
+      "custo": 26.91,
+      "title": "Conjunto Moletom Infantil Hugo Jobs Calca Jogger F",
+      "taxa_ml": 6.38,
+      "full_unit_price": 64.01,
+      "lucro": 37.1,
+      "margem_pct": 58.0,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 64,
+      "custo": 26.91,
+      "title": "Conjunto Moletom Infantil Hugo Jobs Calca Jogger F",
+      "taxa_ml": 6.3,
+      "full_unit_price": 64,
+      "lucro": 37.09,
+      "margem_pct": 58.0,
+      "score": 82
+    }
+  ],
+  "categories": [
+    {
+      "nome": "Vestuário Infantil",
+      "vendas": 3,
+      "faturamento": 192.02,
+      "custo": 80.73,
+      "taxa_ml": 18.99,
+      "pct": 43.2,
+      "margem_pct": 58.0
+    },
+    {
+      "nome": "Vestuário Adult",
+      "vendas": 2,
+      "faturamento": 135.74,
+      "custo": 71.68,
+      "taxa_ml": 12.78,
+      "pct": 30.5,
+      "margem_pct": 47.2
+    },
+    {
+      "nome": "Outros",
+      "vendas": 1,
+      "faturamento": 116.82,
+      "custo": 25.0,
+      "taxa_ml": 19.86,
+      "pct": 26.3,
+      "margem_pct": 78.6
+    }
+  ],
   "chart": {
     "labels": [
       "Qua (15)",
@@ -55,7 +139,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 0,
+    "total_orders_fetched": 6,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -73,16 +157,16 @@
     "tacos": 1.1
   },
   "mes": {
-    "vendas": 1541,
-    "faturamento": 103073.94,
-    "taxa_ml": 11286.24,
-    "faturamento_menos_taxa": 91787.7,
-    "ticket_medio": 66.89,
+    "vendas": 1555,
+    "faturamento": 104102.63,
+    "taxa_ml": 11403.32,
+    "faturamento_menos_taxa": 92699.31,
+    "ticket_medio": 66.95,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 103073.94,
+    "organic_revenue": 104102.63,
     "acos": 0,
     "tacos": 0.4,
     "chart": {
@@ -129,8 +213,8 @@
         137,
         65,
         76,
-        71,
-        0
+        81,
+        4
       ],
       "faturamento": [
         3568.2,
@@ -152,8 +236,8 @@
         8943.19,
         4103.44,
         5519.22,
-        5218.07,
-        0
+        5930.19,
+        316.57
       ]
     }
   }
