@@ -1,37 +1,48 @@
 {
-  "updated_at": "2026-04-23T07:12:24.456077",
+  "updated_at": "2026-04-23T09:02:45.251865",
   "kpis": {
-    "faturamento_hoje": 386.36,
-    "vendas_hoje": 5,
-    "ticket_medio": 77.27,
-    "cmv_total": 141.57,
-    "lucro_bruto": 244.79,
-    "margem_pct_real": 63.4,
-    "lucro_por_pedido": 48.96,
-    "taxa_ml_total": 52.36,
-    "shipping_total": 49.15,
-    "faturamento_liquido": 284.85,
-    "margem_liquida_pct": 37.1,
-    "lucro_liquido": 143.28,
+    "faturamento_hoje": 564.83,
+    "vendas_hoje": 7,
+    "ticket_medio": 80.69,
+    "cmv_total": 193.48,
+    "lucro_bruto": 371.35,
+    "margem_pct_real": 65.7,
+    "lucro_por_pedido": 53.05,
+    "taxa_ml_total": 78.2,
+    "shipping_total": 73.65,
+    "faturamento_liquido": 412.98,
+    "margem_liquida_pct": 38.9,
+    "lucro_liquido": 219.5,
     "vendas_semana": 530,
     "faturamento_semana": 36867.2,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 386.36,
+    "organic_revenue": 564.83,
     "acos": 0,
-    "tacos": 95.8
+    "tacos": 65.5
   },
   "top5": [
     {
-      "vendas": 1,
-      "faturamento": 114.46,
-      "custo": 25.0,
+      "vendas": 2,
+      "faturamento": 228.92,
+      "custo": 50.0,
       "title": "Perfume Grace Midnight Feminino Hinode (frasco Ant",
-      "taxa_ml": 19.46,
+      "taxa_ml": 38.92,
       "full_unit_price": 114.46,
-      "lucro": 89.46,
+      "lucro": 178.92,
       "margem_pct": 78.2,
-      "score": 82
+      "score": 84
+    },
+    {
+      "vendas": 2,
+      "faturamento": 128.02,
+      "custo": 53.82,
+      "title": "Conjunto Moletom Infantil Hugo Jobs Calca Jogger F",
+      "taxa_ml": 12.76,
+      "full_unit_price": 64.01,
+      "lucro": 74.2,
+      "margem_pct": 58.0,
+      "score": 84
     },
     {
       "vendas": 1,
@@ -57,17 +68,6 @@
     },
     {
       "vendas": 1,
-      "faturamento": 64.01,
-      "custo": 26.91,
-      "title": "Conjunto Moletom Infantil Hugo Jobs Calca Jogger F",
-      "taxa_ml": 6.38,
-      "full_unit_price": 64.01,
-      "lucro": 37.1,
-      "margem_pct": 58.0,
-      "score": 82
-    },
-    {
-      "vendas": 1,
       "faturamento": 64,
       "custo": 26.91,
       "title": "Conjunto Moletom Infantil Hugo Jobs Calca Jogger F",
@@ -81,20 +81,20 @@
   "categories": [
     {
       "nome": "Vestuário Infantil",
-      "vendas": 3,
-      "faturamento": 207.0,
-      "custo": 80.73,
-      "taxa_ml": 23.81,
-      "pct": 53.6,
-      "margem_pct": 61.0
+      "vendas": 4,
+      "faturamento": 271.01,
+      "custo": 107.64,
+      "taxa_ml": 30.19,
+      "pct": 48.0,
+      "margem_pct": 60.3
     },
     {
       "nome": "Outros",
-      "vendas": 1,
-      "faturamento": 114.46,
-      "custo": 25.0,
-      "taxa_ml": 19.46,
-      "pct": 29.6,
+      "vendas": 2,
+      "faturamento": 228.92,
+      "custo": 50.0,
+      "taxa_ml": 38.92,
+      "pct": 40.5,
       "margem_pct": 78.2
     },
     {
@@ -103,7 +103,7 @@
       "faturamento": 64.9,
       "custo": 35.84,
       "taxa_ml": 9.09,
-      "pct": 16.8,
+      "pct": 11.5,
       "margem_pct": 44.8
     }
   ],
@@ -139,7 +139,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 5,
+    "total_orders_fetched": 7,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -157,16 +157,16 @@
     "tacos": 1.0
   },
   "mes": {
-    "vendas": 1798,
-    "faturamento": 121989.38,
-    "taxa_ml": 13533.27,
-    "faturamento_menos_taxa": 108456.11,
-    "ticket_medio": 67.85,
+    "vendas": 1800,
+    "faturamento": 122167.85,
+    "taxa_ml": 13559.11,
+    "faturamento_menos_taxa": 108608.74,
+    "ticket_medio": 67.87,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 121989.38,
+    "organic_revenue": 122167.85,
     "acos": 0,
     "tacos": 0.3,
     "chart": {
@@ -218,7 +218,7 @@
         80,
         135,
         115,
-        2
+        4
       ],
       "faturamento": [
         3568.2,
@@ -243,7 +243,7 @@
         5866.19,
         10040.26,
         8330.82,
-        128.01
+        306.48
       ]
     }
   }
