@@ -1,27 +1,38 @@
 {
-  "updated_at": "2026-04-23T21:28:02.778422",
+  "updated_at": "2026-04-23T22:07:48.977806",
   "kpis": {
-    "faturamento_hoje": 9176.88,
-    "vendas_hoje": 133,
-    "ticket_medio": 69.0,
-    "cmv_total": 4379.35,
-    "lucro_bruto": 4797.53,
+    "faturamento_hoje": 9465.91,
+    "vendas_hoje": 137,
+    "ticket_medio": 69.09,
+    "cmv_total": 4511.87,
+    "lucro_bruto": 4954.04,
     "margem_pct_real": 52.3,
-    "lucro_por_pedido": 36.07,
-    "taxa_ml_total": 1254.88,
-    "shipping_total": 1513.48,
-    "faturamento_liquido": 6408.52,
-    "margem_liquida_pct": 22.1,
-    "lucro_liquido": 2029.17,
+    "lucro_por_pedido": 36.16,
+    "taxa_ml_total": 1298.79,
+    "shipping_total": 1554.08,
+    "faturamento_liquido": 6613.04,
+    "margem_liquida_pct": 22.2,
+    "lucro_liquido": 2101.17,
     "vendas_semana": 530,
     "faturamento_semana": 36867.2,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 9176.88,
+    "organic_revenue": 9465.91,
     "acos": 0,
-    "tacos": 4.0
+    "tacos": 3.9
   },
   "top5": [
+    {
+      "vendas": 9,
+      "faturamento": 1030.14,
+      "custo": 225.0,
+      "title": "Perfume Grace Midnight Feminino Hinode (frasco Ant",
+      "taxa_ml": 175.14,
+      "full_unit_price": 114.46,
+      "lucro": 805.14,
+      "margem_pct": 78.2,
+      "score": 98
+    },
     {
       "vendas": 10,
       "faturamento": 1020,
@@ -34,15 +45,15 @@
       "score": 99
     },
     {
-      "vendas": 8,
-      "faturamento": 915.68,
-      "custo": 200.0,
-      "title": "Perfume Grace Midnight Feminino Hinode (frasco Ant",
-      "taxa_ml": 155.68,
-      "full_unit_price": 114.46,
-      "lucro": 715.68,
-      "margem_pct": 78.2,
-      "score": 96
+      "vendas": 16,
+      "faturamento": 931.04,
+      "custo": 573.44,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 130.4,
+      "full_unit_price": 58.19,
+      "lucro": 357.6,
+      "margem_pct": 38.4,
+      "score": 99
     },
     {
       "vendas": 15,
@@ -53,17 +64,6 @@
       "full_unit_price": 59,
       "lucro": 347.4,
       "margem_pct": 39.3,
-      "score": 99
-    },
-    {
-      "vendas": 14,
-      "faturamento": 814.66,
-      "custo": 501.76,
-      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 114.1,
-      "full_unit_price": 58.19,
-      "lucro": 312.9,
-      "margem_pct": 38.4,
       "score": 99
     },
     {
@@ -81,21 +81,21 @@
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 87,
-      "faturamento": 5036.37,
-      "custo": 3118.08,
-      "taxa_ml": 699.47,
-      "pct": 54.9,
+      "vendas": 90,
+      "faturamento": 5210.94,
+      "custo": 3225.6,
+      "taxa_ml": 723.92,
+      "pct": 55.0,
       "margem_pct": 38.1
     },
     {
       "nome": "Outros",
-      "vendas": 22,
-      "faturamento": 2371.68,
-      "custo": 550.0,
-      "taxa_ml": 352.2,
-      "pct": 25.8,
-      "margem_pct": 76.8
+      "vendas": 23,
+      "faturamento": 2486.14,
+      "custo": 575.0,
+      "taxa_ml": 371.66,
+      "pct": 26.3,
+      "margem_pct": 76.9
     },
     {
       "nome": "Vestuário Infantil",
@@ -103,7 +103,7 @@
       "faturamento": 1741.84,
       "custo": 699.66,
       "taxa_ml": 199.43,
-      "pct": 19.0,
+      "pct": 18.4,
       "margem_pct": 59.8
     },
     {
@@ -148,14 +148,14 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 134,
+    "total_orders_fetched": 138,
     "pads_campaigns_found": true
   },
   "semana": {
     "vendas": 530,
     "faturamento": 36867.2,
-    "taxa_ml": 4068.65,
-    "faturamento_menos_taxa": 32798.55,
+    "taxa_ml": 4075.04,
+    "faturamento_menos_taxa": 32792.16,
     "ticket_medio": 69.56,
     "ad_spend": 370.0,
     "ad_revenue": 0,
@@ -166,16 +166,16 @@
     "tacos": 1.0
   },
   "mes": {
-    "vendas": 1924,
-    "faturamento": 130648.97,
-    "taxa_ml": 14732.47,
-    "faturamento_menos_taxa": 115916.5,
-    "ticket_medio": 67.9,
+    "vendas": 1928,
+    "faturamento": 130938.0,
+    "taxa_ml": 14782.77,
+    "faturamento_menos_taxa": 116155.23,
+    "ticket_medio": 67.91,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 130648.97,
+    "organic_revenue": 130938.0,
     "acos": 0,
     "tacos": 0.3,
     "chart": {
@@ -227,7 +227,7 @@
         80,
         135,
         115,
-        130
+        134
       ],
       "faturamento": [
         3568.2,
@@ -252,7 +252,7 @@
         5866.19,
         10040.26,
         8330.82,
-        8918.53
+        9207.56
       ]
     }
   }
