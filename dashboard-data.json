@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-04-24T15:35:02.310033",
+  "updated_at": "2026-04-24T16:37:02.647511",
   "kpis": {
-    "faturamento_hoje": 3515.08,
-    "vendas_hoje": 49,
-    "ticket_medio": 71.74,
-    "cmv_total": 1561.98,
-    "lucro_bruto": 1953.1,
-    "margem_pct_real": 55.6,
-    "lucro_por_pedido": 39.86,
-    "taxa_ml_total": 514.34,
-    "shipping_total": 611.84,
-    "faturamento_liquido": 2388.9,
-    "margem_liquida_pct": 23.5,
-    "lucro_liquido": 826.92,
+    "faturamento_hoje": 3798.36,
+    "vendas_hoje": 53,
+    "ticket_medio": 71.67,
+    "cmv_total": 1694.5,
+    "lucro_bruto": 2103.86,
+    "margem_pct_real": 55.4,
+    "lucro_por_pedido": 39.7,
+    "taxa_ml_total": 551.83,
+    "shipping_total": 692.86,
+    "faturamento_liquido": 2553.67,
+    "margem_liquida_pct": 22.6,
+    "lucro_liquido": 859.17,
     "vendas_semana": 530,
     "faturamento_semana": 37831.82,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 3515.08,
+    "organic_revenue": 3798.36,
     "acos": 0,
-    "tacos": 10.5
+    "tacos": 9.7
   },
   "top5": [
     {
@@ -34,15 +34,37 @@
       "score": 96
     },
     {
-      "vendas": 14,
-      "faturamento": 826,
-      "custo": 501.76,
+      "vendas": 13,
+      "faturamento": 767,
+      "custo": 465.92,
       "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
-      "taxa_ml": 115.5,
+      "taxa_ml": 107.24,
       "full_unit_price": 59,
-      "lucro": 324.24,
+      "lucro": 301.08,
       "margem_pct": 39.3,
       "score": 99
+    },
+    {
+      "vendas": 4,
+      "faturamento": 236,
+      "custo": 143.36,
+      "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
+      "taxa_ml": 32.9,
+      "full_unit_price": 59,
+      "lucro": 92.64,
+      "margem_pct": 39.3,
+      "score": 88
+    },
+    {
+      "vendas": 2,
+      "faturamento": 204,
+      "custo": 50.0,
+      "title": "Perfume Lattitude Stamina Masculino Hinode 100ml",
+      "taxa_ml": 24.48,
+      "full_unit_price": 102,
+      "lucro": 154.0,
+      "margem_pct": 75.5,
+      "score": 84
     },
     {
       "vendas": 1,
@@ -54,48 +76,26 @@
       "lucro": 163.16,
       "margem_pct": 85.8,
       "score": 82
-    },
-    {
-      "vendas": 3,
-      "faturamento": 177,
-      "custo": 107.52,
-      "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
-      "taxa_ml": 24.78,
-      "full_unit_price": 59,
-      "lucro": 69.48,
-      "margem_pct": 39.3,
-      "score": 86
-    },
-    {
-      "vendas": 3,
-      "faturamento": 174.57,
-      "custo": 107.52,
-      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 24.45,
-      "full_unit_price": 58.19,
-      "lucro": 67.05,
-      "margem_pct": 38.4,
-      "score": 86
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 31,
-      "faturamento": 1821.08,
-      "custo": 1111.04,
-      "taxa_ml": 254.58,
-      "pct": 51.8,
-      "margem_pct": 39.0
+      "vendas": 34,
+      "faturamento": 2002.36,
+      "custo": 1218.56,
+      "taxa_ml": 279.83,
+      "pct": 52.7,
+      "margem_pct": 39.1
     },
     {
       "nome": "Outros",
-      "vendas": 10,
-      "faturamento": 1126.68,
-      "custo": 250.0,
-      "taxa_ml": 186.28,
-      "pct": 32.1,
-      "margem_pct": 77.8
+      "vendas": 11,
+      "faturamento": 1228.68,
+      "custo": 275.0,
+      "taxa_ml": 198.52,
+      "pct": 32.3,
+      "margem_pct": 77.6
     },
     {
       "nome": "Vestuário Infantil",
@@ -103,7 +103,7 @@
       "faturamento": 418.41,
       "custo": 134.55,
       "taxa_ml": 52.77,
-      "pct": 11.9,
+      "pct": 11.0,
       "margem_pct": 67.8
     },
     {
@@ -112,7 +112,7 @@
       "faturamento": 148.91,
       "custo": 66.39,
       "taxa_ml": 20.71,
-      "pct": 4.2,
+      "pct": 3.9,
       "margem_pct": 55.4
     }
   ],
@@ -148,7 +148,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 50,
+    "total_orders_fetched": 55,
     "pads_campaigns_found": true
   },
   "semana": {
