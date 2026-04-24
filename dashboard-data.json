@@ -1,27 +1,38 @@
 {
-  "updated_at": "2026-04-24T17:35:30.540825",
+  "updated_at": "2026-04-24T18:28:05.801655",
   "kpis": {
-    "faturamento_hoje": 3979.56,
-    "vendas_hoje": 56,
-    "ticket_medio": 71.06,
-    "cmv_total": 1793.09,
-    "lucro_bruto": 2186.47,
-    "margem_pct_real": 54.9,
-    "lucro_por_pedido": 39.04,
-    "taxa_ml_total": 574.62,
-    "shipping_total": 738.99,
-    "faturamento_liquido": 2665.95,
-    "margem_liquida_pct": 21.9,
-    "lucro_liquido": 872.86,
+    "faturamento_hoje": 4432.8,
+    "vendas_hoje": 64,
+    "ticket_medio": 69.26,
+    "cmv_total": 2070.88,
+    "lucro_bruto": 2361.92,
+    "margem_pct_real": 53.3,
+    "lucro_por_pedido": 36.9,
+    "taxa_ml_total": 635.52,
+    "shipping_total": 828.37,
+    "faturamento_liquido": 2968.91,
+    "margem_liquida_pct": 20.3,
+    "lucro_liquido": 898.03,
     "vendas_semana": 530,
     "faturamento_semana": 37831.82,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 3979.56,
+    "organic_revenue": 4432.8,
     "acos": 0,
-    "tacos": 9.3
+    "tacos": 8.3
   },
   "top5": [
+    {
+      "vendas": 16,
+      "faturamento": 944,
+      "custo": 573.44,
+      "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
+      "taxa_ml": 132.02,
+      "full_unit_price": 59,
+      "lucro": 370.56,
+      "margem_pct": 39.3,
+      "score": 99
+    },
     {
       "vendas": 8,
       "faturamento": 915.68,
@@ -34,26 +45,26 @@
       "score": 96
     },
     {
-      "vendas": 13,
-      "faturamento": 767,
-      "custo": 465.92,
+      "vendas": 6,
+      "faturamento": 354,
+      "custo": 215.04,
       "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
-      "taxa_ml": 107.24,
+      "taxa_ml": 49.42,
       "full_unit_price": 59,
-      "lucro": 301.08,
+      "lucro": 138.96,
       "margem_pct": 39.3,
-      "score": 99
+      "score": 92
     },
     {
-      "vendas": 5,
-      "faturamento": 295,
-      "custo": 179.2,
-      "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
-      "taxa_ml": 41.16,
-      "full_unit_price": 59,
-      "lucro": 115.8,
-      "margem_pct": 39.3,
-      "score": 90
+      "vendas": 4,
+      "faturamento": 232.76,
+      "custo": 143.36,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 32.6,
+      "full_unit_price": 58.19,
+      "lucro": 89.4,
+      "margem_pct": 38.4,
+      "score": 88
     },
     {
       "vendas": 2,
@@ -65,27 +76,16 @@
       "lucro": 154.0,
       "margem_pct": 75.5,
       "score": 84
-    },
-    {
-      "vendas": 1,
-      "faturamento": 190.07,
-      "custo": 26.91,
-      "title": "Kit 3 Conjunto Moletom Infantil Menino Menina Inve",
-      "taxa_ml": 28.51,
-      "full_unit_price": 190.07,
-      "lucro": 163.16,
-      "margem_pct": 85.8,
-      "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 36,
-      "faturamento": 2119.55,
-      "custo": 1290.24,
-      "taxa_ml": 296.24,
-      "pct": 53.3,
+      "vendas": 43,
+      "faturamento": 2530.12,
+      "custo": 1541.12,
+      "taxa_ml": 353.73,
+      "pct": 57.1,
       "margem_pct": 39.1
     },
     {
@@ -94,17 +94,17 @@
       "faturamento": 1228.68,
       "custo": 275.0,
       "taxa_ml": 198.52,
-      "pct": 30.9,
+      "pct": 27.7,
       "margem_pct": 77.6
     },
     {
       "nome": "Vestuário Infantil",
-      "vendas": 6,
-      "faturamento": 482.42,
-      "custo": 161.46,
-      "taxa_ml": 59.15,
-      "pct": 12.1,
-      "margem_pct": 66.5
+      "vendas": 7,
+      "faturamento": 525.09,
+      "custo": 188.37,
+      "taxa_ml": 62.56,
+      "pct": 11.8,
+      "margem_pct": 64.1
     },
     {
       "nome": "Acessórios",
@@ -112,7 +112,7 @@
       "faturamento": 148.91,
       "custo": 66.39,
       "taxa_ml": 20.71,
-      "pct": 3.7,
+      "pct": 3.4,
       "margem_pct": 55.4
     }
   ],
@@ -148,7 +148,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 58,
+    "total_orders_fetched": 67,
     "pads_campaigns_found": true
   },
   "semana": {
