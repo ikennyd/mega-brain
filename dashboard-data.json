@@ -1,28 +1,81 @@
 {
-  "updated_at": "2026-04-24T03:47:58.341391",
+  "updated_at": "2026-04-24T06:03:19.646773",
   "kpis": {
-    "faturamento_hoje": 0,
-    "vendas_hoje": 0,
-    "ticket_medio": 0,
-    "cmv_total": 0,
-    "lucro_bruto": 0,
-    "margem_pct_real": 0,
-    "lucro_por_pedido": 0,
-    "taxa_ml_total": 0,
-    "shipping_total": 0,
-    "faturamento_liquido": 0,
-    "margem_liquida_pct": 0,
-    "lucro_liquido": 0,
+    "faturamento_hoje": 158.64,
+    "vendas_hoje": 3,
+    "ticket_medio": 52.88,
+    "cmv_total": 89.94,
+    "lucro_bruto": 68.7,
+    "margem_pct_real": 43.3,
+    "lucro_por_pedido": 22.9,
+    "taxa_ml_total": 22.21,
+    "shipping_total": 44.63,
+    "faturamento_liquido": 91.8,
+    "margem_liquida_pct": 1.2,
+    "lucro_liquido": 1.86,
     "vendas_semana": 533,
     "faturamento_semana": 38045.61,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 0.0,
+    "organic_revenue": 158.64,
     "acos": 0,
-    "tacos": 0
+    "tacos": 233.2
   },
-  "top5": [],
-  "categories": [],
+  "top5": [
+    {
+      "vendas": 1,
+      "faturamento": 59,
+      "custo": 35.84,
+      "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
+      "taxa_ml": 8.26,
+      "full_unit_price": 59,
+      "lucro": 23.16,
+      "margem_pct": 39.3,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 59,
+      "custo": 35.84,
+      "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
+      "taxa_ml": 8.26,
+      "full_unit_price": 59,
+      "lucro": 23.16,
+      "margem_pct": 39.3,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 40.64,
+      "custo": 18.26,
+      "title": "Carteira Couro Legítimo Slim 8 Porta Cartões E Cnh",
+      "taxa_ml": 5.69,
+      "full_unit_price": 40.64,
+      "lucro": 22.38,
+      "margem_pct": 55.1,
+      "score": 82
+    }
+  ],
+  "categories": [
+    {
+      "nome": "Vestuário Adult",
+      "vendas": 2,
+      "faturamento": 118,
+      "custo": 71.68,
+      "taxa_ml": 16.52,
+      "pct": 74.4,
+      "margem_pct": 39.3
+    },
+    {
+      "nome": "Acessórios",
+      "vendas": 1,
+      "faturamento": 40.64,
+      "custo": 18.26,
+      "taxa_ml": 5.69,
+      "pct": 25.6,
+      "margem_pct": 55.1
+    }
+  ],
   "chart": {
     "labels": [
       "Sáb (18)",
@@ -55,7 +108,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 0,
+    "total_orders_fetched": 4,
     "pads_campaigns_found": true
   },
   "semana": {
