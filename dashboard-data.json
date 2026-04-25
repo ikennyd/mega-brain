@@ -1,35 +1,35 @@
 {
-  "updated_at": "2026-04-25T17:00:35.920042",
+  "updated_at": "2026-04-25T17:55:21.479495",
   "kpis": {
-    "faturamento_hoje": 3648.9,
-    "vendas_hoje": 57,
-    "ticket_medio": 64.02,
-    "cmv_total": 2053.34,
-    "lucro_bruto": 1595.56,
-    "margem_pct_real": 43.7,
-    "lucro_por_pedido": 27.99,
-    "taxa_ml_total": 504.77,
-    "shipping_total": 620.53,
-    "faturamento_liquido": 2523.6,
-    "margem_liquida_pct": 12.9,
-    "lucro_liquido": 470.26,
+    "faturamento_hoje": 4187.75,
+    "vendas_hoje": 66,
+    "ticket_medio": 63.45,
+    "cmv_total": 2349.11,
+    "lucro_bruto": 1838.64,
+    "margem_pct_real": 43.9,
+    "lucro_por_pedido": 27.86,
+    "taxa_ml_total": 575.06,
+    "shipping_total": 708.55,
+    "faturamento_liquido": 2904.14,
+    "margem_liquida_pct": 13.3,
+    "lucro_liquido": 555.03,
     "vendas_semana": 529,
     "faturamento_semana": 38186.1,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 3648.9,
+    "organic_revenue": 4187.75,
     "acos": 0,
-    "tacos": 10.1
+    "tacos": 8.8
   },
   "top5": [
     {
-      "vendas": 19,
-      "faturamento": 1121,
-      "custo": 680.96,
+      "vendas": 23,
+      "faturamento": 1357,
+      "custo": 824.32,
       "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
-      "taxa_ml": 156.8,
+      "taxa_ml": 189.84,
       "full_unit_price": 59,
-      "lucro": 440.04,
+      "lucro": 532.68,
       "margem_pct": 39.3,
       "score": 99
     },
@@ -46,6 +46,17 @@
     },
     {
       "vendas": 5,
+      "faturamento": 295,
+      "custo": 179.2,
+      "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
+      "taxa_ml": 41.16,
+      "full_unit_price": 59,
+      "lucro": 115.8,
+      "margem_pct": 39.3,
+      "score": 90
+    },
+    {
+      "vendas": 5,
       "faturamento": 290.95,
       "custo": 179.2,
       "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
@@ -54,17 +65,6 @@
       "lucro": 111.75,
       "margem_pct": 38.4,
       "score": 90
-    },
-    {
-      "vendas": 4,
-      "faturamento": 236,
-      "custo": 143.36,
-      "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
-      "taxa_ml": 32.9,
-      "full_unit_price": 59,
-      "lucro": 92.64,
-      "margem_pct": 39.3,
-      "score": 88
     },
     {
       "vendas": 4,
@@ -81,11 +81,11 @@
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 53,
-      "faturamento": 3109.31,
-      "custo": 1899.52,
-      "taxa_ml": 431.59,
-      "pct": 85.2,
+      "vendas": 59,
+      "faturamento": 3462.5,
+      "custo": 2114.56,
+      "taxa_ml": 481.04,
+      "pct": 82.7,
       "margem_pct": 38.9
     },
     {
@@ -94,17 +94,17 @@
       "faturamento": 432.92,
       "custo": 100.0,
       "taxa_ml": 63.4,
-      "pct": 11.9,
+      "pct": 10.3,
       "margem_pct": 76.9
     },
     {
       "nome": "Vestuário Infantil",
-      "vendas": 2,
-      "faturamento": 106.67,
-      "custo": 53.82,
-      "taxa_ml": 9.78,
-      "pct": 2.9,
-      "margem_pct": 49.5
+      "vendas": 5,
+      "faturamento": 292.33,
+      "custo": 134.55,
+      "taxa_ml": 30.62,
+      "pct": 7.0,
+      "margem_pct": 54.0
     }
   ],
   "chart": {
@@ -139,7 +139,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 57,
+    "total_orders_fetched": 66,
     "pads_campaigns_found": true
   },
   "semana": {
