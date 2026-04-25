@@ -1,35 +1,35 @@
 {
-  "updated_at": "2026-04-25T16:00:32.172801",
+  "updated_at": "2026-04-25T17:00:35.920042",
   "kpis": {
-    "faturamento_hoje": 3168.66,
-    "vendas_hoje": 51,
-    "ticket_medio": 62.13,
-    "cmv_total": 1833.07,
-    "lucro_bruto": 1335.59,
-    "margem_pct_real": 42.1,
-    "lucro_por_pedido": 26.19,
-    "taxa_ml_total": 444.31,
-    "shipping_total": 544.09,
-    "faturamento_liquido": 2180.26,
-    "margem_liquida_pct": 11.0,
-    "lucro_liquido": 347.19,
+    "faturamento_hoje": 3648.9,
+    "vendas_hoje": 57,
+    "ticket_medio": 64.02,
+    "cmv_total": 2053.34,
+    "lucro_bruto": 1595.56,
+    "margem_pct_real": 43.7,
+    "lucro_por_pedido": 27.99,
+    "taxa_ml_total": 504.77,
+    "shipping_total": 620.53,
+    "faturamento_liquido": 2523.6,
+    "margem_liquida_pct": 12.9,
+    "lucro_liquido": 470.26,
     "vendas_semana": 529,
     "faturamento_semana": 38186.1,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 3168.66,
+    "organic_revenue": 3648.9,
     "acos": 0,
-    "tacos": 11.7
+    "tacos": 10.1
   },
   "top5": [
     {
-      "vendas": 18,
-      "faturamento": 1062,
-      "custo": 645.12,
+      "vendas": 19,
+      "faturamento": 1121,
+      "custo": 680.96,
       "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
-      "taxa_ml": 148.54,
+      "taxa_ml": 156.8,
       "full_unit_price": 59,
-      "lucro": 416.88,
+      "lucro": 440.04,
       "margem_pct": 39.3,
       "score": 99
     },
@@ -45,6 +45,17 @@
       "score": 94
     },
     {
+      "vendas": 5,
+      "faturamento": 290.95,
+      "custo": 179.2,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 40.75,
+      "full_unit_price": 58.19,
+      "lucro": 111.75,
+      "margem_pct": 38.4,
+      "score": 90
+    },
+    {
       "vendas": 4,
       "faturamento": 236,
       "custo": 143.36,
@@ -56,55 +67,44 @@
       "score": 88
     },
     {
-      "vendas": 2,
-      "faturamento": 228.92,
-      "custo": 50.0,
-      "title": "Perfume Grace Midnight Feminino Hinode (frasco Ant",
-      "taxa_ml": 38.92,
-      "full_unit_price": 114.46,
-      "lucro": 178.92,
-      "margem_pct": 78.2,
-      "score": 84
-    },
-    {
-      "vendas": 3,
-      "faturamento": 179.7,
-      "custo": 107.52,
-      "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
-      "taxa_ml": 25.17,
-      "full_unit_price": 59.9,
-      "lucro": 72.18,
-      "margem_pct": 40.2,
-      "score": 86
+      "vendas": 4,
+      "faturamento": 232.76,
+      "custo": 143.36,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 32.46,
+      "full_unit_price": 58.19,
+      "lucro": 89.4,
+      "margem_pct": 38.4,
+      "score": 88
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 49,
-      "faturamento": 2875.74,
-      "custo": 1756.16,
-      "taxa_ml": 399.02,
-      "pct": 90.8,
+      "vendas": 53,
+      "faturamento": 3109.31,
+      "custo": 1899.52,
+      "taxa_ml": 431.59,
+      "pct": 85.2,
       "margem_pct": 38.9
     },
     {
       "nome": "Outros",
-      "vendas": 2,
-      "faturamento": 228.92,
-      "custo": 50.0,
-      "taxa_ml": 38.92,
-      "pct": 7.2,
-      "margem_pct": 78.2
+      "vendas": 4,
+      "faturamento": 432.92,
+      "custo": 100.0,
+      "taxa_ml": 63.4,
+      "pct": 11.9,
+      "margem_pct": 76.9
     },
     {
       "nome": "Vestuário Infantil",
-      "vendas": 1,
-      "faturamento": 64,
-      "custo": 26.91,
-      "taxa_ml": 6.37,
-      "pct": 2.0,
-      "margem_pct": 58.0
+      "vendas": 2,
+      "faturamento": 106.67,
+      "custo": 53.82,
+      "taxa_ml": 9.78,
+      "pct": 2.9,
+      "margem_pct": 49.5
     }
   ],
   "chart": {
@@ -139,7 +139,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 51,
+    "total_orders_fetched": 57,
     "pads_campaigns_found": true
   },
   "semana": {
