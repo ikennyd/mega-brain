@@ -1,59 +1,70 @@
 {
-  "updated_at": "2026-04-25T14:36:16.535009",
+  "updated_at": "2026-04-25T15:25:31.738345",
   "kpis": {
-    "faturamento_hoje": 2468.16,
-    "vendas_hoje": 40,
-    "ticket_medio": 61.7,
-    "cmv_total": 1449.67,
-    "lucro_bruto": 1018.49,
-    "margem_pct_real": 41.3,
-    "lucro_por_pedido": 25.46,
-    "taxa_ml_total": 342.78,
-    "shipping_total": 411.42,
-    "faturamento_liquido": 1713.96,
-    "margem_liquida_pct": 10.7,
-    "lucro_liquido": 264.29,
+    "faturamento_hoje": 2934.19,
+    "vendas_hoje": 47,
+    "ticket_medio": 62.43,
+    "cmv_total": 1689.71,
+    "lucro_bruto": 1244.48,
+    "margem_pct_real": 42.4,
+    "lucro_por_pedido": 26.48,
+    "taxa_ml_total": 411.47,
+    "shipping_total": 501.96,
+    "faturamento_liquido": 2020.76,
+    "margem_liquida_pct": 11.3,
+    "lucro_liquido": 331.05,
     "vendas_semana": 529,
     "faturamento_semana": 38186.1,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 2468.16,
+    "organic_revenue": 2934.19,
     "acos": 0,
-    "tacos": 15.0
+    "tacos": 12.6
   },
   "top5": [
     {
-      "vendas": 16,
-      "faturamento": 944,
-      "custo": 573.44,
+      "vendas": 18,
+      "faturamento": 1062,
+      "custo": 645.12,
       "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
-      "taxa_ml": 132.02,
+      "taxa_ml": 148.54,
       "full_unit_price": 59,
-      "lucro": 370.56,
+      "lucro": 416.88,
       "margem_pct": 39.3,
       "score": 99
     },
     {
-      "vendas": 6,
-      "faturamento": 349.14,
-      "custo": 215.04,
+      "vendas": 7,
+      "faturamento": 407.33,
+      "custo": 250.88,
       "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 48.69,
+      "taxa_ml": 56.84,
       "full_unit_price": 58.19,
-      "lucro": 134.1,
+      "lucro": 156.45,
       "margem_pct": 38.4,
-      "score": 92
+      "score": 94
     },
     {
-      "vendas": 3,
-      "faturamento": 177,
-      "custo": 107.52,
+      "vendas": 4,
+      "faturamento": 236,
+      "custo": 143.36,
       "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
-      "taxa_ml": 24.64,
+      "taxa_ml": 32.9,
       "full_unit_price": 59,
-      "lucro": 69.48,
+      "lucro": 92.64,
       "margem_pct": 39.3,
-      "score": 86
+      "score": 88
+    },
+    {
+      "vendas": 2,
+      "faturamento": 228.92,
+      "custo": 50.0,
+      "title": "Perfume Grace Midnight Feminino Hinode (frasco Ant",
+      "taxa_ml": 38.92,
+      "full_unit_price": 114.46,
+      "lucro": 178.92,
+      "margem_pct": 78.2,
+      "score": 84
     },
     {
       "vendas": 3,
@@ -65,36 +76,25 @@
       "lucro": 67.05,
       "margem_pct": 38.4,
       "score": 86
-    },
-    {
-      "vendas": 2,
-      "faturamento": 119.8,
-      "custo": 71.68,
-      "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
-      "taxa_ml": 16.78,
-      "full_unit_price": 59.9,
-      "lucro": 48.12,
-      "margem_pct": 40.2,
-      "score": 84
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 39,
-      "faturamento": 2289.7,
-      "custo": 1397.76,
-      "taxa_ml": 316.95,
-      "pct": 92.8,
-      "margem_pct": 39.0
+      "vendas": 45,
+      "faturamento": 2641.27,
+      "custo": 1612.8,
+      "taxa_ml": 366.18,
+      "pct": 90.0,
+      "margem_pct": 38.9
     },
     {
       "nome": "Outros",
-      "vendas": 1,
-      "faturamento": 114.46,
-      "custo": 25.0,
-      "taxa_ml": 19.46,
-      "pct": 4.6,
+      "vendas": 2,
+      "faturamento": 228.92,
+      "custo": 50.0,
+      "taxa_ml": 38.92,
+      "pct": 7.8,
       "margem_pct": 78.2
     },
     {
@@ -103,7 +103,7 @@
       "faturamento": 64,
       "custo": 26.91,
       "taxa_ml": 6.37,
-      "pct": 2.6,
+      "pct": 2.2,
       "margem_pct": 58.0
     }
   ],
@@ -139,7 +139,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 40,
+    "total_orders_fetched": 47,
     "pads_campaigns_found": true
   },
   "semana": {
