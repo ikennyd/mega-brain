@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-04-26T15:27:31.819466",
+  "updated_at": "2026-04-26T16:04:58.605888",
   "kpis": {
-    "faturamento_hoje": 3304.09,
-    "vendas_hoje": 46,
-    "ticket_medio": 71.83,
-    "cmv_total": 1659.0,
-    "lucro_bruto": 1645.09,
-    "margem_pct_real": 49.8,
-    "lucro_por_pedido": 35.76,
-    "taxa_ml_total": 480.86,
-    "shipping_total": 515.95,
-    "faturamento_liquido": 2307.28,
-    "margem_liquida_pct": 19.6,
-    "lucro_liquido": 648.28,
+    "faturamento_hoje": 3887.8,
+    "vendas_hoje": 55,
+    "ticket_medio": 70.69,
+    "cmv_total": 1964.47,
+    "lucro_bruto": 1923.33,
+    "margem_pct_real": 49.5,
+    "lucro_por_pedido": 34.97,
+    "taxa_ml_total": 559.6,
+    "shipping_total": 662.61,
+    "faturamento_liquido": 2665.59,
+    "margem_liquida_pct": 18.0,
+    "lucro_liquido": 701.12,
     "vendas_semana": 529,
     "faturamento_semana": 37758.62,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 3304.09,
+    "organic_revenue": 3887.8,
     "acos": 0,
-    "tacos": 11.2
+    "tacos": 9.5
   },
   "top5": [
     {
@@ -45,75 +45,75 @@
       "score": 90
     },
     {
-      "vendas": 4,
-      "faturamento": 232.76,
-      "custo": 143.36,
+      "vendas": 6,
+      "faturamento": 349.14,
+      "custo": 215.04,
       "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 32.6,
+      "taxa_ml": 48.9,
       "full_unit_price": 58.19,
-      "lucro": 89.4,
+      "lucro": 134.1,
       "margem_pct": 38.4,
-      "score": 88
+      "score": 92
     },
     {
-      "vendas": 4,
-      "faturamento": 232.76,
-      "custo": 143.36,
-      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 32.6,
-      "full_unit_price": 58.19,
-      "lucro": 89.4,
-      "margem_pct": 38.4,
-      "score": 88
+      "vendas": 3,
+      "faturamento": 306,
+      "custo": 75.0,
+      "title": "Perfume Lattitude Stamina Masculino Hinode 100ml",
+      "taxa_ml": 36.72,
+      "full_unit_price": 102,
+      "lucro": 231.0,
+      "margem_pct": 75.5,
+      "score": 86
     },
     {
-      "vendas": 2,
-      "faturamento": 218,
-      "custo": 50.0,
-      "title": "Perfume Masculino Hinode Lattitude Origini 100ml",
-      "taxa_ml": 37.06,
-      "full_unit_price": 109,
-      "lucro": 168.0,
-      "margem_pct": 77.1,
-      "score": 84
+      "vendas": 5,
+      "faturamento": 290.95,
+      "custo": 179.2,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 40.75,
+      "full_unit_price": 58.19,
+      "lucro": 111.75,
+      "margem_pct": 38.4,
+      "score": 90
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 38,
-      "faturamento": 2130.26,
-      "custo": 1361.92,
-      "taxa_ml": 296.88,
-      "pct": 64.5,
-      "margem_pct": 36.1
+      "vendas": 44,
+      "faturamento": 2427.0,
+      "custo": 1576.96,
+      "taxa_ml": 337.48,
+      "pct": 62.4,
+      "margem_pct": 35.0
     },
     {
       "nome": "Outros",
-      "vendas": 9,
-      "faturamento": 994.3,
-      "custo": 225.0,
-      "taxa_ml": 158.84,
-      "pct": 30.1,
-      "margem_pct": 77.4
+      "vendas": 10,
+      "faturamento": 1096.3,
+      "custo": 250.0,
+      "taxa_ml": 171.08,
+      "pct": 28.2,
+      "margem_pct": 77.2
     },
     {
       "nome": "Vestuário Infantil",
-      "vendas": 2,
-      "faturamento": 138.89,
-      "custo": 53.82,
-      "taxa_ml": 19.45,
-      "pct": 4.2,
-      "margem_pct": 61.2
+      "vendas": 4,
+      "faturamento": 296.87,
+      "custo": 107.64,
+      "taxa_ml": 41.57,
+      "pct": 7.6,
+      "margem_pct": 63.7
     },
     {
       "nome": "Acessórios",
-      "vendas": 1,
-      "faturamento": 40.64,
-      "custo": 18.26,
-      "taxa_ml": 5.69,
-      "pct": 1.2,
-      "margem_pct": 55.1
+      "vendas": 2,
+      "faturamento": 67.63,
+      "custo": 29.87,
+      "taxa_ml": 9.47,
+      "pct": 1.7,
+      "margem_pct": 55.8
     }
   ],
   "chart": {
@@ -148,7 +148,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 46,
+    "total_orders_fetched": 55,
     "pads_campaigns_found": true
   },
   "semana": {
