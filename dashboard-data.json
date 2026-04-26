@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-04-26T16:04:58.605888",
+  "updated_at": "2026-04-26T17:00:48.486557",
   "kpis": {
-    "faturamento_hoje": 3887.8,
-    "vendas_hoje": 55,
-    "ticket_medio": 70.69,
-    "cmv_total": 1964.47,
-    "lucro_bruto": 1923.33,
-    "margem_pct_real": 49.5,
-    "lucro_por_pedido": 34.97,
-    "taxa_ml_total": 559.6,
-    "shipping_total": 662.61,
-    "faturamento_liquido": 2665.59,
-    "margem_liquida_pct": 18.0,
-    "lucro_liquido": 701.12,
+    "faturamento_hoje": 4221.42,
+    "vendas_hoje": 61,
+    "ticket_medio": 69.2,
+    "cmv_total": 2170.58,
+    "lucro_bruto": 2050.84,
+    "margem_pct_real": 48.6,
+    "lucro_por_pedido": 33.62,
+    "taxa_ml_total": 603.62,
+    "shipping_total": 725.81,
+    "faturamento_liquido": 2891.99,
+    "margem_liquida_pct": 17.1,
+    "lucro_liquido": 721.41,
     "vendas_semana": 529,
     "faturamento_semana": 37758.62,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 3887.8,
+    "organic_revenue": 4221.42,
     "acos": 0,
-    "tacos": 9.5
+    "tacos": 8.8
   },
   "top5": [
     {
@@ -45,6 +45,17 @@
       "score": 90
     },
     {
+      "vendas": 7,
+      "faturamento": 407.33,
+      "custo": 250.88,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 57.05,
+      "full_unit_price": 58.19,
+      "lucro": 156.45,
+      "margem_pct": 38.4,
+      "score": 94
+    },
+    {
       "vendas": 6,
       "faturamento": 349.14,
       "custo": 215.04,
@@ -56,37 +67,26 @@
       "score": 92
     },
     {
-      "vendas": 3,
-      "faturamento": 306,
-      "custo": 75.0,
-      "title": "Perfume Lattitude Stamina Masculino Hinode 100ml",
-      "taxa_ml": 36.72,
-      "full_unit_price": 102,
-      "lucro": 231.0,
-      "margem_pct": 75.5,
-      "score": 86
-    },
-    {
-      "vendas": 5,
-      "faturamento": 290.95,
-      "custo": 179.2,
+      "vendas": 6,
+      "faturamento": 349.14,
+      "custo": 215.04,
       "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 40.75,
+      "taxa_ml": 48.9,
       "full_unit_price": 58.19,
-      "lucro": 111.75,
+      "lucro": 134.1,
       "margem_pct": 38.4,
-      "score": 90
+      "score": 92
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 44,
-      "faturamento": 2427.0,
-      "custo": 1576.96,
-      "taxa_ml": 337.48,
-      "pct": 62.4,
-      "margem_pct": 35.0
+      "vendas": 49,
+      "faturamento": 2717.95,
+      "custo": 1756.16,
+      "taxa_ml": 378.23,
+      "pct": 64.4,
+      "margem_pct": 35.4
     },
     {
       "nome": "Outros",
@@ -94,17 +94,17 @@
       "faturamento": 1096.3,
       "custo": 250.0,
       "taxa_ml": 171.08,
-      "pct": 28.2,
+      "pct": 26.0,
       "margem_pct": 77.2
     },
     {
       "nome": "Vestuário Infantil",
-      "vendas": 4,
-      "faturamento": 296.87,
-      "custo": 107.64,
-      "taxa_ml": 41.57,
-      "pct": 7.6,
-      "margem_pct": 63.7
+      "vendas": 5,
+      "faturamento": 339.54,
+      "custo": 134.55,
+      "taxa_ml": 44.84,
+      "pct": 8.0,
+      "margem_pct": 60.4
     },
     {
       "nome": "Acessórios",
@@ -112,7 +112,7 @@
       "faturamento": 67.63,
       "custo": 29.87,
       "taxa_ml": 9.47,
-      "pct": 1.7,
+      "pct": 1.6,
       "margem_pct": 55.8
     }
   ],
@@ -148,7 +148,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 55,
+    "total_orders_fetched": 61,
     "pads_campaigns_found": true
   },
   "semana": {
