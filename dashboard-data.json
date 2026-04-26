@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-04-26T14:37:01.545769",
+  "updated_at": "2026-04-26T15:27:31.819466",
   "kpis": {
-    "faturamento_hoje": 2840.7,
-    "vendas_hoje": 41,
-    "ticket_medio": 69.29,
-    "cmv_total": 1465.64,
-    "lucro_bruto": 1375.06,
-    "margem_pct_real": 48.4,
-    "lucro_por_pedido": 33.54,
-    "taxa_ml_total": 409.1,
-    "shipping_total": 451.45,
-    "faturamento_liquido": 1980.15,
-    "margem_liquida_pct": 18.1,
-    "lucro_liquido": 514.51,
+    "faturamento_hoje": 3304.09,
+    "vendas_hoje": 46,
+    "ticket_medio": 71.83,
+    "cmv_total": 1659.0,
+    "lucro_bruto": 1645.09,
+    "margem_pct_real": 49.8,
+    "lucro_por_pedido": 35.76,
+    "taxa_ml_total": 480.86,
+    "shipping_total": 515.95,
+    "faturamento_liquido": 2307.28,
+    "margem_liquida_pct": 19.6,
+    "lucro_liquido": 648.28,
     "vendas_semana": 529,
     "faturamento_semana": 37758.62,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 2840.7,
+    "organic_revenue": 3304.09,
     "acos": 0,
-    "tacos": 13.0
+    "tacos": 11.2
   },
   "top5": [
     {
@@ -34,15 +34,37 @@
       "score": 99
     },
     {
-      "vendas": 3,
-      "faturamento": 343.38,
-      "custo": 75.0,
+      "vendas": 5,
+      "faturamento": 572.3,
+      "custo": 125.0,
       "title": "Perfume Grace Midnight Feminino Hinode (frasco Ant",
-      "taxa_ml": 58.38,
+      "taxa_ml": 97.3,
       "full_unit_price": 114.46,
-      "lucro": 268.38,
+      "lucro": 447.3,
       "margem_pct": 78.2,
-      "score": 86
+      "score": 90
+    },
+    {
+      "vendas": 4,
+      "faturamento": 232.76,
+      "custo": 143.36,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 32.6,
+      "full_unit_price": 58.19,
+      "lucro": 89.4,
+      "margem_pct": 38.4,
+      "score": 88
+    },
+    {
+      "vendas": 4,
+      "faturamento": 232.76,
+      "custo": 143.36,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 32.6,
+      "full_unit_price": 58.19,
+      "lucro": 89.4,
+      "margem_pct": 38.4,
+      "score": 88
     },
     {
       "vendas": 2,
@@ -54,48 +76,26 @@
       "lucro": 168.0,
       "margem_pct": 77.1,
       "score": 84
-    },
-    {
-      "vendas": 2,
-      "faturamento": 204,
-      "custo": 50.0,
-      "title": "Perfume Lattitude Stamina Masculino Hinode 100ml",
-      "taxa_ml": 24.48,
-      "full_unit_price": 102,
-      "lucro": 154.0,
-      "margem_pct": 75.5,
-      "score": 84
-    },
-    {
-      "vendas": 3,
-      "faturamento": 174.57,
-      "custo": 107.52,
-      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 24.45,
-      "full_unit_price": 58.19,
-      "lucro": 67.05,
-      "margem_pct": 38.4,
-      "score": 86
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 34,
-      "faturamento": 1895.79,
-      "custo": 1218.56,
-      "taxa_ml": 264.04,
-      "pct": 66.7,
-      "margem_pct": 35.7
+      "vendas": 38,
+      "faturamento": 2130.26,
+      "custo": 1361.92,
+      "taxa_ml": 296.88,
+      "pct": 64.5,
+      "margem_pct": 36.1
     },
     {
       "nome": "Outros",
-      "vendas": 7,
-      "faturamento": 765.38,
-      "custo": 175.0,
-      "taxa_ml": 119.92,
-      "pct": 26.9,
-      "margem_pct": 77.1
+      "vendas": 9,
+      "faturamento": 994.3,
+      "custo": 225.0,
+      "taxa_ml": 158.84,
+      "pct": 30.1,
+      "margem_pct": 77.4
     },
     {
       "nome": "Vestuário Infantil",
@@ -103,7 +103,7 @@
       "faturamento": 138.89,
       "custo": 53.82,
       "taxa_ml": 19.45,
-      "pct": 4.9,
+      "pct": 4.2,
       "margem_pct": 61.2
     },
     {
@@ -112,7 +112,7 @@
       "faturamento": 40.64,
       "custo": 18.26,
       "taxa_ml": 5.69,
-      "pct": 1.4,
+      "pct": 1.2,
       "margem_pct": 55.1
     }
   ],
@@ -148,7 +148,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 41,
+    "total_orders_fetched": 46,
     "pads_campaigns_found": true
   },
   "semana": {
