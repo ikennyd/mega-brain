@@ -1,28 +1,101 @@
 {
-  "updated_at": "2026-04-26T01:52:32.001506",
+  "updated_at": "2026-04-26T04:53:23.991837",
   "kpis": {
-    "faturamento_hoje": 0,
-    "vendas_hoje": 0,
-    "ticket_medio": 0,
-    "cmv_total": 0,
-    "lucro_bruto": 0,
-    "margem_pct_real": 0,
-    "lucro_por_pedido": 0,
-    "taxa_ml_total": 0,
-    "shipping_total": 0,
-    "faturamento_liquido": 0,
-    "margem_liquida_pct": 0,
-    "lucro_liquido": 0,
+    "faturamento_hoje": 429.75,
+    "vendas_hoje": 5,
+    "ticket_medio": 85.95,
+    "cmv_total": 129.1,
+    "lucro_bruto": 300.65,
+    "margem_pct_real": 70.0,
+    "lucro_por_pedido": 60.13,
+    "taxa_ml_total": 65.0,
+    "shipping_total": 63.05,
+    "faturamento_liquido": 301.7,
+    "margem_liquida_pct": 40.2,
+    "lucro_liquido": 172.6,
     "vendas_semana": 529,
     "faturamento_semana": 37758.62,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 0.0,
+    "organic_revenue": 429.75,
     "acos": 0,
-    "tacos": 0
+    "tacos": 86.1
   },
-  "top5": [],
-  "categories": [],
+  "top5": [
+    {
+      "vendas": 2,
+      "faturamento": 228.92,
+      "custo": 50.0,
+      "title": "Perfume Grace Midnight Feminino Hinode (frasco Ant",
+      "taxa_ml": 38.92,
+      "full_unit_price": 114.46,
+      "lucro": 178.92,
+      "margem_pct": 78.2,
+      "score": 84
+    },
+    {
+      "vendas": 1,
+      "faturamento": 102,
+      "custo": 25.0,
+      "title": "Perfume Lattitude Stamina Masculino Hinode 100ml",
+      "taxa_ml": 12.24,
+      "full_unit_price": 102,
+      "lucro": 77.0,
+      "margem_pct": 75.5,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 58.19,
+      "custo": 35.84,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 8.15,
+      "full_unit_price": 58.19,
+      "lucro": 22.35,
+      "margem_pct": 38.4,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 40.64,
+      "custo": 18.26,
+      "title": "Carteira Couro Legítimo Slim 8 Porta Cartões E Cnh",
+      "taxa_ml": 5.69,
+      "full_unit_price": 40.64,
+      "lucro": 22.38,
+      "margem_pct": 55.1,
+      "score": 82
+    }
+  ],
+  "categories": [
+    {
+      "nome": "Outros",
+      "vendas": 3,
+      "faturamento": 330.92,
+      "custo": 75.0,
+      "taxa_ml": 51.16,
+      "pct": 77.0,
+      "margem_pct": 77.3
+    },
+    {
+      "nome": "Vestuário Adult",
+      "vendas": 1,
+      "faturamento": 58.19,
+      "custo": 35.84,
+      "taxa_ml": 8.15,
+      "pct": 13.5,
+      "margem_pct": 38.4
+    },
+    {
+      "nome": "Acessórios",
+      "vendas": 1,
+      "faturamento": 40.64,
+      "custo": 18.26,
+      "taxa_ml": 5.69,
+      "pct": 9.5,
+      "margem_pct": 55.1
+    }
+  ],
   "chart": {
     "labels": [
       "Seg (20)",
@@ -55,7 +128,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 0,
+    "total_orders_fetched": 5,
     "pads_campaigns_found": true
   },
   "semana": {
