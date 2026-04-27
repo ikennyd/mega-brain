@@ -1,70 +1,70 @@
 {
-  "updated_at": "2026-04-27T17:01:39.134507",
+  "updated_at": "2026-04-27T18:18:55.339467",
   "kpis": {
-    "faturamento_hoje": 3876.34,
-    "vendas_hoje": 62,
-    "ticket_medio": 62.52,
-    "cmv_total": 2023.81,
-    "lucro_bruto": 1852.53,
-    "margem_pct_real": 47.8,
-    "lucro_por_pedido": 29.88,
-    "taxa_ml_total": 526.73,
-    "shipping_total": 749.06,
-    "faturamento_liquido": 2600.55,
-    "margem_liquida_pct": 14.9,
-    "lucro_liquido": 576.74,
+    "faturamento_hoje": 5166.39,
+    "vendas_hoje": 81,
+    "ticket_medio": 63.78,
+    "cmv_total": 2636.53,
+    "lucro_bruto": 2529.86,
+    "margem_pct_real": 49.0,
+    "lucro_por_pedido": 31.23,
+    "taxa_ml_total": 709.48,
+    "shipping_total": 1035.1,
+    "faturamento_liquido": 3421.81,
+    "margem_liquida_pct": 15.2,
+    "lucro_liquido": 785.28,
     "vendas_semana": 533,
     "faturamento_semana": 37495.72,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 3876.34,
+    "organic_revenue": 5166.39,
     "acos": 0,
-    "tacos": 9.5
+    "tacos": 7.2
   },
   "top5": [
+    {
+      "vendas": 6,
+      "faturamento": 686.76,
+      "custo": 150.0,
+      "title": "Perfume Grace Midnight Feminino Hinode (frasco Ant",
+      "taxa_ml": 116.42,
+      "full_unit_price": 114.46,
+      "lucro": 536.76,
+      "margem_pct": 78.2,
+      "score": 92
+    },
+    {
+      "vendas": 11,
+      "faturamento": 640.09,
+      "custo": 394.24,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 89.51,
+      "full_unit_price": 58.19,
+      "lucro": 245.85,
+      "margem_pct": 38.4,
+      "score": 99
+    },
+    {
+      "vendas": 9,
+      "faturamento": 523.71,
+      "custo": 322.56,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 73.21,
+      "full_unit_price": 58.19,
+      "lucro": 201.15,
+      "margem_pct": 38.4,
+      "score": 98
+    },
     {
       "vendas": 8,
       "faturamento": 465.52,
       "custo": 286.72,
       "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 65.06,
+      "taxa_ml": 65.2,
       "full_unit_price": 58.19,
       "lucro": 178.8,
       "margem_pct": 38.4,
       "score": 96
-    },
-    {
-      "vendas": 6,
-      "faturamento": 349.14,
-      "custo": 215.04,
-      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 48.9,
-      "full_unit_price": 58.19,
-      "lucro": 134.1,
-      "margem_pct": 38.4,
-      "score": 92
-    },
-    {
-      "vendas": 6,
-      "faturamento": 349.14,
-      "custo": 215.04,
-      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 48.9,
-      "full_unit_price": 58.19,
-      "lucro": 134.1,
-      "margem_pct": 38.4,
-      "score": 92
-    },
-    {
-      "vendas": 3,
-      "faturamento": 343.38,
-      "custo": 75.0,
-      "title": "Perfume Grace Midnight Feminino Hinode (frasco Ant",
-      "taxa_ml": 58.38,
-      "full_unit_price": 114.46,
-      "lucro": 268.38,
-      "margem_pct": 78.2,
-      "score": 86
     },
     {
       "vendas": 5,
@@ -81,29 +81,29 @@
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 39,
-      "faturamento": 2276.54,
-      "custo": 1397.76,
-      "taxa_ml": 318.57,
-      "pct": 58.7,
-      "margem_pct": 38.6
+      "vendas": 51,
+      "faturamento": 2973.53,
+      "custo": 1827.84,
+      "taxa_ml": 416.05,
+      "pct": 57.6,
+      "margem_pct": 38.5
     },
     {
       "nome": "Vestuário Infantil",
-      "vendas": 17,
-      "faturamento": 1066.87,
-      "custo": 466.4,
-      "taxa_ml": 123.24,
-      "pct": 27.5,
-      "margem_pct": 56.3
+      "vendas": 21,
+      "faturamento": 1316.55,
+      "custo": 574.04,
+      "taxa_ml": 150.47,
+      "pct": 25.5,
+      "margem_pct": 56.4
     },
     {
       "nome": "Outros",
-      "vendas": 3,
-      "faturamento": 343.38,
-      "custo": 75.0,
-      "taxa_ml": 58.38,
-      "pct": 8.9,
+      "vendas": 6,
+      "faturamento": 686.76,
+      "custo": 150.0,
+      "taxa_ml": 116.42,
+      "pct": 13.3,
       "margem_pct": 78.2
     },
     {
@@ -112,7 +112,7 @@
       "faturamento": 189.55,
       "custo": 84.65,
       "taxa_ml": 26.54,
-      "pct": 4.9,
+      "pct": 3.7,
       "margem_pct": 55.3
     }
   ],
@@ -148,7 +148,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 64,
+    "total_orders_fetched": 83,
     "pads_campaigns_found": true
   },
   "semana": {
