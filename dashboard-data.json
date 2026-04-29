@@ -1,27 +1,38 @@
 {
-  "updated_at": "2026-04-29T22:48:14.523433",
+  "updated_at": "2026-04-29T23:45:09.498053",
   "kpis": {
-    "faturamento_hoje": 9454.38,
-    "vendas_hoje": 140,
-    "ticket_medio": 67.53,
-    "cmv_total": 4413.4,
-    "lucro_bruto": 5040.98,
-    "margem_pct_real": 53.3,
-    "lucro_por_pedido": 36.01,
-    "taxa_ml_total": 1296.86,
-    "shipping_total": 1667.5,
-    "faturamento_liquido": 6490.02,
-    "margem_liquida_pct": 22.0,
-    "lucro_liquido": 2076.62,
+    "faturamento_hoje": 9923.86,
+    "vendas_hoje": 147,
+    "ticket_medio": 67.51,
+    "cmv_total": 4628.56,
+    "lucro_bruto": 5295.3,
+    "margem_pct_real": 53.4,
+    "lucro_por_pedido": 36.02,
+    "taxa_ml_total": 1355.28,
+    "shipping_total": 1733.14,
+    "faturamento_liquido": 6835.44,
+    "margem_liquida_pct": 22.2,
+    "lucro_liquido": 2206.88,
     "vendas_semana": 527,
     "faturamento_semana": 35812.26,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 9454.38,
+    "organic_revenue": 9923.86,
     "acos": 0,
-    "tacos": 3.9
+    "tacos": 3.7
   },
   "top5": [
+    {
+      "vendas": 11,
+      "faturamento": 666.93,
+      "custo": 394.24,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 93.27,
+      "full_unit_price": 64.9,
+      "lucro": 272.69,
+      "margem_pct": 40.9,
+      "score": 99
+    },
     {
       "vendas": 11,
       "faturamento": 660.22,
@@ -45,15 +56,15 @@
       "score": 99
     },
     {
-      "vendas": 10,
-      "faturamento": 602.03,
-      "custo": 358.4,
+      "vendas": 8,
+      "faturamento": 492.36,
+      "custo": 286.72,
       "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 84.18,
+      "taxa_ml": 68.96,
       "full_unit_price": 64.9,
-      "lucro": 243.63,
-      "margem_pct": 40.5,
-      "score": 99
+      "lucro": 205.64,
+      "margem_pct": 41.8,
+      "score": 96
     },
     {
       "vendas": 12,
@@ -65,37 +76,26 @@
       "lucro": 257.09,
       "margem_pct": 54.0,
       "score": 99
-    },
-    {
-      "vendas": 4,
-      "faturamento": 436,
-      "custo": 100.0,
-      "title": "Perfume Masculino Hinode Lattitude Origini 100ml",
-      "taxa_ml": 74.12,
-      "full_unit_price": 109,
-      "lucro": 336.0,
-      "margem_pct": 77.1,
-      "score": 88
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 77,
-      "faturamento": 4513.61,
-      "custo": 2755.33,
-      "taxa_ml": 626.17,
-      "pct": 47.7,
+      "vendas": 80,
+      "faturamento": 4691.9,
+      "custo": 2862.85,
+      "taxa_ml": 648.24,
+      "pct": 47.3,
       "margem_pct": 39.0
     },
     {
       "nome": "Vestuário Infantil",
-      "vendas": 45,
-      "faturamento": 3709.97,
-      "custo": 1210.95,
-      "taxa_ml": 483.29,
-      "pct": 39.2,
-      "margem_pct": 67.4
+      "vendas": 49,
+      "faturamento": 4001.16,
+      "custo": 1318.59,
+      "taxa_ml": 519.64,
+      "pct": 40.3,
+      "margem_pct": 67.0
     },
     {
       "nome": "Outros",
@@ -103,7 +103,7 @@
       "faturamento": 640,
       "custo": 150.0,
       "taxa_ml": 98.6,
-      "pct": 6.8,
+      "pct": 6.4,
       "margem_pct": 76.6
     },
     {
@@ -112,7 +112,7 @@
       "faturamento": 590.8,
       "custo": 297.12,
       "taxa_ml": 88.8,
-      "pct": 6.2,
+      "pct": 6.0,
       "margem_pct": 49.7
     }
   ],
@@ -148,7 +148,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 143,
+    "total_orders_fetched": 151,
     "pads_campaigns_found": true
   },
   "semana": {
