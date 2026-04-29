@@ -1,27 +1,38 @@
 {
-  "updated_at": "2026-04-29T07:15:19.182532",
+  "updated_at": "2026-04-29T09:25:47.974675",
   "kpis": {
-    "faturamento_hoje": 364.03,
-    "vendas_hoje": 6,
-    "ticket_medio": 60.67,
-    "cmv_total": 170.67,
-    "lucro_bruto": 193.36,
-    "margem_pct_real": 53.1,
-    "lucro_por_pedido": 32.23,
-    "taxa_ml_total": 45.81,
-    "shipping_total": 64.39,
-    "faturamento_liquido": 253.83,
-    "margem_liquida_pct": 22.8,
-    "lucro_liquido": 83.16,
+    "faturamento_hoje": 597.6,
+    "vendas_hoje": 10,
+    "ticket_medio": 59.76,
+    "cmv_total": 314.03,
+    "lucro_bruto": 283.57,
+    "margem_pct_real": 47.5,
+    "lucro_por_pedido": 28.36,
+    "taxa_ml_total": 78.52,
+    "shipping_total": 96.69,
+    "faturamento_liquido": 422.39,
+    "margem_liquida_pct": 18.1,
+    "lucro_liquido": 108.36,
     "vendas_semana": 529,
     "faturamento_semana": 35928.64,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 364.03,
+    "organic_revenue": 597.6,
     "acos": 0,
-    "tacos": 101.6
+    "tacos": 61.9
   },
   "top5": [
+    {
+      "vendas": 2,
+      "faturamento": 116.38,
+      "custo": 71.68,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 16.3,
+      "full_unit_price": 58.19,
+      "lucro": 44.7,
+      "margem_pct": 38.4,
+      "score": 84
+    },
     {
       "vendas": 1,
       "faturamento": 78.99,
@@ -57,45 +68,34 @@
     },
     {
       "vendas": 1,
-      "faturamento": 58.19,
+      "faturamento": 59,
       "custo": 35.84,
-      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 8.15,
-      "full_unit_price": 58.19,
-      "lucro": 22.35,
-      "margem_pct": 38.4,
-      "score": 82
-    },
-    {
-      "vendas": 1,
-      "faturamento": 58.19,
-      "custo": 35.84,
-      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 8.15,
-      "full_unit_price": 58.19,
-      "lucro": 22.35,
-      "margem_pct": 38.4,
+      "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
+      "taxa_ml": 8.26,
+      "full_unit_price": 59,
+      "lucro": 23.16,
+      "margem_pct": 39.3,
       "score": 82
     }
   ],
   "categories": [
+    {
+      "nome": "Vestuário Adult",
+      "vendas": 6,
+      "faturamento": 349.95,
+      "custo": 215.04,
+      "taxa_ml": 49.01,
+      "pct": 58.6,
+      "margem_pct": 38.6
+    },
     {
       "nome": "Vestuário Infantil",
       "vendas": 3,
       "faturamento": 207.01,
       "custo": 80.73,
       "taxa_ml": 23.82,
-      "pct": 56.9,
+      "pct": 34.6,
       "margem_pct": 61.0
-    },
-    {
-      "nome": "Vestuário Adult",
-      "vendas": 2,
-      "faturamento": 116.38,
-      "custo": 71.68,
-      "taxa_ml": 16.3,
-      "pct": 32.0,
-      "margem_pct": 38.4
     },
     {
       "nome": "Acessórios",
@@ -103,7 +103,7 @@
       "faturamento": 40.64,
       "custo": 18.26,
       "taxa_ml": 5.69,
-      "pct": 11.2,
+      "pct": 6.8,
       "margem_pct": 55.1
     }
   ],
@@ -139,7 +139,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 6,
+    "total_orders_fetched": 10,
     "pads_campaigns_found": true
   },
   "semana": {
