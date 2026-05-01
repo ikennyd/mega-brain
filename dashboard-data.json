@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-05-01T09:20:21.716616",
+  "updated_at": "2026-05-01T10:50:23.334487",
   "kpis": {
-    "faturamento_hoje": 615.45,
-    "vendas_hoje": 9,
-    "ticket_medio": 68.38,
-    "cmv_total": 340.54,
-    "lucro_bruto": 274.91,
-    "margem_pct_real": 44.7,
-    "lucro_por_pedido": 30.55,
-    "taxa_ml_total": 77.49,
-    "shipping_total": 144.6,
-    "faturamento_liquido": 393.36,
-    "margem_liquida_pct": 8.6,
-    "lucro_liquido": 52.82,
+    "faturamento_hoje": 675.35,
+    "vendas_hoje": 10,
+    "ticket_medio": 67.53,
+    "cmv_total": 376.38,
+    "lucro_bruto": 298.97,
+    "margem_pct_real": 44.3,
+    "lucro_por_pedido": 29.9,
+    "taxa_ml_total": 85.88,
+    "shipping_total": 152.55,
+    "faturamento_liquido": 436.92,
+    "margem_liquida_pct": 9.0,
+    "lucro_liquido": 60.54,
     "vendas_semana": 535,
     "faturamento_semana": 35953.54,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 615.45,
+    "organic_revenue": 675.35,
     "acos": 0,
-    "tacos": 60.1
+    "tacos": 54.8
   },
   "top5": [
     {
@@ -81,12 +81,12 @@
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 7,
-      "faturamento": 413.48,
-      "custo": 250.88,
-      "taxa_ml": 51.99,
-      "pct": 67.2,
-      "margem_pct": 39.3
+      "vendas": 8,
+      "faturamento": 473.38,
+      "custo": 286.72,
+      "taxa_ml": 60.38,
+      "pct": 70.1,
+      "margem_pct": 39.4
     },
     {
       "nome": "Vestuário Infantil",
@@ -94,7 +94,7 @@
       "faturamento": 201.97,
       "custo": 89.66,
       "taxa_ml": 25.5,
-      "pct": 32.8,
+      "pct": 29.9,
       "margem_pct": 55.6
     }
   ],
@@ -130,7 +130,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 9,
+    "total_orders_fetched": 10,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -148,27 +148,27 @@
     "tacos": 1.0
   },
   "mes": {
-    "vendas": 9,
-    "faturamento": 615.45,
-    "taxa_ml": 73.6,
-    "faturamento_menos_taxa": 541.85,
-    "ticket_medio": 68.38,
+    "vendas": 10,
+    "faturamento": 675.35,
+    "taxa_ml": 81.99,
+    "faturamento_menos_taxa": 593.36,
+    "ticket_medio": 67.53,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 615.45,
+    "organic_revenue": 675.35,
     "acos": 0,
-    "tacos": 60.1,
+    "tacos": 54.8,
     "chart": {
       "labels": [
         "Sex (01)"
       ],
       "vendas": [
-        4
+        5
       ],
       "faturamento": [
-        252.78
+        312.68
       ]
     }
   }
