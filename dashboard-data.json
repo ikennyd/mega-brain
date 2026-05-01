@@ -1,27 +1,38 @@
 {
-  "updated_at": "2026-05-01T07:35:43.222824",
+  "updated_at": "2026-05-01T09:20:21.716616",
   "kpis": {
-    "faturamento_hoje": 536.46,
-    "vendas_hoje": 8,
-    "ticket_medio": 67.06,
-    "cmv_total": 313.63,
-    "lucro_bruto": 222.83,
-    "margem_pct_real": 41.5,
-    "lucro_por_pedido": 27.85,
-    "taxa_ml_total": 66.57,
-    "shipping_total": 136.05,
-    "faturamento_liquido": 333.84,
-    "margem_liquida_pct": 3.8,
-    "lucro_liquido": 20.21,
+    "faturamento_hoje": 615.45,
+    "vendas_hoje": 9,
+    "ticket_medio": 68.38,
+    "cmv_total": 340.54,
+    "lucro_bruto": 274.91,
+    "margem_pct_real": 44.7,
+    "lucro_por_pedido": 30.55,
+    "taxa_ml_total": 77.49,
+    "shipping_total": 144.6,
+    "faturamento_liquido": 393.36,
+    "margem_liquida_pct": 8.6,
+    "lucro_liquido": 52.82,
     "vendas_semana": 535,
     "faturamento_semana": 35953.54,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 536.46,
+    "organic_revenue": 615.45,
     "acos": 0,
-    "tacos": 69.0
+    "tacos": 60.1
   },
   "top5": [
+    {
+      "vendas": 2,
+      "faturamento": 157.98,
+      "custo": 53.82,
+      "title": "Kit 3 Calça Moletom Infantil Punho Flanelada Menin",
+      "taxa_ml": 21.98,
+      "full_unit_price": 78.99,
+      "lucro": 104.16,
+      "margem_pct": 65.9,
+      "score": 84
+    },
     {
       "vendas": 2,
       "faturamento": 129.8,
@@ -43,17 +54,6 @@
       "lucro": 25.3,
       "margem_pct": 26.1,
       "score": 84
-    },
-    {
-      "vendas": 1,
-      "faturamento": 78.99,
-      "custo": 26.91,
-      "title": "Kit 3 Calça Moletom Infantil Punho Flanelada Menin",
-      "taxa_ml": 11.06,
-      "full_unit_price": 78.99,
-      "lucro": 52.08,
-      "margem_pct": 65.9,
-      "score": 82
     },
     {
       "vendas": 1,
@@ -85,17 +85,17 @@
       "faturamento": 413.48,
       "custo": 250.88,
       "taxa_ml": 51.99,
-      "pct": 77.1,
+      "pct": 67.2,
       "margem_pct": 39.3
     },
     {
       "nome": "Vestuário Infantil",
-      "vendas": 2,
-      "faturamento": 122.98,
-      "custo": 62.75,
-      "taxa_ml": 14.58,
-      "pct": 22.9,
-      "margem_pct": 49.0
+      "vendas": 3,
+      "faturamento": 201.97,
+      "custo": 89.66,
+      "taxa_ml": 25.5,
+      "pct": 32.8,
+      "margem_pct": 55.6
     }
   ],
   "chart": {
@@ -130,7 +130,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 8,
+    "total_orders_fetched": 9,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -148,27 +148,27 @@
     "tacos": 1.0
   },
   "mes": {
-    "vendas": 8,
-    "faturamento": 536.46,
-    "taxa_ml": 62.68,
-    "faturamento_menos_taxa": 473.78,
-    "ticket_medio": 67.06,
+    "vendas": 9,
+    "faturamento": 615.45,
+    "taxa_ml": 73.6,
+    "faturamento_menos_taxa": 541.85,
+    "ticket_medio": 68.38,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 536.46,
+    "organic_revenue": 615.45,
     "acos": 0,
-    "tacos": 69.0,
+    "tacos": 60.1,
     "chart": {
       "labels": [
         "Sex (01)"
       ],
       "vendas": [
-        3
+        4
       ],
       "faturamento": [
-        173.79
+        252.78
       ]
     }
   }
