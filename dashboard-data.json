@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-05-02T14:14:44.753410",
+  "updated_at": "2026-05-02T15:05:50.607005",
   "kpis": {
-    "faturamento_hoje": 1951.48,
-    "vendas_hoje": 29,
-    "ticket_medio": 67.29,
-    "cmv_total": 950.62,
-    "lucro_bruto": 1000.86,
-    "margem_pct_real": 51.3,
-    "lucro_por_pedido": 34.51,
-    "taxa_ml_total": 251.55,
-    "shipping_total": 338.7,
-    "faturamento_liquido": 1361.23,
-    "margem_liquida_pct": 21.0,
-    "lucro_liquido": 410.61,
+    "faturamento_hoje": 2571.72,
+    "vendas_hoje": 38,
+    "ticket_medio": 67.68,
+    "cmv_total": 1246.79,
+    "lucro_bruto": 1324.93,
+    "margem_pct_real": 51.5,
+    "lucro_por_pedido": 34.87,
+    "taxa_ml_total": 330.5,
+    "shipping_total": 419.14,
+    "faturamento_liquido": 1822.08,
+    "margem_liquida_pct": 22.4,
+    "lucro_liquido": 575.29,
     "vendas_semana": 538,
     "faturamento_semana": 35769.99,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 1951.48,
+    "organic_revenue": 2571.72,
     "acos": 0,
-    "tacos": 19.0
+    "tacos": 14.4
   },
   "top5": [
     {
@@ -34,15 +34,15 @@
       "score": 88
     },
     {
-      "vendas": 3,
-      "faturamento": 194.7,
-      "custo": 107.52,
+      "vendas": 4,
+      "faturamento": 259.6,
+      "custo": 143.36,
       "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 27.27,
+      "taxa_ml": 36.36,
       "full_unit_price": 64.9,
-      "lucro": 87.18,
+      "lucro": 116.24,
       "margem_pct": 44.8,
-      "score": 86
+      "score": 88
     },
     {
       "vendas": 1,
@@ -56,6 +56,17 @@
       "score": 82
     },
     {
+      "vendas": 3,
+      "faturamento": 179.7,
+      "custo": 107.52,
+      "title": "Casaco Moletom Masculino Hugo Jobs Com Ziper E Cap",
+      "taxa_ml": 25.17,
+      "full_unit_price": 59.9,
+      "lucro": 72.18,
+      "margem_pct": 40.2,
+      "score": 86
+    },
+    {
       "vendas": 2,
       "faturamento": 129.8,
       "custo": 71.68,
@@ -65,45 +76,34 @@
       "lucro": 58.12,
       "margem_pct": 44.8,
       "score": 84
-    },
-    {
-      "vendas": 2,
-      "faturamento": 128.02,
-      "custo": 53.82,
-      "title": "Conjunto Moletom Infantil Hugo Jobs Calca Jogger F",
-      "taxa_ml": 12.76,
-      "full_unit_price": 64.01,
-      "lucro": 74.2,
-      "margem_pct": 58.0,
-      "score": 84
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 21,
-      "faturamento": 1330.17,
-      "custo": 752.64,
-      "taxa_ml": 181.39,
-      "pct": 68.2,
-      "margem_pct": 43.4
+      "vendas": 25,
+      "faturamento": 1574.77,
+      "custo": 896.0,
+      "taxa_ml": 215.65,
+      "pct": 61.2,
+      "margem_pct": 43.1
     },
     {
       "nome": "Vestuário Infantil",
-      "vendas": 6,
-      "faturamento": 540.03,
-      "custo": 161.46,
-      "taxa_ml": 58.92,
-      "pct": 27.7,
-      "margem_pct": 70.1
+      "vendas": 11,
+      "faturamento": 875.03,
+      "custo": 296.01,
+      "taxa_ml": 98.06,
+      "pct": 34.0,
+      "margem_pct": 66.2
     },
     {
       "nome": "Acessórios",
-      "vendas": 2,
-      "faturamento": 81.28,
-      "custo": 36.52,
-      "taxa_ml": 11.24,
-      "pct": 4.2,
+      "vendas": 3,
+      "faturamento": 121.92,
+      "custo": 54.78,
+      "taxa_ml": 16.79,
+      "pct": 4.7,
       "margem_pct": 55.1
     }
   ],
@@ -139,7 +139,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 30,
+    "total_orders_fetched": 39,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -157,18 +157,18 @@
     "tacos": 1.0
   },
   "mes": {
-    "vendas": 123,
-    "faturamento": 8041.96,
-    "taxa_ml": 1017.33,
-    "faturamento_menos_taxa": 7024.63,
-    "ticket_medio": 65.38,
+    "vendas": 132,
+    "faturamento": 8662.2,
+    "taxa_ml": 1087.89,
+    "faturamento_menos_taxa": 7574.31,
+    "ticket_medio": 65.62,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 8041.96,
+    "organic_revenue": 8662.2,
     "acos": 0,
-    "tacos": 4.6,
+    "tacos": 4.3,
     "chart": {
       "labels": [
         "Sex (01)",
@@ -176,11 +176,11 @@
       ],
       "vendas": [
         89,
-        29
+        38
       ],
       "faturamento": [
         5727.81,
-        1951.48
+        2571.72
       ]
     }
   }
