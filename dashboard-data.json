@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-05-02T20:22:46.151064",
+  "updated_at": "2026-05-02T21:05:20.157390",
   "kpis": {
-    "faturamento_hoje": 4947.13,
-    "vendas_hoje": 72,
-    "ticket_medio": 68.71,
-    "cmv_total": 2319.49,
-    "lucro_bruto": 2627.64,
-    "margem_pct_real": 53.1,
-    "lucro_por_pedido": 36.49,
-    "taxa_ml_total": 649.71,
-    "shipping_total": 754.81,
-    "faturamento_liquido": 3542.61,
-    "margem_liquida_pct": 24.7,
-    "lucro_liquido": 1223.12,
+    "faturamento_hoje": 5432.62,
+    "vendas_hoje": 80,
+    "ticket_medio": 67.91,
+    "cmv_total": 2597.28,
+    "lucro_bruto": 2835.34,
+    "margem_pct_real": 52.2,
+    "lucro_por_pedido": 35.44,
+    "taxa_ml_total": 709.32,
+    "shipping_total": 876.0,
+    "faturamento_liquido": 3847.3,
+    "margem_liquida_pct": 23.0,
+    "lucro_liquido": 1250.02,
     "vendas_semana": 537,
     "faturamento_semana": 35691.0,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 4947.13,
+    "organic_revenue": 5432.62,
     "acos": 0,
-    "tacos": 7.5
+    "tacos": 6.8
   },
   "top5": [
     {
@@ -32,6 +32,17 @@
       "lucro": 260.4,
       "margem_pct": 65.9,
       "score": 90
+    },
+    {
+      "vendas": 6,
+      "faturamento": 389.4,
+      "custo": 215.04,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 54.54,
+      "full_unit_price": 64.9,
+      "lucro": 174.36,
+      "margem_pct": 44.8,
+      "score": 92
     },
     {
       "vendas": 6,
@@ -65,37 +76,26 @@
       "lucro": 145.3,
       "margem_pct": 44.8,
       "score": 90
-    },
-    {
-      "vendas": 4,
-      "faturamento": 259.6,
-      "custo": 143.36,
-      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 36.36,
-      "full_unit_price": 64.9,
-      "lucro": 116.24,
-      "margem_pct": 44.8,
-      "score": 88
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 46,
-      "faturamento": 2914.67,
-      "custo": 1648.64,
-      "taxa_ml": 403.18,
-      "pct": 58.9,
-      "margem_pct": 43.4
+      "vendas": 53,
+      "faturamento": 3336.15,
+      "custo": 1899.52,
+      "taxa_ml": 456.41,
+      "pct": 61.4,
+      "margem_pct": 43.1
     },
     {
       "nome": "Vestuário Infantil",
-      "vendas": 19,
-      "faturamento": 1582.37,
-      "custo": 511.29,
-      "taxa_ml": 182.57,
-      "pct": 32.0,
-      "margem_pct": 67.7
+      "vendas": 20,
+      "faturamento": 1646.38,
+      "custo": 538.2,
+      "taxa_ml": 188.95,
+      "pct": 30.3,
+      "margem_pct": 67.3
     },
     {
       "nome": "Acessórios",
@@ -103,7 +103,7 @@
       "faturamento": 239.09,
       "custo": 109.56,
       "taxa_ml": 33.19,
-      "pct": 4.8,
+      "pct": 4.4,
       "margem_pct": 54.2
     },
     {
@@ -112,7 +112,7 @@
       "faturamento": 211,
       "custo": 50.0,
       "taxa_ml": 30.77,
-      "pct": 4.3,
+      "pct": 3.9,
       "margem_pct": 76.3
     }
   ],
@@ -148,7 +148,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 73,
+    "total_orders_fetched": 81,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -166,18 +166,18 @@
     "tacos": 1.0
   },
   "mes": {
-    "vendas": 165,
-    "faturamento": 10907.81,
-    "taxa_ml": 1398.01,
-    "faturamento_menos_taxa": 9509.8,
-    "ticket_medio": 66.11,
+    "vendas": 173,
+    "faturamento": 11393.3,
+    "taxa_ml": 1457.62,
+    "faturamento_menos_taxa": 9935.68,
+    "ticket_medio": 65.86,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 10907.81,
+    "organic_revenue": 11393.3,
     "acos": 0,
-    "tacos": 3.4,
+    "tacos": 3.2,
     "chart": {
       "labels": [
         "Sex (01)",
@@ -185,11 +185,11 @@
       ],
       "vendas": [
         88,
-        72
+        80
       ],
       "faturamento": [
         5598.01,
-        4947.13
+        5432.62
       ]
     }
   }
