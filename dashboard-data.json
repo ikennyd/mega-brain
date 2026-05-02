@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-05-02T11:59:02.590035",
+  "updated_at": "2026-05-02T13:14:58.049666",
   "kpis": {
-    "faturamento_hoje": 832.21,
-    "vendas_hoje": 13,
-    "ticket_medio": 64.02,
-    "cmv_total": 439.41,
-    "lucro_bruto": 392.8,
-    "margem_pct_real": 47.2,
-    "lucro_por_pedido": 30.22,
-    "taxa_ml_total": 114.4,
-    "shipping_total": 152.31,
-    "faturamento_liquido": 565.5,
-    "margem_liquida_pct": 15.2,
-    "lucro_liquido": 126.09,
+    "faturamento_hoje": 1478.84,
+    "vendas_hoje": 21,
+    "ticket_medio": 70.42,
+    "cmv_total": 690.41,
+    "lucro_bruto": 788.43,
+    "margem_pct_real": 53.3,
+    "lucro_por_pedido": 37.54,
+    "taxa_ml_total": 190.84,
+    "shipping_total": 262.1,
+    "faturamento_liquido": 1025.9,
+    "margem_liquida_pct": 22.7,
+    "lucro_liquido": 335.49,
     "vendas_semana": 538,
     "faturamento_semana": 35769.99,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 832.21,
+    "organic_revenue": 1478.84,
     "acos": 0,
-    "tacos": 44.5
+    "tacos": 25.0
   },
   "top5": [
     {
@@ -35,6 +35,39 @@
     },
     {
       "vendas": 1,
+      "faturamento": 186.23,
+      "custo": 26.91,
+      "title": "Kit 3 Conjunto Moletom Infantil Menino Menina Inve",
+      "taxa_ml": 16.76,
+      "full_unit_price": 186.23,
+      "lucro": 159.32,
+      "margem_pct": 85.6,
+      "score": 82
+    },
+    {
+      "vendas": 2,
+      "faturamento": 129.8,
+      "custo": 71.68,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 18.18,
+      "full_unit_price": 64.9,
+      "lucro": 58.12,
+      "margem_pct": 44.8,
+      "score": 84
+    },
+    {
+      "vendas": 2,
+      "faturamento": 119.8,
+      "custo": 71.68,
+      "title": "Casaco Moletom Masculino Hugo Jobs Com Ziper E Cap",
+      "taxa_ml": 16.78,
+      "full_unit_price": 59.9,
+      "lucro": 48.12,
+      "margem_pct": 40.2,
+      "score": 84
+    },
+    {
+      "vendas": 1,
       "faturamento": 89.99,
       "custo": 35.84,
       "title": "Kit 2 Blusa Moletom Hugo Jobs Premium Careca Lisa ",
@@ -43,59 +76,26 @@
       "lucro": 54.15,
       "margem_pct": 60.2,
       "score": 82
-    },
-    {
-      "vendas": 1,
-      "faturamento": 78.99,
-      "custo": 26.91,
-      "title": "Kit 3 Calça Moletom Infantil Punho Flanelada Menin",
-      "taxa_ml": 11.06,
-      "full_unit_price": 78.99,
-      "lucro": 52.08,
-      "margem_pct": 65.9,
-      "score": 82
-    },
-    {
-      "vendas": 1,
-      "faturamento": 64.9,
-      "custo": 35.84,
-      "title": "Moletom Masculino Zíper Hugo Jobs Blusa Aberta Com",
-      "taxa_ml": 9.09,
-      "full_unit_price": 64.9,
-      "lucro": 29.06,
-      "margem_pct": 44.8,
-      "score": 82
-    },
-    {
-      "vendas": 1,
-      "faturamento": 64.9,
-      "custo": 35.84,
-      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 9.09,
-      "full_unit_price": 64.9,
-      "lucro": 29.06,
-      "margem_pct": 44.8,
-      "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 11,
-      "faturamento": 712.58,
-      "custo": 394.24,
-      "taxa_ml": 97.79,
-      "pct": 85.6,
-      "margem_pct": 44.7
+      "vendas": 15,
+      "faturamento": 962.18,
+      "custo": 537.6,
+      "taxa_ml": 132.75,
+      "pct": 65.1,
+      "margem_pct": 44.1
     },
     {
       "nome": "Vestuário Infantil",
-      "vendas": 1,
-      "faturamento": 78.99,
-      "custo": 26.91,
-      "taxa_ml": 11.06,
-      "pct": 9.5,
-      "margem_pct": 65.9
+      "vendas": 5,
+      "faturamento": 476.02,
+      "custo": 134.55,
+      "taxa_ml": 52.54,
+      "pct": 32.2,
+      "margem_pct": 71.7
     },
     {
       "nome": "Acessórios",
@@ -103,7 +103,7 @@
       "faturamento": 40.64,
       "custo": 18.26,
       "taxa_ml": 5.55,
-      "pct": 4.9,
+      "pct": 2.7,
       "margem_pct": 55.1
     }
   ],
@@ -139,7 +139,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 14,
+    "total_orders_fetched": 22,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -157,18 +157,18 @@
     "tacos": 1.0
   },
   "mes": {
-    "vendas": 107,
-    "faturamento": 6922.69,
-    "taxa_ml": 880.18,
-    "faturamento_menos_taxa": 6042.51,
-    "ticket_medio": 64.7,
+    "vendas": 115,
+    "faturamento": 7569.32,
+    "taxa_ml": 956.62,
+    "faturamento_menos_taxa": 6612.7,
+    "ticket_medio": 65.82,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 6922.69,
+    "organic_revenue": 7569.32,
     "acos": 0,
-    "tacos": 5.3,
+    "tacos": 4.9,
     "chart": {
       "labels": [
         "Sex (01)",
@@ -176,11 +176,11 @@
       ],
       "vendas": [
         89,
-        13
+        21
       ],
       "faturamento": [
         5727.81,
-        832.21
+        1478.84
       ]
     }
   }
