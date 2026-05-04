@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-05-04T04:06:39.376899",
+  "updated_at": "2026-05-04T07:21:22.923236",
   "kpis": {
-    "faturamento_hoje": 252.28,
-    "vendas_hoje": 4,
-    "ticket_medio": 63.07,
-    "cmv_total": 134.43,
-    "lucro_bruto": 117.85,
-    "margem_pct_real": 46.7,
-    "lucro_por_pedido": 29.46,
-    "taxa_ml_total": 32.43,
-    "shipping_total": 113.38,
-    "faturamento_liquido": 106.47,
-    "margem_liquida_pct": -11.1,
-    "lucro_liquido": -27.96,
+    "faturamento_hoje": 300.77,
+    "vendas_hoje": 5,
+    "ticket_medio": 60.15,
+    "cmv_total": 170.27,
+    "lucro_bruto": 130.5,
+    "margem_pct_real": 43.4,
+    "lucro_por_pedido": 26.1,
+    "taxa_ml_total": 36.18,
+    "shipping_total": 120.13,
+    "faturamento_liquido": 144.46,
+    "margem_liquida_pct": -8.6,
+    "lucro_liquido": -25.81,
     "vendas_semana": 535,
     "faturamento_semana": 35751.27,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 252.28,
+    "organic_revenue": 300.77,
     "acos": 0,
-    "tacos": 146.7
+    "tacos": 123.0
   },
   "top5": [
     {
@@ -65,17 +65,28 @@
       "lucro": 12.65,
       "margem_pct": 26.1,
       "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 48.49,
+      "custo": 35.84,
+      "title": "Moletom Masculino Hugo Jobs Flanelado Grosso Com C",
+      "taxa_ml": 3.75,
+      "full_unit_price": 48.49,
+      "lucro": 12.65,
+      "margem_pct": 26.1,
+      "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 3,
-      "faturamento": 173.29,
-      "custo": 107.52,
-      "taxa_ml": 21.37,
-      "pct": 68.7,
-      "margem_pct": 38.0
+      "vendas": 4,
+      "faturamento": 221.78,
+      "custo": 143.36,
+      "taxa_ml": 25.12,
+      "pct": 73.7,
+      "margem_pct": 35.4
     },
     {
       "nome": "Vestuário Infantil",
@@ -83,7 +94,7 @@
       "faturamento": 78.99,
       "custo": 26.91,
       "taxa_ml": 11.06,
-      "pct": 31.3,
+      "pct": 26.3,
       "margem_pct": 65.9
     }
   ],
@@ -119,7 +130,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 5,
+    "total_orders_fetched": 6,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -137,16 +148,16 @@
     "tacos": 1.0
   },
   "mes": {
-    "vendas": 437,
-    "faturamento": 29903.98,
-    "taxa_ml": 3768.24,
-    "faturamento_menos_taxa": 26135.74,
-    "ticket_medio": 68.43,
+    "vendas": 438,
+    "faturamento": 29952.47,
+    "taxa_ml": 3771.99,
+    "faturamento_menos_taxa": 26180.48,
+    "ticket_medio": 68.38,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 29903.98,
+    "organic_revenue": 29952.47,
     "acos": 0,
     "tacos": 1.2,
     "chart": {
@@ -160,13 +171,13 @@
         88,
         112,
         231,
-        1
+        2
       ],
       "faturamento": [
         5598.01,
         7732.64,
         16145.76,
-        64.9
+        113.39
       ]
     }
   }
