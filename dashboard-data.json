@@ -1,28 +1,101 @@
 {
-  "updated_at": "2026-05-06T00:10:41.225969",
+  "updated_at": "2026-05-06T04:02:26.097335",
   "kpis": {
-    "faturamento_hoje": 0,
-    "vendas_hoje": 0,
-    "ticket_medio": 0,
-    "cmv_total": 0,
-    "lucro_bruto": 0,
-    "margem_pct_real": 0,
-    "lucro_por_pedido": 0,
-    "taxa_ml_total": 0,
-    "shipping_total": 0,
-    "faturamento_liquido": 0,
-    "margem_liquida_pct": 0,
-    "lucro_liquido": 0,
+    "faturamento_hoje": 399.89,
+    "vendas_hoje": 4,
+    "ticket_medio": 99.97,
+    "cmv_total": 139.66,
+    "lucro_bruto": 260.23,
+    "margem_pct_real": 65.1,
+    "lucro_por_pedido": 65.06,
+    "taxa_ml_total": 43.37,
+    "shipping_total": 56.45,
+    "faturamento_liquido": 300.07,
+    "margem_liquida_pct": 40.1,
+    "lucro_liquido": 160.41,
     "vendas_semana": 527,
     "faturamento_semana": 35497.05,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 0.0,
+    "organic_revenue": 399.89,
     "acos": 0,
-    "tacos": 0
+    "tacos": 92.5
   },
-  "top5": [],
-  "categories": [],
+  "top5": [
+    {
+      "vendas": 2,
+      "faturamento": 204,
+      "custo": 50.0,
+      "title": "Perfume Lattitude Stamina Masculino Hinode 100ml",
+      "taxa_ml": 24.48,
+      "full_unit_price": 102,
+      "lucro": 154.0,
+      "margem_pct": 75.5,
+      "score": 84
+    },
+    {
+      "vendas": 1,
+      "faturamento": 67.89,
+      "custo": 35.84,
+      "title": "Kit 3 Camisetas 100% Algodão Estilosa Hugo Jobs Mi",
+      "taxa_ml": 6.29,
+      "full_unit_price": 67.89,
+      "lucro": 32.05,
+      "margem_pct": 47.2,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 64,
+      "custo": 26.91,
+      "title": "Conjunto Moletom Infantil Hugo Jobs Calca Jogger F",
+      "taxa_ml": 6.3,
+      "full_unit_price": 64,
+      "lucro": 37.09,
+      "margem_pct": 58.0,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 64,
+      "custo": 26.91,
+      "title": "Conjunto Moletom Infantil Hugo Jobs Calca Jogger F",
+      "taxa_ml": 6.3,
+      "full_unit_price": 64,
+      "lucro": 37.09,
+      "margem_pct": 58.0,
+      "score": 82
+    }
+  ],
+  "categories": [
+    {
+      "nome": "Outros",
+      "vendas": 2,
+      "faturamento": 204,
+      "custo": 50.0,
+      "taxa_ml": 24.48,
+      "pct": 51.0,
+      "margem_pct": 75.5
+    },
+    {
+      "nome": "Vestuário Infantil",
+      "vendas": 2,
+      "faturamento": 128,
+      "custo": 53.82,
+      "taxa_ml": 12.6,
+      "pct": 32.0,
+      "margem_pct": 58.0
+    },
+    {
+      "nome": "Vestuário Adult",
+      "vendas": 1,
+      "faturamento": 67.89,
+      "custo": 35.84,
+      "taxa_ml": 6.29,
+      "pct": 17.0,
+      "margem_pct": 47.2
+    }
+  ],
   "chart": {
     "labels": [
       "Qui (30)",
@@ -55,7 +128,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 0,
+    "total_orders_fetched": 4,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -73,16 +146,16 @@
     "tacos": 1.0
   },
   "mes": {
-    "vendas": 1007,
-    "faturamento": 71307.86,
-    "taxa_ml": 8806.13,
-    "faturamento_menos_taxa": 62501.73,
-    "ticket_medio": 70.81,
+    "vendas": 1054,
+    "faturamento": 74616.12,
+    "taxa_ml": 9188.13,
+    "faturamento_menos_taxa": 65427.99,
+    "ticket_medio": 70.79,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 71307.86,
+    "organic_revenue": 74616.12,
     "acos": 0,
     "tacos": 0.5,
     "chart": {
@@ -99,7 +172,7 @@
         110,
         228,
         277,
-        298,
+        345,
         0
       ],
       "faturamento": [
@@ -107,7 +180,7 @@
         7607.84,
         15971.97,
         19656.92,
-        22031.46,
+        25339.72,
         0
       ]
     }
