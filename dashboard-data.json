@@ -1,47 +1,69 @@
 {
-  "updated_at": "2026-05-06T11:18:16.717023",
+  "updated_at": "2026-05-06T13:09:46.885991",
   "kpis": {
-    "faturamento_hoje": 2502.62,
-    "vendas_hoje": 30,
-    "ticket_medio": 83.42,
-    "cmv_total": 903.8,
-    "lucro_bruto": 1598.82,
-    "margem_pct_real": 63.9,
-    "lucro_por_pedido": 53.29,
-    "taxa_ml_total": 292.36,
-    "shipping_total": 368.16,
-    "faturamento_liquido": 1842.1,
-    "margem_liquida_pct": 37.5,
-    "lucro_liquido": 938.3,
+    "faturamento_hoje": 3869.61,
+    "vendas_hoje": 50,
+    "ticket_medio": 77.39,
+    "cmv_total": 1547.25,
+    "lucro_bruto": 2322.36,
+    "margem_pct_real": 60.0,
+    "lucro_por_pedido": 46.45,
+    "taxa_ml_total": 478.41,
+    "shipping_total": 536.36,
+    "faturamento_liquido": 2854.84,
+    "margem_liquida_pct": 33.8,
+    "lucro_liquido": 1307.59,
     "vendas_semana": 527,
     "faturamento_semana": 35497.05,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 2502.62,
+    "organic_revenue": 3869.61,
     "acos": 0,
-    "tacos": 14.8
+    "tacos": 9.6
   },
   "top5": [
     {
-      "vendas": 3,
-      "faturamento": 343.38,
-      "custo": 75.0,
+      "vendas": 6,
+      "faturamento": 473.94,
+      "custo": 161.46,
+      "title": "Kit 3 Calça Moletom Infantil Punho Flanelada Menin",
+      "taxa_ml": 66.36,
+      "full_unit_price": 78.99,
+      "lucro": 312.48,
+      "margem_pct": 65.9,
+      "score": 92
+    },
+    {
+      "vendas": 4,
+      "faturamento": 457.84,
+      "custo": 100.0,
       "title": "Perfume Grace Midnight Feminino Hinode (frasco Ant",
-      "taxa_ml": 41.22,
+      "taxa_ml": 54.96,
       "full_unit_price": 114.46,
-      "lucro": 268.38,
+      "lucro": 357.84,
       "margem_pct": 78.2,
-      "score": 86
+      "score": 88
     },
     {
       "vendas": 4,
       "faturamento": 315.96,
       "custo": 107.64,
       "title": "Kit 3 Calça Moletom Infantil Punho Flanelada Menin",
-      "taxa_ml": 44.24,
+      "taxa_ml": 44.1,
       "full_unit_price": 78.99,
       "lucro": 208.32,
       "margem_pct": 65.9,
+      "score": 88
+    },
+    {
+      "vendas": 4,
+      "faturamento": 259.6,
+      "custo": 143.36,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 36.29,
+      "full_unit_price": 64.9,
+      "lucro": 116.24,
+      "margem_pct": 44.8,
       "score": 88
     },
     {
@@ -54,57 +76,35 @@
       "lucro": 154.0,
       "margem_pct": 75.5,
       "score": 84
-    },
-    {
-      "vendas": 3,
-      "faturamento": 194.7,
-      "custo": 107.52,
-      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 27.2,
-      "full_unit_price": 64.9,
-      "lucro": 87.18,
-      "margem_pct": 44.8,
-      "score": 86
-    },
-    {
-      "vendas": 1,
-      "faturamento": 186.23,
-      "custo": 26.91,
-      "title": "Kit 3 Conjunto Moletom Infantil Menino Menina Inve",
-      "taxa_ml": 16.76,
-      "full_unit_price": 186.23,
-      "lucro": 159.32,
-      "margem_pct": 85.6,
-      "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Infantil",
-      "vendas": 16,
-      "faturamento": 1251.19,
-      "custo": 430.56,
-      "taxa_ml": 133.9,
-      "pct": 50.0,
-      "margem_pct": 65.6
-    },
-    {
-      "nome": "Outros",
-      "vendas": 6,
-      "faturamento": 666.38,
-      "custo": 150.0,
-      "taxa_ml": 85.93,
-      "pct": 26.6,
-      "margem_pct": 77.5
+      "vendas": 23,
+      "faturamento": 1774.15,
+      "custo": 618.93,
+      "taxa_ml": 212.87,
+      "pct": 45.8,
+      "margem_pct": 65.1
     },
     {
       "nome": "Vestuário Adult",
-      "vendas": 8,
-      "faturamento": 503.77,
-      "custo": 286.72,
-      "taxa_ml": 61.15,
-      "pct": 20.1,
-      "margem_pct": 43.1
+      "vendas": 20,
+      "faturamento": 1233.34,
+      "custo": 716.8,
+      "taxa_ml": 154.49,
+      "pct": 31.9,
+      "margem_pct": 41.9
+    },
+    {
+      "nome": "Outros",
+      "vendas": 7,
+      "faturamento": 780.84,
+      "custo": 175.0,
+      "taxa_ml": 99.67,
+      "pct": 20.2,
+      "margem_pct": 77.6
     },
     {
       "nome": "Acessórios",
@@ -112,7 +112,7 @@
       "faturamento": 81.28,
       "custo": 36.52,
       "taxa_ml": 11.38,
-      "pct": 3.2,
+      "pct": 2.1,
       "margem_pct": 55.1
     }
   ],
@@ -148,7 +148,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 30,
+    "total_orders_fetched": 51,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -166,16 +166,16 @@
     "tacos": 1.0
   },
   "mes": {
-    "vendas": 1080,
-    "faturamento": 76718.85,
-    "taxa_ml": 9426.06,
-    "faturamento_menos_taxa": 67292.79,
-    "ticket_medio": 71.04,
+    "vendas": 1099,
+    "faturamento": 78020.94,
+    "taxa_ml": 9603.02,
+    "faturamento_menos_taxa": 68417.92,
+    "ticket_medio": 70.99,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 76718.85,
+    "organic_revenue": 78020.94,
     "acos": 0,
     "tacos": 0.5,
     "chart": {
@@ -192,16 +192,16 @@
         110,
         228,
         277,
-        345,
-        26
+        344,
+        46
       ],
       "faturamento": [
         5677.0,
         7607.84,
         15971.97,
         19656.92,
-        25339.72,
-        2102.73
+        25274.82,
+        3469.72
       ]
     }
   }
