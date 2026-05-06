@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-05-06T04:02:26.097335",
+  "updated_at": "2026-05-06T06:43:50.351666",
   "kpis": {
-    "faturamento_hoje": 399.89,
-    "vendas_hoje": 4,
-    "ticket_medio": 99.97,
-    "cmv_total": 139.66,
-    "lucro_bruto": 260.23,
-    "margem_pct_real": 65.1,
-    "lucro_por_pedido": 65.06,
-    "taxa_ml_total": 43.37,
-    "shipping_total": 56.45,
-    "faturamento_liquido": 300.07,
-    "margem_liquida_pct": 40.1,
-    "lucro_liquido": 160.41,
+    "faturamento_hoje": 721.7,
+    "vendas_hoje": 9,
+    "ticket_medio": 80.19,
+    "cmv_total": 292.07,
+    "lucro_bruto": 429.63,
+    "margem_pct_real": 59.5,
+    "lucro_por_pedido": 47.74,
+    "taxa_ml_total": 80.53,
+    "shipping_total": 112.6,
+    "faturamento_liquido": 528.57,
+    "margem_liquida_pct": 32.8,
+    "lucro_liquido": 236.5,
     "vendas_semana": 527,
     "faturamento_semana": 35497.05,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 399.89,
+    "organic_revenue": 721.7,
     "acos": 0,
-    "tacos": 92.5
+    "tacos": 51.3
   },
   "top5": [
     {
@@ -46,54 +46,65 @@
     },
     {
       "vendas": 1,
-      "faturamento": 64,
-      "custo": 26.91,
-      "title": "Conjunto Moletom Infantil Hugo Jobs Calca Jogger F",
-      "taxa_ml": 6.3,
-      "full_unit_price": 64,
-      "lucro": 37.09,
-      "margem_pct": 58.0,
+      "faturamento": 64.9,
+      "custo": 35.84,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 9.02,
+      "full_unit_price": 64.9,
+      "lucro": 29.06,
+      "margem_pct": 44.8,
       "score": 82
     },
     {
       "vendas": 1,
-      "faturamento": 64,
+      "faturamento": 64.9,
+      "custo": 35.84,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 9.09,
+      "full_unit_price": 64.9,
+      "lucro": 29.06,
+      "margem_pct": 44.8,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 64.01,
       "custo": 26.91,
       "title": "Conjunto Moletom Infantil Hugo Jobs Calca Jogger F",
-      "taxa_ml": 6.3,
-      "full_unit_price": 64,
-      "lucro": 37.09,
+      "taxa_ml": 6.38,
+      "full_unit_price": 64.01,
+      "lucro": 37.1,
       "margem_pct": 58.0,
       "score": 82
     }
   ],
   "categories": [
     {
+      "nome": "Vestuário Infantil",
+      "vendas": 5,
+      "faturamento": 320.01,
+      "custo": 134.55,
+      "taxa_ml": 31.65,
+      "pct": 44.3,
+      "margem_pct": 58.0
+    },
+    {
       "nome": "Outros",
       "vendas": 2,
       "faturamento": 204,
       "custo": 50.0,
       "taxa_ml": 24.48,
-      "pct": 51.0,
+      "pct": 28.3,
       "margem_pct": 75.5
     },
     {
-      "nome": "Vestuário Infantil",
-      "vendas": 2,
-      "faturamento": 128,
-      "custo": 53.82,
-      "taxa_ml": 12.6,
-      "pct": 32.0,
-      "margem_pct": 58.0
-    },
-    {
       "nome": "Vestuário Adult",
-      "vendas": 1,
-      "faturamento": 67.89,
-      "custo": 35.84,
-      "taxa_ml": 6.29,
-      "pct": 17.0,
-      "margem_pct": 47.2
+      "vendas": 3,
+      "faturamento": 197.69,
+      "custo": 107.52,
+      "taxa_ml": 24.4,
+      "pct": 27.4,
+      "margem_pct": 45.6
     }
   ],
   "chart": {
@@ -128,7 +139,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 4,
+    "total_orders_fetched": 9,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -146,16 +157,16 @@
     "tacos": 1.0
   },
   "mes": {
-    "vendas": 1054,
-    "faturamento": 74616.12,
-    "taxa_ml": 9188.13,
-    "faturamento_menos_taxa": 65427.99,
-    "ticket_medio": 70.79,
+    "vendas": 1059,
+    "faturamento": 74937.93,
+    "taxa_ml": 9225.29,
+    "faturamento_menos_taxa": 65712.64,
+    "ticket_medio": 70.76,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 74616.12,
+    "organic_revenue": 74937.93,
     "acos": 0,
     "tacos": 0.5,
     "chart": {
@@ -173,7 +184,7 @@
         228,
         277,
         345,
-        0
+        5
       ],
       "faturamento": [
         5677.0,
@@ -181,7 +192,7 @@
         15971.97,
         19656.92,
         25339.72,
-        0
+        321.81
       ]
     }
   }
