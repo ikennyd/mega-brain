@@ -1,36 +1,69 @@
 {
-  "updated_at": "2026-05-07T04:02:15.576390",
+  "updated_at": "2026-05-07T06:50:42.187745",
   "kpis": {
-    "faturamento_hoje": 811.79,
-    "vendas_hoje": 10,
-    "ticket_medio": 81.18,
-    "cmv_total": 343.86,
-    "lucro_bruto": 467.93,
-    "margem_pct_real": 57.6,
-    "lucro_por_pedido": 46.79,
-    "taxa_ml_total": 89.48,
-    "shipping_total": 175.65,
-    "faturamento_liquido": 546.66,
-    "margem_liquida_pct": 25.0,
-    "lucro_liquido": 202.8,
-    "vendas_semana": 529,
-    "faturamento_semana": 36228.56,
+    "faturamento_hoje": 1254.92,
+    "vendas_hoje": 16,
+    "ticket_medio": 78.43,
+    "cmv_total": 521.27,
+    "lucro_bruto": 733.65,
+    "margem_pct_real": 58.5,
+    "lucro_por_pedido": 45.85,
+    "taxa_ml_total": 140.59,
+    "shipping_total": 236.64,
+    "faturamento_liquido": 877.69,
+    "margem_liquida_pct": 28.4,
+    "lucro_liquido": 356.42,
+    "vendas_semana": 528,
+    "faturamento_semana": 36147.28,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 811.79,
+    "organic_revenue": 1254.92,
     "acos": 0,
-    "tacos": 45.6
+    "tacos": 29.5
   },
   "top5": [
     {
-      "vendas": 2,
-      "faturamento": 228.92,
-      "custo": 50.0,
+      "vendas": 3,
+      "faturamento": 343.38,
+      "custo": 75.0,
       "title": "Perfume Grace Midnight Feminino Hinode (frasco Ant",
-      "taxa_ml": 27.48,
+      "taxa_ml": 41.22,
       "full_unit_price": 114.46,
-      "lucro": 178.92,
+      "lucro": 268.38,
       "margem_pct": 78.2,
+      "score": 86
+    },
+    {
+      "vendas": 2,
+      "faturamento": 157.98,
+      "custo": 53.82,
+      "title": "Kit 3 Calça Moletom Infantil Punho Flanelada Menin",
+      "taxa_ml": 22.12,
+      "full_unit_price": 78.99,
+      "lucro": 104.16,
+      "margem_pct": 65.9,
+      "score": 84
+    },
+    {
+      "vendas": 2,
+      "faturamento": 128.02,
+      "custo": 53.82,
+      "title": "Conjunto Moletom Infantil Hugo Jobs Calca Jogger F",
+      "taxa_ml": 12.76,
+      "full_unit_price": 64.01,
+      "lucro": 74.2,
+      "margem_pct": 58.0,
+      "score": 84
+    },
+    {
+      "vendas": 2,
+      "faturamento": 116.38,
+      "custo": 71.68,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 9.96,
+      "full_unit_price": 58.19,
+      "lucro": 44.7,
+      "margem_pct": 38.4,
       "score": 84
     },
     {
@@ -43,68 +76,35 @@
       "lucro": 77.0,
       "margem_pct": 75.5,
       "score": 82
-    },
-    {
-      "vendas": 1,
-      "faturamento": 64.9,
-      "custo": 35.84,
-      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 9.09,
-      "full_unit_price": 64.9,
-      "lucro": 29.06,
-      "margem_pct": 44.8,
-      "score": 82
-    },
-    {
-      "vendas": 1,
-      "faturamento": 64.9,
-      "custo": 35.84,
-      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 9.09,
-      "full_unit_price": 64.9,
-      "lucro": 29.06,
-      "margem_pct": 44.8,
-      "score": 82
-    },
-    {
-      "vendas": 1,
-      "faturamento": 64.01,
-      "custo": 26.91,
-      "title": "Conjunto Moletom Infantil Hugo Jobs Calca Jogger F",
-      "taxa_ml": 6.38,
-      "full_unit_price": 64.01,
-      "lucro": 37.1,
-      "margem_pct": 58.0,
-      "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 6,
-      "faturamento": 352.86,
-      "custo": 215.04,
-      "taxa_ml": 37.01,
-      "pct": 43.5,
-      "margem_pct": 39.1
+      "vendas": 8,
+      "faturamento": 459.54,
+      "custo": 286.72,
+      "taxa_ml": 45.88,
+      "pct": 36.6,
+      "margem_pct": 37.6
     },
     {
       "nome": "Outros",
-      "vendas": 3,
-      "faturamento": 330.92,
-      "custo": 75.0,
-      "taxa_ml": 39.72,
-      "pct": 40.8,
-      "margem_pct": 77.3
+      "vendas": 4,
+      "faturamento": 445.38,
+      "custo": 100.0,
+      "taxa_ml": 53.46,
+      "pct": 35.5,
+      "margem_pct": 77.5
     },
     {
       "nome": "Vestuário Infantil",
-      "vendas": 2,
-      "faturamento": 128.01,
-      "custo": 53.82,
-      "taxa_ml": 12.75,
-      "pct": 15.8,
-      "margem_pct": 58.0
+      "vendas": 5,
+      "faturamento": 350.0,
+      "custo": 134.55,
+      "taxa_ml": 41.25,
+      "pct": 27.9,
+      "margem_pct": 61.6
     }
   ],
   "chart": {
@@ -120,7 +120,7 @@
     "vendas": [
       89,
       110,
-      228,
+      227,
       97,
       0,
       0,
@@ -129,7 +129,7 @@
     "faturamento": [
       5677.0,
       7607.84,
-      15971.97,
+      15890.69,
       6609.08,
       0,
       0,
@@ -139,34 +139,34 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 11,
+    "total_orders_fetched": 17,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 529,
-    "faturamento": 36228.56,
-    "taxa_ml": 4541.53,
-    "faturamento_menos_taxa": 31687.03,
-    "ticket_medio": 68.48,
+    "vendas": 528,
+    "faturamento": 36147.28,
+    "taxa_ml": 4535.84,
+    "faturamento_menos_taxa": 31611.44,
+    "ticket_medio": 68.46,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 36228.56,
+    "organic_revenue": 36147.28,
     "acos": 0,
     "tacos": 1.0
   },
   "mes": {
-    "vendas": 1338,
-    "faturamento": 95178.0,
-    "taxa_ml": 11693.2,
-    "faturamento_menos_taxa": 83484.8,
-    "ticket_medio": 71.13,
+    "vendas": 1343,
+    "faturamento": 95539.85,
+    "taxa_ml": 11738.62,
+    "faturamento_menos_taxa": 83801.23,
+    "ticket_medio": 71.14,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 95178.0,
+    "organic_revenue": 95539.85,
     "acos": 0,
     "tacos": 0.4,
     "chart": {
@@ -182,20 +182,20 @@
       "vendas": [
         89,
         110,
-        228,
+        227,
         275,
         343,
         288,
-        0
+        6
       ],
       "faturamento": [
         5677.0,
         7607.84,
-        15971.97,
+        15890.69,
         19527.12,
         25195.83,
         20835.57,
-        0
+        443.13
       ]
     }
   }
