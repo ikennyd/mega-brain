@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-05-07T06:50:42.187745",
+  "updated_at": "2026-05-07T09:26:08.437143",
   "kpis": {
-    "faturamento_hoje": 1254.92,
-    "vendas_hoje": 16,
-    "ticket_medio": 78.43,
-    "cmv_total": 521.27,
-    "lucro_bruto": 733.65,
-    "margem_pct_real": 58.5,
-    "lucro_por_pedido": 45.85,
-    "taxa_ml_total": 140.59,
-    "shipping_total": 236.64,
-    "faturamento_liquido": 877.69,
-    "margem_liquida_pct": 28.4,
-    "lucro_liquido": 356.42,
+    "faturamento_hoje": 1442.01,
+    "vendas_hoje": 19,
+    "ticket_medio": 75.9,
+    "cmv_total": 619.86,
+    "lucro_bruto": 822.15,
+    "margem_pct_real": 57.0,
+    "lucro_por_pedido": 43.27,
+    "taxa_ml_total": 161.03,
+    "shipping_total": 273.78,
+    "faturamento_liquido": 1007.2,
+    "margem_liquida_pct": 26.9,
+    "lucro_liquido": 387.34,
     "vendas_semana": 528,
     "faturamento_semana": 36147.28,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 1254.92,
+    "organic_revenue": 1442.01,
     "acos": 0,
-    "tacos": 29.5
+    "tacos": 25.7
   },
   "top5": [
     {
@@ -46,6 +46,17 @@
     },
     {
       "vendas": 2,
+      "faturamento": 129.8,
+      "custo": 71.68,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 18.18,
+      "full_unit_price": 64.9,
+      "lucro": 58.12,
+      "margem_pct": 44.8,
+      "score": 84
+    },
+    {
+      "vendas": 2,
       "faturamento": 128.02,
       "custo": 53.82,
       "title": "Conjunto Moletom Infantil Hugo Jobs Calca Jogger F",
@@ -65,28 +76,17 @@
       "lucro": 44.7,
       "margem_pct": 38.4,
       "score": 84
-    },
-    {
-      "vendas": 1,
-      "faturamento": 102,
-      "custo": 25.0,
-      "title": "Perfume Lattitude Stamina Masculino Hinode 100ml",
-      "taxa_ml": 12.24,
-      "full_unit_price": 102,
-      "lucro": 77.0,
-      "margem_pct": 75.5,
-      "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 8,
-      "faturamento": 459.54,
-      "custo": 286.72,
-      "taxa_ml": 45.88,
-      "pct": 36.6,
-      "margem_pct": 37.6
+      "vendas": 10,
+      "faturamento": 582.63,
+      "custo": 358.4,
+      "taxa_ml": 59.95,
+      "pct": 40.4,
+      "margem_pct": 38.5
     },
     {
       "nome": "Outros",
@@ -94,17 +94,17 @@
       "faturamento": 445.38,
       "custo": 100.0,
       "taxa_ml": 53.46,
-      "pct": 35.5,
+      "pct": 30.9,
       "margem_pct": 77.5
     },
     {
       "nome": "Vestuário Infantil",
-      "vendas": 5,
-      "faturamento": 350.0,
-      "custo": 134.55,
-      "taxa_ml": 41.25,
-      "pct": 27.9,
-      "margem_pct": 61.6
+      "vendas": 6,
+      "faturamento": 414.0,
+      "custo": 161.46,
+      "taxa_ml": 47.62,
+      "pct": 28.7,
+      "margem_pct": 61.0
     }
   ],
   "chart": {
@@ -139,7 +139,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 17,
+    "total_orders_fetched": 20,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -157,16 +157,16 @@
     "tacos": 1.0
   },
   "mes": {
-    "vendas": 1343,
-    "faturamento": 95539.85,
-    "taxa_ml": 11738.62,
-    "faturamento_menos_taxa": 83801.23,
-    "ticket_medio": 71.14,
+    "vendas": 1346,
+    "faturamento": 95726.94,
+    "taxa_ml": 11759.06,
+    "faturamento_menos_taxa": 83967.88,
+    "ticket_medio": 71.12,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 95539.85,
+    "organic_revenue": 95726.94,
     "acos": 0,
     "tacos": 0.4,
     "chart": {
@@ -186,7 +186,7 @@
         275,
         343,
         288,
-        6
+        9
       ],
       "faturamento": [
         5677.0,
@@ -195,7 +195,7 @@
         19527.12,
         25195.83,
         20835.57,
-        443.13
+        630.22
       ]
     }
   }
