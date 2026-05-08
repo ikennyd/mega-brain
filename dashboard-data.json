@@ -1,145 +1,96 @@
 {
-  "updated_at": "2026-05-07T23:35:08.593613",
+  "updated_at": "2026-05-08T04:29:30.614454",
   "kpis": {
-    "faturamento_hoje": 19338.53,
-    "vendas_hoje": 269,
-    "ticket_medio": 71.89,
-    "cmv_total": 9111.68,
-    "lucro_bruto": 10226.85,
-    "margem_pct_real": 52.9,
-    "lucro_por_pedido": 38.02,
-    "taxa_ml_total": 2135.28,
-    "shipping_total": 3575.49,
-    "faturamento_liquido": 13627.76,
-    "margem_liquida_pct": 23.4,
-    "lucro_liquido": 4516.08,
-    "vendas_semana": 527,
-    "faturamento_semana": 36068.3,
+    "faturamento_hoje": 255.88,
+    "vendas_hoje": 3,
+    "ticket_medio": 85.29,
+    "cmv_total": 143.36,
+    "lucro_bruto": 112.52,
+    "margem_pct_real": 44.0,
+    "lucro_por_pedido": 37.51,
+    "taxa_ml_total": 29.45,
+    "shipping_total": 69.07,
+    "faturamento_liquido": 157.36,
+    "margem_liquida_pct": 5.5,
+    "lucro_liquido": 14.0,
+    "vendas_semana": 524,
+    "faturamento_semana": 36291.3,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 19338.53,
+    "organic_revenue": 255.88,
     "acos": 0,
-    "tacos": 1.9
+    "tacos": 144.6
   },
   "top5": [
     {
-      "vendas": 20,
-      "faturamento": 2289.2,
-      "custo": 500.0,
-      "title": "Perfume Grace Midnight Feminino Hinode (frasco Ant",
-      "taxa_ml": 274.68,
-      "full_unit_price": 114.46,
-      "lucro": 1789.2,
-      "margem_pct": 78.2,
-      "score": 99
-    },
-    {
-      "vendas": 30,
-      "faturamento": 1947.0,
-      "custo": 1075.2,
+      "vendas": 2,
+      "faturamento": 129.8,
+      "custo": 71.68,
       "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 272.7,
+      "taxa_ml": 18.18,
       "full_unit_price": 64.9,
-      "lucro": 871.8,
+      "lucro": 58.12,
       "margem_pct": 44.8,
-      "score": 99
+      "score": 84
     },
     {
-      "vendas": 26,
-      "faturamento": 1544.65,
-      "custo": 931.84,
-      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 136.67,
-      "full_unit_price": 58.19,
-      "lucro": 612.81,
-      "margem_pct": 39.7,
-      "score": 99
+      "vendas": 1,
+      "faturamento": 67.89,
+      "custo": 35.84,
+      "title": "Kit 3 Camisetas 100% Algodão Estilosa Hugo Jobs Mi",
+      "taxa_ml": 6.29,
+      "full_unit_price": 67.89,
+      "lucro": 32.05,
+      "margem_pct": 47.2,
+      "score": 82
     },
     {
-      "vendas": 20,
-      "faturamento": 1163.8,
-      "custo": 716.8,
+      "vendas": 1,
+      "faturamento": 58.19,
+      "custo": 35.84,
       "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 99.6,
+      "taxa_ml": 4.98,
       "full_unit_price": 58.19,
-      "lucro": 447.0,
+      "lucro": 22.35,
       "margem_pct": 38.4,
-      "score": 99
-    },
-    {
-      "vendas": 19,
-      "faturamento": 1144.03,
-      "custo": 680.96,
-      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 101.16,
-      "full_unit_price": 58.19,
-      "lucro": 463.07,
-      "margem_pct": 40.5,
-      "score": 99
+      "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 183,
-      "faturamento": 11081.76,
-      "custo": 6558.72,
-      "taxa_ml": 1163.11,
-      "pct": 57.3,
-      "margem_pct": 40.8
-    },
-    {
-      "nome": "Vestuário Infantil",
-      "vendas": 69,
-      "faturamento": 5388.49,
-      "custo": 1856.79,
-      "taxa_ml": 617.23,
-      "pct": 27.9,
-      "margem_pct": 65.5
-    },
-    {
-      "nome": "Outros",
-      "vendas": 23,
-      "faturamento": 2602.2,
-      "custo": 575.0,
-      "taxa_ml": 317.69,
-      "pct": 13.5,
-      "margem_pct": 77.9
-    },
-    {
-      "nome": "Acessórios",
-      "vendas": 7,
-      "faturamento": 266.08,
-      "custo": 121.17,
-      "taxa_ml": 37.25,
-      "pct": 1.4,
-      "margem_pct": 54.5
+      "vendas": 4,
+      "faturamento": 255.88,
+      "custo": 143.36,
+      "taxa_ml": 29.45,
+      "pct": 100.0,
+      "margem_pct": 44.0
     }
   ],
   "chart": {
     "labels": [
-      "Sex (01)",
       "Sáb (02)",
       "Dom (03)",
       "Seg (04)",
       "Ter (05)",
       "Qua (06)",
-      "Qui (07)"
+      "Qui (07)",
+      "Sex (08)"
     ],
     "vendas": [
-      89,
       110,
       227,
-      96,
+      187,
+      0,
       0,
       0,
       0
     ],
     "faturamento": [
-      5677.0,
       7607.84,
       15890.69,
-      6530.1,
+      12792.77,
+      0,
       0,
       0,
       0
@@ -148,34 +99,34 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 278,
+    "total_orders_fetched": 3,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 527,
-    "faturamento": 36068.3,
-    "taxa_ml": 4524.78,
-    "faturamento_menos_taxa": 31543.52,
-    "ticket_medio": 68.44,
+    "vendas": 524,
+    "faturamento": 36291.3,
+    "taxa_ml": 4537.02,
+    "faturamento_menos_taxa": 31754.28,
+    "ticket_medio": 69.26,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 36068.3,
+    "organic_revenue": 36291.3,
     "acos": 0,
     "tacos": 1.0
   },
   "mes": {
-    "vendas": 1598,
-    "faturamento": 113893.66,
-    "taxa_ml": 13661.49,
-    "faturamento_menos_taxa": 100232.17,
-    "ticket_medio": 71.27,
+    "vendas": 1635,
+    "faturamento": 117013.8,
+    "taxa_ml": 13959.72,
+    "faturamento_menos_taxa": 103054.08,
+    "ticket_medio": 71.57,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 113893.66,
+    "organic_revenue": 117013.8,
     "acos": 0,
     "tacos": 0.3,
     "chart": {
@@ -186,7 +137,8 @@
         "Seg (04)",
         "Ter (05)",
         "Qua (06)",
-        "Qui (07)"
+        "Qui (07)",
+        "Sex (08)"
       ],
       "vendas": [
         89,
@@ -195,7 +147,8 @@
         275,
         342,
         291,
-        259
+        296,
+        0
       ],
       "faturamento": [
         5677.0,
@@ -204,7 +157,8 @@
         19496.63,
         25130.93,
         21201.16,
-        18526.74
+        21646.88,
+        0
       ]
     }
   }
