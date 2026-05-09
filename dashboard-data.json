@@ -1,37 +1,48 @@
 {
-  "updated_at": "2026-05-09T10:02:53.762884",
+  "updated_at": "2026-05-09T11:10:24.724864",
   "kpis": {
-    "faturamento_hoje": 1566.64,
-    "vendas_hoje": 23,
-    "ticket_medio": 68.11,
-    "cmv_total": 797.65,
-    "lucro_bruto": 768.99,
-    "margem_pct_real": 49.1,
-    "lucro_por_pedido": 33.43,
-    "taxa_ml_total": 176.85,
-    "shipping_total": 290.76,
-    "faturamento_liquido": 1099.03,
-    "margem_liquida_pct": 19.2,
-    "lucro_liquido": 301.38,
+    "faturamento_hoje": 2398.59,
+    "vendas_hoje": 38,
+    "ticket_medio": 63.12,
+    "cmv_total": 1326.32,
+    "lucro_bruto": 1072.27,
+    "margem_pct_real": 44.7,
+    "lucro_por_pedido": 28.22,
+    "taxa_ml_total": 262.79,
+    "shipping_total": 486.31,
+    "faturamento_liquido": 1649.49,
+    "margem_liquida_pct": 13.5,
+    "lucro_liquido": 323.17,
     "vendas_semana": 528,
     "faturamento_semana": 37348.45,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 1566.64,
+    "organic_revenue": 2398.59,
     "acos": 0,
-    "tacos": 23.6
+    "tacos": 15.4
   },
   "top5": [
     {
-      "vendas": 4,
-      "faturamento": 259.6,
-      "custo": 143.36,
+      "vendas": 5,
+      "faturamento": 324.5,
+      "custo": 179.2,
       "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 36.36,
+      "taxa_ml": 45.45,
       "full_unit_price": 64.9,
-      "lucro": 116.24,
+      "lucro": 145.3,
       "margem_pct": 44.8,
-      "score": 88
+      "score": 90
+    },
+    {
+      "vendas": 3,
+      "faturamento": 194.7,
+      "custo": 107.52,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 27.27,
+      "full_unit_price": 64.9,
+      "lucro": 87.18,
+      "margem_pct": 44.8,
+      "score": 86
     },
     {
       "vendas": 3,
@@ -45,57 +56,46 @@
       "score": 86
     },
     {
-      "vendas": 2,
-      "faturamento": 157.98,
-      "custo": 53.82,
-      "title": "Kit 3 Calça Moletom Infantil Punho Flanelada Menin",
-      "taxa_ml": 22.05,
-      "full_unit_price": 78.99,
-      "lucro": 104.16,
-      "margem_pct": 65.9,
-      "score": 84
-    },
-    {
-      "vendas": 2,
-      "faturamento": 129.8,
-      "custo": 71.68,
+      "vendas": 3,
+      "faturamento": 174.57,
+      "custo": 107.52,
       "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 9.09,
-      "full_unit_price": 64.9,
-      "lucro": 58.12,
-      "margem_pct": 44.8,
-      "score": 84
+      "taxa_ml": 14.94,
+      "full_unit_price": 58.19,
+      "lucro": 67.05,
+      "margem_pct": 38.4,
+      "score": 86
     },
     {
-      "vendas": 2,
-      "faturamento": 128.02,
-      "custo": 53.82,
-      "title": "Conjunto Moletom Infantil Hugo Jobs Calca Jogger F",
-      "taxa_ml": 12.76,
-      "full_unit_price": 64.01,
-      "lucro": 74.2,
-      "margem_pct": 58.0,
-      "score": 84
+      "vendas": 3,
+      "faturamento": 174.57,
+      "custo": 107.52,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 14.94,
+      "full_unit_price": 58.19,
+      "lucro": 67.05,
+      "margem_pct": 38.4,
+      "score": 86
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 17,
-      "faturamento": 1088.62,
-      "custo": 609.28,
-      "taxa_ml": 122.91,
-      "pct": 69.5,
-      "margem_pct": 44.0
+      "vendas": 31,
+      "faturamento": 1877.9,
+      "custo": 1111.04,
+      "taxa_ml": 205.44,
+      "pct": 78.3,
+      "margem_pct": 40.8
     },
     {
       "nome": "Vestuário Infantil",
-      "vendas": 7,
-      "faturamento": 478.02,
-      "custo": 188.37,
-      "taxa_ml": 53.94,
-      "pct": 30.5,
-      "margem_pct": 60.6
+      "vendas": 8,
+      "faturamento": 520.69,
+      "custo": 215.28,
+      "taxa_ml": 57.35,
+      "pct": 21.7,
+      "margem_pct": 58.7
     }
   ],
   "chart": {
@@ -130,7 +130,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 23,
+    "total_orders_fetched": 38,
     "pads_campaigns_found": true
   },
   "semana": {
