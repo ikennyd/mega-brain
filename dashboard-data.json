@@ -1,28 +1,103 @@
 {
-  "updated_at": "2026-05-09T02:45:24.179690",
+  "updated_at": "2026-05-09T05:36:29.536349",
   "kpis": {
-    "faturamento_hoje": 0,
-    "vendas_hoje": 0,
-    "ticket_medio": 0,
-    "cmv_total": 0,
-    "lucro_bruto": 0,
-    "margem_pct_real": 0,
-    "lucro_por_pedido": 0,
-    "taxa_ml_total": 0,
-    "shipping_total": 0,
-    "faturamento_liquido": 0,
-    "margem_liquida_pct": 0,
-    "lucro_liquido": 0,
+    "faturamento_hoje": 1030.56,
+    "vendas_hoje": 15,
+    "ticket_medio": 68.7,
+    "cmv_total": 492.95,
+    "lucro_bruto": 537.61,
+    "margem_pct_real": 52.2,
+    "lucro_por_pedido": 35.84,
+    "taxa_ml_total": 128.17,
+    "shipping_total": 189.52,
+    "faturamento_liquido": 712.87,
+    "margem_liquida_pct": 21.3,
+    "lucro_liquido": 219.92,
     "vendas_semana": 528,
     "faturamento_semana": 37348.45,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 0.0,
+    "organic_revenue": 1030.56,
     "acos": 0,
-    "tacos": 0
+    "tacos": 35.9
   },
-  "top5": [],
-  "categories": [],
+  "top5": [
+    {
+      "vendas": 3,
+      "faturamento": 194.7,
+      "custo": 107.52,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 27.27,
+      "full_unit_price": 64.9,
+      "lucro": 87.18,
+      "margem_pct": 44.8,
+      "score": 86
+    },
+    {
+      "vendas": 2,
+      "faturamento": 157.98,
+      "custo": 53.82,
+      "title": "Kit 3 Calça Moletom Infantil Punho Flanelada Menin",
+      "taxa_ml": 22.05,
+      "full_unit_price": 78.99,
+      "lucro": 104.16,
+      "margem_pct": 65.9,
+      "score": 84
+    },
+    {
+      "vendas": 2,
+      "faturamento": 128.02,
+      "custo": 53.82,
+      "title": "Conjunto Moletom Infantil Hugo Jobs Calca Jogger F",
+      "taxa_ml": 12.76,
+      "full_unit_price": 64.01,
+      "lucro": 74.2,
+      "margem_pct": 58.0,
+      "score": 84
+    },
+    {
+      "vendas": 1,
+      "faturamento": 89.99,
+      "custo": 35.84,
+      "title": "Kit 2 Blusa Moletom Hugo Jobs Premium Careca Lisa ",
+      "taxa_ml": 13.53,
+      "full_unit_price": 89.99,
+      "lucro": 54.15,
+      "margem_pct": 60.2,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 77,
+      "custo": 35.84,
+      "title": "Casaco Moletom Masculino Hugo Jobs Com Ziper E Cap",
+      "taxa_ml": 10.78,
+      "full_unit_price": 77,
+      "lucro": 41.16,
+      "margem_pct": 53.5,
+      "score": 82
+    }
+  ],
+  "categories": [
+    {
+      "nome": "Vestuário Adult",
+      "vendas": 10,
+      "faturamento": 680.56,
+      "custo": 358.4,
+      "taxa_ml": 86.99,
+      "pct": 66.0,
+      "margem_pct": 47.3
+    },
+    {
+      "nome": "Vestuário Infantil",
+      "vendas": 5,
+      "faturamento": 350.0,
+      "custo": 134.55,
+      "taxa_ml": 41.18,
+      "pct": 34.0,
+      "margem_pct": 61.6
+    }
+  ],
   "chart": {
     "labels": [
       "Dom (03)",
@@ -55,7 +130,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 0,
+    "total_orders_fetched": 15,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -73,16 +148,16 @@
     "tacos": 1.0
   },
   "mes": {
-    "vendas": 1967,
-    "faturamento": 139036.07,
-    "taxa_ml": 16264.55,
-    "faturamento_menos_taxa": 122771.52,
-    "ticket_medio": 70.68,
+    "vendas": 1982,
+    "faturamento": 140028.81,
+    "taxa_ml": 16394.65,
+    "faturamento_menos_taxa": 123634.16,
+    "ticket_medio": 70.65,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 139036.07,
+    "organic_revenue": 140028.81,
     "acos": 0,
     "tacos": 0.3,
     "chart": {
@@ -105,8 +180,8 @@
         340,
         288,
         297,
-        337,
-        0
+        348,
+        4
       ],
       "faturamento": [
         5677.0,
@@ -116,8 +191,8 @@
         25030.03,
         21007.35,
         21624.65,
-        22387.7,
-        0
+        23128.44,
+        252.0
       ]
     }
   }
