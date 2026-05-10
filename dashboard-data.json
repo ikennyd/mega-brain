@@ -1,29 +1,51 @@
 {
-  "updated_at": "2026-05-10T07:24:27.096772",
+  "updated_at": "2026-05-10T09:11:03.150742",
   "kpis": {
-    "faturamento_hoje": 1020.33,
-    "vendas_hoje": 18,
-    "ticket_medio": 56.68,
-    "cmv_total": 598.56,
-    "lucro_bruto": 421.77,
-    "margem_pct_real": 41.3,
-    "lucro_por_pedido": 23.43,
-    "taxa_ml_total": 94.12,
-    "shipping_total": 197.51,
-    "faturamento_liquido": 728.7,
-    "margem_liquida_pct": 12.8,
-    "lucro_liquido": 130.14,
+    "faturamento_hoje": 1361.8,
+    "vendas_hoje": 23,
+    "ticket_medio": 59.21,
+    "cmv_total": 766.92,
+    "lucro_bruto": 594.88,
+    "margem_pct_real": 43.7,
+    "lucro_por_pedido": 25.86,
+    "taxa_ml_total": 130.39,
+    "shipping_total": 245.86,
+    "faturamento_liquido": 985.55,
+    "margem_liquida_pct": 16.1,
+    "lucro_liquido": 218.63,
     "vendas_semana": 525,
     "faturamento_semana": 38122.84,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 1020.33,
+    "organic_revenue": 1361.8,
     "acos": 0,
-    "tacos": 36.3
+    "tacos": 27.2
   },
   "top5": [
     {
       "vendas": 2,
+      "faturamento": 204,
+      "custo": 50.0,
+      "title": "Lattidute Stamina Hinode 100ml Gold 28",
+      "taxa_ml": 24.48,
+      "full_unit_price": 102,
+      "lucro": 154.0,
+      "margem_pct": 75.5,
+      "score": 84
+    },
+    {
+      "vendas": 3,
+      "faturamento": 174.57,
+      "custo": 107.52,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 14.94,
+      "full_unit_price": 58.19,
+      "lucro": 67.05,
+      "margem_pct": 38.4,
+      "score": 86
+    },
+    {
+      "vendas": 2,
       "faturamento": 116.38,
       "custo": 71.68,
       "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
@@ -43,17 +65,6 @@
       "lucro": 44.7,
       "margem_pct": 38.4,
       "score": 84
-    },
-    {
-      "vendas": 1,
-      "faturamento": 102,
-      "custo": 25.0,
-      "title": "Lattidute Stamina Hinode 100ml Gold 28",
-      "taxa_ml": 12.24,
-      "full_unit_price": 102,
-      "lucro": 77.0,
-      "margem_pct": 75.5,
-      "score": 82
     },
     {
       "vendas": 2,
@@ -65,28 +76,17 @@
       "lucro": 25.3,
       "margem_pct": 26.1,
       "score": 84
-    },
-    {
-      "vendas": 1,
-      "faturamento": 64.9,
-      "custo": 35.84,
-      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 9.09,
-      "full_unit_price": 64.9,
-      "lucro": 29.06,
-      "margem_pct": 44.8,
-      "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 13,
-      "faturamento": 704.98,
-      "custo": 465.92,
-      "taxa_ml": 62.31,
-      "pct": 69.1,
-      "margem_pct": 33.9
+      "vendas": 17,
+      "faturamento": 944.45,
+      "custo": 609.28,
+      "taxa_ml": 86.34,
+      "pct": 69.4,
+      "margem_pct": 35.5
     },
     {
       "nome": "Vestuário Infantil",
@@ -94,16 +94,16 @@
       "faturamento": 213.35,
       "custo": 107.64,
       "taxa_ml": 19.57,
-      "pct": 20.9,
+      "pct": 15.7,
       "margem_pct": 49.5
     },
     {
       "nome": "Outros",
-      "vendas": 1,
-      "faturamento": 102,
-      "custo": 25.0,
-      "taxa_ml": 12.24,
-      "pct": 10.0,
+      "vendas": 2,
+      "faturamento": 204,
+      "custo": 50.0,
+      "taxa_ml": 24.48,
+      "pct": 15.0,
       "margem_pct": 75.5
     }
   ],
@@ -139,7 +139,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 18,
+    "total_orders_fetched": 23,
     "pads_campaigns_found": true
   },
   "semana": {
