@@ -1,28 +1,103 @@
 {
-  "updated_at": "2026-05-12T01:22:23.231788",
+  "updated_at": "2026-05-12T04:55:08.846544",
   "kpis": {
-    "faturamento_hoje": 0,
-    "vendas_hoje": 0,
-    "ticket_medio": 0,
-    "cmv_total": 0,
-    "lucro_bruto": 0,
-    "margem_pct_real": 0,
-    "lucro_por_pedido": 0,
-    "taxa_ml_total": 0,
-    "shipping_total": 0,
-    "faturamento_liquido": 0,
-    "margem_liquida_pct": 0,
-    "lucro_liquido": 0,
+    "faturamento_hoje": 911.7,
+    "vendas_hoje": 15,
+    "ticket_medio": 60.78,
+    "cmv_total": 501.88,
+    "lucro_bruto": 409.82,
+    "margem_pct_real": 45.0,
+    "lucro_por_pedido": 27.32,
+    "taxa_ml_total": 91.03,
+    "shipping_total": 161.14,
+    "faturamento_liquido": 659.53,
+    "margem_liquida_pct": 17.3,
+    "lucro_liquido": 157.65,
     "vendas_semana": 530,
     "faturamento_semana": 38608.26,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 0.0,
+    "organic_revenue": 911.7,
     "acos": 0,
-    "tacos": 0
+    "tacos": 40.6
   },
-  "top5": [],
-  "categories": [],
+  "top5": [
+    {
+      "vendas": 3,
+      "faturamento": 145.47,
+      "custo": 107.52,
+      "title": "Moletom Masculino Hugo Jobs Flanelado Grosso Com C",
+      "taxa_ml": 11.67,
+      "full_unit_price": 48.49,
+      "lucro": 37.95,
+      "margem_pct": 26.1,
+      "score": 86
+    },
+    {
+      "vendas": 2,
+      "faturamento": 128,
+      "custo": 53.82,
+      "title": "Conjunto Moletom Infantil Hugo Jobs Calca Jogger F",
+      "taxa_ml": 6.37,
+      "full_unit_price": 64,
+      "lucro": 74.18,
+      "margem_pct": 58.0,
+      "score": 84
+    },
+    {
+      "vendas": 2,
+      "faturamento": 96.98,
+      "custo": 71.68,
+      "title": "Moletom Masculino Hugo Jobs Flanelado Grosso Com C",
+      "taxa_ml": 7.78,
+      "full_unit_price": 48.49,
+      "lucro": 25.3,
+      "margem_pct": 26.1,
+      "score": 84
+    },
+    {
+      "vendas": 1,
+      "faturamento": 89.9,
+      "custo": 35.84,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 12.59,
+      "full_unit_price": 89.9,
+      "lucro": 54.06,
+      "margem_pct": 60.1,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 89.9,
+      "custo": 35.84,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 12.59,
+      "full_unit_price": 89.9,
+      "lucro": 54.06,
+      "margem_pct": 60.1,
+      "score": 82
+    }
+  ],
+  "categories": [
+    {
+      "nome": "Vestuário Adult",
+      "vendas": 11,
+      "faturamento": 673.23,
+      "custo": 394.24,
+      "taxa_ml": 73.97,
+      "pct": 73.8,
+      "margem_pct": 41.4
+    },
+    {
+      "nome": "Vestuário Infantil",
+      "vendas": 4,
+      "faturamento": 238.47,
+      "custo": 107.64,
+      "taxa_ml": 17.06,
+      "pct": 26.2,
+      "margem_pct": 54.9
+    }
+  ],
   "chart": {
     "labels": [
       "Qua (06)",
@@ -55,7 +130,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 0,
+    "total_orders_fetched": 15,
     "pads_campaigns_found": true
   },
   "semana": {
