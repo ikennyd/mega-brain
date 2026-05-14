@@ -1,27 +1,38 @@
 {
-  "updated_at": "2026-05-14T05:32:07.599078",
+  "updated_at": "2026-05-14T08:16:16.000851",
   "kpis": {
-    "faturamento_hoje": 687.37,
-    "vendas_hoje": 9,
-    "ticket_medio": 76.37,
-    "cmv_total": 304.7,
-    "lucro_bruto": 382.67,
-    "margem_pct_real": 55.7,
-    "lucro_por_pedido": 42.52,
-    "taxa_ml_total": 93.68,
-    "shipping_total": 126.83,
-    "faturamento_liquido": 466.86,
-    "margem_liquida_pct": 23.6,
-    "lucro_liquido": 162.16,
+    "faturamento_hoje": 1100.17,
+    "vendas_hoje": 14,
+    "ticket_medio": 78.58,
+    "cmv_total": 462.22,
+    "lucro_bruto": 637.95,
+    "margem_pct_real": 58.0,
+    "lucro_por_pedido": 45.57,
+    "taxa_ml_total": 147.4,
+    "shipping_total": 215.17,
+    "faturamento_liquido": 737.6,
+    "margem_liquida_pct": 25.0,
+    "lucro_liquido": 275.38,
     "vendas_semana": 535,
     "faturamento_semana": 35593.64,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 687.37,
+    "organic_revenue": 1100.17,
     "acos": 0,
-    "tacos": 53.8
+    "tacos": 33.6
   },
   "top5": [
+    {
+      "vendas": 2,
+      "faturamento": 204,
+      "custo": 50.0,
+      "title": "Lattidute Stamina Hinode 100ml Gold 28",
+      "taxa_ml": 24.48,
+      "full_unit_price": 102,
+      "lucro": 154.0,
+      "margem_pct": 75.5,
+      "score": 84
+    },
     {
       "vendas": 1,
       "faturamento": 99,
@@ -65,28 +76,26 @@
       "lucro": 53.16,
       "margem_pct": 59.7,
       "score": 82
-    },
-    {
-      "vendas": 1,
-      "faturamento": 89,
-      "custo": 35.84,
-      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 12.46,
-      "full_unit_price": 89,
-      "lucro": 53.16,
-      "margem_pct": 59.7,
-      "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 7,
-      "faturamento": 574.8,
-      "custo": 250.88,
-      "taxa_ml": 80.48,
-      "pct": 83.6,
-      "margem_pct": 56.4
+      "vendas": 10,
+      "faturamento": 783.6,
+      "custo": 358.4,
+      "taxa_ml": 109.72,
+      "pct": 71.2,
+      "margem_pct": 54.3
+    },
+    {
+      "nome": "Outros",
+      "vendas": 2,
+      "faturamento": 204,
+      "custo": 50.0,
+      "taxa_ml": 24.48,
+      "pct": 18.5,
+      "margem_pct": 75.5
     },
     {
       "nome": "Vestuário Infantil",
@@ -94,7 +103,7 @@
       "faturamento": 112.57,
       "custo": 53.82,
       "taxa_ml": 13.2,
-      "pct": 16.4,
+      "pct": 10.2,
       "margem_pct": 52.2
     }
   ],
@@ -130,7 +139,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 9,
+    "total_orders_fetched": 14,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -148,16 +157,16 @@
     "tacos": 1.0
   },
   "mes": {
-    "vendas": 1950,
-    "faturamento": 137772.64,
-    "taxa_ml": 16138.21,
-    "faturamento_menos_taxa": 121634.43,
+    "vendas": 1949,
+    "faturamento": 137693.65,
+    "taxa_ml": 16127.15,
+    "faturamento_menos_taxa": 121566.5,
     "ticket_medio": 70.65,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 137772.64,
+    "organic_revenue": 137693.65,
     "acos": 0,
     "tacos": 0.3,
     "chart": {
@@ -182,7 +191,7 @@
         109,
         226,
         268,
-        334,
+        333,
         283,
         290,
         343,
@@ -198,7 +207,7 @@
         7549.65,
         15825.79,
         18873.18,
-        24591.47,
+        24512.48,
         20684.63,
         21186.98,
         22791.17,
