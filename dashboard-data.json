@@ -1,27 +1,49 @@
 {
-  "updated_at": "2026-05-15T15:33:36.667155",
+  "updated_at": "2026-05-15T17:14:09.142191",
   "kpis": {
-    "faturamento_hoje": 4303.45,
-    "vendas_hoje": 46,
-    "ticket_medio": 93.55,
-    "cmv_total": 1522.98,
-    "lucro_bruto": 2780.47,
-    "margem_pct_real": 64.6,
-    "lucro_por_pedido": 60.45,
-    "taxa_ml_total": 576.89,
-    "shipping_total": 696.2,
-    "faturamento_liquido": 3030.36,
-    "margem_liquida_pct": 35.0,
-    "lucro_liquido": 1507.38,
+    "faturamento_hoje": 5515.17,
+    "vendas_hoje": 59,
+    "ticket_medio": 93.48,
+    "cmv_total": 1984.55,
+    "lucro_bruto": 3530.62,
+    "margem_pct_real": 64.0,
+    "lucro_por_pedido": 59.84,
+    "taxa_ml_total": 738.74,
+    "shipping_total": 898.85,
+    "faturamento_liquido": 3877.58,
+    "margem_liquida_pct": 34.3,
+    "lucro_liquido": 1893.03,
     "vendas_semana": 527,
     "faturamento_semana": 34570.73,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 4303.45,
+    "organic_revenue": 5515.17,
     "acos": 0,
-    "tacos": 8.6
+    "tacos": 6.7
   },
   "top5": [
+    {
+      "vendas": 7,
+      "faturamento": 623,
+      "custo": 250.88,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 86.94,
+      "full_unit_price": 89,
+      "lucro": 372.12,
+      "margem_pct": 59.7,
+      "score": 94
+    },
+    {
+      "vendas": 4,
+      "faturamento": 535.4,
+      "custo": 125.96,
+      "title": "Kit 3 Blusa Moletom Careca Hugo Jobs Premium Lança",
+      "taxa_ml": 57.76,
+      "full_unit_price": 133.85,
+      "lucro": 409.44,
+      "margem_pct": 76.5,
+      "score": 88
+    },
     {
       "vendas": 5,
       "faturamento": 445,
@@ -32,17 +54,6 @@
       "lucro": 265.8,
       "margem_pct": 59.7,
       "score": 90
-    },
-    {
-      "vendas": 3,
-      "faturamento": 401.55,
-      "custo": 94.47,
-      "title": "Kit 3 Blusa Moletom Careca Hugo Jobs Premium Lança",
-      "taxa_ml": 43.32,
-      "full_unit_price": 133.85,
-      "lucro": 307.08,
-      "margem_pct": 76.5,
-      "score": 86
     },
     {
       "vendas": 4,
@@ -65,28 +76,17 @@
       "lucro": 212.64,
       "margem_pct": 59.7,
       "score": 88
-    },
-    {
-      "vendas": 4,
-      "faturamento": 356,
-      "custo": 143.36,
-      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 49.84,
-      "full_unit_price": 89,
-      "lucro": 212.64,
-      "margem_pct": 59.7,
-      "score": 88
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 35,
-      "faturamento": 3331.42,
-      "custo": 1241.35,
-      "taxa_ml": 452.95,
-      "pct": 77.4,
-      "margem_pct": 62.7
+      "vendas": 48,
+      "faturamento": 4543.14,
+      "custo": 1702.92,
+      "taxa_ml": 614.8,
+      "pct": 82.4,
+      "margem_pct": 62.5
     },
     {
       "nome": "Vestuário Infantil",
@@ -94,7 +94,7 @@
       "faturamento": 625.39,
       "custo": 188.37,
       "taxa_ml": 83.46,
-      "pct": 14.5,
+      "pct": 11.3,
       "margem_pct": 69.9
     },
     {
@@ -103,7 +103,7 @@
       "faturamento": 306,
       "custo": 75.0,
       "taxa_ml": 36.72,
-      "pct": 7.1,
+      "pct": 5.5,
       "margem_pct": 75.5
     },
     {
@@ -112,7 +112,7 @@
       "faturamento": 40.64,
       "custo": 18.26,
       "taxa_ml": 3.76,
-      "pct": 0.9,
+      "pct": 0.7,
       "margem_pct": 55.1
     }
   ],
@@ -148,7 +148,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 46,
+    "total_orders_fetched": 60,
     "pads_campaigns_found": true
   },
   "semana": {
