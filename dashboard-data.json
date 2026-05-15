@@ -1,27 +1,60 @@
 {
-  "updated_at": "2026-05-15T13:16:32.266559",
+  "updated_at": "2026-05-15T15:33:36.667155",
   "kpis": {
-    "faturamento_hoje": 2582.08,
-    "vendas_hoje": 27,
-    "ticket_medio": 95.63,
-    "cmv_total": 874.79,
-    "lucro_bruto": 1707.29,
-    "margem_pct_real": 66.1,
-    "lucro_por_pedido": 63.23,
-    "taxa_ml_total": 344.44,
-    "shipping_total": 405.25,
-    "faturamento_liquido": 1832.39,
-    "margem_liquida_pct": 37.1,
-    "lucro_liquido": 957.6,
+    "faturamento_hoje": 4303.45,
+    "vendas_hoje": 46,
+    "ticket_medio": 93.55,
+    "cmv_total": 1522.98,
+    "lucro_bruto": 2780.47,
+    "margem_pct_real": 64.6,
+    "lucro_por_pedido": 60.45,
+    "taxa_ml_total": 576.89,
+    "shipping_total": 696.2,
+    "faturamento_liquido": 3030.36,
+    "margem_liquida_pct": 35.0,
+    "lucro_liquido": 1507.38,
     "vendas_semana": 527,
     "faturamento_semana": 34570.73,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 2582.08,
+    "organic_revenue": 4303.45,
     "acos": 0,
-    "tacos": 14.3
+    "tacos": 8.6
   },
   "top5": [
+    {
+      "vendas": 5,
+      "faturamento": 445,
+      "custo": 179.2,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 62.16,
+      "full_unit_price": 89,
+      "lucro": 265.8,
+      "margem_pct": 59.7,
+      "score": 90
+    },
+    {
+      "vendas": 3,
+      "faturamento": 401.55,
+      "custo": 94.47,
+      "title": "Kit 3 Blusa Moletom Careca Hugo Jobs Premium Lança",
+      "taxa_ml": 43.32,
+      "full_unit_price": 133.85,
+      "lucro": 307.08,
+      "margem_pct": 76.5,
+      "score": 86
+    },
+    {
+      "vendas": 4,
+      "faturamento": 356.9,
+      "custo": 143.36,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 49.83,
+      "full_unit_price": 89,
+      "lucro": 213.54,
+      "margem_pct": 59.8,
+      "score": 88
+    },
     {
       "vendas": 4,
       "faturamento": 356,
@@ -34,59 +67,26 @@
       "score": 88
     },
     {
-      "vendas": 2,
-      "faturamento": 267.7,
-      "custo": 62.98,
-      "title": "Kit 3 Blusa Moletom Careca Hugo Jobs Premium Lança",
-      "taxa_ml": 28.88,
-      "full_unit_price": 133.85,
-      "lucro": 204.72,
-      "margem_pct": 76.5,
-      "score": 84
-    },
-    {
-      "vendas": 1,
-      "faturamento": 205.99,
-      "custo": 26.91,
-      "title": "Kit 3 Conjunto Moletom Infantil Menino Menina Inve",
-      "taxa_ml": 24.72,
-      "full_unit_price": 205.99,
-      "lucro": 179.08,
-      "margem_pct": 86.9,
-      "score": 82
-    },
-    {
-      "vendas": 2,
-      "faturamento": 204,
-      "custo": 50.0,
-      "title": "Lattidute Stamina Hinode 100ml Gold 28",
-      "taxa_ml": 24.48,
-      "full_unit_price": 102,
-      "lucro": 154.0,
-      "margem_pct": 75.5,
-      "score": 84
-    },
-    {
-      "vendas": 2,
-      "faturamento": 198,
-      "custo": 71.68,
-      "title": "Casaco Moletom Masculino Hugo Jobs Com Ziper E Cap",
-      "taxa_ml": 27.66,
-      "full_unit_price": 99,
-      "lucro": 126.32,
-      "margem_pct": 63.8,
-      "score": 84
+      "vendas": 4,
+      "faturamento": 356,
+      "custo": 143.36,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 49.84,
+      "full_unit_price": 89,
+      "lucro": 212.64,
+      "margem_pct": 59.7,
+      "score": 88
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 18,
-      "faturamento": 1752.69,
-      "custo": 636.42,
-      "taxa_ml": 236.5,
-      "pct": 67.9,
-      "margem_pct": 63.7
+      "vendas": 35,
+      "faturamento": 3331.42,
+      "custo": 1241.35,
+      "taxa_ml": 452.95,
+      "pct": 77.4,
+      "margem_pct": 62.7
     },
     {
       "nome": "Vestuário Infantil",
@@ -94,17 +94,26 @@
       "faturamento": 625.39,
       "custo": 188.37,
       "taxa_ml": 83.46,
-      "pct": 24.2,
+      "pct": 14.5,
       "margem_pct": 69.9
     },
     {
       "nome": "Outros",
-      "vendas": 2,
-      "faturamento": 204,
-      "custo": 50.0,
-      "taxa_ml": 24.48,
-      "pct": 7.9,
+      "vendas": 3,
+      "faturamento": 306,
+      "custo": 75.0,
+      "taxa_ml": 36.72,
+      "pct": 7.1,
       "margem_pct": 75.5
+    },
+    {
+      "nome": "Acessórios",
+      "vendas": 1,
+      "faturamento": 40.64,
+      "custo": 18.26,
+      "taxa_ml": 3.76,
+      "pct": 0.9,
+      "margem_pct": 55.1
     }
   ],
   "chart": {
@@ -139,7 +148,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 27,
+    "total_orders_fetched": 46,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -157,16 +166,16 @@
     "tacos": 1.1
   },
   "mes": {
-    "vendas": 1946,
-    "faturamento": 137485.75,
-    "taxa_ml": 16100.62,
-    "faturamento_menos_taxa": 121385.13,
-    "ticket_medio": 70.65,
+    "vendas": 1945,
+    "faturamento": 137425.85,
+    "taxa_ml": 16092.23,
+    "faturamento_menos_taxa": 121333.62,
+    "ticket_medio": 70.66,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 137485.75,
+    "organic_revenue": 137425.85,
     "acos": 0,
     "tacos": 0.3,
     "chart": {
@@ -192,7 +201,7 @@
         109,
         225,
         267,
-        332,
+        331,
         283,
         290,
         343,
@@ -209,7 +218,7 @@
         7549.65,
         15746.8,
         18809.17,
-        24447.58,
+        24387.68,
         20684.63,
         21186.98,
         22791.17,
