@@ -1,28 +1,61 @@
 {
-  "updated_at": "2026-05-15T02:13:14.276271",
+  "updated_at": "2026-05-15T06:03:44.914261",
   "kpis": {
-    "faturamento_hoje": 0,
-    "vendas_hoje": 0,
-    "ticket_medio": 0,
-    "cmv_total": 0,
-    "lucro_bruto": 0,
-    "margem_pct_real": 0,
-    "lucro_por_pedido": 0,
-    "taxa_ml_total": 0,
-    "shipping_total": 0,
-    "faturamento_liquido": 0,
-    "margem_liquida_pct": 0,
-    "lucro_liquido": 0,
+    "faturamento_hoje": 222.85,
+    "vendas_hoje": 2,
+    "ticket_medio": 111.42,
+    "cmv_total": 67.33,
+    "lucro_bruto": 155.52,
+    "margem_pct_real": 69.8,
+    "lucro_por_pedido": 77.76,
+    "taxa_ml_total": 26.9,
+    "shipping_total": 33.4,
+    "faturamento_liquido": 162.55,
+    "margem_liquida_pct": 42.7,
+    "lucro_liquido": 95.22,
     "vendas_semana": 528,
     "faturamento_semana": 34619.22,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 0.0,
+    "organic_revenue": 222.85,
     "acos": 0,
-    "tacos": 0
+    "tacos": 166.0
   },
-  "top5": [],
-  "categories": [],
+  "top5": [
+    {
+      "vendas": 1,
+      "faturamento": 133.85,
+      "custo": 31.49,
+      "title": "Kit 3 Blusa Moletom Careca Hugo Jobs Premium Lança",
+      "taxa_ml": 14.44,
+      "full_unit_price": 133.85,
+      "lucro": 102.36,
+      "margem_pct": 76.5,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 89,
+      "custo": 35.84,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 12.46,
+      "full_unit_price": 89,
+      "lucro": 53.16,
+      "margem_pct": 59.7,
+      "score": 82
+    }
+  ],
+  "categories": [
+    {
+      "nome": "Vestuário Adult",
+      "vendas": 2,
+      "faturamento": 222.85,
+      "custo": 67.33,
+      "taxa_ml": 26.9,
+      "pct": 100.0,
+      "margem_pct": 69.8
+    }
+  ],
   "chart": {
     "labels": [
       "Sáb (09)",
@@ -55,7 +88,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 0,
+    "total_orders_fetched": 2,
     "pads_campaigns_found": true
   },
   "semana": {
