@@ -1,28 +1,103 @@
 {
-  "updated_at": "2026-05-17T00:06:03.876347",
+  "updated_at": "2026-05-17T04:19:17.869653",
   "kpis": {
-    "faturamento_hoje": 0,
-    "vendas_hoje": 0,
-    "ticket_medio": 0,
-    "cmv_total": 0,
-    "lucro_bruto": 0,
-    "margem_pct_real": 0,
-    "lucro_por_pedido": 0,
-    "taxa_ml_total": 0,
-    "shipping_total": 0,
-    "faturamento_liquido": 0,
-    "margem_liquida_pct": 0,
-    "lucro_liquido": 0,
+    "faturamento_hoje": 483.33,
+    "vendas_hoje": 5,
+    "ticket_medio": 96.67,
+    "cmv_total": 168.36,
+    "lucro_bruto": 314.97,
+    "margem_pct_real": 65.2,
+    "lucro_por_pedido": 62.99,
+    "taxa_ml_total": 67.78,
+    "shipping_total": 71.35,
+    "faturamento_liquido": 344.2,
+    "margem_liquida_pct": 36.4,
+    "lucro_liquido": 175.84,
     "vendas_semana": 517,
     "faturamento_semana": 34825.89,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 0.0,
+    "organic_revenue": 483.33,
     "acos": 0,
-    "tacos": 0
+    "tacos": 76.6
   },
-  "top5": [],
-  "categories": [],
+  "top5": [
+    {
+      "vendas": 1,
+      "faturamento": 120,
+      "custo": 35.84,
+      "title": "Casaco Moletom Masculino Hugo Jobs Com Ziper E Cap",
+      "taxa_ml": 16.8,
+      "full_unit_price": 120,
+      "lucro": 84.16,
+      "margem_pct": 70.1,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 115.43,
+      "custo": 25.0,
+      "title": "Colônia Feminina Grace Midnight Hinode New 100ml",
+      "taxa_ml": 16.27,
+      "full_unit_price": 115.43,
+      "lucro": 90.43,
+      "margem_pct": 78.3,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 89,
+      "custo": 35.84,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 12.46,
+      "full_unit_price": 89,
+      "lucro": 53.16,
+      "margem_pct": 59.7,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 89,
+      "custo": 35.84,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 12.46,
+      "full_unit_price": 89,
+      "lucro": 53.16,
+      "margem_pct": 59.7,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 69.9,
+      "custo": 35.84,
+      "title": "Moletom Masculino Hugo Jobs Flanelado Grosso Com C",
+      "taxa_ml": 9.79,
+      "full_unit_price": 69.9,
+      "lucro": 34.06,
+      "margem_pct": 48.7,
+      "score": 82
+    }
+  ],
+  "categories": [
+    {
+      "nome": "Vestuário Adult",
+      "vendas": 4,
+      "faturamento": 367.9,
+      "custo": 143.36,
+      "taxa_ml": 51.51,
+      "pct": 76.1,
+      "margem_pct": 61.0
+    },
+    {
+      "nome": "Outros",
+      "vendas": 1,
+      "faturamento": 115.43,
+      "custo": 25.0,
+      "taxa_ml": 16.27,
+      "pct": 23.9,
+      "margem_pct": 78.3
+    }
+  ],
   "chart": {
     "labels": [
       "Seg (11)",
@@ -55,7 +130,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 0,
+    "total_orders_fetched": 5,
     "pads_campaigns_found": true
   },
   "semana": {
