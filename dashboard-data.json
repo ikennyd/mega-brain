@@ -1,27 +1,49 @@
 {
-  "updated_at": "2026-05-17T09:17:36.610552",
+  "updated_at": "2026-05-17T10:47:35.542917",
   "kpis": {
-    "faturamento_hoje": 1099.67,
-    "vendas_hoje": 13,
-    "ticket_medio": 84.59,
-    "cmv_total": 419.64,
-    "lucro_bruto": 680.03,
-    "margem_pct_real": 61.8,
-    "lucro_por_pedido": 52.31,
-    "taxa_ml_total": 152.15,
-    "shipping_total": 194.34,
-    "faturamento_liquido": 753.18,
-    "margem_liquida_pct": 30.3,
-    "lucro_liquido": 333.54,
+    "faturamento_hoje": 1661.0,
+    "vendas_hoje": 19,
+    "ticket_medio": 87.42,
+    "cmv_total": 614.91,
+    "lucro_bruto": 1046.09,
+    "margem_pct_real": 63.0,
+    "lucro_por_pedido": 55.06,
+    "taxa_ml_total": 230.85,
+    "shipping_total": 275.14,
+    "faturamento_liquido": 1155.01,
+    "margem_liquida_pct": 32.5,
+    "lucro_liquido": 540.1,
     "vendas_semana": 517,
     "faturamento_semana": 34825.89,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 1099.67,
+    "organic_revenue": 1661.0,
     "acos": 0,
-    "tacos": 33.6
+    "tacos": 22.3
   },
   "top5": [
+    {
+      "vendas": 2,
+      "faturamento": 230.86,
+      "custo": 50.0,
+      "title": "Colônia Feminina Grace Midnight Hinode New 100ml",
+      "taxa_ml": 32.54,
+      "full_unit_price": 115.43,
+      "lucro": 180.86,
+      "margem_pct": 78.3,
+      "score": 84
+    },
+    {
+      "vendas": 2,
+      "faturamento": 198,
+      "custo": 71.68,
+      "title": "Casaco Moletom Masculino Hugo Jobs Com Ziper E Cap",
+      "taxa_ml": 27.72,
+      "full_unit_price": 99,
+      "lucro": 126.32,
+      "margem_pct": 63.8,
+      "score": 84
+    },
     {
       "vendas": 2,
       "faturamento": 178,
@@ -46,65 +68,43 @@
     },
     {
       "vendas": 1,
-      "faturamento": 115.43,
-      "custo": 25.0,
-      "title": "Colônia Feminina Grace Midnight Hinode New 100ml",
-      "taxa_ml": 16.27,
-      "full_unit_price": 115.43,
-      "lucro": 90.43,
-      "margem_pct": 78.3,
-      "score": 82
-    },
-    {
-      "vendas": 1,
       "faturamento": 99,
       "custo": 35.84,
-      "title": "Casaco Moletom Masculino Hugo Jobs Com Ziper E Cap",
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
       "taxa_ml": 13.86,
       "full_unit_price": 99,
       "lucro": 63.16,
       "margem_pct": 63.8,
-      "score": 82
-    },
-    {
-      "vendas": 1,
-      "faturamento": 89,
-      "custo": 35.84,
-      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 12.46,
-      "full_unit_price": 89,
-      "lucro": 53.16,
-      "margem_pct": 59.7,
       "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 9,
-      "faturamento": 803.8,
-      "custo": 322.56,
-      "taxa_ml": 112.54,
-      "pct": 73.1,
-      "margem_pct": 59.9
-    },
-    {
-      "nome": "Vestuário Infantil",
-      "vendas": 2,
-      "faturamento": 139.8,
-      "custo": 53.82,
-      "taxa_ml": 19.58,
-      "pct": 12.7,
-      "margem_pct": 61.5
+      "vendas": 13,
+      "faturamento": 1179.8,
+      "custo": 465.92,
+      "taxa_ml": 165.18,
+      "pct": 71.0,
+      "margem_pct": 60.5
     },
     {
       "nome": "Outros",
-      "vendas": 1,
-      "faturamento": 115.43,
-      "custo": 25.0,
-      "taxa_ml": 16.27,
-      "pct": 10.5,
+      "vendas": 2,
+      "faturamento": 230.86,
+      "custo": 50.0,
+      "taxa_ml": 32.54,
+      "pct": 13.9,
       "margem_pct": 78.3
+    },
+    {
+      "nome": "Vestuário Infantil",
+      "vendas": 3,
+      "faturamento": 209.7,
+      "custo": 80.73,
+      "taxa_ml": 29.37,
+      "pct": 12.6,
+      "margem_pct": 61.5
     },
     {
       "nome": "Acessórios",
@@ -112,7 +112,7 @@
       "faturamento": 40.64,
       "custo": 18.26,
       "taxa_ml": 3.76,
-      "pct": 3.7,
+      "pct": 2.4,
       "margem_pct": 55.1
     }
   ],
@@ -148,7 +148,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 13,
+    "total_orders_fetched": 19,
     "pads_campaigns_found": true
   },
   "semana": {
