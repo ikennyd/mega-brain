@@ -1,27 +1,38 @@
 {
-  "updated_at": "2026-05-21T22:47:11.551731",
+  "updated_at": "2026-05-21T23:53:27.051381",
   "kpis": {
-    "faturamento_hoje": 18914.39,
-    "vendas_hoje": 226,
-    "ticket_medio": 83.69,
-    "cmv_total": 7667.2,
-    "lucro_bruto": 11247.19,
-    "margem_pct_real": 59.5,
-    "lucro_por_pedido": 49.77,
-    "taxa_ml_total": 2530.34,
-    "shipping_total": 3575.13,
-    "faturamento_liquido": 12808.92,
-    "margem_liquida_pct": 27.2,
-    "lucro_liquido": 5141.72,
+    "faturamento_hoje": 21139.12,
+    "vendas_hoje": 252,
+    "ticket_medio": 83.89,
+    "cmv_total": 8590.11,
+    "lucro_bruto": 12549.01,
+    "margem_pct_real": 59.4,
+    "lucro_por_pedido": 49.8,
+    "taxa_ml_total": 2837.57,
+    "shipping_total": 3975.29,
+    "faturamento_liquido": 14326.26,
+    "margem_liquida_pct": 27.1,
+    "lucro_liquido": 5736.15,
     "vendas_semana": 523,
     "faturamento_semana": 46315.41,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 18914.39,
+    "organic_revenue": 21139.12,
     "acos": 0,
-    "tacos": 2.0
+    "tacos": 1.8
   },
   "top5": [
+    {
+      "vendas": 17,
+      "faturamento": 1513,
+      "custo": 609.28,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 211.68,
+      "full_unit_price": 89,
+      "lucro": 903.72,
+      "margem_pct": 59.7,
+      "score": 99
+    },
     {
       "vendas": 16,
       "faturamento": 1424,
@@ -38,42 +49,31 @@
       "faturamento": 1335,
       "custo": 537.6,
       "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 186.76,
+      "taxa_ml": 186.9,
       "full_unit_price": 89,
       "lucro": 797.4,
       "margem_pct": 59.7,
       "score": 99
     },
     {
-      "vendas": 12,
-      "faturamento": 1068,
-      "custo": 430.08,
+      "vendas": 13,
+      "faturamento": 1157,
+      "custo": 465.92,
       "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 149.52,
+      "taxa_ml": 161.98,
       "full_unit_price": 89,
-      "lucro": 637.92,
+      "lucro": 691.08,
       "margem_pct": 59.7,
       "score": 99
     },
     {
-      "vendas": 12,
-      "faturamento": 1068,
-      "custo": 430.08,
+      "vendas": 11,
+      "faturamento": 979,
+      "custo": 394.24,
       "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 149.52,
+      "taxa_ml": 137.06,
       "full_unit_price": 89,
-      "lucro": 637.92,
-      "margem_pct": 59.7,
-      "score": 99
-    },
-    {
-      "vendas": 10,
-      "faturamento": 890,
-      "custo": 358.4,
-      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 124.6,
-      "full_unit_price": 89,
-      "lucro": 531.6,
+      "lucro": 584.76,
       "margem_pct": 59.7,
       "score": 99
     }
@@ -81,20 +81,20 @@
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 181,
-      "faturamento": 15434.24,
-      "custo": 6481.04,
-      "taxa_ml": 2095.23,
-      "pct": 81.6,
-      "margem_pct": 58.0
+      "vendas": 206,
+      "faturamento": 17589.07,
+      "custo": 7377.04,
+      "taxa_ml": 2392.67,
+      "pct": 83.2,
+      "margem_pct": 58.1
     },
     {
       "nome": "Vestuário Infantil",
-      "vendas": 33,
-      "faturamento": 2271.3,
-      "custo": 888.03,
-      "taxa_ml": 311.85,
-      "pct": 12.0,
+      "vendas": 34,
+      "faturamento": 2341.2,
+      "custo": 914.94,
+      "taxa_ml": 321.64,
+      "pct": 11.1,
       "margem_pct": 60.9
     },
     {
@@ -103,7 +103,7 @@
       "faturamento": 1100.58,
       "custo": 250.0,
       "taxa_ml": 111.96,
-      "pct": 5.8,
+      "pct": 5.2,
       "margem_pct": 77.3
     },
     {
@@ -112,7 +112,7 @@
       "faturamento": 108.27,
       "custo": 48.13,
       "taxa_ml": 11.3,
-      "pct": 0.6,
+      "pct": 0.5,
       "margem_pct": 55.5
     }
   ],
@@ -148,7 +148,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 233,
+    "total_orders_fetched": 259,
     "pads_campaigns_found": true
   },
   "semana": {
