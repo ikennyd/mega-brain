@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-05-23T06:43:56.595156",
+  "updated_at": "2026-05-23T08:53:17.668446",
   "kpis": {
-    "faturamento_hoje": 399.33,
-    "vendas_hoje": 5,
-    "ticket_medio": 79.87,
-    "cmv_total": 179.2,
-    "lucro_bruto": 220.13,
-    "margem_pct_real": 55.1,
-    "lucro_por_pedido": 44.03,
-    "taxa_ml_total": 53.35,
-    "shipping_total": 58.45,
-    "faturamento_liquido": 287.53,
-    "margem_liquida_pct": 27.1,
-    "lucro_liquido": 108.33,
+    "faturamento_hoje": 654.33,
+    "vendas_hoje": 8,
+    "ticket_medio": 81.79,
+    "cmv_total": 286.72,
+    "lucro_bruto": 367.61,
+    "margem_pct_real": 56.2,
+    "lucro_por_pedido": 45.95,
+    "taxa_ml_total": 84.43,
+    "shipping_total": 94.5,
+    "faturamento_liquido": 475.4,
+    "margem_liquida_pct": 28.8,
+    "lucro_liquido": 188.68,
     "vendas_semana": 520,
     "faturamento_semana": 43303.41,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 399.33,
+    "organic_revenue": 654.33,
     "acos": 0,
-    "tacos": 92.7
+    "tacos": 56.5
   },
   "top5": [
     {
@@ -46,6 +46,28 @@
     },
     {
       "vendas": 1,
+      "faturamento": 89,
+      "custo": 35.84,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 12.46,
+      "full_unit_price": 89,
+      "lucro": 53.16,
+      "margem_pct": 59.7,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 89,
+      "custo": 35.84,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 12.46,
+      "full_unit_price": 89,
+      "lucro": 53.16,
+      "margem_pct": 59.7,
+      "score": 82
+    },
+    {
+      "vendas": 1,
       "faturamento": 78.99,
       "custo": 35.84,
       "title": "Moletom Masculino Hugo Jobs Flanelado Grosso Com C",
@@ -54,28 +76,17 @@
       "lucro": 43.15,
       "margem_pct": 54.6,
       "score": 82
-    },
-    {
-      "vendas": 1,
-      "faturamento": 53.34,
-      "custo": 35.84,
-      "title": "Blusa Moletom Estilosa Estampa Paris Hugo Jobs Gol",
-      "taxa_ml": 4.91,
-      "full_unit_price": 53.34,
-      "lucro": 17.5,
-      "margem_pct": 32.8,
-      "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 5,
-      "faturamento": 399.33,
-      "custo": 179.2,
-      "taxa_ml": 53.35,
+      "vendas": 8,
+      "faturamento": 654.33,
+      "custo": 286.72,
+      "taxa_ml": 84.43,
       "pct": 100.0,
-      "margem_pct": 55.1
+      "margem_pct": 56.2
     }
   ],
   "chart": {
@@ -110,7 +121,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 5,
+    "total_orders_fetched": 8,
     "pads_campaigns_found": true
   },
   "semana": {
