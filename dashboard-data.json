@@ -1,27 +1,38 @@
 {
-  "updated_at": "2026-05-23T04:08:33.462335",
+  "updated_at": "2026-05-23T06:43:56.595156",
   "kpis": {
-    "faturamento_hoje": 167.99,
-    "vendas_hoje": 2,
-    "ticket_medio": 84.0,
-    "cmv_total": 71.68,
-    "lucro_bruto": 96.31,
-    "margem_pct_real": 57.3,
-    "lucro_por_pedido": 48.16,
-    "taxa_ml_total": 23.52,
-    "shipping_total": 22.1,
-    "faturamento_liquido": 122.37,
-    "margem_liquida_pct": 30.2,
-    "lucro_liquido": 50.69,
+    "faturamento_hoje": 399.33,
+    "vendas_hoje": 5,
+    "ticket_medio": 79.87,
+    "cmv_total": 179.2,
+    "lucro_bruto": 220.13,
+    "margem_pct_real": 55.1,
+    "lucro_por_pedido": 44.03,
+    "taxa_ml_total": 53.35,
+    "shipping_total": 58.45,
+    "faturamento_liquido": 287.53,
+    "margem_liquida_pct": 27.1,
+    "lucro_liquido": 108.33,
     "vendas_semana": 520,
     "faturamento_semana": 43303.41,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 167.99,
+    "organic_revenue": 399.33,
     "acos": 0,
-    "tacos": 220.3
+    "tacos": 92.7
   },
   "top5": [
+    {
+      "vendas": 2,
+      "faturamento": 178,
+      "custo": 71.68,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 24.92,
+      "full_unit_price": 89,
+      "lucro": 106.32,
+      "margem_pct": 59.7,
+      "score": 84
+    },
     {
       "vendas": 1,
       "faturamento": 89,
@@ -43,17 +54,28 @@
       "lucro": 43.15,
       "margem_pct": 54.6,
       "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 53.34,
+      "custo": 35.84,
+      "title": "Blusa Moletom Estilosa Estampa Paris Hugo Jobs Gol",
+      "taxa_ml": 4.91,
+      "full_unit_price": 53.34,
+      "lucro": 17.5,
+      "margem_pct": 32.8,
+      "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 2,
-      "faturamento": 167.99,
-      "custo": 71.68,
-      "taxa_ml": 23.52,
+      "vendas": 5,
+      "faturamento": 399.33,
+      "custo": 179.2,
+      "taxa_ml": 53.35,
       "pct": 100.0,
-      "margem_pct": 57.3
+      "margem_pct": 55.1
     }
   ],
   "chart": {
@@ -88,7 +110,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 2,
+    "total_orders_fetched": 5,
     "pads_campaigns_found": true
   },
   "semana": {
