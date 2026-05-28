@@ -1,27 +1,38 @@
 {
-  "updated_at": "2026-05-28T04:38:54.025646",
+  "updated_at": "2026-05-28T08:30:36.474851",
   "kpis": {
-    "faturamento_hoje": 112,
-    "vendas_hoje": 2,
-    "ticket_medio": 56.0,
-    "cmv_total": 47.45,
-    "lucro_bruto": 64.55,
-    "margem_pct_real": 57.6,
-    "lucro_por_pedido": 32.27,
-    "taxa_ml_total": 14.3,
-    "shipping_total": 20.7,
-    "faturamento_liquido": 77.0,
-    "margem_liquida_pct": 26.4,
-    "lucro_liquido": 29.55,
+    "faturamento_hoje": 201,
+    "vendas_hoje": 3,
+    "ticket_medio": 67.0,
+    "cmv_total": 83.29,
+    "lucro_bruto": 117.71,
+    "margem_pct_real": 58.6,
+    "lucro_por_pedido": 39.24,
+    "taxa_ml_total": 26.76,
+    "shipping_total": 34.85,
+    "faturamento_liquido": 139.39,
+    "margem_liquida_pct": 27.9,
+    "lucro_liquido": 56.1,
     "vendas_semana": 519,
     "faturamento_semana": 44975.04,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 112,
+    "organic_revenue": 201,
     "acos": 0,
-    "tacos": 330.4
+    "tacos": 184.1
   },
   "top5": [
+    {
+      "vendas": 1,
+      "faturamento": 89,
+      "custo": 35.84,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 12.46,
+      "full_unit_price": 89,
+      "lucro": 53.16,
+      "margem_pct": 59.7,
+      "score": 82
+    },
     {
       "vendas": 1,
       "faturamento": 89,
@@ -48,11 +59,11 @@
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 1,
-      "faturamento": 89,
-      "custo": 35.84,
-      "taxa_ml": 12.46,
-      "pct": 79.5,
+      "vendas": 2,
+      "faturamento": 178,
+      "custo": 71.68,
+      "taxa_ml": 24.92,
+      "pct": 88.6,
       "margem_pct": 59.7
     },
     {
@@ -61,7 +72,7 @@
       "faturamento": 23,
       "custo": 11.61,
       "taxa_ml": 1.84,
-      "pct": 20.5,
+      "pct": 11.4,
       "margem_pct": 49.5
     }
   ],
@@ -97,7 +108,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 2,
+    "total_orders_fetched": 3,
     "pads_campaigns_found": true
   },
   "semana": {
