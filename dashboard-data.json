@@ -1,70 +1,110 @@
 {
-  "updated_at": "2026-05-28T08:30:36.474851",
+  "updated_at": "2026-05-28T12:03:58.290296",
   "kpis": {
-    "faturamento_hoje": 201,
-    "vendas_hoje": 3,
-    "ticket_medio": 67.0,
-    "cmv_total": 83.29,
-    "lucro_bruto": 117.71,
-    "margem_pct_real": 58.6,
-    "lucro_por_pedido": 39.24,
-    "taxa_ml_total": 26.76,
-    "shipping_total": 34.85,
-    "faturamento_liquido": 139.39,
-    "margem_liquida_pct": 27.9,
-    "lucro_liquido": 56.1,
+    "faturamento_hoje": 2827.76,
+    "vendas_hoje": 34,
+    "ticket_medio": 83.17,
+    "cmv_total": 1147.77,
+    "lucro_bruto": 1679.99,
+    "margem_pct_real": 59.4,
+    "lucro_por_pedido": 49.41,
+    "taxa_ml_total": 373.16,
+    "shipping_total": 524.87,
+    "faturamento_liquido": 1929.73,
+    "margem_liquida_pct": 27.7,
+    "lucro_liquido": 781.96,
     "vendas_semana": 519,
     "faturamento_semana": 44975.04,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 201,
+    "organic_revenue": 2827.76,
     "acos": 0,
-    "tacos": 184.1
+    "tacos": 13.1
   },
   "top5": [
     {
-      "vendas": 1,
-      "faturamento": 89,
-      "custo": 35.84,
+      "vendas": 6,
+      "faturamento": 534,
+      "custo": 215.04,
       "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 12.46,
+      "taxa_ml": 74.48,
       "full_unit_price": 89,
-      "lucro": 53.16,
+      "lucro": 318.96,
       "margem_pct": 59.7,
-      "score": 82
+      "score": 92
     },
     {
-      "vendas": 1,
-      "faturamento": 89,
-      "custo": 35.84,
+      "vendas": 4,
+      "faturamento": 308,
+      "custo": 143.36,
       "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 12.46,
-      "full_unit_price": 89,
-      "lucro": 53.16,
-      "margem_pct": 59.7,
-      "score": 82
+      "taxa_ml": 24.64,
+      "full_unit_price": 77,
+      "lucro": 164.64,
+      "margem_pct": 53.5,
+      "score": 88
     },
     {
-      "vendas": 1,
-      "faturamento": 23,
-      "custo": 11.61,
-      "title": "Porta Cartão Couro Legítimo Hugo Jobs Rustico Comp",
-      "taxa_ml": 1.84,
-      "full_unit_price": 23,
-      "lucro": 11.39,
-      "margem_pct": 49.5,
-      "score": 82
+      "vendas": 3,
+      "faturamento": 267,
+      "custo": 107.52,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 37.24,
+      "full_unit_price": 89,
+      "lucro": 159.48,
+      "margem_pct": 59.7,
+      "score": 86
+    },
+    {
+      "vendas": 3,
+      "faturamento": 267,
+      "custo": 107.52,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 37.38,
+      "full_unit_price": 89,
+      "lucro": 159.48,
+      "margem_pct": 59.7,
+      "score": 86
+    },
+    {
+      "vendas": 3,
+      "faturamento": 267,
+      "custo": 107.52,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 37.38,
+      "full_unit_price": 89,
+      "lucro": 159.48,
+      "margem_pct": 59.7,
+      "score": 86
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 2,
-      "faturamento": 178,
-      "custo": 71.68,
-      "taxa_ml": 24.92,
-      "pct": 88.6,
-      "margem_pct": 59.7
+      "vendas": 28,
+      "faturamento": 2415.8,
+      "custo": 1003.52,
+      "taxa_ml": 319.04,
+      "pct": 85.4,
+      "margem_pct": 58.5
+    },
+    {
+      "nome": "Vestuário Infantil",
+      "vendas": 4,
+      "faturamento": 279.96,
+      "custo": 107.64,
+      "taxa_ml": 39.2,
+      "pct": 9.9,
+      "margem_pct": 61.6
+    },
+    {
+      "nome": "Outros",
+      "vendas": 1,
+      "faturamento": 109,
+      "custo": 25.0,
+      "taxa_ml": 13.08,
+      "pct": 3.9,
+      "margem_pct": 77.1
     },
     {
       "nome": "Acessórios",
@@ -72,7 +112,7 @@
       "faturamento": 23,
       "custo": 11.61,
       "taxa_ml": 1.84,
-      "pct": 11.4,
+      "pct": 0.8,
       "margem_pct": 49.5
     }
   ],
@@ -108,7 +148,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 3,
+    "total_orders_fetched": 38,
     "pads_campaigns_found": true
   },
   "semana": {
