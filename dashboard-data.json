@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-05-30T07:50:36.318767",
+  "updated_at": "2026-05-30T09:51:17.728305",
   "kpis": {
-    "faturamento_hoje": 1086.9,
-    "vendas_hoje": 12,
-    "ticket_medio": 90.58,
-    "cmv_total": 408.4,
-    "lucro_bruto": 678.5,
-    "margem_pct_real": 62.4,
-    "lucro_por_pedido": 56.54,
-    "taxa_ml_total": 142.71,
-    "shipping_total": 200.89,
-    "faturamento_liquido": 743.3,
-    "margem_liquida_pct": 30.8,
-    "lucro_liquido": 334.9,
+    "faturamento_hoje": 1216.54,
+    "vendas_hoje": 14,
+    "ticket_medio": 86.9,
+    "cmv_total": 462.5,
+    "lucro_bruto": 754.04,
+    "margem_pct_real": 62.0,
+    "lucro_por_pedido": 53.86,
+    "taxa_ml_total": 158.93,
+    "shipping_total": 221.59,
+    "faturamento_liquido": 836.02,
+    "margem_liquida_pct": 30.7,
+    "lucro_liquido": 373.52,
     "vendas_semana": 521,
     "faturamento_semana": 44957.12,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 1086.9,
+    "organic_revenue": 1216.54,
     "acos": 0,
-    "tacos": 34.0
+    "tacos": 30.4
   },
   "top5": [
     {
@@ -81,12 +81,12 @@
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 10,
-      "faturamento": 858.9,
-      "custo": 358.4,
-      "taxa_ml": 115.35,
-      "pct": 79.0,
-      "margem_pct": 58.3
+      "vendas": 11,
+      "faturamento": 947.9,
+      "custo": 394.24,
+      "taxa_ml": 127.81,
+      "pct": 77.9,
+      "margem_pct": 58.4
     },
     {
       "nome": "Outros",
@@ -94,8 +94,17 @@
       "faturamento": 228,
       "custo": 50.0,
       "taxa_ml": 27.36,
-      "pct": 21.0,
+      "pct": 18.7,
       "margem_pct": 78.1
+    },
+    {
+      "nome": "Acessórios",
+      "vendas": 1,
+      "faturamento": 40.64,
+      "custo": 18.26,
+      "taxa_ml": 3.76,
+      "pct": 3.3,
+      "margem_pct": 55.1
     }
   ],
   "chart": {
@@ -130,7 +139,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 12,
+    "total_orders_fetched": 14,
     "pads_campaigns_found": true
   },
   "semana": {
