@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-05-30T20:02:54.658220",
+  "updated_at": "2026-05-30T21:13:33.289742",
   "kpis": {
-    "faturamento_hoje": 12333.5,
-    "vendas_hoje": 144,
-    "ticket_medio": 85.65,
-    "cmv_total": 4955.65,
-    "lucro_bruto": 7377.85,
+    "faturamento_hoje": 13826.09,
+    "vendas_hoje": 162,
+    "ticket_medio": 85.35,
+    "cmv_total": 5561.51,
+    "lucro_bruto": 8264.58,
     "margem_pct_real": 59.8,
-    "lucro_por_pedido": 51.24,
-    "taxa_ml_total": 1598.56,
-    "shipping_total": 2064.61,
-    "faturamento_liquido": 8670.33,
-    "margem_liquida_pct": 30.1,
-    "lucro_liquido": 3714.68,
+    "lucro_por_pedido": 51.02,
+    "taxa_ml_total": 1789.72,
+    "shipping_total": 2282.4,
+    "faturamento_liquido": 9753.97,
+    "margem_liquida_pct": 30.3,
+    "lucro_liquido": 4192.46,
     "vendas_semana": 519,
     "faturamento_semana": 44798.13,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 12333.5,
+    "organic_revenue": 13826.09,
     "acos": 0,
-    "tacos": 3.0
+    "tacos": 2.7
   },
   "top5": [
     {
@@ -30,6 +30,28 @@
       "taxa_ml": 149.24,
       "full_unit_price": 89,
       "lucro": 637.92,
+      "margem_pct": 59.7,
+      "score": 99
+    },
+    {
+      "vendas": 9,
+      "faturamento": 1026,
+      "custo": 225.0,
+      "title": "Perfume Grace Midnight Feminino Hinode (frasco Ant",
+      "taxa_ml": 123.12,
+      "full_unit_price": 114,
+      "lucro": 801.0,
+      "margem_pct": 78.1,
+      "score": 98
+    },
+    {
+      "vendas": 11,
+      "faturamento": 979,
+      "custo": 394.24,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 136.78,
+      "full_unit_price": 89,
+      "lucro": 584.76,
       "margem_pct": 59.7,
       "score": 99
     },
@@ -45,57 +67,35 @@
       "score": 99
     },
     {
-      "vendas": 8,
-      "faturamento": 912,
-      "custo": 200.0,
-      "title": "Perfume Grace Midnight Feminino Hinode (frasco Ant",
-      "taxa_ml": 109.44,
-      "full_unit_price": 114,
-      "lucro": 712.0,
-      "margem_pct": 78.1,
-      "score": 96
-    },
-    {
       "vendas": 9,
       "faturamento": 801,
       "custo": 322.56,
       "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 111.86,
+      "taxa_ml": 112.14,
       "full_unit_price": 89,
       "lucro": 478.44,
       "margem_pct": 59.7,
       "score": 98
-    },
-    {
-      "vendas": 8,
-      "faturamento": 712,
-      "custo": 286.72,
-      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 99.68,
-      "full_unit_price": 89,
-      "lucro": 425.28,
-      "margem_pct": 59.7,
-      "score": 96
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 124,
-      "faturamento": 10642.39,
-      "custo": 4435.46,
-      "taxa_ml": 1391.44,
-      "pct": 86.3,
-      "margem_pct": 58.3
+      "vendas": 139,
+      "faturamento": 11858.99,
+      "custo": 4973.06,
+      "taxa_ml": 1548.28,
+      "pct": 85.8,
+      "margem_pct": 58.1
     },
     {
       "nome": "Outros",
-      "vendas": 8,
-      "faturamento": 912,
-      "custo": 200.0,
-      "taxa_ml": 109.44,
-      "pct": 7.4,
-      "margem_pct": 78.1
+      "vendas": 10,
+      "faturamento": 1128,
+      "custo": 250.0,
+      "taxa_ml": 135.36,
+      "pct": 8.2,
+      "margem_pct": 77.8
     },
     {
       "nome": "Vestuário Infantil",
@@ -103,17 +103,17 @@
       "faturamento": 604.83,
       "custo": 242.19,
       "taxa_ml": 82.2,
-      "pct": 4.9,
+      "pct": 4.4,
       "margem_pct": 60.0
     },
     {
       "nome": "Acessórios",
-      "vendas": 5,
-      "faturamento": 174.28,
-      "custo": 78.0,
-      "taxa_ml": 15.48,
-      "pct": 1.4,
-      "margem_pct": 55.2
+      "vendas": 6,
+      "faturamento": 234.27,
+      "custo": 96.26,
+      "taxa_ml": 23.88,
+      "pct": 1.7,
+      "margem_pct": 58.9
     }
   ],
   "chart": {
@@ -148,7 +148,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 146,
+    "total_orders_fetched": 164,
     "pads_campaigns_found": true
   },
   "semana": {
