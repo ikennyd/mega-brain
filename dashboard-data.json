@@ -1,28 +1,112 @@
 {
-  "updated_at": "2026-06-02T02:50:07.279221",
+  "updated_at": "2026-06-02T07:17:27.706664",
   "kpis": {
-    "faturamento_hoje": 0,
-    "vendas_hoje": 0,
-    "ticket_medio": 0,
-    "cmv_total": 0,
-    "lucro_bruto": 0,
-    "margem_pct_real": 0,
-    "lucro_por_pedido": 0,
-    "taxa_ml_total": 0,
-    "shipping_total": 0,
-    "faturamento_liquido": 0,
-    "margem_liquida_pct": 0,
-    "lucro_liquido": 0,
+    "faturamento_hoje": 1251.77,
+    "vendas_hoje": 15,
+    "ticket_medio": 83.45,
+    "cmv_total": 498.06,
+    "lucro_bruto": 753.71,
+    "margem_pct_real": 60.2,
+    "lucro_por_pedido": 50.25,
+    "taxa_ml_total": 148.58,
+    "shipping_total": 239.43,
+    "faturamento_liquido": 863.76,
+    "margem_liquida_pct": 29.2,
+    "lucro_liquido": 365.7,
     "vendas_semana": 522,
     "faturamento_semana": 43917.53,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 0.0,
+    "organic_revenue": 1251.77,
     "acos": 0,
-    "tacos": 0
+    "tacos": 29.6
   },
-  "top5": [],
-  "categories": [],
+  "top5": [
+    {
+      "vendas": 2,
+      "faturamento": 228,
+      "custo": 50.0,
+      "title": "Perfume Grace Midnight Feminino Hinode (frasco Ant",
+      "taxa_ml": 27.36,
+      "full_unit_price": 114,
+      "lucro": 178.0,
+      "margem_pct": 78.1,
+      "score": 84
+    },
+    {
+      "vendas": 1,
+      "faturamento": 89,
+      "custo": 35.84,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 12.46,
+      "full_unit_price": 89,
+      "lucro": 53.16,
+      "margem_pct": 59.7,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 89,
+      "custo": 35.84,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 12.46,
+      "full_unit_price": 89,
+      "lucro": 53.16,
+      "margem_pct": 59.7,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 89,
+      "custo": 35.84,
+      "title": "Casaco Moletom Masculino Hugo Jobs Com Ziper E Cap",
+      "taxa_ml": 12.46,
+      "full_unit_price": 89,
+      "lucro": 53.16,
+      "margem_pct": 59.7,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 89,
+      "custo": 35.84,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 12.46,
+      "full_unit_price": 89,
+      "lucro": 53.16,
+      "margem_pct": 59.7,
+      "score": 82
+    }
+  ],
+  "categories": [
+    {
+      "nome": "Vestuário Adult",
+      "vendas": 11,
+      "faturamento": 903.88,
+      "custo": 394.24,
+      "taxa_ml": 104.43,
+      "pct": 72.2,
+      "margem_pct": 56.4
+    },
+    {
+      "nome": "Outros",
+      "vendas": 2,
+      "faturamento": 228,
+      "custo": 50.0,
+      "taxa_ml": 27.36,
+      "pct": 18.2,
+      "margem_pct": 78.1
+    },
+    {
+      "nome": "Vestuário Infantil",
+      "vendas": 2,
+      "faturamento": 119.89,
+      "custo": 53.82,
+      "taxa_ml": 16.79,
+      "pct": 9.6,
+      "margem_pct": 55.1
+    }
+  ],
   "chart": {
     "labels": [
       "Qua (27)",
@@ -55,7 +139,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 0,
+    "total_orders_fetched": 15,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -73,16 +157,16 @@
     "tacos": 0.8
   },
   "mes": {
-    "vendas": 364,
-    "faturamento": 30549.48,
-    "taxa_ml": 3817.45,
-    "faturamento_menos_taxa": 26732.03,
-    "ticket_medio": 83.93,
+    "vendas": 381,
+    "faturamento": 31960.15,
+    "taxa_ml": 3988.28,
+    "faturamento_menos_taxa": 27971.87,
+    "ticket_medio": 83.88,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 30549.48,
+    "organic_revenue": 31960.15,
     "acos": 0,
     "tacos": 1.2,
     "chart": {
@@ -91,12 +175,12 @@
         "Ter (02)"
       ],
       "vendas": [
-        362,
-        0
+        372,
+        7
       ],
       "faturamento": [
-        30385.48,
-        0
+        31198.26,
+        597.89
       ]
     }
   }
