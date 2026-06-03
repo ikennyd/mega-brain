@@ -1,28 +1,101 @@
 {
-  "updated_at": "2026-06-03T00:08:14.393363",
+  "updated_at": "2026-06-03T05:13:18.482324",
   "kpis": {
-    "faturamento_hoje": 0,
-    "vendas_hoje": 0,
-    "ticket_medio": 0,
-    "cmv_total": 0,
-    "lucro_bruto": 0,
-    "margem_pct_real": 0,
-    "lucro_por_pedido": 0,
-    "taxa_ml_total": 0,
-    "shipping_total": 0,
-    "faturamento_liquido": 0,
-    "margem_liquida_pct": 0,
-    "lucro_liquido": 0,
+    "faturamento_hoje": 274.17,
+    "vendas_hoje": 4,
+    "ticket_medio": 68.54,
+    "cmv_total": 110.2,
+    "lucro_bruto": 163.97,
+    "margem_pct_real": 59.8,
+    "lucro_por_pedido": 40.99,
+    "taxa_ml_total": 36.82,
+    "shipping_total": 42.6,
+    "faturamento_liquido": 194.75,
+    "margem_liquida_pct": 30.8,
+    "lucro_liquido": 84.55,
     "vendas_semana": 522,
     "faturamento_semana": 44220.56,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 0.0,
+    "organic_revenue": 274.17,
     "acos": 0,
-    "tacos": 0
+    "tacos": 135.0
   },
-  "top5": [],
-  "categories": [],
+  "top5": [
+    {
+      "vendas": 1,
+      "faturamento": 89,
+      "custo": 35.84,
+      "title": "Casaco Moletom Masculino Hugo Jobs Com Ziper E Cap",
+      "taxa_ml": 12.46,
+      "full_unit_price": 89,
+      "lucro": 53.16,
+      "margem_pct": 59.7,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 89,
+      "custo": 35.84,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 12.46,
+      "full_unit_price": 89,
+      "lucro": 53.16,
+      "margem_pct": 59.7,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 69.99,
+      "custo": 26.91,
+      "title": "Conjunto Moletom Infantil Hugo Jobs Calca Jogger F",
+      "taxa_ml": 9.8,
+      "full_unit_price": 69.99,
+      "lucro": 43.08,
+      "margem_pct": 61.6,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 26.18,
+      "custo": 11.61,
+      "title": "Porta Cartão Couro Legítimo Hugo Jobs Rustico Comp",
+      "taxa_ml": 2.1,
+      "full_unit_price": 26.18,
+      "lucro": 14.57,
+      "margem_pct": 55.7,
+      "score": 82
+    }
+  ],
+  "categories": [
+    {
+      "nome": "Vestuário Adult",
+      "vendas": 2,
+      "faturamento": 178,
+      "custo": 71.68,
+      "taxa_ml": 24.92,
+      "pct": 64.9,
+      "margem_pct": 59.7
+    },
+    {
+      "nome": "Vestuário Infantil",
+      "vendas": 1,
+      "faturamento": 69.99,
+      "custo": 26.91,
+      "taxa_ml": 9.8,
+      "pct": 25.5,
+      "margem_pct": 61.6
+    },
+    {
+      "nome": "Acessórios",
+      "vendas": 1,
+      "faturamento": 26.18,
+      "custo": 11.61,
+      "taxa_ml": 2.1,
+      "pct": 9.5,
+      "margem_pct": 55.7
+    }
+  ],
   "chart": {
     "labels": [
       "Qui (28)",
@@ -55,7 +128,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 0,
+    "total_orders_fetched": 4,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -73,16 +146,16 @@
     "tacos": 0.8
   },
   "mes": {
-    "vendas": 637,
-    "faturamento": 57763.13,
-    "taxa_ml": 6789.32,
-    "faturamento_menos_taxa": 50973.81,
-    "ticket_medio": 90.68,
+    "vendas": 685,
+    "faturamento": 61677.09,
+    "taxa_ml": 7299.74,
+    "faturamento_menos_taxa": 54377.35,
+    "ticket_medio": 90.04,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 57763.13,
+    "organic_revenue": 61677.09,
     "acos": 0,
     "tacos": 0.6,
     "chart": {
@@ -93,13 +166,13 @@
       ],
       "vendas": [
         372,
-        263,
-        0
+        310,
+        1
       ],
       "faturamento": [
         31198.26,
-        26400.87,
-        0
+        30244.84,
+        69.99
       ]
     }
   }
