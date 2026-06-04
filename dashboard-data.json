@@ -1,28 +1,103 @@
 {
-  "updated_at": "2026-06-04T02:04:15.255725",
+  "updated_at": "2026-06-04T06:54:42.501863",
   "kpis": {
-    "faturamento_hoje": 0,
-    "vendas_hoje": 0,
-    "ticket_medio": 0,
-    "cmv_total": 0,
-    "lucro_bruto": 0,
-    "margem_pct_real": 0,
-    "lucro_por_pedido": 0,
-    "taxa_ml_total": 0,
-    "shipping_total": 0,
-    "faturamento_liquido": 0,
-    "margem_liquida_pct": 0,
-    "lucro_liquido": 0,
+    "faturamento_hoje": 1031.01,
+    "vendas_hoje": 12,
+    "ticket_medio": 85.92,
+    "cmv_total": 419.24,
+    "lucro_bruto": 611.77,
+    "margem_pct_real": 59.3,
+    "lucro_por_pedido": 50.98,
+    "taxa_ml_total": 137.8,
+    "shipping_total": 197.09,
+    "faturamento_liquido": 696.12,
+    "margem_liquida_pct": 26.9,
+    "lucro_liquido": 276.88,
     "vendas_semana": 530,
     "faturamento_semana": 44518.65,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 0.0,
+    "organic_revenue": 1031.01,
     "acos": 0,
-    "tacos": 0
+    "tacos": 35.9
   },
-  "top5": [],
-  "categories": [],
+  "top5": [
+    {
+      "vendas": 3,
+      "faturamento": 267,
+      "custo": 107.52,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 37.38,
+      "full_unit_price": 89,
+      "lucro": 159.48,
+      "margem_pct": 59.7,
+      "score": 86
+    },
+    {
+      "vendas": 2,
+      "faturamento": 178,
+      "custo": 71.68,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 24.92,
+      "full_unit_price": 89,
+      "lucro": 106.32,
+      "margem_pct": 59.7,
+      "score": 84
+    },
+    {
+      "vendas": 2,
+      "faturamento": 137.78,
+      "custo": 71.68,
+      "title": "Moletom Masculino Hugo Jobs Flanelado Grosso Com C",
+      "taxa_ml": 19.28,
+      "full_unit_price": 68.89,
+      "lucro": 66.1,
+      "margem_pct": 48.0,
+      "score": 84
+    },
+    {
+      "vendas": 1,
+      "faturamento": 114,
+      "custo": 25.0,
+      "title": "Perfume Grace Midnight Feminino Hinode (frasco Ant",
+      "taxa_ml": 13.68,
+      "full_unit_price": 114,
+      "lucro": 89.0,
+      "margem_pct": 78.1,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 89,
+      "custo": 35.84,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 12.46,
+      "full_unit_price": 89,
+      "lucro": 53.16,
+      "margem_pct": 59.7,
+      "score": 82
+    }
+  ],
+  "categories": [
+    {
+      "nome": "Vestuário Adult",
+      "vendas": 11,
+      "faturamento": 917.01,
+      "custo": 394.24,
+      "taxa_ml": 124.12,
+      "pct": 88.9,
+      "margem_pct": 57.0
+    },
+    {
+      "nome": "Outros",
+      "vendas": 1,
+      "faturamento": 114,
+      "custo": 25.0,
+      "taxa_ml": 13.68,
+      "pct": 11.1,
+      "margem_pct": 78.1
+    }
+  ],
   "chart": {
     "labels": [
       "Sex (29)",
@@ -55,7 +130,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 0,
+    "total_orders_fetched": 13,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -73,16 +148,16 @@
     "tacos": 0.8
   },
   "mes": {
-    "vendas": 996,
-    "faturamento": 89128.13,
-    "taxa_ml": 10806.39,
-    "faturamento_menos_taxa": 78321.74,
-    "ticket_medio": 89.49,
+    "vendas": 1024,
+    "faturamento": 91540.99,
+    "taxa_ml": 11119.29,
+    "faturamento_menos_taxa": 80421.7,
+    "ticket_medio": 89.4,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 89128.13,
+    "organic_revenue": 91540.99,
     "acos": 0,
     "tacos": 0.4,
     "chart": {
@@ -95,14 +170,14 @@
       "vendas": [
         373,
         310,
-        311,
-        0
+        332,
+        7
       ],
       "faturamento": [
         31287.26,
         30244.84,
-        27432.03,
-        0
+        29238.77,
+        606.12
       ]
     }
   }
