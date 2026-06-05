@@ -1,28 +1,112 @@
 {
-  "updated_at": "2026-06-05T02:33:59.096158",
+  "updated_at": "2026-06-05T06:51:19.674067",
   "kpis": {
-    "faturamento_hoje": 0,
-    "vendas_hoje": 0,
-    "ticket_medio": 0,
-    "cmv_total": 0,
-    "lucro_bruto": 0,
-    "margem_pct_real": 0,
-    "lucro_por_pedido": 0,
-    "taxa_ml_total": 0,
-    "shipping_total": 0,
-    "faturamento_liquido": 0,
-    "margem_liquida_pct": 0,
-    "lucro_liquido": 0,
+    "faturamento_hoje": 1055.98,
+    "vendas_hoje": 9,
+    "ticket_medio": 117.33,
+    "cmv_total": 390.54,
+    "lucro_bruto": 665.44,
+    "margem_pct_real": 63.0,
+    "lucro_por_pedido": 73.94,
+    "taxa_ml_total": 150.48,
+    "shipping_total": 161.09,
+    "faturamento_liquido": 744.41,
+    "margem_liquida_pct": 33.5,
+    "lucro_liquido": 353.87,
     "vendas_semana": 528,
     "faturamento_semana": 45031.75,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 0.0,
+    "organic_revenue": 1055.98,
     "acos": 0,
-    "tacos": 0
+    "tacos": 35.0
   },
-  "top5": [],
-  "categories": [],
+  "top5": [
+    {
+      "vendas": 3,
+      "faturamento": 267,
+      "custo": 107.52,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 37.38,
+      "full_unit_price": 89,
+      "lucro": 159.48,
+      "margem_pct": 59.7,
+      "score": 86
+    },
+    {
+      "vendas": 2,
+      "faturamento": 204,
+      "custo": 50.0,
+      "title": "Lattidute Stamina Hinode 100ml Gold 28",
+      "taxa_ml": 24.48,
+      "full_unit_price": 102,
+      "lucro": 154.0,
+      "margem_pct": 75.5,
+      "score": 84
+    },
+    {
+      "vendas": 2,
+      "faturamento": 178,
+      "custo": 71.68,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 24.64,
+      "full_unit_price": 89,
+      "lucro": 106.32,
+      "margem_pct": 59.7,
+      "score": 84
+    },
+    {
+      "vendas": 2,
+      "faturamento": 139.98,
+      "custo": 53.82,
+      "title": "Kit Conjunto Moletom Infantil Menino Menina Calça ",
+      "taxa_ml": 26.6,
+      "full_unit_price": 69.99,
+      "lucro": 86.16,
+      "margem_pct": 61.6,
+      "score": 84
+    },
+    {
+      "vendas": 1,
+      "faturamento": 89,
+      "custo": 35.84,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 12.46,
+      "full_unit_price": 89,
+      "lucro": 53.16,
+      "margem_pct": 59.7,
+      "score": 82
+    }
+  ],
+  "categories": [
+    {
+      "nome": "Vestuário Adult",
+      "vendas": 8,
+      "faturamento": 712,
+      "custo": 286.72,
+      "taxa_ml": 99.4,
+      "pct": 67.4,
+      "margem_pct": 59.7
+    },
+    {
+      "nome": "Outros",
+      "vendas": 2,
+      "faturamento": 204,
+      "custo": 50.0,
+      "taxa_ml": 24.48,
+      "pct": 19.3,
+      "margem_pct": 75.5
+    },
+    {
+      "nome": "Vestuário Infantil",
+      "vendas": 2,
+      "faturamento": 139.98,
+      "custo": 53.82,
+      "taxa_ml": 26.6,
+      "pct": 13.3,
+      "margem_pct": 61.6
+    }
+  ],
   "chart": {
     "labels": [
       "Sáb (30)",
@@ -55,7 +139,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 0,
+    "total_orders_fetched": 10,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -73,16 +157,16 @@
     "tacos": 0.8
   },
   "mes": {
-    "vendas": 1324,
-    "faturamento": 117394.6,
-    "taxa_ml": 14419.23,
-    "faturamento_menos_taxa": 102975.37,
-    "ticket_medio": 88.67,
+    "vendas": 1340,
+    "faturamento": 119030.11,
+    "taxa_ml": 14608.63,
+    "faturamento_menos_taxa": 104421.48,
+    "ticket_medio": 88.83,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 117394.6,
+    "organic_revenue": 119030.11,
     "acos": 0,
     "tacos": 0.3,
     "chart": {
@@ -97,15 +181,15 @@
         373,
         310,
         329,
-        310,
-        0
+        321,
+        5
       ],
       "faturamento": [
         31287.26,
         30244.84,
         28990.87,
-        26707.63,
-        0
+        27809.14,
+        534
       ]
     }
   }
