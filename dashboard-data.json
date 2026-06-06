@@ -1,28 +1,101 @@
 {
-  "updated_at": "2026-06-06T00:05:56.484265",
+  "updated_at": "2026-06-06T04:18:28.514027",
   "kpis": {
-    "faturamento_hoje": 0,
-    "vendas_hoje": 0,
-    "ticket_medio": 0,
-    "cmv_total": 0,
-    "lucro_bruto": 0,
-    "margem_pct_real": 0,
-    "lucro_por_pedido": 0,
-    "taxa_ml_total": 0,
-    "shipping_total": 0,
-    "faturamento_liquido": 0,
-    "margem_liquida_pct": 0,
-    "lucro_liquido": 0,
+    "faturamento_hoje": 287.79,
+    "vendas_hoje": 4,
+    "ticket_medio": 71.95,
+    "cmv_total": 123.59,
+    "lucro_bruto": 164.2,
+    "margem_pct_real": 57.1,
+    "lucro_por_pedido": 41.05,
+    "taxa_ml_total": 35.24,
+    "shipping_total": 38.8,
+    "faturamento_liquido": 213.75,
+    "margem_liquida_pct": 31.3,
+    "lucro_liquido": 90.16,
     "vendas_semana": 528,
     "faturamento_semana": 44610.56,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 0.0,
+    "organic_revenue": 287.79,
     "acos": 0,
-    "tacos": 0
+    "tacos": 128.6
   },
-  "top5": [],
-  "categories": [],
+  "top5": [
+    {
+      "vendas": 1,
+      "faturamento": 114,
+      "custo": 25.0,
+      "title": "Perfume Grace Midnight Feminino Hinode (frasco Ant",
+      "taxa_ml": 13.68,
+      "full_unit_price": 114,
+      "lucro": 89.0,
+      "margem_pct": 78.1,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 68.89,
+      "custo": 35.84,
+      "title": "Moletom Masculino Hugo Jobs Flanelado Grosso Com C",
+      "taxa_ml": 9.64,
+      "full_unit_price": 68.89,
+      "lucro": 33.05,
+      "margem_pct": 48.0,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 65,
+      "custo": 26.91,
+      "title": "Conjunto Moletom Infantil Hugo Jobs Calca Jogger F",
+      "taxa_ml": 6.33,
+      "full_unit_price": 65,
+      "lucro": 38.09,
+      "margem_pct": 58.6,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 39.9,
+      "custo": 35.84,
+      "title": "Bermuda Moletom Masculina Hugo Jobs Elástico Na Ci",
+      "taxa_ml": 5.59,
+      "full_unit_price": 39.9,
+      "lucro": 4.06,
+      "margem_pct": 10.2,
+      "score": 82
+    }
+  ],
+  "categories": [
+    {
+      "nome": "Outros",
+      "vendas": 1,
+      "faturamento": 114,
+      "custo": 25.0,
+      "taxa_ml": 13.68,
+      "pct": 39.6,
+      "margem_pct": 78.1
+    },
+    {
+      "nome": "Vestuário Adult",
+      "vendas": 2,
+      "faturamento": 108.79,
+      "custo": 71.68,
+      "taxa_ml": 15.23,
+      "pct": 37.8,
+      "margem_pct": 34.1
+    },
+    {
+      "nome": "Vestuário Infantil",
+      "vendas": 1,
+      "faturamento": 65,
+      "custo": 26.91,
+      "taxa_ml": 6.33,
+      "pct": 22.6,
+      "margem_pct": 58.6
+    }
+  ],
   "chart": {
     "labels": [
       "Dom (31)",
@@ -55,7 +128,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 0,
+    "total_orders_fetched": 4,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -73,18 +146,18 @@
     "tacos": 0.8
   },
   "mes": {
-    "vendas": 1649,
-    "faturamento": 146439.71,
-    "taxa_ml": 18118.57,
-    "faturamento_menos_taxa": 128321.14,
-    "ticket_medio": 88.81,
+    "vendas": 1700,
+    "faturamento": 150628.29,
+    "taxa_ml": 18657.19,
+    "faturamento_menos_taxa": 131971.1,
+    "ticket_medio": 88.6,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 146439.71,
+    "organic_revenue": 150628.29,
     "acos": 0,
-    "tacos": 0.3,
+    "tacos": 0.2,
     "chart": {
       "labels": [
         "Seg (01)",
@@ -99,16 +172,16 @@
         311,
         327,
         320,
-        319,
-        0
+        369,
+        1
       ],
       "faturamento": [
         31038.28,
         30314.74,
         28824.87,
         27717.15,
-        28380.67,
-        0
+        32504.25,
+        65
       ]
     }
   }
