@@ -1,37 +1,48 @@
 {
-  "updated_at": "2026-06-07T18:18:19.881829",
+  "updated_at": "2026-06-07T19:52:45.977646",
   "kpis": {
-    "faturamento_hoje": 9323.71,
-    "vendas_hoje": 88,
-    "ticket_medio": 105.95,
-    "cmv_total": 3085.45,
-    "lucro_bruto": 6238.26,
-    "margem_pct_real": 66.9,
-    "lucro_por_pedido": 70.89,
-    "taxa_ml_total": 1243.01,
-    "shipping_total": 1476.09,
-    "faturamento_liquido": 6604.61,
-    "margem_liquida_pct": 37.7,
-    "lucro_liquido": 3519.16,
+    "faturamento_hoje": 10527.42,
+    "vendas_hoje": 103,
+    "ticket_medio": 102.21,
+    "cmv_total": 3556.73,
+    "lucro_bruto": 6970.69,
+    "margem_pct_real": 66.2,
+    "lucro_por_pedido": 67.68,
+    "taxa_ml_total": 1413.57,
+    "shipping_total": 1708.99,
+    "faturamento_liquido": 7404.86,
+    "margem_liquida_pct": 36.6,
+    "lucro_liquido": 3848.13,
     "vendas_semana": 534,
     "faturamento_semana": 45574.39,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 9323.71,
+    "organic_revenue": 10527.42,
     "acos": 0,
-    "tacos": 4.0
+    "tacos": 3.5
   },
   "top5": [
     {
-      "vendas": 14,
-      "faturamento": 1386,
-      "custo": 501.76,
+      "vendas": 15,
+      "faturamento": 1485,
+      "custo": 537.6,
       "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 193.76,
+      "taxa_ml": 207.62,
       "full_unit_price": 99,
-      "lucro": 884.24,
+      "lucro": 947.4,
       "margem_pct": 63.8,
       "score": 99
+    },
+    {
+      "vendas": 7,
+      "faturamento": 903,
+      "custo": 250.88,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 120.82,
+      "full_unit_price": 129,
+      "lucro": 652.12,
+      "margem_pct": 72.2,
+      "score": 94
     },
     {
       "vendas": 7,
@@ -56,37 +67,35 @@
       "score": 94
     },
     {
-      "vendas": 6,
-      "faturamento": 774,
-      "custo": 215.04,
+      "vendas": 5,
+      "faturamento": 645,
+      "custo": 179.2,
       "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 102.76,
+      "taxa_ml": 83.25,
       "full_unit_price": 129,
-      "lucro": 558.96,
+      "lucro": 465.8,
       "margem_pct": 72.2,
-      "score": 92
-    },
-    {
-      "vendas": 4,
-      "faturamento": 516,
-      "custo": 143.36,
-      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 63.84,
-      "full_unit_price": 129,
-      "lucro": 372.64,
-      "margem_pct": 72.2,
-      "score": 88
+      "score": 90
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 75,
-      "faturamento": 8039.5,
-      "custo": 2683.65,
-      "taxa_ml": 1072.26,
-      "pct": 86.2,
-      "margem_pct": 66.6
+      "vendas": 86,
+      "faturamento": 9050.87,
+      "custo": 3077.89,
+      "taxa_ml": 1212.4,
+      "pct": 86.0,
+      "margem_pct": 66.0
+    },
+    {
+      "nome": "Vestuário Infantil",
+      "vendas": 10,
+      "faturamento": 694.91,
+      "custo": 269.1,
+      "taxa_ml": 111.93,
+      "pct": 6.6,
+      "margem_pct": 61.3
     },
     {
       "nome": "Outros",
@@ -94,26 +103,17 @@
       "faturamento": 648,
       "custo": 150.0,
       "taxa_ml": 77.52,
-      "pct": 7.0,
+      "pct": 6.2,
       "margem_pct": 76.9
     },
     {
-      "nome": "Vestuário Infantil",
-      "vendas": 8,
-      "faturamento": 554.93,
-      "custo": 215.28,
-      "taxa_ml": 85.71,
-      "pct": 6.0,
-      "margem_pct": 61.2
-    },
-    {
       "nome": "Acessórios",
-      "vendas": 2,
-      "faturamento": 81.28,
-      "custo": 36.52,
-      "taxa_ml": 7.52,
-      "pct": 0.9,
-      "margem_pct": 55.1
+      "vendas": 4,
+      "faturamento": 133.64,
+      "custo": 59.74,
+      "taxa_ml": 11.72,
+      "pct": 1.3,
+      "margem_pct": 55.3
     }
   ],
   "chart": {
@@ -148,7 +148,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 91,
+    "total_orders_fetched": 106,
     "pads_campaigns_found": true
   },
   "semana": {
