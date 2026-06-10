@@ -1,35 +1,35 @@
 {
-  "updated_at": "2026-06-10T19:57:02.701325",
+  "updated_at": "2026-06-10T21:55:04.214100",
   "kpis": {
-    "faturamento_hoje": 12838.22,
-    "vendas_hoje": 133,
-    "ticket_medio": 96.53,
-    "cmv_total": 4531.64,
-    "lucro_bruto": 8306.58,
+    "faturamento_hoje": 14605.23,
+    "vendas_hoje": 152,
+    "ticket_medio": 96.09,
+    "cmv_total": 5151.38,
+    "lucro_bruto": 9453.85,
     "margem_pct_real": 64.7,
-    "lucro_por_pedido": 62.46,
-    "taxa_ml_total": 1767.7,
-    "shipping_total": 2036.04,
-    "faturamento_liquido": 9034.48,
-    "margem_liquida_pct": 35.1,
-    "lucro_liquido": 4502.84,
+    "lucro_por_pedido": 62.2,
+    "taxa_ml_total": 2002.7,
+    "shipping_total": 2308.37,
+    "faturamento_liquido": 10294.16,
+    "margem_liquida_pct": 35.2,
+    "lucro_liquido": 5142.78,
     "vendas_semana": 523,
     "faturamento_semana": 46061.41,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 12838.22,
+    "organic_revenue": 14605.23,
     "acos": 0,
-    "tacos": 2.9
+    "tacos": 2.5
   },
   "top5": [
     {
-      "vendas": 28,
-      "faturamento": 2492,
-      "custo": 1003.52,
+      "vendas": 33,
+      "faturamento": 2937,
+      "custo": 1182.72,
       "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 347.76,
+      "taxa_ml": 410.06,
       "full_unit_price": 89,
-      "lucro": 1488.48,
+      "lucro": 1754.28,
       "margem_pct": 59.7,
       "score": 99
     },
@@ -56,6 +56,17 @@
       "score": 96
     },
     {
+      "vendas": 7,
+      "faturamento": 798,
+      "custo": 175.0,
+      "title": "Perfume Grace Midnight Feminino Hinode (frasco Ant",
+      "taxa_ml": 95.76,
+      "full_unit_price": 114,
+      "lucro": 623.0,
+      "margem_pct": 78.1,
+      "score": 94
+    },
+    {
       "vendas": 6,
       "faturamento": 774,
       "custo": 215.04,
@@ -65,46 +76,35 @@
       "lucro": 558.96,
       "margem_pct": 72.2,
       "score": 92
-    },
-    {
-      "vendas": 6,
-      "faturamento": 684,
-      "custo": 150.0,
-      "title": "Perfume Grace Midnight Feminino Hinode (frasco Ant",
-      "taxa_ml": 82.08,
-      "full_unit_price": 114,
-      "lucro": 534.0,
-      "margem_pct": 78.1,
-      "score": 92
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 106,
-      "faturamento": 10529.3,
-      "custo": 3799.04,
-      "taxa_ml": 1433.41,
-      "pct": 82.0,
-      "margem_pct": 63.9
-    },
-    {
-      "nome": "Vestuário Infantil",
-      "vendas": 18,
-      "faturamento": 1249.72,
-      "custo": 484.38,
-      "taxa_ml": 209.99,
-      "pct": 9.7,
-      "margem_pct": 61.2
+      "vendas": 119,
+      "faturamento": 11709.9,
+      "custo": 4264.96,
+      "taxa_ml": 1598.71,
+      "pct": 80.2,
+      "margem_pct": 63.6
     },
     {
       "nome": "Outros",
-      "vendas": 9,
-      "faturamento": 1003.22,
-      "custo": 225.0,
-      "taxa_ml": 117.02,
-      "pct": 7.8,
+      "vendas": 13,
+      "faturamento": 1449.66,
+      "custo": 325.0,
+      "taxa_ml": 163.62,
+      "pct": 9.9,
       "margem_pct": 77.6
+    },
+    {
+      "nome": "Vestuário Infantil",
+      "vendas": 20,
+      "faturamento": 1389.69,
+      "custo": 538.2,
+      "taxa_ml": 233.09,
+      "pct": 9.5,
+      "margem_pct": 61.3
     },
     {
       "nome": "Acessórios",
@@ -148,7 +148,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 139,
+    "total_orders_fetched": 158,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -166,16 +166,16 @@
     "tacos": 0.8
   },
   "mes": {
-    "vendas": 1960,
-    "faturamento": 177110.23,
-    "taxa_ml": 22173.33,
-    "faturamento_menos_taxa": 154936.9,
-    "ticket_medio": 90.36,
+    "vendas": 1959,
+    "faturamento": 177041.34,
+    "taxa_ml": 22163.69,
+    "faturamento_menos_taxa": 154877.65,
+    "ticket_medio": 90.37,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 177110.23,
+    "organic_revenue": 177041.34,
     "acos": 0,
     "tacos": 0.2,
     "chart": {
@@ -194,7 +194,7 @@
       "vendas": [
         361,
         303,
-        319,
+        318,
         310,
         365,
         223,
@@ -206,7 +206,7 @@
       "faturamento": [
         30264.49,
         29600.99,
-        28150.3,
+        28081.41,
         26873.65,
         32103.4,
         21882.45,
