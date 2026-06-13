@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-06-13T22:44:18.012510",
+  "updated_at": "2026-06-13T23:47:35.767454",
   "kpis": {
-    "faturamento_hoje": 11900.23,
-    "vendas_hoje": 122,
-    "ticket_medio": 97.54,
-    "cmv_total": 4461.36,
-    "lucro_bruto": 7438.87,
-    "margem_pct_real": 62.5,
-    "lucro_por_pedido": 60.97,
-    "taxa_ml_total": 1650.83,
-    "shipping_total": 2218.56,
-    "faturamento_liquido": 8030.84,
-    "margem_liquida_pct": 30.0,
-    "lucro_liquido": 3569.48,
+    "faturamento_hoje": 12556.03,
+    "vendas_hoje": 128,
+    "ticket_medio": 98.09,
+    "cmv_total": 4676.4,
+    "lucro_bruto": 7879.63,
+    "margem_pct_real": 62.8,
+    "lucro_por_pedido": 61.56,
+    "taxa_ml_total": 1742.65,
+    "shipping_total": 2318.75,
+    "faturamento_liquido": 8494.63,
+    "margem_liquida_pct": 30.4,
+    "lucro_liquido": 3818.23,
     "vendas_semana": 523,
     "faturamento_semana": 51777.83,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 11900.23,
+    "organic_revenue": 12556.03,
     "acos": 0,
-    "tacos": 3.1
+    "tacos": 2.9
   },
   "top5": [
     {
@@ -34,26 +34,37 @@
       "score": 99
     },
     {
-      "vendas": 8,
-      "faturamento": 1032,
-      "custo": 286.72,
+      "vendas": 9,
+      "faturamento": 1161,
+      "custo": 322.56,
       "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 144.48,
+      "taxa_ml": 162.54,
       "full_unit_price": 129,
-      "lucro": 745.28,
+      "lucro": 838.44,
       "margem_pct": 72.2,
-      "score": 96
+      "score": 98
     },
     {
-      "vendas": 6,
-      "faturamento": 774,
-      "custo": 215.04,
+      "vendas": 7,
+      "faturamento": 903,
+      "custo": 250.88,
       "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 108.36,
+      "taxa_ml": 126.42,
       "full_unit_price": 129,
-      "lucro": 558.96,
+      "lucro": 652.12,
       "margem_pct": 72.2,
-      "score": 92
+      "score": 94
+    },
+    {
+      "vendas": 12,
+      "faturamento": 838.8,
+      "custo": 430.08,
+      "title": "Moletom Masculino Hugo Jobs Flanelado Grosso Com C",
+      "taxa_ml": 117.34,
+      "full_unit_price": 69.9,
+      "lucro": 408.72,
+      "margem_pct": 48.7,
+      "score": 99
     },
     {
       "vendas": 6,
@@ -65,28 +76,17 @@
       "lucro": 558.96,
       "margem_pct": 72.2,
       "score": 92
-    },
-    {
-      "vendas": 11,
-      "faturamento": 768.9,
-      "custo": 394.24,
-      "title": "Moletom Masculino Hugo Jobs Flanelado Grosso Com C",
-      "taxa_ml": 107.55,
-      "full_unit_price": 69.9,
-      "lucro": 374.66,
-      "margem_pct": 48.7,
-      "score": 99
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 113,
-      "faturamento": 10868.68,
-      "custo": 4049.92,
-      "taxa_ml": 1516.48,
-      "pct": 91.3,
-      "margem_pct": 62.7
+      "vendas": 119,
+      "faturamento": 11524.48,
+      "custo": 4264.96,
+      "taxa_ml": 1608.3,
+      "pct": 91.8,
+      "margem_pct": 63.0
     },
     {
       "nome": "Vestuário Infantil",
@@ -94,7 +94,7 @@
       "faturamento": 799.56,
       "custo": 349.83,
       "taxa_ml": 106.23,
-      "pct": 6.7,
+      "pct": 6.4,
       "margem_pct": 56.2
     },
     {
@@ -103,7 +103,7 @@
       "faturamento": 204,
       "custo": 50.0,
       "taxa_ml": 24.48,
-      "pct": 1.7,
+      "pct": 1.6,
       "margem_pct": 75.5
     },
     {
@@ -148,7 +148,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 128,
+    "total_orders_fetched": 134,
     "pads_campaigns_found": true
   },
   "semana": {
