@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-06-13T10:42:45.743634",
+  "updated_at": "2026-06-13T12:14:23.769143",
   "kpis": {
-    "faturamento_hoje": 998.78,
-    "vendas_hoje": 10,
-    "ticket_medio": 99.88,
-    "cmv_total": 367.45,
-    "lucro_bruto": 631.33,
-    "margem_pct_real": 63.2,
-    "lucro_por_pedido": 63.13,
-    "taxa_ml_total": 144.03,
-    "shipping_total": 154.73,
-    "faturamento_liquido": 700.02,
-    "margem_liquida_pct": 33.3,
-    "lucro_liquido": 332.57,
+    "faturamento_hoje": 1665.38,
+    "vendas_hoje": 17,
+    "ticket_medio": 97.96,
+    "cmv_total": 618.33,
+    "lucro_bruto": 1047.05,
+    "margem_pct_real": 62.9,
+    "lucro_por_pedido": 61.59,
+    "taxa_ml_total": 237.23,
+    "shipping_total": 272.26,
+    "faturamento_liquido": 1155.89,
+    "margem_liquida_pct": 32.3,
+    "lucro_liquido": 537.56,
     "vendas_semana": 524,
     "faturamento_semana": 51866.83,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 998.78,
+    "organic_revenue": 1665.38,
     "acos": 0,
-    "tacos": 37.0
+    "tacos": 22.2
   },
   "top5": [
     {
@@ -35,6 +35,17 @@
     },
     {
       "vendas": 2,
+      "faturamento": 258,
+      "custo": 71.68,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 36.08,
+      "full_unit_price": 129,
+      "lucro": 186.32,
+      "margem_pct": 72.2,
+      "score": 84
+    },
+    {
+      "vendas": 2,
       "faturamento": 139.98,
       "custo": 53.82,
       "title": "Kit Conjunto Moletom Infantil Menino Menina Calça ",
@@ -42,6 +53,17 @@
       "full_unit_price": 69.99,
       "lucro": 86.16,
       "margem_pct": 61.6,
+      "score": 84
+    },
+    {
+      "vendas": 2,
+      "faturamento": 139.8,
+      "custo": 71.68,
+      "title": "Moletom Masculino Hugo Jobs Flanelado Grosso Com C",
+      "taxa_ml": 19.44,
+      "full_unit_price": 69.9,
+      "lucro": 68.12,
+      "margem_pct": 48.7,
       "score": 84
     },
     {
@@ -54,39 +76,17 @@
       "lucro": 93.16,
       "margem_pct": 72.2,
       "score": 82
-    },
-    {
-      "vendas": 1,
-      "faturamento": 129,
-      "custo": 35.84,
-      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 18.06,
-      "full_unit_price": 129,
-      "lucro": 93.16,
-      "margem_pct": 72.2,
-      "score": 82
-    },
-    {
-      "vendas": 1,
-      "faturamento": 129,
-      "custo": 35.84,
-      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 18.02,
-      "full_unit_price": 129,
-      "lucro": 93.16,
-      "margem_pct": 72.2,
-      "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 8,
-      "faturamento": 793.8,
-      "custo": 286.72,
-      "taxa_ml": 110.82,
-      "pct": 79.5,
-      "margem_pct": 63.9
+      "vendas": 15,
+      "faturamento": 1460.4,
+      "custo": 537.6,
+      "taxa_ml": 204.02,
+      "pct": 87.7,
+      "margem_pct": 63.2
     },
     {
       "nome": "Vestuário Infantil",
@@ -94,7 +94,7 @@
       "faturamento": 204.98,
       "custo": 80.73,
       "taxa_ml": 33.21,
-      "pct": 20.5,
+      "pct": 12.3,
       "margem_pct": 60.6
     }
   ],
@@ -130,7 +130,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 11,
+    "total_orders_fetched": 18,
     "pads_campaigns_found": true
   },
   "semana": {
