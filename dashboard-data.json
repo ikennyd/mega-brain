@@ -1,36 +1,69 @@
 {
-  "updated_at": "2026-06-13T12:14:23.769143",
+  "updated_at": "2026-06-13T14:26:50.176477",
   "kpis": {
-    "faturamento_hoje": 1665.38,
-    "vendas_hoje": 17,
-    "ticket_medio": 97.96,
-    "cmv_total": 618.33,
-    "lucro_bruto": 1047.05,
-    "margem_pct_real": 62.9,
-    "lucro_por_pedido": 61.59,
-    "taxa_ml_total": 237.23,
-    "shipping_total": 272.26,
-    "faturamento_liquido": 1155.89,
-    "margem_liquida_pct": 32.3,
-    "lucro_liquido": 537.56,
+    "faturamento_hoje": 3811.57,
+    "vendas_hoje": 40,
+    "ticket_medio": 95.29,
+    "cmv_total": 1442.77,
+    "lucro_bruto": 2368.8,
+    "margem_pct_real": 62.1,
+    "lucro_por_pedido": 59.22,
+    "taxa_ml_total": 527.77,
+    "shipping_total": 653.73,
+    "faturamento_liquido": 2630.07,
+    "margem_liquida_pct": 31.1,
+    "lucro_liquido": 1187.3,
     "vendas_semana": 524,
     "faturamento_semana": 51866.83,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 1665.38,
+    "organic_revenue": 3811.57,
     "acos": 0,
-    "tacos": 22.2
+    "tacos": 9.7
   },
   "top5": [
     {
-      "vendas": 3,
-      "faturamento": 267,
-      "custo": 107.52,
+      "vendas": 9,
+      "faturamento": 801,
+      "custo": 322.56,
       "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 37.1,
+      "taxa_ml": 111.86,
       "full_unit_price": 89,
-      "lucro": 159.48,
+      "lucro": 478.44,
       "margem_pct": 59.7,
+      "score": 98
+    },
+    {
+      "vendas": 5,
+      "faturamento": 325,
+      "custo": 134.55,
+      "title": "Conjunto Moletom Infantil Hugo Jobs Calca Jogger F",
+      "taxa_ml": 33.05,
+      "full_unit_price": 65,
+      "lucro": 190.45,
+      "margem_pct": 58.6,
+      "score": 90
+    },
+    {
+      "vendas": 4,
+      "faturamento": 279.6,
+      "custo": 143.36,
+      "title": "Moletom Masculino Hugo Jobs Flanelado Grosso Com C",
+      "taxa_ml": 39.02,
+      "full_unit_price": 69.9,
+      "lucro": 136.24,
+      "margem_pct": 48.7,
+      "score": 88
+    },
+    {
+      "vendas": 3,
+      "faturamento": 269.7,
+      "custo": 107.52,
+      "title": "Casaco Moletom Masculino Hugo Jobs Com Ziper E Cap",
+      "taxa_ml": 37.77,
+      "full_unit_price": 89.9,
+      "lucro": 162.18,
+      "margem_pct": 60.1,
       "score": 86
     },
     {
@@ -38,64 +71,31 @@
       "faturamento": 258,
       "custo": 71.68,
       "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 36.08,
+      "taxa_ml": 36.12,
       "full_unit_price": 129,
       "lucro": 186.32,
       "margem_pct": 72.2,
       "score": 84
-    },
-    {
-      "vendas": 2,
-      "faturamento": 139.98,
-      "custo": 53.82,
-      "title": "Kit Conjunto Moletom Infantil Menino Menina Calça ",
-      "taxa_ml": 26.6,
-      "full_unit_price": 69.99,
-      "lucro": 86.16,
-      "margem_pct": 61.6,
-      "score": 84
-    },
-    {
-      "vendas": 2,
-      "faturamento": 139.8,
-      "custo": 71.68,
-      "title": "Moletom Masculino Hugo Jobs Flanelado Grosso Com C",
-      "taxa_ml": 19.44,
-      "full_unit_price": 69.9,
-      "lucro": 68.12,
-      "margem_pct": 48.7,
-      "score": 84
-    },
-    {
-      "vendas": 1,
-      "faturamento": 129,
-      "custo": 35.84,
-      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 18.06,
-      "full_unit_price": 129,
-      "lucro": 93.16,
-      "margem_pct": 72.2,
-      "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 15,
-      "faturamento": 1460.4,
-      "custo": 537.6,
-      "taxa_ml": 204.02,
-      "pct": 87.7,
-      "margem_pct": 63.2
+      "vendas": 35,
+      "faturamento": 3346.59,
+      "custo": 1254.4,
+      "taxa_ml": 468.12,
+      "pct": 87.8,
+      "margem_pct": 62.5
     },
     {
       "nome": "Vestuário Infantil",
-      "vendas": 3,
-      "faturamento": 204.98,
-      "custo": 80.73,
-      "taxa_ml": 33.21,
-      "pct": 12.3,
-      "margem_pct": 60.6
+      "vendas": 7,
+      "faturamento": 464.98,
+      "custo": 188.37,
+      "taxa_ml": 59.65,
+      "pct": 12.2,
+      "margem_pct": 59.5
     }
   ],
   "chart": {
@@ -130,7 +130,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 18,
+    "total_orders_fetched": 42,
     "pads_campaigns_found": true
   },
   "semana": {
