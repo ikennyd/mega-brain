@@ -1,27 +1,38 @@
 {
-  "updated_at": "2026-06-14T20:18:02.640192",
+  "updated_at": "2026-06-14T21:48:42.507790",
   "kpis": {
-    "faturamento_hoje": 4913.7,
-    "vendas_hoje": 51,
-    "ticket_medio": 96.35,
-    "cmv_total": 1730.9,
-    "lucro_bruto": 3182.8,
-    "margem_pct_real": 64.8,
-    "lucro_por_pedido": 62.41,
-    "taxa_ml_total": 678.17,
-    "shipping_total": 728.9,
-    "faturamento_liquido": 3506.63,
-    "margem_liquida_pct": 36.1,
-    "lucro_liquido": 1775.73,
+    "faturamento_hoje": 6006.49,
+    "vendas_hoje": 61,
+    "ticket_medio": 98.47,
+    "cmv_total": 2080.37,
+    "lucro_bruto": 3926.12,
+    "margem_pct_real": 65.4,
+    "lucro_por_pedido": 64.36,
+    "taxa_ml_total": 833.83,
+    "shipping_total": 885.4,
+    "faturamento_liquido": 4287.26,
+    "margem_liquida_pct": 36.7,
+    "lucro_liquido": 2206.89,
     "vendas_semana": 521,
     "faturamento_semana": 50299.82,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 4913.7,
+    "organic_revenue": 6006.49,
     "acos": 0,
-    "tacos": 7.5
+    "tacos": 6.2
   },
   "top5": [
+    {
+      "vendas": 7,
+      "faturamento": 903,
+      "custo": 250.88,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 125.86,
+      "full_unit_price": 129,
+      "lucro": 652.12,
+      "margem_pct": 72.2,
+      "score": 94
+    },
     {
       "vendas": 5,
       "faturamento": 645,
@@ -65,28 +76,17 @@
       "lucro": 279.48,
       "margem_pct": 72.2,
       "score": 86
-    },
-    {
-      "vendas": 3,
-      "faturamento": 345.66,
-      "custo": 75.0,
-      "title": "Colônia Feminina Grace Midnight Hinode New 100ml",
-      "taxa_ml": 30.9,
-      "full_unit_price": 115.22,
-      "lucro": 270.66,
-      "margem_pct": 78.3,
-      "score": 86
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 41,
-      "faturamento": 4106.1,
-      "custo": 1469.44,
-      "taxa_ml": 574.37,
-      "pct": 83.6,
-      "margem_pct": 64.2
+      "vendas": 50,
+      "faturamento": 5128.9,
+      "custo": 1792.0,
+      "taxa_ml": 716.73,
+      "pct": 85.4,
+      "margem_pct": 65.1
     },
     {
       "nome": "Outros",
@@ -94,17 +94,17 @@
       "faturamento": 447.66,
       "custo": 100.0,
       "taxa_ml": 42.9,
-      "pct": 9.1,
+      "pct": 7.5,
       "margem_pct": 77.7
     },
     {
       "nome": "Vestuário Infantil",
-      "vendas": 6,
-      "faturamento": 359.94,
-      "custo": 161.46,
-      "taxa_ml": 60.9,
-      "pct": 7.3,
-      "margem_pct": 55.1
+      "vendas": 7,
+      "faturamento": 429.93,
+      "custo": 188.37,
+      "taxa_ml": 74.2,
+      "pct": 7.2,
+      "margem_pct": 56.2
     }
   ],
   "chart": {
@@ -139,7 +139,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 52,
+    "total_orders_fetched": 62,
     "pads_campaigns_found": true
   },
   "semana": {
