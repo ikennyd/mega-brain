@@ -1,27 +1,38 @@
 {
-  "updated_at": "2026-06-14T14:39:52.868782",
+  "updated_at": "2026-06-14T16:10:08.079473",
   "kpis": {
-    "faturamento_hoje": 1814.69,
-    "vendas_hoje": 19,
-    "ticket_medio": 95.51,
-    "cmv_total": 643.33,
-    "lucro_bruto": 1171.36,
-    "margem_pct_real": 64.5,
-    "lucro_por_pedido": 61.65,
-    "taxa_ml_total": 251.67,
-    "shipping_total": 262.44,
-    "faturamento_liquido": 1300.58,
-    "margem_liquida_pct": 36.2,
-    "lucro_liquido": 657.25,
+    "faturamento_hoje": 2938.28,
+    "vendas_hoje": 30,
+    "ticket_medio": 97.94,
+    "cmv_total": 1028.64,
+    "lucro_bruto": 1909.64,
+    "margem_pct_real": 65.0,
+    "lucro_por_pedido": 63.65,
+    "taxa_ml_total": 412.21,
+    "shipping_total": 416.39,
+    "faturamento_liquido": 2109.68,
+    "margem_liquida_pct": 36.8,
+    "lucro_liquido": 1081.04,
     "vendas_semana": 521,
     "faturamento_semana": 50299.82,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 1814.69,
+    "organic_revenue": 2938.28,
     "acos": 0,
-    "tacos": 20.4
+    "tacos": 12.6
   },
   "top5": [
+    {
+      "vendas": 3,
+      "faturamento": 387,
+      "custo": 107.52,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 53.9,
+      "full_unit_price": 129,
+      "lucro": 279.48,
+      "margem_pct": 72.2,
+      "score": 86
+    },
     {
       "vendas": 2,
       "faturamento": 258,
@@ -35,67 +46,56 @@
     },
     {
       "vendas": 2,
-      "faturamento": 198,
+      "faturamento": 258,
       "custo": 71.68,
-      "title": "Casaco Moletom Masculino Hugo Jobs Com Ziper E Cap",
-      "taxa_ml": 27.72,
-      "full_unit_price": 99,
-      "lucro": 126.32,
-      "margem_pct": 63.8,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 36.12,
+      "full_unit_price": 129,
+      "lucro": 186.32,
+      "margem_pct": 72.2,
       "score": 84
     },
     {
       "vendas": 2,
-      "faturamento": 139.8,
+      "faturamento": 258,
       "custo": 71.68,
-      "title": "Moletom Masculino Hugo Jobs Flanelado Grosso Com C",
-      "taxa_ml": 19.58,
-      "full_unit_price": 69.9,
-      "lucro": 68.12,
-      "margem_pct": 48.7,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 36.12,
+      "full_unit_price": 129,
+      "lucro": 186.32,
+      "margem_pct": 72.2,
       "score": 84
     },
     {
-      "vendas": 1,
-      "faturamento": 129,
-      "custo": 35.84,
-      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 18.06,
-      "full_unit_price": 129,
-      "lucro": 93.16,
-      "margem_pct": 72.2,
-      "score": 82
-    },
-    {
-      "vendas": 1,
-      "faturamento": 129,
-      "custo": 35.84,
-      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 18.06,
-      "full_unit_price": 129,
-      "lucro": 93.16,
-      "margem_pct": 72.2,
-      "score": 82
+      "vendas": 3,
+      "faturamento": 209.7,
+      "custo": 107.52,
+      "title": "Moletom Masculino Hugo Jobs Flanelado Grosso Com C",
+      "taxa_ml": 29.37,
+      "full_unit_price": 69.9,
+      "lucro": 102.18,
+      "margem_pct": 48.7,
+      "score": 86
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 15,
-      "faturamento": 1549.5,
-      "custo": 537.6,
-      "taxa_ml": 216.95,
-      "pct": 85.4,
-      "margem_pct": 65.3
+      "vendas": 25,
+      "faturamento": 2603.1,
+      "custo": 896.0,
+      "taxa_ml": 364.19,
+      "pct": 88.6,
+      "margem_pct": 65.6
     },
     {
       "nome": "Vestuário Infantil",
-      "vendas": 3,
-      "faturamento": 149.97,
-      "custo": 80.73,
-      "taxa_ml": 24.5,
-      "pct": 8.3,
-      "margem_pct": 46.2
+      "vendas": 4,
+      "faturamento": 219.96,
+      "custo": 107.64,
+      "taxa_ml": 37.8,
+      "pct": 7.5,
+      "margem_pct": 51.1
     },
     {
       "nome": "Outros",
@@ -103,7 +103,7 @@
       "faturamento": 115.22,
       "custo": 25.0,
       "taxa_ml": 10.22,
-      "pct": 6.3,
+      "pct": 3.9,
       "margem_pct": 78.3
     }
   ],
@@ -139,7 +139,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 20,
+    "total_orders_fetched": 31,
     "pads_campaigns_found": true
   },
   "semana": {
