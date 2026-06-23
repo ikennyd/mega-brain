@@ -1,28 +1,61 @@
 {
-  "updated_at": "2026-06-23T00:19:06.577256",
+  "updated_at": "2026-06-23T04:37:05.049019",
   "kpis": {
-    "faturamento_hoje": 0,
-    "vendas_hoje": 0,
-    "ticket_medio": 0,
-    "cmv_total": 0,
-    "lucro_bruto": 0,
-    "margem_pct_real": 0,
-    "lucro_por_pedido": 0,
-    "taxa_ml_total": 0,
-    "shipping_total": 0,
-    "faturamento_liquido": 0,
-    "margem_liquida_pct": 0,
-    "lucro_liquido": 0,
+    "faturamento_hoje": 157.62,
+    "vendas_hoje": 2,
+    "ticket_medio": 78.81,
+    "cmv_total": 71.68,
+    "lucro_bruto": 85.94,
+    "margem_pct_real": 54.5,
+    "lucro_por_pedido": 42.97,
+    "taxa_ml_total": 21.79,
+    "shipping_total": 31.79,
+    "faturamento_liquido": 104.04,
+    "margem_liquida_pct": 20.5,
+    "lucro_liquido": 32.36,
     "vendas_semana": 524,
     "faturamento_semana": 45297.18,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 0.0,
+    "organic_revenue": 157.62,
     "acos": 0,
-    "tacos": 0
+    "tacos": 234.7
   },
-  "top5": [],
-  "categories": [],
+  "top5": [
+    {
+      "vendas": 1,
+      "faturamento": 87.72,
+      "custo": 35.84,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 12,
+      "full_unit_price": 87.72,
+      "lucro": 51.88,
+      "margem_pct": 59.1,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 69.9,
+      "custo": 35.84,
+      "title": "Moletom Masculino Hugo Jobs Flanelado Grosso Com C",
+      "taxa_ml": 9.79,
+      "full_unit_price": 69.9,
+      "lucro": 34.06,
+      "margem_pct": 48.7,
+      "score": 82
+    }
+  ],
+  "categories": [
+    {
+      "nome": "Vestuário Adult",
+      "vendas": 2,
+      "faturamento": 157.62,
+      "custo": 71.68,
+      "taxa_ml": 21.79,
+      "pct": 100.0,
+      "margem_pct": 54.5
+    }
+  ],
   "chart": {
     "labels": [
       "Qua (17)",
@@ -55,7 +88,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 0,
+    "total_orders_fetched": 2,
     "pads_campaigns_found": true
   },
   "semana": {
