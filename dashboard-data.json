@@ -1,28 +1,61 @@
 {
-  "updated_at": "2026-06-24T01:22:12.766279",
+  "updated_at": "2026-06-24T05:14:47.440792",
   "kpis": {
-    "faturamento_hoje": 0,
-    "vendas_hoje": 0,
-    "ticket_medio": 0,
-    "cmv_total": 0,
-    "lucro_bruto": 0,
-    "margem_pct_real": 0,
-    "lucro_por_pedido": 0,
-    "taxa_ml_total": 0,
-    "shipping_total": 0,
-    "faturamento_liquido": 0,
-    "margem_liquida_pct": 0,
-    "lucro_liquido": 0,
+    "faturamento_hoje": 108.78,
+    "vendas_hoje": 2,
+    "ticket_medio": 54.39,
+    "cmv_total": 53.82,
+    "lucro_bruto": 54.96,
+    "margem_pct_real": 50.5,
+    "lucro_por_pedido": 27.48,
+    "taxa_ml_total": 18.73,
+    "shipping_total": 14.8,
+    "faturamento_liquido": 75.25,
+    "margem_liquida_pct": 19.7,
+    "lucro_liquido": 21.43,
     "vendas_semana": 522,
     "faturamento_semana": 45062.32,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 0.0,
+    "organic_revenue": 108.78,
     "acos": 0,
-    "tacos": 0
+    "tacos": 340.1
   },
-  "top5": [],
-  "categories": [],
+  "top5": [
+    {
+      "vendas": 1,
+      "faturamento": 69.99,
+      "custo": 26.91,
+      "title": "Kit Conjunto Moletom Infantil Menino Menina Calça ",
+      "taxa_ml": 13.3,
+      "full_unit_price": 69.99,
+      "lucro": 43.08,
+      "margem_pct": 61.6,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 38.79,
+      "custo": 26.91,
+      "title": "Moletom Infantil Hugo Jobs Inverno Capuz Bolso Can",
+      "taxa_ml": 5.43,
+      "full_unit_price": 38.79,
+      "lucro": 11.88,
+      "margem_pct": 30.6,
+      "score": 82
+    }
+  ],
+  "categories": [
+    {
+      "nome": "Vestuário Infantil",
+      "vendas": 2,
+      "faturamento": 108.78,
+      "custo": 53.82,
+      "taxa_ml": 18.73,
+      "pct": 100.0,
+      "margem_pct": 50.5
+    }
+  ],
   "chart": {
     "labels": [
       "Qui (18)",
@@ -55,7 +88,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 0,
+    "total_orders_fetched": 2,
     "pads_campaigns_found": true
   },
   "semana": {
