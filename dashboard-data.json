@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-06-24T08:33:24.210286",
+  "updated_at": "2026-06-24T11:27:30.583227",
   "kpis": {
-    "faturamento_hoje": 196.5,
-    "vendas_hoje": 3,
-    "ticket_medio": 65.5,
-    "cmv_total": 89.66,
-    "lucro_bruto": 106.84,
-    "margem_pct_real": 54.4,
-    "lucro_por_pedido": 35.61,
-    "taxa_ml_total": 31.01,
-    "shipping_total": 28.65,
-    "faturamento_liquido": 136.84,
-    "margem_liquida_pct": 24.0,
-    "lucro_liquido": 47.18,
+    "faturamento_hoje": 551.92,
+    "vendas_hoje": 8,
+    "ticket_medio": 68.99,
+    "cmv_total": 268.86,
+    "lucro_bruto": 283.06,
+    "margem_pct_real": 51.3,
+    "lucro_por_pedido": 35.38,
+    "taxa_ml_total": 76.9,
+    "shipping_total": 156.8,
+    "faturamento_liquido": 318.22,
+    "margem_liquida_pct": 8.9,
+    "lucro_liquido": 49.36,
     "vendas_semana": 522,
     "faturamento_semana": 45062.32,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 196.5,
+    "organic_revenue": 551.92,
     "acos": 0,
-    "tacos": 188.3
+    "tacos": 67.0
   },
   "top5": [
     {
@@ -28,6 +28,28 @@
       "custo": 35.84,
       "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
       "taxa_ml": 12.28,
+      "full_unit_price": 87.72,
+      "lucro": 51.88,
+      "margem_pct": 59.1,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 87.72,
+      "custo": 35.84,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 12.14,
+      "full_unit_price": 87.72,
+      "lucro": 51.88,
+      "margem_pct": 59.1,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 87.72,
+      "custo": 35.84,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 12.14,
       "full_unit_price": 87.72,
       "lucro": 51.88,
       "margem_pct": 59.1,
@@ -46,34 +68,34 @@
     },
     {
       "vendas": 1,
-      "faturamento": 38.79,
-      "custo": 26.91,
-      "title": "Moletom Infantil Hugo Jobs Inverno Capuz Bolso Can",
-      "taxa_ml": 5.43,
-      "full_unit_price": 38.79,
-      "lucro": 11.88,
-      "margem_pct": 30.6,
+      "faturamento": 64,
+      "custo": 35.84,
+      "title": "Kit 3 Camisetas 100% Algodão Estilosa Hugo Jobs Mi",
+      "taxa_ml": 5.37,
+      "full_unit_price": 64,
+      "lucro": 28.16,
+      "margem_pct": 44.0,
       "score": 82
     }
   ],
   "categories": [
+    {
+      "nome": "Vestuário Adult",
+      "vendas": 6,
+      "faturamento": 443.14,
+      "custo": 215.04,
+      "taxa_ml": 58.17,
+      "pct": 80.3,
+      "margem_pct": 51.5
+    },
     {
       "nome": "Vestuário Infantil",
       "vendas": 2,
       "faturamento": 108.78,
       "custo": 53.82,
       "taxa_ml": 18.73,
-      "pct": 55.4,
+      "pct": 19.7,
       "margem_pct": 50.5
-    },
-    {
-      "nome": "Vestuário Adult",
-      "vendas": 1,
-      "faturamento": 87.72,
-      "custo": 35.84,
-      "taxa_ml": 12.28,
-      "pct": 44.6,
-      "margem_pct": 59.1
     }
   ],
   "chart": {
@@ -108,7 +130,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 3,
+    "total_orders_fetched": 8,
     "pads_campaigns_found": true
   },
   "semana": {
