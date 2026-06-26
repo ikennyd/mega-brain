@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-06-26T10:38:22.125129",
+  "updated_at": "2026-06-26T12:33:09.852521",
   "kpis": {
-    "faturamento_hoje": 753.89,
-    "vendas_hoje": 8,
-    "ticket_medio": 94.24,
-    "cmv_total": 268.86,
-    "lucro_bruto": 485.03,
-    "margem_pct_real": 64.3,
-    "lucro_por_pedido": 60.63,
-    "taxa_ml_total": 105.55,
-    "shipping_total": 128.1,
-    "faturamento_liquido": 520.24,
-    "margem_liquida_pct": 33.3,
-    "lucro_liquido": 251.38,
+    "faturamento_hoje": 1289.69,
+    "vendas_hoje": 14,
+    "ticket_medio": 92.12,
+    "cmv_total": 483.9,
+    "lucro_bruto": 805.79,
+    "margem_pct_real": 62.5,
+    "lucro_por_pedido": 57.56,
+    "taxa_ml_total": 180.57,
+    "shipping_total": 200.3,
+    "faturamento_liquido": 908.82,
+    "margem_liquida_pct": 32.9,
+    "lucro_liquido": 424.92,
     "vendas_semana": 517,
     "faturamento_semana": 44563.07,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 753.89,
+    "organic_revenue": 1289.69,
     "acos": 0,
-    "tacos": 49.1
+    "tacos": 28.7
   },
   "top5": [
     {
@@ -34,15 +34,26 @@
       "score": 86
     },
     {
-      "vendas": 1,
-      "faturamento": 99,
-      "custo": 35.84,
+      "vendas": 3,
+      "faturamento": 297,
+      "custo": 107.52,
       "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 13.86,
+      "taxa_ml": 41.58,
       "full_unit_price": 99,
-      "lucro": 63.16,
+      "lucro": 189.48,
       "margem_pct": 63.8,
-      "score": 82
+      "score": 86
+    },
+    {
+      "vendas": 2,
+      "faturamento": 139.8,
+      "custo": 71.68,
+      "title": "Moletom Masculino Hugo Jobs Flanelado Grosso Com C",
+      "taxa_ml": 19.58,
+      "full_unit_price": 69.9,
+      "lucro": 68.12,
+      "margem_pct": 48.7,
+      "score": 84
     },
     {
       "vendas": 1,
@@ -64,29 +75,18 @@
       "full_unit_price": 99,
       "lucro": 63.16,
       "margem_pct": 63.8,
-      "score": 82
-    },
-    {
-      "vendas": 1,
-      "faturamento": 89.9,
-      "custo": 26.91,
-      "title": "Conjunto Moletom Infantil Hugo Jobs Calca Jogger F",
-      "taxa_ml": 12.59,
-      "full_unit_price": 89.9,
-      "lucro": 62.99,
-      "margem_pct": 70.1,
       "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 6,
-      "faturamento": 594,
-      "custo": 215.04,
-      "taxa_ml": 83.16,
-      "pct": 78.8,
-      "margem_pct": 63.8
+      "vendas": 12,
+      "faturamento": 1129.8,
+      "custo": 430.08,
+      "taxa_ml": 158.18,
+      "pct": 87.6,
+      "margem_pct": 61.9
     },
     {
       "nome": "Vestuário Infantil",
@@ -94,7 +94,7 @@
       "faturamento": 159.89,
       "custo": 53.82,
       "taxa_ml": 22.39,
-      "pct": 21.2,
+      "pct": 12.4,
       "margem_pct": 66.3
     }
   ],
@@ -130,7 +130,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 8,
+    "total_orders_fetched": 14,
     "pads_campaigns_found": true
   },
   "semana": {
