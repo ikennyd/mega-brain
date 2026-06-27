@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-06-27T21:55:09.334781",
+  "updated_at": "2026-06-27T22:55:54.586059",
   "kpis": {
-    "faturamento_hoje": 6111.08,
-    "vendas_hoje": 64,
-    "ticket_medio": 95.49,
-    "cmv_total": 2238.27,
-    "lucro_bruto": 3872.81,
-    "margem_pct_real": 63.4,
-    "lucro_por_pedido": 60.51,
-    "taxa_ml_total": 845.79,
-    "shipping_total": 971.02,
-    "faturamento_liquido": 4294.27,
-    "margem_liquida_pct": 33.6,
-    "lucro_liquido": 2056.0,
+    "faturamento_hoje": 6197.53,
+    "vendas_hoje": 66,
+    "ticket_medio": 93.9,
+    "cmv_total": 2283.44,
+    "lucro_bruto": 3914.09,
+    "margem_pct_real": 63.2,
+    "lucro_por_pedido": 59.3,
+    "taxa_ml_total": 857.9,
+    "shipping_total": 984.32,
+    "faturamento_liquido": 4355.31,
+    "margem_liquida_pct": 33.4,
+    "lucro_liquido": 2071.87,
     "vendas_semana": 516,
     "faturamento_semana": 43893.4,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 6111.08,
+    "organic_revenue": 6197.53,
     "acos": 0,
-    "tacos": 6.1
+    "tacos": 6.0
   },
   "top5": [
     {
@@ -85,17 +85,17 @@
       "faturamento": 5732.52,
       "custo": 2078.72,
       "taxa_ml": 802.56,
-      "pct": 93.8,
+      "pct": 92.5,
       "margem_pct": 63.7
     },
     {
       "nome": "Vestuário Infantil",
-      "vendas": 5,
-      "faturamento": 276.56,
-      "custo": 134.55,
-      "taxa_ml": 30.99,
-      "pct": 4.5,
-      "margem_pct": 51.3
+      "vendas": 6,
+      "faturamento": 320.11,
+      "custo": 161.46,
+      "taxa_ml": 37.09,
+      "pct": 5.2,
+      "margem_pct": 49.6
     },
     {
       "nome": "Outros",
@@ -103,8 +103,17 @@
       "faturamento": 102,
       "custo": 25.0,
       "taxa_ml": 12.24,
-      "pct": 1.7,
+      "pct": 1.6,
       "margem_pct": 75.5
+    },
+    {
+      "nome": "Acessórios",
+      "vendas": 1,
+      "faturamento": 42.9,
+      "custo": 18.26,
+      "taxa_ml": 6.01,
+      "pct": 0.7,
+      "margem_pct": 57.4
     }
   ],
   "chart": {
@@ -139,7 +148,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 65,
+    "total_orders_fetched": 67,
     "pads_campaigns_found": true
   },
   "semana": {
