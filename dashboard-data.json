@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-06-28T11:42:35.350433",
+  "updated_at": "2026-06-28T13:04:04.023269",
   "kpis": {
-    "faturamento_hoje": 335.79,
-    "vendas_hoje": 4,
-    "ticket_medio": 83.95,
-    "cmv_total": 134.43,
-    "lucro_bruto": 201.36,
-    "margem_pct_real": 60.0,
-    "lucro_por_pedido": 50.34,
-    "taxa_ml_total": 47.01,
-    "shipping_total": 48.9,
-    "faturamento_liquido": 239.88,
-    "margem_liquida_pct": 31.4,
-    "lucro_liquido": 105.45,
+    "faturamento_hoje": 676.34,
+    "vendas_hoje": 8,
+    "ticket_medio": 84.54,
+    "cmv_total": 268.86,
+    "lucro_bruto": 407.48,
+    "margem_pct_real": 60.2,
+    "lucro_por_pedido": 50.93,
+    "taxa_ml_total": 94.69,
+    "shipping_total": 153.79,
+    "faturamento_liquido": 427.86,
+    "margem_liquida_pct": 23.5,
+    "lucro_liquido": 159.0,
     "vendas_semana": 506,
     "faturamento_semana": 43983.51,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 335.79,
+    "organic_revenue": 676.34,
     "acos": 0,
-    "tacos": 110.2
+    "tacos": 54.7
   },
   "top5": [
     {
@@ -57,34 +57,45 @@
     },
     {
       "vendas": 1,
-      "faturamento": 38.79,
-      "custo": 26.91,
-      "title": "Moletom Infantil Quente Hugo Jobs Com Capuz E Bols",
-      "taxa_ml": 5.43,
-      "full_unit_price": 38.79,
-      "lucro": 11.88,
-      "margem_pct": 30.6,
+      "faturamento": 99,
+      "custo": 35.84,
+      "title": "Casaco Moletom Masculino Hugo Jobs Com Ziper E Cap",
+      "taxa_ml": 13.86,
+      "full_unit_price": 99,
+      "lucro": 63.16,
+      "margem_pct": 63.8,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 99,
+      "custo": 35.84,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 13.86,
+      "full_unit_price": 99,
+      "lucro": 63.16,
+      "margem_pct": 63.8,
       "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 3,
-      "faturamento": 297,
-      "custo": 107.52,
-      "taxa_ml": 41.58,
-      "pct": 88.4,
+      "vendas": 6,
+      "faturamento": 594,
+      "custo": 215.04,
+      "taxa_ml": 83.16,
+      "pct": 87.8,
       "margem_pct": 63.8
     },
     {
       "nome": "Vestuário Infantil",
-      "vendas": 1,
-      "faturamento": 38.79,
-      "custo": 26.91,
-      "taxa_ml": 5.43,
-      "pct": 11.6,
-      "margem_pct": 30.6
+      "vendas": 2,
+      "faturamento": 82.34,
+      "custo": 53.82,
+      "taxa_ml": 11.53,
+      "pct": 12.2,
+      "margem_pct": 34.6
     }
   ],
   "chart": {
@@ -119,7 +130,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 5,
+    "total_orders_fetched": 9,
     "pads_campaigns_found": true
   },
   "semana": {
