@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-07-03T19:02:58.141259",
+  "updated_at": "2026-07-03T20:21:27.237206",
   "kpis": {
-    "faturamento_hoje": 3329.19,
-    "vendas_hoje": 41,
-    "ticket_medio": 81.2,
-    "cmv_total": 1396.74,
-    "lucro_bruto": 1932.45,
+    "faturamento_hoje": 3664.45,
+    "vendas_hoje": 45,
+    "ticket_medio": 81.43,
+    "cmv_total": 1540.1,
+    "lucro_bruto": 2124.35,
     "margem_pct_real": 58.0,
-    "lucro_por_pedido": 47.13,
-    "taxa_ml_total": 367.63,
-    "shipping_total": 558.44,
-    "faturamento_liquido": 2403.12,
-    "margem_liquida_pct": 30.2,
-    "lucro_liquido": 1006.38,
+    "lucro_por_pedido": 47.21,
+    "taxa_ml_total": 400.99,
+    "shipping_total": 614.14,
+    "faturamento_liquido": 2649.32,
+    "margem_liquida_pct": 30.3,
+    "lucro_liquido": 1109.22,
     "vendas_semana": 529,
     "faturamento_semana": 46638.39,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 3329.19,
+    "organic_revenue": 3664.45,
     "acos": 0,
-    "tacos": 11.1
+    "tacos": 10.1
   },
   "top5": [
     {
@@ -34,15 +34,26 @@
       "score": 99
     },
     {
-      "vendas": 6,
-      "faturamento": 510.54,
-      "custo": 215.04,
+      "vendas": 7,
+      "faturamento": 595.63,
+      "custo": 250.88,
       "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 71.46,
+      "taxa_ml": 83.37,
       "full_unit_price": 85.09,
-      "lucro": 295.5,
+      "lucro": 344.75,
       "margem_pct": 57.9,
-      "score": 92
+      "score": 94
+    },
+    {
+      "vendas": 4,
+      "faturamento": 340.36,
+      "custo": 143.36,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 30.08,
+      "full_unit_price": 85.09,
+      "lucro": 197.0,
+      "margem_pct": 57.9,
+      "score": 88
     },
     {
       "vendas": 3,
@@ -65,27 +76,16 @@
       "lucro": 132.45,
       "margem_pct": 55.2,
       "score": 86
-    },
-    {
-      "vendas": 2,
-      "faturamento": 211.46,
-      "custo": 50.0,
-      "title": "Perfume Masculino Hinode Lattitude Origini 100ml",
-      "taxa_ml": 25.38,
-      "full_unit_price": 105.73,
-      "lucro": 161.46,
-      "margem_pct": 76.4,
-      "score": 84
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 35,
-      "faturamento": 2940.14,
-      "custo": 1254.4,
-      "taxa_ml": 318.76,
-      "pct": 88.3,
+      "vendas": 39,
+      "faturamento": 3275.4,
+      "custo": 1397.76,
+      "taxa_ml": 352.12,
+      "pct": 89.4,
       "margem_pct": 57.3
     },
     {
@@ -94,7 +94,7 @@
       "faturamento": 211.46,
       "custo": 50.0,
       "taxa_ml": 25.38,
-      "pct": 6.4,
+      "pct": 5.8,
       "margem_pct": 76.4
     },
     {
@@ -103,7 +103,7 @@
       "faturamento": 154.59,
       "custo": 80.73,
       "taxa_ml": 21.65,
-      "pct": 4.6,
+      "pct": 4.2,
       "margem_pct": 47.8
     },
     {
@@ -112,7 +112,7 @@
       "faturamento": 23,
       "custo": 11.61,
       "taxa_ml": 1.84,
-      "pct": 0.7,
+      "pct": 0.6,
       "margem_pct": 49.5
     }
   ],
@@ -148,7 +148,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 43,
+    "total_orders_fetched": 47,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -166,16 +166,16 @@
     "tacos": 0.8
   },
   "mes": {
-    "vendas": 338,
-    "faturamento": 27554.14,
-    "taxa_ml": 3169.45,
-    "faturamento_menos_taxa": 24384.69,
-    "ticket_medio": 81.52,
+    "vendas": 342,
+    "faturamento": 27889.4,
+    "taxa_ml": 3202.81,
+    "faturamento_menos_taxa": 24686.59,
+    "ticket_medio": 81.55,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 27554.14,
+    "organic_revenue": 27889.4,
     "acos": 0,
     "tacos": 1.3,
     "chart": {
@@ -187,12 +187,12 @@
       "vendas": [
         121,
         171,
-        41
+        45
       ],
       "faturamento": [
         10204.9,
         13578.11,
-        3329.19
+        3664.45
       ]
     }
   }
