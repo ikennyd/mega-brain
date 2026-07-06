@@ -1,28 +1,81 @@
 {
-  "updated_at": "2026-07-06T01:20:53.483340",
+  "updated_at": "2026-07-06T05:47:10.123032",
   "kpis": {
-    "faturamento_hoje": 0,
-    "vendas_hoje": 0,
-    "ticket_medio": 0,
-    "cmv_total": 0,
-    "lucro_bruto": 0,
-    "margem_pct_real": 0,
-    "lucro_por_pedido": 0,
-    "taxa_ml_total": 0,
-    "shipping_total": 0,
-    "faturamento_liquido": 0,
-    "margem_liquida_pct": 0,
-    "lucro_liquido": 0,
+    "faturamento_hoje": 524.38,
+    "vendas_hoje": 6,
+    "ticket_medio": 87.4,
+    "cmv_total": 182.52,
+    "lucro_bruto": 341.86,
+    "margem_pct_real": 65.2,
+    "lucro_por_pedido": 56.98,
+    "taxa_ml_total": 63.29,
+    "shipping_total": 77.84,
+    "faturamento_liquido": 383.25,
+    "margem_liquida_pct": 38.3,
+    "lucro_liquido": 200.73,
     "vendas_semana": 537,
     "faturamento_semana": 44867.52,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 0.0,
+    "organic_revenue": 524.38,
     "acos": 0,
-    "tacos": 0
+    "tacos": 70.6
   },
-  "top5": [],
-  "categories": [],
+  "top5": [
+    {
+      "vendas": 3,
+      "faturamento": 294.3,
+      "custo": 75.0,
+      "title": "Perfume Masculino Hinode Lattitude Origini 100ml",
+      "taxa_ml": 31.08,
+      "full_unit_price": 98.1,
+      "lucro": 219.3,
+      "margem_pct": 74.5,
+      "score": 86
+    },
+    {
+      "vendas": 2,
+      "faturamento": 170.18,
+      "custo": 71.68,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 23.82,
+      "full_unit_price": 85.09,
+      "lucro": 98.5,
+      "margem_pct": 57.9,
+      "score": 84
+    },
+    {
+      "vendas": 1,
+      "faturamento": 59.9,
+      "custo": 35.84,
+      "title": "Moletom Masculino Hugo Jobs Flanelado Grosso Com C",
+      "taxa_ml": 8.39,
+      "full_unit_price": 59.9,
+      "lucro": 24.06,
+      "margem_pct": 40.2,
+      "score": 82
+    }
+  ],
+  "categories": [
+    {
+      "nome": "Outros",
+      "vendas": 3,
+      "faturamento": 294.3,
+      "custo": 75.0,
+      "taxa_ml": 31.08,
+      "pct": 56.1,
+      "margem_pct": 74.5
+    },
+    {
+      "nome": "Vestuário Adult",
+      "vendas": 3,
+      "faturamento": 230.08,
+      "custo": 107.52,
+      "taxa_ml": 32.21,
+      "pct": 43.9,
+      "margem_pct": 53.3
+    }
+  ],
   "chart": {
     "labels": [
       "Ter (30)",
@@ -55,7 +108,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 0,
+    "total_orders_fetched": 6,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -73,16 +126,16 @@
     "tacos": 0.8
   },
   "mes": {
-    "vendas": 608,
-    "faturamento": 49729.92,
-    "taxa_ml": 5515.83,
-    "faturamento_menos_taxa": 44214.09,
-    "ticket_medio": 81.79,
+    "vendas": 617,
+    "faturamento": 50504.47,
+    "taxa_ml": 5620.95,
+    "faturamento_menos_taxa": 44883.52,
+    "ticket_medio": 81.85,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 49729.92,
+    "organic_revenue": 50504.47,
     "acos": 0,
     "tacos": 0.7,
     "chart": {
@@ -99,16 +152,16 @@
         171,
         84,
         115,
-        112,
-        0
+        119,
+        2
       ],
       "faturamento": [
         10204.9,
         13578.11,
         6742.69,
         9787.95,
-        8974.33,
-        0
+        9578.7,
+        170.18
       ]
     }
   }
