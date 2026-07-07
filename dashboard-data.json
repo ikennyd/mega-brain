@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-07-07T05:05:59.615637",
+  "updated_at": "2026-07-07T08:37:52.431678",
   "kpis": {
-    "faturamento_hoje": 552.87,
-    "vendas_hoje": 7,
-    "ticket_medio": 78.98,
-    "cmv_total": 240.04,
-    "lucro_bruto": 312.83,
-    "margem_pct_real": 56.6,
-    "lucro_por_pedido": 44.69,
-    "taxa_ml_total": 50.05,
-    "shipping_total": 92.05,
-    "faturamento_liquido": 410.77,
-    "margem_liquida_pct": 30.9,
-    "lucro_liquido": 170.73,
+    "faturamento_hoje": 799.18,
+    "vendas_hoje": 10,
+    "ticket_medio": 79.92,
+    "cmv_total": 347.56,
+    "lucro_bruto": 451.62,
+    "margem_pct_real": 56.5,
+    "lucro_por_pedido": 45.16,
+    "taxa_ml_total": 71.6,
+    "shipping_total": 133.9,
+    "faturamento_liquido": 593.68,
+    "margem_liquida_pct": 30.8,
+    "lucro_liquido": 246.12,
     "vendas_semana": 533,
     "faturamento_semana": 43861.43,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 552.87,
+    "organic_revenue": 799.18,
     "acos": 0,
-    "tacos": 66.9
+    "tacos": 46.3
   },
   "top5": [
     {
@@ -32,6 +32,28 @@
       "lucro": 135.48,
       "margem_pct": 55.8,
       "score": 86
+    },
+    {
+      "vendas": 3,
+      "faturamento": 239.97,
+      "custo": 107.52,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 19.23,
+      "full_unit_price": 79.99,
+      "lucro": 132.45,
+      "margem_pct": 55.2,
+      "score": 86
+    },
+    {
+      "vendas": 1,
+      "faturamento": 86.33,
+      "custo": 35.84,
+      "title": "Casaco Moletom Masculino Hugo Jobs Com Ziper E Cap",
+      "taxa_ml": 8.73,
+      "full_unit_price": 86.33,
+      "lucro": 50.49,
+      "margem_pct": 58.5,
+      "score": 82
     },
     {
       "vendas": 1,
@@ -54,39 +76,17 @@
       "lucro": 44.15,
       "margem_pct": 55.2,
       "score": 82
-    },
-    {
-      "vendas": 1,
-      "faturamento": 79.99,
-      "custo": 35.84,
-      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 6.41,
-      "full_unit_price": 79.99,
-      "lucro": 44.15,
-      "margem_pct": 55.2,
-      "score": 82
-    },
-    {
-      "vendas": 1,
-      "faturamento": 69.9,
-      "custo": 25.0,
-      "title": "Body Splash Aurora Shine Aura Beauty Jade Picon 20",
-      "taxa_ml": 6.41,
-      "full_unit_price": 69.9,
-      "lucro": 44.9,
-      "margem_pct": 64.2,
-      "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 6,
-      "faturamento": 482.97,
-      "custo": 215.04,
-      "taxa_ml": 43.64,
-      "pct": 87.4,
-      "margem_pct": 55.5
+      "vendas": 9,
+      "faturamento": 729.28,
+      "custo": 322.56,
+      "taxa_ml": 65.19,
+      "pct": 91.3,
+      "margem_pct": 55.8
     },
     {
       "nome": "Outros",
@@ -94,7 +94,7 @@
       "faturamento": 69.9,
       "custo": 25.0,
       "taxa_ml": 6.41,
-      "pct": 12.6,
+      "pct": 8.7,
       "margem_pct": 64.2
     }
   ],
@@ -130,7 +130,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 7,
+    "total_orders_fetched": 10,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -148,16 +148,16 @@
     "tacos": 0.8
   },
   "mes": {
-    "vendas": 739,
-    "faturamento": 60334.45,
-    "taxa_ml": 6641.73,
-    "faturamento_menos_taxa": 53692.72,
-    "ticket_medio": 81.64,
+    "vendas": 742,
+    "faturamento": 60580.76,
+    "taxa_ml": 6663.28,
+    "faturamento_menos_taxa": 53917.48,
+    "ticket_medio": 81.65,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 60334.45,
+    "organic_revenue": 60580.76,
     "acos": 0,
     "tacos": 0.6,
     "chart": {
@@ -177,7 +177,7 @@
         115,
         120,
         121,
-        4
+        7
       ],
       "faturamento": [
         10124.91,
@@ -186,7 +186,7 @@
         9787.95,
         9658.69,
         9770.37,
-        311.89
+        558.2
       ]
     }
   }
