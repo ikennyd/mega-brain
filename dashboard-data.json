@@ -1,28 +1,103 @@
 {
-  "updated_at": "2026-07-08T01:49:46.226293",
+  "updated_at": "2026-07-08T05:12:11.106182",
   "kpis": {
-    "faturamento_hoje": 0,
-    "vendas_hoje": 0,
-    "ticket_medio": 0,
-    "cmv_total": 0,
-    "lucro_bruto": 0,
-    "margem_pct_real": 0,
-    "lucro_por_pedido": 0,
-    "taxa_ml_total": 0,
-    "shipping_total": 0,
-    "faturamento_liquido": 0,
-    "margem_liquida_pct": 0,
-    "lucro_liquido": 0,
+    "faturamento_hoje": 895.97,
+    "vendas_hoje": 12,
+    "ticket_medio": 74.66,
+    "cmv_total": 412.22,
+    "lucro_bruto": 483.75,
+    "margem_pct_real": 54.0,
+    "lucro_por_pedido": 40.31,
+    "taxa_ml_total": 105.51,
+    "shipping_total": 157.39,
+    "faturamento_liquido": 633.07,
+    "margem_liquida_pct": 24.6,
+    "lucro_liquido": 220.85,
     "vendas_semana": 530,
     "faturamento_semana": 42993.43,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 0.0,
+    "organic_revenue": 895.97,
     "acos": 0,
-    "tacos": 0
+    "tacos": 41.3
   },
-  "top5": [],
-  "categories": [],
+  "top5": [
+    {
+      "vendas": 3,
+      "faturamento": 239.97,
+      "custo": 107.52,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 33.6,
+      "full_unit_price": 79.99,
+      "lucro": 132.45,
+      "margem_pct": 55.2,
+      "score": 86
+    },
+    {
+      "vendas": 2,
+      "faturamento": 170.18,
+      "custo": 71.68,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 15.04,
+      "full_unit_price": 85.09,
+      "lucro": 98.5,
+      "margem_pct": 57.9,
+      "score": 84
+    },
+    {
+      "vendas": 2,
+      "faturamento": 159.98,
+      "custo": 71.68,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 12.82,
+      "full_unit_price": 79.99,
+      "lucro": 88.3,
+      "margem_pct": 55.2,
+      "score": 84
+    },
+    {
+      "vendas": 1,
+      "faturamento": 80.83,
+      "custo": 35.84,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 11.32,
+      "full_unit_price": 80.83,
+      "lucro": 44.99,
+      "margem_pct": 55.7,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 79.99,
+      "custo": 35.84,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 6.41,
+      "full_unit_price": 79.99,
+      "lucro": 44.15,
+      "margem_pct": 55.2,
+      "score": 82
+    }
+  ],
+  "categories": [
+    {
+      "nome": "Vestuário Adult",
+      "vendas": 10,
+      "faturamento": 787.28,
+      "custo": 358.4,
+      "taxa_ml": 87.08,
+      "pct": 87.9,
+      "margem_pct": 54.5
+    },
+    {
+      "nome": "Vestuário Infantil",
+      "vendas": 2,
+      "faturamento": 108.69,
+      "custo": 53.82,
+      "taxa_ml": 18.43,
+      "pct": 12.1,
+      "margem_pct": 50.5
+    }
+  ],
   "chart": {
     "labels": [
       "Qui (02)",
@@ -55,7 +130,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 0,
+    "total_orders_fetched": 12,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -73,16 +148,16 @@
     "tacos": 0.9
   },
   "mes": {
-    "vendas": 910,
-    "faturamento": 74276.71,
-    "taxa_ml": 8010.85,
-    "faturamento_menos_taxa": 66265.86,
-    "ticket_medio": 81.62,
+    "vendas": 928,
+    "faturamento": 75794.07,
+    "taxa_ml": 8173.79,
+    "faturamento_menos_taxa": 67620.28,
+    "ticket_medio": 81.67,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 74276.71,
+    "organic_revenue": 75794.07,
     "acos": 0,
     "tacos": 0.5,
     "chart": {
@@ -102,9 +177,9 @@
         83,
         114,
         119,
-        120,
-        182,
-        0
+        119,
+        198,
+        3
       ],
       "faturamento": [
         10044.92,
@@ -112,9 +187,9 @@
         6662.7,
         9706.95,
         9578.7,
-        9690.38,
-        14820.19,
-        0
+        9609.38,
+        16202.24,
+        216.31
       ]
     }
   }
