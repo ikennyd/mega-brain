@@ -1,28 +1,83 @@
 {
-  "updated_at": "2026-07-10T01:14:04.001648",
+  "updated_at": "2026-07-10T05:07:41.331582",
   "kpis": {
-    "faturamento_hoje": 0,
-    "vendas_hoje": 0,
-    "ticket_medio": 0,
-    "cmv_total": 0,
-    "lucro_bruto": 0,
-    "margem_pct_real": 0,
-    "lucro_por_pedido": 0,
-    "taxa_ml_total": 0,
-    "shipping_total": 0,
-    "faturamento_liquido": 0,
-    "margem_liquida_pct": 0,
-    "lucro_liquido": 0,
+    "faturamento_hoje": 416.49,
+    "vendas_hoje": 5,
+    "ticket_medio": 83.3,
+    "cmv_total": 179.2,
+    "lucro_bruto": 237.29,
+    "margem_pct_real": 57.0,
+    "lucro_por_pedido": 47.46,
+    "taxa_ml_total": 41.1,
+    "shipping_total": 69.85,
+    "faturamento_liquido": 305.54,
+    "margem_liquida_pct": 30.3,
+    "lucro_liquido": 126.34,
     "vendas_semana": 534,
     "faturamento_semana": 43698.28,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 0.0,
+    "organic_revenue": 416.49,
     "acos": 0,
-    "tacos": 0
+    "tacos": 88.8
   },
-  "top5": [],
-  "categories": [],
+  "top5": [
+    {
+      "vendas": 2,
+      "faturamento": 170.18,
+      "custo": 71.68,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 15.04,
+      "full_unit_price": 85.09,
+      "lucro": 98.5,
+      "margem_pct": 57.9,
+      "score": 84
+    },
+    {
+      "vendas": 1,
+      "faturamento": 86.33,
+      "custo": 35.84,
+      "title": "Casaco Moletom Masculino Hugo Jobs Com Ziper E Cap",
+      "taxa_ml": 8.73,
+      "full_unit_price": 86.33,
+      "lucro": 50.49,
+      "margem_pct": 58.5,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 79.99,
+      "custo": 35.84,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 10.92,
+      "full_unit_price": 79.99,
+      "lucro": 44.15,
+      "margem_pct": 55.2,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 79.99,
+      "custo": 35.84,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 6.41,
+      "full_unit_price": 79.99,
+      "lucro": 44.15,
+      "margem_pct": 55.2,
+      "score": 82
+    }
+  ],
+  "categories": [
+    {
+      "nome": "Vestuário Adult",
+      "vendas": 5,
+      "faturamento": 416.49,
+      "custo": 179.2,
+      "taxa_ml": 41.1,
+      "pct": 100.0,
+      "margem_pct": 57.0
+    }
+  ],
   "chart": {
     "labels": [
       "Sáb (04)",
@@ -55,7 +110,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 0,
+    "total_orders_fetched": 5,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -73,16 +128,16 @@
     "tacos": 0.8
   },
   "mes": {
-    "vendas": 1221,
-    "faturamento": 99639.56,
-    "taxa_ml": 10652.9,
-    "faturamento_menos_taxa": 88986.66,
-    "ticket_medio": 81.6,
+    "vendas": 1233,
+    "faturamento": 100600.2,
+    "taxa_ml": 10746.62,
+    "faturamento_menos_taxa": 89853.58,
+    "ticket_medio": 81.59,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 99639.56,
+    "organic_revenue": 100600.2,
     "acos": 0,
     "tacos": 0.4,
     "chart": {
@@ -107,8 +162,8 @@
         117,
         198,
         182,
-        126,
-        0
+        135,
+        3
       ],
       "faturamento": [
         9829.59,
@@ -119,8 +174,8 @@
         9444.3,
         16197.14,
         14795.32,
-        10325.24,
-        0
+        11034.47,
+        251.41
       ]
     }
   }
