@@ -1,28 +1,61 @@
 {
-  "updated_at": "2026-07-12T01:02:21.550427",
+  "updated_at": "2026-07-12T04:35:37.588377",
   "kpis": {
-    "faturamento_hoje": 0,
-    "vendas_hoje": 0,
-    "ticket_medio": 0,
-    "cmv_total": 0,
-    "lucro_bruto": 0,
-    "margem_pct_real": 0,
-    "lucro_por_pedido": 0,
-    "taxa_ml_total": 0,
-    "shipping_total": 0,
-    "faturamento_liquido": 0,
-    "margem_liquida_pct": 0,
-    "lucro_liquido": 0,
+    "faturamento_hoje": 144.99,
+    "vendas_hoje": 2,
+    "ticket_medio": 72.5,
+    "cmv_total": 71.68,
+    "lucro_bruto": 73.31,
+    "margem_pct_real": 50.6,
+    "lucro_por_pedido": 36.66,
+    "taxa_ml_total": 15.91,
+    "shipping_total": 21.8,
+    "faturamento_liquido": 107.28,
+    "margem_liquida_pct": 24.6,
+    "lucro_liquido": 35.6,
     "vendas_semana": 520,
     "faturamento_semana": 42318.75,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 0.0,
+    "organic_revenue": 144.99,
     "acos": 0,
-    "tacos": 0
+    "tacos": 255.2
   },
-  "top5": [],
-  "categories": [],
+  "top5": [
+    {
+      "vendas": 1,
+      "faturamento": 85.09,
+      "custo": 35.84,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 7.52,
+      "full_unit_price": 85.09,
+      "lucro": 49.25,
+      "margem_pct": 57.9,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 59.9,
+      "custo": 35.84,
+      "title": "Blusa Moletom Estilosa Estampa Paris Hugo Jobs Gol",
+      "taxa_ml": 8.39,
+      "full_unit_price": 59.9,
+      "lucro": 24.06,
+      "margem_pct": 40.2,
+      "score": 82
+    }
+  ],
+  "categories": [
+    {
+      "nome": "Vestuário Adult",
+      "vendas": 2,
+      "faturamento": 144.99,
+      "custo": 71.68,
+      "taxa_ml": 15.91,
+      "pct": 100.0,
+      "margem_pct": 50.6
+    }
+  ],
   "chart": {
     "labels": [
       "Seg (06)",
@@ -55,7 +88,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 0,
+    "total_orders_fetched": 2,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -73,16 +106,16 @@
     "tacos": 0.9
   },
   "mes": {
-    "vendas": 1401,
-    "faturamento": 114196.71,
-    "taxa_ml": 12080.75,
-    "faturamento_menos_taxa": 102115.96,
-    "ticket_medio": 81.51,
+    "vendas": 1412,
+    "faturamento": 115057.4,
+    "taxa_ml": 12161.89,
+    "faturamento_menos_taxa": 102895.51,
+    "ticket_medio": 81.49,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 114196.71,
+    "organic_revenue": 115057.4,
     "acos": 0,
     "tacos": 0.3,
     "chart": {
@@ -111,7 +144,7 @@
         181,
         134,
         98,
-        88,
+        99,
         0
       ],
       "faturamento": [
@@ -125,7 +158,7 @@
         14710.23,
         10948.14,
         7806.43,
-        7339.91,
+        8200.6,
         0
       ]
     }
