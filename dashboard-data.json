@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-07-12T22:28:44.177615",
+  "updated_at": "2026-07-12T23:26:27.785163",
   "kpis": {
-    "faturamento_hoje": 5268.56,
-    "vendas_hoje": 65,
-    "ticket_medio": 81.05,
-    "cmv_total": 2338.65,
-    "lucro_bruto": 2929.91,
-    "margem_pct_real": 55.6,
-    "lucro_por_pedido": 45.08,
-    "taxa_ml_total": 541.67,
-    "shipping_total": 1005.86,
-    "faturamento_liquido": 3721.03,
-    "margem_liquida_pct": 26.2,
-    "lucro_liquido": 1382.38,
+    "faturamento_hoje": 6324.97,
+    "vendas_hoje": 78,
+    "ticket_medio": 81.09,
+    "cmv_total": 2804.57,
+    "lucro_bruto": 3520.4,
+    "margem_pct_real": 55.7,
+    "lucro_por_pedido": 45.13,
+    "taxa_ml_total": 629.1,
+    "shipping_total": 1262.3,
+    "faturamento_liquido": 4433.57,
+    "margem_liquida_pct": 25.8,
+    "lucro_liquido": 1629.0,
     "vendas_semana": 520,
     "faturamento_semana": 42318.75,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 5268.56,
+    "organic_revenue": 6324.97,
     "acos": 0,
-    "tacos": 7.0
+    "tacos": 5.8
   },
   "top5": [
     {
@@ -34,59 +34,59 @@
       "score": 99
     },
     {
-      "vendas": 11,
-      "faturamento": 879.89,
-      "custo": 394.24,
+      "vendas": 15,
+      "faturamento": 1199.85,
+      "custo": 537.6,
       "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 69.02,
+      "taxa_ml": 94.22,
       "full_unit_price": 79.99,
-      "lucro": 485.65,
+      "lucro": 662.25,
+      "margem_pct": 55.2,
+      "score": 99
+    },
+    {
+      "vendas": 10,
+      "faturamento": 799.9,
+      "custo": 358.4,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 63.82,
+      "full_unit_price": 79.99,
+      "lucro": 441.5,
+      "margem_pct": 55.2,
+      "score": 99
+    },
+    {
+      "vendas": 10,
+      "faturamento": 799.9,
+      "custo": 358.4,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 64.1,
+      "full_unit_price": 79.99,
+      "lucro": 441.5,
       "margem_pct": 55.2,
       "score": 99
     },
     {
       "vendas": 8,
-      "faturamento": 639.92,
+      "faturamento": 680.72,
       "custo": 286.72,
       "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 51.28,
-      "full_unit_price": 79.99,
-      "lucro": 353.2,
-      "margem_pct": 55.2,
-      "score": 96
-    },
-    {
-      "vendas": 7,
-      "faturamento": 595.63,
-      "custo": 250.88,
-      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 52.64,
+      "taxa_ml": 60.16,
       "full_unit_price": 85.09,
-      "lucro": 344.75,
+      "lucro": 394.0,
       "margem_pct": 57.9,
-      "score": 94
-    },
-    {
-      "vendas": 6,
-      "faturamento": 479.94,
-      "custo": 215.04,
-      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 38.18,
-      "full_unit_price": 79.99,
-      "lucro": 264.9,
-      "margem_pct": 55.2,
-      "score": 92
+      "score": 96
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 63,
-      "faturamento": 5087.56,
-      "custo": 2257.92,
-      "taxa_ml": 525.77,
-      "pct": 96.6,
-      "margem_pct": 55.6
+      "vendas": 76,
+      "faturamento": 6143.97,
+      "custo": 2723.84,
+      "taxa_ml": 613.2,
+      "pct": 97.1,
+      "margem_pct": 55.7
     },
     {
       "nome": "Vestuário Infantil",
@@ -94,7 +94,7 @@
       "faturamento": 181,
       "custo": 80.73,
       "taxa_ml": 15.9,
-      "pct": 3.4,
+      "pct": 2.9,
       "margem_pct": 55.4
     }
   ],
@@ -130,7 +130,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 68,
+    "total_orders_fetched": 81,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -148,16 +148,16 @@
     "tacos": 0.9
   },
   "mes": {
-    "vendas": 1475,
-    "faturamento": 120100.98,
-    "taxa_ml": 12671.66,
-    "faturamento_menos_taxa": 107429.32,
-    "ticket_medio": 81.42,
+    "vendas": 1488,
+    "faturamento": 121237.38,
+    "taxa_ml": 12763.88,
+    "faturamento_menos_taxa": 108473.5,
+    "ticket_medio": 81.48,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 120100.98,
+    "organic_revenue": 121237.38,
     "acos": 0,
     "tacos": 0.3,
     "chart": {
@@ -187,7 +187,7 @@
         134,
         98,
         99,
-        63
+        76
       ],
       "faturamento": [
         9749.6,
@@ -201,7 +201,7 @@
         10948.14,
         7806.43,
         8200.6,
-        5043.58
+        6179.98
       ]
     }
   }
