@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-07-13T04:31:28.499213",
+  "updated_at": "2026-07-13T07:51:51.884134",
   "kpis": {
-    "faturamento_hoje": 138.09,
-    "vendas_hoje": 2,
-    "ticket_medio": 69.05,
-    "cmv_total": 71.68,
-    "lucro_bruto": 66.41,
-    "margem_pct_real": 48.1,
-    "lucro_por_pedido": 33.2,
-    "taxa_ml_total": 19.33,
-    "shipping_total": 21.8,
-    "faturamento_liquido": 96.96,
-    "margem_liquida_pct": 18.3,
-    "lucro_liquido": 25.28,
+    "faturamento_hoje": 218.08,
+    "vendas_hoje": 3,
+    "ticket_medio": 72.69,
+    "cmv_total": 107.52,
+    "lucro_bruto": 110.56,
+    "margem_pct_real": 50.7,
+    "lucro_por_pedido": 36.85,
+    "taxa_ml_total": 25.35,
+    "shipping_total": 35.95,
+    "faturamento_liquido": 156.78,
+    "margem_liquida_pct": 22.6,
+    "lucro_liquido": 49.26,
     "vendas_semana": 525,
     "faturamento_semana": 42742.28,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 138.09,
+    "organic_revenue": 218.08,
     "acos": 0,
-    "tacos": 267.9
+    "tacos": 169.7
   },
   "top5": [
     {
@@ -28,6 +28,17 @@
       "custo": 35.84,
       "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
       "taxa_ml": 11.2,
+      "full_unit_price": 79.99,
+      "lucro": 44.15,
+      "margem_pct": 55.2,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 79.99,
+      "custo": 35.84,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 6.02,
       "full_unit_price": 79.99,
       "lucro": 44.15,
       "margem_pct": 55.2,
@@ -48,12 +59,12 @@
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 2,
-      "faturamento": 138.09,
-      "custo": 71.68,
-      "taxa_ml": 19.33,
+      "vendas": 3,
+      "faturamento": 218.08,
+      "custo": 107.52,
+      "taxa_ml": 25.35,
       "pct": 100.0,
-      "margem_pct": 48.1
+      "margem_pct": 50.7
     }
   ],
   "chart": {
@@ -88,7 +99,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 2,
+    "total_orders_fetched": 3,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -106,16 +117,16 @@
     "tacos": 0.9
   },
   "mes": {
-    "vendas": 1509,
-    "faturamento": 122926.91,
-    "taxa_ml": 12937.9,
-    "faturamento_menos_taxa": 109989.01,
-    "ticket_medio": 81.46,
+    "vendas": 1510,
+    "faturamento": 123086.89,
+    "taxa_ml": 12948.71,
+    "faturamento_menos_taxa": 110138.18,
+    "ticket_medio": 81.51,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 122926.91,
+    "organic_revenue": 123086.89,
     "acos": 0,
     "tacos": 0.3,
     "chart": {
@@ -147,7 +158,7 @@
         98,
         99,
         97,
-        0
+        1
       ],
       "faturamento": [
         9749.6,
@@ -161,8 +172,8 @@
         10948.14,
         7806.43,
         8200.6,
-        7869.51,
-        0
+        7949.5,
+        79.99
       ]
     }
   }
