@@ -1,28 +1,70 @@
 {
-  "updated_at": "2026-07-14T01:01:46.337301",
+  "updated_at": "2026-07-14T06:25:46.034899",
   "kpis": {
-    "faturamento_hoje": 0,
-    "vendas_hoje": 0,
-    "ticket_medio": 0,
-    "cmv_total": 0,
-    "lucro_bruto": 0,
-    "margem_pct_real": 0,
-    "lucro_por_pedido": 0,
-    "taxa_ml_total": 0,
-    "shipping_total": 0,
-    "faturamento_liquido": 0,
-    "margem_liquida_pct": 0,
-    "lucro_liquido": 0,
+    "faturamento_hoje": 123.54,
+    "vendas_hoje": 2,
+    "ticket_medio": 61.77,
+    "cmv_total": 62.75,
+    "lucro_bruto": 60.79,
+    "margem_pct_real": 49.2,
+    "lucro_por_pedido": 30.39,
+    "taxa_ml_total": 12.4,
+    "shipping_total": 30.89,
+    "faturamento_liquido": 80.25,
+    "margem_liquida_pct": 14.2,
+    "lucro_liquido": 17.5,
     "vendas_semana": 517,
     "faturamento_semana": 41997.36,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 0.0,
+    "organic_revenue": 123.54,
     "acos": 0,
-    "tacos": 0
+    "tacos": 299.5
   },
-  "top5": [],
-  "categories": [],
+  "top5": [
+    {
+      "vendas": 1,
+      "faturamento": 79.99,
+      "custo": 35.84,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 6.3,
+      "full_unit_price": 79.99,
+      "lucro": 44.15,
+      "margem_pct": 55.2,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 43.55,
+      "custo": 26.91,
+      "title": "Moletom Infantil Quente Hugo Jobs Com Capuz E Bols",
+      "taxa_ml": 6.1,
+      "full_unit_price": 43.55,
+      "lucro": 16.64,
+      "margem_pct": 38.2,
+      "score": 82
+    }
+  ],
+  "categories": [
+    {
+      "nome": "Vestuário Adult",
+      "vendas": 1,
+      "faturamento": 79.99,
+      "custo": 35.84,
+      "taxa_ml": 6.3,
+      "pct": 64.7,
+      "margem_pct": 55.2
+    },
+    {
+      "nome": "Vestuário Infantil",
+      "vendas": 1,
+      "faturamento": 43.55,
+      "custo": 26.91,
+      "taxa_ml": 6.1,
+      "pct": 35.3,
+      "margem_pct": 38.2
+    }
+  ],
   "chart": {
     "labels": [
       "Qua (08)",
@@ -55,7 +97,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 0,
+    "total_orders_fetched": 2,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -73,16 +115,16 @@
     "tacos": 0.9
   },
   "mes": {
-    "vendas": 1600,
-    "faturamento": 130443.85,
-    "taxa_ml": 13684.14,
-    "faturamento_menos_taxa": 116759.71,
-    "ticket_medio": 81.53,
+    "vendas": 1614,
+    "faturamento": 131618.45,
+    "taxa_ml": 13796.83,
+    "faturamento_menos_taxa": 117821.62,
+    "ticket_medio": 81.55,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 130443.85,
+    "organic_revenue": 131618.45,
     "acos": 0,
     "tacos": 0.3,
     "chart": {
@@ -115,8 +157,8 @@
         95,
         96,
         97,
-        104,
-        0
+        117,
+        1
       ],
       "faturamento": [
         9749.6,
@@ -130,9 +172,9 @@
         10780.81,
         7554.01,
         7954.29,
-        7869.51,
-        8557.89,
-        0
+        7949.5,
+        9572.51,
+        79.99
       ]
     }
   }
