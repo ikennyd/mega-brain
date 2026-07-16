@@ -1,47 +1,69 @@
 {
-  "updated_at": "2026-07-16T10:33:12.623670",
+  "updated_at": "2026-07-16T12:07:28.648468",
   "kpis": {
-    "faturamento_hoje": 948.35,
-    "vendas_hoje": 12,
-    "ticket_medio": 79.03,
-    "cmv_total": 403.29,
-    "lucro_bruto": 545.06,
-    "margem_pct_real": 57.5,
-    "lucro_por_pedido": 45.42,
-    "taxa_ml_total": 116.3,
-    "shipping_total": 166.1,
-    "faturamento_liquido": 665.95,
-    "margem_liquida_pct": 27.7,
-    "lucro_liquido": 262.66,
+    "faturamento_hoje": 1721.11,
+    "vendas_hoje": 22,
+    "ticket_medio": 78.23,
+    "cmv_total": 734.9,
+    "lucro_bruto": 986.21,
+    "margem_pct_real": 57.3,
+    "lucro_por_pedido": 44.83,
+    "taxa_ml_total": 184.01,
+    "shipping_total": 304.3,
+    "faturamento_liquido": 1232.8,
+    "margem_liquida_pct": 28.9,
+    "lucro_liquido": 497.9,
     "vendas_semana": 529,
     "faturamento_semana": 43589.48,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 948.35,
+    "organic_revenue": 1721.11,
     "acos": 0,
-    "tacos": 39.0
+    "tacos": 21.5
   },
   "top5": [
     {
-      "vendas": 2,
-      "faturamento": 167.4,
-      "custo": 71.68,
+      "vendas": 3,
+      "faturamento": 251.1,
+      "custo": 107.52,
       "title": "Casaco Moletom Masculino Hugo Jobs Com Ziper E Cap",
-      "taxa_ml": 23.44,
+      "taxa_ml": 35.16,
       "full_unit_price": 83.7,
-      "lucro": 95.72,
+      "lucro": 143.58,
       "margem_pct": 57.2,
+      "score": 86
+    },
+    {
+      "vendas": 3,
+      "faturamento": 249,
+      "custo": 107.52,
+      "title": "Casaco Moletom Masculino Hugo Jobs Com Ziper E Cap",
+      "taxa_ml": 23.76,
+      "full_unit_price": 83,
+      "lucro": 141.48,
+      "margem_pct": 56.8,
+      "score": 86
+    },
+    {
+      "vendas": 2,
+      "faturamento": 170.18,
+      "custo": 71.68,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 15.04,
+      "full_unit_price": 85.09,
+      "lucro": 98.5,
+      "margem_pct": 57.9,
       "score": 84
     },
     {
       "vendas": 2,
-      "faturamento": 166,
+      "faturamento": 170.18,
       "custo": 71.68,
-      "title": "Casaco Moletom Masculino Hugo Jobs Com Ziper E Cap",
-      "taxa_ml": 15.84,
-      "full_unit_price": 83,
-      "lucro": 94.32,
-      "margem_pct": 56.8,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 14.76,
+      "full_unit_price": 85.09,
+      "lucro": 98.5,
+      "margem_pct": 57.9,
       "score": 84
     },
     {
@@ -54,48 +76,26 @@
       "lucro": 88.3,
       "margem_pct": 55.2,
       "score": 84
-    },
-    {
-      "vendas": 1,
-      "faturamento": 85.09,
-      "custo": 35.84,
-      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 7.52,
-      "full_unit_price": 85.09,
-      "lucro": 49.25,
-      "margem_pct": 57.9,
-      "score": 82
-    },
-    {
-      "vendas": 1,
-      "faturamento": 85.09,
-      "custo": 35.84,
-      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 7.52,
-      "full_unit_price": 85.09,
-      "lucro": 49.25,
-      "margem_pct": 57.9,
-      "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 9,
-      "faturamento": 743.55,
-      "custo": 322.56,
-      "taxa_ml": 83.13,
-      "pct": 78.4,
-      "margem_pct": 56.6
+      "vendas": 16,
+      "faturamento": 1328.51,
+      "custo": 573.44,
+      "taxa_ml": 131.75,
+      "pct": 77.2,
+      "margem_pct": 56.8
     },
     {
       "nome": "Vestuário Infantil",
-      "vendas": 3,
-      "faturamento": 204.8,
-      "custo": 80.73,
-      "taxa_ml": 33.17,
-      "pct": 21.6,
-      "margem_pct": 60.6
+      "vendas": 6,
+      "faturamento": 392.6,
+      "custo": 161.46,
+      "taxa_ml": 52.26,
+      "pct": 22.8,
+      "margem_pct": 58.9
     }
   ],
   "chart": {
@@ -130,7 +130,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 13,
+    "total_orders_fetched": 23,
     "pads_campaigns_found": true
   },
   "semana": {
