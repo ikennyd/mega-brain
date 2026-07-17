@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-07-17T04:21:41.115792",
+  "updated_at": "2026-07-17T06:34:07.019791",
   "kpis": {
-    "faturamento_hoje": 390.06,
-    "vendas_hoje": 5,
-    "ticket_medio": 78.01,
-    "cmv_total": 170.27,
-    "lucro_bruto": 219.79,
-    "margem_pct_real": 56.3,
-    "lucro_por_pedido": 43.96,
-    "taxa_ml_total": 33.14,
-    "shipping_total": 86.55,
-    "faturamento_liquido": 270.37,
-    "margem_liquida_pct": 25.7,
-    "lucro_liquido": 100.1,
+    "faturamento_hoje": 556.38,
+    "vendas_hoje": 7,
+    "ticket_medio": 79.48,
+    "cmv_total": 241.95,
+    "lucro_bruto": 314.43,
+    "margem_pct_real": 56.5,
+    "lucro_por_pedido": 44.92,
+    "taxa_ml_total": 51.89,
+    "shipping_total": 114.25,
+    "faturamento_liquido": 390.24,
+    "margem_liquida_pct": 26.7,
+    "lucro_liquido": 148.29,
     "vendas_semana": 527,
     "faturamento_semana": 43628.52,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 390.06,
+    "organic_revenue": 556.38,
     "acos": 0,
-    "tacos": 94.9
+    "tacos": 66.5
   },
   "top5": [
     {
@@ -32,6 +32,17 @@
       "lucro": 88.3,
       "margem_pct": 55.2,
       "score": 84
+    },
+    {
+      "vendas": 1,
+      "faturamento": 86.33,
+      "custo": 35.84,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 7.55,
+      "full_unit_price": 86.33,
+      "lucro": 50.49,
+      "margem_pct": 58.5,
+      "score": 82
     },
     {
       "vendas": 1,
@@ -57,25 +68,25 @@
     },
     {
       "vendas": 1,
-      "faturamento": 65,
-      "custo": 26.91,
-      "title": "Conjunto Moletom Infantil Hugo Jobs Calca Jogger F",
-      "taxa_ml": 6.61,
-      "full_unit_price": 65,
-      "lucro": 38.09,
-      "margem_pct": 58.6,
+      "faturamento": 79.99,
+      "custo": 35.84,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 11.2,
+      "full_unit_price": 79.99,
+      "lucro": 44.15,
+      "margem_pct": 55.2,
       "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 4,
-      "faturamento": 325.06,
-      "custo": 143.36,
-      "taxa_ml": 26.53,
-      "pct": 83.3,
-      "margem_pct": 55.9
+      "vendas": 6,
+      "faturamento": 491.38,
+      "custo": 215.04,
+      "taxa_ml": 45.28,
+      "pct": 88.3,
+      "margem_pct": 56.2
     },
     {
       "nome": "Vestuário Infantil",
@@ -83,7 +94,7 @@
       "faturamento": 65,
       "custo": 26.91,
       "taxa_ml": 6.61,
-      "pct": 16.7,
+      "pct": 11.7,
       "margem_pct": 58.6
     }
   ],
@@ -119,7 +130,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 5,
+    "total_orders_fetched": 7,
     "pads_campaigns_found": true
   },
   "semana": {
