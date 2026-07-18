@@ -1,33 +1,44 @@
 {
-  "updated_at": "2026-07-18T15:11:41.431210",
+  "updated_at": "2026-07-18T16:09:17.636725",
   "kpis": {
-    "faturamento_hoje": 2943.02,
-    "vendas_hoje": 37,
-    "ticket_medio": 79.54,
-    "cmv_total": 1308.22,
-    "lucro_bruto": 1634.8,
-    "margem_pct_real": 55.5,
-    "lucro_por_pedido": 44.18,
-    "taxa_ml_total": 273.36,
-    "shipping_total": 666.82,
-    "faturamento_liquido": 2002.84,
-    "margem_liquida_pct": 23.6,
-    "lucro_liquido": 694.62,
+    "faturamento_hoje": 3348.07,
+    "vendas_hoje": 42,
+    "ticket_medio": 79.72,
+    "cmv_total": 1487.42,
+    "lucro_bruto": 1860.65,
+    "margem_pct_real": 55.6,
+    "lucro_por_pedido": 44.3,
+    "taxa_ml_total": 327.29,
+    "shipping_total": 736.67,
+    "faturamento_liquido": 2284.11,
+    "margem_liquida_pct": 23.8,
+    "lucro_liquido": 796.69,
     "vendas_semana": 528,
     "faturamento_semana": 43641.44,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 2943.02,
+    "organic_revenue": 3348.07,
     "acos": 0,
-    "tacos": 12.6
+    "tacos": 11.1
   },
   "top5": [
+    {
+      "vendas": 8,
+      "faturamento": 639.92,
+      "custo": 286.72,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 51.0,
+      "full_unit_price": 79.99,
+      "lucro": 353.2,
+      "margem_pct": 55.2,
+      "score": 96
+    },
     {
       "vendas": 6,
       "faturamento": 510.54,
       "custo": 215.04,
       "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 59.55,
+      "taxa_ml": 71.46,
       "full_unit_price": 85.09,
       "lucro": 295.5,
       "margem_pct": 57.9,
@@ -35,25 +46,14 @@
     },
     {
       "vendas": 6,
-      "faturamento": 479.94,
+      "faturamento": 510.54,
       "custo": 215.04,
       "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 38.18,
-      "full_unit_price": 79.99,
-      "lucro": 264.9,
-      "margem_pct": 55.2,
-      "score": 92
-    },
-    {
-      "vendas": 5,
-      "faturamento": 425.45,
-      "custo": 179.2,
-      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 37.6,
+      "taxa_ml": 45.12,
       "full_unit_price": 85.09,
-      "lucro": 246.25,
+      "lucro": 295.5,
       "margem_pct": 57.9,
-      "score": 90
+      "score": 92
     },
     {
       "vendas": 4,
@@ -67,25 +67,25 @@
       "score": 88
     },
     {
-      "vendas": 3,
-      "faturamento": 239.97,
-      "custo": 107.52,
+      "vendas": 4,
+      "faturamento": 319.96,
+      "custo": 143.36,
       "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 18.93,
+      "taxa_ml": 25.06,
       "full_unit_price": 79.99,
-      "lucro": 132.45,
+      "lucro": 176.6,
       "margem_pct": 55.2,
-      "score": 86
+      "score": 88
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 35,
-      "faturamento": 2827.02,
-      "custo": 1254.4,
-      "taxa_ml": 263.79,
-      "pct": 96.1,
+      "vendas": 40,
+      "faturamento": 3232.07,
+      "custo": 1433.6,
+      "taxa_ml": 317.72,
+      "pct": 96.5,
       "margem_pct": 55.6
     },
     {
@@ -94,7 +94,7 @@
       "faturamento": 116,
       "custo": 53.82,
       "taxa_ml": 9.57,
-      "pct": 3.9,
+      "pct": 3.5,
       "margem_pct": 53.6
     }
   ],
@@ -130,7 +130,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 37,
+    "total_orders_fetched": 42,
     "pads_campaigns_found": true
   },
   "semana": {
