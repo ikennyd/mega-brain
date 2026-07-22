@@ -1,28 +1,70 @@
 {
-  "updated_at": "2026-07-22T01:04:50.311947",
+  "updated_at": "2026-07-22T04:31:15.241075",
   "kpis": {
-    "faturamento_hoje": 0,
-    "vendas_hoje": 0,
-    "ticket_medio": 0,
-    "cmv_total": 0,
-    "lucro_bruto": 0,
-    "margem_pct_real": 0,
-    "lucro_por_pedido": 0,
-    "taxa_ml_total": 0,
-    "shipping_total": 0,
-    "faturamento_liquido": 0,
-    "margem_liquida_pct": 0,
-    "lucro_liquido": 0,
+    "faturamento_hoje": 121.35,
+    "vendas_hoje": 2,
+    "ticket_medio": 60.67,
+    "cmv_total": 62.75,
+    "lucro_bruto": 58.6,
+    "margem_pct_real": 48.3,
+    "lucro_por_pedido": 29.3,
+    "taxa_ml_total": 10.22,
+    "shipping_total": 15.9,
+    "faturamento_liquido": 95.23,
+    "margem_liquida_pct": 26.8,
+    "lucro_liquido": 32.48,
     "vendas_semana": 528,
     "faturamento_semana": 43252.07,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 0.0,
+    "organic_revenue": 121.35,
     "acos": 0,
-    "tacos": 0
+    "tacos": 304.9
   },
-  "top5": [],
-  "categories": [],
+  "top5": [
+    {
+      "vendas": 1,
+      "faturamento": 62,
+      "custo": 35.84,
+      "title": "Kit 3 Camisetas 100% Algodão Estilosa Hugo Jobs Mi",
+      "taxa_ml": 4.96,
+      "full_unit_price": 62,
+      "lucro": 26.16,
+      "margem_pct": 42.2,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 59.35,
+      "custo": 26.91,
+      "title": "Conjunto Moletom Infantil Hugo Jobs Calca Jogger F",
+      "taxa_ml": 5.26,
+      "full_unit_price": 59.35,
+      "lucro": 32.44,
+      "margem_pct": 54.7,
+      "score": 82
+    }
+  ],
+  "categories": [
+    {
+      "nome": "Vestuário Adult",
+      "vendas": 1,
+      "faturamento": 62,
+      "custo": 35.84,
+      "taxa_ml": 4.96,
+      "pct": 51.1,
+      "margem_pct": 42.2
+    },
+    {
+      "nome": "Vestuário Infantil",
+      "vendas": 1,
+      "faturamento": 59.35,
+      "custo": 26.91,
+      "taxa_ml": 5.26,
+      "pct": 48.9,
+      "margem_pct": 54.7
+    }
+  ],
   "chart": {
     "labels": [
       "Qui (16)",
@@ -55,7 +97,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 0,
+    "total_orders_fetched": 2,
     "pads_campaigns_found": true
   },
   "semana": {
