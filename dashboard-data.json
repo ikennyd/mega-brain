@@ -1,27 +1,38 @@
 {
-  "updated_at": "2026-07-22T04:31:15.241075",
+  "updated_at": "2026-07-22T07:19:09.550415",
   "kpis": {
-    "faturamento_hoje": 121.35,
-    "vendas_hoje": 2,
-    "ticket_medio": 60.67,
-    "cmv_total": 62.75,
-    "lucro_bruto": 58.6,
-    "margem_pct_real": 48.3,
-    "lucro_por_pedido": 29.3,
-    "taxa_ml_total": 10.22,
-    "shipping_total": 15.9,
-    "faturamento_liquido": 95.23,
-    "margem_liquida_pct": 26.8,
-    "lucro_liquido": 32.48,
+    "faturamento_hoje": 199.25,
+    "vendas_hoje": 3,
+    "ticket_medio": 66.42,
+    "cmv_total": 98.59,
+    "lucro_bruto": 100.66,
+    "margem_pct_real": 50.5,
+    "lucro_por_pedido": 33.55,
+    "taxa_ml_total": 21.13,
+    "shipping_total": 23.95,
+    "faturamento_liquido": 154.17,
+    "margem_liquida_pct": 27.9,
+    "lucro_liquido": 55.58,
     "vendas_semana": 528,
     "faturamento_semana": 43252.07,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 121.35,
+    "organic_revenue": 199.25,
     "acos": 0,
-    "tacos": 304.9
+    "tacos": 185.7
   },
   "top5": [
+    {
+      "vendas": 1,
+      "faturamento": 77.9,
+      "custo": 35.84,
+      "title": "Casaco Moletom Masculino Hugo Jobs Com Ziper E Cap",
+      "taxa_ml": 10.91,
+      "full_unit_price": 77.9,
+      "lucro": 42.06,
+      "margem_pct": 54.0,
+      "score": 82
+    },
     {
       "vendas": 1,
       "faturamento": 62,
@@ -48,12 +59,12 @@
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 1,
-      "faturamento": 62,
-      "custo": 35.84,
-      "taxa_ml": 4.96,
-      "pct": 51.1,
-      "margem_pct": 42.2
+      "vendas": 2,
+      "faturamento": 139.9,
+      "custo": 71.68,
+      "taxa_ml": 15.87,
+      "pct": 70.2,
+      "margem_pct": 48.8
     },
     {
       "nome": "Vestuário Infantil",
@@ -61,7 +72,7 @@
       "faturamento": 59.35,
       "custo": 26.91,
       "taxa_ml": 5.26,
-      "pct": 48.9,
+      "pct": 29.8,
       "margem_pct": 54.7
     }
   ],
@@ -97,7 +108,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 2,
+    "total_orders_fetched": 3,
     "pads_campaigns_found": true
   },
   "semana": {
