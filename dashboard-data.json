@@ -1,27 +1,38 @@
 {
-  "updated_at": "2026-07-24T11:22:07.636966",
+  "updated_at": "2026-07-24T12:52:24.786991",
   "kpis": {
-    "faturamento_hoje": 626.64,
-    "vendas_hoje": 8,
-    "ticket_medio": 78.33,
-    "cmv_total": 277.79,
-    "lucro_bruto": 348.85,
-    "margem_pct_real": 55.7,
-    "lucro_por_pedido": 43.61,
-    "taxa_ml_total": 72.81,
-    "shipping_total": 94.0,
-    "faturamento_liquido": 459.83,
-    "margem_liquida_pct": 29.1,
-    "lucro_liquido": 182.04,
-    "vendas_semana": 446,
-    "faturamento_semana": 38972.06,
+    "faturamento_hoje": 1184.37,
+    "vendas_hoje": 17,
+    "ticket_medio": 69.67,
+    "cmv_total": 555.7,
+    "lucro_bruto": 628.67,
+    "margem_pct_real": 53.1,
+    "lucro_por_pedido": 36.98,
+    "taxa_ml_total": 125.8,
+    "shipping_total": 242.85,
+    "faturamento_liquido": 815.72,
+    "margem_liquida_pct": 22.0,
+    "lucro_liquido": 260.02,
+    "vendas_semana": 455,
+    "faturamento_semana": 39529.79,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 626.64,
+    "organic_revenue": 1184.37,
     "acos": 0,
-    "tacos": 59.0
+    "tacos": 31.2
   },
   "top5": [
+    {
+      "vendas": 3,
+      "faturamento": 239.97,
+      "custo": 107.52,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 19.23,
+      "full_unit_price": 79.99,
+      "lucro": 132.45,
+      "margem_pct": 55.2,
+      "score": 86
+    },
     {
       "vendas": 2,
       "faturamento": 198,
@@ -38,7 +49,7 @@
       "faturamento": 159.98,
       "custo": 71.68,
       "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 12.82,
+      "taxa_ml": 12.54,
       "full_unit_price": 79.99,
       "lucro": 88.3,
       "margem_pct": 55.2,
@@ -57,45 +68,34 @@
     },
     {
       "vendas": 1,
-      "faturamento": 77.9,
+      "faturamento": 79.99,
       "custo": 35.84,
-      "title": "Casaco Moletom Masculino Hugo Jobs Com Ziper E Cap",
-      "taxa_ml": 10.63,
-      "full_unit_price": 77.9,
-      "lucro": 42.06,
-      "margem_pct": 54.0,
-      "score": 82
-    },
-    {
-      "vendas": 1,
-      "faturamento": 73.77,
-      "custo": 35.84,
-      "title": "Casaco Moletom Masculino Hugo Jobs Com Ziper E Cap",
-      "taxa_ml": 10.33,
-      "full_unit_price": 73.77,
-      "lucro": 37.93,
-      "margem_pct": 51.4,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 6.41,
+      "full_unit_price": 79.99,
+      "lucro": 44.15,
+      "margem_pct": 55.2,
       "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 7,
-      "faturamento": 589.64,
-      "custo": 250.88,
-      "taxa_ml": 67.63,
-      "pct": 94.1,
-      "margem_pct": 57.5
+      "vendas": 11,
+      "faturamento": 909.6,
+      "custo": 394.24,
+      "taxa_ml": 92.99,
+      "pct": 76.8,
+      "margem_pct": 56.7
     },
     {
       "nome": "Vestuário Infantil",
-      "vendas": 1,
-      "faturamento": 37,
-      "custo": 26.91,
-      "taxa_ml": 5.18,
-      "pct": 5.9,
-      "margem_pct": 27.3
+      "vendas": 6,
+      "faturamento": 274.77,
+      "custo": 161.46,
+      "taxa_ml": 32.81,
+      "pct": 23.2,
+      "margem_pct": 41.2
     }
   ],
   "chart": {
@@ -115,7 +115,7 @@
       26,
       73,
       68,
-      7
+      16
     ],
     "faturamento": [
       7952.05,
@@ -124,26 +124,26 @@
       2016.31,
       5811.8,
       8643.65,
-      548.74
+      1106.47
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 8,
+    "total_orders_fetched": 17,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 446,
-    "faturamento": 38972.06,
-    "taxa_ml": 3779.82,
-    "faturamento_menos_taxa": 35192.24,
-    "ticket_medio": 87.38,
+    "vendas": 455,
+    "faturamento": 39529.79,
+    "taxa_ml": 3832.81,
+    "faturamento_menos_taxa": 35696.98,
+    "ticket_medio": 86.88,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 38972.06,
+    "organic_revenue": 39529.79,
     "acos": 0,
     "tacos": 0.9
   },
