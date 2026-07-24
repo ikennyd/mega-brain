@@ -1,28 +1,50 @@
 {
-  "updated_at": "2026-07-24T01:05:51.219749",
+  "updated_at": "2026-07-24T04:29:24.840235",
   "kpis": {
-    "faturamento_hoje": 0,
-    "vendas_hoje": 0,
-    "ticket_medio": 0,
-    "cmv_total": 0,
-    "lucro_bruto": 0,
-    "margem_pct_real": 0,
-    "lucro_por_pedido": 0,
-    "taxa_ml_total": 0,
-    "shipping_total": 0,
-    "faturamento_liquido": 0,
-    "margem_liquida_pct": 0,
-    "lucro_liquido": 0,
-    "vendas_semana": 437,
-    "faturamento_semana": 38265.43,
+    "faturamento_hoje": 77.9,
+    "vendas_hoje": 1,
+    "ticket_medio": 77.9,
+    "cmv_total": 35.84,
+    "lucro_bruto": 42.06,
+    "margem_pct_real": 54.0,
+    "lucro_por_pedido": 42.06,
+    "taxa_ml_total": 10.63,
+    "shipping_total": 8.05,
+    "faturamento_liquido": 59.22,
+    "margem_liquida_pct": 30.0,
+    "lucro_liquido": 23.38,
+    "vendas_semana": 440,
+    "faturamento_semana": 38503.31,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 0.0,
+    "organic_revenue": 77.9,
     "acos": 0,
-    "tacos": 0
+    "tacos": 475.0
   },
-  "top5": [],
-  "categories": [],
+  "top5": [
+    {
+      "vendas": 1,
+      "faturamento": 77.9,
+      "custo": 35.84,
+      "title": "Casaco Moletom Masculino Hugo Jobs Com Ziper E Cap",
+      "taxa_ml": 10.63,
+      "full_unit_price": 77.9,
+      "lucro": 42.06,
+      "margem_pct": 54.0,
+      "score": 82
+    }
+  ],
+  "categories": [
+    {
+      "nome": "Vestuário Adult",
+      "vendas": 1,
+      "faturamento": 77.9,
+      "custo": 35.84,
+      "taxa_ml": 10.63,
+      "pct": 100.0,
+      "margem_pct": 54.0
+    }
+  ],
   "chart": {
     "labels": [
       "Sáb (18)",
@@ -39,7 +61,7 @@
       83,
       26,
       73,
-      65,
+      68,
       0
     ],
     "faturamento": [
@@ -48,41 +70,41 @@
       6740.56,
       2016.31,
       5811.8,
-      8405.77,
+      8643.65,
       0
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 0,
+    "total_orders_fetched": 1,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 437,
-    "faturamento": 38265.43,
-    "taxa_ml": 3700.49,
-    "faturamento_menos_taxa": 34564.94,
-    "ticket_medio": 87.56,
+    "vendas": 440,
+    "faturamento": 38503.31,
+    "taxa_ml": 3723.94,
+    "faturamento_menos_taxa": 34779.37,
+    "ticket_medio": 87.51,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 38265.43,
+    "organic_revenue": 38503.31,
     "acos": 0,
     "tacos": 1.0
   },
   "mes": {
     "vendas": 1883,
-    "faturamento": 154054.18,
-    "taxa_ml": 16122.01,
-    "faturamento_menos_taxa": 137932.17,
-    "ticket_medio": 81.81,
+    "faturamento": 153894.2,
+    "taxa_ml": 16112.43,
+    "faturamento_menos_taxa": 137781.77,
+    "ticket_medio": 81.73,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 154054.18,
+    "organic_revenue": 153894.2,
     "acos": 0,
     "tacos": 0.2,
     "chart": {
@@ -150,7 +172,7 @@
         10185.84,
         7415.92,
         7539.04,
-        7789.52,
+        7629.54,
         9097.92,
         14738.37,
         11657.37,
