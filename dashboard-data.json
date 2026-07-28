@@ -1,27 +1,38 @@
 {
-  "updated_at": "2026-07-28T15:52:41.672557",
+  "updated_at": "2026-07-28T17:19:04.170995",
   "kpis": {
-    "faturamento_hoje": 1199.9,
-    "vendas_hoje": 15,
-    "ticket_medio": 79.99,
-    "cmv_total": 537.6,
-    "lucro_bruto": 662.3,
-    "margem_pct_real": 55.2,
-    "lucro_por_pedido": 44.15,
-    "taxa_ml_total": 103.88,
-    "shipping_total": 204.45,
-    "faturamento_liquido": 891.57,
-    "margem_liquida_pct": 29.5,
-    "lucro_liquido": 353.97,
-    "vendas_semana": 443,
-    "faturamento_semana": 37212.9,
+    "faturamento_hoje": 1353.9,
+    "vendas_hoje": 17,
+    "ticket_medio": 79.64,
+    "cmv_total": 609.28,
+    "lucro_bruto": 744.62,
+    "margem_pct_real": 55.0,
+    "lucro_por_pedido": 43.8,
+    "taxa_ml_total": 120.82,
+    "shipping_total": 225.97,
+    "faturamento_liquido": 1007.11,
+    "margem_liquida_pct": 29.4,
+    "lucro_liquido": 397.83,
+    "vendas_semana": 445,
+    "faturamento_semana": 37366.9,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 1199.9,
+    "organic_revenue": 1353.9,
     "acos": 0,
-    "tacos": 30.8
+    "tacos": 27.3
   },
   "top5": [
+    {
+      "vendas": 3,
+      "faturamento": 249.66,
+      "custo": 107.52,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 26.16,
+      "full_unit_price": 77,
+      "lucro": 142.14,
+      "margem_pct": 56.9,
+      "score": 86
+    },
     {
       "vendas": 3,
       "faturamento": 239.97,
@@ -34,15 +45,15 @@
       "score": 86
     },
     {
-      "vendas": 2,
-      "faturamento": 172.66,
-      "custo": 71.68,
+      "vendas": 3,
+      "faturamento": 231,
+      "custo": 107.52,
       "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 15.38,
-      "full_unit_price": 86.33,
-      "lucro": 100.98,
-      "margem_pct": 58.5,
-      "score": 84
+      "taxa_ml": 18.2,
+      "full_unit_price": 77,
+      "lucro": 123.48,
+      "margem_pct": 53.5,
+      "score": 86
     },
     {
       "vendas": 2,
@@ -53,17 +64,6 @@
       "full_unit_price": 85.09,
       "lucro": 98.5,
       "margem_pct": 57.9,
-      "score": 84
-    },
-    {
-      "vendas": 2,
-      "faturamento": 154,
-      "custo": 71.68,
-      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 12.04,
-      "full_unit_price": 77,
-      "lucro": 82.32,
-      "margem_pct": 53.5,
       "score": 84
     },
     {
@@ -81,12 +81,12 @@
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 15,
-      "faturamento": 1199.9,
-      "custo": 537.6,
-      "taxa_ml": 103.88,
+      "vendas": 17,
+      "faturamento": 1353.9,
+      "custo": 609.28,
+      "taxa_ml": 120.82,
       "pct": 100.0,
-      "margem_pct": 55.2
+      "margem_pct": 55.0
     }
   ],
   "chart": {
@@ -106,7 +106,7 @@
       89,
       71,
       58,
-      15
+      17
     ],
     "faturamento": [
       5730.97,
@@ -115,35 +115,35 @@
       6712.44,
       5153.02,
       4604.1,
-      1199.9
+      1353.9
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 16,
+    "total_orders_fetched": 18,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 443,
-    "faturamento": 37212.9,
-    "taxa_ml": 3622.97,
-    "faturamento_menos_taxa": 33589.93,
-    "ticket_medio": 84.0,
+    "vendas": 445,
+    "faturamento": 37366.9,
+    "taxa_ml": 3639.91,
+    "faturamento_menos_taxa": 33726.99,
+    "ticket_medio": 83.97,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 37212.9,
+    "organic_revenue": 37366.9,
     "acos": 0,
     "tacos": 1.0
   },
   "mes": {
-    "vendas": 1880,
+    "vendas": 1879,
     "faturamento": 153644.03,
-    "taxa_ml": 16090.98,
-    "faturamento_menos_taxa": 137553.05,
-    "ticket_medio": 81.73,
+    "taxa_ml": 16089.36,
+    "faturamento_menos_taxa": 137554.67,
+    "ticket_medio": 81.77,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
@@ -196,7 +196,7 @@
         91,
         94,
         111,
-        173,
+        172,
         143,
         0,
         0,
@@ -224,9 +224,9 @@
         10185.84,
         7415.92,
         7539.04,
-        7549.55,
+        7629.54,
         9012.83,
-        14653.28,
+        14573.29,
         11657.37,
         0,
         0,
