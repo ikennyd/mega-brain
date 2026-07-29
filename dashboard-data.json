@@ -1,27 +1,38 @@
 {
-  "updated_at": "2026-07-29T07:17:31.345956",
+  "updated_at": "2026-07-29T10:03:18.250887",
   "kpis": {
-    "faturamento_hoje": 86.33,
-    "vendas_hoje": 1,
-    "ticket_medio": 86.33,
-    "cmv_total": 35.84,
-    "lucro_bruto": 50.49,
-    "margem_pct_real": 58.5,
-    "lucro_por_pedido": 50.49,
-    "taxa_ml_total": 7.83,
-    "shipping_total": 25.84,
-    "faturamento_liquido": 52.66,
-    "margem_liquida_pct": 19.5,
-    "lucro_liquido": 16.82,
-    "vendas_semana": 409,
-    "faturamento_semana": 34334.75,
+    "faturamento_hoje": 392.86,
+    "vendas_hoje": 5,
+    "ticket_medio": 78.57,
+    "cmv_total": 170.27,
+    "lucro_bruto": 222.59,
+    "margem_pct_real": 56.7,
+    "lucro_por_pedido": 44.52,
+    "taxa_ml_total": 34.29,
+    "shipping_total": 70.14,
+    "faturamento_liquido": 288.43,
+    "margem_liquida_pct": 30.1,
+    "lucro_liquido": 118.16,
+    "vendas_semana": 413,
+    "faturamento_semana": 34641.28,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 86.33,
+    "organic_revenue": 392.86,
     "acos": 0,
-    "tacos": 428.6
+    "tacos": 94.2
   },
   "top5": [
+    {
+      "vendas": 2,
+      "faturamento": 170.18,
+      "custo": 71.68,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 15.04,
+      "full_unit_price": 85.09,
+      "lucro": 98.5,
+      "margem_pct": 57.9,
+      "score": 84
+    },
     {
       "vendas": 1,
       "faturamento": 86.33,
@@ -32,17 +43,48 @@
       "lucro": 50.49,
       "margem_pct": 58.5,
       "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 77,
+      "custo": 35.84,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 6.16,
+      "full_unit_price": 77,
+      "lucro": 41.16,
+      "margem_pct": 53.5,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 59.35,
+      "custo": 26.91,
+      "title": "Conjunto Moletom Infantil Hugo Jobs Calca Jogger F",
+      "taxa_ml": 5.26,
+      "full_unit_price": 59.35,
+      "lucro": 32.44,
+      "margem_pct": 54.7,
+      "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
+      "vendas": 4,
+      "faturamento": 333.51,
+      "custo": 143.36,
+      "taxa_ml": 29.03,
+      "pct": 84.9,
+      "margem_pct": 57.0
+    },
+    {
+      "nome": "Vestuário Infantil",
       "vendas": 1,
-      "faturamento": 86.33,
-      "custo": 35.84,
-      "taxa_ml": 7.83,
-      "pct": 100.0,
-      "margem_pct": 58.5
+      "faturamento": 59.35,
+      "custo": 26.91,
+      "taxa_ml": 5.26,
+      "pct": 15.1,
+      "margem_pct": 54.7
     }
   ],
   "chart": {
@@ -62,7 +104,7 @@
       71,
       58,
       52,
-      1
+      5
     ],
     "faturamento": [
       8643.65,
@@ -71,40 +113,40 @@
       5153.02,
       4604.1,
       3945.75,
-      86.33
+      392.86
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 1,
+    "total_orders_fetched": 5,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 409,
-    "faturamento": 34334.75,
-    "taxa_ml": 3333.85,
-    "faturamento_menos_taxa": 31000.9,
-    "ticket_medio": 83.95,
+    "vendas": 413,
+    "faturamento": 34641.28,
+    "taxa_ml": 3360.31,
+    "faturamento_menos_taxa": 31280.97,
+    "ticket_medio": 83.88,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 34334.75,
+    "organic_revenue": 34641.28,
     "acos": 0,
     "tacos": 1.1
   },
   "mes": {
     "vendas": 1879,
-    "faturamento": 153644.03,
-    "taxa_ml": 16089.36,
-    "faturamento_menos_taxa": 137554.67,
-    "ticket_medio": 81.77,
+    "faturamento": 153564.04,
+    "taxa_ml": 16084.57,
+    "faturamento_menos_taxa": 137479.47,
+    "ticket_medio": 81.73,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 153644.03,
+    "organic_revenue": 153564.04,
     "acos": 0,
     "tacos": 0.2,
     "chart": {
@@ -182,7 +224,7 @@
         10185.84,
         7415.92,
         7539.04,
-        7629.54,
+        7549.55,
         9012.83,
         14573.29,
         11657.37,
