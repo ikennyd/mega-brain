@@ -1,37 +1,59 @@
 {
-  "updated_at": "2026-07-30T09:56:48.833318",
+  "updated_at": "2026-07-30T11:47:42.064858",
   "kpis": {
-    "faturamento_hoje": 680.14,
-    "vendas_hoje": 8,
-    "ticket_medio": 85.02,
-    "cmv_total": 286.72,
-    "lucro_bruto": 393.42,
-    "margem_pct_real": 57.8,
-    "lucro_por_pedido": 49.18,
-    "taxa_ml_total": 71.2,
-    "shipping_total": 128.69,
-    "faturamento_liquido": 480.25,
-    "margem_liquida_pct": 28.5,
-    "lucro_liquido": 193.53,
-    "vendas_semana": 400,
-    "faturamento_semana": 30049.83,
+    "faturamento_hoje": 1278.54,
+    "vendas_hoje": 15,
+    "ticket_medio": 85.24,
+    "cmv_total": 573.44,
+    "lucro_bruto": 705.1,
+    "margem_pct_real": 55.1,
+    "lucro_por_pedido": 47.01,
+    "taxa_ml_total": 129.72,
+    "shipping_total": 199.39,
+    "faturamento_liquido": 949.43,
+    "margem_liquida_pct": 29.4,
+    "lucro_liquido": 375.99,
+    "vendas_semana": 407,
+    "faturamento_semana": 30648.23,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 680.14,
+    "organic_revenue": 1278.54,
     "acos": 0,
-    "tacos": 54.4
+    "tacos": 28.9
   },
   "top5": [
     {
-      "vendas": 3,
-      "faturamento": 231,
-      "custo": 107.52,
+      "vendas": 5,
+      "faturamento": 385,
+      "custo": 179.2,
       "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 18.48,
+      "taxa_ml": 30.66,
       "full_unit_price": 77,
-      "lucro": 123.48,
+      "lucro": 205.8,
       "margem_pct": 53.5,
-      "score": 86
+      "score": 90
+    },
+    {
+      "vendas": 2,
+      "faturamento": 154,
+      "custo": 71.68,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 21.42,
+      "full_unit_price": 77,
+      "lucro": 82.32,
+      "margem_pct": 53.5,
+      "score": 84
+    },
+    {
+      "vendas": 2,
+      "faturamento": 154,
+      "custo": 71.68,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 12.32,
+      "full_unit_price": 77,
+      "lucro": 82.32,
+      "margem_pct": 53.5,
+      "score": 84
     },
     {
       "vendas": 1,
@@ -54,39 +76,17 @@
       "lucro": 49.25,
       "margem_pct": 57.9,
       "score": 82
-    },
-    {
-      "vendas": 1,
-      "faturamento": 82.49,
-      "custo": 35.84,
-      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 11.55,
-      "full_unit_price": 82.49,
-      "lucro": 46.65,
-      "margem_pct": 56.6,
-      "score": 82
-    },
-    {
-      "vendas": 1,
-      "faturamento": 77,
-      "custo": 35.84,
-      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 10.78,
-      "full_unit_price": 77,
-      "lucro": 41.16,
-      "margem_pct": 53.5,
-      "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 8,
-      "faturamento": 680.14,
-      "custo": 286.72,
-      "taxa_ml": 71.2,
+      "vendas": 16,
+      "faturamento": 1278.54,
+      "custo": 573.44,
+      "taxa_ml": 129.72,
       "pct": 100.0,
-      "margem_pct": 57.8
+      "margem_pct": 55.1
     }
   ],
   "chart": {
@@ -106,7 +106,7 @@
       58,
       52,
       53,
-      8
+      15
     ],
     "faturamento": [
       5109.47,
@@ -115,26 +115,26 @@
       4604.1,
       3945.75,
       3844.91,
-      680.14
+      1278.54
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 8,
+    "total_orders_fetched": 15,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 400,
-    "faturamento": 30049.83,
-    "taxa_ml": 2817.44,
-    "faturamento_menos_taxa": 27232.39,
-    "ticket_medio": 75.12,
+    "vendas": 407,
+    "faturamento": 30648.23,
+    "taxa_ml": 2869.8,
+    "faturamento_menos_taxa": 27778.43,
+    "ticket_medio": 75.3,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 30049.83,
+    "organic_revenue": 30648.23,
     "acos": 0,
     "tacos": 1.2
   },
