@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-07-31T22:51:46.753069",
+  "updated_at": "2026-07-31T23:54:13.182721",
   "kpis": {
-    "faturamento_hoje": 2818.28,
-    "vendas_hoje": 36,
-    "ticket_medio": 78.29,
-    "cmv_total": 1263.85,
-    "lucro_bruto": 1554.43,
-    "margem_pct_real": 55.2,
+    "faturamento_hoje": 2897.28,
+    "vendas_hoje": 37,
+    "ticket_medio": 78.3,
+    "cmv_total": 1299.69,
+    "lucro_bruto": 1597.59,
+    "margem_pct_real": 55.1,
     "lucro_por_pedido": 43.18,
-    "taxa_ml_total": 251.46,
-    "shipping_total": 437.56,
-    "faturamento_liquido": 2129.26,
+    "taxa_ml_total": 256.02,
+    "shipping_total": 451.71,
+    "faturamento_liquido": 2189.55,
     "margem_liquida_pct": 30.7,
-    "lucro_liquido": 865.41,
-    "vendas_semana": 422,
-    "faturamento_semana": 32089.1,
+    "lucro_liquido": 889.86,
+    "vendas_semana": 423,
+    "faturamento_semana": 32168.1,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 2818.28,
+    "organic_revenue": 2897.28,
     "acos": 0,
-    "tacos": 13.1
+    "tacos": 12.8
   },
   "top5": [
     {
@@ -32,6 +32,17 @@
       "lucro": 246.96,
       "margem_pct": 53.5,
       "score": 92
+    },
+    {
+      "vendas": 4,
+      "faturamento": 316,
+      "custo": 143.36,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 18.24,
+      "full_unit_price": 79,
+      "lucro": 172.64,
+      "margem_pct": 54.6,
+      "score": 88
     },
     {
       "vendas": 3,
@@ -57,17 +68,6 @@
     },
     {
       "vendas": 3,
-      "faturamento": 237,
-      "custo": 107.52,
-      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 13.68,
-      "full_unit_price": 79,
-      "lucro": 129.48,
-      "margem_pct": 54.6,
-      "score": 86
-    },
-    {
-      "vendas": 3,
       "faturamento": 231,
       "custo": 107.52,
       "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
@@ -81,11 +81,11 @@
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 31,
-      "faturamento": 2508.6,
-      "custo": 1111.04,
-      "taxa_ml": 209.59,
-      "pct": 89.0,
+      "vendas": 32,
+      "faturamento": 2587.6,
+      "custo": 1146.88,
+      "taxa_ml": 214.15,
+      "pct": 89.3,
       "margem_pct": 55.7
     },
     {
@@ -94,7 +94,7 @@
       "faturamento": 269.69,
       "custo": 134.55,
       "taxa_ml": 36.27,
-      "pct": 9.6,
+      "pct": 9.3,
       "margem_pct": 50.1
     },
     {
@@ -124,7 +124,7 @@
       52,
       54,
       64,
-      36
+      37
     ],
     "faturamento": [
       6549.45,
@@ -133,40 +133,40 @@
       3945.75,
       3921.91,
       5096.59,
-      2818.28
+      2897.28
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 37,
+    "total_orders_fetched": 38,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 422,
-    "faturamento": 32089.1,
-    "taxa_ml": 2966.09,
-    "faturamento_menos_taxa": 29123.01,
-    "ticket_medio": 76.04,
+    "vendas": 423,
+    "faturamento": 32168.1,
+    "taxa_ml": 2970.65,
+    "faturamento_menos_taxa": 29197.45,
+    "ticket_medio": 76.05,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 32089.1,
+    "organic_revenue": 32168.1,
     "acos": 0,
     "tacos": 1.2
   },
   "mes": {
     "vendas": 1878,
-    "faturamento": 153638.93,
-    "taxa_ml": 16086.63,
-    "faturamento_menos_taxa": 137552.3,
-    "ticket_medio": 81.81,
+    "faturamento": 153478.95,
+    "taxa_ml": 16077.05,
+    "faturamento_menos_taxa": 137401.9,
+    "ticket_medio": 81.72,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 153638.93,
+    "organic_revenue": 153478.95,
     "acos": 0,
     "tacos": 0.2,
     "chart": {
@@ -248,7 +248,7 @@
         10185.84,
         7415.92,
         7539.04,
-        7709.53,
+        7549.55,
         9012.83,
         14573.29,
         11657.37,
