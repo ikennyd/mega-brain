@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-08-01T15:53:03.291408",
+  "updated_at": "2026-08-01T16:49:31.965467",
   "kpis": {
-    "faturamento_hoje": 1421.12,
-    "vendas_hoje": 20,
-    "ticket_medio": 71.06,
-    "cmv_total": 672.43,
-    "lucro_bruto": 748.69,
-    "margem_pct_real": 52.7,
-    "lucro_por_pedido": 37.43,
-    "taxa_ml_total": 102.3,
-    "shipping_total": 198.78,
-    "faturamento_liquido": 1120.04,
-    "margem_liquida_pct": 31.5,
-    "lucro_liquido": 447.61,
-    "vendas_semana": 364,
-    "faturamento_semana": 27628.66,
+    "faturamento_hoje": 1623.0,
+    "vendas_hoje": 23,
+    "ticket_medio": 70.57,
+    "cmv_total": 762.37,
+    "lucro_bruto": 860.63,
+    "margem_pct_real": 53.0,
+    "lucro_por_pedido": 37.42,
+    "taxa_ml_total": 120.54,
+    "shipping_total": 227.23,
+    "faturamento_liquido": 1275.23,
+    "margem_liquida_pct": 31.6,
+    "lucro_liquido": 512.86,
+    "vendas_semana": 367,
+    "faturamento_semana": 27830.54,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 1421.12,
+    "organic_revenue": 1623.0,
     "acos": 0,
-    "tacos": 26.0
+    "tacos": 22.8
   },
   "top5": [
     {
@@ -68,25 +68,25 @@
     },
     {
       "vendas": 1,
-      "faturamento": 78.9,
+      "faturamento": 86.33,
       "custo": 35.84,
       "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 4.54,
-      "full_unit_price": 78.9,
-      "lucro": 43.06,
-      "margem_pct": 54.6,
+      "taxa_ml": 7.83,
+      "full_unit_price": 86.33,
+      "lucro": 50.49,
+      "margem_pct": 58.5,
       "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 16,
-      "faturamento": 1204.64,
-      "custo": 573.44,
-      "taxa_ml": 73.31,
-      "pct": 84.8,
-      "margem_pct": 52.4
+      "vendas": 18,
+      "faturamento": 1366.53,
+      "custo": 645.12,
+      "taxa_ml": 85.95,
+      "pct": 84.2,
+      "margem_pct": 52.8
     },
     {
       "nome": "Vestuário Infantil",
@@ -94,16 +94,16 @@
       "faturamento": 176.49,
       "custo": 80.73,
       "taxa_ml": 23.67,
-      "pct": 12.4,
+      "pct": 10.9,
       "margem_pct": 54.3
     },
     {
       "nome": "Acessórios",
-      "vendas": 1,
-      "faturamento": 39.99,
-      "custo": 18.26,
-      "taxa_ml": 5.32,
-      "pct": 2.8,
+      "vendas": 2,
+      "faturamento": 79.98,
+      "custo": 36.52,
+      "taxa_ml": 10.92,
+      "pct": 4.9,
       "margem_pct": 54.3
     }
   ],
@@ -124,7 +124,7 @@
       54,
       64,
       43,
-      20
+      23
     ],
     "faturamento": [
       5076.02,
@@ -133,51 +133,51 @@
       3921.91,
       5096.59,
       3327.17,
-      1421.12
+      1623.0
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 20,
+    "total_orders_fetched": 23,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 364,
-    "faturamento": 27628.66,
-    "taxa_ml": 2541.23,
-    "faturamento_menos_taxa": 25087.43,
-    "ticket_medio": 75.9,
+    "vendas": 367,
+    "faturamento": 27830.54,
+    "taxa_ml": 2559.47,
+    "faturamento_menos_taxa": 25271.07,
+    "ticket_medio": 75.83,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 27628.66,
+    "organic_revenue": 27830.54,
     "acos": 0,
     "tacos": 1.3
   },
   "mes": {
-    "vendas": 20,
-    "faturamento": 1421.12,
-    "taxa_ml": 102.3,
-    "faturamento_menos_taxa": 1318.82,
-    "ticket_medio": 71.06,
+    "vendas": 23,
+    "faturamento": 1623.0,
+    "taxa_ml": 120.54,
+    "faturamento_menos_taxa": 1502.46,
+    "ticket_medio": 70.57,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 1421.12,
+    "organic_revenue": 1623.0,
     "acos": 0,
-    "tacos": 26.0,
+    "tacos": 22.8,
     "chart": {
       "labels": [
         "Sáb (01)"
       ],
       "vendas": [
-        20
+        23
       ],
       "faturamento": [
-        1421.12
+        1623.0
       ]
     }
   }
