@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-08-05T20:26:17.653664",
+  "updated_at": "2026-08-05T21:42:16.320477",
   "kpis": {
-    "faturamento_hoje": 2819.81,
-    "vendas_hoje": 40,
-    "ticket_medio": 70.5,
-    "cmv_total": 1345.42,
-    "lucro_bruto": 1474.39,
-    "margem_pct_real": 52.3,
-    "lucro_por_pedido": 36.86,
-    "taxa_ml_total": 181.01,
-    "shipping_total": 468.06,
-    "faturamento_liquido": 2170.74,
-    "margem_liquida_pct": 29.3,
-    "lucro_liquido": 825.32,
-    "vendas_semana": 414,
-    "faturamento_semana": 31297.77,
+    "faturamento_hoje": 3127.81,
+    "vendas_hoje": 44,
+    "ticket_medio": 71.09,
+    "cmv_total": 1488.78,
+    "lucro_bruto": 1639.03,
+    "margem_pct_real": 52.4,
+    "lucro_por_pedido": 37.25,
+    "taxa_ml_total": 205.65,
+    "shipping_total": 510.25,
+    "faturamento_liquido": 2411.91,
+    "margem_liquida_pct": 29.5,
+    "lucro_liquido": 923.13,
+    "vendas_semana": 418,
+    "faturamento_semana": 31605.77,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 2819.81,
+    "organic_revenue": 3127.81,
     "acos": 0,
-    "tacos": 13.1
+    "tacos": 11.8
   },
   "top5": [
     {
@@ -32,6 +32,17 @@
       "lucro": 394.92,
       "margem_pct": 47.9,
       "score": 99
+    },
+    {
+      "vendas": 7,
+      "faturamento": 539,
+      "custo": 250.88,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 42.84,
+      "full_unit_price": 77,
+      "lucro": 288.12,
+      "margem_pct": 53.5,
+      "score": 94
     },
     {
       "vendas": 4,
@@ -65,28 +76,17 @@
       "lucro": 126.48,
       "margem_pct": 54.1,
       "score": 86
-    },
-    {
-      "vendas": 3,
-      "faturamento": 231,
-      "custo": 107.52,
-      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 18.2,
-      "full_unit_price": 77,
-      "lucro": 123.48,
-      "margem_pct": 53.5,
-      "score": 86
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 34,
-      "faturamento": 2554.73,
-      "custo": 1218.56,
-      "taxa_ml": 157.77,
-      "pct": 90.6,
-      "margem_pct": 52.3
+      "vendas": 38,
+      "faturamento": 2862.73,
+      "custo": 1361.92,
+      "taxa_ml": 182.41,
+      "pct": 91.5,
+      "margem_pct": 52.4
     },
     {
       "nome": "Acessórios",
@@ -94,7 +94,7 @@
       "faturamento": 162.56,
       "custo": 73.04,
       "taxa_ml": 15.04,
-      "pct": 5.8,
+      "pct": 5.2,
       "margem_pct": 55.1
     },
     {
@@ -103,7 +103,7 @@
       "faturamento": 102.52,
       "custo": 53.82,
       "taxa_ml": 8.2,
-      "pct": 3.6,
+      "pct": 3.3,
       "margem_pct": 47.5
     }
   ],
@@ -124,7 +124,7 @@
       61,
       81,
       78,
-      38
+      42
     ],
     "faturamento": [
       5096.59,
@@ -133,40 +133,40 @@
       4771.1,
       6150.94,
       5781.01,
-      2665.81
+      2973.81
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 40,
+    "total_orders_fetched": 44,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 414,
-    "faturamento": 31297.77,
-    "taxa_ml": 2384.26,
-    "faturamento_menos_taxa": 28913.51,
-    "ticket_medio": 75.6,
+    "vendas": 418,
+    "faturamento": 31605.77,
+    "taxa_ml": 2408.9,
+    "faturamento_menos_taxa": 29196.87,
+    "ticket_medio": 75.61,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 31297.77,
+    "organic_revenue": 31605.77,
     "acos": 0,
     "tacos": 1.2
   },
   "mes": {
-    "vendas": 308,
-    "faturamento": 22911.01,
-    "taxa_ml": 1653.23,
-    "faturamento_menos_taxa": 21257.78,
-    "ticket_medio": 74.39,
+    "vendas": 312,
+    "faturamento": 23219.01,
+    "taxa_ml": 1677.87,
+    "faturamento_menos_taxa": 21541.14,
+    "ticket_medio": 74.42,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 22911.01,
+    "organic_revenue": 23219.01,
     "acos": 0,
     "tacos": 1.6,
     "chart": {
@@ -182,14 +182,14 @@
         61,
         81,
         78,
-        38
+        42
       ],
       "faturamento": [
         3542.15,
         4771.1,
         6150.94,
         5781.01,
-        2665.81
+        2973.81
       ]
     }
   }
