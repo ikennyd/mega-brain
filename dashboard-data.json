@@ -1,28 +1,83 @@
 {
-  "updated_at": "2026-08-06T01:02:05.425597",
+  "updated_at": "2026-08-06T04:28:00.907806",
   "kpis": {
-    "faturamento_hoje": 0,
-    "vendas_hoje": 0,
-    "ticket_medio": 0,
-    "cmv_total": 0,
-    "lucro_bruto": 0,
-    "margem_pct_real": 0,
-    "lucro_por_pedido": 0,
-    "taxa_ml_total": 0,
-    "shipping_total": 0,
-    "faturamento_liquido": 0,
-    "margem_liquida_pct": 0,
-    "lucro_liquido": 0,
-    "vendas_semana": 377,
-    "faturamento_semana": 28189.18,
+    "faturamento_hoje": 286.22,
+    "vendas_hoje": 4,
+    "ticket_medio": 71.56,
+    "cmv_total": 139.01,
+    "lucro_bruto": 147.21,
+    "margem_pct_real": 51.4,
+    "lucro_por_pedido": 36.8,
+    "taxa_ml_total": 22.07,
+    "shipping_total": 48.3,
+    "faturamento_liquido": 215.85,
+    "margem_liquida_pct": 26.8,
+    "lucro_liquido": 76.84,
+    "vendas_semana": 386,
+    "faturamento_semana": 28831.93,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 0.0,
+    "organic_revenue": 286.22,
     "acos": 0,
-    "tacos": 0
+    "tacos": 129.3
   },
-  "top5": [],
-  "categories": [],
+  "top5": [
+    {
+      "vendas": 1,
+      "faturamento": 77,
+      "custo": 35.84,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 6.16,
+      "full_unit_price": 77,
+      "lucro": 41.16,
+      "margem_pct": 53.5,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 75.56,
+      "custo": 35.84,
+      "title": "Casaco Moletom Masculino Hugo Jobs Com Ziper E Cap",
+      "taxa_ml": 4.81,
+      "full_unit_price": 75.56,
+      "lucro": 39.72,
+      "margem_pct": 52.6,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 75.56,
+      "custo": 35.84,
+      "title": "Casaco Moletom Masculino Hugo Jobs Com Ziper E Cap",
+      "taxa_ml": 4.65,
+      "full_unit_price": 75.56,
+      "lucro": 39.72,
+      "margem_pct": 52.6,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 58.1,
+      "custo": 31.49,
+      "title": "Moletom Gola Careca Hugo Jobs Feminino Masculino I",
+      "taxa_ml": 6.45,
+      "full_unit_price": 58.1,
+      "lucro": 26.61,
+      "margem_pct": 45.8,
+      "score": 82
+    }
+  ],
+  "categories": [
+    {
+      "nome": "Vestuário Adult",
+      "vendas": 4,
+      "faturamento": 286.22,
+      "custo": 139.01,
+      "taxa_ml": 22.07,
+      "pct": 100.0,
+      "margem_pct": 51.4
+    }
+  ],
   "chart": {
     "labels": [
       "Sex (31)",
@@ -39,8 +94,8 @@
       61,
       81,
       78,
-      65,
-      0
+      72,
+      2
     ],
     "faturamento": [
       3290.17,
@@ -48,43 +103,43 @@
       4771.1,
       6150.94,
       5781.01,
-      4653.81,
-      0
+      5162.9,
+      133.66
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 0,
+    "total_orders_fetched": 4,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 377,
-    "faturamento": 28189.18,
-    "taxa_ml": 2065.01,
-    "faturamento_menos_taxa": 26124.17,
-    "ticket_medio": 74.77,
+    "vendas": 386,
+    "faturamento": 28831.93,
+    "taxa_ml": 2115.52,
+    "faturamento_menos_taxa": 26716.41,
+    "ticket_medio": 74.69,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 28189.18,
+    "organic_revenue": 28831.93,
     "acos": 0,
     "tacos": 1.3
   },
   "mes": {
-    "vendas": 335,
-    "faturamento": 24899.01,
-    "taxa_ml": 1798.55,
-    "faturamento_menos_taxa": 23100.46,
-    "ticket_medio": 74.33,
+    "vendas": 344,
+    "faturamento": 25541.76,
+    "taxa_ml": 1849.06,
+    "faturamento_menos_taxa": 23692.7,
+    "ticket_medio": 74.25,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 24899.01,
+    "organic_revenue": 25541.76,
     "acos": 0,
-    "tacos": 1.5,
+    "tacos": 1.4,
     "chart": {
       "labels": [
         "Sáb (01)",
@@ -99,16 +154,16 @@
         61,
         81,
         78,
-        65,
-        0
+        72,
+        2
       ],
       "faturamento": [
         3542.15,
         4771.1,
         6150.94,
         5781.01,
-        4653.81,
-        0
+        5162.9,
+        133.66
       ]
     }
   }
