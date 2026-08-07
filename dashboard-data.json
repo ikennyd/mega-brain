@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-08-07T16:31:41.692036",
+  "updated_at": "2026-08-07T17:31:19.676049",
   "kpis": {
-    "faturamento_hoje": 2292.99,
-    "vendas_hoje": 33,
-    "ticket_medio": 69.48,
-    "cmv_total": 1210.03,
-    "lucro_bruto": 1082.96,
-    "margem_pct_real": 47.2,
-    "lucro_por_pedido": 32.82,
-    "taxa_ml_total": 248.96,
-    "shipping_total": 407.58,
-    "faturamento_liquido": 1636.45,
-    "margem_liquida_pct": 18.6,
-    "lucro_liquido": 426.42,
-    "vendas_semana": 462,
-    "faturamento_semana": 33684.85,
+    "faturamento_hoje": 2425.89,
+    "vendas_hoje": 35,
+    "ticket_medio": 69.31,
+    "cmv_total": 1248.55,
+    "lucro_bruto": 1177.34,
+    "margem_pct_real": 48.5,
+    "lucro_por_pedido": 33.64,
+    "taxa_ml_total": 268.19,
+    "shipping_total": 437.47,
+    "faturamento_liquido": 1720.23,
+    "margem_liquida_pct": 19.4,
+    "lucro_liquido": 471.68,
+    "vendas_semana": 464,
+    "faturamento_semana": 33817.75,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 2292.99,
+    "organic_revenue": 2425.89,
     "acos": 0,
-    "tacos": 16.1
+    "tacos": 15.3
   },
   "top5": [
     {
@@ -85,26 +85,26 @@
       "faturamento": 2137.83,
       "custo": 1111.04,
       "taxa_ml": 236.04,
-      "pct": 93.2,
+      "pct": 88.1,
       "margem_pct": 48.0
     },
     {
       "nome": "Vestuário Infantil",
-      "vendas": 3,
-      "faturamento": 114.52,
-      "custo": 80.73,
-      "taxa_ml": 9.16,
-      "pct": 5.0,
-      "margem_pct": 29.5
+      "vendas": 4,
+      "faturamento": 181.52,
+      "custo": 107.64,
+      "taxa_ml": 16.25,
+      "pct": 7.5,
+      "margem_pct": 40.7
     },
     {
       "nome": "Acessórios",
-      "vendas": 1,
-      "faturamento": 40.64,
-      "custo": 18.26,
-      "taxa_ml": 3.76,
-      "pct": 1.8,
-      "margem_pct": 55.1
+      "vendas": 2,
+      "faturamento": 106.54,
+      "custo": 29.87,
+      "taxa_ml": 15.9,
+      "pct": 4.4,
+      "margem_pct": 72.0
     }
   ],
   "chart": {
@@ -124,7 +124,7 @@
       78,
       72,
       89,
-      32
+      34
     ],
     "faturamento": [
       3542.15,
@@ -133,40 +133,40 @@
       5781.01,
       5162.9,
       6131.66,
-      2223.99
+      2356.89
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 34,
+    "total_orders_fetched": 36,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 462,
-    "faturamento": 33684.85,
-    "taxa_ml": 2776.58,
-    "faturamento_menos_taxa": 30908.27,
-    "ticket_medio": 72.91,
+    "vendas": 464,
+    "faturamento": 33817.75,
+    "taxa_ml": 2795.81,
+    "faturamento_menos_taxa": 31021.94,
+    "ticket_medio": 72.88,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 33684.85,
+    "organic_revenue": 33817.75,
     "acos": 0,
     "tacos": 1.1
   },
   "mes": {
-    "vendas": 462,
-    "faturamento": 33684.85,
-    "taxa_ml": 2776.58,
-    "faturamento_menos_taxa": 30908.27,
-    "ticket_medio": 72.91,
+    "vendas": 464,
+    "faturamento": 33817.75,
+    "taxa_ml": 2795.81,
+    "faturamento_menos_taxa": 31021.94,
+    "ticket_medio": 72.88,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 33684.85,
+    "organic_revenue": 33817.75,
     "acos": 0,
     "tacos": 1.1,
     "chart": {
@@ -186,7 +186,7 @@
         78,
         72,
         89,
-        32
+        34
       ],
       "faturamento": [
         3542.15,
@@ -195,7 +195,7 @@
         5781.01,
         5162.9,
         6131.66,
-        2223.99
+        2356.89
       ]
     }
   }
