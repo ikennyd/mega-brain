@@ -1,37 +1,48 @@
 {
-  "updated_at": "2026-08-09T13:31:17.777856",
+  "updated_at": "2026-08-09T14:18:26.902551",
   "kpis": {
-    "faturamento_hoje": 393.13,
-    "vendas_hoje": 5,
-    "ticket_medio": 78.63,
-    "cmv_total": 215.04,
-    "lucro_bruto": 178.09,
-    "margem_pct_real": 45.3,
-    "lucro_por_pedido": 35.62,
-    "taxa_ml_total": 40.97,
-    "shipping_total": 54.89,
-    "faturamento_liquido": 297.27,
-    "margem_liquida_pct": 20.9,
-    "lucro_liquido": 82.23,
-    "vendas_semana": 513,
-    "faturamento_semana": 36197.26,
+    "faturamento_hoje": 544.25,
+    "vendas_hoje": 7,
+    "ticket_medio": 77.75,
+    "cmv_total": 286.72,
+    "lucro_bruto": 257.53,
+    "margem_pct_real": 47.3,
+    "lucro_por_pedido": 36.79,
+    "taxa_ml_total": 50.59,
+    "shipping_total": 70.99,
+    "faturamento_liquido": 422.67,
+    "margem_liquida_pct": 25.0,
+    "lucro_liquido": 135.95,
+    "vendas_semana": 515,
+    "faturamento_semana": 36348.38,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 393.13,
+    "organic_revenue": 544.25,
     "acos": 0,
-    "tacos": 94.1
+    "tacos": 68.0
   },
   "top5": [
     {
-      "vendas": 2,
-      "faturamento": 151.12,
-      "custo": 71.68,
+      "vendas": 3,
+      "faturamento": 226.68,
+      "custo": 107.52,
       "title": "Casaco Moletom Masculino Hugo Jobs Com Ziper E Cap",
-      "taxa_ml": 9.62,
+      "taxa_ml": 14.43,
       "full_unit_price": 75.56,
-      "lucro": 79.44,
+      "lucro": 119.16,
       "margem_pct": 52.6,
-      "score": 84
+      "score": 86
+    },
+    {
+      "vendas": 1,
+      "faturamento": 75.56,
+      "custo": 35.84,
+      "title": "Casaco Moletom Masculino Hugo Jobs Com Ziper E Cap",
+      "taxa_ml": 4.81,
+      "full_unit_price": 75.56,
+      "lucro": 39.72,
+      "margem_pct": 52.6,
+      "score": 82
     },
     {
       "vendas": 1,
@@ -65,28 +76,17 @@
       "lucro": 33.16,
       "margem_pct": 48.1,
       "score": 82
-    },
-    {
-      "vendas": 1,
-      "faturamento": 35.01,
-      "custo": 35.84,
-      "title": "Camiseta Igreen Básica 100% Algodão",
-      "taxa_ml": 2.65,
-      "full_unit_price": 35.01,
-      "lucro": -0.83,
-      "margem_pct": -2.4,
-      "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 6,
-      "faturamento": 393.13,
-      "custo": 215.04,
-      "taxa_ml": 40.97,
+      "vendas": 8,
+      "faturamento": 544.25,
+      "custo": 286.72,
+      "taxa_ml": 50.59,
       "pct": 100.0,
-      "margem_pct": 45.3
+      "margem_pct": 47.3
     }
   ],
   "chart": {
@@ -106,7 +106,7 @@
       89,
       74,
       114,
-      4
+      6
     ],
     "faturamento": [
       6150.04,
@@ -115,40 +115,40 @@
       6131.66,
       4964.24,
       7615.28,
-      324.13
+      475.25
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 5,
+    "total_orders_fetched": 7,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 513,
-    "faturamento": 36197.26,
-    "taxa_ml": 3322.2,
-    "faturamento_menos_taxa": 32875.06,
-    "ticket_medio": 70.56,
+    "vendas": 515,
+    "faturamento": 36348.38,
+    "taxa_ml": 3331.82,
+    "faturamento_menos_taxa": 33016.56,
+    "ticket_medio": 70.58,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 36197.26,
+    "organic_revenue": 36348.38,
     "acos": 0,
     "tacos": 1.0
   },
   "mes": {
-    "vendas": 624,
-    "faturamento": 44518.07,
-    "taxa_ml": 3943.35,
-    "faturamento_menos_taxa": 40574.72,
-    "ticket_medio": 71.34,
+    "vendas": 625,
+    "faturamento": 44593.63,
+    "taxa_ml": 3952.97,
+    "faturamento_menos_taxa": 40640.66,
+    "ticket_medio": 71.35,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 44518.07,
+    "organic_revenue": 44593.63,
     "acos": 0,
     "tacos": 0.8,
     "chart": {
@@ -172,7 +172,7 @@
         89,
         74,
         114,
-        5
+        6
       ],
       "faturamento": [
         3542.15,
@@ -183,7 +183,7 @@
         6131.66,
         4964.24,
         7615.28,
-        399.69
+        475.25
       ]
     }
   }
