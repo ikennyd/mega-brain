@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-08-09T14:59:05.007784",
+  "updated_at": "2026-08-09T15:32:23.422070",
   "kpis": {
-    "faturamento_hoje": 841.14,
-    "vendas_hoje": 12,
-    "ticket_medio": 70.09,
-    "cmv_total": 448.34,
-    "lucro_bruto": 392.8,
-    "margem_pct_real": 46.7,
-    "lucro_por_pedido": 32.73,
-    "taxa_ml_total": 84.23,
-    "shipping_total": 119.53,
-    "faturamento_liquido": 637.38,
-    "margem_liquida_pct": 22.5,
-    "lucro_liquido": 189.04,
-    "vendas_semana": 520,
-    "faturamento_semana": 36645.27,
+    "faturamento_hoje": 1017.93,
+    "vendas_hoje": 15,
+    "ticket_medio": 67.86,
+    "cmv_total": 538.28,
+    "lucro_bruto": 479.65,
+    "margem_pct_real": 47.1,
+    "lucro_por_pedido": 31.98,
+    "taxa_ml_total": 106.86,
+    "shipping_total": 146.07,
+    "faturamento_liquido": 765.0,
+    "margem_liquida_pct": 22.3,
+    "lucro_liquido": 226.72,
+    "vendas_semana": 523,
+    "faturamento_semana": 36822.06,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 841.14,
+    "organic_revenue": 1017.93,
     "acos": 0,
-    "tacos": 44.0
+    "tacos": 36.3
   },
   "top5": [
     {
@@ -45,6 +45,17 @@
       "score": 84
     },
     {
+      "vendas": 2,
+      "faturamento": 77.58,
+      "custo": 36.52,
+      "title": "Carteira Couro Legítimo Slim 8 Porta Cartões E Cnh",
+      "taxa_ml": 6.62,
+      "full_unit_price": 38.79,
+      "lucro": 41.06,
+      "margem_pct": 52.9,
+      "score": 84
+    },
+    {
       "vendas": 1,
       "faturamento": 75.56,
       "custo": 35.84,
@@ -65,36 +76,25 @@
       "lucro": 33.16,
       "margem_pct": 48.1,
       "score": 82
-    },
-    {
-      "vendas": 1,
-      "faturamento": 69,
-      "custo": 35.84,
-      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 9.66,
-      "full_unit_price": 69,
-      "lucro": 33.16,
-      "margem_pct": 48.1,
-      "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 12,
-      "faturamento": 802.35,
-      "custo": 430.08,
-      "taxa_ml": 80.92,
-      "pct": 95.4,
-      "margem_pct": 46.4
+      "vendas": 14,
+      "faturamento": 940.35,
+      "custo": 501.76,
+      "taxa_ml": 100.24,
+      "pct": 92.4,
+      "margem_pct": 46.6
     },
     {
       "nome": "Acessórios",
-      "vendas": 1,
-      "faturamento": 38.79,
-      "custo": 18.26,
-      "taxa_ml": 3.31,
-      "pct": 4.6,
+      "vendas": 2,
+      "faturamento": 77.58,
+      "custo": 36.52,
+      "taxa_ml": 6.62,
+      "pct": 7.6,
       "margem_pct": 52.9
     }
   ],
@@ -115,7 +115,7 @@
       89,
       74,
       114,
-      11
+      14
     ],
     "faturamento": [
       6150.04,
@@ -124,40 +124,40 @@
       6131.66,
       4964.24,
       7615.28,
-      772.14
+      948.93
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 12,
+    "total_orders_fetched": 15,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 520,
-    "faturamento": 36645.27,
-    "taxa_ml": 3365.46,
-    "faturamento_menos_taxa": 33279.81,
-    "ticket_medio": 70.47,
+    "vendas": 523,
+    "faturamento": 36822.06,
+    "taxa_ml": 3388.09,
+    "faturamento_menos_taxa": 33433.97,
+    "ticket_medio": 70.41,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 36645.27,
+    "organic_revenue": 36822.06,
     "acos": 0,
     "tacos": 1.0
   },
   "mes": {
-    "vendas": 630,
-    "faturamento": 44890.52,
-    "taxa_ml": 3986.61,
-    "faturamento_menos_taxa": 40903.91,
-    "ticket_medio": 71.25,
+    "vendas": 633,
+    "faturamento": 45067.31,
+    "taxa_ml": 4009.24,
+    "faturamento_menos_taxa": 41058.07,
+    "ticket_medio": 71.2,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 44890.52,
+    "organic_revenue": 45067.31,
     "acos": 0,
     "tacos": 0.8,
     "chart": {
@@ -181,7 +181,7 @@
         89,
         74,
         114,
-        11
+        14
       ],
       "faturamento": [
         3542.15,
@@ -192,7 +192,7 @@
         6131.66,
         4964.24,
         7615.28,
-        772.14
+        948.93
       ]
     }
   }
