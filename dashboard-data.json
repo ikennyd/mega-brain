@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-08-09T12:30:01.413945",
+  "updated_at": "2026-08-09T13:31:17.777856",
   "kpis": {
-    "faturamento_hoje": 220.12,
-    "vendas_hoje": 2,
-    "ticket_medio": 110.06,
-    "cmv_total": 107.52,
-    "lucro_bruto": 112.6,
-    "margem_pct_real": 51.2,
-    "lucro_por_pedido": 56.3,
-    "taxa_ml_total": 19.0,
-    "shipping_total": 24.15,
-    "faturamento_liquido": 176.97,
-    "margem_liquida_pct": 31.6,
-    "lucro_liquido": 69.45,
-    "vendas_semana": 510,
-    "faturamento_semana": 36024.25,
+    "faturamento_hoje": 393.13,
+    "vendas_hoje": 5,
+    "ticket_medio": 78.63,
+    "cmv_total": 215.04,
+    "lucro_bruto": 178.09,
+    "margem_pct_real": 45.3,
+    "lucro_por_pedido": 35.62,
+    "taxa_ml_total": 40.97,
+    "shipping_total": 54.89,
+    "faturamento_liquido": 297.27,
+    "margem_liquida_pct": 20.9,
+    "lucro_liquido": 82.23,
+    "vendas_semana": 513,
+    "faturamento_semana": 36197.26,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 220.12,
+    "organic_revenue": 393.13,
     "acos": 0,
-    "tacos": 168.1
+    "tacos": 94.1
   },
   "top5": [
     {
@@ -43,17 +43,50 @@
       "lucro": 33.16,
       "margem_pct": 48.1,
       "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 69,
+      "custo": 35.84,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 9.66,
+      "full_unit_price": 69,
+      "lucro": 33.16,
+      "margem_pct": 48.1,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 69,
+      "custo": 35.84,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 9.66,
+      "full_unit_price": 69,
+      "lucro": 33.16,
+      "margem_pct": 48.1,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 35.01,
+      "custo": 35.84,
+      "title": "Camiseta Igreen Básica 100% Algodão",
+      "taxa_ml": 2.65,
+      "full_unit_price": 35.01,
+      "lucro": -0.83,
+      "margem_pct": -2.4,
+      "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 3,
-      "faturamento": 220.12,
-      "custo": 107.52,
-      "taxa_ml": 19.0,
+      "vendas": 6,
+      "faturamento": 393.13,
+      "custo": 215.04,
+      "taxa_ml": 40.97,
       "pct": 100.0,
-      "margem_pct": 51.2
+      "margem_pct": 45.3
     }
   ],
   "chart": {
@@ -73,7 +106,7 @@
       89,
       74,
       114,
-      1
+      4
     ],
     "faturamento": [
       6150.04,
@@ -82,40 +115,40 @@
       6131.66,
       4964.24,
       7615.28,
-      151.12
+      324.13
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 2,
+    "total_orders_fetched": 5,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 510,
-    "faturamento": 36024.25,
-    "taxa_ml": 3300.23,
-    "faturamento_menos_taxa": 32724.02,
-    "ticket_medio": 70.64,
+    "vendas": 513,
+    "faturamento": 36197.26,
+    "taxa_ml": 3322.2,
+    "faturamento_menos_taxa": 32875.06,
+    "ticket_medio": 70.56,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 36024.25,
+    "organic_revenue": 36197.26,
     "acos": 0,
     "tacos": 1.0
   },
   "mes": {
-    "vendas": 620,
-    "faturamento": 44269.5,
-    "taxa_ml": 3921.38,
-    "faturamento_menos_taxa": 40348.12,
-    "ticket_medio": 71.4,
+    "vendas": 624,
+    "faturamento": 44518.07,
+    "taxa_ml": 3943.35,
+    "faturamento_menos_taxa": 40574.72,
+    "ticket_medio": 71.34,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 44269.5,
+    "organic_revenue": 44518.07,
     "acos": 0,
     "tacos": 0.8,
     "chart": {
@@ -139,7 +172,7 @@
         89,
         74,
         114,
-        1
+        5
       ],
       "faturamento": [
         3542.15,
@@ -150,7 +183,7 @@
         6131.66,
         4964.24,
         7615.28,
-        151.12
+        399.69
       ]
     }
   }
