@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-08-10T19:13:14.705511",
+  "updated_at": "2026-08-10T20:01:34.028843",
   "kpis": {
-    "faturamento_hoje": 2909.3,
-    "vendas_hoje": 39,
-    "ticket_medio": 74.6,
-    "cmv_total": 1488.5,
-    "lucro_bruto": 1420.8,
-    "margem_pct_real": 48.8,
-    "lucro_por_pedido": 36.43,
-    "taxa_ml_total": 341.67,
-    "shipping_total": 464.02,
-    "faturamento_liquido": 2103.61,
-    "margem_liquida_pct": 21.1,
-    "lucro_liquido": 615.11,
-    "vendas_semana": 521,
-    "faturamento_semana": 36102.03,
+    "faturamento_hoje": 3017.09,
+    "vendas_hoje": 41,
+    "ticket_medio": 73.59,
+    "cmv_total": 1542.6,
+    "lucro_bruto": 1474.49,
+    "margem_pct_real": 48.9,
+    "lucro_por_pedido": 35.96,
+    "taxa_ml_total": 354.64,
+    "shipping_total": 478.62,
+    "faturamento_liquido": 2183.83,
+    "margem_liquida_pct": 21.3,
+    "lucro_liquido": 641.23,
+    "vendas_semana": 523,
+    "faturamento_semana": 36209.82,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 2909.3,
+    "organic_revenue": 3017.09,
     "acos": 0,
-    "tacos": 12.7
+    "tacos": 12.3
   },
   "top5": [
     {
@@ -34,15 +34,15 @@
       "score": 96
     },
     {
-      "vendas": 5,
-      "faturamento": 345,
-      "custo": 179.2,
+      "vendas": 6,
+      "faturamento": 414,
+      "custo": 215.04,
       "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 48.3,
+      "taxa_ml": 57.96,
       "full_unit_price": 69,
-      "lucro": 165.8,
+      "lucro": 198.96,
       "margem_pct": 48.1,
-      "score": 90
+      "score": 92
     },
     {
       "vendas": 5,
@@ -81,11 +81,11 @@
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 37,
-      "faturamento": 2520.94,
-      "custo": 1326.08,
-      "taxa_ml": 309.97,
-      "pct": 86.7,
+      "vendas": 38,
+      "faturamento": 2589.94,
+      "custo": 1361.92,
+      "taxa_ml": 319.63,
+      "pct": 85.8,
       "margem_pct": 47.4
     },
     {
@@ -94,16 +94,16 @@
       "faturamento": 271.99,
       "custo": 107.64,
       "taxa_ml": 21.77,
-      "pct": 9.3,
+      "pct": 9.0,
       "margem_pct": 60.4
     },
     {
       "nome": "Acessórios",
-      "vendas": 3,
-      "faturamento": 116.37,
-      "custo": 54.78,
-      "taxa_ml": 9.93,
-      "pct": 4.0,
+      "vendas": 4,
+      "faturamento": 155.16,
+      "custo": 73.04,
+      "taxa_ml": 13.24,
+      "pct": 5.1,
       "margem_pct": 52.9
     }
   ],
@@ -124,7 +124,7 @@
       74,
       113,
       56,
-      38
+      40
     ],
     "faturamento": [
       5781.01,
@@ -133,40 +133,40 @@
       4964.24,
       7583.38,
       3597.9,
-      2840.3
+      2948.09
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 42,
+    "total_orders_fetched": 44,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 521,
-    "faturamento": 36102.03,
-    "taxa_ml": 3511.76,
-    "faturamento_menos_taxa": 32590.27,
-    "ticket_medio": 69.29,
+    "vendas": 523,
+    "faturamento": 36209.82,
+    "taxa_ml": 3524.73,
+    "faturamento_menos_taxa": 32685.09,
+    "ticket_medio": 69.23,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 36102.03,
+    "organic_revenue": 36209.82,
     "acos": 0,
     "tacos": 1.0
   },
   "mes": {
-    "vendas": 710,
-    "faturamento": 50302.8,
-    "taxa_ml": 4553.37,
-    "faturamento_menos_taxa": 45749.43,
-    "ticket_medio": 70.85,
+    "vendas": 712,
+    "faturamento": 50410.59,
+    "taxa_ml": 4566.34,
+    "faturamento_menos_taxa": 45844.25,
+    "ticket_medio": 70.8,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 50302.8,
+    "organic_revenue": 50410.59,
     "acos": 0,
     "tacos": 0.7,
     "chart": {
@@ -192,7 +192,7 @@
         74,
         113,
         56,
-        38
+        40
       ],
       "faturamento": [
         3542.15,
@@ -204,7 +204,7 @@
         4964.24,
         7583.38,
         3597.9,
-        2840.3
+        2948.09
       ]
     }
   }
