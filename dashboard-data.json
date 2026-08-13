@@ -1,37 +1,37 @@
 {
-  "updated_at": "2026-08-13T08:04:03.401085",
+  "updated_at": "2026-08-13T09:30:55.580672",
   "kpis": {
-    "faturamento_hoje": 236.45,
-    "vendas_hoje": 5,
-    "ticket_medio": 47.29,
-    "cmv_total": 161.62,
-    "lucro_bruto": 74.83,
-    "margem_pct_real": 31.6,
-    "lucro_por_pedido": 14.97,
-    "taxa_ml_total": 20.29,
-    "shipping_total": 49.55,
-    "faturamento_liquido": 166.61,
-    "margem_liquida_pct": 2.1,
-    "lucro_liquido": 4.99,
+    "faturamento_hoje": 423.38,
+    "vendas_hoje": 8,
+    "ticket_medio": 52.92,
+    "cmv_total": 260.21,
+    "lucro_bruto": 163.17,
+    "margem_pct_real": 38.5,
+    "lucro_por_pedido": 20.4,
+    "taxa_ml_total": 34.2,
+    "shipping_total": 73.6,
+    "faturamento_liquido": 315.58,
+    "margem_liquida_pct": 13.1,
+    "lucro_liquido": 55.37,
     "vendas_semana": 524,
     "faturamento_semana": 38087.72,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 236.45,
+    "organic_revenue": 423.38,
     "acos": 0,
-    "tacos": 156.5
+    "tacos": 87.4
   },
   "top5": [
     {
-      "vendas": 1,
-      "faturamento": 66.93,
-      "custo": 35.84,
+      "vendas": 2,
+      "faturamento": 133.86,
+      "custo": 71.68,
       "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 4.02,
+      "taxa_ml": 8.04,
       "full_unit_price": 66.93,
-      "lucro": 31.09,
+      "lucro": 62.18,
       "margem_pct": 46.5,
-      "score": 82
+      "score": 84
     },
     {
       "vendas": 1,
@@ -57,25 +57,45 @@
     },
     {
       "vendas": 1,
-      "faturamento": 38.79,
-      "custo": 18.26,
-      "title": "Carteira Couro Legítimo Slim 8 Porta Cartões E Cnh",
-      "taxa_ml": 3.31,
-      "full_unit_price": 38.79,
-      "lucro": 20.53,
-      "margem_pct": 52.9,
+      "faturamento": 62,
+      "custo": 35.84,
+      "title": "Kit 3 Camisetas 100% Algodão Estilosa Hugo Jobs Mi",
+      "taxa_ml": 4.96,
+      "full_unit_price": 62,
+      "lucro": 26.16,
+      "margem_pct": 42.2,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 58,
+      "custo": 26.91,
+      "title": "Conjunto Moletom Infantil Hugo Jobs Calca Jogger F",
+      "taxa_ml": 4.93,
+      "full_unit_price": 58,
+      "lucro": 31.09,
+      "margem_pct": 53.6,
       "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 4,
-      "faturamento": 197.66,
-      "custo": 143.36,
-      "taxa_ml": 16.98,
-      "pct": 83.6,
-      "margem_pct": 27.5
+      "vendas": 6,
+      "faturamento": 326.59,
+      "custo": 215.04,
+      "taxa_ml": 25.96,
+      "pct": 77.1,
+      "margem_pct": 34.2
+    },
+    {
+      "nome": "Vestuário Infantil",
+      "vendas": 1,
+      "faturamento": 58,
+      "custo": 26.91,
+      "taxa_ml": 4.93,
+      "pct": 13.7,
+      "margem_pct": 53.6
     },
     {
       "nome": "Acessórios",
@@ -83,7 +103,7 @@
       "faturamento": 38.79,
       "custo": 18.26,
       "taxa_ml": 3.31,
-      "pct": 16.4,
+      "pct": 9.2,
       "margem_pct": 52.9
     }
   ],
@@ -119,7 +139,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 5,
+    "total_orders_fetched": 8,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -137,16 +157,16 @@
     "tacos": 1.0
   },
   "mes": {
-    "vendas": 972,
-    "faturamento": 70383.45,
-    "taxa_ml": 6026.75,
-    "faturamento_menos_taxa": 64356.7,
-    "ticket_medio": 72.41,
+    "vendas": 975,
+    "faturamento": 70570.38,
+    "taxa_ml": 6040.66,
+    "faturamento_menos_taxa": 64529.72,
+    "ticket_medio": 72.38,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 70383.45,
+    "organic_revenue": 70570.38,
     "acos": 0,
     "tacos": 0.5,
     "chart": {
@@ -178,7 +198,7 @@
         97,
         112,
         96,
-        2
+        5
       ],
       "faturamento": [
         3474.15,
@@ -193,7 +213,7 @@
         6771.98,
         7488.93,
         9077.54,
-        133.86
+        320.79
       ]
     }
   }
