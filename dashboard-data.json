@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-08-14T17:08:25.071105",
+  "updated_at": "2026-08-14T18:04:10.198606",
   "kpis": {
-    "faturamento_hoje": 2897.36,
-    "vendas_hoje": 45,
-    "ticket_medio": 64.39,
-    "cmv_total": 1508.0,
-    "lucro_bruto": 1389.36,
-    "margem_pct_real": 48.0,
-    "lucro_por_pedido": 30.87,
-    "taxa_ml_total": 217.71,
-    "shipping_total": 507.38,
-    "faturamento_liquido": 2172.27,
-    "margem_liquida_pct": 22.9,
-    "lucro_liquido": 664.27,
+    "faturamento_hoje": 3067.11,
+    "vendas_hoje": 48,
+    "ticket_medio": 63.9,
+    "cmv_total": 1597.94,
+    "lucro_bruto": 1469.17,
+    "margem_pct_real": 47.9,
+    "lucro_por_pedido": 30.61,
+    "taxa_ml_total": 230.77,
+    "shipping_total": 529.93,
+    "faturamento_liquido": 2306.41,
+    "margem_liquida_pct": 23.1,
+    "lucro_liquido": 708.47,
     "vendas_semana": 526,
     "faturamento_semana": 37864.37,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 2897.36,
+    "organic_revenue": 3067.11,
     "acos": 0,
-    "tacos": 12.8
+    "tacos": 12.1
   },
   "top5": [
     {
@@ -34,15 +34,26 @@
       "score": 90
     },
     {
-      "vendas": 7,
-      "faturamento": 271.53,
-      "custo": 127.82,
+      "vendas": 8,
+      "faturamento": 307.42,
+      "custo": 146.08,
       "title": "Carteira Couro Legítimo Slim 8 Porta Cartões E Cnh",
-      "taxa_ml": 23.17,
-      "full_unit_price": 38.79,
-      "lucro": 143.71,
-      "margem_pct": 52.9,
-      "score": 94
+      "taxa_ml": 28.19,
+      "full_unit_price": 35.89,
+      "lucro": 161.34,
+      "margem_pct": 52.5,
+      "score": 96
+    },
+    {
+      "vendas": 4,
+      "faturamento": 267.72,
+      "custo": 143.36,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 16.08,
+      "full_unit_price": 66.93,
+      "lucro": 124.36,
+      "margem_pct": 46.5,
+      "score": 88
     },
     {
       "vendas": 3,
@@ -65,37 +76,26 @@
       "lucro": 93.27,
       "margem_pct": 46.5,
       "score": 86
-    },
-    {
-      "vendas": 3,
-      "faturamento": 200.79,
-      "custo": 107.52,
-      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 12.06,
-      "full_unit_price": 66.93,
-      "lucro": 93.27,
-      "margem_pct": 46.5,
-      "score": 86
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 38,
-      "faturamento": 2600.71,
-      "custo": 1361.92,
-      "taxa_ml": 192.94,
-      "pct": 89.8,
+      "vendas": 40,
+      "faturamento": 2734.57,
+      "custo": 1433.6,
+      "taxa_ml": 200.98,
+      "pct": 89.2,
       "margem_pct": 47.6
     },
     {
       "nome": "Acessórios",
-      "vendas": 8,
-      "faturamento": 296.65,
-      "custo": 146.08,
-      "taxa_ml": 24.77,
-      "pct": 10.2,
-      "margem_pct": 50.8
+      "vendas": 9,
+      "faturamento": 332.54,
+      "custo": 164.34,
+      "taxa_ml": 29.79,
+      "pct": 10.8,
+      "margem_pct": 50.6
     }
   ],
   "chart": {
@@ -130,7 +130,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 46,
+    "total_orders_fetched": 49,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -148,16 +148,16 @@
     "tacos": 1.0
   },
   "mes": {
-    "vendas": 1114,
-    "faturamento": 79271.42,
-    "taxa_ml": 6924.56,
-    "faturamento_menos_taxa": 72346.86,
-    "ticket_medio": 71.16,
+    "vendas": 1117,
+    "faturamento": 79441.17,
+    "taxa_ml": 6937.62,
+    "faturamento_menos_taxa": 72503.55,
+    "ticket_medio": 71.12,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 79271.42,
+    "organic_revenue": 79441.17,
     "acos": 0,
     "tacos": 0.5,
     "chart": {
@@ -191,7 +191,7 @@
         112,
         96,
         105,
-        43
+        46
       ],
       "faturamento": [
         3474.15,
@@ -207,7 +207,7 @@
         7488.93,
         9077.54,
         6500.93,
-        2775.9
+        2945.65
       ]
     }
   }
