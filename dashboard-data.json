@@ -1,27 +1,38 @@
 {
-  "updated_at": "2026-08-14T14:01:31.890482",
+  "updated_at": "2026-08-14T15:05:01.776725",
   "kpis": {
-    "faturamento_hoje": 1785.49,
-    "vendas_hoje": 28,
-    "ticket_medio": 63.77,
-    "cmv_total": 933.88,
-    "lucro_bruto": 851.61,
-    "margem_pct_real": 47.7,
-    "lucro_por_pedido": 30.41,
-    "taxa_ml_total": 131.17,
-    "shipping_total": 333.89,
-    "faturamento_liquido": 1320.43,
-    "margem_liquida_pct": 21.6,
-    "lucro_liquido": 386.55,
+    "faturamento_hoje": 2022.94,
+    "vendas_hoje": 33,
+    "ticket_medio": 61.3,
+    "cmv_total": 1077.92,
+    "lucro_bruto": 945.02,
+    "margem_pct_real": 46.7,
+    "lucro_por_pedido": 28.64,
+    "taxa_ml_total": 149.21,
+    "shipping_total": 369.64,
+    "faturamento_liquido": 1504.09,
+    "margem_liquida_pct": 21.1,
+    "lucro_liquido": 426.17,
     "vendas_semana": 526,
     "faturamento_semana": 37864.37,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 1785.49,
+    "organic_revenue": 2022.94,
     "acos": 0,
-    "tacos": 20.7
+    "tacos": 18.3
   },
   "top5": [
+    {
+      "vendas": 7,
+      "faturamento": 271.53,
+      "custo": 127.82,
+      "title": "Carteira Couro Legítimo Slim 8 Porta Cartões E Cnh",
+      "taxa_ml": 23.17,
+      "full_unit_price": 38.79,
+      "lucro": 143.71,
+      "margem_pct": 52.9,
+      "score": 94
+    },
     {
       "vendas": 3,
       "faturamento": 236.67,
@@ -56,17 +67,6 @@
       "score": 86
     },
     {
-      "vendas": 5,
-      "faturamento": 193.95,
-      "custo": 91.3,
-      "title": "Carteira Couro Legítimo Slim 8 Porta Cartões E Cnh",
-      "taxa_ml": 16.55,
-      "full_unit_price": 38.79,
-      "lucro": 102.65,
-      "margem_pct": 52.9,
-      "score": 90
-    },
-    {
       "vendas": 3,
       "faturamento": 163.59,
       "custo": 107.52,
@@ -81,21 +81,21 @@
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 23,
-      "faturamento": 1566.42,
-      "custo": 824.32,
-      "taxa_ml": 113.02,
-      "pct": 87.7,
-      "margem_pct": 47.4
+      "vendas": 26,
+      "faturamento": 1726.29,
+      "custo": 931.84,
+      "taxa_ml": 124.44,
+      "pct": 85.3,
+      "margem_pct": 46.0
     },
     {
       "nome": "Acessórios",
-      "vendas": 6,
-      "faturamento": 219.07,
-      "custo": 109.56,
-      "taxa_ml": 18.15,
-      "pct": 12.3,
-      "margem_pct": 50.0
+      "vendas": 8,
+      "faturamento": 296.65,
+      "custo": 146.08,
+      "taxa_ml": 24.77,
+      "pct": 14.7,
+      "margem_pct": 50.8
     }
   ],
   "chart": {
@@ -130,7 +130,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 28,
+    "total_orders_fetched": 33,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -148,16 +148,16 @@
     "tacos": 1.0
   },
   "mes": {
-    "vendas": 1098,
-    "faturamento": 78236.55,
-    "taxa_ml": 6844.18,
-    "faturamento_menos_taxa": 71392.37,
-    "ticket_medio": 71.25,
+    "vendas": 1102,
+    "faturamento": 78397.0,
+    "taxa_ml": 6856.06,
+    "faturamento_menos_taxa": 71540.94,
+    "ticket_medio": 71.14,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 78236.55,
+    "organic_revenue": 78397.0,
     "acos": 0,
     "tacos": 0.5,
     "chart": {
@@ -181,7 +181,7 @@
         49,
         57,
         80,
-        75,
+        74,
         70,
         89,
         73,
@@ -191,13 +191,13 @@
         112,
         96,
         105,
-        26
+        31
       ],
       "faturamento": [
         3474.15,
         4369.42,
         6073.04,
-        5595.01,
+        5518.01,
         5013.34,
         6131.66,
         4895.24,
@@ -207,7 +207,7 @@
         7488.93,
         9077.54,
         6500.93,
-        1664.03
+        1901.48
       ]
     }
   }
