@@ -1,37 +1,37 @@
 {
-  "updated_at": "2026-08-14T18:04:10.198606",
+  "updated_at": "2026-08-14T19:11:01.823581",
   "kpis": {
-    "faturamento_hoje": 3067.11,
-    "vendas_hoje": 48,
-    "ticket_medio": 63.9,
-    "cmv_total": 1597.94,
-    "lucro_bruto": 1469.17,
-    "margem_pct_real": 47.9,
-    "lucro_por_pedido": 30.61,
-    "taxa_ml_total": 230.77,
-    "shipping_total": 529.93,
-    "faturamento_liquido": 2306.41,
-    "margem_liquida_pct": 23.1,
-    "lucro_liquido": 708.47,
+    "faturamento_hoje": 3337.01,
+    "vendas_hoje": 52,
+    "ticket_medio": 64.17,
+    "cmv_total": 1732.37,
+    "lucro_bruto": 1604.64,
+    "margem_pct_real": 48.1,
+    "lucro_por_pedido": 30.86,
+    "taxa_ml_total": 253.24,
+    "shipping_total": 586.82,
+    "faturamento_liquido": 2496.95,
+    "margem_liquida_pct": 22.9,
+    "lucro_liquido": 764.58,
     "vendas_semana": 526,
     "faturamento_semana": 37864.37,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 3067.11,
+    "organic_revenue": 3337.01,
     "acos": 0,
-    "tacos": 12.1
+    "tacos": 11.1
   },
   "top5": [
     {
-      "vendas": 5,
-      "faturamento": 340,
-      "custo": 179.2,
+      "vendas": 7,
+      "faturamento": 476,
+      "custo": 250.88,
       "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 20.12,
+      "taxa_ml": 28.28,
       "full_unit_price": 68,
-      "lucro": 160.8,
+      "lucro": 225.12,
       "margem_pct": 47.3,
-      "score": 90
+      "score": 94
     },
     {
       "vendas": 8,
@@ -68,25 +68,25 @@
     },
     {
       "vendas": 3,
-      "faturamento": 200.79,
+      "faturamento": 222,
       "custo": 107.52,
-      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 12.06,
-      "full_unit_price": 66.93,
-      "lucro": 93.27,
-      "margem_pct": 46.5,
+      "title": "Casaco Moletom Masculino Hugo Jobs Com Ziper E Cap",
+      "taxa_ml": 17.76,
+      "full_unit_price": 74,
+      "lucro": 114.48,
+      "margem_pct": 51.6,
       "score": 86
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 40,
-      "faturamento": 2734.57,
-      "custo": 1433.6,
-      "taxa_ml": 200.98,
-      "pct": 89.2,
-      "margem_pct": 47.6
+      "vendas": 43,
+      "faturamento": 2944.57,
+      "custo": 1541.12,
+      "taxa_ml": 215.06,
+      "pct": 88.2,
+      "margem_pct": 47.7
     },
     {
       "nome": "Acessórios",
@@ -94,8 +94,17 @@
       "faturamento": 332.54,
       "custo": 164.34,
       "taxa_ml": 29.79,
-      "pct": 10.8,
+      "pct": 10.0,
       "margem_pct": 50.6
+    },
+    {
+      "nome": "Vestuário Infantil",
+      "vendas": 1,
+      "faturamento": 59.9,
+      "custo": 26.91,
+      "taxa_ml": 8.39,
+      "pct": 1.8,
+      "margem_pct": 55.1
     }
   ],
   "chart": {
@@ -130,7 +139,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 49,
+    "total_orders_fetched": 53,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -148,16 +157,16 @@
     "tacos": 1.0
   },
   "mes": {
-    "vendas": 1117,
-    "faturamento": 79441.17,
-    "taxa_ml": 6937.62,
-    "faturamento_menos_taxa": 72503.55,
-    "ticket_medio": 71.12,
+    "vendas": 1119,
+    "faturamento": 79565.56,
+    "taxa_ml": 6942.23,
+    "faturamento_menos_taxa": 72623.33,
+    "ticket_medio": 71.1,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 79441.17,
+    "organic_revenue": 79565.56,
     "acos": 0,
     "tacos": 0.5,
     "chart": {
@@ -180,34 +189,34 @@
       "vendas": [
         49,
         57,
-        80,
+        79,
         74,
-        70,
+        69,
         89,
-        73,
+        72,
         113,
         56,
         97,
         112,
         96,
-        105,
-        46
+        106,
+        50
       ],
       "faturamento": [
         3474.15,
         4369.42,
-        6073.04,
+        5995.64,
         5518.01,
-        5013.34,
+        4935.34,
         6131.66,
-        4895.24,
+        4826.24,
         7583.38,
         3597.9,
         6771.98,
         7488.93,
         9077.54,
-        6500.93,
-        2945.65
+        6579.82,
+        3215.55
       ]
     }
   }
