@@ -1,48 +1,48 @@
 {
-  "updated_at": "2026-08-15T23:13:42.693206",
+  "updated_at": "2026-08-15T23:34:14.943648",
   "kpis": {
-    "faturamento_hoje": 4922.5,
-    "vendas_hoje": 79,
-    "ticket_medio": 62.31,
-    "cmv_total": 2719.51,
-    "lucro_bruto": 2202.99,
-    "margem_pct_real": 44.8,
+    "faturamento_hoje": 5096.22,
+    "vendas_hoje": 82,
+    "ticket_medio": 62.15,
+    "cmv_total": 2809.45,
+    "lucro_bruto": 2286.77,
+    "margem_pct_real": 44.9,
     "lucro_por_pedido": 27.89,
-    "taxa_ml_total": 362.73,
-    "shipping_total": 883.75,
-    "faturamento_liquido": 3676.02,
-    "margem_liquida_pct": 19.4,
-    "lucro_liquido": 956.51,
+    "taxa_ml_total": 374.14,
+    "shipping_total": 946.29,
+    "faturamento_liquido": 3775.79,
+    "margem_liquida_pct": 19.0,
+    "lucro_liquido": 966.34,
     "vendas_semana": 520,
     "faturamento_semana": 36824.99,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 4922.5,
+    "organic_revenue": 5096.22,
     "acos": 0,
-    "tacos": 7.5
+    "tacos": 7.3
   },
   "top5": [
     {
-      "vendas": 13,
-      "faturamento": 495.57,
-      "custo": 237.38,
-      "title": "Carteira Couro Legítimo Slim 8 Porta Cartões E Cnh",
-      "taxa_ml": 48.16,
-      "full_unit_price": 38.79,
-      "lucro": 258.19,
-      "margem_pct": 52.1,
-      "score": 99
+      "vendas": 8,
+      "faturamento": 535.44,
+      "custo": 286.72,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 32.16,
+      "full_unit_price": 66.93,
+      "lucro": 248.72,
+      "margem_pct": 46.5,
+      "score": 96
     },
     {
-      "vendas": 7,
-      "faturamento": 468.51,
-      "custo": 250.88,
-      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 28.14,
-      "full_unit_price": 66.93,
-      "lucro": 217.63,
-      "margem_pct": 46.5,
-      "score": 94
+      "vendas": 14,
+      "faturamento": 534.36,
+      "custo": 255.64,
+      "title": "Carteira Couro Legítimo Slim 8 Porta Cartões E Cnh",
+      "taxa_ml": 51.47,
+      "full_unit_price": 38.79,
+      "lucro": 278.72,
+      "margem_pct": 52.2,
+      "score": 99
     },
     {
       "vendas": 7,
@@ -81,21 +81,21 @@
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 64,
-      "faturamento": 4070.96,
-      "custo": 2293.76,
-      "taxa_ml": 271.68,
-      "pct": 82.7,
-      "margem_pct": 43.7
+      "vendas": 66,
+      "faturamento": 4205.89,
+      "custo": 2365.44,
+      "taxa_ml": 279.78,
+      "pct": 82.5,
+      "margem_pct": 43.8
     },
     {
       "nome": "Acessórios",
-      "vendas": 13,
-      "faturamento": 495.57,
-      "custo": 237.38,
-      "taxa_ml": 48.16,
-      "pct": 10.1,
-      "margem_pct": 52.1
+      "vendas": 14,
+      "faturamento": 534.36,
+      "custo": 255.64,
+      "taxa_ml": 51.47,
+      "pct": 10.5,
+      "margem_pct": 52.2
     },
     {
       "nome": "Vestuário Infantil",
@@ -103,7 +103,7 @@
       "faturamento": 355.97,
       "custo": 188.37,
       "taxa_ml": 42.89,
-      "pct": 7.2,
+      "pct": 7.0,
       "margem_pct": 47.1
     }
   ],
@@ -139,7 +139,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 81,
+    "total_orders_fetched": 84,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -157,16 +157,16 @@
     "tacos": 1.0
   },
   "mes": {
-    "vendas": 1213,
-    "faturamento": 85255.09,
-    "taxa_ml": 7299.98,
-    "faturamento_menos_taxa": 77955.11,
-    "ticket_medio": 70.28,
+    "vendas": 1216,
+    "faturamento": 85428.81,
+    "taxa_ml": 7311.39,
+    "faturamento_menos_taxa": 78117.42,
+    "ticket_medio": 70.25,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 85255.09,
+    "organic_revenue": 85428.81,
     "acos": 0,
     "tacos": 0.4,
     "chart": {
@@ -202,7 +202,7 @@
         96,
         105,
         74,
-        77
+        80
       ],
       "faturamento": [
         3474.15,
@@ -219,7 +219,7 @@
         9077.54,
         6470.76,
         4660.44,
-        4783.72
+        4957.44
       ]
     }
   }
