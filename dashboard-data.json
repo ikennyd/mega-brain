@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-08-15T20:12:03.070993",
+  "updated_at": "2026-08-15T20:37:12.463630",
   "kpis": {
-    "faturamento_hoje": 3942.2,
-    "vendas_hoje": 63,
-    "ticket_medio": 62.57,
-    "cmv_total": 2144.99,
-    "lucro_bruto": 1797.21,
-    "margem_pct_real": 45.6,
-    "lucro_por_pedido": 28.53,
-    "taxa_ml_total": 287.08,
-    "shipping_total": 725.29,
-    "faturamento_liquido": 2929.83,
-    "margem_liquida_pct": 19.9,
-    "lucro_liquido": 784.84,
+    "faturamento_hoje": 4047.92,
+    "vendas_hoje": 65,
+    "ticket_medio": 62.28,
+    "cmv_total": 2199.09,
+    "lucro_bruto": 1848.83,
+    "margem_pct_real": 45.7,
+    "lucro_por_pedido": 28.44,
+    "taxa_ml_total": 295.47,
+    "shipping_total": 742.78,
+    "faturamento_liquido": 3009.67,
+    "margem_liquida_pct": 20.0,
+    "lucro_liquido": 810.58,
     "vendas_semana": 521,
     "faturamento_semana": 36934.05,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 3942.2,
+    "organic_revenue": 4047.92,
     "acos": 0,
-    "tacos": 9.4
+    "tacos": 9.1
   },
   "top5": [
     {
@@ -34,14 +34,14 @@
       "score": 94
     },
     {
-      "vendas": 10,
-      "faturamento": 379.2,
-      "custo": 182.6,
+      "vendas": 11,
+      "faturamento": 417.99,
+      "custo": 200.86,
       "title": "Carteira Couro Legítimo Slim 8 Porta Cartões E Cnh",
-      "taxa_ml": 38.23,
+      "taxa_ml": 41.54,
       "full_unit_price": 38.79,
-      "lucro": 196.6,
-      "margem_pct": 51.8,
+      "lucro": 217.13,
+      "margem_pct": 51.9,
       "score": 99
     },
     {
@@ -57,6 +57,17 @@
     },
     {
       "vendas": 5,
+      "faturamento": 334.65,
+      "custo": 179.2,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 26.24,
+      "full_unit_price": 66.93,
+      "lucro": 155.45,
+      "margem_pct": 46.5,
+      "score": 90
+    },
+    {
+      "vendas": 5,
       "faturamento": 307.76,
       "custo": 179.2,
       "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
@@ -65,37 +76,26 @@
       "lucro": 128.56,
       "margem_pct": 41.8,
       "score": 90
-    },
-    {
-      "vendas": 4,
-      "faturamento": 285.99,
-      "custo": 143.36,
-      "title": "Kit 3 Camisetas 100% Algodão Estilosa Hugo Jobs Mi",
-      "taxa_ml": 28.88,
-      "full_unit_price": 62,
-      "lucro": 142.63,
-      "margem_pct": 49.9,
-      "score": 88
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 51,
-      "faturamento": 3326.83,
-      "custo": 1827.84,
-      "taxa_ml": 222.74,
-      "pct": 84.4,
+      "vendas": 52,
+      "faturamento": 3393.76,
+      "custo": 1863.68,
+      "taxa_ml": 227.82,
+      "pct": 83.8,
       "margem_pct": 45.1
     },
     {
       "nome": "Acessórios",
-      "vendas": 10,
-      "faturamento": 379.2,
-      "custo": 182.6,
-      "taxa_ml": 38.23,
-      "pct": 9.6,
-      "margem_pct": 51.8
+      "vendas": 11,
+      "faturamento": 417.99,
+      "custo": 200.86,
+      "taxa_ml": 41.54,
+      "pct": 10.3,
+      "margem_pct": 51.9
     },
     {
       "nome": "Vestuário Infantil",
@@ -103,7 +103,7 @@
       "faturamento": 236.17,
       "custo": 134.55,
       "taxa_ml": 26.11,
-      "pct": 6.0,
+      "pct": 5.8,
       "margem_pct": 43.0
     }
   ],
@@ -139,7 +139,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 65,
+    "total_orders_fetched": 67,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -157,16 +157,16 @@
     "tacos": 1.0
   },
   "mes": {
-    "vendas": 1198,
-    "faturamento": 84383.85,
-    "taxa_ml": 7229.4,
-    "faturamento_menos_taxa": 77154.45,
-    "ticket_medio": 70.44,
+    "vendas": 1200,
+    "faturamento": 84489.57,
+    "taxa_ml": 7237.79,
+    "faturamento_menos_taxa": 77251.78,
+    "ticket_medio": 70.41,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 84383.85,
+    "organic_revenue": 84489.57,
     "acos": 0,
     "tacos": 0.4,
     "chart": {
@@ -202,7 +202,7 @@
         96,
         106,
         74,
-        61
+        63
       ],
       "faturamento": [
         3474.15,
@@ -219,7 +219,7 @@
         9077.54,
         6579.82,
         4660.44,
-        3803.42
+        3909.14
       ]
     }
   }
