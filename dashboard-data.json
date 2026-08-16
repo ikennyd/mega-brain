@@ -1,27 +1,38 @@
 {
-  "updated_at": "2026-08-16T09:18:07.340849",
+  "updated_at": "2026-08-16T09:48:39.914219",
   "kpis": {
-    "faturamento_hoje": 240.65,
-    "vendas_hoje": 4,
-    "ticket_medio": 60.16,
-    "cmv_total": 125.78,
-    "lucro_bruto": 114.87,
-    "margem_pct_real": 47.7,
-    "lucro_por_pedido": 28.72,
-    "taxa_ml_total": 15.43,
-    "shipping_total": 44.39,
-    "faturamento_liquido": 180.83,
-    "margem_liquida_pct": 22.9,
-    "lucro_liquido": 55.05,
+    "faturamento_hoje": 434.45,
+    "vendas_hoje": 7,
+    "ticket_medio": 62.06,
+    "cmv_total": 233.3,
+    "lucro_bruto": 201.15,
+    "margem_pct_real": 46.3,
+    "lucro_por_pedido": 28.74,
+    "taxa_ml_total": 24.39,
+    "shipping_total": 84.34,
+    "faturamento_liquido": 325.72,
+    "margem_liquida_pct": 21.3,
+    "lucro_liquido": 92.42,
     "vendas_semana": 524,
     "faturamento_semana": 36961.81,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 240.65,
+    "organic_revenue": 434.45,
     "acos": 0,
-    "tacos": 153.8
+    "tacos": 85.2
   },
   "top5": [
+    {
+      "vendas": 2,
+      "faturamento": 133.86,
+      "custo": 71.68,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 8.04,
+      "full_unit_price": 66.93,
+      "lucro": 62.18,
+      "margem_pct": 46.5,
+      "score": 84
+    },
     {
       "vendas": 1,
       "faturamento": 68,
@@ -57,25 +68,25 @@
     },
     {
       "vendas": 1,
-      "faturamento": 38.79,
-      "custo": 18.26,
-      "title": "Carteira Couro Legítimo Slim 8 Porta Cartões E Cnh",
-      "taxa_ml": 3.31,
-      "full_unit_price": 38.79,
-      "lucro": 20.53,
-      "margem_pct": 52.9,
+      "faturamento": 59.94,
+      "custo": 35.84,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 0.92,
+      "full_unit_price": 59.94,
+      "lucro": 24.1,
+      "margem_pct": 40.2,
       "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 3,
-      "faturamento": 201.86,
-      "custo": 107.52,
-      "taxa_ml": 12.12,
-      "pct": 83.9,
-      "margem_pct": 46.7
+      "vendas": 6,
+      "faturamento": 395.66,
+      "custo": 215.04,
+      "taxa_ml": 21.08,
+      "pct": 91.1,
+      "margem_pct": 45.7
     },
     {
       "nome": "Acessórios",
@@ -83,7 +94,7 @@
       "faturamento": 38.79,
       "custo": 18.26,
       "taxa_ml": 3.31,
-      "pct": 16.1,
+      "pct": 8.9,
       "margem_pct": 52.9
     }
   ],
@@ -119,7 +130,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 4,
+    "total_orders_fetched": 7,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -137,16 +148,16 @@
     "tacos": 1.0
   },
   "mes": {
-    "vendas": 1229,
-    "faturamento": 86224.52,
-    "taxa_ml": 7361.13,
-    "faturamento_menos_taxa": 78863.39,
-    "ticket_medio": 70.16,
+    "vendas": 1232,
+    "faturamento": 86418.32,
+    "taxa_ml": 7370.09,
+    "faturamento_menos_taxa": 79048.23,
+    "ticket_medio": 70.14,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 86224.52,
+    "organic_revenue": 86418.32,
     "acos": 0,
     "tacos": 0.4,
     "chart": {
@@ -184,7 +195,7 @@
         105,
         74,
         91,
-        2
+        5
       ],
       "faturamento": [
         3474.15,
@@ -202,7 +213,7 @@
         6470.76,
         4660.44,
         5618.22,
-        134.93
+        328.73
       ]
     }
   }
