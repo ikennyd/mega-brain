@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-08-16T19:52:17.871737",
+  "updated_at": "2026-08-16T20:11:27.265313",
   "kpis": {
-    "faturamento_hoje": 1833.06,
-    "vendas_hoje": 29,
-    "ticket_medio": 63.21,
-    "cmv_total": 986.62,
-    "lucro_bruto": 846.44,
-    "margem_pct_real": 46.2,
-    "lucro_por_pedido": 29.19,
-    "taxa_ml_total": 117.35,
-    "shipping_total": 291.81,
-    "faturamento_liquido": 1423.9,
-    "margem_liquida_pct": 23.9,
-    "lucro_liquido": 437.28,
+    "faturamento_hoje": 2047.03,
+    "vendas_hoje": 33,
+    "ticket_medio": 62.03,
+    "cmv_total": 1112.12,
+    "lucro_bruto": 934.91,
+    "margem_pct_real": 45.7,
+    "lucro_por_pedido": 28.33,
+    "taxa_ml_total": 133.79,
+    "shipping_total": 338.71,
+    "faturamento_liquido": 1574.53,
+    "margem_liquida_pct": 22.6,
+    "lucro_liquido": 462.41,
     "vendas_semana": 524,
     "faturamento_semana": 36961.81,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 1833.06,
+    "organic_revenue": 2047.03,
     "acos": 0,
-    "tacos": 20.2
+    "tacos": 18.1
   },
   "top5": [
     {
@@ -68,25 +68,25 @@
     },
     {
       "vendas": 2,
-      "faturamento": 124,
+      "faturamento": 133.86,
       "custo": 71.68,
-      "title": "Kit 3 Camisetas 100% Algodão Estilosa Hugo Jobs Mi",
-      "taxa_ml": 9.64,
-      "full_unit_price": 62,
-      "lucro": 52.32,
-      "margem_pct": 42.2,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 10.72,
+      "full_unit_price": 66.93,
+      "lucro": 62.18,
+      "margem_pct": 46.5,
       "score": 84
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 26,
-      "faturamento": 1716.69,
-      "custo": 931.84,
-      "taxa_ml": 107.42,
-      "pct": 93.7,
-      "margem_pct": 45.7
+      "vendas": 28,
+      "faturamento": 1814.56,
+      "custo": 1003.52,
+      "taxa_ml": 115.22,
+      "pct": 88.6,
+      "margem_pct": 44.7
     },
     {
       "nome": "Acessórios",
@@ -94,8 +94,17 @@
       "faturamento": 116.37,
       "custo": 54.78,
       "taxa_ml": 9.93,
-      "pct": 6.3,
+      "pct": 5.7,
       "margem_pct": 52.9
+    },
+    {
+      "nome": "Vestuário Infantil",
+      "vendas": 2,
+      "faturamento": 116.1,
+      "custo": 53.82,
+      "taxa_ml": 8.64,
+      "pct": 5.7,
+      "margem_pct": 53.6
     }
   ],
   "chart": {
@@ -130,7 +139,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 31,
+    "total_orders_fetched": 35,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -148,16 +157,16 @@
     "tacos": 1.0
   },
   "mes": {
-    "vendas": 1253,
-    "faturamento": 87750.0,
-    "taxa_ml": 7459.03,
-    "faturamento_menos_taxa": 80290.97,
-    "ticket_medio": 70.03,
+    "vendas": 1257,
+    "faturamento": 87963.97,
+    "taxa_ml": 7475.47,
+    "faturamento_menos_taxa": 80488.5,
+    "ticket_medio": 69.98,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 87750.0,
+    "organic_revenue": 87963.97,
     "acos": 0,
     "tacos": 0.4,
     "chart": {
@@ -195,7 +204,7 @@
         105,
         74,
         90,
-        27
+        31
       ],
       "faturamento": [
         3474.15,
@@ -213,7 +222,7 @@
         6470.76,
         4660.44,
         5551.29,
-        1727.34
+        1941.31
       ]
     }
   }
