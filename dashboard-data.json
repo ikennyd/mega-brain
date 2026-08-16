@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-08-16T20:36:07.806126",
+  "updated_at": "2026-08-16T20:55:58.078918",
   "kpis": {
-    "faturamento_hoje": 2113.96,
-    "vendas_hoje": 34,
-    "ticket_medio": 62.18,
-    "cmv_total": 1147.96,
-    "lucro_bruto": 966.0,
-    "margem_pct_real": 45.7,
-    "lucro_por_pedido": 28.41,
-    "taxa_ml_total": 137.81,
-    "shipping_total": 346.66,
-    "faturamento_liquido": 1629.49,
-    "margem_liquida_pct": 22.8,
-    "lucro_liquido": 481.53,
+    "faturamento_hoje": 2350.63,
+    "vendas_hoje": 35,
+    "ticket_medio": 67.16,
+    "cmv_total": 1255.48,
+    "lucro_bruto": 1095.15,
+    "margem_pct_real": 46.6,
+    "lucro_por_pedido": 31.29,
+    "taxa_ml_total": 158.6,
+    "shipping_total": 370.81,
+    "faturamento_liquido": 1821.22,
+    "margem_liquida_pct": 24.1,
+    "lucro_liquido": 565.74,
     "vendas_semana": 524,
     "faturamento_semana": 36961.81,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 2113.96,
+    "organic_revenue": 2350.63,
     "acos": 0,
-    "tacos": 17.5
+    "tacos": 15.7
   },
   "top5": [
     {
@@ -45,15 +45,15 @@
       "score": 90
     },
     {
-      "vendas": 2,
-      "faturamento": 133.86,
-      "custo": 71.68,
-      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 8.04,
-      "full_unit_price": 66.93,
-      "lucro": 62.18,
-      "margem_pct": 46.5,
-      "score": 84
+      "vendas": 3,
+      "faturamento": 236.67,
+      "custo": 107.52,
+      "title": "Casaco Moletom Masculino Hugo Jobs Com Ziper E Cap",
+      "taxa_ml": 20.79,
+      "full_unit_price": 78.89,
+      "lucro": 129.15,
+      "margem_pct": 54.6,
+      "score": 86
     },
     {
       "vendas": 2,
@@ -71,7 +71,7 @@
       "faturamento": 133.86,
       "custo": 71.68,
       "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 10.72,
+      "taxa_ml": 8.04,
       "full_unit_price": 66.93,
       "lucro": 62.18,
       "margem_pct": 46.5,
@@ -81,12 +81,12 @@
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 29,
-      "faturamento": 1881.49,
-      "custo": 1039.36,
-      "taxa_ml": 119.24,
-      "pct": 89.0,
-      "margem_pct": 44.8
+      "vendas": 32,
+      "faturamento": 2118.16,
+      "custo": 1146.88,
+      "taxa_ml": 140.03,
+      "pct": 90.1,
+      "margem_pct": 45.9
     },
     {
       "nome": "Acessórios",
@@ -94,7 +94,7 @@
       "faturamento": 116.37,
       "custo": 54.78,
       "taxa_ml": 9.93,
-      "pct": 5.5,
+      "pct": 5.0,
       "margem_pct": 52.9
     },
     {
@@ -103,7 +103,7 @@
       "faturamento": 116.1,
       "custo": 53.82,
       "taxa_ml": 8.64,
-      "pct": 5.5,
+      "pct": 4.9,
       "margem_pct": 53.6
     }
   ],
@@ -139,7 +139,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 36,
+    "total_orders_fetched": 37,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -157,16 +157,16 @@
     "tacos": 1.0
   },
   "mes": {
-    "vendas": 1258,
-    "faturamento": 88030.9,
-    "taxa_ml": 7479.49,
-    "faturamento_menos_taxa": 80551.41,
-    "ticket_medio": 69.98,
+    "vendas": 1259,
+    "faturamento": 88267.57,
+    "taxa_ml": 7486.42,
+    "faturamento_menos_taxa": 80781.15,
+    "ticket_medio": 70.11,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 88030.9,
+    "organic_revenue": 88267.57,
     "acos": 0,
     "tacos": 0.4,
     "chart": {
@@ -204,7 +204,7 @@
         105,
         74,
         90,
-        32
+        33
       ],
       "faturamento": [
         3474.15,
@@ -222,7 +222,7 @@
         6470.76,
         4660.44,
         5551.29,
-        2008.24
+        2244.91
       ]
     }
   }
