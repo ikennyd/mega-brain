@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-08-17T05:57:18.632274",
+  "updated_at": "2026-08-17T06:45:07.716043",
   "kpis": {
-    "faturamento_hoje": 290.89,
-    "vendas_hoje": 6,
-    "ticket_medio": 48.48,
-    "cmv_total": 162.3,
-    "lucro_bruto": 128.59,
-    "margem_pct_real": 44.2,
-    "lucro_por_pedido": 21.43,
-    "taxa_ml_total": 18.63,
-    "shipping_total": 74.58,
-    "faturamento_liquido": 197.68,
-    "margem_liquida_pct": 12.2,
-    "lucro_liquido": 35.38,
+    "faturamento_hoje": 352.89,
+    "vendas_hoje": 7,
+    "ticket_medio": 50.41,
+    "cmv_total": 198.14,
+    "lucro_bruto": 154.75,
+    "margem_pct_real": 43.9,
+    "lucro_por_pedido": 22.11,
+    "taxa_ml_total": 23.59,
+    "shipping_total": 82.53,
+    "faturamento_liquido": 246.77,
+    "margem_liquida_pct": 13.8,
+    "lucro_liquido": 48.63,
     "vendas_semana": 526,
     "faturamento_semana": 36491.67,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 290.89,
+    "organic_revenue": 352.89,
     "acos": 0,
-    "tacos": 127.2
+    "tacos": 104.8
   },
   "top5": [
     {
@@ -56,6 +56,17 @@
       "score": 82
     },
     {
+      "vendas": 1,
+      "faturamento": 62,
+      "custo": 35.84,
+      "title": "Kit 3 Camisetas 100% Algodão Estilosa Hugo Jobs Mi",
+      "taxa_ml": 4.96,
+      "full_unit_price": 62,
+      "lucro": 26.16,
+      "margem_pct": 42.2,
+      "score": 82
+    },
+    {
       "vendas": 2,
       "faturamento": 50.24,
       "custo": 36.52,
@@ -65,28 +76,17 @@
       "lucro": 13.72,
       "margem_pct": 27.3,
       "score": 84
-    },
-    {
-      "vendas": 1,
-      "faturamento": 38.79,
-      "custo": 18.26,
-      "title": "Carteira Couro Legítimo Slim 8 Porta Cartões E Cnh",
-      "taxa_ml": 3.31,
-      "full_unit_price": 38.79,
-      "lucro": 20.53,
-      "margem_pct": 52.9,
-      "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 3,
-      "faturamento": 201.86,
-      "custo": 107.52,
-      "taxa_ml": 12.12,
-      "pct": 69.4,
-      "margem_pct": 46.7
+      "vendas": 4,
+      "faturamento": 263.86,
+      "custo": 143.36,
+      "taxa_ml": 17.08,
+      "pct": 74.8,
+      "margem_pct": 45.7
     },
     {
       "nome": "Acessórios",
@@ -94,7 +94,7 @@
       "faturamento": 89.03,
       "custo": 54.78,
       "taxa_ml": 6.51,
-      "pct": 30.6,
+      "pct": 25.2,
       "margem_pct": 38.5
     }
   ],
@@ -130,7 +130,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 6,
+    "total_orders_fetched": 7,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -148,16 +148,16 @@
     "tacos": 1.0
   },
   "mes": {
-    "vendas": 1295,
-    "faturamento": 90499.66,
-    "taxa_ml": 7620.18,
-    "faturamento_menos_taxa": 82879.48,
+    "vendas": 1296,
+    "faturamento": 90561.66,
+    "taxa_ml": 7625.14,
+    "faturamento_menos_taxa": 82936.52,
     "ticket_medio": 69.88,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 90499.66,
+    "organic_revenue": 90561.66,
     "acos": 0,
     "tacos": 0.4,
     "chart": {
@@ -197,7 +197,7 @@
         74,
         90,
         67,
-        2
+        3
       ],
       "faturamento": [
         3474.15,
@@ -216,7 +216,7 @@
         4660.44,
         5551.29,
         4370.21,
-        106.79
+        168.79
       ]
     }
   }
