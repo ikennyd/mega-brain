@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-08-17T03:59:14.052817",
+  "updated_at": "2026-08-17T04:42:30.046731",
   "kpis": {
-    "faturamento_hoje": 184.1,
-    "vendas_hoje": 4,
-    "ticket_medio": 46.03,
-    "cmv_total": 108.2,
-    "lucro_bruto": 75.9,
-    "margem_pct_real": 41.2,
-    "lucro_por_pedido": 18.98,
-    "taxa_ml_total": 11.24,
-    "shipping_total": 29.1,
-    "faturamento_liquido": 143.76,
-    "margem_liquida_pct": 19.3,
-    "lucro_liquido": 35.56,
+    "faturamento_hoje": 222.89,
+    "vendas_hoje": 5,
+    "ticket_medio": 44.58,
+    "cmv_total": 126.46,
+    "lucro_bruto": 96.43,
+    "margem_pct_real": 43.3,
+    "lucro_por_pedido": 19.29,
+    "taxa_ml_total": 14.55,
+    "shipping_total": 48.64,
+    "faturamento_liquido": 159.7,
+    "margem_liquida_pct": 14.9,
+    "lucro_liquido": 33.24,
     "vendas_semana": 526,
     "faturamento_semana": 36491.67,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 184.1,
+    "organic_revenue": 222.89,
     "acos": 0,
-    "tacos": 201.0
+    "tacos": 166.0
   },
   "top5": [
     {
@@ -54,6 +54,17 @@
       "lucro": 13.72,
       "margem_pct": 27.3,
       "score": 84
+    },
+    {
+      "vendas": 1,
+      "faturamento": 38.79,
+      "custo": 18.26,
+      "title": "Carteira Couro Legítimo Slim 8 Porta Cartões E Cnh",
+      "taxa_ml": 3.31,
+      "full_unit_price": 38.79,
+      "lucro": 20.53,
+      "margem_pct": 52.9,
+      "score": 82
     }
   ],
   "categories": [
@@ -63,17 +74,17 @@
       "faturamento": 133.86,
       "custo": 71.68,
       "taxa_ml": 8.04,
-      "pct": 72.7,
+      "pct": 60.1,
       "margem_pct": 46.5
     },
     {
       "nome": "Acessórios",
-      "vendas": 2,
-      "faturamento": 50.24,
-      "custo": 36.52,
-      "taxa_ml": 3.2,
-      "pct": 27.3,
-      "margem_pct": 27.3
+      "vendas": 3,
+      "faturamento": 89.03,
+      "custo": 54.78,
+      "taxa_ml": 6.51,
+      "pct": 39.9,
+      "margem_pct": 38.5
     }
   ],
   "chart": {
@@ -108,7 +119,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 4,
+    "total_orders_fetched": 5,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -126,16 +137,16 @@
     "tacos": 1.0
   },
   "mes": {
-    "vendas": 1293,
-    "faturamento": 90392.87,
-    "taxa_ml": 7612.79,
-    "faturamento_menos_taxa": 82780.08,
-    "ticket_medio": 69.91,
+    "vendas": 1294,
+    "faturamento": 90431.66,
+    "taxa_ml": 7616.1,
+    "faturamento_menos_taxa": 82815.56,
+    "ticket_medio": 69.89,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 90392.87,
+    "organic_revenue": 90431.66,
     "acos": 0,
     "tacos": 0.4,
     "chart": {
@@ -175,7 +186,7 @@
         74,
         90,
         67,
-        0
+        1
       ],
       "faturamento": [
         3474.15,
@@ -194,7 +205,7 @@
         4660.44,
         5551.29,
         4370.21,
-        0
+        38.79
       ]
     }
   }
