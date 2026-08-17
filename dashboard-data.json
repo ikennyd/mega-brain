@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-08-17T11:16:43.377164",
+  "updated_at": "2026-08-17T11:47:15.380002",
   "kpis": {
-    "faturamento_hoje": 646.76,
-    "vendas_hoje": 12,
-    "ticket_medio": 53.9,
-    "cmv_total": 377.34,
-    "lucro_bruto": 269.42,
-    "margem_pct_real": 41.7,
-    "lucro_por_pedido": 22.45,
-    "taxa_ml_total": 46.61,
-    "shipping_total": 126.17,
-    "faturamento_liquido": 473.98,
-    "margem_liquida_pct": 14.9,
-    "lucro_liquido": 96.64,
+    "faturamento_hoje": 738.81,
+    "vendas_hoje": 14,
+    "ticket_medio": 52.77,
+    "cmv_total": 431.44,
+    "lucro_bruto": 307.37,
+    "margem_pct_real": 41.6,
+    "lucro_por_pedido": 21.95,
+    "taxa_ml_total": 52.23,
+    "shipping_total": 140.67,
+    "faturamento_liquido": 545.91,
+    "margem_liquida_pct": 15.5,
+    "lucro_liquido": 114.47,
     "vendas_semana": 526,
     "faturamento_semana": 36491.67,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 646.76,
+    "organic_revenue": 738.81,
     "acos": 0,
-    "tacos": 57.2
+    "tacos": 50.1
   },
   "top5": [
     {
@@ -45,6 +45,17 @@
       "score": 84
     },
     {
+      "vendas": 3,
+      "faturamento": 75.36,
+      "custo": 54.78,
+      "title": "Carteira Couro Natura Slim Pequena Hugo Jobs 3 Car",
+      "taxa_ml": 4.8,
+      "full_unit_price": 25.12,
+      "lucro": 20.58,
+      "margem_pct": 27.3,
+      "score": 86
+    },
+    {
       "vendas": 1,
       "faturamento": 66.93,
       "custo": 35.84,
@@ -57,45 +68,34 @@
     },
     {
       "vendas": 1,
-      "faturamento": 62,
-      "custo": 35.84,
-      "title": "Kit 3 Camisetas 100% Algodão Estilosa Hugo Jobs Mi",
-      "taxa_ml": 4.96,
-      "full_unit_price": 62,
-      "lucro": 26.16,
-      "margem_pct": 42.2,
-      "score": 82
-    },
-    {
-      "vendas": 1,
-      "faturamento": 60,
+      "faturamento": 66.93,
       "custo": 35.84,
       "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 8.4,
-      "full_unit_price": 60,
-      "lucro": 24.16,
-      "margem_pct": 40.3,
+      "taxa_ml": 4.02,
+      "full_unit_price": 66.93,
+      "lucro": 31.09,
+      "margem_pct": 46.5,
       "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 9,
-      "faturamento": 557.73,
-      "custo": 322.56,
-      "taxa_ml": 40.1,
-      "pct": 86.2,
-      "margem_pct": 42.2
+      "vendas": 10,
+      "faturamento": 624.66,
+      "custo": 358.4,
+      "taxa_ml": 44.12,
+      "pct": 84.5,
+      "margem_pct": 42.6
     },
     {
       "nome": "Acessórios",
-      "vendas": 3,
-      "faturamento": 89.03,
-      "custo": 54.78,
-      "taxa_ml": 6.51,
-      "pct": 13.8,
-      "margem_pct": 38.5
+      "vendas": 4,
+      "faturamento": 114.15,
+      "custo": 73.04,
+      "taxa_ml": 8.11,
+      "pct": 15.5,
+      "margem_pct": 36.0
     }
   ],
   "chart": {
@@ -130,7 +130,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 12,
+    "total_orders_fetched": 14,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -148,16 +148,16 @@
     "tacos": 1.0
   },
   "mes": {
-    "vendas": 1301,
-    "faturamento": 90855.53,
-    "taxa_ml": 7648.16,
-    "faturamento_menos_taxa": 83207.37,
-    "ticket_medio": 69.84,
+    "vendas": 1303,
+    "faturamento": 90947.58,
+    "taxa_ml": 7653.78,
+    "faturamento_menos_taxa": 83293.8,
+    "ticket_medio": 69.8,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 90855.53,
+    "organic_revenue": 90947.58,
     "acos": 0,
     "tacos": 0.4,
     "chart": {
@@ -197,7 +197,7 @@
         74,
         90,
         67,
-        8
+        10
       ],
       "faturamento": [
         3474.15,
@@ -216,7 +216,7 @@
         4660.44,
         5551.29,
         4370.21,
-        462.66
+        554.71
       ]
     }
   }
