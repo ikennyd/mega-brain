@@ -1,28 +1,70 @@
 {
-  "updated_at": "2026-08-17T02:08:04.047313",
+  "updated_at": "2026-08-17T03:10:54.910111",
   "kpis": {
-    "faturamento_hoje": 0,
-    "vendas_hoje": 0,
-    "ticket_medio": 0,
-    "cmv_total": 0,
-    "lucro_bruto": 0,
-    "margem_pct_real": 0,
-    "lucro_por_pedido": 0,
-    "taxa_ml_total": 0,
-    "shipping_total": 0,
-    "faturamento_liquido": 0,
-    "margem_liquida_pct": 0,
-    "lucro_liquido": 0,
+    "faturamento_hoje": 92.05,
+    "vendas_hoje": 2,
+    "ticket_medio": 46.03,
+    "cmv_total": 54.1,
+    "lucro_bruto": 37.95,
+    "margem_pct_real": 41.2,
+    "lucro_por_pedido": 18.98,
+    "taxa_ml_total": 5.62,
+    "shipping_total": 14.5,
+    "faturamento_liquido": 71.93,
+    "margem_liquida_pct": 19.4,
+    "lucro_liquido": 17.83,
     "vendas_semana": 526,
     "faturamento_semana": 36491.67,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 0.0,
+    "organic_revenue": 92.05,
     "acos": 0,
-    "tacos": 0
+    "tacos": 402.0
   },
-  "top5": [],
-  "categories": [],
+  "top5": [
+    {
+      "vendas": 1,
+      "faturamento": 66.93,
+      "custo": 35.84,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 4.02,
+      "full_unit_price": 66.93,
+      "lucro": 31.09,
+      "margem_pct": 46.5,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 25.12,
+      "custo": 18.26,
+      "title": "Carteira Couro Natura Slim Pequena Hugo Jobs 3 Car",
+      "taxa_ml": 1.6,
+      "full_unit_price": 25.12,
+      "lucro": 6.86,
+      "margem_pct": 27.3,
+      "score": 82
+    }
+  ],
+  "categories": [
+    {
+      "nome": "Vestuário Adult",
+      "vendas": 1,
+      "faturamento": 66.93,
+      "custo": 35.84,
+      "taxa_ml": 4.02,
+      "pct": 72.7,
+      "margem_pct": 46.5
+    },
+    {
+      "nome": "Acessórios",
+      "vendas": 1,
+      "faturamento": 25.12,
+      "custo": 18.26,
+      "taxa_ml": 1.6,
+      "pct": 27.3,
+      "margem_pct": 27.3
+    }
+  ],
   "chart": {
     "labels": [
       "Ter (11)",
@@ -55,7 +97,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 0,
+    "total_orders_fetched": 2,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -73,16 +115,16 @@
     "tacos": 1.0
   },
   "mes": {
-    "vendas": 1288,
-    "faturamento": 90148.83,
-    "taxa_ml": 7600.35,
-    "faturamento_menos_taxa": 82548.48,
-    "ticket_medio": 69.99,
+    "vendas": 1291,
+    "faturamento": 90300.82,
+    "taxa_ml": 7607.17,
+    "faturamento_menos_taxa": 82693.65,
+    "ticket_medio": 69.95,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 90148.83,
+    "organic_revenue": 90300.82,
     "acos": 0,
     "tacos": 0.4,
     "chart": {
@@ -121,7 +163,7 @@
         105,
         74,
         90,
-        62,
+        65,
         0
       ],
       "faturamento": [
@@ -140,7 +182,7 @@
         6470.76,
         4660.44,
         5551.29,
-        4126.17,
+        4278.16,
         0
       ]
     }
