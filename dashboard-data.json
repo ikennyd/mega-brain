@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-08-18T19:55:20.045959",
+  "updated_at": "2026-08-18T20:12:38.507477",
   "kpis": {
-    "faturamento_hoje": 4101.59,
-    "vendas_hoje": 62,
-    "ticket_medio": 66.15,
-    "cmv_total": 2206.54,
-    "lucro_bruto": 1895.05,
-    "margem_pct_real": 46.2,
-    "lucro_por_pedido": 30.57,
-    "taxa_ml_total": 297.64,
-    "shipping_total": 773.19,
-    "faturamento_liquido": 3030.76,
-    "margem_liquida_pct": 20.1,
-    "lucro_liquido": 824.22,
+    "faturamento_hoje": 4247.41,
+    "vendas_hoje": 64,
+    "ticket_medio": 66.37,
+    "cmv_total": 2278.22,
+    "lucro_bruto": 1969.19,
+    "margem_pct_real": 46.4,
+    "lucro_por_pedido": 30.77,
+    "taxa_ml_total": 308.59,
+    "shipping_total": 794.18,
+    "faturamento_liquido": 3144.64,
+    "margem_liquida_pct": 20.4,
+    "lucro_liquido": 866.42,
     "vendas_semana": 527,
     "faturamento_semana": 36022.71,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 4101.59,
+    "organic_revenue": 4247.41,
     "acos": 0,
-    "tacos": 9.0
+    "tacos": 8.7
   },
   "top5": [
     {
@@ -46,6 +46,17 @@
     },
     {
       "vendas": 5,
+      "faturamento": 394.45,
+      "custo": 179.2,
+      "title": "Casaco Moletom Masculino Hugo Jobs Com Ziper E Cap",
+      "taxa_ml": 34.65,
+      "full_unit_price": 78.89,
+      "lucro": 215.25,
+      "margem_pct": 54.6,
+      "score": 90
+    },
+    {
+      "vendas": 5,
       "faturamento": 334.65,
       "custo": 179.2,
       "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
@@ -54,17 +65,6 @@
       "lucro": 155.45,
       "margem_pct": 46.5,
       "score": 90
-    },
-    {
-      "vendas": 4,
-      "faturamento": 315.56,
-      "custo": 143.36,
-      "title": "Casaco Moletom Masculino Hugo Jobs Com Ziper E Cap",
-      "taxa_ml": 27.72,
-      "full_unit_price": 78.89,
-      "lucro": 172.2,
-      "margem_pct": 54.6,
-      "score": 88
     },
     {
       "vendas": 4,
@@ -81,12 +81,12 @@
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 58,
-      "faturamento": 3828.95,
-      "custo": 2078.72,
-      "taxa_ml": 272.47,
-      "pct": 93.4,
-      "margem_pct": 45.7
+      "vendas": 60,
+      "faturamento": 3974.77,
+      "custo": 2150.4,
+      "taxa_ml": 283.42,
+      "pct": 93.6,
+      "margem_pct": 45.9
     },
     {
       "nome": "Acessórios",
@@ -94,7 +94,7 @@
       "faturamento": 272.64,
       "custo": 127.82,
       "taxa_ml": 25.17,
-      "pct": 6.6,
+      "pct": 6.4,
       "margem_pct": 53.1
     }
   ],
@@ -130,7 +130,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 63,
+    "total_orders_fetched": 65,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -148,16 +148,16 @@
     "tacos": 1.0
   },
   "mes": {
-    "vendas": 1442,
-    "faturamento": 99839.82,
-    "taxa_ml": 8283.25,
-    "faturamento_menos_taxa": 91556.57,
+    "vendas": 1443,
+    "faturamento": 99906.75,
+    "taxa_ml": 8287.27,
+    "faturamento_menos_taxa": 91619.48,
     "ticket_medio": 69.24,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 99839.82,
+    "organic_revenue": 99906.75,
     "acos": 0,
     "tacos": 0.4,
     "chart": {
@@ -199,7 +199,7 @@
         88,
         67,
         99,
-        61
+        62
       ],
       "faturamento": [
         3474.15,
@@ -219,7 +219,7 @@
         5417.43,
         4370.21,
         6134.39,
-        4018.49
+        4085.42
       ]
     }
   }
