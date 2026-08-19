@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-08-19T12:25:18.958828",
+  "updated_at": "2026-08-19T13:23:08.993047",
   "kpis": {
-    "faturamento_hoje": 747.87,
-    "vendas_hoje": 13,
-    "ticket_medio": 57.53,
-    "cmv_total": 430.76,
-    "lucro_bruto": 317.11,
-    "margem_pct_real": 42.4,
-    "lucro_por_pedido": 24.39,
-    "taxa_ml_total": 49.17,
-    "shipping_total": 185.73,
-    "faturamento_liquido": 512.97,
-    "margem_liquida_pct": 11.0,
-    "lucro_liquido": 82.21,
+    "faturamento_hoje": 932.48,
+    "vendas_hoje": 16,
+    "ticket_medio": 58.28,
+    "cmv_total": 520.7,
+    "lucro_bruto": 411.78,
+    "margem_pct_real": 44.2,
+    "lucro_por_pedido": 25.74,
+    "taxa_ml_total": 63.43,
+    "shipping_total": 208.38,
+    "faturamento_liquido": 660.67,
+    "margem_liquida_pct": 15.0,
+    "lucro_liquido": 139.97,
     "vendas_semana": 526,
     "faturamento_semana": 32874.86,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 747.87,
+    "organic_revenue": 932.48,
     "acos": 0,
-    "tacos": 49.5
+    "tacos": 39.7
   },
   "top5": [
     {
@@ -34,6 +34,17 @@
       "score": 84
     },
     {
+      "vendas": 3,
+      "faturamento": 116.37,
+      "custo": 54.78,
+      "title": "Carteira Couro Legítimo Slim 8 Porta Cartões E Cnh",
+      "taxa_ml": 9.93,
+      "full_unit_price": 38.79,
+      "lucro": 61.59,
+      "margem_pct": 52.9,
+      "score": 86
+    },
+    {
       "vendas": 1,
       "faturamento": 78.89,
       "custo": 35.84,
@@ -45,15 +56,15 @@
       "score": 82
     },
     {
-      "vendas": 2,
-      "faturamento": 77.58,
-      "custo": 36.52,
-      "title": "Carteira Couro Legítimo Slim 8 Porta Cartões E Cnh",
-      "taxa_ml": 6.62,
-      "full_unit_price": 38.79,
-      "lucro": 41.06,
-      "margem_pct": 52.9,
-      "score": 84
+      "vendas": 1,
+      "faturamento": 78.89,
+      "custo": 35.84,
+      "title": "Casaco Moletom Masculino Hugo Jobs Com Ziper E Cap",
+      "taxa_ml": 6.93,
+      "full_unit_price": 78.89,
+      "lucro": 43.05,
+      "margem_pct": 54.6,
+      "score": 82
     },
     {
       "vendas": 1,
@@ -65,36 +76,25 @@
       "lucro": 32.16,
       "margem_pct": 47.3,
       "score": 82
-    },
-    {
-      "vendas": 1,
-      "faturamento": 66.93,
-      "custo": 35.84,
-      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 5.36,
-      "full_unit_price": 66.93,
-      "lucro": 31.09,
-      "margem_pct": 46.5,
-      "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 11,
-      "faturamento": 670.29,
-      "custo": 394.24,
-      "taxa_ml": 42.55,
-      "pct": 89.6,
-      "margem_pct": 41.2
+      "vendas": 13,
+      "faturamento": 816.11,
+      "custo": 465.92,
+      "taxa_ml": 53.5,
+      "pct": 87.5,
+      "margem_pct": 42.9
     },
     {
       "nome": "Acessórios",
-      "vendas": 2,
-      "faturamento": 77.58,
-      "custo": 36.52,
-      "taxa_ml": 6.62,
-      "pct": 10.4,
+      "vendas": 3,
+      "faturamento": 116.37,
+      "custo": 54.78,
+      "taxa_ml": 9.93,
+      "pct": 12.5,
       "margem_pct": 52.9
     }
   ],
@@ -130,7 +130,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 13,
+    "total_orders_fetched": 16,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -148,16 +148,16 @@
     "tacos": 1.1
   },
   "mes": {
-    "vendas": 1485,
-    "faturamento": 102326.03,
-    "taxa_ml": 8446.1,
-    "faturamento_menos_taxa": 93879.93,
-    "ticket_medio": 68.91,
+    "vendas": 1488,
+    "faturamento": 102510.64,
+    "taxa_ml": 8460.36,
+    "faturamento_menos_taxa": 94050.28,
+    "ticket_medio": 68.89,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 102326.03,
+    "organic_revenue": 102510.64,
     "acos": 0,
     "tacos": 0.4,
     "chart": {
@@ -201,7 +201,7 @@
         67,
         99,
         92,
-        13
+        16
       ],
       "faturamento": [
         3474.15,
@@ -222,7 +222,7 @@
         4370.21,
         6134.39,
         5825.83,
-        747.87
+        932.48
       ]
     }
   }
