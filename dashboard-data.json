@@ -1,36 +1,36 @@
 {
-  "updated_at": "2026-08-19T19:28:31.155265",
+  "updated_at": "2026-08-19T19:49:14.284538",
   "kpis": {
-    "faturamento_hoje": 2190.32,
-    "vendas_hoje": 39,
-    "ticket_medio": 56.16,
-    "cmv_total": 1222.64,
-    "lucro_bruto": 967.68,
-    "margem_pct_real": 44.2,
-    "lucro_por_pedido": 24.81,
-    "taxa_ml_total": 162.06,
-    "shipping_total": 410.65,
-    "faturamento_liquido": 1617.61,
-    "margem_liquida_pct": 18.0,
-    "lucro_liquido": 394.97,
+    "faturamento_hoje": 2351.64,
+    "vendas_hoje": 42,
+    "ticket_medio": 55.99,
+    "cmv_total": 1348.42,
+    "lucro_bruto": 1003.22,
+    "margem_pct_real": 42.7,
+    "lucro_por_pedido": 23.89,
+    "taxa_ml_total": 177.17,
+    "shipping_total": 451.38,
+    "faturamento_liquido": 1723.09,
+    "margem_liquida_pct": 15.9,
+    "lucro_liquido": 374.67,
     "vendas_semana": 526,
     "faturamento_semana": 32874.86,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 2190.32,
+    "organic_revenue": 2351.64,
     "acos": 0,
-    "tacos": 16.9
+    "tacos": 15.7
   },
   "top5": [
     {
-      "vendas": 12,
-      "faturamento": 459.68,
-      "custo": 219.12,
+      "vendas": 13,
+      "faturamento": 498.47,
+      "custo": 237.38,
       "title": "Carteira Couro Legítimo Slim 8 Porta Cartões E Cnh",
-      "taxa_ml": 43.14,
-      "full_unit_price": 35.89,
-      "lucro": 240.56,
-      "margem_pct": 52.3,
+      "taxa_ml": 46.45,
+      "full_unit_price": 38.79,
+      "lucro": 261.09,
+      "margem_pct": 52.4,
       "score": 99
     },
     {
@@ -56,6 +56,17 @@
       "score": 88
     },
     {
+      "vendas": 5,
+      "faturamento": 256.39,
+      "custo": 179.2,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 19.84,
+      "full_unit_price": 27.8,
+      "lucro": 77.19,
+      "margem_pct": 30.1,
+      "score": 90
+    },
+    {
       "vendas": 3,
       "faturamento": 200.79,
       "custo": 107.52,
@@ -65,37 +76,26 @@
       "lucro": 93.27,
       "margem_pct": 46.5,
       "score": 86
-    },
-    {
-      "vendas": 3,
-      "faturamento": 179.82,
-      "custo": 107.52,
-      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 3.6,
-      "full_unit_price": 59.94,
-      "lucro": 72.3,
-      "margem_pct": 40.2,
-      "score": 86
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 28,
-      "faturamento": 1730.64,
-      "custo": 1003.52,
-      "taxa_ml": 118.92,
-      "pct": 79.0,
-      "margem_pct": 42.0
+      "vendas": 31,
+      "faturamento": 1853.17,
+      "custo": 1111.04,
+      "taxa_ml": 130.72,
+      "pct": 78.8,
+      "margem_pct": 40.0
     },
     {
       "nome": "Acessórios",
-      "vendas": 12,
-      "faturamento": 459.68,
-      "custo": 219.12,
-      "taxa_ml": 43.14,
-      "pct": 21.0,
-      "margem_pct": 52.3
+      "vendas": 13,
+      "faturamento": 498.47,
+      "custo": 237.38,
+      "taxa_ml": 46.45,
+      "pct": 21.2,
+      "margem_pct": 52.4
     }
   ],
   "chart": {
@@ -130,7 +130,7 @@
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 39,
+    "total_orders_fetched": 42,
     "pads_campaigns_found": true
   },
   "semana": {
@@ -148,16 +148,16 @@
     "tacos": 1.1
   },
   "mes": {
-    "vendas": 1511,
-    "faturamento": 103768.48,
-    "taxa_ml": 8549.25,
-    "faturamento_menos_taxa": 95219.23,
-    "ticket_medio": 68.68,
+    "vendas": 1514,
+    "faturamento": 103929.8,
+    "taxa_ml": 8560.47,
+    "faturamento_menos_taxa": 95369.33,
+    "ticket_medio": 68.65,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 103768.48,
+    "organic_revenue": 103929.8,
     "acos": 0,
     "tacos": 0.4,
     "chart": {
@@ -201,7 +201,7 @@
         67,
         99,
         92,
-        39
+        42
       ],
       "faturamento": [
         3474.15,
@@ -222,7 +222,7 @@
         4370.21,
         6134.39,
         5825.83,
-        2190.32
+        2351.64
       ]
     }
   }
