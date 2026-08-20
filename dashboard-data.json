@@ -1,28 +1,50 @@
 {
-  "updated_at": "2026-08-20T04:49:50.804546",
+  "updated_at": "2026-08-20T05:21:36.625718",
   "kpis": {
-    "faturamento_hoje": 0,
-    "vendas_hoje": 0,
-    "ticket_medio": 0,
-    "cmv_total": 0,
-    "lucro_bruto": 0,
-    "margem_pct_real": 0,
-    "lucro_por_pedido": 0,
-    "taxa_ml_total": 0,
-    "shipping_total": 0,
-    "faturamento_liquido": 0,
-    "margem_liquida_pct": 0,
-    "lucro_liquido": 0,
-    "vendas_semana": 493,
-    "faturamento_semana": 30659.36,
+    "faturamento_hoje": 58.1,
+    "vendas_hoje": 1,
+    "ticket_medio": 58.1,
+    "cmv_total": 26.91,
+    "lucro_bruto": 31.19,
+    "margem_pct_real": 53.7,
+    "lucro_por_pedido": 31.19,
+    "taxa_ml_total": 4,
+    "shipping_total": 19.94,
+    "faturamento_liquido": 34.16,
+    "margem_liquida_pct": 12.5,
+    "lucro_liquido": 7.25,
+    "vendas_semana": 494,
+    "faturamento_semana": 30717.46,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 0.0,
+    "organic_revenue": 58.1,
     "acos": 0,
-    "tacos": 0
+    "tacos": 636.8
   },
-  "top5": [],
-  "categories": [],
+  "top5": [
+    {
+      "vendas": 1,
+      "faturamento": 58.1,
+      "custo": 26.91,
+      "title": "Conjunto Moletom Infantil Hugo Jobs Calca Jogger F",
+      "taxa_ml": 4,
+      "full_unit_price": 58.1,
+      "lucro": 31.19,
+      "margem_pct": 53.7,
+      "score": 82
+    }
+  ],
+  "categories": [
+    {
+      "nome": "Vestuário Infantil",
+      "vendas": 1,
+      "faturamento": 58.1,
+      "custo": 26.91,
+      "taxa_ml": 4,
+      "pct": 100.0,
+      "margem_pct": 53.7
+    }
+  ],
   "chart": {
     "labels": [
       "Sex (14)",
@@ -40,7 +62,7 @@
       99,
       92,
       72,
-      0
+      1
     ],
     "faturamento": [
       4592.44,
@@ -49,42 +71,42 @@
       6134.39,
       5825.83,
       4197.6,
-      0
+      58.1
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 0,
+    "total_orders_fetched": 1,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 493,
-    "faturamento": 30659.36,
-    "taxa_ml": 2094.96,
-    "faturamento_menos_taxa": 28564.4,
-    "ticket_medio": 62.19,
+    "vendas": 494,
+    "faturamento": 30717.46,
+    "taxa_ml": 2098.96,
+    "faturamento_menos_taxa": 28618.5,
+    "ticket_medio": 62.18,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 30659.36,
+    "organic_revenue": 30717.46,
     "acos": 0,
     "tacos": 1.2
   },
   "mes": {
-    "vendas": 1543,
-    "faturamento": 105699.28,
-    "taxa_ml": 8666.31,
-    "faturamento_menos_taxa": 97032.97,
+    "vendas": 1544,
+    "faturamento": 105757.38,
+    "taxa_ml": 8670.31,
+    "faturamento_menos_taxa": 97087.07,
     "ticket_medio": 68.5,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 105699.28,
+    "organic_revenue": 105757.38,
     "acos": 0,
-    "tacos": 0.4,
+    "tacos": 0.3,
     "chart": {
       "labels": [
         "Sáb (01)",
@@ -128,7 +150,7 @@
         99,
         92,
         72,
-        0
+        1
       ],
       "faturamento": [
         3474.15,
@@ -150,7 +172,7 @@
         6134.39,
         5825.83,
         4197.6,
-        0
+        58.1
       ]
     }
   }
