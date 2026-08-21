@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-08-21T10:57:57.259486",
+  "updated_at": "2026-08-21T11:49:31.909953",
   "kpis": {
-    "faturamento_hoje": 523.36,
-    "vendas_hoje": 9,
-    "ticket_medio": 58.15,
-    "cmv_total": 304.98,
-    "lucro_bruto": 218.38,
-    "margem_pct_real": 41.7,
-    "lucro_por_pedido": 24.26,
-    "taxa_ml_total": 35.18,
-    "shipping_total": 80.34,
-    "faturamento_liquido": 407.84,
-    "margem_liquida_pct": 19.7,
-    "lucro_liquido": 102.86,
-    "vendas_semana": 498,
-    "faturamento_semana": 31289.64,
+    "faturamento_hoje": 562.15,
+    "vendas_hoje": 10,
+    "ticket_medio": 56.21,
+    "cmv_total": 323.24,
+    "lucro_bruto": 238.91,
+    "margem_pct_real": 42.5,
+    "lucro_por_pedido": 23.89,
+    "taxa_ml_total": 38.49,
+    "shipping_total": 86.89,
+    "faturamento_liquido": 436.77,
+    "margem_liquida_pct": 20.2,
+    "lucro_liquido": 113.53,
+    "vendas_semana": 499,
+    "faturamento_semana": 31328.43,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 523.36,
+    "organic_revenue": 562.15,
     "acos": 0,
-    "tacos": 70.7
+    "tacos": 65.8
   },
   "top5": [
     {
@@ -45,6 +45,17 @@
       "score": 82
     },
     {
+      "vendas": 2,
+      "faturamento": 77.58,
+      "custo": 36.52,
+      "title": "Carteira Couro Legítimo Slim 8 Porta Cartões E Cnh",
+      "taxa_ml": 6.62,
+      "full_unit_price": 38.79,
+      "lucro": 41.06,
+      "margem_pct": 52.9,
+      "score": 84
+    },
+    {
       "vendas": 1,
       "faturamento": 66.93,
       "custo": 35.84,
@@ -65,17 +76,6 @@
       "lucro": 31.09,
       "margem_pct": 46.5,
       "score": 82
-    },
-    {
-      "vendas": 1,
-      "faturamento": 62,
-      "custo": 35.84,
-      "title": "Kit 3 Camisetas 100% Algodão Estilosa Hugo Jobs Mi",
-      "taxa_ml": 4.96,
-      "full_unit_price": 62,
-      "lucro": 26.16,
-      "margem_pct": 42.2,
-      "score": 82
     }
   ],
   "categories": [
@@ -85,16 +85,16 @@
       "faturamento": 484.57,
       "custo": 286.72,
       "taxa_ml": 31.87,
-      "pct": 92.6,
+      "pct": 86.2,
       "margem_pct": 40.8
     },
     {
       "nome": "Acessórios",
-      "vendas": 1,
-      "faturamento": 38.79,
-      "custo": 18.26,
-      "taxa_ml": 3.31,
-      "pct": 7.4,
+      "vendas": 2,
+      "faturamento": 77.58,
+      "custo": 36.52,
+      "taxa_ml": 6.62,
+      "pct": 13.8,
       "margem_pct": 52.9
     }
   ],
@@ -115,7 +115,7 @@
       92,
       72,
       70,
-      8
+      9
     ],
     "faturamento": [
       5417.43,
@@ -124,40 +124,40 @@
       5825.83,
       4197.6,
       4748.97,
-      456.43
+      495.22
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 9,
+    "total_orders_fetched": 10,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 498,
-    "faturamento": 31289.64,
-    "taxa_ml": 2156.77,
-    "faturamento_menos_taxa": 29132.87,
-    "ticket_medio": 62.83,
+    "vendas": 499,
+    "faturamento": 31328.43,
+    "taxa_ml": 2160.08,
+    "faturamento_menos_taxa": 29168.35,
+    "ticket_medio": 62.78,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 31289.64,
+    "organic_revenue": 31328.43,
     "acos": 0,
     "tacos": 1.2
   },
   "mes": {
-    "vendas": 1617,
-    "faturamento": 110633.43,
-    "taxa_ml": 9010.41,
-    "faturamento_menos_taxa": 101623.02,
-    "ticket_medio": 68.42,
+    "vendas": 1618,
+    "faturamento": 110672.22,
+    "taxa_ml": 9013.72,
+    "faturamento_menos_taxa": 101658.5,
+    "ticket_medio": 68.4,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 110633.43,
+    "organic_revenue": 110672.22,
     "acos": 0,
     "tacos": 0.3,
     "chart": {
@@ -205,7 +205,7 @@
         92,
         72,
         70,
-        8
+        9
       ],
       "faturamento": [
         3474.15,
@@ -228,7 +228,7 @@
         5825.83,
         4197.6,
         4748.97,
-        456.43
+        495.22
       ]
     }
   }
