@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-08-22T09:03:56.974612",
+  "updated_at": "2026-08-22T09:38:59.595894",
   "kpis": {
-    "faturamento_hoje": 426.47,
-    "vendas_hoje": 6,
-    "ticket_medio": 71.08,
-    "cmv_total": 206.79,
-    "lucro_bruto": 219.68,
-    "margem_pct_real": 51.5,
-    "lucro_por_pedido": 36.61,
-    "taxa_ml_total": 32.11,
-    "shipping_total": 53.25,
-    "faturamento_liquido": 341.11,
-    "margem_liquida_pct": 31.5,
-    "lucro_liquido": 134.32,
-    "vendas_semana": 463,
-    "faturamento_semana": 29061.64,
+    "faturamento_hoje": 482.8,
+    "vendas_hoje": 7,
+    "ticket_medio": 68.97,
+    "cmv_total": 233.7,
+    "lucro_bruto": 249.1,
+    "margem_pct_real": 51.6,
+    "lucro_por_pedido": 35.59,
+    "taxa_ml_total": 40.0,
+    "shipping_total": 61.2,
+    "faturamento_liquido": 381.6,
+    "margem_liquida_pct": 30.6,
+    "lucro_liquido": 147.9,
+    "vendas_semana": 464,
+    "faturamento_semana": 29117.97,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 426.47,
+    "organic_revenue": 482.8,
     "acos": 0,
-    "tacos": 86.8
+    "tacos": 76.6
   },
   "top5": [
     {
@@ -68,13 +68,13 @@
     },
     {
       "vendas": 1,
-      "faturamento": 56,
+      "faturamento": 56.33,
       "custo": 26.91,
       "title": "Conjunto Moletom Infantil Hugo Jobs Calca Jogger F",
-      "taxa_ml": 3.44,
-      "full_unit_price": 56,
-      "lucro": 29.09,
-      "margem_pct": 51.9,
+      "taxa_ml": 7.89,
+      "full_unit_price": 56.33,
+      "lucro": 29.42,
+      "margem_pct": 52.2,
       "score": 82
     }
   ],
@@ -85,8 +85,17 @@
       "faturamento": 292.89,
       "custo": 143.36,
       "taxa_ml": 22.05,
-      "pct": 68.7,
+      "pct": 60.7,
       "margem_pct": 51.1
+    },
+    {
+      "nome": "Vestuário Infantil",
+      "vendas": 2,
+      "faturamento": 112.33,
+      "custo": 53.82,
+      "taxa_ml": 11.33,
+      "pct": 23.3,
+      "margem_pct": 52.1
     },
     {
       "nome": "Acessórios",
@@ -94,17 +103,8 @@
       "faturamento": 77.58,
       "custo": 36.52,
       "taxa_ml": 6.62,
-      "pct": 18.2,
+      "pct": 16.1,
       "margem_pct": 52.9
-    },
-    {
-      "nome": "Vestuário Infantil",
-      "vendas": 1,
-      "faturamento": 56,
-      "custo": 26.91,
-      "taxa_ml": 3.44,
-      "pct": 13.1,
-      "margem_pct": 51.9
     }
   ],
   "chart": {
@@ -124,7 +124,7 @@
       72,
       69,
       57,
-      5
+      6
     ],
     "faturamento": [
       4370.21,
@@ -133,40 +133,40 @@
       4197.6,
       4682.04,
       3358.17,
-      387.68
+      444.01
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 6,
+    "total_orders_fetched": 7,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 463,
-    "faturamento": 29061.64,
-    "taxa_ml": 1995.06,
-    "faturamento_menos_taxa": 27066.58,
-    "ticket_medio": 62.77,
+    "vendas": 464,
+    "faturamento": 29117.97,
+    "taxa_ml": 2002.95,
+    "faturamento_menos_taxa": 27115.02,
+    "ticket_medio": 62.75,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 29061.64,
+    "organic_revenue": 29117.97,
     "acos": 0,
     "tacos": 1.3
   },
   "mes": {
-    "vendas": 1669,
-    "faturamento": 113808.39,
-    "taxa_ml": 9224.64,
-    "faturamento_menos_taxa": 104583.75,
-    "ticket_medio": 68.19,
+    "vendas": 1670,
+    "faturamento": 113864.72,
+    "taxa_ml": 9232.53,
+    "faturamento_menos_taxa": 104632.19,
+    "ticket_medio": 68.18,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 113808.39,
+    "organic_revenue": 113864.72,
     "acos": 0,
     "tacos": 0.3,
     "chart": {
@@ -216,7 +216,7 @@
         72,
         69,
         57,
-        5
+        6
       ],
       "faturamento": [
         3474.15,
@@ -240,7 +240,7 @@
         4197.6,
         4682.04,
         3358.17,
-        387.68
+        444.01
       ]
     }
   }
