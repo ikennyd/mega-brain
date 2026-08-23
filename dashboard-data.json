@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-08-23T15:35:19.080268",
+  "updated_at": "2026-08-23T15:56:00.487261",
   "kpis": {
-    "faturamento_hoje": 1415.93,
-    "vendas_hoje": 23,
-    "ticket_medio": 61.56,
-    "cmv_total": 932.52,
-    "lucro_bruto": 483.41,
-    "margem_pct_real": 34.1,
-    "lucro_por_pedido": 21.02,
-    "taxa_ml_total": 131.31,
-    "shipping_total": 256.01,
-    "faturamento_liquido": 1028.61,
-    "margem_liquida_pct": 6.8,
-    "lucro_liquido": 96.09,
-    "vendas_semana": 470,
-    "faturamento_semana": 29174.47,
+    "faturamento_hoje": 1533.61,
+    "vendas_hoje": 25,
+    "ticket_medio": 61.34,
+    "cmv_total": 986.62,
+    "lucro_bruto": 546.99,
+    "margem_pct_real": 35.7,
+    "lucro_por_pedido": 21.88,
+    "taxa_ml_total": 141.55,
+    "shipping_total": 270.61,
+    "faturamento_liquido": 1121.45,
+    "margem_liquida_pct": 8.8,
+    "lucro_liquido": 134.83,
+    "vendas_semana": 472,
+    "faturamento_semana": 29292.15,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 1415.93,
+    "organic_revenue": 1533.61,
     "acos": 0,
-    "tacos": 26.1
+    "tacos": 24.1
   },
   "top5": [
     {
@@ -67,34 +67,34 @@
       "score": 86
     },
     {
-      "vendas": 3,
-      "faturamento": 122.53,
-      "custo": 107.52,
-      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 11.8,
-      "full_unit_price": 27.8,
-      "lucro": 15.01,
-      "margem_pct": 12.3,
-      "score": 86
+      "vendas": 2,
+      "faturamento": 157.78,
+      "custo": 71.68,
+      "title": "Casaco Moletom Masculino Hugo Jobs Com Ziper E Cap",
+      "taxa_ml": 13.86,
+      "full_unit_price": 78.89,
+      "lucro": 86.1,
+      "margem_pct": 54.6,
+      "score": 84
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 25,
-      "faturamento": 1338.35,
-      "custo": 896.0,
-      "taxa_ml": 124.69,
-      "pct": 94.5,
-      "margem_pct": 33.1
+      "vendas": 26,
+      "faturamento": 1417.24,
+      "custo": 931.84,
+      "taxa_ml": 131.62,
+      "pct": 92.4,
+      "margem_pct": 34.2
     },
     {
       "nome": "Acessórios",
-      "vendas": 2,
-      "faturamento": 77.58,
-      "custo": 36.52,
-      "taxa_ml": 6.62,
-      "pct": 5.5,
+      "vendas": 3,
+      "faturamento": 116.37,
+      "custo": 54.78,
+      "taxa_ml": 9.93,
+      "pct": 7.6,
       "margem_pct": 52.9
     }
   ],
@@ -115,7 +115,7 @@
       68,
       57,
       57,
-      23
+      25
     ],
     "faturamento": [
       6134.39,
@@ -124,40 +124,40 @@
       4615.11,
       3358.17,
       3550.13,
-      1415.93
+      1533.61
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 24,
+    "total_orders_fetched": 26,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 470,
-    "faturamento": 29174.47,
-    "taxa_ml": 2070.05,
-    "faturamento_menos_taxa": 27104.42,
-    "ticket_medio": 62.07,
+    "vendas": 472,
+    "faturamento": 29292.15,
+    "taxa_ml": 2080.29,
+    "faturamento_menos_taxa": 27211.86,
+    "ticket_medio": 62.06,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 29174.47,
+    "organic_revenue": 29292.15,
     "acos": 0,
     "tacos": 1.3
   },
   "mes": {
-    "vendas": 1741,
-    "faturamento": 118213.05,
-    "taxa_ml": 9559.5,
-    "faturamento_menos_taxa": 108653.55,
-    "ticket_medio": 67.9,
+    "vendas": 1743,
+    "faturamento": 118330.73,
+    "taxa_ml": 9569.74,
+    "faturamento_menos_taxa": 108760.99,
+    "ticket_medio": 67.89,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 118213.05,
+    "organic_revenue": 118330.73,
     "acos": 0,
     "tacos": 0.3,
     "chart": {
@@ -209,7 +209,7 @@
         68,
         57,
         57,
-        23
+        25
       ],
       "faturamento": [
         3474.15,
@@ -234,7 +234,7 @@
         4615.11,
         3358.17,
         3550.13,
-        1415.93
+        1533.61
       ]
     }
   }
