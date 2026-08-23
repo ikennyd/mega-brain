@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-08-23T16:15:54.243969",
+  "updated_at": "2026-08-23T16:48:11.476970",
   "kpis": {
-    "faturamento_hoje": 1533.61,
-    "vendas_hoje": 25,
-    "ticket_medio": 61.34,
-    "cmv_total": 986.62,
-    "lucro_bruto": 546.99,
-    "margem_pct_real": 35.7,
-    "lucro_por_pedido": 21.88,
-    "taxa_ml_total": 141.55,
-    "shipping_total": 270.61,
-    "faturamento_liquido": 1121.45,
-    "margem_liquida_pct": 8.8,
-    "lucro_liquido": 134.83,
-    "vendas_semana": 472,
-    "faturamento_semana": 29296.91,
+    "faturamento_hoje": 1611.19,
+    "vendas_hoje": 27,
+    "ticket_medio": 59.67,
+    "cmv_total": 1023.14,
+    "lucro_bruto": 588.05,
+    "margem_pct_real": 36.5,
+    "lucro_por_pedido": 21.78,
+    "taxa_ml_total": 148.17,
+    "shipping_total": 283.71,
+    "faturamento_liquido": 1179.31,
+    "margem_liquida_pct": 9.7,
+    "lucro_liquido": 156.17,
+    "vendas_semana": 474,
+    "faturamento_semana": 29369.73,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 1533.61,
+    "organic_revenue": 1611.19,
     "acos": 0,
-    "tacos": 24.1
+    "tacos": 23.0
   },
   "top5": [
     {
@@ -32,6 +32,17 @@
       "lucro": 128.3,
       "margem_pct": 64.2,
       "score": 84
+    },
+    {
+      "vendas": 5,
+      "faturamento": 193.95,
+      "custo": 91.3,
+      "title": "Carteira Couro Legítimo Slim 8 Porta Cartões E Cnh",
+      "taxa_ml": 16.55,
+      "full_unit_price": 38.79,
+      "lucro": 102.65,
+      "margem_pct": 52.9,
+      "score": 90
     },
     {
       "vendas": 4,
@@ -65,17 +76,6 @@
       "lucro": 72.3,
       "margem_pct": 40.2,
       "score": 86
-    },
-    {
-      "vendas": 2,
-      "faturamento": 157.78,
-      "custo": 71.68,
-      "title": "Casaco Moletom Masculino Hugo Jobs Com Ziper E Cap",
-      "taxa_ml": 13.86,
-      "full_unit_price": 78.89,
-      "lucro": 86.1,
-      "margem_pct": 54.6,
-      "score": 84
     }
   ],
   "categories": [
@@ -85,16 +85,16 @@
       "faturamento": 1417.24,
       "custo": 931.84,
       "taxa_ml": 131.62,
-      "pct": 92.4,
+      "pct": 88.0,
       "margem_pct": 34.2
     },
     {
       "nome": "Acessórios",
-      "vendas": 3,
-      "faturamento": 116.37,
-      "custo": 54.78,
-      "taxa_ml": 9.93,
-      "pct": 7.6,
+      "vendas": 5,
+      "faturamento": 193.95,
+      "custo": 91.3,
+      "taxa_ml": 16.55,
+      "pct": 12.0,
       "margem_pct": 52.9
     }
   ],
@@ -115,49 +115,49 @@
       68,
       57,
       57,
-      25
+      27
     ],
     "faturamento": [
-      6139.15,
+      6134.39,
       5719.04,
       4197.6,
       4615.11,
       3358.17,
       3550.13,
-      1533.61
+      1611.19
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 26,
+    "total_orders_fetched": 28,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 472,
-    "faturamento": 29296.91,
-    "taxa_ml": 2080.67,
-    "faturamento_menos_taxa": 27216.24,
-    "ticket_medio": 62.07,
+    "vendas": 474,
+    "faturamento": 29369.73,
+    "taxa_ml": 2086.91,
+    "faturamento_menos_taxa": 27282.82,
+    "ticket_medio": 61.96,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 29296.91,
+    "organic_revenue": 29369.73,
     "acos": 0,
     "tacos": 1.3
   },
   "mes": {
-    "vendas": 1743,
-    "faturamento": 118330.73,
-    "taxa_ml": 9569.74,
-    "faturamento_menos_taxa": 108760.99,
-    "ticket_medio": 67.89,
+    "vendas": 1745,
+    "faturamento": 118408.31,
+    "taxa_ml": 9576.36,
+    "faturamento_menos_taxa": 108831.95,
+    "ticket_medio": 67.86,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 118330.73,
+    "organic_revenue": 118408.31,
     "acos": 0,
     "tacos": 0.3,
     "chart": {
@@ -209,7 +209,7 @@
         68,
         57,
         57,
-        25
+        27
       ],
       "faturamento": [
         3474.15,
@@ -234,7 +234,7 @@
         4615.11,
         3358.17,
         3550.13,
-        1533.61
+        1611.19
       ]
     }
   }
