@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-08-25T17:06:16.165583",
+  "updated_at": "2026-08-25T17:43:52.553772",
   "kpis": {
-    "faturamento_hoje": 1953.52,
-    "vendas_hoje": 32,
-    "ticket_medio": 61.05,
-    "cmv_total": 1006.64,
-    "lucro_bruto": 946.88,
-    "margem_pct_real": 48.5,
-    "lucro_por_pedido": 29.59,
-    "taxa_ml_total": 174.69,
-    "shipping_total": 335.69,
-    "faturamento_liquido": 1443.14,
-    "margem_liquida_pct": 22.3,
-    "lucro_liquido": 436.5,
-    "vendas_semana": 411,
-    "faturamento_semana": 25332.68,
+    "faturamento_hoje": 2091.04,
+    "vendas_hoje": 35,
+    "ticket_medio": 59.74,
+    "cmv_total": 1079.0,
+    "lucro_bruto": 1012.04,
+    "margem_pct_real": 48.4,
+    "lucro_por_pedido": 28.92,
+    "taxa_ml_total": 186.11,
+    "shipping_total": 357.84,
+    "faturamento_liquido": 1547.09,
+    "margem_liquida_pct": 22.4,
+    "lucro_liquido": 468.09,
+    "vendas_semana": 413,
+    "faturamento_semana": 25439.26,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 1953.52,
+    "organic_revenue": 2091.04,
     "acos": 0,
-    "tacos": 18.9
+    "tacos": 17.7
   },
   "top5": [
     {
@@ -34,15 +34,15 @@
       "score": 99
     },
     {
-      "vendas": 9,
-      "faturamento": 349.11,
-      "custo": 164.34,
+      "vendas": 11,
+      "faturamento": 426.69,
+      "custo": 200.86,
       "title": "Carteira Couro Legítimo Slim 8 Porta Cartões E Cnh",
-      "taxa_ml": 29.79,
+      "taxa_ml": 36.41,
       "full_unit_price": 38.79,
-      "lucro": 184.77,
+      "lucro": 225.83,
       "margem_pct": 52.9,
-      "score": 98
+      "score": 99
     },
     {
       "vendas": 3,
@@ -56,15 +56,15 @@
       "score": 86
     },
     {
-      "vendas": 4,
-      "faturamento": 239.76,
-      "custo": 143.36,
+      "vendas": 5,
+      "faturamento": 299.7,
+      "custo": 179.2,
       "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 18.78,
+      "taxa_ml": 23.58,
       "full_unit_price": 59.94,
-      "lucro": 96.4,
+      "lucro": 120.5,
       "margem_pct": 40.2,
-      "score": 88
+      "score": 90
     },
     {
       "vendas": 2,
@@ -81,20 +81,20 @@
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 22,
-      "faturamento": 1486.41,
-      "custo": 788.48,
-      "taxa_ml": 132.79,
-      "pct": 76.1,
-      "margem_pct": 47.0
+      "vendas": 23,
+      "faturamento": 1546.35,
+      "custo": 824.32,
+      "taxa_ml": 137.59,
+      "pct": 74.0,
+      "margem_pct": 46.7
     },
     {
       "nome": "Acessórios",
-      "vendas": 9,
-      "faturamento": 349.11,
-      "custo": 164.34,
-      "taxa_ml": 29.79,
-      "pct": 17.9,
+      "vendas": 11,
+      "faturamento": 426.69,
+      "custo": 200.86,
+      "taxa_ml": 36.41,
+      "pct": 20.4,
       "margem_pct": 52.9
     },
     {
@@ -103,7 +103,7 @@
       "faturamento": 118.0,
       "custo": 53.82,
       "taxa_ml": 12.11,
-      "pct": 6.0,
+      "pct": 5.6,
       "margem_pct": 54.4
     }
   ],
@@ -118,55 +118,55 @@
       "Ter (25)"
     ],
     "vendas": [
-      71,
+      70,
       68,
       57,
       57,
       56,
       70,
-      32
+      35
     ],
     "faturamento": [
-      4166.66,
+      4135.72,
       4615.11,
       3358.17,
       3550.13,
       3420.89,
       4268.2,
-      1953.52
+      2091.04
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 33,
+    "total_orders_fetched": 36,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 411,
-    "faturamento": 25332.68,
-    "taxa_ml": 1888.12,
-    "faturamento_menos_taxa": 23444.56,
-    "ticket_medio": 61.64,
+    "vendas": 413,
+    "faturamento": 25439.26,
+    "taxa_ml": 1897.1,
+    "faturamento_menos_taxa": 23542.16,
+    "ticket_medio": 61.6,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 25332.68,
+    "organic_revenue": 25439.26,
     "acos": 0,
     "tacos": 1.5
   },
   "mes": {
-    "vendas": 1872,
-    "faturamento": 126205.86,
-    "taxa_ml": 10219.62,
-    "faturamento_menos_taxa": 115986.24,
-    "ticket_medio": 67.42,
+    "vendas": 1874,
+    "faturamento": 126312.44,
+    "taxa_ml": 10228.6,
+    "faturamento_menos_taxa": 116083.84,
+    "ticket_medio": 67.4,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 126205.86,
+    "organic_revenue": 126312.44,
     "acos": 0,
     "tacos": 0.3,
     "chart": {
@@ -216,13 +216,13 @@
         66,
         99,
         89,
-        71,
+        70,
         68,
         57,
         57,
         56,
         70,
-        32
+        35
       ],
       "faturamento": [
         3474.15,
@@ -243,13 +243,13 @@
         4302.21,
         6134.39,
         5652.11,
-        4166.66,
+        4135.72,
         4615.11,
         3358.17,
         3550.13,
         3420.89,
         4268.2,
-        1953.52
+        2091.04
       ]
     }
   }
