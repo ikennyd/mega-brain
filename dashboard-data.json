@@ -1,27 +1,38 @@
 {
-  "updated_at": "2026-08-26T15:57:23.585831",
+  "updated_at": "2026-08-26T16:44:55.317447",
   "kpis": {
-    "faturamento_hoje": 983.75,
-    "vendas_hoje": 13,
-    "ticket_medio": 75.67,
-    "cmv_total": 493.51,
-    "lucro_bruto": 490.24,
-    "margem_pct_real": 49.8,
-    "lucro_por_pedido": 37.71,
-    "taxa_ml_total": 77.62,
-    "shipping_total": 166.03,
-    "faturamento_liquido": 740.1,
-    "margem_liquida_pct": 25.1,
-    "lucro_liquido": 246.59,
-    "vendas_semana": 397,
-    "faturamento_semana": 24913.12,
+    "faturamento_hoje": 1130.64,
+    "vendas_hoje": 15,
+    "ticket_medio": 75.38,
+    "cmv_total": 565.19,
+    "lucro_bruto": 565.45,
+    "margem_pct_real": 50.0,
+    "lucro_por_pedido": 37.7,
+    "taxa_ml_total": 89.99,
+    "shipping_total": 183.13,
+    "faturamento_liquido": 857.52,
+    "margem_liquida_pct": 25.9,
+    "lucro_liquido": 292.33,
+    "vendas_semana": 399,
+    "faturamento_semana": 25060.01,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 983.75,
+    "organic_revenue": 1130.64,
     "acos": 0,
-    "tacos": 37.6
+    "tacos": 32.7
   },
   "top5": [
+    {
+      "vendas": 3,
+      "faturamento": 236.67,
+      "custo": 107.52,
+      "title": "Casaco Moletom Masculino Hugo Jobs Com Ziper E Cap",
+      "taxa_ml": 20.79,
+      "full_unit_price": 78.89,
+      "lucro": 129.15,
+      "margem_pct": 54.6,
+      "score": 86
+    },
     {
       "vendas": 3,
       "faturamento": 200.79,
@@ -35,25 +46,14 @@
     },
     {
       "vendas": 2,
-      "faturamento": 157.78,
+      "faturamento": 136,
       "custo": 71.68,
-      "title": "Casaco Moletom Masculino Hugo Jobs Com Ziper E Cap",
-      "taxa_ml": 13.86,
-      "full_unit_price": 78.89,
-      "lucro": 86.1,
-      "margem_pct": 54.6,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 10.88,
+      "full_unit_price": 68,
+      "lucro": 64.32,
+      "margem_pct": 47.3,
       "score": 84
-    },
-    {
-      "vendas": 1,
-      "faturamento": 78.89,
-      "custo": 35.84,
-      "title": "Casaco Moletom Masculino Hugo Jobs Com Ziper E Cap",
-      "taxa_ml": 6.93,
-      "full_unit_price": 78.89,
-      "lucro": 43.05,
-      "margem_pct": 54.6,
-      "score": 82
     },
     {
       "vendas": 1,
@@ -81,12 +81,12 @@
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 12,
-      "faturamento": 848.07,
-      "custo": 430.08,
-      "taxa_ml": 67.0,
-      "pct": 86.2,
-      "margem_pct": 49.3
+      "vendas": 14,
+      "faturamento": 994.96,
+      "custo": 501.76,
+      "taxa_ml": 79.37,
+      "pct": 88.0,
+      "margem_pct": 49.6
     },
     {
       "nome": "Acessórios",
@@ -94,7 +94,7 @@
       "faturamento": 77.58,
       "custo": 36.52,
       "taxa_ml": 6.62,
-      "pct": 7.9,
+      "pct": 6.9,
       "margem_pct": 52.9
     },
     {
@@ -103,7 +103,7 @@
       "faturamento": 58.1,
       "custo": 26.91,
       "taxa_ml": 4,
-      "pct": 5.9,
+      "pct": 5.1,
       "margem_pct": 53.7
     }
   ],
@@ -124,7 +124,7 @@
       56,
       71,
       75,
-      13
+      15
     ],
     "faturamento": [
       4615.11,
@@ -133,26 +133,26 @@
       3420.89,
       4336.2,
       4648.87,
-      983.75
+      1130.64
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 14,
+    "total_orders_fetched": 16,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 397,
-    "faturamento": 24913.12,
-    "taxa_ml": 1895.7,
-    "faturamento_menos_taxa": 23017.42,
-    "ticket_medio": 62.75,
+    "vendas": 399,
+    "faturamento": 25060.01,
+    "taxa_ml": 1908.07,
+    "faturamento_menos_taxa": 23151.94,
+    "ticket_medio": 62.81,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 24913.12,
+    "organic_revenue": 25060.01,
     "acos": 0,
     "tacos": 1.5
   },
