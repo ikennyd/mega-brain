@@ -1,37 +1,48 @@
 {
-  "updated_at": "2026-08-26T12:39:52.767355",
+  "updated_at": "2026-08-26T13:39:15.490817",
   "kpis": {
-    "faturamento_hoje": 200.79,
-    "vendas_hoje": 2,
-    "ticket_medio": 100.4,
-    "cmv_total": 107.52,
-    "lucro_bruto": 93.27,
-    "margem_pct_real": 46.5,
-    "lucro_por_pedido": 46.64,
-    "taxa_ml_total": 12.06,
-    "shipping_total": 39.54,
-    "faturamento_liquido": 149.19,
-    "margem_liquida_pct": 20.8,
-    "lucro_liquido": 41.67,
-    "vendas_semana": 385,
-    "faturamento_semana": 24062.16,
+    "faturamento_hoje": 385.4,
+    "vendas_hoje": 5,
+    "ticket_medio": 77.08,
+    "cmv_total": 197.46,
+    "lucro_bruto": 187.94,
+    "margem_pct_real": 48.8,
+    "lucro_por_pedido": 37.59,
+    "taxa_ml_total": 26.32,
+    "shipping_total": 73.48,
+    "faturamento_liquido": 285.6,
+    "margem_liquida_pct": 22.9,
+    "lucro_liquido": 88.14,
+    "vendas_semana": 388,
+    "faturamento_semana": 24246.77,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 200.79,
+    "organic_revenue": 385.4,
     "acos": 0,
-    "tacos": 184.3
+    "tacos": 96.0
   },
   "top5": [
     {
-      "vendas": 2,
-      "faturamento": 133.86,
-      "custo": 71.68,
+      "vendas": 3,
+      "faturamento": 200.79,
+      "custo": 107.52,
       "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
-      "taxa_ml": 8.04,
+      "taxa_ml": 12.06,
       "full_unit_price": 66.93,
-      "lucro": 62.18,
+      "lucro": 93.27,
       "margem_pct": 46.5,
-      "score": 84
+      "score": 86
+    },
+    {
+      "vendas": 1,
+      "faturamento": 78.89,
+      "custo": 35.84,
+      "title": "Casaco Moletom Masculino Hugo Jobs Com Ziper E Cap",
+      "taxa_ml": 6.93,
+      "full_unit_price": 78.89,
+      "lucro": 43.05,
+      "margem_pct": 54.6,
+      "score": 82
     },
     {
       "vendas": 1,
@@ -43,17 +54,37 @@
       "lucro": 31.09,
       "margem_pct": 46.5,
       "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 38.79,
+      "custo": 18.26,
+      "title": "Carteira Couro Legítimo Slim 8 Porta Cartões E Cnh",
+      "taxa_ml": 3.31,
+      "full_unit_price": 38.79,
+      "lucro": 20.53,
+      "margem_pct": 52.9,
+      "score": 82
     }
   ],
   "categories": [
     {
       "nome": "Vestuário Adult",
-      "vendas": 3,
-      "faturamento": 200.79,
-      "custo": 107.52,
-      "taxa_ml": 12.06,
-      "pct": 100.0,
-      "margem_pct": 46.5
+      "vendas": 5,
+      "faturamento": 346.61,
+      "custo": 179.2,
+      "taxa_ml": 23.01,
+      "pct": 89.9,
+      "margem_pct": 48.3
+    },
+    {
+      "nome": "Acessórios",
+      "vendas": 1,
+      "faturamento": 38.79,
+      "custo": 18.26,
+      "taxa_ml": 3.31,
+      "pct": 10.1,
+      "margem_pct": 52.9
     }
   ],
   "chart": {
@@ -73,7 +104,7 @@
       56,
       70,
       75,
-      2
+      5
     ],
     "faturamento": [
       4615.11,
@@ -82,40 +113,40 @@
       3420.89,
       4268.2,
       4648.87,
-      200.79
+      385.4
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 2,
+    "total_orders_fetched": 6,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 385,
-    "faturamento": 24062.16,
-    "taxa_ml": 1831.63,
-    "faturamento_menos_taxa": 22230.53,
-    "ticket_medio": 62.5,
+    "vendas": 388,
+    "faturamento": 24246.77,
+    "taxa_ml": 1845.89,
+    "faturamento_menos_taxa": 22400.88,
+    "ticket_medio": 62.49,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 24062.16,
+    "organic_revenue": 24246.77,
     "acos": 0,
     "tacos": 1.5
   },
   "mes": {
-    "vendas": 1915,
-    "faturamento": 128995.5,
-    "taxa_ml": 10433.53,
-    "faturamento_menos_taxa": 118561.97,
-    "ticket_medio": 67.36,
+    "vendas": 1918,
+    "faturamento": 129180.11,
+    "taxa_ml": 10447.79,
+    "faturamento_menos_taxa": 118732.32,
+    "ticket_medio": 67.35,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 128995.5,
+    "organic_revenue": 129180.11,
     "acos": 0,
     "tacos": 0.3,
     "chart": {
@@ -173,7 +204,7 @@
         56,
         70,
         75,
-        2
+        5
       ],
       "faturamento": [
         3474.15,
@@ -201,7 +232,7 @@
         3420.89,
         4268.2,
         4648.87,
-        200.79
+        385.4
       ]
     }
   }
