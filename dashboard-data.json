@@ -1,28 +1,94 @@
 {
-  "updated_at": "2026-08-28T01:28:57.286281",
+  "updated_at": "2026-08-28T13:12:48.761721",
   "kpis": {
-    "faturamento_hoje": 0,
-    "vendas_hoje": 0,
-    "ticket_medio": 0,
-    "cmv_total": 0,
-    "lucro_bruto": 0,
-    "margem_pct_real": 0,
-    "lucro_por_pedido": 0,
-    "taxa_ml_total": 0,
-    "shipping_total": 0,
-    "faturamento_liquido": 0,
-    "margem_liquida_pct": 0,
-    "lucro_liquido": 0,
-    "vendas_semana": 348,
-    "faturamento_semana": 21624.61,
+    "faturamento_hoje": 679.54,
+    "vendas_hoje": 10,
+    "ticket_medio": 67.95,
+    "cmv_total": 358.4,
+    "lucro_bruto": 321.14,
+    "margem_pct_real": 47.3,
+    "lucro_por_pedido": 32.11,
+    "taxa_ml_total": 62.38,
+    "shipping_total": 103.88,
+    "faturamento_liquido": 513.28,
+    "margem_liquida_pct": 22.8,
+    "lucro_liquido": 154.88,
+    "vendas_semana": 360,
+    "faturamento_semana": 22409.34,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 0.0,
+    "organic_revenue": 679.54,
     "acos": 0,
-    "tacos": 0
+    "tacos": 54.4
   },
-  "top5": [],
-  "categories": [],
+  "top5": [
+    {
+      "vendas": 3,
+      "faturamento": 186,
+      "custo": 107.52,
+      "title": "Kit 3 Camisetas 100% Algodão Estilosa Hugo Jobs Mi",
+      "taxa_ml": 14.67,
+      "full_unit_price": 62,
+      "lucro": 78.48,
+      "margem_pct": 42.2,
+      "score": 86
+    },
+    {
+      "vendas": 2,
+      "faturamento": 133.86,
+      "custo": 71.68,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 8.04,
+      "full_unit_price": 66.93,
+      "lucro": 62.18,
+      "margem_pct": 46.5,
+      "score": 84
+    },
+    {
+      "vendas": 2,
+      "faturamento": 132.8,
+      "custo": 71.68,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 12.3,
+      "full_unit_price": 66.4,
+      "lucro": 61.12,
+      "margem_pct": 46.0,
+      "score": 84
+    },
+    {
+      "vendas": 1,
+      "faturamento": 78.99,
+      "custo": 35.84,
+      "title": "Blusa Moletom Estilosa Estampa Paris Hugo Jobs Gol",
+      "taxa_ml": 11.06,
+      "full_unit_price": 78.99,
+      "lucro": 43.15,
+      "margem_pct": 54.6,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 78.89,
+      "custo": 35.84,
+      "title": "Casaco Moletom Masculino Hugo Jobs Com Ziper E Cap",
+      "taxa_ml": 6.93,
+      "full_unit_price": 78.89,
+      "lucro": 43.05,
+      "margem_pct": 54.6,
+      "score": 82
+    }
+  ],
+  "categories": [
+    {
+      "nome": "Vestuário Adult",
+      "vendas": 10,
+      "faturamento": 679.54,
+      "custo": 358.4,
+      "taxa_ml": 62.38,
+      "pct": 100.0,
+      "margem_pct": 47.3
+    }
+  ],
   "chart": {
     "labels": [
       "Sáb (22)",
@@ -39,8 +105,8 @@
       70,
       75,
       49,
-      42,
-      0
+      45,
+      9
     ],
     "faturamento": [
       3423.26,
@@ -48,41 +114,41 @@
       4276.3,
       4648.87,
       3263.78,
-      2552.72,
-      0
+      2736.8,
+      600.65
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 0,
+    "total_orders_fetched": 10,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 348,
-    "faturamento": 21624.61,
-    "taxa_ml": 1733.21,
-    "faturamento_menos_taxa": 19891.4,
-    "ticket_medio": 62.14,
+    "vendas": 360,
+    "faturamento": 22409.34,
+    "taxa_ml": 1805.05,
+    "faturamento_menos_taxa": 20604.29,
+    "ticket_medio": 62.25,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 21624.61,
+    "organic_revenue": 22409.34,
     "acos": 0,
     "tacos": 1.7
   },
   "mes": {
-    "vendas": 1919,
-    "faturamento": 129310.76,
-    "taxa_ml": 10459.58,
-    "faturamento_menos_taxa": 118851.18,
+    "vendas": 1918,
+    "faturamento": 129241.76,
+    "taxa_ml": 10449.92,
+    "faturamento_menos_taxa": 118791.84,
     "ticket_medio": 67.38,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 129310.76,
+    "organic_revenue": 129241.76,
     "acos": 0,
     "tacos": 0.3,
     "chart": {
@@ -123,7 +189,7 @@
         72,
         66,
         87,
-        71,
+        70,
         110,
         53,
         94,
@@ -153,7 +219,7 @@
         5364.01,
         4696.45,
         5972.76,
-        4757.24,
+        4688.24,
         7369.82,
         3421.11,
         6595.19,
