@@ -1,27 +1,49 @@
 {
-  "updated_at": "2026-08-30T06:58:53.796991",
+  "updated_at": "2026-08-30T12:37:50.510753",
   "kpis": {
-    "faturamento_hoje": 59.9,
-    "vendas_hoje": 1,
-    "ticket_medio": 59.9,
-    "cmv_total": 35.84,
-    "lucro_bruto": 24.06,
-    "margem_pct_real": 40.2,
-    "lucro_por_pedido": 24.06,
-    "taxa_ml_total": 5.54,
-    "shipping_total": 8.45,
-    "faturamento_liquido": 45.91,
-    "margem_liquida_pct": 16.8,
-    "lucro_liquido": 10.07,
-    "vendas_semana": 330,
-    "faturamento_semana": 20562.76,
+    "faturamento_hoje": 194.69,
+    "vendas_hoje": 3,
+    "ticket_medio": 64.9,
+    "cmv_total": 96.68,
+    "lucro_bruto": 98.01,
+    "margem_pct_real": 50.3,
+    "lucro_por_pedido": 32.67,
+    "taxa_ml_total": 21.1,
+    "shipping_total": 25.35,
+    "faturamento_liquido": 148.24,
+    "margem_liquida_pct": 26.5,
+    "lucro_liquido": 51.56,
+    "vendas_semana": 332,
+    "faturamento_semana": 20697.55,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 59.9,
+    "organic_revenue": 194.69,
     "acos": 0,
-    "tacos": 617.7
+    "tacos": 190.0
   },
   "top5": [
+    {
+      "vendas": 1,
+      "faturamento": 67.86,
+      "custo": 25.0,
+      "title": "Body Splash Afrodite Garden Aura Beauty Jade Picon",
+      "taxa_ml": 11.54,
+      "full_unit_price": 67.86,
+      "lucro": 42.86,
+      "margem_pct": 63.2,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 66.93,
+      "custo": 35.84,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 4.02,
+      "full_unit_price": 66.93,
+      "lucro": 31.09,
+      "margem_pct": 46.5,
+      "score": 82
+    },
     {
       "vendas": 1,
       "faturamento": 59.9,
@@ -37,12 +59,21 @@
   "categories": [
     {
       "nome": "Vestuário Adult",
+      "vendas": 2,
+      "faturamento": 126.83,
+      "custo": 71.68,
+      "taxa_ml": 9.56,
+      "pct": 65.1,
+      "margem_pct": 43.5
+    },
+    {
+      "nome": "Outros",
       "vendas": 1,
-      "faturamento": 59.9,
-      "custo": 35.84,
-      "taxa_ml": 5.54,
-      "pct": 100.0,
-      "margem_pct": 40.2
+      "faturamento": 67.86,
+      "custo": 25.0,
+      "taxa_ml": 11.54,
+      "pct": 34.9,
+      "margem_pct": 63.2
     }
   ],
   "chart": {
@@ -62,7 +93,7 @@
       45,
       51,
       41,
-      0
+      2
     ],
     "faturamento": [
       4208.3,
@@ -71,26 +102,26 @@
       2736.8,
       3147.89,
       2577.15,
-      0
+      134.79
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 1,
+    "total_orders_fetched": 3,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 330,
-    "faturamento": 20562.76,
-    "taxa_ml": 1649.92,
-    "faturamento_menos_taxa": 18912.84,
-    "ticket_medio": 62.31,
+    "vendas": 332,
+    "faturamento": 20697.55,
+    "taxa_ml": 1665.48,
+    "faturamento_menos_taxa": 19032.07,
+    "ticket_medio": 62.34,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 20562.76,
+    "organic_revenue": 20697.55,
     "acos": 0,
     "tacos": 1.8
   },
