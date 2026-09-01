@@ -1,27 +1,60 @@
 {
-  "updated_at": "2026-09-01T06:59:56.233195",
+  "updated_at": "2026-09-01T12:25:53.461874",
   "kpis": {
-    "faturamento_hoje": 233.48,
-    "vendas_hoje": 4,
-    "ticket_medio": 58.37,
-    "cmv_total": 106.01,
-    "lucro_bruto": 127.47,
-    "margem_pct_real": 54.6,
-    "lucro_por_pedido": 31.87,
-    "taxa_ml_total": 27.26,
-    "shipping_total": 36.39,
-    "faturamento_liquido": 169.83,
-    "margem_liquida_pct": 27.3,
-    "lucro_liquido": 63.82,
-    "vendas_semana": 321,
-    "faturamento_semana": 20702.01,
+    "faturamento_hoje": 826.08,
+    "vendas_hoje": 14,
+    "ticket_medio": 59.01,
+    "cmv_total": 420.04,
+    "lucro_bruto": 406.04,
+    "margem_pct_real": 49.2,
+    "lucro_por_pedido": 29.0,
+    "taxa_ml_total": 92.46,
+    "shipping_total": 132.46,
+    "faturamento_liquido": 601.16,
+    "margem_liquida_pct": 21.9,
+    "lucro_liquido": 181.12,
+    "vendas_semana": 331,
+    "faturamento_semana": 21294.61,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 233.48,
+    "organic_revenue": 826.08,
     "acos": 0,
-    "tacos": 158.5
+    "tacos": 44.8
   },
   "top5": [
+    {
+      "vendas": 2,
+      "faturamento": 127.4,
+      "custo": 71.68,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 17.56,
+      "full_unit_price": 63.7,
+      "lucro": 55.72,
+      "margem_pct": 43.7,
+      "score": 84
+    },
+    {
+      "vendas": 2,
+      "faturamento": 119.88,
+      "custo": 71.68,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 9.6,
+      "full_unit_price": 59.94,
+      "lucro": 48.2,
+      "margem_pct": 40.2,
+      "score": 84
+    },
+    {
+      "vendas": 2,
+      "faturamento": 77.58,
+      "custo": 36.52,
+      "title": "Carteira Couro Legítimo Slim 8 Porta Cartões E Cnh",
+      "taxa_ml": 6.62,
+      "full_unit_price": 38.79,
+      "lucro": 41.06,
+      "margem_pct": 52.9,
+      "score": 84
+    },
     {
       "vendas": 1,
       "faturamento": 67.86,
@@ -43,66 +76,44 @@
       "lucro": 31.09,
       "margem_pct": 46.5,
       "score": 82
-    },
-    {
-      "vendas": 1,
-      "faturamento": 59.9,
-      "custo": 26.91,
-      "title": "Conjunto Moletom Infantil Hugo Jobs Calca Jogger F",
-      "taxa_ml": 8.39,
-      "full_unit_price": 59.9,
-      "lucro": 32.99,
-      "margem_pct": 55.1,
-      "score": 82
-    },
-    {
-      "vendas": 1,
-      "faturamento": 38.79,
-      "custo": 18.26,
-      "title": "Carteira Couro Legítimo Slim 8 Porta Cartões E Cnh",
-      "taxa_ml": 3.31,
-      "full_unit_price": 38.79,
-      "lucro": 20.53,
-      "margem_pct": 52.9,
-      "score": 82
     }
   ],
   "categories": [
+    {
+      "nome": "Vestuário Adult",
+      "vendas": 7,
+      "faturamento": 441.04,
+      "custo": 250.88,
+      "taxa_ml": 40.74,
+      "pct": 53.4,
+      "margem_pct": 43.1
+    },
+    {
+      "nome": "Vestuário Infantil",
+      "vendas": 4,
+      "faturamento": 239.6,
+      "custo": 107.64,
+      "taxa_ml": 33.56,
+      "pct": 29.0,
+      "margem_pct": 55.1
+    },
+    {
+      "nome": "Acessórios",
+      "vendas": 2,
+      "faturamento": 77.58,
+      "custo": 36.52,
+      "taxa_ml": 6.62,
+      "pct": 9.4,
+      "margem_pct": 52.9
+    },
     {
       "nome": "Outros",
       "vendas": 1,
       "faturamento": 67.86,
       "custo": 25.0,
       "taxa_ml": 11.54,
-      "pct": 29.1,
+      "pct": 8.2,
       "margem_pct": 63.2
-    },
-    {
-      "nome": "Vestuário Adult",
-      "vendas": 1,
-      "faturamento": 66.93,
-      "custo": 35.84,
-      "taxa_ml": 4.02,
-      "pct": 28.7,
-      "margem_pct": 46.5
-    },
-    {
-      "nome": "Vestuário Infantil",
-      "vendas": 1,
-      "faturamento": 59.9,
-      "custo": 26.91,
-      "taxa_ml": 8.39,
-      "pct": 25.7,
-      "margem_pct": 55.1
-    },
-    {
-      "nome": "Acessórios",
-      "vendas": 1,
-      "faturamento": 38.79,
-      "custo": 18.26,
-      "taxa_ml": 3.31,
-      "pct": 16.6,
-      "margem_pct": 52.9
     }
   ],
   "chart": {
@@ -122,7 +133,7 @@
       41,
       64,
       70,
-      2
+      12
     ],
     "faturamento": [
       3196.85,
@@ -131,51 +142,51 @@
       2577.15,
       3907.82,
       5008.67,
-      126.83
+      719.43
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 4,
+    "total_orders_fetched": 14,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 321,
-    "faturamento": 20702.01,
-    "taxa_ml": 1707.86,
-    "faturamento_menos_taxa": 18994.15,
-    "ticket_medio": 64.49,
+    "vendas": 331,
+    "faturamento": 21294.61,
+    "taxa_ml": 1773.06,
+    "faturamento_menos_taxa": 19521.55,
+    "ticket_medio": 64.33,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 20702.01,
+    "organic_revenue": 21294.61,
     "acos": 0,
-    "tacos": 1.8
+    "tacos": 1.7
   },
   "mes": {
-    "vendas": 4,
-    "faturamento": 233.48,
-    "taxa_ml": 27.26,
-    "faturamento_menos_taxa": 206.22,
-    "ticket_medio": 58.37,
+    "vendas": 14,
+    "faturamento": 826.08,
+    "taxa_ml": 92.46,
+    "faturamento_menos_taxa": 733.62,
+    "ticket_medio": 59.01,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 233.48,
+    "organic_revenue": 826.08,
     "acos": 0,
-    "tacos": 158.5,
+    "tacos": 44.8,
     "chart": {
       "labels": [
         "Ter (01)"
       ],
       "vendas": [
-        2
+        12
       ],
       "faturamento": [
-        126.83
+        719.43
       ]
     }
   }
