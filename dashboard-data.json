@@ -1,28 +1,110 @@
 {
-  "updated_at": "2026-09-01T01:55:12.497780",
+  "updated_at": "2026-09-01T06:59:56.233195",
   "kpis": {
-    "faturamento_hoje": 0,
-    "vendas_hoje": 0,
-    "ticket_medio": 0,
-    "cmv_total": 0,
-    "lucro_bruto": 0,
-    "margem_pct_real": 0,
-    "lucro_por_pedido": 0,
-    "taxa_ml_total": 0,
-    "shipping_total": 0,
-    "faturamento_liquido": 0,
-    "margem_liquida_pct": 0,
-    "lucro_liquido": 0,
-    "vendas_semana": 313,
-    "faturamento_semana": 20285.23,
+    "faturamento_hoje": 233.48,
+    "vendas_hoje": 4,
+    "ticket_medio": 58.37,
+    "cmv_total": 106.01,
+    "lucro_bruto": 127.47,
+    "margem_pct_real": 54.6,
+    "lucro_por_pedido": 31.87,
+    "taxa_ml_total": 27.26,
+    "shipping_total": 36.39,
+    "faturamento_liquido": 169.83,
+    "margem_liquida_pct": 27.3,
+    "lucro_liquido": 63.82,
+    "vendas_semana": 321,
+    "faturamento_semana": 20702.01,
     "ad_spend": 370.0,
     "ad_revenue": 0,
-    "organic_revenue": 0.0,
+    "organic_revenue": 233.48,
     "acos": 0,
-    "tacos": 0
+    "tacos": 158.5
   },
-  "top5": [],
-  "categories": [],
+  "top5": [
+    {
+      "vendas": 1,
+      "faturamento": 67.86,
+      "custo": 25.0,
+      "title": "Body Splash Afrodite Garden Aura Beauty Jade Picon",
+      "taxa_ml": 11.54,
+      "full_unit_price": 67.86,
+      "lucro": 42.86,
+      "margem_pct": 63.2,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 66.93,
+      "custo": 35.84,
+      "title": "Moletom Aberto Feminino Fechamento Zíper Casual In",
+      "taxa_ml": 4.02,
+      "full_unit_price": 66.93,
+      "lucro": 31.09,
+      "margem_pct": 46.5,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 59.9,
+      "custo": 26.91,
+      "title": "Conjunto Moletom Infantil Hugo Jobs Calca Jogger F",
+      "taxa_ml": 8.39,
+      "full_unit_price": 59.9,
+      "lucro": 32.99,
+      "margem_pct": 55.1,
+      "score": 82
+    },
+    {
+      "vendas": 1,
+      "faturamento": 38.79,
+      "custo": 18.26,
+      "title": "Carteira Couro Legítimo Slim 8 Porta Cartões E Cnh",
+      "taxa_ml": 3.31,
+      "full_unit_price": 38.79,
+      "lucro": 20.53,
+      "margem_pct": 52.9,
+      "score": 82
+    }
+  ],
+  "categories": [
+    {
+      "nome": "Outros",
+      "vendas": 1,
+      "faturamento": 67.86,
+      "custo": 25.0,
+      "taxa_ml": 11.54,
+      "pct": 29.1,
+      "margem_pct": 63.2
+    },
+    {
+      "nome": "Vestuário Adult",
+      "vendas": 1,
+      "faturamento": 66.93,
+      "custo": 35.84,
+      "taxa_ml": 4.02,
+      "pct": 28.7,
+      "margem_pct": 46.5
+    },
+    {
+      "nome": "Vestuário Infantil",
+      "vendas": 1,
+      "faturamento": 59.9,
+      "custo": 26.91,
+      "taxa_ml": 8.39,
+      "pct": 25.7,
+      "margem_pct": 55.1
+    },
+    {
+      "nome": "Acessórios",
+      "vendas": 1,
+      "faturamento": 38.79,
+      "custo": 18.26,
+      "taxa_ml": 3.31,
+      "pct": 16.6,
+      "margem_pct": 52.9
+    }
+  ],
   "chart": {
     "labels": [
       "Qua (26)",
@@ -39,8 +121,8 @@
       51,
       41,
       64,
-      64,
-      0
+      70,
+      2
     ],
     "faturamento": [
       3196.85,
@@ -48,52 +130,52 @@
       3147.89,
       2577.15,
       3907.82,
-      4718.72,
-      0
+      5008.67,
+      126.83
     ]
   },
   "meta": {
     "seller_id": "694166791",
     "source": "MercadoLivre API v1 — LIVE",
-    "total_orders_fetched": 0,
+    "total_orders_fetched": 4,
     "pads_campaigns_found": true
   },
   "semana": {
-    "vendas": 313,
-    "faturamento": 20285.23,
-    "taxa_ml": 1666.93,
-    "faturamento_menos_taxa": 18618.3,
-    "ticket_medio": 64.81,
+    "vendas": 321,
+    "faturamento": 20702.01,
+    "taxa_ml": 1707.86,
+    "faturamento_menos_taxa": 18994.15,
+    "ticket_medio": 64.49,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 20285.23,
+    "organic_revenue": 20702.01,
     "acos": 0,
     "tacos": 1.8
   },
   "mes": {
-    "vendas": 0,
-    "faturamento": 0,
-    "taxa_ml": 0,
-    "faturamento_menos_taxa": 0,
-    "ticket_medio": 0,
+    "vendas": 4,
+    "faturamento": 233.48,
+    "taxa_ml": 27.26,
+    "faturamento_menos_taxa": 206.22,
+    "ticket_medio": 58.37,
     "ad_spend": 370.0,
     "ad_revenue": 0,
     "ad_impressions": 0,
     "ad_clicks": 0,
-    "organic_revenue": 0.0,
+    "organic_revenue": 233.48,
     "acos": 0,
-    "tacos": 0,
+    "tacos": 158.5,
     "chart": {
       "labels": [
         "Ter (01)"
       ],
       "vendas": [
-        0
+        2
       ],
       "faturamento": [
-        0
+        126.83
       ]
     }
   }
